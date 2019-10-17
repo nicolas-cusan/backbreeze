@@ -1,0 +1,177 @@
+// ============================================
+// Utility Class
+// ============================================
+
+// Create utility classes from a Sass map.
+
+@mixin utility-class($config) {
+  $no-mq: (
+    '': false
+  );
+
+  $name: map-get($config, 'name');
+  $prop: map-get($config, 'prop');
+  $values: map-get($config, 'values');
+  $pseudo: map-get($config, 'pseudo');
+
+  $mqs: map-get($config, 'mqs');
+  $mqs: if($mqs, map-merge($no-mq, $mqs), $no-mq);
+
+  $negative: if(index($bb-negative-properties, $prop), true, false);
+  $directional: if(index($bb-directional-properties, $prop), true, false);
+
+  @each $mq-name, $mq in $mqs {
+    @include mq($mq) {
+      @include utility-class-helper(
+        $name,
+        $prop,
+        $values,
+        $negative,
+        $mq-name,
+        $directional
+      );
+
+      @if $pseudo {
+        @each $pseudo-class in $pseudo {
+          @include utility-class-helper(
+            $name,
+            $prop,
+            $values,
+            $negative,
+            $mq-name,
+            $directional,
+            $pseudo-class
+          );
+        }
+      }
+    }
+  }
+}
+
+// Render helper mixin
+@mixin utility-class-helper(
+  $name,
+  $prop,
+  $values,
+  $negative,
+  $mq-name,
+  $directional,
+  $pseudo: false
+) {
+  $mq-name: if(str-length($mq-name) > 0, '#{\@}#{$mq-name}', '');
+  $name-negative: if($bb-prefix, '-#{$bb-prefix}#{$name}', '-#{$name}');
+  $pseudo: if($pseudo, ':#{$pseudo}', '');
+  $pseudo-name: if($pseudo, '#{\:}#{$pseudo}', '');
+
+  // Group
+  $parent: if($pseudo == ':group-hover', '.group:hover', '');
+  $pseudo-name: if($pseudo == ':group-hover', '#{\:}group-hover', $pseudo);
+  $pseudo: if($pseudo == ':group-hover', '', '');
+
+  @each $key, $val in $values {
+    $key: if(str-length($key) > 0, '-#{$key}', '');
+
+    #{$parent}
+      .#{$bb-prefix}#{$name}#{$key}#{$pseudo-name}#{$mq-name}#{$pseudo} {
+      #{$prop}: #{$val};
+    }
+
+    @if $directional {
+      #{$parent}
+        .#{$bb-prefix}#{$name}t#{$key}#{$pseudo-name}#{$mq-name}#{$pseudo} {
+        #{$prop}-top: #{$val};
+      }
+      #{$parent}
+        .#{$bb-prefix}#{$name}l#{$key}#{$pseudo-name}#{$mq-name}#{$pseudo} {
+        #{$prop}-left: #{$val};
+      }
+      #{$parent}
+        .#{$bb-prefix}#{$name}b#{$key}#{$pseudo-name}#{$mq-name}#{$pseudo} {
+        #{$prop}-bottom: #{$val};
+      }
+      #{$parent}
+        .#{$bb-prefix}#{$name}r#{$key}#{$pseudo-name}#{$mq-name}#{$pseudo} {
+        #{$prop}-right: #{$val};
+      }
+      #{$parent}
+        .#{$bb-prefix}#{$name}x#{$key}#{$pseudo-name}#{$mq-name}#{$pseudo} {
+        #{$prop}-left: #{$val};
+        #{$prop}-right: #{$val};
+      }
+      #{$parent}
+        .#{$bb-prefix}#{$name}y#{$key}#{$pseudo-name}#{$mq-name}#{$pseudo} {
+        #{$prop}-top: #{$val};
+        #{$prop}-bottom: #{$val};
+      }
+    }
+
+    @if $negative {
+      #{$parent}
+        .#{$bb-prefix}#{$name-negative}#{$key}#{$pseudo-name}#{$mq-name}#{$pseudo} {
+        #{$prop}: -#{$val};
+      }
+    }
+
+    @if $negative and $directional {
+      #{$parent}
+        .#{$bb-prefix}#{$name-negative}t#{$key}#{$pseudo-name}#{$mq-name}#{$pseudo} {
+        #{$prop}-top: #{$val};
+      }
+      #{$parent}
+        .#{$bb-prefix}#{$name-negative}l#{$key}#{$pseudo-name}#{$mq-name}#{$pseudo} {
+        #{$prop}-left: #{$val};
+      }
+      #{$parent}
+        .#{$bb-prefix}#{$name-negative}b#{$key}#{$pseudo-name}#{$mq-name}#{$pseudo} {
+        #{$prop}-bottom: #{$val};
+      }
+      #{$parent}
+        .#{$bb-prefix}#{$name-negative}r#{$key}#{$pseudo-name}#{$mq-name}#{$pseudo} {
+        #{$prop}-right: #{$val};
+      }
+      #{$parent}
+        .#{$bb-prefix}#{$name-negative}x#{$key}#{$pseudo-name}#{$mq-name}#{$pseudo} {
+        #{$prop}-left: #{$val};
+        #{$prop}-right: #{$val};
+      }
+      #{$parent}
+        .#{$bb-prefix}#{$name-negative}y#{$key}#{$pseudo-name}#{$mq-name}#{$pseudo} {
+        #{$prop}-top: #{$val};
+        #{$prop}-bottom: #{$val};
+      }
+    }
+  }
+}
+
+@mixin mq($mq: false, $media: all) {
+  @if $mq == 'print' {
+    @media print {
+      @content;
+    }
+  } @else if $mq {
+    @media #{$media} and #{$mq} {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}
+
+// @if $hover {
+//   $mq-name: if($hover, '#{\:hover}#{$mq-name}', '');
+
+//   @each $key, $val in $values {
+//     $key: if(str-length($key) > 0, '-#{$key}', '');
+
+//     .u-#{$name}#{$key}#{$mq-name} {
+//       &.u-hover:active,
+//       &.u-hover:focus,
+//       &.u-hover:hover,
+//       .u-hover:active &,
+//       .u-hover:focus &,
+//       .u-hover:hover & {
+//         #{$prop}: #{$val};
+//       }
+//     }
+//   }
+// } @else {

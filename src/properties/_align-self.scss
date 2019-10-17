@@ -1,6 +1,5 @@
 // ============================================
-// Back Breeze
+// Align Self
 // ============================================
 
-@import 'config';
-@import 'mixins';
+@include utility-class($bb-align-self-config);

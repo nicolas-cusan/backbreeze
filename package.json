@@ -1,0 +1,26 @@
+{
+  "name": "backbreeze",
+  "version": "1.0.0",
+  "description": "A utility class CSS framework written in Sass.",
+  "main": "bb.scss",
+  "scripts": {
+    "watch": "node-sass src/bb.scss -o dist --output-style expanded --source-map true && node-sass -rw src -o dist --output-style expanded --source-map true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolas-cusan/backbreeze.git"
+  },
+  "keywords": [
+    "CSS",
+    "Sass",
+    "SCSS",
+    "utility-classes",
+    "backbreeze"
+  ],
+  "author": "Nicolas Cusan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicolas-cusan/backbreeze/issues"
+  },
+  "homepage": "https://github.com/nicolas-cusan/backbreeze#readme"
+}
