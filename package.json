@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/nicolas-cusan/backbreeze/issues"
   },
-  "homepage": "https://github.com/nicolas-cusan/backbreeze#readme"
+  "homepage": "https://github.com/nicolas-cusan/backbreeze#readme",
+  "devDependencies": {
+    "scss-comment-parser": "^0.8.4"
+  }
 }
