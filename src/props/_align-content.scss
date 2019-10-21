@@ -1,6 +1,12 @@
-/// Values
-/// @example Some Example
-/// _
+////
+/// #align-content
+///
+/// Some description
+///
+/// @group flex
+////
+
+///
 
 $bb-align-content-values: (
   'start': flex-start,
@@ -13,7 +19,7 @@ $bb-align-content-values: (
   'baseline ': baseline
 ) !default;
 
-/// Config
+///
 
 $bb-align-content-config: (
   'name': 'ac',

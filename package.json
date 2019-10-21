@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/nicolas-cusan/backbreeze#readme",
   "devDependencies": {
+    "sassdoc": "^2.7.1",
     "scss-comment-parser": "^0.8.4"
   }
 }

@@ -1,0 +1,102 @@
+[
+  {
+    "description": "\n",
+    "commentRange": {
+      "start": 9,
+      "end": 9
+    },
+    "context": {
+      "type": "variable",
+      "name": "bb-align-content-values",
+      "value": "(\n  'start': flex-start,\n  'end': flex-end,\n  'center': center,\n  'between': space-between,\n  'around': space-around,\n  'evenly': space-evenly,\n  'stretch ': stretch,\n  'baseline ': baseline\n)",
+      "scope": "default",
+      "line": {
+        "start": 11,
+        "end": 20
+      }
+    },
+    "group": [
+      "flex"
+    ],
+    "access": "public",
+    "file": {
+      "path": "props/_align-content.scss",
+      "name": "_align-content.scss"
+    }
+  },
+  {
+    "description": "\n",
+    "commentRange": {
+      "start": 22,
+      "end": 22
+    },
+    "context": {
+      "type": "variable",
+      "name": "bb-align-content-config",
+      "value": "(\n  'name': 'ac',\n  'prop': 'align-content',\n  'bps': $bb-bps,\n  'values': $bb-align-content-values\n)",
+      "scope": "default",
+      "line": {
+        "start": 24,
+        "end": 29
+      }
+    },
+    "group": [
+      "flex"
+    ],
+    "access": "public",
+    "file": {
+      "path": "props/_align-content.scss",
+      "name": "_align-content.scss"
+    }
+  },
+  {
+    "description": "#align-items\n\nSome description\n\n",
+    "commentRange": {
+      "start": 1,
+      "end": 5
+    },
+    "context": {
+      "type": "variable",
+      "name": "bb-align-items-values",
+      "value": "(\n  'start': flex-start,\n  'end': flex-end,\n  'center': center,\n  'between': space-between,\n  'around': space-around,\n  'evenly': space-evenly,\n  'stretch ': stretch,\n  'baseline ': baseline\n)",
+      "scope": "default",
+      "line": {
+        "start": 7,
+        "end": 16
+      }
+    },
+    "group": [
+      "flex"
+    ],
+    "access": "public",
+    "file": {
+      "path": "props/_align-items.scss",
+      "name": "_align-items.scss"
+    }
+  },
+  {
+    "description": "\n",
+    "commentRange": {
+      "start": 18,
+      "end": 18
+    },
+    "context": {
+      "type": "variable",
+      "name": "bb-align-items-config",
+      "value": "(\n  'name': 'ai',\n  'prop': 'align-items',\n  'bps': $bb-bps,\n  'values': $bb-align-items-values\n)",
+      "scope": "default",
+      "line": {
+        "start": 20,
+        "end": 25
+      }
+    },
+    "access": "public",
+    "group": [
+      "undefined"
+    ],
+    "file": {
+      "path": "props/_align-items.scss",
+      "name": "_align-items.scss"
+    }
+  }
+]

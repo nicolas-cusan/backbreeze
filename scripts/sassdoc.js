@@ -1,23 +1,6 @@
-var ScssCommentParser = require('scss-comment-parser');
+const sassdoc = require('sassdoc');
 const fs = require('fs');
 
-var annotations = {
-  _: {
-    alias: {
-      aliasTest: 'annotationTest'
-    }
-  },
-  annotationTest: function(commentLine) {
-    return 'Working';
-  }
-};
-
-var parser = new ScssCommentParser(annotations);
-
-var scss = fs.readFileSync('./src/props/_align-content.scss', {
-  encoding: 'utf8'
+sassdoc.parse('./src', { verbose: true }).then(data => {
+  fs.writeFileSync('./dist/parsed-data.json', JSON.stringify(data, null, 2));
 });
-
-var comments = parser.parse(scss);
-
-console.log(comments);
