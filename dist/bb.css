@@ -1,4 +1,434 @@
 
+.ac-start {
+  align-content: flex-start;
+}
+
+
+.ac-end {
+  align-content: flex-end;
+}
+
+
+.ac-center {
+  align-content: center;
+}
+
+
+.ac-between {
+  align-content: space-between;
+}
+
+
+.ac-around {
+  align-content: space-around;
+}
+
+
+.ac-evenly {
+  align-content: space-evenly;
+}
+
+
+.ac-stretch {
+  align-content: stretch;
+}
+
+
+.ac-baseline {
+  align-content: baseline;
+}
+
+@media all and (min-width: 416px) {
+  
+  .ac-start\@xs {
+    align-content: flex-start;
+  }
+  
+  .ac-end\@xs {
+    align-content: flex-end;
+  }
+  
+  .ac-center\@xs {
+    align-content: center;
+  }
+  
+  .ac-between\@xs {
+    align-content: space-between;
+  }
+  
+  .ac-around\@xs {
+    align-content: space-around;
+  }
+  
+  .ac-evenly\@xs {
+    align-content: space-evenly;
+  }
+  
+  .ac-stretch \@xs {
+    align-content: stretch;
+  }
+  
+  .ac-baseline \@xs {
+    align-content: baseline;
+  }
+}
+
+@media all and (min-width: 756px) {
+  
+  .ac-start\@sm {
+    align-content: flex-start;
+  }
+  
+  .ac-end\@sm {
+    align-content: flex-end;
+  }
+  
+  .ac-center\@sm {
+    align-content: center;
+  }
+  
+  .ac-between\@sm {
+    align-content: space-between;
+  }
+  
+  .ac-around\@sm {
+    align-content: space-around;
+  }
+  
+  .ac-evenly\@sm {
+    align-content: space-evenly;
+  }
+  
+  .ac-stretch \@sm {
+    align-content: stretch;
+  }
+  
+  .ac-baseline \@sm {
+    align-content: baseline;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  
+  .ac-start\@md {
+    align-content: flex-start;
+  }
+  
+  .ac-end\@md {
+    align-content: flex-end;
+  }
+  
+  .ac-center\@md {
+    align-content: center;
+  }
+  
+  .ac-between\@md {
+    align-content: space-between;
+  }
+  
+  .ac-around\@md {
+    align-content: space-around;
+  }
+  
+  .ac-evenly\@md {
+    align-content: space-evenly;
+  }
+  
+  .ac-stretch \@md {
+    align-content: stretch;
+  }
+  
+  .ac-baseline \@md {
+    align-content: baseline;
+  }
+}
+
+@media all and (min-width: 1220px) {
+  
+  .ac-start\@lg {
+    align-content: flex-start;
+  }
+  
+  .ac-end\@lg {
+    align-content: flex-end;
+  }
+  
+  .ac-center\@lg {
+    align-content: center;
+  }
+  
+  .ac-between\@lg {
+    align-content: space-between;
+  }
+  
+  .ac-around\@lg {
+    align-content: space-around;
+  }
+  
+  .ac-evenly\@lg {
+    align-content: space-evenly;
+  }
+  
+  .ac-stretch \@lg {
+    align-content: stretch;
+  }
+  
+  .ac-baseline \@lg {
+    align-content: baseline;
+  }
+}
+
+@media all and (min-width: 1460px) {
+  
+  .ac-start\@xl {
+    align-content: flex-start;
+  }
+  
+  .ac-end\@xl {
+    align-content: flex-end;
+  }
+  
+  .ac-center\@xl {
+    align-content: center;
+  }
+  
+  .ac-between\@xl {
+    align-content: space-between;
+  }
+  
+  .ac-around\@xl {
+    align-content: space-around;
+  }
+  
+  .ac-evenly\@xl {
+    align-content: space-evenly;
+  }
+  
+  .ac-stretch \@xl {
+    align-content: stretch;
+  }
+  
+  .ac-baseline \@xl {
+    align-content: baseline;
+  }
+}
+
+
+.ai-start {
+  align-items: flex-start;
+}
+
+
+.ai-end {
+  align-items: flex-end;
+}
+
+
+.ai-center {
+  align-items: center;
+}
+
+
+.ai-between {
+  align-items: space-between;
+}
+
+
+.ai-around {
+  align-items: space-around;
+}
+
+
+.ai-evenly {
+  align-items: space-evenly;
+}
+
+
+.ai-stretch {
+  align-items: stretch;
+}
+
+
+.ai-baseline {
+  align-items: baseline;
+}
+
+@media all and (min-width: 416px) {
+  
+  .ai-start\@xs {
+    align-items: flex-start;
+  }
+  
+  .ai-end\@xs {
+    align-items: flex-end;
+  }
+  
+  .ai-center\@xs {
+    align-items: center;
+  }
+  
+  .ai-between\@xs {
+    align-items: space-between;
+  }
+  
+  .ai-around\@xs {
+    align-items: space-around;
+  }
+  
+  .ai-evenly\@xs {
+    align-items: space-evenly;
+  }
+  
+  .ai-stretch \@xs {
+    align-items: stretch;
+  }
+  
+  .ai-baseline \@xs {
+    align-items: baseline;
+  }
+}
+
+@media all and (min-width: 756px) {
+  
+  .ai-start\@sm {
+    align-items: flex-start;
+  }
+  
+  .ai-end\@sm {
+    align-items: flex-end;
+  }
+  
+  .ai-center\@sm {
+    align-items: center;
+  }
+  
+  .ai-between\@sm {
+    align-items: space-between;
+  }
+  
+  .ai-around\@sm {
+    align-items: space-around;
+  }
+  
+  .ai-evenly\@sm {
+    align-items: space-evenly;
+  }
+  
+  .ai-stretch \@sm {
+    align-items: stretch;
+  }
+  
+  .ai-baseline \@sm {
+    align-items: baseline;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  
+  .ai-start\@md {
+    align-items: flex-start;
+  }
+  
+  .ai-end\@md {
+    align-items: flex-end;
+  }
+  
+  .ai-center\@md {
+    align-items: center;
+  }
+  
+  .ai-between\@md {
+    align-items: space-between;
+  }
+  
+  .ai-around\@md {
+    align-items: space-around;
+  }
+  
+  .ai-evenly\@md {
+    align-items: space-evenly;
+  }
+  
+  .ai-stretch \@md {
+    align-items: stretch;
+  }
+  
+  .ai-baseline \@md {
+    align-items: baseline;
+  }
+}
+
+@media all and (min-width: 1220px) {
+  
+  .ai-start\@lg {
+    align-items: flex-start;
+  }
+  
+  .ai-end\@lg {
+    align-items: flex-end;
+  }
+  
+  .ai-center\@lg {
+    align-items: center;
+  }
+  
+  .ai-between\@lg {
+    align-items: space-between;
+  }
+  
+  .ai-around\@lg {
+    align-items: space-around;
+  }
+  
+  .ai-evenly\@lg {
+    align-items: space-evenly;
+  }
+  
+  .ai-stretch \@lg {
+    align-items: stretch;
+  }
+  
+  .ai-baseline \@lg {
+    align-items: baseline;
+  }
+}
+
+@media all and (min-width: 1460px) {
+  
+  .ai-start\@xl {
+    align-items: flex-start;
+  }
+  
+  .ai-end\@xl {
+    align-items: flex-end;
+  }
+  
+  .ai-center\@xl {
+    align-items: center;
+  }
+  
+  .ai-between\@xl {
+    align-items: space-between;
+  }
+  
+  .ai-around\@xl {
+    align-items: space-around;
+  }
+  
+  .ai-evenly\@xl {
+    align-items: space-evenly;
+  }
+  
+  .ai-stretch \@xl {
+    align-items: stretch;
+  }
+  
+  .ai-baseline \@xl {
+    align-items: baseline;
+  }
+}
+
+
 .as-auto {
   align-self: auto;
 }
@@ -19,13 +449,13 @@
 }
 
 
-.as-base {
-  align-self: baseline;
+.as-stretch {
+  align-self: stretch;
 }
 
 
-.as-stretch {
-  align-self: stretch;
+.as-baseline {
+  align-self: baseline;
 }
 
 @media all and (min-width: 416px) {
@@ -46,12 +476,12 @@
     align-self: center;
   }
   
-  .as-base\@xs {
-    align-self: baseline;
+  .as-stretch \@xs {
+    align-self: stretch;
   }
   
-  .as-stretch\@xs {
-    align-self: stretch;
+  .as-baseline \@xs {
+    align-self: baseline;
   }
 }
 
@@ -73,12 +503,12 @@
     align-self: center;
   }
   
-  .as-base\@sm {
-    align-self: baseline;
+  .as-stretch \@sm {
+    align-self: stretch;
   }
   
-  .as-stretch\@sm {
-    align-self: stretch;
+  .as-baseline \@sm {
+    align-self: baseline;
   }
 }
 
@@ -100,12 +530,12 @@
     align-self: center;
   }
   
-  .as-base\@md {
-    align-self: baseline;
+  .as-stretch \@md {
+    align-self: stretch;
   }
   
-  .as-stretch\@md {
-    align-self: stretch;
+  .as-baseline \@md {
+    align-self: baseline;
   }
 }
 
@@ -127,12 +557,12 @@
     align-self: center;
   }
   
-  .as-base\@lg {
-    align-self: baseline;
+  .as-stretch \@lg {
+    align-self: stretch;
   }
   
-  .as-stretch\@lg {
-    align-self: stretch;
+  .as-baseline \@lg {
+    align-self: baseline;
   }
 }
 
@@ -154,2127 +584,112 @@
     align-self: center;
   }
   
-  .as-base\@xl {
-    align-self: baseline;
-  }
-  
-  .as-stretch\@xl {
+  .as-stretch \@xl {
     align-self: stretch;
   }
+  
+  .as-baseline \@xl {
+    align-self: baseline;
+  }
 }
 
 
-.o-1 {
-  opacity: 1;
+.bkfv-visible {
+  backface-visibility: visible;
 }
 
 
-.o-1:hover {
-  opacity: 1;
+.bkfv-hidden {
+  backface-visibility: hidden;
 }
 
 
-.o-1:focus {
-  opacity: 1;
+.bga-scroll {
+  background-attachment: scroll;
 }
 
 
-.o-1:active {
-  opacity: 1;
+.bga-fixed {
+  background-attachment: fixed;
 }
 
-.group:hover
-.o-1\:group-hover {
-  opacity: 1;
+
+.bga-local {
+  background-attachment: local;
 }
 
 @media all and (min-width: 416px) {
   
-  .o-1\@xs {
-    opacity: 1;
+  .bga-scroll\@xs {
+    background-attachment: scroll;
   }
   
-  .o-1:hover\@xs {
-    opacity: 1;
+  .bga-fixed\@xs {
+    background-attachment: fixed;
   }
   
-  .o-1:focus\@xs {
-    opacity: 1;
-  }
-  
-  .o-1:active\@xs {
-    opacity: 1;
-  }
-  .group:hover
-.o-1\:group-hover\@xs {
-    opacity: 1;
+  .bga-local\@xs {
+    background-attachment: local;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .o-1\@sm {
-    opacity: 1;
+  .bga-scroll\@sm {
+    background-attachment: scroll;
   }
   
-  .o-1:hover\@sm {
-    opacity: 1;
+  .bga-fixed\@sm {
+    background-attachment: fixed;
   }
   
-  .o-1:focus\@sm {
-    opacity: 1;
-  }
-  
-  .o-1:active\@sm {
-    opacity: 1;
-  }
-  .group:hover
-.o-1\:group-hover\@sm {
-    opacity: 1;
+  .bga-local\@sm {
+    background-attachment: local;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .o-1\@md {
-    opacity: 1;
+  .bga-scroll\@md {
+    background-attachment: scroll;
   }
   
-  .o-1:hover\@md {
-    opacity: 1;
+  .bga-fixed\@md {
+    background-attachment: fixed;
   }
   
-  .o-1:focus\@md {
-    opacity: 1;
-  }
-  
-  .o-1:active\@md {
-    opacity: 1;
-  }
-  .group:hover
-.o-1\:group-hover\@md {
-    opacity: 1;
+  .bga-local\@md {
+    background-attachment: local;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .o-1\@lg {
-    opacity: 1;
+  .bga-scroll\@lg {
+    background-attachment: scroll;
   }
   
-  .o-1:hover\@lg {
-    opacity: 1;
+  .bga-fixed\@lg {
+    background-attachment: fixed;
   }
   
-  .o-1:focus\@lg {
-    opacity: 1;
-  }
-  
-  .o-1:active\@lg {
-    opacity: 1;
-  }
-  .group:hover
-.o-1\:group-hover\@lg {
-    opacity: 1;
+  .bga-local\@lg {
+    background-attachment: local;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .o-1\@xl {
-    opacity: 1;
+  .bga-scroll\@xl {
+    background-attachment: scroll;
   }
   
-  .o-1:hover\@xl {
-    opacity: 1;
+  .bga-fixed\@xl {
+    background-attachment: fixed;
   }
   
-  .o-1:focus\@xl {
-    opacity: 1;
-  }
-  
-  .o-1:active\@xl {
-    opacity: 1;
-  }
-  .group:hover
-.o-1\:group-hover\@xl {
-    opacity: 1;
-  }
-}
-
-
-.m-1 {
-  margin: 1px;
-}
-
-
-.mt-1 {
-  margin-top: 1px;
-}
-
-
-.ml-1 {
-  margin-left: 1px;
-}
-
-
-.mb-1 {
-  margin-bottom: 1px;
-}
-
-
-.mr-1 {
-  margin-right: 1px;
-}
-
-
-.mx-1 {
-  margin-left: 1px;
-  margin-right: 1px;
-}
-
-
-.my-1 {
-  margin-top: 1px;
-  margin-bottom: 1px;
-}
-
-
-.-m-1 {
-  margin: -1px;
-}
-
-
-.-mt-1 {
-  margin-top: 1px;
-}
-
-
-.-ml-1 {
-  margin-left: 1px;
-}
-
-
-.-mb-1 {
-  margin-bottom: 1px;
-}
-
-
-.-mr-1 {
-  margin-right: 1px;
-}
-
-
-.-mx-1 {
-  margin-left: 1px;
-  margin-right: 1px;
-}
-
-
-.-my-1 {
-  margin-top: 1px;
-  margin-bottom: 1px;
-}
-
-
-.m-2 {
-  margin: 2px;
-}
-
-
-.mt-2 {
-  margin-top: 2px;
-}
-
-
-.ml-2 {
-  margin-left: 2px;
-}
-
-
-.mb-2 {
-  margin-bottom: 2px;
-}
-
-
-.mr-2 {
-  margin-right: 2px;
-}
-
-
-.mx-2 {
-  margin-left: 2px;
-  margin-right: 2px;
-}
-
-
-.my-2 {
-  margin-top: 2px;
-  margin-bottom: 2px;
-}
-
-
-.-m-2 {
-  margin: -2px;
-}
-
-
-.-mt-2 {
-  margin-top: 2px;
-}
-
-
-.-ml-2 {
-  margin-left: 2px;
-}
-
-
-.-mb-2 {
-  margin-bottom: 2px;
-}
-
-
-.-mr-2 {
-  margin-right: 2px;
-}
-
-
-.-mx-2 {
-  margin-left: 2px;
-  margin-right: 2px;
-}
-
-
-.-my-2 {
-  margin-top: 2px;
-  margin-bottom: 2px;
-}
-
-
-.m-3 {
-  margin: 3px;
-}
-
-
-.mt-3 {
-  margin-top: 3px;
-}
-
-
-.ml-3 {
-  margin-left: 3px;
-}
-
-
-.mb-3 {
-  margin-bottom: 3px;
-}
-
-
-.mr-3 {
-  margin-right: 3px;
-}
-
-
-.mx-3 {
-  margin-left: 3px;
-  margin-right: 3px;
-}
-
-
-.my-3 {
-  margin-top: 3px;
-  margin-bottom: 3px;
-}
-
-
-.-m-3 {
-  margin: -3px;
-}
-
-
-.-mt-3 {
-  margin-top: 3px;
-}
-
-
-.-ml-3 {
-  margin-left: 3px;
-}
-
-
-.-mb-3 {
-  margin-bottom: 3px;
-}
-
-
-.-mr-3 {
-  margin-right: 3px;
-}
-
-
-.-mx-3 {
-  margin-left: 3px;
-  margin-right: 3px;
-}
-
-
-.-my-3 {
-  margin-top: 3px;
-  margin-bottom: 3px;
-}
-
-
-.m-4 {
-  margin: 4px;
-}
-
-
-.mt-4 {
-  margin-top: 4px;
-}
-
-
-.ml-4 {
-  margin-left: 4px;
-}
-
-
-.mb-4 {
-  margin-bottom: 4px;
-}
-
-
-.mr-4 {
-  margin-right: 4px;
-}
-
-
-.mx-4 {
-  margin-left: 4px;
-  margin-right: 4px;
-}
-
-
-.my-4 {
-  margin-top: 4px;
-  margin-bottom: 4px;
-}
-
-
-.-m-4 {
-  margin: -4px;
-}
-
-
-.-mt-4 {
-  margin-top: 4px;
-}
-
-
-.-ml-4 {
-  margin-left: 4px;
-}
-
-
-.-mb-4 {
-  margin-bottom: 4px;
-}
-
-
-.-mr-4 {
-  margin-right: 4px;
-}
-
-
-.-mx-4 {
-  margin-left: 4px;
-  margin-right: 4px;
-}
-
-
-.-my-4 {
-  margin-top: 4px;
-  margin-bottom: 4px;
-}
-
-
-.m {
-  margin: 26px;
-}
-
-
-.mt {
-  margin-top: 26px;
-}
-
-
-.ml {
-  margin-left: 26px;
-}
-
-
-.mb {
-  margin-bottom: 26px;
-}
-
-
-.mr {
-  margin-right: 26px;
-}
-
-
-.mx {
-  margin-left: 26px;
-  margin-right: 26px;
-}
-
-
-.my {
-  margin-top: 26px;
-  margin-bottom: 26px;
-}
-
-
-.-m {
-  margin: -26px;
-}
-
-
-.-mt {
-  margin-top: 26px;
-}
-
-
-.-ml {
-  margin-left: 26px;
-}
-
-
-.-mb {
-  margin-bottom: 26px;
-}
-
-
-.-mr {
-  margin-right: 26px;
-}
-
-
-.-mx {
-  margin-left: 26px;
-  margin-right: 26px;
-}
-
-
-.-my {
-  margin-top: 26px;
-  margin-bottom: 26px;
-}
-
-@media all and (min-width: 416px) {
-  
-  .m-1\@xs {
-    margin: 1px;
-  }
-  
-  .mt-1\@xs {
-    margin-top: 1px;
-  }
-  
-  .ml-1\@xs {
-    margin-left: 1px;
-  }
-  
-  .mb-1\@xs {
-    margin-bottom: 1px;
-  }
-  
-  .mr-1\@xs {
-    margin-right: 1px;
-  }
-  
-  .mx-1\@xs {
-    margin-left: 1px;
-    margin-right: 1px;
-  }
-  
-  .my-1\@xs {
-    margin-top: 1px;
-    margin-bottom: 1px;
-  }
-  
-  .-m-1\@xs {
-    margin: -1px;
-  }
-  
-  .-mt-1\@xs {
-    margin-top: 1px;
-  }
-  
-  .-ml-1\@xs {
-    margin-left: 1px;
-  }
-  
-  .-mb-1\@xs {
-    margin-bottom: 1px;
-  }
-  
-  .-mr-1\@xs {
-    margin-right: 1px;
-  }
-  
-  .-mx-1\@xs {
-    margin-left: 1px;
-    margin-right: 1px;
-  }
-  
-  .-my-1\@xs {
-    margin-top: 1px;
-    margin-bottom: 1px;
-  }
-  
-  .m-2\@xs {
-    margin: 2px;
-  }
-  
-  .mt-2\@xs {
-    margin-top: 2px;
-  }
-  
-  .ml-2\@xs {
-    margin-left: 2px;
-  }
-  
-  .mb-2\@xs {
-    margin-bottom: 2px;
-  }
-  
-  .mr-2\@xs {
-    margin-right: 2px;
-  }
-  
-  .mx-2\@xs {
-    margin-left: 2px;
-    margin-right: 2px;
-  }
-  
-  .my-2\@xs {
-    margin-top: 2px;
-    margin-bottom: 2px;
-  }
-  
-  .-m-2\@xs {
-    margin: -2px;
-  }
-  
-  .-mt-2\@xs {
-    margin-top: 2px;
-  }
-  
-  .-ml-2\@xs {
-    margin-left: 2px;
-  }
-  
-  .-mb-2\@xs {
-    margin-bottom: 2px;
-  }
-  
-  .-mr-2\@xs {
-    margin-right: 2px;
-  }
-  
-  .-mx-2\@xs {
-    margin-left: 2px;
-    margin-right: 2px;
-  }
-  
-  .-my-2\@xs {
-    margin-top: 2px;
-    margin-bottom: 2px;
-  }
-  
-  .m-3\@xs {
-    margin: 3px;
-  }
-  
-  .mt-3\@xs {
-    margin-top: 3px;
-  }
-  
-  .ml-3\@xs {
-    margin-left: 3px;
-  }
-  
-  .mb-3\@xs {
-    margin-bottom: 3px;
-  }
-  
-  .mr-3\@xs {
-    margin-right: 3px;
-  }
-  
-  .mx-3\@xs {
-    margin-left: 3px;
-    margin-right: 3px;
-  }
-  
-  .my-3\@xs {
-    margin-top: 3px;
-    margin-bottom: 3px;
-  }
-  
-  .-m-3\@xs {
-    margin: -3px;
-  }
-  
-  .-mt-3\@xs {
-    margin-top: 3px;
-  }
-  
-  .-ml-3\@xs {
-    margin-left: 3px;
-  }
-  
-  .-mb-3\@xs {
-    margin-bottom: 3px;
-  }
-  
-  .-mr-3\@xs {
-    margin-right: 3px;
-  }
-  
-  .-mx-3\@xs {
-    margin-left: 3px;
-    margin-right: 3px;
-  }
-  
-  .-my-3\@xs {
-    margin-top: 3px;
-    margin-bottom: 3px;
-  }
-  
-  .m-4\@xs {
-    margin: 4px;
-  }
-  
-  .mt-4\@xs {
-    margin-top: 4px;
-  }
-  
-  .ml-4\@xs {
-    margin-left: 4px;
-  }
-  
-  .mb-4\@xs {
-    margin-bottom: 4px;
-  }
-  
-  .mr-4\@xs {
-    margin-right: 4px;
-  }
-  
-  .mx-4\@xs {
-    margin-left: 4px;
-    margin-right: 4px;
-  }
-  
-  .my-4\@xs {
-    margin-top: 4px;
-    margin-bottom: 4px;
-  }
-  
-  .-m-4\@xs {
-    margin: -4px;
-  }
-  
-  .-mt-4\@xs {
-    margin-top: 4px;
-  }
-  
-  .-ml-4\@xs {
-    margin-left: 4px;
-  }
-  
-  .-mb-4\@xs {
-    margin-bottom: 4px;
-  }
-  
-  .-mr-4\@xs {
-    margin-right: 4px;
-  }
-  
-  .-mx-4\@xs {
-    margin-left: 4px;
-    margin-right: 4px;
-  }
-  
-  .-my-4\@xs {
-    margin-top: 4px;
-    margin-bottom: 4px;
-  }
-  
-  .m\@xs {
-    margin: 26px;
-  }
-  
-  .mt\@xs {
-    margin-top: 26px;
-  }
-  
-  .ml\@xs {
-    margin-left: 26px;
-  }
-  
-  .mb\@xs {
-    margin-bottom: 26px;
-  }
-  
-  .mr\@xs {
-    margin-right: 26px;
-  }
-  
-  .mx\@xs {
-    margin-left: 26px;
-    margin-right: 26px;
-  }
-  
-  .my\@xs {
-    margin-top: 26px;
-    margin-bottom: 26px;
-  }
-  
-  .-m\@xs {
-    margin: -26px;
-  }
-  
-  .-mt\@xs {
-    margin-top: 26px;
-  }
-  
-  .-ml\@xs {
-    margin-left: 26px;
-  }
-  
-  .-mb\@xs {
-    margin-bottom: 26px;
-  }
-  
-  .-mr\@xs {
-    margin-right: 26px;
-  }
-  
-  .-mx\@xs {
-    margin-left: 26px;
-    margin-right: 26px;
-  }
-  
-  .-my\@xs {
-    margin-top: 26px;
-    margin-bottom: 26px;
-  }
-}
-
-@media all and (min-width: 756px) {
-  
-  .m-1\@sm {
-    margin: 1px;
-  }
-  
-  .mt-1\@sm {
-    margin-top: 1px;
-  }
-  
-  .ml-1\@sm {
-    margin-left: 1px;
-  }
-  
-  .mb-1\@sm {
-    margin-bottom: 1px;
-  }
-  
-  .mr-1\@sm {
-    margin-right: 1px;
-  }
-  
-  .mx-1\@sm {
-    margin-left: 1px;
-    margin-right: 1px;
-  }
-  
-  .my-1\@sm {
-    margin-top: 1px;
-    margin-bottom: 1px;
-  }
-  
-  .-m-1\@sm {
-    margin: -1px;
-  }
-  
-  .-mt-1\@sm {
-    margin-top: 1px;
-  }
-  
-  .-ml-1\@sm {
-    margin-left: 1px;
-  }
-  
-  .-mb-1\@sm {
-    margin-bottom: 1px;
-  }
-  
-  .-mr-1\@sm {
-    margin-right: 1px;
-  }
-  
-  .-mx-1\@sm {
-    margin-left: 1px;
-    margin-right: 1px;
-  }
-  
-  .-my-1\@sm {
-    margin-top: 1px;
-    margin-bottom: 1px;
-  }
-  
-  .m-2\@sm {
-    margin: 2px;
-  }
-  
-  .mt-2\@sm {
-    margin-top: 2px;
-  }
-  
-  .ml-2\@sm {
-    margin-left: 2px;
-  }
-  
-  .mb-2\@sm {
-    margin-bottom: 2px;
-  }
-  
-  .mr-2\@sm {
-    margin-right: 2px;
-  }
-  
-  .mx-2\@sm {
-    margin-left: 2px;
-    margin-right: 2px;
-  }
-  
-  .my-2\@sm {
-    margin-top: 2px;
-    margin-bottom: 2px;
-  }
-  
-  .-m-2\@sm {
-    margin: -2px;
-  }
-  
-  .-mt-2\@sm {
-    margin-top: 2px;
-  }
-  
-  .-ml-2\@sm {
-    margin-left: 2px;
-  }
-  
-  .-mb-2\@sm {
-    margin-bottom: 2px;
-  }
-  
-  .-mr-2\@sm {
-    margin-right: 2px;
-  }
-  
-  .-mx-2\@sm {
-    margin-left: 2px;
-    margin-right: 2px;
-  }
-  
-  .-my-2\@sm {
-    margin-top: 2px;
-    margin-bottom: 2px;
-  }
-  
-  .m-3\@sm {
-    margin: 3px;
-  }
-  
-  .mt-3\@sm {
-    margin-top: 3px;
-  }
-  
-  .ml-3\@sm {
-    margin-left: 3px;
-  }
-  
-  .mb-3\@sm {
-    margin-bottom: 3px;
-  }
-  
-  .mr-3\@sm {
-    margin-right: 3px;
-  }
-  
-  .mx-3\@sm {
-    margin-left: 3px;
-    margin-right: 3px;
-  }
-  
-  .my-3\@sm {
-    margin-top: 3px;
-    margin-bottom: 3px;
-  }
-  
-  .-m-3\@sm {
-    margin: -3px;
-  }
-  
-  .-mt-3\@sm {
-    margin-top: 3px;
-  }
-  
-  .-ml-3\@sm {
-    margin-left: 3px;
-  }
-  
-  .-mb-3\@sm {
-    margin-bottom: 3px;
-  }
-  
-  .-mr-3\@sm {
-    margin-right: 3px;
-  }
-  
-  .-mx-3\@sm {
-    margin-left: 3px;
-    margin-right: 3px;
-  }
-  
-  .-my-3\@sm {
-    margin-top: 3px;
-    margin-bottom: 3px;
-  }
-  
-  .m-4\@sm {
-    margin: 4px;
-  }
-  
-  .mt-4\@sm {
-    margin-top: 4px;
-  }
-  
-  .ml-4\@sm {
-    margin-left: 4px;
-  }
-  
-  .mb-4\@sm {
-    margin-bottom: 4px;
-  }
-  
-  .mr-4\@sm {
-    margin-right: 4px;
-  }
-  
-  .mx-4\@sm {
-    margin-left: 4px;
-    margin-right: 4px;
-  }
-  
-  .my-4\@sm {
-    margin-top: 4px;
-    margin-bottom: 4px;
-  }
-  
-  .-m-4\@sm {
-    margin: -4px;
-  }
-  
-  .-mt-4\@sm {
-    margin-top: 4px;
-  }
-  
-  .-ml-4\@sm {
-    margin-left: 4px;
-  }
-  
-  .-mb-4\@sm {
-    margin-bottom: 4px;
-  }
-  
-  .-mr-4\@sm {
-    margin-right: 4px;
-  }
-  
-  .-mx-4\@sm {
-    margin-left: 4px;
-    margin-right: 4px;
-  }
-  
-  .-my-4\@sm {
-    margin-top: 4px;
-    margin-bottom: 4px;
-  }
-  
-  .m\@sm {
-    margin: 26px;
-  }
-  
-  .mt\@sm {
-    margin-top: 26px;
-  }
-  
-  .ml\@sm {
-    margin-left: 26px;
-  }
-  
-  .mb\@sm {
-    margin-bottom: 26px;
-  }
-  
-  .mr\@sm {
-    margin-right: 26px;
-  }
-  
-  .mx\@sm {
-    margin-left: 26px;
-    margin-right: 26px;
-  }
-  
-  .my\@sm {
-    margin-top: 26px;
-    margin-bottom: 26px;
-  }
-  
-  .-m\@sm {
-    margin: -26px;
-  }
-  
-  .-mt\@sm {
-    margin-top: 26px;
-  }
-  
-  .-ml\@sm {
-    margin-left: 26px;
-  }
-  
-  .-mb\@sm {
-    margin-bottom: 26px;
-  }
-  
-  .-mr\@sm {
-    margin-right: 26px;
-  }
-  
-  .-mx\@sm {
-    margin-left: 26px;
-    margin-right: 26px;
-  }
-  
-  .-my\@sm {
-    margin-top: 26px;
-    margin-bottom: 26px;
-  }
-}
-
-@media all and (min-width: 1024px) {
-  
-  .m-1\@md {
-    margin: 1px;
-  }
-  
-  .mt-1\@md {
-    margin-top: 1px;
-  }
-  
-  .ml-1\@md {
-    margin-left: 1px;
-  }
-  
-  .mb-1\@md {
-    margin-bottom: 1px;
-  }
-  
-  .mr-1\@md {
-    margin-right: 1px;
-  }
-  
-  .mx-1\@md {
-    margin-left: 1px;
-    margin-right: 1px;
-  }
-  
-  .my-1\@md {
-    margin-top: 1px;
-    margin-bottom: 1px;
-  }
-  
-  .-m-1\@md {
-    margin: -1px;
-  }
-  
-  .-mt-1\@md {
-    margin-top: 1px;
-  }
-  
-  .-ml-1\@md {
-    margin-left: 1px;
-  }
-  
-  .-mb-1\@md {
-    margin-bottom: 1px;
-  }
-  
-  .-mr-1\@md {
-    margin-right: 1px;
-  }
-  
-  .-mx-1\@md {
-    margin-left: 1px;
-    margin-right: 1px;
-  }
-  
-  .-my-1\@md {
-    margin-top: 1px;
-    margin-bottom: 1px;
-  }
-  
-  .m-2\@md {
-    margin: 2px;
-  }
-  
-  .mt-2\@md {
-    margin-top: 2px;
-  }
-  
-  .ml-2\@md {
-    margin-left: 2px;
-  }
-  
-  .mb-2\@md {
-    margin-bottom: 2px;
-  }
-  
-  .mr-2\@md {
-    margin-right: 2px;
-  }
-  
-  .mx-2\@md {
-    margin-left: 2px;
-    margin-right: 2px;
-  }
-  
-  .my-2\@md {
-    margin-top: 2px;
-    margin-bottom: 2px;
-  }
-  
-  .-m-2\@md {
-    margin: -2px;
-  }
-  
-  .-mt-2\@md {
-    margin-top: 2px;
-  }
-  
-  .-ml-2\@md {
-    margin-left: 2px;
-  }
-  
-  .-mb-2\@md {
-    margin-bottom: 2px;
-  }
-  
-  .-mr-2\@md {
-    margin-right: 2px;
-  }
-  
-  .-mx-2\@md {
-    margin-left: 2px;
-    margin-right: 2px;
-  }
-  
-  .-my-2\@md {
-    margin-top: 2px;
-    margin-bottom: 2px;
-  }
-  
-  .m-3\@md {
-    margin: 3px;
-  }
-  
-  .mt-3\@md {
-    margin-top: 3px;
-  }
-  
-  .ml-3\@md {
-    margin-left: 3px;
-  }
-  
-  .mb-3\@md {
-    margin-bottom: 3px;
-  }
-  
-  .mr-3\@md {
-    margin-right: 3px;
-  }
-  
-  .mx-3\@md {
-    margin-left: 3px;
-    margin-right: 3px;
-  }
-  
-  .my-3\@md {
-    margin-top: 3px;
-    margin-bottom: 3px;
-  }
-  
-  .-m-3\@md {
-    margin: -3px;
-  }
-  
-  .-mt-3\@md {
-    margin-top: 3px;
-  }
-  
-  .-ml-3\@md {
-    margin-left: 3px;
-  }
-  
-  .-mb-3\@md {
-    margin-bottom: 3px;
-  }
-  
-  .-mr-3\@md {
-    margin-right: 3px;
-  }
-  
-  .-mx-3\@md {
-    margin-left: 3px;
-    margin-right: 3px;
-  }
-  
-  .-my-3\@md {
-    margin-top: 3px;
-    margin-bottom: 3px;
-  }
-  
-  .m-4\@md {
-    margin: 4px;
-  }
-  
-  .mt-4\@md {
-    margin-top: 4px;
-  }
-  
-  .ml-4\@md {
-    margin-left: 4px;
-  }
-  
-  .mb-4\@md {
-    margin-bottom: 4px;
-  }
-  
-  .mr-4\@md {
-    margin-right: 4px;
-  }
-  
-  .mx-4\@md {
-    margin-left: 4px;
-    margin-right: 4px;
-  }
-  
-  .my-4\@md {
-    margin-top: 4px;
-    margin-bottom: 4px;
-  }
-  
-  .-m-4\@md {
-    margin: -4px;
-  }
-  
-  .-mt-4\@md {
-    margin-top: 4px;
-  }
-  
-  .-ml-4\@md {
-    margin-left: 4px;
-  }
-  
-  .-mb-4\@md {
-    margin-bottom: 4px;
-  }
-  
-  .-mr-4\@md {
-    margin-right: 4px;
-  }
-  
-  .-mx-4\@md {
-    margin-left: 4px;
-    margin-right: 4px;
-  }
-  
-  .-my-4\@md {
-    margin-top: 4px;
-    margin-bottom: 4px;
-  }
-  
-  .m\@md {
-    margin: 26px;
-  }
-  
-  .mt\@md {
-    margin-top: 26px;
-  }
-  
-  .ml\@md {
-    margin-left: 26px;
-  }
-  
-  .mb\@md {
-    margin-bottom: 26px;
-  }
-  
-  .mr\@md {
-    margin-right: 26px;
-  }
-  
-  .mx\@md {
-    margin-left: 26px;
-    margin-right: 26px;
-  }
-  
-  .my\@md {
-    margin-top: 26px;
-    margin-bottom: 26px;
-  }
-  
-  .-m\@md {
-    margin: -26px;
-  }
-  
-  .-mt\@md {
-    margin-top: 26px;
-  }
-  
-  .-ml\@md {
-    margin-left: 26px;
-  }
-  
-  .-mb\@md {
-    margin-bottom: 26px;
-  }
-  
-  .-mr\@md {
-    margin-right: 26px;
-  }
-  
-  .-mx\@md {
-    margin-left: 26px;
-    margin-right: 26px;
-  }
-  
-  .-my\@md {
-    margin-top: 26px;
-    margin-bottom: 26px;
-  }
-}
-
-@media all and (min-width: 1220px) {
-  
-  .m-1\@lg {
-    margin: 1px;
-  }
-  
-  .mt-1\@lg {
-    margin-top: 1px;
-  }
-  
-  .ml-1\@lg {
-    margin-left: 1px;
-  }
-  
-  .mb-1\@lg {
-    margin-bottom: 1px;
-  }
-  
-  .mr-1\@lg {
-    margin-right: 1px;
-  }
-  
-  .mx-1\@lg {
-    margin-left: 1px;
-    margin-right: 1px;
-  }
-  
-  .my-1\@lg {
-    margin-top: 1px;
-    margin-bottom: 1px;
-  }
-  
-  .-m-1\@lg {
-    margin: -1px;
-  }
-  
-  .-mt-1\@lg {
-    margin-top: 1px;
-  }
-  
-  .-ml-1\@lg {
-    margin-left: 1px;
-  }
-  
-  .-mb-1\@lg {
-    margin-bottom: 1px;
-  }
-  
-  .-mr-1\@lg {
-    margin-right: 1px;
-  }
-  
-  .-mx-1\@lg {
-    margin-left: 1px;
-    margin-right: 1px;
-  }
-  
-  .-my-1\@lg {
-    margin-top: 1px;
-    margin-bottom: 1px;
-  }
-  
-  .m-2\@lg {
-    margin: 2px;
-  }
-  
-  .mt-2\@lg {
-    margin-top: 2px;
-  }
-  
-  .ml-2\@lg {
-    margin-left: 2px;
-  }
-  
-  .mb-2\@lg {
-    margin-bottom: 2px;
-  }
-  
-  .mr-2\@lg {
-    margin-right: 2px;
-  }
-  
-  .mx-2\@lg {
-    margin-left: 2px;
-    margin-right: 2px;
-  }
-  
-  .my-2\@lg {
-    margin-top: 2px;
-    margin-bottom: 2px;
-  }
-  
-  .-m-2\@lg {
-    margin: -2px;
-  }
-  
-  .-mt-2\@lg {
-    margin-top: 2px;
-  }
-  
-  .-ml-2\@lg {
-    margin-left: 2px;
-  }
-  
-  .-mb-2\@lg {
-    margin-bottom: 2px;
-  }
-  
-  .-mr-2\@lg {
-    margin-right: 2px;
-  }
-  
-  .-mx-2\@lg {
-    margin-left: 2px;
-    margin-right: 2px;
-  }
-  
-  .-my-2\@lg {
-    margin-top: 2px;
-    margin-bottom: 2px;
-  }
-  
-  .m-3\@lg {
-    margin: 3px;
-  }
-  
-  .mt-3\@lg {
-    margin-top: 3px;
-  }
-  
-  .ml-3\@lg {
-    margin-left: 3px;
-  }
-  
-  .mb-3\@lg {
-    margin-bottom: 3px;
-  }
-  
-  .mr-3\@lg {
-    margin-right: 3px;
-  }
-  
-  .mx-3\@lg {
-    margin-left: 3px;
-    margin-right: 3px;
-  }
-  
-  .my-3\@lg {
-    margin-top: 3px;
-    margin-bottom: 3px;
-  }
-  
-  .-m-3\@lg {
-    margin: -3px;
-  }
-  
-  .-mt-3\@lg {
-    margin-top: 3px;
-  }
-  
-  .-ml-3\@lg {
-    margin-left: 3px;
-  }
-  
-  .-mb-3\@lg {
-    margin-bottom: 3px;
-  }
-  
-  .-mr-3\@lg {
-    margin-right: 3px;
-  }
-  
-  .-mx-3\@lg {
-    margin-left: 3px;
-    margin-right: 3px;
-  }
-  
-  .-my-3\@lg {
-    margin-top: 3px;
-    margin-bottom: 3px;
-  }
-  
-  .m-4\@lg {
-    margin: 4px;
-  }
-  
-  .mt-4\@lg {
-    margin-top: 4px;
-  }
-  
-  .ml-4\@lg {
-    margin-left: 4px;
-  }
-  
-  .mb-4\@lg {
-    margin-bottom: 4px;
-  }
-  
-  .mr-4\@lg {
-    margin-right: 4px;
-  }
-  
-  .mx-4\@lg {
-    margin-left: 4px;
-    margin-right: 4px;
-  }
-  
-  .my-4\@lg {
-    margin-top: 4px;
-    margin-bottom: 4px;
-  }
-  
-  .-m-4\@lg {
-    margin: -4px;
-  }
-  
-  .-mt-4\@lg {
-    margin-top: 4px;
-  }
-  
-  .-ml-4\@lg {
-    margin-left: 4px;
-  }
-  
-  .-mb-4\@lg {
-    margin-bottom: 4px;
-  }
-  
-  .-mr-4\@lg {
-    margin-right: 4px;
-  }
-  
-  .-mx-4\@lg {
-    margin-left: 4px;
-    margin-right: 4px;
-  }
-  
-  .-my-4\@lg {
-    margin-top: 4px;
-    margin-bottom: 4px;
-  }
-  
-  .m\@lg {
-    margin: 26px;
-  }
-  
-  .mt\@lg {
-    margin-top: 26px;
-  }
-  
-  .ml\@lg {
-    margin-left: 26px;
-  }
-  
-  .mb\@lg {
-    margin-bottom: 26px;
-  }
-  
-  .mr\@lg {
-    margin-right: 26px;
-  }
-  
-  .mx\@lg {
-    margin-left: 26px;
-    margin-right: 26px;
-  }
-  
-  .my\@lg {
-    margin-top: 26px;
-    margin-bottom: 26px;
-  }
-  
-  .-m\@lg {
-    margin: -26px;
-  }
-  
-  .-mt\@lg {
-    margin-top: 26px;
-  }
-  
-  .-ml\@lg {
-    margin-left: 26px;
-  }
-  
-  .-mb\@lg {
-    margin-bottom: 26px;
-  }
-  
-  .-mr\@lg {
-    margin-right: 26px;
-  }
-  
-  .-mx\@lg {
-    margin-left: 26px;
-    margin-right: 26px;
-  }
-  
-  .-my\@lg {
-    margin-top: 26px;
-    margin-bottom: 26px;
-  }
-}
-
-@media all and (min-width: 1460px) {
-  
-  .m-1\@xl {
-    margin: 1px;
-  }
-  
-  .mt-1\@xl {
-    margin-top: 1px;
-  }
-  
-  .ml-1\@xl {
-    margin-left: 1px;
-  }
-  
-  .mb-1\@xl {
-    margin-bottom: 1px;
-  }
-  
-  .mr-1\@xl {
-    margin-right: 1px;
-  }
-  
-  .mx-1\@xl {
-    margin-left: 1px;
-    margin-right: 1px;
-  }
-  
-  .my-1\@xl {
-    margin-top: 1px;
-    margin-bottom: 1px;
-  }
-  
-  .-m-1\@xl {
-    margin: -1px;
-  }
-  
-  .-mt-1\@xl {
-    margin-top: 1px;
-  }
-  
-  .-ml-1\@xl {
-    margin-left: 1px;
-  }
-  
-  .-mb-1\@xl {
-    margin-bottom: 1px;
-  }
-  
-  .-mr-1\@xl {
-    margin-right: 1px;
-  }
-  
-  .-mx-1\@xl {
-    margin-left: 1px;
-    margin-right: 1px;
-  }
-  
-  .-my-1\@xl {
-    margin-top: 1px;
-    margin-bottom: 1px;
-  }
-  
-  .m-2\@xl {
-    margin: 2px;
-  }
-  
-  .mt-2\@xl {
-    margin-top: 2px;
-  }
-  
-  .ml-2\@xl {
-    margin-left: 2px;
-  }
-  
-  .mb-2\@xl {
-    margin-bottom: 2px;
-  }
-  
-  .mr-2\@xl {
-    margin-right: 2px;
-  }
-  
-  .mx-2\@xl {
-    margin-left: 2px;
-    margin-right: 2px;
-  }
-  
-  .my-2\@xl {
-    margin-top: 2px;
-    margin-bottom: 2px;
-  }
-  
-  .-m-2\@xl {
-    margin: -2px;
-  }
-  
-  .-mt-2\@xl {
-    margin-top: 2px;
-  }
-  
-  .-ml-2\@xl {
-    margin-left: 2px;
-  }
-  
-  .-mb-2\@xl {
-    margin-bottom: 2px;
-  }
-  
-  .-mr-2\@xl {
-    margin-right: 2px;
-  }
-  
-  .-mx-2\@xl {
-    margin-left: 2px;
-    margin-right: 2px;
-  }
-  
-  .-my-2\@xl {
-    margin-top: 2px;
-    margin-bottom: 2px;
-  }
-  
-  .m-3\@xl {
-    margin: 3px;
-  }
-  
-  .mt-3\@xl {
-    margin-top: 3px;
-  }
-  
-  .ml-3\@xl {
-    margin-left: 3px;
-  }
-  
-  .mb-3\@xl {
-    margin-bottom: 3px;
-  }
-  
-  .mr-3\@xl {
-    margin-right: 3px;
-  }
-  
-  .mx-3\@xl {
-    margin-left: 3px;
-    margin-right: 3px;
-  }
-  
-  .my-3\@xl {
-    margin-top: 3px;
-    margin-bottom: 3px;
-  }
-  
-  .-m-3\@xl {
-    margin: -3px;
-  }
-  
-  .-mt-3\@xl {
-    margin-top: 3px;
-  }
-  
-  .-ml-3\@xl {
-    margin-left: 3px;
-  }
-  
-  .-mb-3\@xl {
-    margin-bottom: 3px;
-  }
-  
-  .-mr-3\@xl {
-    margin-right: 3px;
-  }
-  
-  .-mx-3\@xl {
-    margin-left: 3px;
-    margin-right: 3px;
-  }
-  
-  .-my-3\@xl {
-    margin-top: 3px;
-    margin-bottom: 3px;
-  }
-  
-  .m-4\@xl {
-    margin: 4px;
-  }
-  
-  .mt-4\@xl {
-    margin-top: 4px;
-  }
-  
-  .ml-4\@xl {
-    margin-left: 4px;
-  }
-  
-  .mb-4\@xl {
-    margin-bottom: 4px;
-  }
-  
-  .mr-4\@xl {
-    margin-right: 4px;
-  }
-  
-  .mx-4\@xl {
-    margin-left: 4px;
-    margin-right: 4px;
-  }
-  
-  .my-4\@xl {
-    margin-top: 4px;
-    margin-bottom: 4px;
-  }
-  
-  .-m-4\@xl {
-    margin: -4px;
-  }
-  
-  .-mt-4\@xl {
-    margin-top: 4px;
-  }
-  
-  .-ml-4\@xl {
-    margin-left: 4px;
-  }
-  
-  .-mb-4\@xl {
-    margin-bottom: 4px;
-  }
-  
-  .-mr-4\@xl {
-    margin-right: 4px;
-  }
-  
-  .-mx-4\@xl {
-    margin-left: 4px;
-    margin-right: 4px;
-  }
-  
-  .-my-4\@xl {
-    margin-top: 4px;
-    margin-bottom: 4px;
-  }
-  
-  .m\@xl {
-    margin: 26px;
-  }
-  
-  .mt\@xl {
-    margin-top: 26px;
-  }
-  
-  .ml\@xl {
-    margin-left: 26px;
-  }
-  
-  .mb\@xl {
-    margin-bottom: 26px;
-  }
-  
-  .mr\@xl {
-    margin-right: 26px;
-  }
-  
-  .mx\@xl {
-    margin-left: 26px;
-    margin-right: 26px;
-  }
-  
-  .my\@xl {
-    margin-top: 26px;
-    margin-bottom: 26px;
-  }
-  
-  .-m\@xl {
-    margin: -26px;
-  }
-  
-  .-mt\@xl {
-    margin-top: 26px;
-  }
-  
-  .-ml\@xl {
-    margin-left: 26px;
-  }
-  
-  .-mb\@xl {
-    margin-bottom: 26px;
-  }
-  
-  .-mr\@xl {
-    margin-right: 26px;
-  }
-  
-  .-mx\@xl {
-    margin-left: 26px;
-    margin-right: 26px;
-  }
-  
-  .-my\@xl {
-    margin-top: 26px;
-    margin-bottom: 26px;
-  }
-}
-
-
-.bw-1 {
-  border-width: 1px;
-}
-
-
-.bw-2 {
-  border-width: 2px;
-}
-
-
-.bw-3 {
-  border-width: 3px;
-}
-
-@media all and (min-width: 416px) {
-  
-  .bw-1\@xs {
-    border-width: 1px;
-  }
-  
-  .bw-2\@xs {
-    border-width: 2px;
-  }
-  
-  .bw-3\@xs {
-    border-width: 3px;
-  }
-}
-
-@media all and (min-width: 756px) {
-  
-  .bw-1\@sm {
-    border-width: 1px;
-  }
-  
-  .bw-2\@sm {
-    border-width: 2px;
-  }
-  
-  .bw-3\@sm {
-    border-width: 3px;
-  }
-}
-
-@media all and (min-width: 1024px) {
-  
-  .bw-1\@md {
-    border-width: 1px;
-  }
-  
-  .bw-2\@md {
-    border-width: 2px;
-  }
-  
-  .bw-3\@md {
-    border-width: 3px;
-  }
-}
-
-@media all and (min-width: 1220px) {
-  
-  .bw-1\@lg {
-    border-width: 1px;
-  }
-  
-  .bw-2\@lg {
-    border-width: 2px;
-  }
-  
-  .bw-3\@lg {
-    border-width: 3px;
-  }
-}
-
-@media all and (min-width: 1460px) {
-  
-  .bw-1\@xl {
-    border-width: 1px;
-  }
-  
-  .bw-2\@xl {
-    border-width: 2px;
-  }
-  
-  .bw-3\@xl {
-    border-width: 3px;
+  .bga-local\@xl {
+    background-attachment: local;
   }
 }
 

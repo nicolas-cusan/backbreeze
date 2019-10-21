@@ -1,0 +1,15 @@
+// backface-visibility
+// ============================================
+
+$bb-backface-visibility-values: (
+  'visible': visible,
+  'hidden': hidden
+) !default;
+
+$bb-backface-visibility-config: (
+  'name': 'bkfv',
+  'prop': 'backface-visibility',
+  'values': $bb-backface-visibility-values
+) !default;
+
+@include bb-utility-class($bb-backface-visibility-config);

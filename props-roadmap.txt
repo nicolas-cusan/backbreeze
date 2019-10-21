@@ -1,0 +1,80 @@
+all
+
+animation
+animation-delay
+animation-direction
+animation-duration
+animation-fill-mode
+animation-iteration-count
+animation-name
+animation-play-state
+animation-timing-function
+
+box-decoration-break
+
+
+** break-after
+** break-before
+** break-inside
+
+caption-side (to set for tables)
+caret-color (cursor in text boxes)
+
+color-adjust (automatic a18y contrast optimization)
+
+
+column-fill
+column-rule
+column-rule-color
+column-rule-style
+column-rule-width
+column-span
+column-width
+columns
+
+filter
+font-size-adjust
+
+gap
+grid
+grid-area
+grid-auto-columns
+grid-auto-flow
+grid-auto-rows
+grid-column
+grid-column-end
+grid-column-start
+grid-row
+grid-row-end
+grid-row-start
+grid-template
+grid-template-areas
+grid-template-columns
+grid-template-rows
+
+hyphens
+
+image-rendering
+
+inset
+isolation
+
+line-break
+
+** overflow-wrap (word-wrap)
+
+** page-break-after
+** page-break-before
+** page-break-inside
+
+row-gap
+
+tab-size
+text-align-last
+text-justify
+text-shadow
+
+touch-action
+
+will-change
+word-break

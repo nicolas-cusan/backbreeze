@@ -2,10 +2,18 @@
 // Back Breeze Config
 // ============================================
 
-$bb-directional-properties: ('padding', 'margin', 'border') !default;
+$bb-directional-properties: (
+  'padding',
+  'margin',
+  'border',
+  'border-width',
+  'border-style',
+  'border-color',
+  'border-radius'
+) !default;
 $bb-negative-properties: ('margin', 'top', 'left', 'bottom', 'right') !default;
 
-$bb-breakpoints: (
+$bb-bps: (
   'xs': 416px,
   'sm': 756px,
   'md': 1024px,
@@ -13,17 +21,9 @@ $bb-breakpoints: (
   'xl': 1460px
 ) !default;
 
-$bb-mqs: (
-  'xs': '(min-width: 416px)',
-  'sm': '(min-width: 756px)',
-  'md': '(min-width: 1024px)',
-  'lg': '(min-width: 1220px)',
-  'xl': '(min-width: 1460px)'
-) !default;
-
 $bb-prefix: '' !default;
 
-$bb-pseudo: ('hover', 'focus', 'active', 'group-hover');
+$bb-pseudo: ('hover', 'focus', 'active', 'group-hover') !default;
 
 $bb-spacing: (
   '1': 1px,
@@ -31,42 +31,6 @@ $bb-spacing: (
   '3': 3px,
   '4': 4px,
   '': 26px
-) !default;
-
-// align-self
-// ============================================
-
-$bb-align-self-values: (
-  'auto': auto,
-  'start': flex-start,
-  'end': flex-end,
-  'center': center,
-  'base': baseline,
-  'stretch': stretch
-) !default;
-
-$bb-align-self-config: (
-  'name': 'as',
-  'prop': 'align-self',
-  'mqs': $bb-mqs,
-  'values': $bb-align-self-values
-) !default;
-
-// opacity
-// ============================================
-
-$bb-opacity-values: (
-  '0\\.2': 0.2,
-  '0\\.5': 0.5,
-  '1': 1
-) !default;
-
-$bb-opacity-config: (
-  'name': 'o',
-  'prop': 'opacity',
-  'mqs': $bb-mqs,
-  'pseudo': $bb-pseudo,
-  'values': $bb-opacity-values
 ) !default;
 
 // margin
@@ -77,7 +41,7 @@ $bb-margin-values: $bb-spacing !default;
 $bb-margin-config: (
   'name': 'm',
   'prop': 'margin',
-  'mqs': $bb-mqs,
+  'bps': $bb-bps,
   'values': $bb-margin-values
 ) !default;
 
@@ -90,9 +54,22 @@ $bb-border-width-values: (
   '3': 3px
 ) !default;
 
-$bb-border-config: (
+$bb-border-width-config: (
   'name': 'bw',
   'prop': 'border-width',
-  'mqs': $bb-mqs,
+  'bps': $bb-bps,
   'values': $bb-border-width-values
+) !default;
+
+$bb-border-radius-values: (
+  '1': 1px,
+  '2': 2px,
+  '3': 3px
+) !default;
+
+$bb-border-radius-config: (
+  'name': 'br',
+  'prop': 'border-radius',
+  'bps': $bb-bps,
+  'values': $bb-border-radius-values
 ) !default;

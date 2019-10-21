@@ -1,0 +1,20 @@
+// align-self
+// ============================================
+
+$bb-align-self-values: (
+  'auto': auto,
+  'start': flex-start,
+  'end': flex-end,
+  'center': center,
+  'stretch ': stretch,
+  'baseline ': baseline
+) !default;
+
+$bb-align-self-config: (
+  'name': 'as',
+  'prop': 'align-self',
+  'bps': $bb-bps,
+  'values': $bb-align-self-values
+) !default;
+
+@include bb-utility-class($bb-align-self-config);

@@ -4,7 +4,7 @@
 
 // Create utility classes from a Sass map.
 
-@mixin utility-class($config) {
+@mixin bb-utility-class($config) {
   $no-mq: (
     '': false
   );
@@ -14,31 +14,31 @@
   $values: map-get($config, 'values');
   $pseudo: map-get($config, 'pseudo');
 
-  $mqs: map-get($config, 'mqs');
-  $mqs: if($mqs, map-merge($no-mq, $mqs), $no-mq);
+  $bps: map-get($config, 'bps');
+  $bps: if($bps, map-merge($no-mq, $bps), $no-mq);
 
   $negative: if(index($bb-negative-properties, $prop), true, false);
   $directional: if(index($bb-directional-properties, $prop), true, false);
 
-  @each $mq-name, $mq in $mqs {
-    @include mq($mq) {
-      @include utility-class-helper(
+  @each $bp-name, $bp in $bps {
+    @include bb-mq($bp) {
+      @include bb-utility-class-helper(
         $name,
         $prop,
         $values,
         $negative,
-        $mq-name,
+        $bp-name,
         $directional
       );
 
       @if $pseudo {
         @each $pseudo-class in $pseudo {
-          @include utility-class-helper(
+          @include bb-utility-class-helper(
             $name,
             $prop,
             $values,
             $negative,
-            $mq-name,
+            $bp-name,
             $directional,
             $pseudo-class
           );
@@ -49,16 +49,16 @@
 }
 
 // Render helper mixin
-@mixin utility-class-helper(
+@mixin bb-utility-class-helper(
   $name,
   $prop,
   $values,
   $negative,
-  $mq-name,
+  $bp-name,
   $directional,
   $pseudo: false
 ) {
-  $mq-name: if(str-length($mq-name) > 0, '#{\@}#{$mq-name}', '');
+  $bp-name: if(str-length($bp-name) > 0, '#{\@}#{$bp-name}', '');
   $name-negative: if($bb-prefix, '-#{$bb-prefix}#{$name}', '-#{$name}');
   $pseudo: if($pseudo, ':#{$pseudo}', '');
   $pseudo-name: if($pseudo, '#{\:}#{$pseudo}', '');
@@ -68,88 +68,139 @@
   $pseudo-name: if($pseudo == ':group-hover', '#{\:}group-hover', $pseudo);
   $pseudo: if($pseudo == ':group-hover', '', '');
 
+  // Directional props
+  $prop-top: bb-insert-direction($prop, 'top');
+  $prop-left: bb-insert-direction($prop, 'left');
+  $prop-right: bb-insert-direction($prop, 'right');
+  $prop-bottom: bb-insert-direction($prop, 'bottom');
+
+  $prop-top-left: bb-insert-direction($prop, 'top-left');
+  $prop-top-right: bb-insert-direction($prop, 'top-right');
+  $prop-bottom-left: bb-insert-direction($prop, 'bottom-left');
+  $prop-bottom-right: bb-insert-direction($prop, 'bottom-right');
+
+  $is-border-radius: $prop == 'border-radius';
+
   @each $key, $val in $values {
     $key: if(str-length($key) > 0, '-#{$key}', '');
 
     #{$parent}
-      .#{$bb-prefix}#{$name}#{$key}#{$pseudo-name}#{$mq-name}#{$pseudo} {
+      .#{$bb-prefix}#{$name}#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
       #{$prop}: #{$val};
     }
 
-    @if $directional {
+    @if $directional and not $is-border-radius {
       #{$parent}
-        .#{$bb-prefix}#{$name}t#{$key}#{$pseudo-name}#{$mq-name}#{$pseudo} {
-        #{$prop}-top: #{$val};
+        .#{$bb-prefix}#{$name}-t#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        #{$prop-top}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name}l#{$key}#{$pseudo-name}#{$mq-name}#{$pseudo} {
-        #{$prop}-left: #{$val};
+        .#{$bb-prefix}#{$name}-l#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        #{$prop-left}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name}b#{$key}#{$pseudo-name}#{$mq-name}#{$pseudo} {
-        #{$prop}-bottom: #{$val};
+        .#{$bb-prefix}#{$name}-r#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        #{$prop-right}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name}r#{$key}#{$pseudo-name}#{$mq-name}#{$pseudo} {
-        #{$prop}-right: #{$val};
+        .#{$bb-prefix}#{$name}-b#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        #{$prop-bottom}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name}x#{$key}#{$pseudo-name}#{$mq-name}#{$pseudo} {
-        #{$prop}-left: #{$val};
-        #{$prop}-right: #{$val};
+        .#{$bb-prefix}#{$name}-x#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        #{$prop-left}: #{$val};
+        #{$prop-right}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name}y#{$key}#{$pseudo-name}#{$mq-name}#{$pseudo} {
-        #{$prop}-top: #{$val};
-        #{$prop}-bottom: #{$val};
+        .#{$bb-prefix}#{$name}-y#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        #{$prop-top}: #{$val};
+        #{$prop-bottom}: #{$val};
+      }
+    } @else if $is-border-radius {
+      #{$parent}
+        .#{$bb-prefix}#{$name}-t#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        #{$prop-top-left}: #{$val};
+        #{$prop-top-right}: #{$val};
+      }
+      #{$parent}
+        .#{$bb-prefix}#{$name}-l#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        #{$prop-top-left}: #{$val};
+        #{$prop-bottom-left}: #{$val};
+      }
+      #{$parent}
+        .#{$bb-prefix}#{$name}-r#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        #{$prop-top-right}: #{$val};
+        #{$prop-bottom-right)}: #{$val};
+      }
+      #{$parent}
+        .#{$bb-prefix}#{$name}-b#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        #{$prop-bottom-left}: #{$val};
+        #{$prop-bottom-right)}: #{$val};
+      }
+
+      #{$parent}
+        .#{$bb-prefix}#{$name}-tl#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        #{$prop-top-left}: #{$val};
+      }
+      #{$parent}
+        .#{$bb-prefix}#{$name}-tr#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        #{$prop-top-right}: #{$val};
+      }
+      #{$parent}
+        .#{$bb-prefix}#{$name}-bl#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        #{$prop-bottom-left}: #{$val};
+      }
+      #{$parent}
+        .#{$bb-prefix}#{$name}-br#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        #{$prop-bottom-right)}: #{$val};
       }
     }
 
     @if $negative {
       #{$parent}
-        .#{$bb-prefix}#{$name-negative}#{$key}#{$pseudo-name}#{$mq-name}#{$pseudo} {
+        .#{$bb-prefix}#{$name-negative}#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop}: -#{$val};
       }
     }
 
     @if $negative and $directional {
       #{$parent}
-        .#{$bb-prefix}#{$name-negative}t#{$key}#{$pseudo-name}#{$mq-name}#{$pseudo} {
-        #{$prop}-top: #{$val};
+        .#{$bb-prefix}#{$name-negative}-t#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        #{$prop-top}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name-negative}l#{$key}#{$pseudo-name}#{$mq-name}#{$pseudo} {
-        #{$prop}-left: #{$val};
+        .#{$bb-prefix}#{$name-negative}-l#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        #{$prop-left}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name-negative}b#{$key}#{$pseudo-name}#{$mq-name}#{$pseudo} {
-        #{$prop}-bottom: #{$val};
+        .#{$bb-prefix}#{$name-negative}-b#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        #{$prop-bottom}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name-negative}r#{$key}#{$pseudo-name}#{$mq-name}#{$pseudo} {
-        #{$prop}-right: #{$val};
+        .#{$bb-prefix}#{$name-negative}-r#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        #{$prop-right}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name-negative}x#{$key}#{$pseudo-name}#{$mq-name}#{$pseudo} {
-        #{$prop}-left: #{$val};
-        #{$prop}-right: #{$val};
+        .#{$bb-prefix}#{$name-negative}-x#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        #{$prop-left}: #{$val};
+        #{$prop-right}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name-negative}y#{$key}#{$pseudo-name}#{$mq-name}#{$pseudo} {
-        #{$prop}-top: #{$val};
-        #{$prop}-bottom: #{$val};
+        .#{$bb-prefix}#{$name-negative}-y#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        #{$prop-top}: #{$val};
+        #{$prop-bottom}: #{$val};
       }
     }
   }
 }
 
-@mixin mq($mq: false, $media: all) {
+@mixin bb-mq($mq: false, $media: all) {
   @if $mq == 'print' {
     @media print {
       @content;
     }
   } @else if $mq {
-    @media #{$media} and #{$mq} {
+    @media #{$media} and (min-width: #{$mq}) {
       @content;
     }
   } @else {
@@ -157,21 +208,12 @@
   }
 }
 
-// @if $hover {
-//   $mq-name: if($hover, '#{\:hover}#{$mq-name}', '');
+@function bb-insert-direction($prop, $dir) {
+  $index: str-index($prop, '-');
 
-//   @each $key, $val in $values {
-//     $key: if(str-length($key) > 0, '-#{$key}', '');
+  @if $index {
+    @return str-insert($prop, '-#{$dir}', $index);
+  }
 
-//     .u-#{$name}#{$key}#{$mq-name} {
-//       &.u-hover:active,
-//       &.u-hover:focus,
-//       &.u-hover:hover,
-//       .u-hover:active &,
-//       .u-hover:focus &,
-//       .u-hover:hover & {
-//         #{$prop}: #{$val};
-//       }
-//     }
-//   }
-// } @else {
+  @return '#{$prop}-#{$dir}';
+}
