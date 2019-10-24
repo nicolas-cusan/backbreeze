@@ -1,6 +1,8 @@
-// align-self
-// ============================================
+////
+/// @group flex
+////
 
+/// # align-self
 $bb-align-self-values: (
   'auto': auto,
   'start': flex-start,
@@ -10,6 +12,7 @@ $bb-align-self-values: (
   'baseline ': baseline
 ) !default;
 
+/// Config
 $bb-align-self-config: (
   'name': 'as',
   'prop': 'align-self',

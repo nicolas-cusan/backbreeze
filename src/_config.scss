@@ -33,43 +33,7 @@ $bb-spacing: (
   '': 26px
 ) !default;
 
-// margin
-// ============================================
-
-$bb-margin-values: $bb-spacing !default;
-
-$bb-margin-config: (
-  'name': 'm',
-  'prop': 'margin',
-  'bps': $bb-bps,
-  'values': $bb-margin-values
-) !default;
-
-// border
-// ============================================
-
-$bb-border-width-values: (
-  '1': 1px,
-  '2': 2px,
-  '3': 3px
-) !default;
-
-$bb-border-width-config: (
-  'name': 'bw',
-  'prop': 'border-width',
-  'bps': $bb-bps,
-  'values': $bb-border-width-values
-) !default;
-
-$bb-border-radius-values: (
-  '1': 1px,
-  '2': 2px,
-  '3': 3px
-) !default;
-
-$bb-border-radius-config: (
-  'name': 'br',
-  'prop': 'border-radius',
-  'bps': $bb-bps,
-  'values': $bb-border-radius-values
+$bb-colors: (
+  'white': '#fff',
+  'black': '#000'
 ) !default;

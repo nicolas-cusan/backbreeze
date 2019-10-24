@@ -1,0 +1,16 @@
+////
+/// @group background
+////
+
+/// # background-color
+$bb-background-color-values: $bb-colors !default;
+
+/// Config
+$bb-background-color-config: (
+  'name': 'bg-c',
+  'prop': 'background-color',
+  'bps': $bb-bps,
+  'values': $bb-background-color-values
+) !default;
+
+@include bb-utility-class($bb-background-color-config);

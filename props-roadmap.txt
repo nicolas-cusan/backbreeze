@@ -10,8 +10,10 @@ animation-name
 animation-play-state
 animation-timing-function
 
-box-decoration-break
+background-clip
+background-origin
 
+box-decoration-break
 
 ** break-after
 ** break-before

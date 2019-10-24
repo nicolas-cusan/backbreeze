@@ -1,8 +1,8 @@
 [
   {
-    "description": "\n",
+    "description": "# align-content\n",
     "commentRange": {
-      "start": 9,
+      "start": 5,
       "end": 9
     },
     "context": {
@@ -15,6 +15,12 @@
         "end": 20
       }
     },
+    "example": [
+      {
+        "type": "html",
+        "code": "<div class=\"ac-start ac-center@sm\">\n  <!-- Content -->\n</div>"
+      }
+    ],
     "group": [
       "flex"
     ],
@@ -25,7 +31,7 @@
     }
   },
   {
-    "description": "\n",
+    "description": "Config\n",
     "commentRange": {
       "start": 22,
       "end": 22

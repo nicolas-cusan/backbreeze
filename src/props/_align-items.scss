@@ -1,9 +1,8 @@
-/// #align-items
-///
-/// Some description
-///
+////
 /// @group flex
+////
 
+/// # align-items
 $bb-align-items-values: (
   'start': flex-start,
   'end': flex-end,
@@ -15,8 +14,7 @@ $bb-align-items-values: (
   'baseline ': baseline
 ) !default;
 
-///
-
+/// Config
 $bb-align-items-config: (
   'name': 'ai',
   'prop': 'align-items',

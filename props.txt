@@ -4,9 +4,7 @@ align-self
 backface-visibility
 background-attachment
 background-blend-mode
-background-clip
 background-color
-background-origin
 background-position
 background-repeat
 background-size

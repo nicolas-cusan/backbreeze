@@ -1,13 +1,8 @@
 ////
-/// #align-content
-///
-/// Some description
-///
 /// @group flex
 ////
 
-///
-
+/// # align-content
 $bb-align-content-values: (
   'start': flex-start,
   'end': flex-end,
@@ -19,8 +14,7 @@ $bb-align-content-values: (
   'baseline ': baseline
 ) !default;
 
-///
-
+/// Config
 $bb-align-content-config: (
   'name': 'ac',
   'prop': 'align-content',

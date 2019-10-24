@@ -1,14 +1,17 @@
-// background-attachment
-// ============================================
+////
+/// @group background
+////
 
+/// # background-attachment
 $bb-background-attachment-values: (
   'scroll': scroll,
   'fixed': fixed,
   'local': local
 ) !default;
 
+/// Config
 $bb-background-attachment-config: (
-  'name': 'bga',
+  'name': 'bg-a',
   'prop': 'background-attachment',
   'bps': $bb-bps,
   'values': $bb-background-attachment-values
