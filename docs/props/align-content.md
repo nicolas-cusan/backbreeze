@@ -1,10 +1,9 @@
-////
-/// @group flex
-////
 
-/// ## Values
+## Values
 
-$bb-align-content-values: (
+
+```scss
+bb-align-content-values: (
   'start': flex-start,
   'end': flex-end,
   'center': center,
@@ -13,15 +12,21 @@ $bb-align-content-values: (
   'evenly': space-evenly,
   'stretch ': stretch,
   'baseline ': baseline
-) !default;
+);
+```
 
-/// ## Config
 
-$bb-align-content-config: (
+
+## Config
+
+
+```scss
+bb-align-content-config: (
   'name': 'ac',
   'prop': 'align-content',
   'bps': $bb-bps,
   'values': $bb-align-content-values
-) !default;
+);
+```
 
-@include bb-utility-class($bb-align-content-config);
+
