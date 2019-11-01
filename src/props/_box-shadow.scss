@@ -1,0 +1,23 @@
+////
+/// @group decoration
+////
+
+/// ## Values
+
+$bb-box-shadow-values: (
+  '': (
+    0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06)
+  )
+) !default;
+
+/// ## Config
+
+$bb-box-shadow-config: (
+  'name': 'bxs',
+  'prop': 'box-shadow',
+  'bps': $bb-bps,
+  'values': $bb-box-shadow-values
+) !default;
+
+@include bb-utility-class($bb-box-shadow-config);

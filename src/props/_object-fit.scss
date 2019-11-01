@@ -1,0 +1,24 @@
+////
+/// @group layout
+////
+
+/// ## Values
+
+$bb-object-fit-values: (
+  'contain': contain,
+  'cover': cover,
+  'fill': fill,
+  'none': none,
+  'scale-down': scale-down
+) !default;
+
+/// ## Config
+
+$bb-object-fit-config: (
+  'name': 'objf',
+  'prop': 'object-fit',
+  'bps': $bb-bps,
+  'values': $bb-object-fit-values
+) !default;
+
+@include bb-utility-class($bb-object-fit-config);

@@ -1,6 +1,9 @@
 const sassdoc = require('sassdoc');
 const fs = require('fs');
 const template = require('./template');
+const del = require('del');
+
+del.sync('./docs/props/**');
 
 sassdoc.parse('./src', { verbose: true }).then(data => {
   const newData = data.reduce((acc, item, idx) => {
@@ -15,6 +18,8 @@ sassdoc.parse('./src', { verbose: true }).then(data => {
 
     return acc;
   }, {});
+
+  // console.log(JSON.stringify(newData, null, 2));
 
   Object.keys(newData).forEach(key => {
     const data = template(newData[key]);

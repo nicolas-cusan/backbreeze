@@ -1,0 +1,23 @@
+////
+/// @group flex
+////
+
+/// ## Values
+
+$bb-flex-grow-values: (
+  '0': 0,
+  '1': 1,
+  '2': 2,
+  '3': 3
+) !default;
+
+/// ## Config
+
+$bb-flex-grow-config: (
+  'name': 'flx-g',
+  'prop': 'flex-grow',
+  'bps': $bb-bps,
+  'values': $bb-flex-grow-values
+) !default;
+
+@include bb-utility-class($bb-flex-grow-config);

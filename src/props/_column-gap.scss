@@ -1,0 +1,18 @@
+////
+/// @group text
+////
+
+/// ## Values
+
+$bb-column-gap-values: $bb-spacing !default;
+
+/// ## Config
+
+$bb-column-gap-config: (
+  'name': 'col-gap',
+  'prop': 'column-gap',
+  'bps': $bb-bps,
+  'values': $bb-column-gap-values
+) !default;
+
+@include bb-utility-class($bb-column-gap-config);

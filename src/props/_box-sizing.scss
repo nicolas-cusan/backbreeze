@@ -1,0 +1,23 @@
+////
+/// @group size
+////
+
+/// ## Values
+
+$bb-box-sizing-values: (
+  'border': border-box,
+  'padding': padding-box,
+  'content': content-box,
+  'inherit': inherit
+) !default;
+
+/// ## Config
+
+$bb-box-sizing-config: (
+  'name': 'bxsize',
+  'prop': 'box-sizing',
+  'bps': $bb-bps,
+  'values': $bb-box-sizing-values
+) !default;
+
+@include bb-utility-class($bb-box-sizing-config);

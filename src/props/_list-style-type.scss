@@ -1,0 +1,22 @@
+////
+/// @group text
+////
+
+/// ## Values
+
+$bb-list-style-type-values: (
+  'none': none,
+  'disc': disc,
+  'decimal': decimal
+) !default;
+
+/// ## Config
+
+$bb-list-style-type-config: (
+  'name': 'list-type',
+  'prop': 'list-style-type',
+  'bps': $bb-bps,
+  'values': $bb-list-style-type-values
+) !default;
+
+@include bb-utility-class($bb-list-style-type-config);

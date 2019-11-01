@@ -1,0 +1,20 @@
+////
+/// @group decoration
+////
+
+/// ## Values
+
+$bb-appearance-values: (
+  'none': none
+) !default;
+
+/// ## Config
+
+$bb-appearance-config: (
+  'name': 'appr',
+  'prop': 'appearance',
+  'bps': $bb-bps,
+  'values': $bb-appearance-values
+) !default;
+
+@include bb-utility-class($bb-appearance-config);

@@ -1,0 +1,21 @@
+////
+/// @group text
+////
+
+/// ## Values
+
+$bb-font-style-values: (
+  'italic': italic,
+  'normal': normal
+) !default;
+
+/// ## Config
+
+$bb-font-style-config: (
+  'name': 'fstyl',
+  'prop': 'font-style',
+  'bps': $bb-bps,
+  'values': $bb-font-style-values
+) !default;
+
+@include bb-utility-class($bb-font-style-config);

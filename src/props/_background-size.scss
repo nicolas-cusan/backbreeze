@@ -1,0 +1,22 @@
+////
+/// @group background
+////
+
+/// ## Values
+
+$bb-background-size-values: (
+  'contain': contain,
+  'cover': cover,
+  'auto': auto
+) !default;
+
+/// ## Config
+
+$bb-background-size-config: (
+  'name': 'bg-s',
+  'prop': 'background-size',
+  'bps': $bb-bps,
+  'values': $bb-background-size-values
+) !default;
+
+@include bb-utility-class($bb-background-size-config);

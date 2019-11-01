@@ -1,0 +1,21 @@
+////
+/// @group text
+////
+
+/// ## Values
+
+$bb-list-style-position-values: (
+  'inside': inside,
+  'outside': outside
+) !default;
+
+/// ## Config
+
+$bb-list-style-position-config: (
+  'name': 'list-pos',
+  'prop': 'list-style-position',
+  'bps': $bb-bps,
+  'values': $bb-list-style-position-values
+) !default;
+
+@include bb-utility-class($bb-list-style-position-config);

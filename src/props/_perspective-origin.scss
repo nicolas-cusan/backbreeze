@@ -1,0 +1,20 @@
+////
+/// @group transform
+////
+
+/// ## Values
+
+$bb-perspective-origin-values: (
+  'center': center
+) !default;
+
+/// ## Config
+
+$bb-perspective-origin-config: (
+  'name': 'perspective-origin',
+  'prop': 'perspective-origin',
+  'bps': $bb-bps,
+  'values': $bb-perspective-origin-values
+) !default;
+
+@include bb-utility-class($bb-perspective-origin-config);

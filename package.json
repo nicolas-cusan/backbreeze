@@ -5,7 +5,8 @@
   "main": "bb.scss",
   "scripts": {
     "watch": "node-sass src/bb.scss -o dist --output-style expanded --source-map true && node-sass -rw src -o dist --output-style expanded --source-map true",
-    "data": "node scripts/sassdoc.js"
+    "data": "node scripts/sassdoc.js",
+    "build": "node-sass src/bb.scss -o dist --output-style expanded --source-map true"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   },
   "homepage": "https://github.com/nicolas-cusan/backbreeze#readme",
   "devDependencies": {
+    "del": "^5.1.0",
     "node-sass": "^4.12.0",
     "sassdoc": "^2.7.1"
   }

@@ -1,0 +1,22 @@
+////
+/// @group text
+////
+
+/// ## Values
+
+$bb-column-count-values: (
+  '1': 1,
+  '2': 2,
+  '3': 3
+) !default;
+
+/// ## Config
+
+$bb-column-count-config: (
+  'name': 'col-c',
+  'prop': 'column-count',
+  'bps': $bb-bps,
+  'values': $bb-column-count-values
+) !default;
+
+@include bb-utility-class($bb-column-count-config);

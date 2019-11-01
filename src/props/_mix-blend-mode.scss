@@ -1,0 +1,35 @@
+////
+/// @group decoration
+////
+
+/// ## Values
+
+$bb-mix-blend-mode-values: (
+  'normal': normal,
+  'multiply': multiply,
+  'screen': screen,
+  'overlay': overlay,
+  'darken': darken,
+  'lighten': lighten,
+  'color-dodge': color-dodge,
+  'color-burn': color-burn,
+  'hard-light': hard-light,
+  'soft-light': soft-light,
+  'difference': difference,
+  'exclusion': exclusion,
+  'hue': hue,
+  'saturation': saturation,
+  'color': color,
+  'luminosity': luminosity
+) !default;
+
+/// ## Config
+
+$bb-mix-blend-mode-config: (
+  'name': 'blend',
+  'prop': 'mix-blend-mode',
+  'bps': $bb-bps,
+  'values': $bb-mix-blend-mode-values
+) !default;
+
+@include bb-utility-class($bb-mix-blend-mode-config);

@@ -1,0 +1,18 @@
+////
+/// @group layout
+////
+
+/// ## Values
+
+$bb-max-width-values: $bb-spacing !default;
+
+/// ## Config
+
+$bb-max-width-config: (
+  'name': 'maxw',
+  'prop': 'max-width',
+  'bps': $bb-bps,
+  'values': $bb-max-width-values
+) !default;
+
+@include bb-utility-class($bb-max-width-config);

@@ -57,9 +57,11 @@ grid-template-rows
 hyphens
 
 image-rendering
-
 inset
 isolation
+
+justify-items
+justify-self
 
 line-break
 

@@ -1,0 +1,23 @@
+////
+/// @group border
+////
+
+/// ## Values
+
+$bb-border-width-values: (
+  '0': 0,
+  '1': 1px,
+  '2': 2px,
+  '3': 3px
+) !default;
+
+/// ## Config
+
+$bb-border-width-config: (
+  'name': 'b-w',
+  'prop': 'border-width',
+  'bps': $bb-bps,
+  'values': $bb-border-width-values
+) !default;
+
+@include bb-utility-class($bb-border-width-config);

@@ -1,0 +1,21 @@
+////
+/// @group table
+////
+
+/// ## Values
+
+$bb-table-layout-values: (
+  'auto': auto,
+  'fixed': fixed
+) !default;
+
+/// ## Config
+
+$bb-table-layout-config: (
+  'name': 'tbl-layout',
+  'prop': 'table-layout',
+  'bps': $bb-bps,
+  'values': $bb-table-layout-values
+) !default;
+
+@include bb-utility-class($bb-table-layout-config);

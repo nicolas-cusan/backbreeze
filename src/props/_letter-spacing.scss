@@ -1,0 +1,20 @@
+////
+/// @group text
+////
+
+/// ## Values
+
+$bb-letter-spacing-values: (
+  'sm': 0.02em
+) !default;
+
+/// ## Config
+
+$bb-letter-spacing-config: (
+  'name': 'ls',
+  'prop': 'letter-spacing',
+  'bps': $bb-bps,
+  'values': $bb-letter-spacing-values
+) !default;
+
+@include bb-utility-class($bb-letter-spacing-config);

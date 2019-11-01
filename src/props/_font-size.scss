@@ -1,0 +1,22 @@
+////
+/// @group text
+////
+
+/// ## Values
+
+$bb-font-size-values: (
+  'inherit': inherit,
+  '16': 16px,
+  '1em': 1em
+) !default;
+
+/// ## Config
+
+$bb-font-size-config: (
+  'name': 'fs',
+  'prop': 'font-size',
+  'bps': $bb-bps,
+  'values': $bb-font-size-values
+) !default;
+
+@include bb-utility-class($bb-font-size-config);

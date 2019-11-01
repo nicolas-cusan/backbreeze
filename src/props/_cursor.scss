@@ -1,0 +1,26 @@
+////
+/// @group interactivity
+////
+
+/// ## Values
+
+$bb-cursor-values: (
+  'default': default,
+  'pointer': pointer,
+  'auto': auto,
+  'none': none,
+  'wait': wait,
+  'text': text,
+  'not-allowed': not-allowed
+) !default;
+
+/// ## Config
+
+$bb-cursor-config: (
+  'name': 'cur',
+  'prop': 'cursor',
+  'bps': $bb-bps,
+  'values': $bb-cursor-values
+) !default;
+
+@include bb-utility-class($bb-cursor-config);

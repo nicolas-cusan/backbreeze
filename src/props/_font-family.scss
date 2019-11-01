@@ -1,0 +1,24 @@
+////
+/// @group text
+////
+
+/// ## Values
+
+$bb-font-family-values: (
+  '': (
+    'Helvetica Neue',
+    'Arial',
+    sans-serif
+  )
+) !default;
+
+/// ## Config
+
+$bb-font-family-config: (
+  'name': 'ff',
+  'prop': 'font-family',
+  'bps': $bb-bps,
+  'values': $bb-font-family-values
+) !default;
+
+@include bb-utility-class($bb-font-family-config);

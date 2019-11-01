@@ -1,0 +1,20 @@
+////
+/// @group text
+////
+
+/// ## Values
+
+$bb-text-indent-values: (
+  '100\\%': 100%
+) !default;
+
+/// ## Config
+
+$bb-text-indent-config: (
+  'name': 'ti',
+  'prop': 'text-indent',
+  'bps': $bb-bps,
+  'values': $bb-text-indent-values
+) !default;
+
+@include bb-utility-class($bb-text-indent-config);

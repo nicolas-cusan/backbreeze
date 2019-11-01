@@ -1,0 +1,18 @@
+////
+/// @group flex
+////
+
+/// ## Values
+
+$bb-flex-basis-values: $bb-spacing !default;
+
+/// ## Config
+
+$bb-flex-basis-config: (
+  'name': 'flx-b',
+  'prop': 'flex-basis',
+  'bps': $bb-bps,
+  'values': $bb-flex-basis-values
+) !default;
+
+@include bb-utility-class($bb-flex-basis-config);

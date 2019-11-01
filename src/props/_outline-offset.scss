@@ -1,0 +1,25 @@
+////
+/// @group outline
+////
+
+/// ## Values
+
+$bb-outline-offset-values: (
+  '0': 0,
+  '1': 1px,
+  '2': 2px,
+  '3': 3px,
+  '4': 4px
+) !default;
+
+/// ## Config
+
+$bb-outline-offset-config: (
+  'name': 'ol-off',
+  'prop': 'outline-offset',
+  'bps': $bb-bps,
+  'pseudo': $bb-pseudo,
+  'values': $bb-outline-offset-values
+) !default;
+
+@include bb-utility-class($bb-outline-offset-config);

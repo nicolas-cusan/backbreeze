@@ -1,0 +1,18 @@
+////
+/// @group layout
+////
+
+/// ## Values
+
+$bb-min-width-values: $bb-spacing !default;
+
+/// ## Config
+
+$bb-min-width-config: (
+  'name': 'minw',
+  'prop': 'min-width',
+  'bps': $bb-bps,
+  'values': $bb-min-width-values
+) !default;
+
+@include bb-utility-class($bb-min-width-config);

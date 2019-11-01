@@ -2,15 +2,17 @@
 /// @group transforms
 ////
 
-/// # backface-visibility
+/// ## Values
+
 $bb-backface-visibility-values: (
   'visible': visible,
   'hidden': hidden
 ) !default;
 
-// Config
+// ## Config
+
 $bb-backface-visibility-config: (
-  'name': 'bkfv',
+  'name': 'bckvis',
   'prop': 'backface-visibility',
   'values': $bb-backface-visibility-values
 ) !default;

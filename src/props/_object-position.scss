@@ -1,0 +1,20 @@
+////
+/// @group layout
+////
+
+/// ## Values
+
+$bb-object-position-values: (
+  '50\\%': 50%
+) !default;
+
+/// ## Config
+
+$bb-object-position-config: (
+  'name': 'objp',
+  'prop': 'object-position',
+  'bps': $bb-bps,
+  'values': $bb-object-position-values
+) !default;
+
+@include bb-utility-class($bb-object-position-config);

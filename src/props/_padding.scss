@@ -1,0 +1,18 @@
+////
+/// @group spacing
+////
+
+/// ## Values
+
+$bb-padding-values: $bb-spacing !default;
+
+/// ## Config
+
+$bb-padding-config: (
+  'name': 'p',
+  'prop': 'padding',
+  'bps': $bb-bps,
+  'values': $bb-padding-values
+) !default;
+
+@include bb-utility-class($bb-padding-config);

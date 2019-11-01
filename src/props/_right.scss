@@ -1,0 +1,25 @@
+////
+/// @group layout
+////
+
+/// ## Values
+
+$bb-right-values: map-merge(
+  $bb-spacing,
+  (
+    '0': 0,
+    '50\\%': 50%,
+    'auto': auto
+  )
+) !default;
+
+/// ## Config
+
+$bb-right-config: (
+  'name': 'rgt',
+  'prop': 'right',
+  'bps': $bb-bps,
+  'values': $bb-right-values
+) !default;
+
+@include bb-utility-class($bb-right-config);

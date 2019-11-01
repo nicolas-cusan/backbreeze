@@ -1,0 +1,18 @@
+////
+/// @group layout
+////
+
+/// ## Values
+
+$bb-height-values: $bb-spacing !default;
+
+/// ## Config
+
+$bb-height-config: (
+  'name': 'h',
+  'prop': 'height',
+  'bps': $bb-bps,
+  'values': $bb-height-values
+) !default;
+
+@include bb-utility-class($bb-height-config);

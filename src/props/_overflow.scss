@@ -1,0 +1,18 @@
+////
+/// @group layout
+////
+
+/// ## Values
+
+$bb-overflow-values: $bb-overflow !default;
+
+/// ## Config
+
+$bb-overflow-config: (
+  'name': 'of',
+  'prop': 'overflow',
+  'bps': $bb-bps,
+  'values': $bb-overflow-values
+) !default;
+
+@include bb-utility-class($bb-overflow-config);

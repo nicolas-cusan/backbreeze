@@ -1,0 +1,22 @@
+////
+/// @group flex
+////
+
+/// ## Values
+
+$bb-flex-values: (
+  'none': none,
+  'initial': initial,
+  'auto': auto
+) !default;
+
+/// ## Config
+
+$bb-flex-config: (
+  'name': 'flx',
+  'prop': 'flex',
+  'bps': $bb-bps,
+  'values': $bb-flex-values
+) !default;
+
+@include bb-utility-class($bb-flex-config);

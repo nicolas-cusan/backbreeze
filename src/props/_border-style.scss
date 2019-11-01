@@ -1,0 +1,22 @@
+////
+/// @group border
+////
+
+/// ## Values
+
+$bb-border-style-values: (
+  'dotted': dotted,
+  'dashed': dashed,
+  'solid': solid
+) !default;
+
+/// ## Config
+
+$bb-border-style-config: (
+  'name': 'b-s',
+  'prop': 'border-style',
+  'bps': $bb-bps,
+  'values': $bb-border-style-values
+) !default;
+
+@include bb-utility-class($bb-border-style-config);

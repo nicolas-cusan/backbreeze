@@ -1,0 +1,25 @@
+////
+/// @group layout
+////
+
+/// ## Values
+
+$bb-bottom-values: map-merge(
+  $bb-spacing,
+  (
+    '0': 0,
+    '50\\%': 50%,
+    'auto': auto
+  )
+) !default;
+
+/// ## Config
+
+$bb-bottom-config: (
+  'name': 'btm',
+  'prop': 'bottom',
+  'bps': $bb-bps,
+  'values': $bb-bottom-values
+) !default;
+
+@include bb-utility-class($bb-bottom-config);

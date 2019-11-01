@@ -4,7 +4,8 @@
 
 ```scss
 bb-background-position-values: (
-  '50\\%': 50%
+  'no-repeat': no-repeat,
+  'repeat': repeat
 );
 ```
 
@@ -15,7 +16,7 @@ Config
 
 ```scss
 bb-background-position-config: (
-  'name': 'bg-p',
+  'name': 'bg-r',
   'prop': 'background-position',
   'bps': $bb-bps,
   'values': $bb-background-position-values

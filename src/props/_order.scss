@@ -1,0 +1,27 @@
+////
+/// @group flex
+////
+
+/// ## Values
+
+$bb-order-values: (
+  '0': 0,
+  '1': 1,
+  '2': 2,
+  '3': 3,
+  '4': 4,
+  '5': 5,
+  '6': 6,
+  'last': 999
+) !default;
+
+/// ## Config
+
+$bb-order-config: (
+  'name': 'ord',
+  'prop': 'order',
+  'bps': $bb-bps,
+  'values': $bb-order-values
+) !default;
+
+@include bb-utility-class($bb-order-config);

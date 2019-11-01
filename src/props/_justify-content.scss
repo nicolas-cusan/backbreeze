@@ -1,0 +1,25 @@
+////
+/// @group flex
+////
+
+/// ## Values
+
+$bb-justify-content-values: (
+  'center': center,
+  'start': flex-start,
+  'end': flex-end,
+  'between': space-between,
+  'around': space-around,
+  'evenly': space-evenly
+) !default;
+
+/// ## Config
+
+$bb-justify-content-config: (
+  'name': 'jfy',
+  'prop': 'justify-content',
+  'bps': $bb-bps,
+  'values': $bb-justify-content-values
+) !default;
+
+@include bb-utility-class($bb-justify-content-config);

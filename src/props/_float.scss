@@ -1,0 +1,22 @@
+////
+/// @group layout
+////
+
+/// ## Values
+
+$bb-float-values: (
+  'lft': left,
+  'rgt': right,
+  'none': none
+) !default;
+
+/// ## Config
+
+$bb-float-config: (
+  'name': 'flt',
+  'prop': 'float',
+  'bps': $bb-bps,
+  'values': $bb-float-values
+) !default;
+
+@include bb-utility-class($bb-float-config);

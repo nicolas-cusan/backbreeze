@@ -11,6 +11,7 @@ $bb-directional-properties: (
   'border-color',
   'border-radius'
 ) !default;
+
 $bb-negative-properties: ('margin', 'top', 'left', 'bottom', 'right') !default;
 
 $bb-bps: (
@@ -36,4 +37,11 @@ $bb-spacing: (
 $bb-colors: (
   'white': '#fff',
   'black': '#000'
+) !default;
+
+$bb-overflow: (
+  'hidden': hidden,
+  'visible': visible,
+  'scroll': scroll,
+  'auto': auto
 ) !default;

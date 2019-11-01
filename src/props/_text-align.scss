@@ -1,0 +1,23 @@
+////
+/// @group text
+////
+
+/// ## Values
+
+$bb-text-align-values: (
+  'center': center,
+  'lft': left,
+  'rgt': right,
+  'inherit': inherit
+) !default;
+
+/// ## Config
+
+$bb-text-align-config: (
+  'name': 'ta',
+  'prop': 'text-align',
+  'bps': $bb-bps,
+  'values': $bb-text-align-values
+) !default;
+
+@include bb-utility-class($bb-text-align-config);

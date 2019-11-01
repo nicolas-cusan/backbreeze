@@ -1,0 +1,22 @@
+////
+/// @group flex
+////
+
+/// ## Values
+
+$bb-flex-wrap-values: (
+  'nowrap': nowrap,
+  'wrap': wrap,
+  'wrap-reverse': wrap-reverse
+) !default;
+
+/// ## Config
+
+$bb-flex-wrap-config: (
+  'name': 'flx-w',
+  'prop': 'flex-wrap',
+  'bps': $bb-bps,
+  'values': $bb-flex-wrap-values
+) !default;
+
+@include bb-utility-class($bb-flex-wrap-config);

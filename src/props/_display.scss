@@ -1,0 +1,29 @@
+////
+/// @group layout
+////
+
+/// ## Values
+
+$bb-display-values: (
+  'none': none,
+  'blk': block,
+  'inl': inline,
+  'ibl': inline-block,
+  'flx': flex,
+  'iflx': inline-flex,
+  'tbl': table,
+  'tblc': table-cell,
+  'tblr': table-row,
+  'inherit': inherit
+) !default;
+
+/// ## Config
+
+$bb-display-config: (
+  'name': 'd',
+  'prop': 'display',
+  'bps': $bb-bps,
+  'values': $bb-display-values
+) !default;
+
+@include bb-utility-class($bb-display-config);

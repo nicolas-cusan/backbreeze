@@ -1,0 +1,19 @@
+////
+/// @group text
+////
+
+/// ## Values
+
+$bb-color-values: $bb-colors !default;
+
+/// ## Config
+
+$bb-color-config: (
+  'name': 'c',
+  'prop': 'color',
+  'bps': $bb-bps,
+  'pseudo': $bb-pseudo,
+  'values': $bb-color-values
+) !default;
+
+@include bb-utility-class($bb-color-config);

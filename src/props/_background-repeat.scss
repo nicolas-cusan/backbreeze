@@ -1,0 +1,20 @@
+////
+/// @group background
+////
+
+/// ## Values
+
+$bb-background-repeat-values: (
+  'no-repeat': no-repeat
+) !default;
+
+/// ## Config
+
+$bb-background-repeat-config: (
+  'name': 'bg-r',
+  'prop': 'background-repeat',
+  'bps': $bb-bps,
+  'values': $bb-background-repeat-values
+) !default;
+
+@include bb-utility-class($bb-background-repeat-config);

@@ -1,0 +1,23 @@
+////
+/// @group outline
+////
+
+/// ## Values
+
+$bb-outline-style-values: (
+  'dotted': dotted,
+  'dashed': dashed,
+  'solid': solid
+) !default;
+
+/// ## Config
+
+$bb-outline-style-config: (
+  'name': 'ol-off',
+  'prop': 'outline-style',
+  'bps': $bb-bps,
+  'pseudo': $bb-pseudo,
+  'values': $bb-outline-style-values
+) !default;
+
+@include bb-utility-class($bb-outline-style-config);

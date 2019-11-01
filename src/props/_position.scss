@@ -1,0 +1,24 @@
+////
+/// @group layout
+////
+
+/// ## Values
+
+$bb-position-values: (
+  'static': static,
+  'rel': relative,
+  'abs': absolute,
+  'fxd': fixed,
+  'sticky': sticky
+) !default;
+
+/// ## Config
+
+$bb-position-config: (
+  'name': 'pos',
+  'prop': 'position',
+  'bps': $bb-bps,
+  'values': $bb-position-values
+) !default;
+
+@include bb-utility-class($bb-position-config);

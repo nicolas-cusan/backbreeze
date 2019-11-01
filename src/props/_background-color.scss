@@ -2,14 +2,17 @@
 /// @group background
 ////
 
-/// # background-color
+/// ## Values
+
 $bb-background-color-values: $bb-colors !default;
 
-/// Config
+/// ## Config
+
 $bb-background-color-config: (
   'name': 'bg-c',
   'prop': 'background-color',
   'bps': $bb-bps,
+  'pseudo': $bb-pseudo,
   'values': $bb-background-color-values
 ) !default;
 

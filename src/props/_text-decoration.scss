@@ -1,0 +1,22 @@
+////
+/// @group text
+////
+
+/// ## Values
+
+$bb-text-decoration-values: (
+  'under': underline,
+  'strike': overline,
+  'none': none
+) !default;
+
+/// ## Config
+
+$bb-text-decoration-config: (
+  'name': 'td',
+  'prop': 'text-decoration',
+  'bps': $bb-bps,
+  'values': $bb-text-decoration-values
+) !default;
+
+@include bb-utility-class($bb-text-decoration-config);

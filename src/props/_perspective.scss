@@ -1,0 +1,20 @@
+////
+/// @group transform
+////
+
+/// ## Values
+
+$bb-perspective-values: (
+  '500': 500px
+) !default;
+
+/// ## Config
+
+$bb-perspective-config: (
+  'name': 'perspective',
+  'prop': 'perspective',
+  'bps': $bb-bps,
+  'values': $bb-perspective-values
+) !default;
+
+@include bb-utility-class($bb-perspective-config);

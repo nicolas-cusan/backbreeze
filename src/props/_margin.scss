@@ -1,0 +1,24 @@
+////
+/// @group spacing
+////
+
+/// ## Values
+
+$bb-margin-values: map-merge(
+  $bb-spacing,
+  (
+    '50\\%': 50%,
+    'auto': auto
+  )
+) !default;
+
+/// ## Config
+
+$bb-margin-config: (
+  'name': 'm',
+  'prop': 'margin',
+  'bps': $bb-bps,
+  'values': $bb-margin-values
+) !default;
+
+@include bb-utility-class($bb-margin-config);

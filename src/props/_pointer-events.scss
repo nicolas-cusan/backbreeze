@@ -1,0 +1,21 @@
+////
+/// @group interactivity
+////
+
+/// ## Values
+
+$bb-pointer-events-values: (
+  'auto': auto,
+  'none': none
+) !default;
+
+/// ## Config
+
+$bb-pointer-events-config: (
+  'name': 'pointer',
+  'prop': 'pointer-events',
+  'bps': $bb-bps,
+  'values': $bb-pointer-events-values
+) !default;
+
+@include bb-utility-class($bb-pointer-events-config);

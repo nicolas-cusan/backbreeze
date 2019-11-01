@@ -2,7 +2,8 @@
 /// @group background
 ////
 
-/// # background-blend-mode
+/// ## Values
+
 $bb-background-blend-mode-values: (
   'normal': normal,
   'multiply': multiply,
@@ -22,7 +23,8 @@ $bb-background-blend-mode-values: (
   'luminosity': luminosity
 ) !default;
 
-/// Config
+/// ## Config
+
 $bb-background-blend-mode-config: (
   'name': 'bg-bm',
   'prop': 'background-blend-mode',

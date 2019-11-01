@@ -1,0 +1,23 @@
+////
+/// @group interactivity
+////
+
+/// ## Values
+
+$bb-resize-values: (
+  'none': none,
+  'y': vertical,
+  'x': horizontal,
+  '': both
+) !default;
+
+/// ## Config
+
+$bb-resize-config: (
+  'name': 'rze',
+  'prop': 'resize',
+  'bps': $bb-bps,
+  'values': $bb-resize-values
+) !default;
+
+@include bb-utility-class($bb-resize-config);

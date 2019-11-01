@@ -1,0 +1,23 @@
+////
+/// @group layout
+////
+
+/// ## Values
+
+$bb-clear-values: (
+  'left': left,
+  'right': right,
+  'both': both,
+  'none': none
+) !default;
+
+/// ## Config
+
+$bb-clear-config: (
+  'name': 'clear',
+  'prop': 'clear',
+  'bps': $bb-bps,
+  'values': $bb-clear-values
+) !default;
+
+@include bb-utility-class($bb-clear-config);

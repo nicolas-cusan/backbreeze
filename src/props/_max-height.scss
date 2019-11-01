@@ -1,0 +1,18 @@
+////
+/// @group layout
+////
+
+/// ## Values
+
+$bb-max-height-values: $bb-spacing !default;
+
+/// ## Config
+
+$bb-max-height-config: (
+  'name': 'maxh',
+  'prop': 'max-height',
+  'bps': $bb-bps,
+  'values': $bb-max-height-values
+) !default;
+
+@include bb-utility-class($bb-max-height-config);

@@ -2,12 +2,16 @@
 /// @group background
 ////
 
-/// # background-position
-$bb-background-position-values: () !default;
+/// ## Values
 
-/// Config
+$bb-background-position-values: (
+  '50\\%': 50%
+) !default;
+
+/// ## Config
+
 $bb-background-position-config: (
-  'name': 'bga',
+  'name': 'bg-p',
   'prop': 'background-position',
   'bps': $bb-bps,
   'values': $bb-background-position-values

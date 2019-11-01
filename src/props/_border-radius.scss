@@ -1,0 +1,25 @@
+////
+/// @group decoration
+////
+
+/// ## Values
+
+$bb-border-radius-values: (
+  '2': 2px,
+  '3': 3px,
+  '4': 4px,
+  '10': 10px,
+  '50\\%': 50%,
+  'rounded': 9999px
+) !default;
+
+/// ## Config
+
+$bb-border-radius-config: (
+  'name': 'br',
+  'prop': 'border-radius',
+  'bps': $bb-bps,
+  'values': $bb-border-radius-values
+) !default;
+
+@include bb-utility-class($bb-border-radius-config);
