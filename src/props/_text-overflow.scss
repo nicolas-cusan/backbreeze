@@ -1,0 +1,21 @@
+////
+/// @group text
+////
+
+/// ## Values
+
+$bb-text-overflow-values: (
+  'ellipsis': ellipsis,
+  'none': none
+) !default;
+
+/// ## Config
+
+$bb-text-overflow-config: (
+  'name': 'to',
+  'prop': 'text-overflow',
+  'bps': $bb-bps,
+  'values': $bb-text-overflow-values
+) !default;
+
+@include bb-utility-class($bb-text-overflow-config);

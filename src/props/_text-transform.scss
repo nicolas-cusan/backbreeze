@@ -1,0 +1,26 @@
+////
+/// @group text
+////
+
+/// ## Values
+
+$bb-text-transform-values: (
+  'caps': uppercase,
+  'uppercase': uppercase,
+  'lower': lowercase,
+  'lowercase': lowercase,
+  'title': capitalize,
+  'capitalize': capitalize,
+  'none': none
+) !default;
+
+/// ## Config
+
+$bb-text-transform-config: (
+  'name': 'tt',
+  'prop': 'text-transform',
+  'bps': $bb-bps,
+  'values': $bb-text-transform-values
+) !default;
+
+@include bb-utility-class($bb-text-transform-config);

@@ -1,0 +1,25 @@
+////
+/// @group layout
+////
+
+/// ## Values
+
+$bb-top-values: map-merge(
+  $bb-spacing,
+  (
+    '0': 0,
+    '50\\%': 50%,
+    'auto': auto
+  )
+) !default;
+
+/// ## Config
+
+$bb-top-config: (
+  'name': 'top',
+  'prop': 'top',
+  'bps': $bb-bps,
+  'values': $bb-top-values
+) !default;
+
+@include bb-utility-class($bb-top-config);
