@@ -1,0 +1,28 @@
+////
+/// @group transform
+////
+
+/// ## Values
+
+$bb-transform-origin-values: (
+  'center': center,
+  'tl': left top,
+  'tr': right top,
+  'bl': left bottom,
+  'br': right bottom,
+  'cl': left center,
+  'cr': right center,
+  'ct': center top,
+  'cb': center bottom
+) !default;
+
+/// ## Config
+
+$bb-transform-origin-config: (
+  'name': 'to',
+  'prop': 'transform-origin',
+  'bps': $bb-bps,
+  'values': $bb-transform-origin-values
+) !default;
+
+@include bb-utility-class($bb-transform-origin-config);

@@ -4825,7 +4825,6 @@
   bottom: 1px;
 }
 
-
 .-btm-1 {
   bottom: -1px;
 }
@@ -4834,7 +4833,6 @@
 .btm-2 {
   bottom: 2px;
 }
-
 
 .-btm-2 {
   bottom: -2px;
@@ -4845,7 +4843,6 @@
   bottom: 3px;
 }
 
-
 .-btm-3 {
   bottom: -3px;
 }
@@ -4854,7 +4851,6 @@
 .btm-4 {
   bottom: 4px;
 }
-
 
 .-btm-4 {
   bottom: -4px;
@@ -4865,7 +4861,6 @@
   bottom: 26px;
 }
 
-
 .-btm {
   bottom: -26px;
 }
@@ -4875,7 +4870,6 @@
   bottom: 0;
 }
 
-
 .-btm-0 {
   bottom: -0;
 }
@@ -4884,7 +4878,6 @@
 .btm-50\% {
   bottom: 50%;
 }
-
 
 .-btm-50\% {
   bottom: -50%;
@@ -4900,7 +4893,6 @@
   .btm-1\@xs {
     bottom: 1px;
   }
-  
   .-btm-1\@xs {
     bottom: -1px;
   }
@@ -4908,7 +4900,6 @@
   .btm-2\@xs {
     bottom: 2px;
   }
-  
   .-btm-2\@xs {
     bottom: -2px;
   }
@@ -4916,7 +4907,6 @@
   .btm-3\@xs {
     bottom: 3px;
   }
-  
   .-btm-3\@xs {
     bottom: -3px;
   }
@@ -4924,7 +4914,6 @@
   .btm-4\@xs {
     bottom: 4px;
   }
-  
   .-btm-4\@xs {
     bottom: -4px;
   }
@@ -4932,7 +4921,6 @@
   .btm\@xs {
     bottom: 26px;
   }
-  
   .-btm\@xs {
     bottom: -26px;
   }
@@ -4940,7 +4928,6 @@
   .btm-0\@xs {
     bottom: 0;
   }
-  
   .-btm-0\@xs {
     bottom: -0;
   }
@@ -4948,7 +4935,6 @@
   .btm-50\%\@xs {
     bottom: 50%;
   }
-  
   .-btm-50\%\@xs {
     bottom: -50%;
   }
@@ -4963,7 +4949,6 @@
   .btm-1\@sm {
     bottom: 1px;
   }
-  
   .-btm-1\@sm {
     bottom: -1px;
   }
@@ -4971,7 +4956,6 @@
   .btm-2\@sm {
     bottom: 2px;
   }
-  
   .-btm-2\@sm {
     bottom: -2px;
   }
@@ -4979,7 +4963,6 @@
   .btm-3\@sm {
     bottom: 3px;
   }
-  
   .-btm-3\@sm {
     bottom: -3px;
   }
@@ -4987,7 +4970,6 @@
   .btm-4\@sm {
     bottom: 4px;
   }
-  
   .-btm-4\@sm {
     bottom: -4px;
   }
@@ -4995,7 +4977,6 @@
   .btm\@sm {
     bottom: 26px;
   }
-  
   .-btm\@sm {
     bottom: -26px;
   }
@@ -5003,7 +4984,6 @@
   .btm-0\@sm {
     bottom: 0;
   }
-  
   .-btm-0\@sm {
     bottom: -0;
   }
@@ -5011,7 +4991,6 @@
   .btm-50\%\@sm {
     bottom: 50%;
   }
-  
   .-btm-50\%\@sm {
     bottom: -50%;
   }
@@ -5026,7 +5005,6 @@
   .btm-1\@md {
     bottom: 1px;
   }
-  
   .-btm-1\@md {
     bottom: -1px;
   }
@@ -5034,7 +5012,6 @@
   .btm-2\@md {
     bottom: 2px;
   }
-  
   .-btm-2\@md {
     bottom: -2px;
   }
@@ -5042,7 +5019,6 @@
   .btm-3\@md {
     bottom: 3px;
   }
-  
   .-btm-3\@md {
     bottom: -3px;
   }
@@ -5050,7 +5026,6 @@
   .btm-4\@md {
     bottom: 4px;
   }
-  
   .-btm-4\@md {
     bottom: -4px;
   }
@@ -5058,7 +5033,6 @@
   .btm\@md {
     bottom: 26px;
   }
-  
   .-btm\@md {
     bottom: -26px;
   }
@@ -5066,7 +5040,6 @@
   .btm-0\@md {
     bottom: 0;
   }
-  
   .-btm-0\@md {
     bottom: -0;
   }
@@ -5074,7 +5047,6 @@
   .btm-50\%\@md {
     bottom: 50%;
   }
-  
   .-btm-50\%\@md {
     bottom: -50%;
   }
@@ -5089,7 +5061,6 @@
   .btm-1\@lg {
     bottom: 1px;
   }
-  
   .-btm-1\@lg {
     bottom: -1px;
   }
@@ -5097,7 +5068,6 @@
   .btm-2\@lg {
     bottom: 2px;
   }
-  
   .-btm-2\@lg {
     bottom: -2px;
   }
@@ -5105,7 +5075,6 @@
   .btm-3\@lg {
     bottom: 3px;
   }
-  
   .-btm-3\@lg {
     bottom: -3px;
   }
@@ -5113,7 +5082,6 @@
   .btm-4\@lg {
     bottom: 4px;
   }
-  
   .-btm-4\@lg {
     bottom: -4px;
   }
@@ -5121,7 +5089,6 @@
   .btm\@lg {
     bottom: 26px;
   }
-  
   .-btm\@lg {
     bottom: -26px;
   }
@@ -5129,7 +5096,6 @@
   .btm-0\@lg {
     bottom: 0;
   }
-  
   .-btm-0\@lg {
     bottom: -0;
   }
@@ -5137,7 +5103,6 @@
   .btm-50\%\@lg {
     bottom: 50%;
   }
-  
   .-btm-50\%\@lg {
     bottom: -50%;
   }
@@ -5152,7 +5117,6 @@
   .btm-1\@xl {
     bottom: 1px;
   }
-  
   .-btm-1\@xl {
     bottom: -1px;
   }
@@ -5160,7 +5124,6 @@
   .btm-2\@xl {
     bottom: 2px;
   }
-  
   .-btm-2\@xl {
     bottom: -2px;
   }
@@ -5168,7 +5131,6 @@
   .btm-3\@xl {
     bottom: 3px;
   }
-  
   .-btm-3\@xl {
     bottom: -3px;
   }
@@ -5176,7 +5138,6 @@
   .btm-4\@xl {
     bottom: 4px;
   }
-  
   .-btm-4\@xl {
     bottom: -4px;
   }
@@ -5184,7 +5145,6 @@
   .btm\@xl {
     bottom: 26px;
   }
-  
   .-btm\@xl {
     bottom: -26px;
   }
@@ -5192,7 +5152,6 @@
   .btm-0\@xl {
     bottom: 0;
   }
-  
   .-btm-0\@xl {
     bottom: -0;
   }
@@ -5200,7 +5159,6 @@
   .btm-50\%\@xl {
     bottom: 50%;
   }
-  
   .-btm-50\%\@xl {
     bottom: -50%;
   }
@@ -8030,7 +7988,6 @@
   left: 1px;
 }
 
-
 .-lft-1 {
   left: -1px;
 }
@@ -8039,7 +7996,6 @@
 .lft-2 {
   left: 2px;
 }
-
 
 .-lft-2 {
   left: -2px;
@@ -8050,7 +8006,6 @@
   left: 3px;
 }
 
-
 .-lft-3 {
   left: -3px;
 }
@@ -8059,7 +8014,6 @@
 .lft-4 {
   left: 4px;
 }
-
 
 .-lft-4 {
   left: -4px;
@@ -8070,7 +8024,6 @@
   left: 26px;
 }
 
-
 .-lft {
   left: -26px;
 }
@@ -8080,7 +8033,6 @@
   left: 0;
 }
 
-
 .-lft-0 {
   left: -0;
 }
@@ -8089,7 +8041,6 @@
 .lft-50\% {
   left: 50%;
 }
-
 
 .-lft-50\% {
   left: -50%;
@@ -8105,7 +8056,6 @@
   .lft-1\@xs {
     left: 1px;
   }
-  
   .-lft-1\@xs {
     left: -1px;
   }
@@ -8113,7 +8063,6 @@
   .lft-2\@xs {
     left: 2px;
   }
-  
   .-lft-2\@xs {
     left: -2px;
   }
@@ -8121,7 +8070,6 @@
   .lft-3\@xs {
     left: 3px;
   }
-  
   .-lft-3\@xs {
     left: -3px;
   }
@@ -8129,7 +8077,6 @@
   .lft-4\@xs {
     left: 4px;
   }
-  
   .-lft-4\@xs {
     left: -4px;
   }
@@ -8137,7 +8084,6 @@
   .lft\@xs {
     left: 26px;
   }
-  
   .-lft\@xs {
     left: -26px;
   }
@@ -8145,7 +8091,6 @@
   .lft-0\@xs {
     left: 0;
   }
-  
   .-lft-0\@xs {
     left: -0;
   }
@@ -8153,7 +8098,6 @@
   .lft-50\%\@xs {
     left: 50%;
   }
-  
   .-lft-50\%\@xs {
     left: -50%;
   }
@@ -8168,7 +8112,6 @@
   .lft-1\@sm {
     left: 1px;
   }
-  
   .-lft-1\@sm {
     left: -1px;
   }
@@ -8176,7 +8119,6 @@
   .lft-2\@sm {
     left: 2px;
   }
-  
   .-lft-2\@sm {
     left: -2px;
   }
@@ -8184,7 +8126,6 @@
   .lft-3\@sm {
     left: 3px;
   }
-  
   .-lft-3\@sm {
     left: -3px;
   }
@@ -8192,7 +8133,6 @@
   .lft-4\@sm {
     left: 4px;
   }
-  
   .-lft-4\@sm {
     left: -4px;
   }
@@ -8200,7 +8140,6 @@
   .lft\@sm {
     left: 26px;
   }
-  
   .-lft\@sm {
     left: -26px;
   }
@@ -8208,7 +8147,6 @@
   .lft-0\@sm {
     left: 0;
   }
-  
   .-lft-0\@sm {
     left: -0;
   }
@@ -8216,7 +8154,6 @@
   .lft-50\%\@sm {
     left: 50%;
   }
-  
   .-lft-50\%\@sm {
     left: -50%;
   }
@@ -8231,7 +8168,6 @@
   .lft-1\@md {
     left: 1px;
   }
-  
   .-lft-1\@md {
     left: -1px;
   }
@@ -8239,7 +8175,6 @@
   .lft-2\@md {
     left: 2px;
   }
-  
   .-lft-2\@md {
     left: -2px;
   }
@@ -8247,7 +8182,6 @@
   .lft-3\@md {
     left: 3px;
   }
-  
   .-lft-3\@md {
     left: -3px;
   }
@@ -8255,7 +8189,6 @@
   .lft-4\@md {
     left: 4px;
   }
-  
   .-lft-4\@md {
     left: -4px;
   }
@@ -8263,7 +8196,6 @@
   .lft\@md {
     left: 26px;
   }
-  
   .-lft\@md {
     left: -26px;
   }
@@ -8271,7 +8203,6 @@
   .lft-0\@md {
     left: 0;
   }
-  
   .-lft-0\@md {
     left: -0;
   }
@@ -8279,7 +8210,6 @@
   .lft-50\%\@md {
     left: 50%;
   }
-  
   .-lft-50\%\@md {
     left: -50%;
   }
@@ -8294,7 +8224,6 @@
   .lft-1\@lg {
     left: 1px;
   }
-  
   .-lft-1\@lg {
     left: -1px;
   }
@@ -8302,7 +8231,6 @@
   .lft-2\@lg {
     left: 2px;
   }
-  
   .-lft-2\@lg {
     left: -2px;
   }
@@ -8310,7 +8238,6 @@
   .lft-3\@lg {
     left: 3px;
   }
-  
   .-lft-3\@lg {
     left: -3px;
   }
@@ -8318,7 +8245,6 @@
   .lft-4\@lg {
     left: 4px;
   }
-  
   .-lft-4\@lg {
     left: -4px;
   }
@@ -8326,7 +8252,6 @@
   .lft\@lg {
     left: 26px;
   }
-  
   .-lft\@lg {
     left: -26px;
   }
@@ -8334,7 +8259,6 @@
   .lft-0\@lg {
     left: 0;
   }
-  
   .-lft-0\@lg {
     left: -0;
   }
@@ -8342,7 +8266,6 @@
   .lft-50\%\@lg {
     left: 50%;
   }
-  
   .-lft-50\%\@lg {
     left: -50%;
   }
@@ -8357,7 +8280,6 @@
   .lft-1\@xl {
     left: 1px;
   }
-  
   .-lft-1\@xl {
     left: -1px;
   }
@@ -8365,7 +8287,6 @@
   .lft-2\@xl {
     left: 2px;
   }
-  
   .-lft-2\@xl {
     left: -2px;
   }
@@ -8373,7 +8294,6 @@
   .lft-3\@xl {
     left: 3px;
   }
-  
   .-lft-3\@xl {
     left: -3px;
   }
@@ -8381,7 +8301,6 @@
   .lft-4\@xl {
     left: 4px;
   }
-  
   .-lft-4\@xl {
     left: -4px;
   }
@@ -8389,7 +8308,6 @@
   .lft\@xl {
     left: 26px;
   }
-  
   .-lft\@xl {
     left: -26px;
   }
@@ -8397,7 +8315,6 @@
   .lft-0\@xl {
     left: 0;
   }
-  
   .-lft-0\@xl {
     left: -0;
   }
@@ -8405,7 +8322,6 @@
   .lft-50\%\@xl {
     left: 50%;
   }
-  
   .-lft-50\%\@xl {
     left: -50%;
   }
@@ -8887,7 +8803,6 @@
   margin-bottom: 1px;
 }
 
-
 .-m-1 {
   margin: -1px;
 }
@@ -8960,7 +8875,6 @@
   margin-top: 2px;
   margin-bottom: 2px;
 }
-
 
 .-m-2 {
   margin: -2px;
@@ -9035,7 +8949,6 @@
   margin-bottom: 3px;
 }
 
-
 .-m-3 {
   margin: -3px;
 }
@@ -9108,7 +9021,6 @@
   margin-top: 4px;
   margin-bottom: 4px;
 }
-
 
 .-m-4 {
   margin: -4px;
@@ -9183,7 +9095,6 @@
   margin-bottom: 26px;
 }
 
-
 .-m {
   margin: -26px;
 }
@@ -9256,7 +9167,6 @@
   margin-top: 50%;
   margin-bottom: 50%;
 }
-
 
 .-m-50\% {
   margin: -50%;
@@ -9362,7 +9272,6 @@
     margin-top: 1px;
     margin-bottom: 1px;
   }
-  
   .-m-1\@xs {
     margin: -1px;
   }
@@ -9422,7 +9331,6 @@
     margin-top: 2px;
     margin-bottom: 2px;
   }
-  
   .-m-2\@xs {
     margin: -2px;
   }
@@ -9482,7 +9390,6 @@
     margin-top: 3px;
     margin-bottom: 3px;
   }
-  
   .-m-3\@xs {
     margin: -3px;
   }
@@ -9542,7 +9449,6 @@
     margin-top: 4px;
     margin-bottom: 4px;
   }
-  
   .-m-4\@xs {
     margin: -4px;
   }
@@ -9602,7 +9508,6 @@
     margin-top: 26px;
     margin-bottom: 26px;
   }
-  
   .-m\@xs {
     margin: -26px;
   }
@@ -9662,7 +9567,6 @@
     margin-top: 50%;
     margin-bottom: 50%;
   }
-  
   .-m-50\%\@xs {
     margin: -50%;
   }
@@ -9755,7 +9659,6 @@
     margin-top: 1px;
     margin-bottom: 1px;
   }
-  
   .-m-1\@sm {
     margin: -1px;
   }
@@ -9815,7 +9718,6 @@
     margin-top: 2px;
     margin-bottom: 2px;
   }
-  
   .-m-2\@sm {
     margin: -2px;
   }
@@ -9875,7 +9777,6 @@
     margin-top: 3px;
     margin-bottom: 3px;
   }
-  
   .-m-3\@sm {
     margin: -3px;
   }
@@ -9935,7 +9836,6 @@
     margin-top: 4px;
     margin-bottom: 4px;
   }
-  
   .-m-4\@sm {
     margin: -4px;
   }
@@ -9995,7 +9895,6 @@
     margin-top: 26px;
     margin-bottom: 26px;
   }
-  
   .-m\@sm {
     margin: -26px;
   }
@@ -10055,7 +9954,6 @@
     margin-top: 50%;
     margin-bottom: 50%;
   }
-  
   .-m-50\%\@sm {
     margin: -50%;
   }
@@ -10148,7 +10046,6 @@
     margin-top: 1px;
     margin-bottom: 1px;
   }
-  
   .-m-1\@md {
     margin: -1px;
   }
@@ -10208,7 +10105,6 @@
     margin-top: 2px;
     margin-bottom: 2px;
   }
-  
   .-m-2\@md {
     margin: -2px;
   }
@@ -10268,7 +10164,6 @@
     margin-top: 3px;
     margin-bottom: 3px;
   }
-  
   .-m-3\@md {
     margin: -3px;
   }
@@ -10328,7 +10223,6 @@
     margin-top: 4px;
     margin-bottom: 4px;
   }
-  
   .-m-4\@md {
     margin: -4px;
   }
@@ -10388,7 +10282,6 @@
     margin-top: 26px;
     margin-bottom: 26px;
   }
-  
   .-m\@md {
     margin: -26px;
   }
@@ -10448,7 +10341,6 @@
     margin-top: 50%;
     margin-bottom: 50%;
   }
-  
   .-m-50\%\@md {
     margin: -50%;
   }
@@ -10541,7 +10433,6 @@
     margin-top: 1px;
     margin-bottom: 1px;
   }
-  
   .-m-1\@lg {
     margin: -1px;
   }
@@ -10601,7 +10492,6 @@
     margin-top: 2px;
     margin-bottom: 2px;
   }
-  
   .-m-2\@lg {
     margin: -2px;
   }
@@ -10661,7 +10551,6 @@
     margin-top: 3px;
     margin-bottom: 3px;
   }
-  
   .-m-3\@lg {
     margin: -3px;
   }
@@ -10721,7 +10610,6 @@
     margin-top: 4px;
     margin-bottom: 4px;
   }
-  
   .-m-4\@lg {
     margin: -4px;
   }
@@ -10781,7 +10669,6 @@
     margin-top: 26px;
     margin-bottom: 26px;
   }
-  
   .-m\@lg {
     margin: -26px;
   }
@@ -10841,7 +10728,6 @@
     margin-top: 50%;
     margin-bottom: 50%;
   }
-  
   .-m-50\%\@lg {
     margin: -50%;
   }
@@ -10934,7 +10820,6 @@
     margin-top: 1px;
     margin-bottom: 1px;
   }
-  
   .-m-1\@xl {
     margin: -1px;
   }
@@ -10994,7 +10879,6 @@
     margin-top: 2px;
     margin-bottom: 2px;
   }
-  
   .-m-2\@xl {
     margin: -2px;
   }
@@ -11054,7 +10938,6 @@
     margin-top: 3px;
     margin-bottom: 3px;
   }
-  
   .-m-3\@xl {
     margin: -3px;
   }
@@ -11114,7 +10997,6 @@
     margin-top: 4px;
     margin-bottom: 4px;
   }
-  
   .-m-4\@xl {
     margin: -4px;
   }
@@ -11174,7 +11056,6 @@
     margin-top: 26px;
     margin-bottom: 26px;
   }
-  
   .-m\@xl {
     margin: -26px;
   }
@@ -11234,7 +11115,6 @@
     margin-top: 50%;
     margin-bottom: 50%;
   }
-  
   .-m-50\%\@xl {
     margin: -50%;
   }
@@ -17566,7 +17446,6 @@
   right: 1px;
 }
 
-
 .-rgt-1 {
   right: -1px;
 }
@@ -17575,7 +17454,6 @@
 .rgt-2 {
   right: 2px;
 }
-
 
 .-rgt-2 {
   right: -2px;
@@ -17586,7 +17464,6 @@
   right: 3px;
 }
 
-
 .-rgt-3 {
   right: -3px;
 }
@@ -17595,7 +17472,6 @@
 .rgt-4 {
   right: 4px;
 }
-
 
 .-rgt-4 {
   right: -4px;
@@ -17606,7 +17482,6 @@
   right: 26px;
 }
 
-
 .-rgt {
   right: -26px;
 }
@@ -17616,7 +17491,6 @@
   right: 0;
 }
 
-
 .-rgt-0 {
   right: -0;
 }
@@ -17625,7 +17499,6 @@
 .rgt-50\% {
   right: 50%;
 }
-
 
 .-rgt-50\% {
   right: -50%;
@@ -17641,7 +17514,6 @@
   .rgt-1\@xs {
     right: 1px;
   }
-  
   .-rgt-1\@xs {
     right: -1px;
   }
@@ -17649,7 +17521,6 @@
   .rgt-2\@xs {
     right: 2px;
   }
-  
   .-rgt-2\@xs {
     right: -2px;
   }
@@ -17657,7 +17528,6 @@
   .rgt-3\@xs {
     right: 3px;
   }
-  
   .-rgt-3\@xs {
     right: -3px;
   }
@@ -17665,7 +17535,6 @@
   .rgt-4\@xs {
     right: 4px;
   }
-  
   .-rgt-4\@xs {
     right: -4px;
   }
@@ -17673,7 +17542,6 @@
   .rgt\@xs {
     right: 26px;
   }
-  
   .-rgt\@xs {
     right: -26px;
   }
@@ -17681,7 +17549,6 @@
   .rgt-0\@xs {
     right: 0;
   }
-  
   .-rgt-0\@xs {
     right: -0;
   }
@@ -17689,7 +17556,6 @@
   .rgt-50\%\@xs {
     right: 50%;
   }
-  
   .-rgt-50\%\@xs {
     right: -50%;
   }
@@ -17704,7 +17570,6 @@
   .rgt-1\@sm {
     right: 1px;
   }
-  
   .-rgt-1\@sm {
     right: -1px;
   }
@@ -17712,7 +17577,6 @@
   .rgt-2\@sm {
     right: 2px;
   }
-  
   .-rgt-2\@sm {
     right: -2px;
   }
@@ -17720,7 +17584,6 @@
   .rgt-3\@sm {
     right: 3px;
   }
-  
   .-rgt-3\@sm {
     right: -3px;
   }
@@ -17728,7 +17591,6 @@
   .rgt-4\@sm {
     right: 4px;
   }
-  
   .-rgt-4\@sm {
     right: -4px;
   }
@@ -17736,7 +17598,6 @@
   .rgt\@sm {
     right: 26px;
   }
-  
   .-rgt\@sm {
     right: -26px;
   }
@@ -17744,7 +17605,6 @@
   .rgt-0\@sm {
     right: 0;
   }
-  
   .-rgt-0\@sm {
     right: -0;
   }
@@ -17752,7 +17612,6 @@
   .rgt-50\%\@sm {
     right: 50%;
   }
-  
   .-rgt-50\%\@sm {
     right: -50%;
   }
@@ -17767,7 +17626,6 @@
   .rgt-1\@md {
     right: 1px;
   }
-  
   .-rgt-1\@md {
     right: -1px;
   }
@@ -17775,7 +17633,6 @@
   .rgt-2\@md {
     right: 2px;
   }
-  
   .-rgt-2\@md {
     right: -2px;
   }
@@ -17783,7 +17640,6 @@
   .rgt-3\@md {
     right: 3px;
   }
-  
   .-rgt-3\@md {
     right: -3px;
   }
@@ -17791,7 +17647,6 @@
   .rgt-4\@md {
     right: 4px;
   }
-  
   .-rgt-4\@md {
     right: -4px;
   }
@@ -17799,7 +17654,6 @@
   .rgt\@md {
     right: 26px;
   }
-  
   .-rgt\@md {
     right: -26px;
   }
@@ -17807,7 +17661,6 @@
   .rgt-0\@md {
     right: 0;
   }
-  
   .-rgt-0\@md {
     right: -0;
   }
@@ -17815,7 +17668,6 @@
   .rgt-50\%\@md {
     right: 50%;
   }
-  
   .-rgt-50\%\@md {
     right: -50%;
   }
@@ -17830,7 +17682,6 @@
   .rgt-1\@lg {
     right: 1px;
   }
-  
   .-rgt-1\@lg {
     right: -1px;
   }
@@ -17838,7 +17689,6 @@
   .rgt-2\@lg {
     right: 2px;
   }
-  
   .-rgt-2\@lg {
     right: -2px;
   }
@@ -17846,7 +17696,6 @@
   .rgt-3\@lg {
     right: 3px;
   }
-  
   .-rgt-3\@lg {
     right: -3px;
   }
@@ -17854,7 +17703,6 @@
   .rgt-4\@lg {
     right: 4px;
   }
-  
   .-rgt-4\@lg {
     right: -4px;
   }
@@ -17862,7 +17710,6 @@
   .rgt\@lg {
     right: 26px;
   }
-  
   .-rgt\@lg {
     right: -26px;
   }
@@ -17870,7 +17717,6 @@
   .rgt-0\@lg {
     right: 0;
   }
-  
   .-rgt-0\@lg {
     right: -0;
   }
@@ -17878,7 +17724,6 @@
   .rgt-50\%\@lg {
     right: 50%;
   }
-  
   .-rgt-50\%\@lg {
     right: -50%;
   }
@@ -17893,7 +17738,6 @@
   .rgt-1\@xl {
     right: 1px;
   }
-  
   .-rgt-1\@xl {
     right: -1px;
   }
@@ -17901,7 +17745,6 @@
   .rgt-2\@xl {
     right: 2px;
   }
-  
   .-rgt-2\@xl {
     right: -2px;
   }
@@ -17909,7 +17752,6 @@
   .rgt-3\@xl {
     right: 3px;
   }
-  
   .-rgt-3\@xl {
     right: -3px;
   }
@@ -17917,7 +17759,6 @@
   .rgt-4\@xl {
     right: 4px;
   }
-  
   .-rgt-4\@xl {
     right: -4px;
   }
@@ -17925,7 +17766,6 @@
   .rgt\@xl {
     right: 26px;
   }
-  
   .-rgt\@xl {
     right: -26px;
   }
@@ -17933,7 +17773,6 @@
   .rgt-0\@xl {
     right: 0;
   }
-  
   .-rgt-0\@xl {
     right: -0;
   }
@@ -17941,7 +17780,6 @@
   .rgt-50\%\@xl {
     right: 50%;
   }
-  
   .-rgt-50\%\@xl {
     right: -50%;
   }
@@ -18017,117 +17855,1270 @@
 }
 
 
-.flt-center {
+.ta-center {
   text-align: center;
 }
 
 
-.flt-lft {
+.ta-lft {
   text-align: left;
 }
 
 
-.flt-rgt {
+.ta-rgt {
   text-align: right;
 }
 
 
-.flt-none {
-  text-align: none;
+.ta-inherit {
+  text-align: inherit;
 }
 
 @media all and (min-width: 416px) {
   
-  .flt-center\@xs {
+  .ta-center\@xs {
     text-align: center;
   }
   
-  .flt-lft\@xs {
+  .ta-lft\@xs {
     text-align: left;
   }
   
-  .flt-rgt\@xs {
+  .ta-rgt\@xs {
     text-align: right;
   }
   
-  .flt-none\@xs {
-    text-align: none;
+  .ta-inherit\@xs {
+    text-align: inherit;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .flt-center\@sm {
+  .ta-center\@sm {
     text-align: center;
   }
   
-  .flt-lft\@sm {
+  .ta-lft\@sm {
     text-align: left;
   }
   
-  .flt-rgt\@sm {
+  .ta-rgt\@sm {
     text-align: right;
   }
   
-  .flt-none\@sm {
-    text-align: none;
+  .ta-inherit\@sm {
+    text-align: inherit;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .flt-center\@md {
+  .ta-center\@md {
     text-align: center;
   }
   
-  .flt-lft\@md {
+  .ta-lft\@md {
     text-align: left;
   }
   
-  .flt-rgt\@md {
+  .ta-rgt\@md {
     text-align: right;
   }
   
-  .flt-none\@md {
-    text-align: none;
+  .ta-inherit\@md {
+    text-align: inherit;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .flt-center\@lg {
+  .ta-center\@lg {
     text-align: center;
   }
   
-  .flt-lft\@lg {
+  .ta-lft\@lg {
     text-align: left;
   }
   
-  .flt-rgt\@lg {
+  .ta-rgt\@lg {
     text-align: right;
   }
   
-  .flt-none\@lg {
-    text-align: none;
+  .ta-inherit\@lg {
+    text-align: inherit;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .flt-center\@xl {
+  .ta-center\@xl {
     text-align: center;
   }
   
-  .flt-lft\@xl {
+  .ta-lft\@xl {
     text-align: left;
   }
   
-  .flt-rgt\@xl {
+  .ta-rgt\@xl {
     text-align: right;
   }
   
-  .flt-none\@xl {
-    text-align: none;
+  .ta-inherit\@xl {
+    text-align: inherit;
+  }
+}
+
+
+.td-under {
+  text-decoration: underline;
+}
+
+
+.td-strike {
+  text-decoration: overline;
+}
+
+
+.td-none {
+  text-decoration: none;
+}
+
+@media all and (min-width: 416px) {
+  
+  .td-under\@xs {
+    text-decoration: underline;
+  }
+  
+  .td-strike\@xs {
+    text-decoration: overline;
+  }
+  
+  .td-none\@xs {
+    text-decoration: none;
+  }
+}
+
+@media all and (min-width: 756px) {
+  
+  .td-under\@sm {
+    text-decoration: underline;
+  }
+  
+  .td-strike\@sm {
+    text-decoration: overline;
+  }
+  
+  .td-none\@sm {
+    text-decoration: none;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  
+  .td-under\@md {
+    text-decoration: underline;
+  }
+  
+  .td-strike\@md {
+    text-decoration: overline;
+  }
+  
+  .td-none\@md {
+    text-decoration: none;
+  }
+}
+
+@media all and (min-width: 1220px) {
+  
+  .td-under\@lg {
+    text-decoration: underline;
+  }
+  
+  .td-strike\@lg {
+    text-decoration: overline;
+  }
+  
+  .td-none\@lg {
+    text-decoration: none;
+  }
+}
+
+@media all and (min-width: 1460px) {
+  
+  .td-under\@xl {
+    text-decoration: underline;
+  }
+  
+  .td-strike\@xl {
+    text-decoration: overline;
+  }
+  
+  .td-none\@xl {
+    text-decoration: none;
+  }
+}
+
+
+.ti-100\% {
+  text-indent: 100%;
+}
+
+@media all and (min-width: 416px) {
+  
+  .ti-100\%\@xs {
+    text-indent: 100%;
+  }
+}
+
+@media all and (min-width: 756px) {
+  
+  .ti-100\%\@sm {
+    text-indent: 100%;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  
+  .ti-100\%\@md {
+    text-indent: 100%;
+  }
+}
+
+@media all and (min-width: 1220px) {
+  
+  .ti-100\%\@lg {
+    text-indent: 100%;
+  }
+}
+
+@media all and (min-width: 1460px) {
+  
+  .ti-100\%\@xl {
+    text-indent: 100%;
+  }
+}
+
+
+.to-ellipsis {
+  text-overflow: ellipsis;
+}
+
+
+.to-none {
+  text-overflow: none;
+}
+
+@media all and (min-width: 416px) {
+  
+  .to-ellipsis\@xs {
+    text-overflow: ellipsis;
+  }
+  
+  .to-none\@xs {
+    text-overflow: none;
+  }
+}
+
+@media all and (min-width: 756px) {
+  
+  .to-ellipsis\@sm {
+    text-overflow: ellipsis;
+  }
+  
+  .to-none\@sm {
+    text-overflow: none;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  
+  .to-ellipsis\@md {
+    text-overflow: ellipsis;
+  }
+  
+  .to-none\@md {
+    text-overflow: none;
+  }
+}
+
+@media all and (min-width: 1220px) {
+  
+  .to-ellipsis\@lg {
+    text-overflow: ellipsis;
+  }
+  
+  .to-none\@lg {
+    text-overflow: none;
+  }
+}
+
+@media all and (min-width: 1460px) {
+  
+  .to-ellipsis\@xl {
+    text-overflow: ellipsis;
+  }
+  
+  .to-none\@xl {
+    text-overflow: none;
+  }
+}
+
+
+.tt-caps {
+  text-transform: uppercase;
+}
+
+
+.tt-uppercase {
+  text-transform: uppercase;
+}
+
+
+.tt-lower {
+  text-transform: lowercase;
+}
+
+
+.tt-lowercase {
+  text-transform: lowercase;
+}
+
+
+.tt-title {
+  text-transform: capitalize;
+}
+
+
+.tt-capitalize {
+  text-transform: capitalize;
+}
+
+
+.tt-none {
+  text-transform: none;
+}
+
+@media all and (min-width: 416px) {
+  
+  .tt-caps\@xs {
+    text-transform: uppercase;
+  }
+  
+  .tt-uppercase\@xs {
+    text-transform: uppercase;
+  }
+  
+  .tt-lower\@xs {
+    text-transform: lowercase;
+  }
+  
+  .tt-lowercase\@xs {
+    text-transform: lowercase;
+  }
+  
+  .tt-title\@xs {
+    text-transform: capitalize;
+  }
+  
+  .tt-capitalize\@xs {
+    text-transform: capitalize;
+  }
+  
+  .tt-none\@xs {
+    text-transform: none;
+  }
+}
+
+@media all and (min-width: 756px) {
+  
+  .tt-caps\@sm {
+    text-transform: uppercase;
+  }
+  
+  .tt-uppercase\@sm {
+    text-transform: uppercase;
+  }
+  
+  .tt-lower\@sm {
+    text-transform: lowercase;
+  }
+  
+  .tt-lowercase\@sm {
+    text-transform: lowercase;
+  }
+  
+  .tt-title\@sm {
+    text-transform: capitalize;
+  }
+  
+  .tt-capitalize\@sm {
+    text-transform: capitalize;
+  }
+  
+  .tt-none\@sm {
+    text-transform: none;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  
+  .tt-caps\@md {
+    text-transform: uppercase;
+  }
+  
+  .tt-uppercase\@md {
+    text-transform: uppercase;
+  }
+  
+  .tt-lower\@md {
+    text-transform: lowercase;
+  }
+  
+  .tt-lowercase\@md {
+    text-transform: lowercase;
+  }
+  
+  .tt-title\@md {
+    text-transform: capitalize;
+  }
+  
+  .tt-capitalize\@md {
+    text-transform: capitalize;
+  }
+  
+  .tt-none\@md {
+    text-transform: none;
+  }
+}
+
+@media all and (min-width: 1220px) {
+  
+  .tt-caps\@lg {
+    text-transform: uppercase;
+  }
+  
+  .tt-uppercase\@lg {
+    text-transform: uppercase;
+  }
+  
+  .tt-lower\@lg {
+    text-transform: lowercase;
+  }
+  
+  .tt-lowercase\@lg {
+    text-transform: lowercase;
+  }
+  
+  .tt-title\@lg {
+    text-transform: capitalize;
+  }
+  
+  .tt-capitalize\@lg {
+    text-transform: capitalize;
+  }
+  
+  .tt-none\@lg {
+    text-transform: none;
+  }
+}
+
+@media all and (min-width: 1460px) {
+  
+  .tt-caps\@xl {
+    text-transform: uppercase;
+  }
+  
+  .tt-uppercase\@xl {
+    text-transform: uppercase;
+  }
+  
+  .tt-lower\@xl {
+    text-transform: lowercase;
+  }
+  
+  .tt-lowercase\@xl {
+    text-transform: lowercase;
+  }
+  
+  .tt-title\@xl {
+    text-transform: capitalize;
+  }
+  
+  .tt-capitalize\@xl {
+    text-transform: capitalize;
+  }
+  
+  .tt-none\@xl {
+    text-transform: none;
+  }
+}
+
+
+.top-1 {
+  top: 1px;
+}
+
+.-top-1 {
+  top: -1px;
+}
+
+
+.top-2 {
+  top: 2px;
+}
+
+.-top-2 {
+  top: -2px;
+}
+
+
+.top-3 {
+  top: 3px;
+}
+
+.-top-3 {
+  top: -3px;
+}
+
+
+.top-4 {
+  top: 4px;
+}
+
+.-top-4 {
+  top: -4px;
+}
+
+
+.top {
+  top: 26px;
+}
+
+.-top {
+  top: -26px;
+}
+
+
+.top-0 {
+  top: 0;
+}
+
+.-top-0 {
+  top: -0;
+}
+
+
+.top-50\% {
+  top: 50%;
+}
+
+.-top-50\% {
+  top: -50%;
+}
+
+
+.top-auto {
+  top: auto;
+}
+
+@media all and (min-width: 416px) {
+  
+  .top-1\@xs {
+    top: 1px;
+  }
+  .-top-1\@xs {
+    top: -1px;
+  }
+  
+  .top-2\@xs {
+    top: 2px;
+  }
+  .-top-2\@xs {
+    top: -2px;
+  }
+  
+  .top-3\@xs {
+    top: 3px;
+  }
+  .-top-3\@xs {
+    top: -3px;
+  }
+  
+  .top-4\@xs {
+    top: 4px;
+  }
+  .-top-4\@xs {
+    top: -4px;
+  }
+  
+  .top\@xs {
+    top: 26px;
+  }
+  .-top\@xs {
+    top: -26px;
+  }
+  
+  .top-0\@xs {
+    top: 0;
+  }
+  .-top-0\@xs {
+    top: -0;
+  }
+  
+  .top-50\%\@xs {
+    top: 50%;
+  }
+  .-top-50\%\@xs {
+    top: -50%;
+  }
+  
+  .top-auto\@xs {
+    top: auto;
+  }
+}
+
+@media all and (min-width: 756px) {
+  
+  .top-1\@sm {
+    top: 1px;
+  }
+  .-top-1\@sm {
+    top: -1px;
+  }
+  
+  .top-2\@sm {
+    top: 2px;
+  }
+  .-top-2\@sm {
+    top: -2px;
+  }
+  
+  .top-3\@sm {
+    top: 3px;
+  }
+  .-top-3\@sm {
+    top: -3px;
+  }
+  
+  .top-4\@sm {
+    top: 4px;
+  }
+  .-top-4\@sm {
+    top: -4px;
+  }
+  
+  .top\@sm {
+    top: 26px;
+  }
+  .-top\@sm {
+    top: -26px;
+  }
+  
+  .top-0\@sm {
+    top: 0;
+  }
+  .-top-0\@sm {
+    top: -0;
+  }
+  
+  .top-50\%\@sm {
+    top: 50%;
+  }
+  .-top-50\%\@sm {
+    top: -50%;
+  }
+  
+  .top-auto\@sm {
+    top: auto;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  
+  .top-1\@md {
+    top: 1px;
+  }
+  .-top-1\@md {
+    top: -1px;
+  }
+  
+  .top-2\@md {
+    top: 2px;
+  }
+  .-top-2\@md {
+    top: -2px;
+  }
+  
+  .top-3\@md {
+    top: 3px;
+  }
+  .-top-3\@md {
+    top: -3px;
+  }
+  
+  .top-4\@md {
+    top: 4px;
+  }
+  .-top-4\@md {
+    top: -4px;
+  }
+  
+  .top\@md {
+    top: 26px;
+  }
+  .-top\@md {
+    top: -26px;
+  }
+  
+  .top-0\@md {
+    top: 0;
+  }
+  .-top-0\@md {
+    top: -0;
+  }
+  
+  .top-50\%\@md {
+    top: 50%;
+  }
+  .-top-50\%\@md {
+    top: -50%;
+  }
+  
+  .top-auto\@md {
+    top: auto;
+  }
+}
+
+@media all and (min-width: 1220px) {
+  
+  .top-1\@lg {
+    top: 1px;
+  }
+  .-top-1\@lg {
+    top: -1px;
+  }
+  
+  .top-2\@lg {
+    top: 2px;
+  }
+  .-top-2\@lg {
+    top: -2px;
+  }
+  
+  .top-3\@lg {
+    top: 3px;
+  }
+  .-top-3\@lg {
+    top: -3px;
+  }
+  
+  .top-4\@lg {
+    top: 4px;
+  }
+  .-top-4\@lg {
+    top: -4px;
+  }
+  
+  .top\@lg {
+    top: 26px;
+  }
+  .-top\@lg {
+    top: -26px;
+  }
+  
+  .top-0\@lg {
+    top: 0;
+  }
+  .-top-0\@lg {
+    top: -0;
+  }
+  
+  .top-50\%\@lg {
+    top: 50%;
+  }
+  .-top-50\%\@lg {
+    top: -50%;
+  }
+  
+  .top-auto\@lg {
+    top: auto;
+  }
+}
+
+@media all and (min-width: 1460px) {
+  
+  .top-1\@xl {
+    top: 1px;
+  }
+  .-top-1\@xl {
+    top: -1px;
+  }
+  
+  .top-2\@xl {
+    top: 2px;
+  }
+  .-top-2\@xl {
+    top: -2px;
+  }
+  
+  .top-3\@xl {
+    top: 3px;
+  }
+  .-top-3\@xl {
+    top: -3px;
+  }
+  
+  .top-4\@xl {
+    top: 4px;
+  }
+  .-top-4\@xl {
+    top: -4px;
+  }
+  
+  .top\@xl {
+    top: 26px;
+  }
+  .-top\@xl {
+    top: -26px;
+  }
+  
+  .top-0\@xl {
+    top: 0;
+  }
+  .-top-0\@xl {
+    top: -0;
+  }
+  
+  .top-50\%\@xl {
+    top: 50%;
+  }
+  .-top-50\%\@xl {
+    top: -50%;
+  }
+  
+  .top-auto\@xl {
+    top: auto;
+  }
+}
+
+
+.to-center {
+  transform-origin: center;
+}
+
+
+.to-tl {
+  transform-origin: left top;
+}
+
+
+.to-tr {
+  transform-origin: right top;
+}
+
+
+.to-bl {
+  transform-origin: left bottom;
+}
+
+
+.to-br {
+  transform-origin: right bottom;
+}
+
+
+.to-cl {
+  transform-origin: left center;
+}
+
+
+.to-cr {
+  transform-origin: right center;
+}
+
+
+.to-ct {
+  transform-origin: center top;
+}
+
+
+.to-cb {
+  transform-origin: center bottom;
+}
+
+@media all and (min-width: 416px) {
+  
+  .to-center\@xs {
+    transform-origin: center;
+  }
+  
+  .to-tl\@xs {
+    transform-origin: left top;
+  }
+  
+  .to-tr\@xs {
+    transform-origin: right top;
+  }
+  
+  .to-bl\@xs {
+    transform-origin: left bottom;
+  }
+  
+  .to-br\@xs {
+    transform-origin: right bottom;
+  }
+  
+  .to-cl\@xs {
+    transform-origin: left center;
+  }
+  
+  .to-cr\@xs {
+    transform-origin: right center;
+  }
+  
+  .to-ct\@xs {
+    transform-origin: center top;
+  }
+  
+  .to-cb\@xs {
+    transform-origin: center bottom;
+  }
+}
+
+@media all and (min-width: 756px) {
+  
+  .to-center\@sm {
+    transform-origin: center;
+  }
+  
+  .to-tl\@sm {
+    transform-origin: left top;
+  }
+  
+  .to-tr\@sm {
+    transform-origin: right top;
+  }
+  
+  .to-bl\@sm {
+    transform-origin: left bottom;
+  }
+  
+  .to-br\@sm {
+    transform-origin: right bottom;
+  }
+  
+  .to-cl\@sm {
+    transform-origin: left center;
+  }
+  
+  .to-cr\@sm {
+    transform-origin: right center;
+  }
+  
+  .to-ct\@sm {
+    transform-origin: center top;
+  }
+  
+  .to-cb\@sm {
+    transform-origin: center bottom;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  
+  .to-center\@md {
+    transform-origin: center;
+  }
+  
+  .to-tl\@md {
+    transform-origin: left top;
+  }
+  
+  .to-tr\@md {
+    transform-origin: right top;
+  }
+  
+  .to-bl\@md {
+    transform-origin: left bottom;
+  }
+  
+  .to-br\@md {
+    transform-origin: right bottom;
+  }
+  
+  .to-cl\@md {
+    transform-origin: left center;
+  }
+  
+  .to-cr\@md {
+    transform-origin: right center;
+  }
+  
+  .to-ct\@md {
+    transform-origin: center top;
+  }
+  
+  .to-cb\@md {
+    transform-origin: center bottom;
+  }
+}
+
+@media all and (min-width: 1220px) {
+  
+  .to-center\@lg {
+    transform-origin: center;
+  }
+  
+  .to-tl\@lg {
+    transform-origin: left top;
+  }
+  
+  .to-tr\@lg {
+    transform-origin: right top;
+  }
+  
+  .to-bl\@lg {
+    transform-origin: left bottom;
+  }
+  
+  .to-br\@lg {
+    transform-origin: right bottom;
+  }
+  
+  .to-cl\@lg {
+    transform-origin: left center;
+  }
+  
+  .to-cr\@lg {
+    transform-origin: right center;
+  }
+  
+  .to-ct\@lg {
+    transform-origin: center top;
+  }
+  
+  .to-cb\@lg {
+    transform-origin: center bottom;
+  }
+}
+
+@media all and (min-width: 1460px) {
+  
+  .to-center\@xl {
+    transform-origin: center;
+  }
+  
+  .to-tl\@xl {
+    transform-origin: left top;
+  }
+  
+  .to-tr\@xl {
+    transform-origin: right top;
+  }
+  
+  .to-bl\@xl {
+    transform-origin: left bottom;
+  }
+  
+  .to-br\@xl {
+    transform-origin: right bottom;
+  }
+  
+  .to-cl\@xl {
+    transform-origin: left center;
+  }
+  
+  .to-cr\@xl {
+    transform-origin: right center;
+  }
+  
+  .to-ct\@xl {
+    transform-origin: center top;
+  }
+  
+  .to-cb\@xl {
+    transform-origin: center bottom;
+  }
+}
+
+
+.ts-flat {
+  transform-style: flat;
+}
+
+
+.ts-3d {
+  transform-style: preserve-3d;
+}
+
+@media all and (min-width: 416px) {
+  
+  .ts-flat\@xs {
+    transform-style: flat;
+  }
+  
+  .ts-3d\@xs {
+    transform-style: preserve-3d;
+  }
+}
+
+@media all and (min-width: 756px) {
+  
+  .ts-flat\@sm {
+    transform-style: flat;
+  }
+  
+  .ts-3d\@sm {
+    transform-style: preserve-3d;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  
+  .ts-flat\@md {
+    transform-style: flat;
+  }
+  
+  .ts-3d\@md {
+    transform-style: preserve-3d;
+  }
+}
+
+@media all and (min-width: 1220px) {
+  
+  .ts-flat\@lg {
+    transform-style: flat;
+  }
+  
+  .ts-3d\@lg {
+    transform-style: preserve-3d;
+  }
+}
+
+@media all and (min-width: 1460px) {
+  
+  .ts-flat\@xl {
+    transform-style: flat;
+  }
+  
+  .ts-3d\@xl {
+    transform-style: preserve-3d;
+  }
+}
+
+
+.t-scale-1\.1 {
+  transform: scale(1.1);
+}
+
+
+.t-scale-1\.2 {
+  transform: scale(1.2);
+}
+
+
+.t-scale-2 {
+  transform: scale(2);
+}
+
+
+.t--xy-50\% {
+  transform: translate(-50%, -50%);
+}
+
+@media all and (min-width: 416px) {
+  
+  .t-scale-1\.1\@xs {
+    transform: scale(1.1);
+  }
+  
+  .t-scale-1\.2\@xs {
+    transform: scale(1.2);
+  }
+  
+  .t-scale-2\@xs {
+    transform: scale(2);
+  }
+  
+  .t--xy-50\%\@xs {
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media all and (min-width: 756px) {
+  
+  .t-scale-1\.1\@sm {
+    transform: scale(1.1);
+  }
+  
+  .t-scale-1\.2\@sm {
+    transform: scale(1.2);
+  }
+  
+  .t-scale-2\@sm {
+    transform: scale(2);
+  }
+  
+  .t--xy-50\%\@sm {
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media all and (min-width: 1024px) {
+  
+  .t-scale-1\.1\@md {
+    transform: scale(1.1);
+  }
+  
+  .t-scale-1\.2\@md {
+    transform: scale(1.2);
+  }
+  
+  .t-scale-2\@md {
+    transform: scale(2);
+  }
+  
+  .t--xy-50\%\@md {
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media all and (min-width: 1220px) {
+  
+  .t-scale-1\.1\@lg {
+    transform: scale(1.1);
+  }
+  
+  .t-scale-1\.2\@lg {
+    transform: scale(1.2);
+  }
+  
+  .t-scale-2\@lg {
+    transform: scale(2);
+  }
+  
+  .t--xy-50\%\@lg {
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media all and (min-width: 1460px) {
+  
+  .t-scale-1\.1\@xl {
+    transform: scale(1.1);
+  }
+  
+  .t-scale-1\.2\@xl {
+    transform: scale(1.2);
+  }
+  
+  .t-scale-2\@xl {
+    transform: scale(2);
+  }
+  
+  .t--xy-50\%\@xl {
+    transform: translate(-50%, -50%);
   }
 }
 

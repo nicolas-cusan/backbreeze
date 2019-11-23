@@ -1,0 +1,21 @@
+////
+/// @group transform
+////
+
+/// ## Values
+
+$bb-transform-style-values: (
+  'flat': flat,
+  '3d': preserve-3d
+) !default;
+
+/// ## Config
+
+$bb-transform-style-config: (
+  'name': 'ts',
+  'prop': 'transform-style',
+  'bps': $bb-bps,
+  'values': $bb-transform-style-values
+) !default;
+
+@include bb-utility-class($bb-transform-style-config);

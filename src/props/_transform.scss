@@ -1,0 +1,23 @@
+////
+/// @group transform
+////
+
+/// ## Values
+
+$bb-transform-values: (
+  'scale-1\\.1': scale(1.1),
+  'scale-1\\.2': scale(1.2),
+  'scale-2': scale(2),
+  '-xy-50\\%': translate(-50%, -50%)
+) !default;
+
+/// ## Config
+
+$bb-transform-config: (
+  'name': 't',
+  'prop': 'transform',
+  'bps': $bb-bps,
+  'values': $bb-transform-values
+) !default;
+
+@include bb-utility-class($bb-transform-config);

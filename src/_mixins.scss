@@ -157,36 +157,35 @@
     }
 
     @if $negative and $val != 'auto' {
-      #{$parent}
-        .#{$bb-prefix}#{$name-negative}#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+      #{$parent} .#{$name-negative}#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop}: -#{$val};
       }
     }
 
     @if $negative and $directional and $val != 'auto' {
       #{$parent}
-        .#{$bb-prefix}#{$name-negative}-t#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$name-negative}-t#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-top}: -#{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name-negative}-l#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$name-negative}-l#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-left}: -#{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name-negative}-b#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$name-negative}-b#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-bottom}: -#{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name-negative}-r#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$name-negative}-r#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-right}: -#{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name-negative}-x#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$name-negative}-x#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-left}: -#{$val};
         #{$prop-right}: -#{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name-negative}-y#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$name-negative}-y#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-top}: -#{$val};
         #{$prop-bottom}: -#{$val};
       }
