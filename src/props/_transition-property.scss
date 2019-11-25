@@ -1,0 +1,41 @@
+////
+/// @group transition
+////
+
+/// ## Values
+
+$bb-transition-property-values: (
+  'c': color,
+  'bg': background-color,
+  'bc': border-color,
+  'colors': (
+    color,
+    background-color,
+    border-color
+  ),
+  'o': opacity,
+  't': transform,
+  'ot': (
+    opacity,
+    transform
+  ),
+  'all': all,
+  'otc': (
+    opacity,
+    transform,
+    color,
+    background-color,
+    border-color
+  )
+) !default;
+
+/// ## Config
+
+$bb-transition-property-config: (
+  'name': 'tr-prop',
+  'prop': 'transition-property',
+  'bps': $bb-bps,
+  'values': $bb-transition-property-values
+) !default;
+
+@include bb-utility-class($bb-transition-property-config);

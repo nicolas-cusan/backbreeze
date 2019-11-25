@@ -1,0 +1,24 @@
+////
+/// @group transition
+////
+
+/// ## Values
+
+$bb-transition-timing-function-values: (
+  'ease': ease,
+  'in': ease-in,
+  'out': ease-out,
+  'in-out': ease-in-out,
+  'linear': linear
+) !default;
+
+/// ## Config
+
+$bb-transition-timing-function-config: (
+  'name': 'tr-easing',
+  'prop': 'transition-timing-function',
+  'bps': $bb-bps,
+  'values': $bb-transition-timing-function-values
+) !default;
+
+@include bb-utility-class($bb-transition-timing-function-config);

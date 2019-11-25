@@ -1,0 +1,21 @@
+////
+/// @group transition
+////
+
+/// ## Values
+
+$bb-transition-duration-values: (
+  '200': 200ms,
+  '300': 300ms
+) !default;
+
+/// ## Config
+
+$bb-transition-duration-config: (
+  'name': 'tr-dur',
+  'prop': 'transition-duration',
+  'bps': $bb-bps,
+  'values': $bb-transition-duration-values
+) !default;
+
+@include bb-utility-class($bb-transition-duration-config);

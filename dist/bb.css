@@ -19023,7 +19023,7 @@
 }
 
 
-.t--xy-50\% {
+.-t-xy-50\% {
   transform: translate(-50%, -50%);
 }
 
@@ -19041,7 +19041,7 @@
     transform: scale(2);
   }
   
-  .t--xy-50\%\@xs {
+  .-t-xy-50\%\@xs {
     transform: translate(-50%, -50%);
   }
 }
@@ -19060,7 +19060,7 @@
     transform: scale(2);
   }
   
-  .t--xy-50\%\@sm {
+  .-t-xy-50\%\@sm {
     transform: translate(-50%, -50%);
   }
 }
@@ -19079,7 +19079,7 @@
     transform: scale(2);
   }
   
-  .t--xy-50\%\@md {
+  .-t-xy-50\%\@md {
     transform: translate(-50%, -50%);
   }
 }
@@ -19098,7 +19098,7 @@
     transform: scale(2);
   }
   
-  .t--xy-50\%\@lg {
+  .-t-xy-50\%\@lg {
     transform: translate(-50%, -50%);
   }
 }
@@ -19117,8 +19117,1078 @@
     transform: scale(2);
   }
   
-  .t--xy-50\%\@xl {
+  .-t-xy-50\%\@xl {
     transform: translate(-50%, -50%);
+  }
+}
+
+
+.tr-delay-200 {
+  transition-delay: 200ms;
+}
+
+
+.tr-delay-300 {
+  transition-delay: 300ms;
+}
+
+@media all and (min-width: 416px) {
+  
+  .tr-delay-200\@xs {
+    transition-delay: 200ms;
+  }
+  
+  .tr-delay-300\@xs {
+    transition-delay: 300ms;
+  }
+}
+
+@media all and (min-width: 756px) {
+  
+  .tr-delay-200\@sm {
+    transition-delay: 200ms;
+  }
+  
+  .tr-delay-300\@sm {
+    transition-delay: 300ms;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  
+  .tr-delay-200\@md {
+    transition-delay: 200ms;
+  }
+  
+  .tr-delay-300\@md {
+    transition-delay: 300ms;
+  }
+}
+
+@media all and (min-width: 1220px) {
+  
+  .tr-delay-200\@lg {
+    transition-delay: 200ms;
+  }
+  
+  .tr-delay-300\@lg {
+    transition-delay: 300ms;
+  }
+}
+
+@media all and (min-width: 1460px) {
+  
+  .tr-delay-200\@xl {
+    transition-delay: 200ms;
+  }
+  
+  .tr-delay-300\@xl {
+    transition-delay: 300ms;
+  }
+}
+
+
+.tr-dur-200 {
+  transition-duration: 200ms;
+}
+
+
+.tr-dur-300 {
+  transition-duration: 300ms;
+}
+
+@media all and (min-width: 416px) {
+  
+  .tr-dur-200\@xs {
+    transition-duration: 200ms;
+  }
+  
+  .tr-dur-300\@xs {
+    transition-duration: 300ms;
+  }
+}
+
+@media all and (min-width: 756px) {
+  
+  .tr-dur-200\@sm {
+    transition-duration: 200ms;
+  }
+  
+  .tr-dur-300\@sm {
+    transition-duration: 300ms;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  
+  .tr-dur-200\@md {
+    transition-duration: 200ms;
+  }
+  
+  .tr-dur-300\@md {
+    transition-duration: 300ms;
+  }
+}
+
+@media all and (min-width: 1220px) {
+  
+  .tr-dur-200\@lg {
+    transition-duration: 200ms;
+  }
+  
+  .tr-dur-300\@lg {
+    transition-duration: 300ms;
+  }
+}
+
+@media all and (min-width: 1460px) {
+  
+  .tr-dur-200\@xl {
+    transition-duration: 200ms;
+  }
+  
+  .tr-dur-300\@xl {
+    transition-duration: 300ms;
+  }
+}
+
+
+.tr-prop-c {
+  transition-property: color;
+}
+
+
+.tr-prop-bg {
+  transition-property: background-color;
+}
+
+
+.tr-prop-bc {
+  transition-property: border-color;
+}
+
+
+.tr-prop-colors {
+  transition-property: color, background-color, border-color;
+}
+
+
+.tr-prop-o {
+  transition-property: opacity;
+}
+
+
+.tr-prop-t {
+  transition-property: transform;
+}
+
+
+.tr-prop-ot {
+  transition-property: opacity, transform;
+}
+
+
+.tr-prop-all {
+  transition-property: all;
+}
+
+
+.tr-prop-otc {
+  transition-property: opacity, transform, color, background-color, border-color;
+}
+
+@media all and (min-width: 416px) {
+  
+  .tr-prop-c\@xs {
+    transition-property: color;
+  }
+  
+  .tr-prop-bg\@xs {
+    transition-property: background-color;
+  }
+  
+  .tr-prop-bc\@xs {
+    transition-property: border-color;
+  }
+  
+  .tr-prop-colors\@xs {
+    transition-property: color, background-color, border-color;
+  }
+  
+  .tr-prop-o\@xs {
+    transition-property: opacity;
+  }
+  
+  .tr-prop-t\@xs {
+    transition-property: transform;
+  }
+  
+  .tr-prop-ot\@xs {
+    transition-property: opacity, transform;
+  }
+  
+  .tr-prop-all\@xs {
+    transition-property: all;
+  }
+  
+  .tr-prop-otc\@xs {
+    transition-property: opacity, transform, color, background-color, border-color;
+  }
+}
+
+@media all and (min-width: 756px) {
+  
+  .tr-prop-c\@sm {
+    transition-property: color;
+  }
+  
+  .tr-prop-bg\@sm {
+    transition-property: background-color;
+  }
+  
+  .tr-prop-bc\@sm {
+    transition-property: border-color;
+  }
+  
+  .tr-prop-colors\@sm {
+    transition-property: color, background-color, border-color;
+  }
+  
+  .tr-prop-o\@sm {
+    transition-property: opacity;
+  }
+  
+  .tr-prop-t\@sm {
+    transition-property: transform;
+  }
+  
+  .tr-prop-ot\@sm {
+    transition-property: opacity, transform;
+  }
+  
+  .tr-prop-all\@sm {
+    transition-property: all;
+  }
+  
+  .tr-prop-otc\@sm {
+    transition-property: opacity, transform, color, background-color, border-color;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  
+  .tr-prop-c\@md {
+    transition-property: color;
+  }
+  
+  .tr-prop-bg\@md {
+    transition-property: background-color;
+  }
+  
+  .tr-prop-bc\@md {
+    transition-property: border-color;
+  }
+  
+  .tr-prop-colors\@md {
+    transition-property: color, background-color, border-color;
+  }
+  
+  .tr-prop-o\@md {
+    transition-property: opacity;
+  }
+  
+  .tr-prop-t\@md {
+    transition-property: transform;
+  }
+  
+  .tr-prop-ot\@md {
+    transition-property: opacity, transform;
+  }
+  
+  .tr-prop-all\@md {
+    transition-property: all;
+  }
+  
+  .tr-prop-otc\@md {
+    transition-property: opacity, transform, color, background-color, border-color;
+  }
+}
+
+@media all and (min-width: 1220px) {
+  
+  .tr-prop-c\@lg {
+    transition-property: color;
+  }
+  
+  .tr-prop-bg\@lg {
+    transition-property: background-color;
+  }
+  
+  .tr-prop-bc\@lg {
+    transition-property: border-color;
+  }
+  
+  .tr-prop-colors\@lg {
+    transition-property: color, background-color, border-color;
+  }
+  
+  .tr-prop-o\@lg {
+    transition-property: opacity;
+  }
+  
+  .tr-prop-t\@lg {
+    transition-property: transform;
+  }
+  
+  .tr-prop-ot\@lg {
+    transition-property: opacity, transform;
+  }
+  
+  .tr-prop-all\@lg {
+    transition-property: all;
+  }
+  
+  .tr-prop-otc\@lg {
+    transition-property: opacity, transform, color, background-color, border-color;
+  }
+}
+
+@media all and (min-width: 1460px) {
+  
+  .tr-prop-c\@xl {
+    transition-property: color;
+  }
+  
+  .tr-prop-bg\@xl {
+    transition-property: background-color;
+  }
+  
+  .tr-prop-bc\@xl {
+    transition-property: border-color;
+  }
+  
+  .tr-prop-colors\@xl {
+    transition-property: color, background-color, border-color;
+  }
+  
+  .tr-prop-o\@xl {
+    transition-property: opacity;
+  }
+  
+  .tr-prop-t\@xl {
+    transition-property: transform;
+  }
+  
+  .tr-prop-ot\@xl {
+    transition-property: opacity, transform;
+  }
+  
+  .tr-prop-all\@xl {
+    transition-property: all;
+  }
+  
+  .tr-prop-otc\@xl {
+    transition-property: opacity, transform, color, background-color, border-color;
+  }
+}
+
+
+.tr-easing-ease {
+  transition-timing-function: ease;
+}
+
+
+.tr-easing-in {
+  transition-timing-function: ease-in;
+}
+
+
+.tr-easing-out {
+  transition-timing-function: ease-out;
+}
+
+
+.tr-easing-in-out {
+  transition-timing-function: ease-in-out;
+}
+
+
+.tr-easing-linear {
+  transition-timing-function: linear;
+}
+
+@media all and (min-width: 416px) {
+  
+  .tr-easing-ease\@xs {
+    transition-timing-function: ease;
+  }
+  
+  .tr-easing-in\@xs {
+    transition-timing-function: ease-in;
+  }
+  
+  .tr-easing-out\@xs {
+    transition-timing-function: ease-out;
+  }
+  
+  .tr-easing-in-out\@xs {
+    transition-timing-function: ease-in-out;
+  }
+  
+  .tr-easing-linear\@xs {
+    transition-timing-function: linear;
+  }
+}
+
+@media all and (min-width: 756px) {
+  
+  .tr-easing-ease\@sm {
+    transition-timing-function: ease;
+  }
+  
+  .tr-easing-in\@sm {
+    transition-timing-function: ease-in;
+  }
+  
+  .tr-easing-out\@sm {
+    transition-timing-function: ease-out;
+  }
+  
+  .tr-easing-in-out\@sm {
+    transition-timing-function: ease-in-out;
+  }
+  
+  .tr-easing-linear\@sm {
+    transition-timing-function: linear;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  
+  .tr-easing-ease\@md {
+    transition-timing-function: ease;
+  }
+  
+  .tr-easing-in\@md {
+    transition-timing-function: ease-in;
+  }
+  
+  .tr-easing-out\@md {
+    transition-timing-function: ease-out;
+  }
+  
+  .tr-easing-in-out\@md {
+    transition-timing-function: ease-in-out;
+  }
+  
+  .tr-easing-linear\@md {
+    transition-timing-function: linear;
+  }
+}
+
+@media all and (min-width: 1220px) {
+  
+  .tr-easing-ease\@lg {
+    transition-timing-function: ease;
+  }
+  
+  .tr-easing-in\@lg {
+    transition-timing-function: ease-in;
+  }
+  
+  .tr-easing-out\@lg {
+    transition-timing-function: ease-out;
+  }
+  
+  .tr-easing-in-out\@lg {
+    transition-timing-function: ease-in-out;
+  }
+  
+  .tr-easing-linear\@lg {
+    transition-timing-function: linear;
+  }
+}
+
+@media all and (min-width: 1460px) {
+  
+  .tr-easing-ease\@xl {
+    transition-timing-function: ease;
+  }
+  
+  .tr-easing-in\@xl {
+    transition-timing-function: ease-in;
+  }
+  
+  .tr-easing-out\@xl {
+    transition-timing-function: ease-out;
+  }
+  
+  .tr-easing-in-out\@xl {
+    transition-timing-function: ease-in-out;
+  }
+  
+  .tr-easing-linear\@xl {
+    transition-timing-function: linear;
+  }
+}
+
+
+.va-mdl {
+  vertical-align: middle;
+}
+
+
+.va-base {
+  vertical-align: baseline;
+}
+
+
+.va-top {
+  vertical-align: top;
+}
+
+
+.va-btm {
+  vertical-align: bottom;
+}
+
+@media all and (min-width: 416px) {
+  
+  .va-mdl\@xs {
+    vertical-align: middle;
+  }
+  
+  .va-base\@xs {
+    vertical-align: baseline;
+  }
+  
+  .va-top\@xs {
+    vertical-align: top;
+  }
+  
+  .va-btm\@xs {
+    vertical-align: bottom;
+  }
+}
+
+@media all and (min-width: 756px) {
+  
+  .va-mdl\@sm {
+    vertical-align: middle;
+  }
+  
+  .va-base\@sm {
+    vertical-align: baseline;
+  }
+  
+  .va-top\@sm {
+    vertical-align: top;
+  }
+  
+  .va-btm\@sm {
+    vertical-align: bottom;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  
+  .va-mdl\@md {
+    vertical-align: middle;
+  }
+  
+  .va-base\@md {
+    vertical-align: baseline;
+  }
+  
+  .va-top\@md {
+    vertical-align: top;
+  }
+  
+  .va-btm\@md {
+    vertical-align: bottom;
+  }
+}
+
+@media all and (min-width: 1220px) {
+  
+  .va-mdl\@lg {
+    vertical-align: middle;
+  }
+  
+  .va-base\@lg {
+    vertical-align: baseline;
+  }
+  
+  .va-top\@lg {
+    vertical-align: top;
+  }
+  
+  .va-btm\@lg {
+    vertical-align: bottom;
+  }
+}
+
+@media all and (min-width: 1460px) {
+  
+  .va-mdl\@xl {
+    vertical-align: middle;
+  }
+  
+  .va-base\@xl {
+    vertical-align: baseline;
+  }
+  
+  .va-top\@xl {
+    vertical-align: top;
+  }
+  
+  .va-btm\@xl {
+    vertical-align: bottom;
+  }
+}
+
+
+.ws-nowrap {
+  white-space: nowrap;
+}
+
+
+.ws-wrap {
+  white-space: wrap;
+}
+
+
+.ws-normal {
+  white-space: normal;
+}
+
+@media all and (min-width: 416px) {
+  
+  .ws-nowrap\@xs {
+    white-space: nowrap;
+  }
+  
+  .ws-wrap\@xs {
+    white-space: wrap;
+  }
+  
+  .ws-normal\@xs {
+    white-space: normal;
+  }
+}
+
+@media all and (min-width: 756px) {
+  
+  .ws-nowrap\@sm {
+    white-space: nowrap;
+  }
+  
+  .ws-wrap\@sm {
+    white-space: wrap;
+  }
+  
+  .ws-normal\@sm {
+    white-space: normal;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  
+  .ws-nowrap\@md {
+    white-space: nowrap;
+  }
+  
+  .ws-wrap\@md {
+    white-space: wrap;
+  }
+  
+  .ws-normal\@md {
+    white-space: normal;
+  }
+}
+
+@media all and (min-width: 1220px) {
+  
+  .ws-nowrap\@lg {
+    white-space: nowrap;
+  }
+  
+  .ws-wrap\@lg {
+    white-space: wrap;
+  }
+  
+  .ws-normal\@lg {
+    white-space: normal;
+  }
+}
+
+@media all and (min-width: 1460px) {
+  
+  .ws-nowrap\@xl {
+    white-space: nowrap;
+  }
+  
+  .ws-wrap\@xl {
+    white-space: wrap;
+  }
+  
+  .ws-normal\@xl {
+    white-space: normal;
+  }
+}
+
+
+.w-1 {
+  width: 1px;
+}
+
+
+.w-2 {
+  width: 2px;
+}
+
+
+.w-3 {
+  width: 3px;
+}
+
+
+.w-4 {
+  width: 4px;
+}
+
+
+.w {
+  width: 26px;
+}
+
+@media all and (min-width: 416px) {
+  
+  .w-1\@xs {
+    width: 1px;
+  }
+  
+  .w-2\@xs {
+    width: 2px;
+  }
+  
+  .w-3\@xs {
+    width: 3px;
+  }
+  
+  .w-4\@xs {
+    width: 4px;
+  }
+  
+  .w\@xs {
+    width: 26px;
+  }
+}
+
+@media all and (min-width: 756px) {
+  
+  .w-1\@sm {
+    width: 1px;
+  }
+  
+  .w-2\@sm {
+    width: 2px;
+  }
+  
+  .w-3\@sm {
+    width: 3px;
+  }
+  
+  .w-4\@sm {
+    width: 4px;
+  }
+  
+  .w\@sm {
+    width: 26px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  
+  .w-1\@md {
+    width: 1px;
+  }
+  
+  .w-2\@md {
+    width: 2px;
+  }
+  
+  .w-3\@md {
+    width: 3px;
+  }
+  
+  .w-4\@md {
+    width: 4px;
+  }
+  
+  .w\@md {
+    width: 26px;
+  }
+}
+
+@media all and (min-width: 1220px) {
+  
+  .w-1\@lg {
+    width: 1px;
+  }
+  
+  .w-2\@lg {
+    width: 2px;
+  }
+  
+  .w-3\@lg {
+    width: 3px;
+  }
+  
+  .w-4\@lg {
+    width: 4px;
+  }
+  
+  .w\@lg {
+    width: 26px;
+  }
+}
+
+@media all and (min-width: 1460px) {
+  
+  .w-1\@xl {
+    width: 1px;
+  }
+  
+  .w-2\@xl {
+    width: 2px;
+  }
+  
+  .w-3\@xl {
+    width: 3px;
+  }
+  
+  .w-4\@xl {
+    width: 4px;
+  }
+  
+  .w\@xl {
+    width: 26px;
+  }
+}
+
+
+.-z-1 {
+  z-index: -1;
+}
+
+
+.z-0 {
+  z-index: 0;
+}
+
+
+.z-1 {
+  z-index: 1;
+}
+
+
+.z-2 {
+  z-index: 2;
+}
+
+
+.z-3 {
+  z-index: 3;
+}
+
+
+.z-4 {
+  z-index: 4;
+}
+
+
+.z-5 {
+  z-index: 5;
+}
+
+
+.z-100 {
+  z-index: 100;
+}
+
+@media all and (min-width: 416px) {
+  
+  .-z-1\@xs {
+    z-index: -1;
+  }
+  
+  .z-0\@xs {
+    z-index: 0;
+  }
+  
+  .z-1\@xs {
+    z-index: 1;
+  }
+  
+  .z-2\@xs {
+    z-index: 2;
+  }
+  
+  .z-3\@xs {
+    z-index: 3;
+  }
+  
+  .z-4\@xs {
+    z-index: 4;
+  }
+  
+  .z-5\@xs {
+    z-index: 5;
+  }
+  
+  .z-100\@xs {
+    z-index: 100;
+  }
+}
+
+@media all and (min-width: 756px) {
+  
+  .-z-1\@sm {
+    z-index: -1;
+  }
+  
+  .z-0\@sm {
+    z-index: 0;
+  }
+  
+  .z-1\@sm {
+    z-index: 1;
+  }
+  
+  .z-2\@sm {
+    z-index: 2;
+  }
+  
+  .z-3\@sm {
+    z-index: 3;
+  }
+  
+  .z-4\@sm {
+    z-index: 4;
+  }
+  
+  .z-5\@sm {
+    z-index: 5;
+  }
+  
+  .z-100\@sm {
+    z-index: 100;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  
+  .-z-1\@md {
+    z-index: -1;
+  }
+  
+  .z-0\@md {
+    z-index: 0;
+  }
+  
+  .z-1\@md {
+    z-index: 1;
+  }
+  
+  .z-2\@md {
+    z-index: 2;
+  }
+  
+  .z-3\@md {
+    z-index: 3;
+  }
+  
+  .z-4\@md {
+    z-index: 4;
+  }
+  
+  .z-5\@md {
+    z-index: 5;
+  }
+  
+  .z-100\@md {
+    z-index: 100;
+  }
+}
+
+@media all and (min-width: 1220px) {
+  
+  .-z-1\@lg {
+    z-index: -1;
+  }
+  
+  .z-0\@lg {
+    z-index: 0;
+  }
+  
+  .z-1\@lg {
+    z-index: 1;
+  }
+  
+  .z-2\@lg {
+    z-index: 2;
+  }
+  
+  .z-3\@lg {
+    z-index: 3;
+  }
+  
+  .z-4\@lg {
+    z-index: 4;
+  }
+  
+  .z-5\@lg {
+    z-index: 5;
+  }
+  
+  .z-100\@lg {
+    z-index: 100;
+  }
+}
+
+@media all and (min-width: 1460px) {
+  
+  .-z-1\@xl {
+    z-index: -1;
+  }
+  
+  .z-0\@xl {
+    z-index: 0;
+  }
+  
+  .z-1\@xl {
+    z-index: 1;
+  }
+  
+  .z-2\@xl {
+    z-index: 2;
+  }
+  
+  .z-3\@xl {
+    z-index: 3;
+  }
+  
+  .z-4\@xl {
+    z-index: 4;
+  }
+  
+  .z-5\@xl {
+    z-index: 5;
+  }
+  
+  .z-100\@xl {
+    z-index: 100;
   }
 }
 

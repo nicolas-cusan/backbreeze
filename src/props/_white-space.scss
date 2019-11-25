@@ -1,0 +1,22 @@
+////
+/// @group text
+////
+
+/// ## Values
+
+$bb-white-space-values: (
+  'nowrap': nowrap,
+  'wrap': wrap,
+  'normal': normal
+) !default;
+
+/// ## Config
+
+$bb-white-space-config: (
+  'name': 'ws',
+  'prop': 'white-space',
+  'bps': $bb-bps,
+  'values': $bb-white-space-values
+) !default;
+
+@include bb-utility-class($bb-white-space-config);

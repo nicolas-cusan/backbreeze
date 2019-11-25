@@ -1,0 +1,23 @@
+////
+/// @group text
+////
+
+/// ## Values
+
+$bb-vertical-align-values: (
+  'mdl': middle,
+  'base': baseline,
+  'top': top,
+  'btm': bottom
+) !default;
+
+/// ## Config
+
+$bb-vertical-align-config: (
+  'name': 'va',
+  'prop': 'vertical-align',
+  'bps': $bb-bps,
+  'values': $bb-vertical-align-values
+) !default;
+
+@include bb-utility-class($bb-vertical-align-config);

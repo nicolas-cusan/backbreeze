@@ -1,0 +1,18 @@
+////
+/// @group layout
+////
+
+/// ## Values
+
+$bb-width-values: $bb-spacing !default;
+
+/// ## Config
+
+$bb-width-config: (
+  'name': 'w',
+  'prop': 'width',
+  'bps': $bb-bps,
+  'values': $bb-width-values
+) !default;
+
+@include bb-utility-class($bb-width-config);

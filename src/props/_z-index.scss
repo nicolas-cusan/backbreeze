@@ -1,0 +1,27 @@
+////
+/// @group layout
+////
+
+/// ## Values
+
+$bb-z-index-values: (
+  '-1': -1,
+  '0': 0,
+  '1': 1,
+  '2': 2,
+  '3': 3,
+  '4': 4,
+  '5': 5,
+  '100': 100
+) !default;
+
+/// ## Config
+
+$bb-z-index-config: (
+  'name': 'z',
+  'prop': 'z-index',
+  'bps': $bb-bps,
+  'values': $bb-z-index-values
+) !default;
+
+@include bb-utility-class($bb-z-index-config);

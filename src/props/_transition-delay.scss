@@ -1,0 +1,21 @@
+////
+/// @group transition
+////
+
+/// ## Values
+
+$bb-transition-delay-values: (
+  '200': 200ms,
+  '300': 300ms
+) !default;
+
+/// ## Config
+
+$bb-transition-delay-config: (
+  'name': 'tr-delay',
+  'prop': 'transition-delay',
+  'bps': $bb-bps,
+  'values': $bb-transition-delay-values
+) !default;
+
+@include bb-utility-class($bb-transition-delay-config);

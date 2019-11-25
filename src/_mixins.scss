@@ -82,11 +82,22 @@
   $is-border-radius: $prop == 'border-radius';
 
   @each $key, $val in $values {
+    $negative-key: str-index($key, '-') == 1;
     $key: if(str-length($key) > 0, '-#{$key}', '');
 
-    #{$parent}
-      .#{$bb-prefix}#{$name}#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
-      #{$prop}: #{$val};
+    @if $negative-key {
+      #{$parent}
+        .#{$name-negative}#{str-slice($key, 2)}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        #{$prop}: #{$val};
+      }
+      @if $negative {
+        @warn '`Value `#{str-slice($key, 2)}: #{$val}` for property `#{$prop}` is negative. Negative values for `#{$prop}` are automatically generated. Please remove `#{str-slice($key, 2)}: #{$val}` for `#{$prop}`.';
+      }
+    } @else {
+      #{$parent}
+        .#{$bb-prefix}#{$name}#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        #{$prop}: #{$val};
+      }
     }
 
     @if $directional and not $is-border-radius {
@@ -156,13 +167,18 @@
       }
     }
 
-    @if $negative and $val != 'auto' {
+    @if $negative and type-of($val) == number and not $negative-key {
       #{$parent} .#{$name-negative}#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop}: -#{$val};
       }
     }
 
-    @if $negative and $directional and $val != 'auto' {
+    @if $negative and
+      $directional and
+      type-of($val) ==
+      number and not
+      $negative-key
+    {
       #{$parent}
         .#{$name-negative}-t#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-top}: -#{$val};
