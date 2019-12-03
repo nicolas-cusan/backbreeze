@@ -19,7 +19,7 @@ sassdoc.parse('./src', { verbose: true }).then(data => {
     return acc;
   }, {});
 
-  // console.log(JSON.stringify(newData, null, 2));
+  console.log(JSON.stringify(newData, null, 2));
 
   Object.keys(newData).forEach(key => {
     const data = template(newData[key]);
