@@ -20,8 +20,6 @@ $bb-align-content-values: (
 $bb-align-content-config: (
   'name': 'ac',
   'prop': 'align-content',
-  'bps': $bb-bps,
-  'values': $bb-align-content-values
+  'values': $bb-align-content-values,
+  'bps': $bb-bps
 ) !default;
-
-@include bb-utility-class($bb-align-content-config);

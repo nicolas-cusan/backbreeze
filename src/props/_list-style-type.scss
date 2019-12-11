@@ -13,10 +13,10 @@ $bb-list-style-type-values: (
 /// ## Config
 
 $bb-list-style-type-config: (
-  'name': 'list-type',
+  'name': 'listtype',
   'prop': 'list-style-type',
   'bps': $bb-bps,
   'values': $bb-list-style-type-values
 ) !default;
 
-@include bb-utility-class($bb-list-style-type-config);
+

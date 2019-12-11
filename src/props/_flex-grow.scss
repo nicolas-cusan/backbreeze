@@ -14,10 +14,10 @@ $bb-flex-grow-values: (
 /// ## Config
 
 $bb-flex-grow-config: (
-  'name': 'flx-g',
+  'name': 'flxg',
   'prop': 'flex-grow',
   'bps': $bb-bps,
   'values': $bb-flex-grow-values
 ) !default;
 
-@include bb-utility-class($bb-flex-grow-config);
+

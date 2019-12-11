@@ -23,5 +23,3 @@ $bb-align-items-config: (
   'bps': $bb-bps,
   'values': $bb-align-items-values
 ) !default;
-
-@include bb-utility-class($bb-align-items-config);

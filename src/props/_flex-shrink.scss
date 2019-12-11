@@ -14,10 +14,10 @@ $bb-flex-shrink-values: (
 /// ## Config
 
 $bb-flex-shrink-config: (
-  'name': 'flx-s',
+  'name': 'flxs',
   'prop': 'flex-shrink',
   'bps': $bb-bps,
   'values': $bb-flex-shrink-values
 ) !default;
 
-@include bb-utility-class($bb-flex-shrink-config);
+

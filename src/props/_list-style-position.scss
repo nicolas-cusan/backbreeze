@@ -12,10 +12,10 @@ $bb-list-style-position-values: (
 /// ## Config
 
 $bb-list-style-position-config: (
-  'name': 'list-pos',
+  'name': 'listpos',
   'prop': 'list-style-position',
   'bps': $bb-bps,
   'values': $bb-list-style-position-values
 ) !default;
 
-@include bb-utility-class($bb-list-style-position-config);
+

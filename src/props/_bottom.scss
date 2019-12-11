@@ -21,5 +21,3 @@ $bb-bottom-config: (
   'bps': $bb-bps,
   'values': $bb-bottom-values
 ) !default;
-
-@include bb-utility-class($bb-bottom-config);

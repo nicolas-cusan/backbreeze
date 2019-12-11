@@ -13,10 +13,8 @@ $bb-background-attachment-values: (
 /// ## Config
 
 $bb-background-attachment-config: (
-  'name': 'bg-a',
+  'name': 'bga',
   'prop': 'background-attachment',
   'bps': $bb-bps,
   'values': $bb-background-attachment-values
 ) !default;
-
-@include bb-utility-class($bb-background-attachment-config);

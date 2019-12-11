@@ -16,5 +16,3 @@ $bb-backface-visibility-config: (
   'prop': 'backface-visibility',
   'values': $bb-backface-visibility-values
 ) !default;
-
-@include bb-utility-class($bb-backface-visibility-config);

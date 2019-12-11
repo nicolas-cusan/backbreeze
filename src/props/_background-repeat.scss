@@ -11,10 +11,8 @@ $bb-background-repeat-values: (
 /// ## Config
 
 $bb-background-repeat-config: (
-  'name': 'bg-r',
+  'name': 'bgr',
   'prop': 'background-repeat',
   'bps': $bb-bps,
   'values': $bb-background-repeat-values
 ) !default;
-
-@include bb-utility-class($bb-background-repeat-config);

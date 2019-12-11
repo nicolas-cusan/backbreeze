@@ -26,10 +26,8 @@ $bb-background-blend-mode-values: (
 /// ## Config
 
 $bb-background-blend-mode-config: (
-  'name': 'bg-bm',
+  'name': 'bgbm',
   'prop': 'background-blend-mode',
   'bps': $bb-bps,
   'values': $bb-background-blend-mode-values
 ) !default;
-
-@include bb-utility-class($bb-background-blend-mode-config);

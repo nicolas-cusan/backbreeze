@@ -13,11 +13,11 @@ $bb-outline-style-values: (
 /// ## Config
 
 $bb-outline-style-config: (
-  'name': 'ol-off',
+  'name': 'otls',
   'prop': 'outline-style',
   'bps': $bb-bps,
   'pseudo': $bb-pseudo,
   'values': $bb-outline-style-values
 ) !default;
 
-@include bb-utility-class($bb-outline-style-config);
+

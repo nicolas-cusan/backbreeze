@@ -13,10 +13,10 @@ $bb-flex-wrap-values: (
 /// ## Config
 
 $bb-flex-wrap-config: (
-  'name': 'flx-w',
+  'name': 'flxw',
   'prop': 'flex-wrap',
   'bps': $bb-bps,
   'values': $bb-flex-wrap-values
 ) !default;
 
-@include bb-utility-class($bb-flex-wrap-config);
+

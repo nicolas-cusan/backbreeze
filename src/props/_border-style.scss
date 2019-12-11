@@ -13,10 +13,8 @@ $bb-border-style-values: (
 /// ## Config
 
 $bb-border-style-config: (
-  'name': 'b-s',
+  'name': 'brs',
   'prop': 'border-style',
   'bps': $bb-bps,
   'values': $bb-border-style-values
 ) !default;
-
-@include bb-utility-class($bb-border-style-config);

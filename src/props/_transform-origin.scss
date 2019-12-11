@@ -19,10 +19,10 @@ $bb-transform-origin-values: (
 /// ## Config
 
 $bb-transform-origin-config: (
-  'name': 'to',
+  'name': 'tfo',
   'prop': 'transform-origin',
   'bps': $bb-bps,
   'values': $bb-transform-origin-values
 ) !default;
 
-@include bb-utility-class($bb-transform-origin-config);
+

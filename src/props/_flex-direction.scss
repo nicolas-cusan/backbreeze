@@ -16,10 +16,10 @@ $bb-flex-direction-values: (
 /// ## Config
 
 $bb-flex-direction-config: (
-  'name': 'flx-dir',
+  'name': 'flxd',
   'prop': 'flex-direction',
   'bps': $bb-bps,
   'values': $bb-flex-direction-values
 ) !default;
 
-@include bb-utility-class($bb-flex-direction-config);
+

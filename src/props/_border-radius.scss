@@ -16,10 +16,8 @@ $bb-border-radius-values: (
 /// ## Config
 
 $bb-border-radius-config: (
-  'name': 'br',
+  'name': 'brr',
   'prop': 'border-radius',
   'bps': $bb-bps,
   'values': $bb-border-radius-values
 ) !default;
-
-@include bb-utility-class($bb-border-radius-config);

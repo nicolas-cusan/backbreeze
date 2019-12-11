@@ -13,10 +13,10 @@ $bb-column-count-values: (
 /// ## Config
 
 $bb-column-count-config: (
-  'name': 'col-c',
+  'name': 'colc',
   'prop': 'column-count',
   'bps': $bb-bps,
   'values': $bb-column-count-values
 ) !default;
 
-@include bb-utility-class($bb-column-count-config);
+

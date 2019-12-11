@@ -13,10 +13,8 @@ $bb-background-size-values: (
 /// ## Config
 
 $bb-background-size-config: (
-  'name': 'bg-s',
+  'name': 'bgs',
   'prop': 'background-size',
   'bps': $bb-bps,
   'values': $bb-background-size-values
 ) !default;
-
-@include bb-utility-class($bb-background-size-config);

@@ -9,11 +9,11 @@ $bb-outline-color-values: $bb-colors !default;
 /// ## Config
 
 $bb-outline-color-config: (
-  'name': 'ol-c',
+  'name': 'otlc',
   'prop': 'outline-color',
   'bps': $bb-bps,
   'pseudo': $bb-pseudo,
   'values': $bb-outline-color-values
 ) !default;
 
-@include bb-utility-class($bb-outline-color-config);
+

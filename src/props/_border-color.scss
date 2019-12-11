@@ -9,10 +9,8 @@ $bb-border-color-values: $bb-colors !default;
 /// ## Config
 
 $bb-border-color-config: (
-  'name': 'b-c',
+  'name': 'brc',
   'prop': 'border-color',
   'bps': $bb-bps,
   'values': $bb-border-color-values
 ) !default;
-
-@include bb-utility-class($bb-border-color-config);

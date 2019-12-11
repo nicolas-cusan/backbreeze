@@ -14,10 +14,10 @@ $bb-resize-values: (
 /// ## Config
 
 $bb-resize-config: (
-  'name': 'rze',
+  'name': 'resize',
   'prop': 'resize',
   'bps': $bb-bps,
   'values': $bb-resize-values
 ) !default;
 
-@include bb-utility-class($bb-resize-config);
+

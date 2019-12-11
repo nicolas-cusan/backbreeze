@@ -15,11 +15,11 @@ $bb-outline-offset-values: (
 /// ## Config
 
 $bb-outline-offset-config: (
-  'name': 'ol-off',
+  'name': 'otlo',
   'prop': 'outline-offset',
   'bps': $bb-bps,
   'pseudo': $bb-pseudo,
   'values': $bb-outline-offset-values
 ) !default;
 
-@include bb-utility-class($bb-outline-offset-config);
+

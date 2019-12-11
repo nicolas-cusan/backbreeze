@@ -11,10 +11,8 @@ $bb-background-position-values: (
 /// ## Config
 
 $bb-background-position-config: (
-  'name': 'bg-p',
+  'name': 'bgp',
   'prop': 'background-position',
   'bps': $bb-bps,
   'values': $bb-background-position-values
 ) !default;
-
-@include bb-utility-class($bb-background-position-config);

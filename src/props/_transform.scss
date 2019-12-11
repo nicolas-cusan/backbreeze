@@ -14,10 +14,10 @@ $bb-transform-values: (
 /// ## Config
 
 $bb-transform-config: (
-  'name': 't',
+  'name': 'tf',
   'prop': 'transform',
   'bps': $bb-bps,
   'values': $bb-transform-values
 ) !default;
 
-@include bb-utility-class($bb-transform-config);
+

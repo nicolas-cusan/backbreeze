@@ -12,10 +12,10 @@ $bb-transform-style-values: (
 /// ## Config
 
 $bb-transform-style-config: (
-  'name': 'ts',
+  'name': 'tfs',
   'prop': 'transform-style',
   'bps': $bb-bps,
   'values': $bb-transform-style-values
 ) !default;
 
-@include bb-utility-class($bb-transform-style-config);
+

@@ -19,5 +19,3 @@ $bb-align-self-config: (
   'bps': $bb-bps,
   'values': $bb-align-self-values
 ) !default;
-
-@include bb-utility-class($bb-align-self-config);

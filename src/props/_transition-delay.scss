@@ -12,10 +12,10 @@ $bb-transition-delay-values: (
 /// ## Config
 
 $bb-transition-delay-config: (
-  'name': 'tr-delay',
+  'name': 'tsdelay',
   'prop': 'transition-delay',
   'bps': $bb-bps,
   'values': $bb-transition-delay-values
 ) !default;
 
-@include bb-utility-class($bb-transition-delay-config);
+

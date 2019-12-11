@@ -14,11 +14,11 @@ $bb-outline-width-values: (
 /// ## Config
 
 $bb-outline-width-config: (
-  'name': 'ol-w',
+  'name': 'otlw',
   'prop': 'outline-width',
   'bps': $bb-bps,
   'pseudo': $bb-pseudo,
   'values': $bb-outline-width-values
 ) !default;
 
-@include bb-utility-class($bb-outline-width-config);
+

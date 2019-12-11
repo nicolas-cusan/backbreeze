@@ -32,10 +32,10 @@ $bb-transition-property-values: (
 /// ## Config
 
 $bb-transition-property-config: (
-  'name': 'tr-prop',
+  'name': 'tsp',
   'prop': 'transition-property',
   'bps': $bb-bps,
   'values': $bb-transition-property-values
 ) !default;
 
-@include bb-utility-class($bb-transition-property-config);
+

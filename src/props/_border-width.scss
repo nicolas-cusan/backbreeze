@@ -14,10 +14,8 @@ $bb-border-width-values: (
 /// ## Config
 
 $bb-border-width-config: (
-  'name': 'b-w',
+  'name': 'brw',
   'prop': 'border-width',
   'bps': $bb-bps,
   'values': $bb-border-width-values
 ) !default;
-
-@include bb-utility-class($bb-border-width-config);
