@@ -644,1077 +644,1077 @@
 }
 
 
-.bg-a-scroll {
+.bga-scroll {
   background-attachment: scroll;
 }
 
 
-.bg-a-fixed {
+.bga-fixed {
   background-attachment: fixed;
 }
 
 
-.bg-a-local {
+.bga-local {
   background-attachment: local;
 }
 
 @media all and (min-width: 416px) {
   
-  .bg-a-scroll\@xs {
+  .bga-scroll\@xs {
     background-attachment: scroll;
   }
   
-  .bg-a-fixed\@xs {
+  .bga-fixed\@xs {
     background-attachment: fixed;
   }
   
-  .bg-a-local\@xs {
+  .bga-local\@xs {
     background-attachment: local;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .bg-a-scroll\@sm {
+  .bga-scroll\@sm {
     background-attachment: scroll;
   }
   
-  .bg-a-fixed\@sm {
+  .bga-fixed\@sm {
     background-attachment: fixed;
   }
   
-  .bg-a-local\@sm {
+  .bga-local\@sm {
     background-attachment: local;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .bg-a-scroll\@md {
+  .bga-scroll\@md {
     background-attachment: scroll;
   }
   
-  .bg-a-fixed\@md {
+  .bga-fixed\@md {
     background-attachment: fixed;
   }
   
-  .bg-a-local\@md {
+  .bga-local\@md {
     background-attachment: local;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .bg-a-scroll\@lg {
+  .bga-scroll\@lg {
     background-attachment: scroll;
   }
   
-  .bg-a-fixed\@lg {
+  .bga-fixed\@lg {
     background-attachment: fixed;
   }
   
-  .bg-a-local\@lg {
+  .bga-local\@lg {
     background-attachment: local;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .bg-a-scroll\@xl {
+  .bga-scroll\@xl {
     background-attachment: scroll;
   }
   
-  .bg-a-fixed\@xl {
+  .bga-fixed\@xl {
     background-attachment: fixed;
   }
   
-  .bg-a-local\@xl {
+  .bga-local\@xl {
     background-attachment: local;
   }
 }
 
 
-.bg-bm-normal {
+.bgbm-normal {
   background-blend-mode: normal;
 }
 
 
-.bg-bm-multiply {
+.bgbm-multiply {
   background-blend-mode: multiply;
 }
 
 
-.bg-bm-screen {
+.bgbm-screen {
   background-blend-mode: screen;
 }
 
 
-.bg-bm-overlay {
+.bgbm-overlay {
   background-blend-mode: overlay;
 }
 
 
-.bg-bm-darken {
+.bgbm-darken {
   background-blend-mode: darken;
 }
 
 
-.bg-bm-lighten {
+.bgbm-lighten {
   background-blend-mode: lighten;
 }
 
 
-.bg-bm-color-dodge {
+.bgbm-color-dodge {
   background-blend-mode: color-dodge;
 }
 
 
-.bg-bm-color-burn {
+.bgbm-color-burn {
   background-blend-mode: color-burn;
 }
 
 
-.bg-bm-hard-light {
+.bgbm-hard-light {
   background-blend-mode: hard-light;
 }
 
 
-.bg-bm-soft-light {
+.bgbm-soft-light {
   background-blend-mode: soft-light;
 }
 
 
-.bg-bm-difference {
+.bgbm-difference {
   background-blend-mode: difference;
 }
 
 
-.bg-bm-exclusion {
+.bgbm-exclusion {
   background-blend-mode: exclusion;
 }
 
 
-.bg-bm-hue {
+.bgbm-hue {
   background-blend-mode: hue;
 }
 
 
-.bg-bm-saturation {
+.bgbm-saturation {
   background-blend-mode: saturation;
 }
 
 
-.bg-bm-color {
+.bgbm-color {
   background-blend-mode: color;
 }
 
 
-.bg-bm-luminosity {
+.bgbm-luminosity {
   background-blend-mode: luminosity;
 }
 
 @media all and (min-width: 416px) {
   
-  .bg-bm-normal\@xs {
+  .bgbm-normal\@xs {
     background-blend-mode: normal;
   }
   
-  .bg-bm-multiply\@xs {
+  .bgbm-multiply\@xs {
     background-blend-mode: multiply;
   }
   
-  .bg-bm-screen\@xs {
+  .bgbm-screen\@xs {
     background-blend-mode: screen;
   }
   
-  .bg-bm-overlay\@xs {
+  .bgbm-overlay\@xs {
     background-blend-mode: overlay;
   }
   
-  .bg-bm-darken\@xs {
+  .bgbm-darken\@xs {
     background-blend-mode: darken;
   }
   
-  .bg-bm-lighten\@xs {
+  .bgbm-lighten\@xs {
     background-blend-mode: lighten;
   }
   
-  .bg-bm-color-dodge\@xs {
+  .bgbm-color-dodge\@xs {
     background-blend-mode: color-dodge;
   }
   
-  .bg-bm-color-burn\@xs {
+  .bgbm-color-burn\@xs {
     background-blend-mode: color-burn;
   }
   
-  .bg-bm-hard-light\@xs {
+  .bgbm-hard-light\@xs {
     background-blend-mode: hard-light;
   }
   
-  .bg-bm-soft-light\@xs {
+  .bgbm-soft-light\@xs {
     background-blend-mode: soft-light;
   }
   
-  .bg-bm-difference\@xs {
+  .bgbm-difference\@xs {
     background-blend-mode: difference;
   }
   
-  .bg-bm-exclusion\@xs {
+  .bgbm-exclusion\@xs {
     background-blend-mode: exclusion;
   }
   
-  .bg-bm-hue\@xs {
+  .bgbm-hue\@xs {
     background-blend-mode: hue;
   }
   
-  .bg-bm-saturation\@xs {
+  .bgbm-saturation\@xs {
     background-blend-mode: saturation;
   }
   
-  .bg-bm-color\@xs {
+  .bgbm-color\@xs {
     background-blend-mode: color;
   }
   
-  .bg-bm-luminosity\@xs {
+  .bgbm-luminosity\@xs {
     background-blend-mode: luminosity;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .bg-bm-normal\@sm {
+  .bgbm-normal\@sm {
     background-blend-mode: normal;
   }
   
-  .bg-bm-multiply\@sm {
+  .bgbm-multiply\@sm {
     background-blend-mode: multiply;
   }
   
-  .bg-bm-screen\@sm {
+  .bgbm-screen\@sm {
     background-blend-mode: screen;
   }
   
-  .bg-bm-overlay\@sm {
+  .bgbm-overlay\@sm {
     background-blend-mode: overlay;
   }
   
-  .bg-bm-darken\@sm {
+  .bgbm-darken\@sm {
     background-blend-mode: darken;
   }
   
-  .bg-bm-lighten\@sm {
+  .bgbm-lighten\@sm {
     background-blend-mode: lighten;
   }
   
-  .bg-bm-color-dodge\@sm {
+  .bgbm-color-dodge\@sm {
     background-blend-mode: color-dodge;
   }
   
-  .bg-bm-color-burn\@sm {
+  .bgbm-color-burn\@sm {
     background-blend-mode: color-burn;
   }
   
-  .bg-bm-hard-light\@sm {
+  .bgbm-hard-light\@sm {
     background-blend-mode: hard-light;
   }
   
-  .bg-bm-soft-light\@sm {
+  .bgbm-soft-light\@sm {
     background-blend-mode: soft-light;
   }
   
-  .bg-bm-difference\@sm {
+  .bgbm-difference\@sm {
     background-blend-mode: difference;
   }
   
-  .bg-bm-exclusion\@sm {
+  .bgbm-exclusion\@sm {
     background-blend-mode: exclusion;
   }
   
-  .bg-bm-hue\@sm {
+  .bgbm-hue\@sm {
     background-blend-mode: hue;
   }
   
-  .bg-bm-saturation\@sm {
+  .bgbm-saturation\@sm {
     background-blend-mode: saturation;
   }
   
-  .bg-bm-color\@sm {
+  .bgbm-color\@sm {
     background-blend-mode: color;
   }
   
-  .bg-bm-luminosity\@sm {
+  .bgbm-luminosity\@sm {
     background-blend-mode: luminosity;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .bg-bm-normal\@md {
+  .bgbm-normal\@md {
     background-blend-mode: normal;
   }
   
-  .bg-bm-multiply\@md {
+  .bgbm-multiply\@md {
     background-blend-mode: multiply;
   }
   
-  .bg-bm-screen\@md {
+  .bgbm-screen\@md {
     background-blend-mode: screen;
   }
   
-  .bg-bm-overlay\@md {
+  .bgbm-overlay\@md {
     background-blend-mode: overlay;
   }
   
-  .bg-bm-darken\@md {
+  .bgbm-darken\@md {
     background-blend-mode: darken;
   }
   
-  .bg-bm-lighten\@md {
+  .bgbm-lighten\@md {
     background-blend-mode: lighten;
   }
   
-  .bg-bm-color-dodge\@md {
+  .bgbm-color-dodge\@md {
     background-blend-mode: color-dodge;
   }
   
-  .bg-bm-color-burn\@md {
+  .bgbm-color-burn\@md {
     background-blend-mode: color-burn;
   }
   
-  .bg-bm-hard-light\@md {
+  .bgbm-hard-light\@md {
     background-blend-mode: hard-light;
   }
   
-  .bg-bm-soft-light\@md {
+  .bgbm-soft-light\@md {
     background-blend-mode: soft-light;
   }
   
-  .bg-bm-difference\@md {
+  .bgbm-difference\@md {
     background-blend-mode: difference;
   }
   
-  .bg-bm-exclusion\@md {
+  .bgbm-exclusion\@md {
     background-blend-mode: exclusion;
   }
   
-  .bg-bm-hue\@md {
+  .bgbm-hue\@md {
     background-blend-mode: hue;
   }
   
-  .bg-bm-saturation\@md {
+  .bgbm-saturation\@md {
     background-blend-mode: saturation;
   }
   
-  .bg-bm-color\@md {
+  .bgbm-color\@md {
     background-blend-mode: color;
   }
   
-  .bg-bm-luminosity\@md {
+  .bgbm-luminosity\@md {
     background-blend-mode: luminosity;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .bg-bm-normal\@lg {
+  .bgbm-normal\@lg {
     background-blend-mode: normal;
   }
   
-  .bg-bm-multiply\@lg {
+  .bgbm-multiply\@lg {
     background-blend-mode: multiply;
   }
   
-  .bg-bm-screen\@lg {
+  .bgbm-screen\@lg {
     background-blend-mode: screen;
   }
   
-  .bg-bm-overlay\@lg {
+  .bgbm-overlay\@lg {
     background-blend-mode: overlay;
   }
   
-  .bg-bm-darken\@lg {
+  .bgbm-darken\@lg {
     background-blend-mode: darken;
   }
   
-  .bg-bm-lighten\@lg {
+  .bgbm-lighten\@lg {
     background-blend-mode: lighten;
   }
   
-  .bg-bm-color-dodge\@lg {
+  .bgbm-color-dodge\@lg {
     background-blend-mode: color-dodge;
   }
   
-  .bg-bm-color-burn\@lg {
+  .bgbm-color-burn\@lg {
     background-blend-mode: color-burn;
   }
   
-  .bg-bm-hard-light\@lg {
+  .bgbm-hard-light\@lg {
     background-blend-mode: hard-light;
   }
   
-  .bg-bm-soft-light\@lg {
+  .bgbm-soft-light\@lg {
     background-blend-mode: soft-light;
   }
   
-  .bg-bm-difference\@lg {
+  .bgbm-difference\@lg {
     background-blend-mode: difference;
   }
   
-  .bg-bm-exclusion\@lg {
+  .bgbm-exclusion\@lg {
     background-blend-mode: exclusion;
   }
   
-  .bg-bm-hue\@lg {
+  .bgbm-hue\@lg {
     background-blend-mode: hue;
   }
   
-  .bg-bm-saturation\@lg {
+  .bgbm-saturation\@lg {
     background-blend-mode: saturation;
   }
   
-  .bg-bm-color\@lg {
+  .bgbm-color\@lg {
     background-blend-mode: color;
   }
   
-  .bg-bm-luminosity\@lg {
+  .bgbm-luminosity\@lg {
     background-blend-mode: luminosity;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .bg-bm-normal\@xl {
+  .bgbm-normal\@xl {
     background-blend-mode: normal;
   }
   
-  .bg-bm-multiply\@xl {
+  .bgbm-multiply\@xl {
     background-blend-mode: multiply;
   }
   
-  .bg-bm-screen\@xl {
+  .bgbm-screen\@xl {
     background-blend-mode: screen;
   }
   
-  .bg-bm-overlay\@xl {
+  .bgbm-overlay\@xl {
     background-blend-mode: overlay;
   }
   
-  .bg-bm-darken\@xl {
+  .bgbm-darken\@xl {
     background-blend-mode: darken;
   }
   
-  .bg-bm-lighten\@xl {
+  .bgbm-lighten\@xl {
     background-blend-mode: lighten;
   }
   
-  .bg-bm-color-dodge\@xl {
+  .bgbm-color-dodge\@xl {
     background-blend-mode: color-dodge;
   }
   
-  .bg-bm-color-burn\@xl {
+  .bgbm-color-burn\@xl {
     background-blend-mode: color-burn;
   }
   
-  .bg-bm-hard-light\@xl {
+  .bgbm-hard-light\@xl {
     background-blend-mode: hard-light;
   }
   
-  .bg-bm-soft-light\@xl {
+  .bgbm-soft-light\@xl {
     background-blend-mode: soft-light;
   }
   
-  .bg-bm-difference\@xl {
+  .bgbm-difference\@xl {
     background-blend-mode: difference;
   }
   
-  .bg-bm-exclusion\@xl {
+  .bgbm-exclusion\@xl {
     background-blend-mode: exclusion;
   }
   
-  .bg-bm-hue\@xl {
+  .bgbm-hue\@xl {
     background-blend-mode: hue;
   }
   
-  .bg-bm-saturation\@xl {
+  .bgbm-saturation\@xl {
     background-blend-mode: saturation;
   }
   
-  .bg-bm-color\@xl {
+  .bgbm-color\@xl {
     background-blend-mode: color;
   }
   
-  .bg-bm-luminosity\@xl {
+  .bgbm-luminosity\@xl {
     background-blend-mode: luminosity;
   }
 }
 
 
-.bg-c-white {
+.bgc-white {
   background-color: #fff;
 }
 
 
-.bg-c-black {
+.bgc-black {
   background-color: #000;
 }
 
 
-.bg-c-white:hover {
+.bgc-white:hover {
   background-color: #fff;
 }
 
 
-.bg-c-black:hover {
+.bgc-black:hover {
   background-color: #000;
 }
 
 
-.bg-c-white:focus {
+.bgc-white:focus {
   background-color: #fff;
 }
 
 
-.bg-c-black:focus {
+.bgc-black:focus {
   background-color: #000;
 }
 
 
-.bg-c-white:active {
+.bgc-white:active {
   background-color: #fff;
 }
 
 
-.bg-c-black:active {
+.bgc-black:active {
   background-color: #000;
 }
 
 .group:hover
-.bg-c-white\:group-hover {
+.bgc-white\:group-hover {
   background-color: #fff;
 }
 
 .group:hover
-.bg-c-black\:group-hover {
+.bgc-black\:group-hover {
   background-color: #000;
 }
 
 @media all and (min-width: 416px) {
   
-  .bg-c-white\@xs {
+  .bgc-white\@xs {
     background-color: #fff;
   }
   
-  .bg-c-black\@xs {
+  .bgc-black\@xs {
     background-color: #000;
   }
   
-  .bg-c-white:hover\@xs {
+  .bgc-white:hover\@xs {
     background-color: #fff;
   }
   
-  .bg-c-black:hover\@xs {
+  .bgc-black:hover\@xs {
     background-color: #000;
   }
   
-  .bg-c-white:focus\@xs {
+  .bgc-white:focus\@xs {
     background-color: #fff;
   }
   
-  .bg-c-black:focus\@xs {
+  .bgc-black:focus\@xs {
     background-color: #000;
   }
   
-  .bg-c-white:active\@xs {
+  .bgc-white:active\@xs {
     background-color: #fff;
   }
   
-  .bg-c-black:active\@xs {
+  .bgc-black:active\@xs {
     background-color: #000;
   }
   .group:hover
-.bg-c-white\:group-hover\@xs {
+.bgc-white\:group-hover\@xs {
     background-color: #fff;
   }
   .group:hover
-.bg-c-black\:group-hover\@xs {
+.bgc-black\:group-hover\@xs {
     background-color: #000;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .bg-c-white\@sm {
+  .bgc-white\@sm {
     background-color: #fff;
   }
   
-  .bg-c-black\@sm {
+  .bgc-black\@sm {
     background-color: #000;
   }
   
-  .bg-c-white:hover\@sm {
+  .bgc-white:hover\@sm {
     background-color: #fff;
   }
   
-  .bg-c-black:hover\@sm {
+  .bgc-black:hover\@sm {
     background-color: #000;
   }
   
-  .bg-c-white:focus\@sm {
+  .bgc-white:focus\@sm {
     background-color: #fff;
   }
   
-  .bg-c-black:focus\@sm {
+  .bgc-black:focus\@sm {
     background-color: #000;
   }
   
-  .bg-c-white:active\@sm {
+  .bgc-white:active\@sm {
     background-color: #fff;
   }
   
-  .bg-c-black:active\@sm {
+  .bgc-black:active\@sm {
     background-color: #000;
   }
   .group:hover
-.bg-c-white\:group-hover\@sm {
+.bgc-white\:group-hover\@sm {
     background-color: #fff;
   }
   .group:hover
-.bg-c-black\:group-hover\@sm {
+.bgc-black\:group-hover\@sm {
     background-color: #000;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .bg-c-white\@md {
+  .bgc-white\@md {
     background-color: #fff;
   }
   
-  .bg-c-black\@md {
+  .bgc-black\@md {
     background-color: #000;
   }
   
-  .bg-c-white:hover\@md {
+  .bgc-white:hover\@md {
     background-color: #fff;
   }
   
-  .bg-c-black:hover\@md {
+  .bgc-black:hover\@md {
     background-color: #000;
   }
   
-  .bg-c-white:focus\@md {
+  .bgc-white:focus\@md {
     background-color: #fff;
   }
   
-  .bg-c-black:focus\@md {
+  .bgc-black:focus\@md {
     background-color: #000;
   }
   
-  .bg-c-white:active\@md {
+  .bgc-white:active\@md {
     background-color: #fff;
   }
   
-  .bg-c-black:active\@md {
+  .bgc-black:active\@md {
     background-color: #000;
   }
   .group:hover
-.bg-c-white\:group-hover\@md {
+.bgc-white\:group-hover\@md {
     background-color: #fff;
   }
   .group:hover
-.bg-c-black\:group-hover\@md {
+.bgc-black\:group-hover\@md {
     background-color: #000;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .bg-c-white\@lg {
+  .bgc-white\@lg {
     background-color: #fff;
   }
   
-  .bg-c-black\@lg {
+  .bgc-black\@lg {
     background-color: #000;
   }
   
-  .bg-c-white:hover\@lg {
+  .bgc-white:hover\@lg {
     background-color: #fff;
   }
   
-  .bg-c-black:hover\@lg {
+  .bgc-black:hover\@lg {
     background-color: #000;
   }
   
-  .bg-c-white:focus\@lg {
+  .bgc-white:focus\@lg {
     background-color: #fff;
   }
   
-  .bg-c-black:focus\@lg {
+  .bgc-black:focus\@lg {
     background-color: #000;
   }
   
-  .bg-c-white:active\@lg {
+  .bgc-white:active\@lg {
     background-color: #fff;
   }
   
-  .bg-c-black:active\@lg {
+  .bgc-black:active\@lg {
     background-color: #000;
   }
   .group:hover
-.bg-c-white\:group-hover\@lg {
+.bgc-white\:group-hover\@lg {
     background-color: #fff;
   }
   .group:hover
-.bg-c-black\:group-hover\@lg {
+.bgc-black\:group-hover\@lg {
     background-color: #000;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .bg-c-white\@xl {
+  .bgc-white\@xl {
     background-color: #fff;
   }
   
-  .bg-c-black\@xl {
+  .bgc-black\@xl {
     background-color: #000;
   }
   
-  .bg-c-white:hover\@xl {
+  .bgc-white:hover\@xl {
     background-color: #fff;
   }
   
-  .bg-c-black:hover\@xl {
+  .bgc-black:hover\@xl {
     background-color: #000;
   }
   
-  .bg-c-white:focus\@xl {
+  .bgc-white:focus\@xl {
     background-color: #fff;
   }
   
-  .bg-c-black:focus\@xl {
+  .bgc-black:focus\@xl {
     background-color: #000;
   }
   
-  .bg-c-white:active\@xl {
+  .bgc-white:active\@xl {
     background-color: #fff;
   }
   
-  .bg-c-black:active\@xl {
+  .bgc-black:active\@xl {
     background-color: #000;
   }
   .group:hover
-.bg-c-white\:group-hover\@xl {
+.bgc-white\:group-hover\@xl {
     background-color: #fff;
   }
   .group:hover
-.bg-c-black\:group-hover\@xl {
+.bgc-black\:group-hover\@xl {
     background-color: #000;
   }
 }
 
 
-.bg-p-50\% {
+.bgp-50\% {
   background-position: 50%;
 }
 
 @media all and (min-width: 416px) {
   
-  .bg-p-50\%\@xs {
+  .bgp-50\%\@xs {
     background-position: 50%;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .bg-p-50\%\@sm {
+  .bgp-50\%\@sm {
     background-position: 50%;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .bg-p-50\%\@md {
+  .bgp-50\%\@md {
     background-position: 50%;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .bg-p-50\%\@lg {
+  .bgp-50\%\@lg {
     background-position: 50%;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .bg-p-50\%\@xl {
+  .bgp-50\%\@xl {
     background-position: 50%;
   }
 }
 
 
-.bg-r-no-repeat {
+.bgr-no-repeat {
   background-repeat: no-repeat;
 }
 
 @media all and (min-width: 416px) {
   
-  .bg-r-no-repeat\@xs {
+  .bgr-no-repeat\@xs {
     background-repeat: no-repeat;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .bg-r-no-repeat\@sm {
+  .bgr-no-repeat\@sm {
     background-repeat: no-repeat;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .bg-r-no-repeat\@md {
+  .bgr-no-repeat\@md {
     background-repeat: no-repeat;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .bg-r-no-repeat\@lg {
+  .bgr-no-repeat\@lg {
     background-repeat: no-repeat;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .bg-r-no-repeat\@xl {
+  .bgr-no-repeat\@xl {
     background-repeat: no-repeat;
   }
 }
 
 
-.bg-s-contain {
+.bgs-contain {
   background-size: contain;
 }
 
 
-.bg-s-cover {
+.bgs-cover {
   background-size: cover;
 }
 
 
-.bg-s-auto {
+.bgs-auto {
   background-size: auto;
 }
 
 @media all and (min-width: 416px) {
   
-  .bg-s-contain\@xs {
+  .bgs-contain\@xs {
     background-size: contain;
   }
   
-  .bg-s-cover\@xs {
+  .bgs-cover\@xs {
     background-size: cover;
   }
   
-  .bg-s-auto\@xs {
+  .bgs-auto\@xs {
     background-size: auto;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .bg-s-contain\@sm {
+  .bgs-contain\@sm {
     background-size: contain;
   }
   
-  .bg-s-cover\@sm {
+  .bgs-cover\@sm {
     background-size: cover;
   }
   
-  .bg-s-auto\@sm {
+  .bgs-auto\@sm {
     background-size: auto;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .bg-s-contain\@md {
+  .bgs-contain\@md {
     background-size: contain;
   }
   
-  .bg-s-cover\@md {
+  .bgs-cover\@md {
     background-size: cover;
   }
   
-  .bg-s-auto\@md {
+  .bgs-auto\@md {
     background-size: auto;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .bg-s-contain\@lg {
+  .bgs-contain\@lg {
     background-size: contain;
   }
   
-  .bg-s-cover\@lg {
+  .bgs-cover\@lg {
     background-size: cover;
   }
   
-  .bg-s-auto\@lg {
+  .bgs-auto\@lg {
     background-size: auto;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .bg-s-contain\@xl {
+  .bgs-contain\@xl {
     background-size: contain;
   }
   
-  .bg-s-cover\@xl {
+  .bgs-cover\@xl {
     background-size: cover;
   }
   
-  .bg-s-auto\@xl {
+  .bgs-auto\@xl {
     background-size: auto;
   }
 }
 
 
-.b-c-white {
+.brc-white {
   border-color: #fff;
 }
 
 
-.b-c-t-white {
+.brc-t-white {
   border-top-color: #fff;
 }
 
 
-.b-c-l-white {
+.brc-l-white {
   border-left-color: #fff;
 }
 
 
-.b-c-r-white {
+.brc-r-white {
   border-right-color: #fff;
 }
 
 
-.b-c-b-white {
+.brc-b-white {
   border-bottom-color: #fff;
 }
 
 
-.b-c-x-white {
+.brc-x-white {
   border-left-color: #fff;
   border-right-color: #fff;
 }
 
 
-.b-c-y-white {
+.brc-y-white {
   border-top-color: #fff;
   border-bottom-color: #fff;
 }
 
 
-.b-c-black {
+.brc-black {
   border-color: #000;
 }
 
 
-.b-c-t-black {
+.brc-t-black {
   border-top-color: #000;
 }
 
 
-.b-c-l-black {
+.brc-l-black {
   border-left-color: #000;
 }
 
 
-.b-c-r-black {
+.brc-r-black {
   border-right-color: #000;
 }
 
 
-.b-c-b-black {
+.brc-b-black {
   border-bottom-color: #000;
 }
 
 
-.b-c-x-black {
+.brc-x-black {
   border-left-color: #000;
   border-right-color: #000;
 }
 
 
-.b-c-y-black {
+.brc-y-black {
   border-top-color: #000;
   border-bottom-color: #000;
 }
 
 @media all and (min-width: 416px) {
   
-  .b-c-white\@xs {
+  .brc-white\@xs {
     border-color: #fff;
   }
   
-  .b-c-t-white\@xs {
+  .brc-t-white\@xs {
     border-top-color: #fff;
   }
   
-  .b-c-l-white\@xs {
+  .brc-l-white\@xs {
     border-left-color: #fff;
   }
   
-  .b-c-r-white\@xs {
+  .brc-r-white\@xs {
     border-right-color: #fff;
   }
   
-  .b-c-b-white\@xs {
+  .brc-b-white\@xs {
     border-bottom-color: #fff;
   }
   
-  .b-c-x-white\@xs {
+  .brc-x-white\@xs {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .b-c-y-white\@xs {
+  .brc-y-white\@xs {
     border-top-color: #fff;
     border-bottom-color: #fff;
   }
   
-  .b-c-black\@xs {
+  .brc-black\@xs {
     border-color: #000;
   }
   
-  .b-c-t-black\@xs {
+  .brc-t-black\@xs {
     border-top-color: #000;
   }
   
-  .b-c-l-black\@xs {
+  .brc-l-black\@xs {
     border-left-color: #000;
   }
   
-  .b-c-r-black\@xs {
+  .brc-r-black\@xs {
     border-right-color: #000;
   }
   
-  .b-c-b-black\@xs {
+  .brc-b-black\@xs {
     border-bottom-color: #000;
   }
   
-  .b-c-x-black\@xs {
+  .brc-x-black\@xs {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .b-c-y-black\@xs {
+  .brc-y-black\@xs {
     border-top-color: #000;
     border-bottom-color: #000;
   }
@@ -1722,62 +1722,62 @@
 
 @media all and (min-width: 756px) {
   
-  .b-c-white\@sm {
+  .brc-white\@sm {
     border-color: #fff;
   }
   
-  .b-c-t-white\@sm {
+  .brc-t-white\@sm {
     border-top-color: #fff;
   }
   
-  .b-c-l-white\@sm {
+  .brc-l-white\@sm {
     border-left-color: #fff;
   }
   
-  .b-c-r-white\@sm {
+  .brc-r-white\@sm {
     border-right-color: #fff;
   }
   
-  .b-c-b-white\@sm {
+  .brc-b-white\@sm {
     border-bottom-color: #fff;
   }
   
-  .b-c-x-white\@sm {
+  .brc-x-white\@sm {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .b-c-y-white\@sm {
+  .brc-y-white\@sm {
     border-top-color: #fff;
     border-bottom-color: #fff;
   }
   
-  .b-c-black\@sm {
+  .brc-black\@sm {
     border-color: #000;
   }
   
-  .b-c-t-black\@sm {
+  .brc-t-black\@sm {
     border-top-color: #000;
   }
   
-  .b-c-l-black\@sm {
+  .brc-l-black\@sm {
     border-left-color: #000;
   }
   
-  .b-c-r-black\@sm {
+  .brc-r-black\@sm {
     border-right-color: #000;
   }
   
-  .b-c-b-black\@sm {
+  .brc-b-black\@sm {
     border-bottom-color: #000;
   }
   
-  .b-c-x-black\@sm {
+  .brc-x-black\@sm {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .b-c-y-black\@sm {
+  .brc-y-black\@sm {
     border-top-color: #000;
     border-bottom-color: #000;
   }
@@ -1785,62 +1785,62 @@
 
 @media all and (min-width: 1024px) {
   
-  .b-c-white\@md {
+  .brc-white\@md {
     border-color: #fff;
   }
   
-  .b-c-t-white\@md {
+  .brc-t-white\@md {
     border-top-color: #fff;
   }
   
-  .b-c-l-white\@md {
+  .brc-l-white\@md {
     border-left-color: #fff;
   }
   
-  .b-c-r-white\@md {
+  .brc-r-white\@md {
     border-right-color: #fff;
   }
   
-  .b-c-b-white\@md {
+  .brc-b-white\@md {
     border-bottom-color: #fff;
   }
   
-  .b-c-x-white\@md {
+  .brc-x-white\@md {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .b-c-y-white\@md {
+  .brc-y-white\@md {
     border-top-color: #fff;
     border-bottom-color: #fff;
   }
   
-  .b-c-black\@md {
+  .brc-black\@md {
     border-color: #000;
   }
   
-  .b-c-t-black\@md {
+  .brc-t-black\@md {
     border-top-color: #000;
   }
   
-  .b-c-l-black\@md {
+  .brc-l-black\@md {
     border-left-color: #000;
   }
   
-  .b-c-r-black\@md {
+  .brc-r-black\@md {
     border-right-color: #000;
   }
   
-  .b-c-b-black\@md {
+  .brc-b-black\@md {
     border-bottom-color: #000;
   }
   
-  .b-c-x-black\@md {
+  .brc-x-black\@md {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .b-c-y-black\@md {
+  .brc-y-black\@md {
     border-top-color: #000;
     border-bottom-color: #000;
   }
@@ -1848,62 +1848,62 @@
 
 @media all and (min-width: 1220px) {
   
-  .b-c-white\@lg {
+  .brc-white\@lg {
     border-color: #fff;
   }
   
-  .b-c-t-white\@lg {
+  .brc-t-white\@lg {
     border-top-color: #fff;
   }
   
-  .b-c-l-white\@lg {
+  .brc-l-white\@lg {
     border-left-color: #fff;
   }
   
-  .b-c-r-white\@lg {
+  .brc-r-white\@lg {
     border-right-color: #fff;
   }
   
-  .b-c-b-white\@lg {
+  .brc-b-white\@lg {
     border-bottom-color: #fff;
   }
   
-  .b-c-x-white\@lg {
+  .brc-x-white\@lg {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .b-c-y-white\@lg {
+  .brc-y-white\@lg {
     border-top-color: #fff;
     border-bottom-color: #fff;
   }
   
-  .b-c-black\@lg {
+  .brc-black\@lg {
     border-color: #000;
   }
   
-  .b-c-t-black\@lg {
+  .brc-t-black\@lg {
     border-top-color: #000;
   }
   
-  .b-c-l-black\@lg {
+  .brc-l-black\@lg {
     border-left-color: #000;
   }
   
-  .b-c-r-black\@lg {
+  .brc-r-black\@lg {
     border-right-color: #000;
   }
   
-  .b-c-b-black\@lg {
+  .brc-b-black\@lg {
     border-bottom-color: #000;
   }
   
-  .b-c-x-black\@lg {
+  .brc-x-black\@lg {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .b-c-y-black\@lg {
+  .brc-y-black\@lg {
     border-top-color: #000;
     border-bottom-color: #000;
   }
@@ -1911,266 +1911,266 @@
 
 @media all and (min-width: 1460px) {
   
-  .b-c-white\@xl {
+  .brc-white\@xl {
     border-color: #fff;
   }
   
-  .b-c-t-white\@xl {
+  .brc-t-white\@xl {
     border-top-color: #fff;
   }
   
-  .b-c-l-white\@xl {
+  .brc-l-white\@xl {
     border-left-color: #fff;
   }
   
-  .b-c-r-white\@xl {
+  .brc-r-white\@xl {
     border-right-color: #fff;
   }
   
-  .b-c-b-white\@xl {
+  .brc-b-white\@xl {
     border-bottom-color: #fff;
   }
   
-  .b-c-x-white\@xl {
+  .brc-x-white\@xl {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .b-c-y-white\@xl {
+  .brc-y-white\@xl {
     border-top-color: #fff;
     border-bottom-color: #fff;
   }
   
-  .b-c-black\@xl {
+  .brc-black\@xl {
     border-color: #000;
   }
   
-  .b-c-t-black\@xl {
+  .brc-t-black\@xl {
     border-top-color: #000;
   }
   
-  .b-c-l-black\@xl {
+  .brc-l-black\@xl {
     border-left-color: #000;
   }
   
-  .b-c-r-black\@xl {
+  .brc-r-black\@xl {
     border-right-color: #000;
   }
   
-  .b-c-b-black\@xl {
+  .brc-b-black\@xl {
     border-bottom-color: #000;
   }
   
-  .b-c-x-black\@xl {
+  .brc-x-black\@xl {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .b-c-y-black\@xl {
+  .brc-y-black\@xl {
     border-top-color: #000;
     border-bottom-color: #000;
   }
 }
 
 
-.b-s-dotted {
+.brs-dotted {
   border-style: dotted;
 }
 
 
-.b-s-t-dotted {
+.brs-t-dotted {
   border-top-style: dotted;
 }
 
 
-.b-s-l-dotted {
+.brs-l-dotted {
   border-left-style: dotted;
 }
 
 
-.b-s-r-dotted {
+.brs-r-dotted {
   border-right-style: dotted;
 }
 
 
-.b-s-b-dotted {
+.brs-b-dotted {
   border-bottom-style: dotted;
 }
 
 
-.b-s-x-dotted {
+.brs-x-dotted {
   border-left-style: dotted;
   border-right-style: dotted;
 }
 
 
-.b-s-y-dotted {
+.brs-y-dotted {
   border-top-style: dotted;
   border-bottom-style: dotted;
 }
 
 
-.b-s-dashed {
+.brs-dashed {
   border-style: dashed;
 }
 
 
-.b-s-t-dashed {
+.brs-t-dashed {
   border-top-style: dashed;
 }
 
 
-.b-s-l-dashed {
+.brs-l-dashed {
   border-left-style: dashed;
 }
 
 
-.b-s-r-dashed {
+.brs-r-dashed {
   border-right-style: dashed;
 }
 
 
-.b-s-b-dashed {
+.brs-b-dashed {
   border-bottom-style: dashed;
 }
 
 
-.b-s-x-dashed {
+.brs-x-dashed {
   border-left-style: dashed;
   border-right-style: dashed;
 }
 
 
-.b-s-y-dashed {
+.brs-y-dashed {
   border-top-style: dashed;
   border-bottom-style: dashed;
 }
 
 
-.b-s-solid {
+.brs-solid {
   border-style: solid;
 }
 
 
-.b-s-t-solid {
+.brs-t-solid {
   border-top-style: solid;
 }
 
 
-.b-s-l-solid {
+.brs-l-solid {
   border-left-style: solid;
 }
 
 
-.b-s-r-solid {
+.brs-r-solid {
   border-right-style: solid;
 }
 
 
-.b-s-b-solid {
+.brs-b-solid {
   border-bottom-style: solid;
 }
 
 
-.b-s-x-solid {
+.brs-x-solid {
   border-left-style: solid;
   border-right-style: solid;
 }
 
 
-.b-s-y-solid {
+.brs-y-solid {
   border-top-style: solid;
   border-bottom-style: solid;
 }
 
 @media all and (min-width: 416px) {
   
-  .b-s-dotted\@xs {
+  .brs-dotted\@xs {
     border-style: dotted;
   }
   
-  .b-s-t-dotted\@xs {
+  .brs-t-dotted\@xs {
     border-top-style: dotted;
   }
   
-  .b-s-l-dotted\@xs {
+  .brs-l-dotted\@xs {
     border-left-style: dotted;
   }
   
-  .b-s-r-dotted\@xs {
+  .brs-r-dotted\@xs {
     border-right-style: dotted;
   }
   
-  .b-s-b-dotted\@xs {
+  .brs-b-dotted\@xs {
     border-bottom-style: dotted;
   }
   
-  .b-s-x-dotted\@xs {
+  .brs-x-dotted\@xs {
     border-left-style: dotted;
     border-right-style: dotted;
   }
   
-  .b-s-y-dotted\@xs {
+  .brs-y-dotted\@xs {
     border-top-style: dotted;
     border-bottom-style: dotted;
   }
   
-  .b-s-dashed\@xs {
+  .brs-dashed\@xs {
     border-style: dashed;
   }
   
-  .b-s-t-dashed\@xs {
+  .brs-t-dashed\@xs {
     border-top-style: dashed;
   }
   
-  .b-s-l-dashed\@xs {
+  .brs-l-dashed\@xs {
     border-left-style: dashed;
   }
   
-  .b-s-r-dashed\@xs {
+  .brs-r-dashed\@xs {
     border-right-style: dashed;
   }
   
-  .b-s-b-dashed\@xs {
+  .brs-b-dashed\@xs {
     border-bottom-style: dashed;
   }
   
-  .b-s-x-dashed\@xs {
+  .brs-x-dashed\@xs {
     border-left-style: dashed;
     border-right-style: dashed;
   }
   
-  .b-s-y-dashed\@xs {
+  .brs-y-dashed\@xs {
     border-top-style: dashed;
     border-bottom-style: dashed;
   }
   
-  .b-s-solid\@xs {
+  .brs-solid\@xs {
     border-style: solid;
   }
   
-  .b-s-t-solid\@xs {
+  .brs-t-solid\@xs {
     border-top-style: solid;
   }
   
-  .b-s-l-solid\@xs {
+  .brs-l-solid\@xs {
     border-left-style: solid;
   }
   
-  .b-s-r-solid\@xs {
+  .brs-r-solid\@xs {
     border-right-style: solid;
   }
   
-  .b-s-b-solid\@xs {
+  .brs-b-solid\@xs {
     border-bottom-style: solid;
   }
   
-  .b-s-x-solid\@xs {
+  .brs-x-solid\@xs {
     border-left-style: solid;
     border-right-style: solid;
   }
   
-  .b-s-y-solid\@xs {
+  .brs-y-solid\@xs {
     border-top-style: solid;
     border-bottom-style: solid;
   }
@@ -2178,92 +2178,92 @@
 
 @media all and (min-width: 756px) {
   
-  .b-s-dotted\@sm {
+  .brs-dotted\@sm {
     border-style: dotted;
   }
   
-  .b-s-t-dotted\@sm {
+  .brs-t-dotted\@sm {
     border-top-style: dotted;
   }
   
-  .b-s-l-dotted\@sm {
+  .brs-l-dotted\@sm {
     border-left-style: dotted;
   }
   
-  .b-s-r-dotted\@sm {
+  .brs-r-dotted\@sm {
     border-right-style: dotted;
   }
   
-  .b-s-b-dotted\@sm {
+  .brs-b-dotted\@sm {
     border-bottom-style: dotted;
   }
   
-  .b-s-x-dotted\@sm {
+  .brs-x-dotted\@sm {
     border-left-style: dotted;
     border-right-style: dotted;
   }
   
-  .b-s-y-dotted\@sm {
+  .brs-y-dotted\@sm {
     border-top-style: dotted;
     border-bottom-style: dotted;
   }
   
-  .b-s-dashed\@sm {
+  .brs-dashed\@sm {
     border-style: dashed;
   }
   
-  .b-s-t-dashed\@sm {
+  .brs-t-dashed\@sm {
     border-top-style: dashed;
   }
   
-  .b-s-l-dashed\@sm {
+  .brs-l-dashed\@sm {
     border-left-style: dashed;
   }
   
-  .b-s-r-dashed\@sm {
+  .brs-r-dashed\@sm {
     border-right-style: dashed;
   }
   
-  .b-s-b-dashed\@sm {
+  .brs-b-dashed\@sm {
     border-bottom-style: dashed;
   }
   
-  .b-s-x-dashed\@sm {
+  .brs-x-dashed\@sm {
     border-left-style: dashed;
     border-right-style: dashed;
   }
   
-  .b-s-y-dashed\@sm {
+  .brs-y-dashed\@sm {
     border-top-style: dashed;
     border-bottom-style: dashed;
   }
   
-  .b-s-solid\@sm {
+  .brs-solid\@sm {
     border-style: solid;
   }
   
-  .b-s-t-solid\@sm {
+  .brs-t-solid\@sm {
     border-top-style: solid;
   }
   
-  .b-s-l-solid\@sm {
+  .brs-l-solid\@sm {
     border-left-style: solid;
   }
   
-  .b-s-r-solid\@sm {
+  .brs-r-solid\@sm {
     border-right-style: solid;
   }
   
-  .b-s-b-solid\@sm {
+  .brs-b-solid\@sm {
     border-bottom-style: solid;
   }
   
-  .b-s-x-solid\@sm {
+  .brs-x-solid\@sm {
     border-left-style: solid;
     border-right-style: solid;
   }
   
-  .b-s-y-solid\@sm {
+  .brs-y-solid\@sm {
     border-top-style: solid;
     border-bottom-style: solid;
   }
@@ -2271,92 +2271,92 @@
 
 @media all and (min-width: 1024px) {
   
-  .b-s-dotted\@md {
+  .brs-dotted\@md {
     border-style: dotted;
   }
   
-  .b-s-t-dotted\@md {
+  .brs-t-dotted\@md {
     border-top-style: dotted;
   }
   
-  .b-s-l-dotted\@md {
+  .brs-l-dotted\@md {
     border-left-style: dotted;
   }
   
-  .b-s-r-dotted\@md {
+  .brs-r-dotted\@md {
     border-right-style: dotted;
   }
   
-  .b-s-b-dotted\@md {
+  .brs-b-dotted\@md {
     border-bottom-style: dotted;
   }
   
-  .b-s-x-dotted\@md {
+  .brs-x-dotted\@md {
     border-left-style: dotted;
     border-right-style: dotted;
   }
   
-  .b-s-y-dotted\@md {
+  .brs-y-dotted\@md {
     border-top-style: dotted;
     border-bottom-style: dotted;
   }
   
-  .b-s-dashed\@md {
+  .brs-dashed\@md {
     border-style: dashed;
   }
   
-  .b-s-t-dashed\@md {
+  .brs-t-dashed\@md {
     border-top-style: dashed;
   }
   
-  .b-s-l-dashed\@md {
+  .brs-l-dashed\@md {
     border-left-style: dashed;
   }
   
-  .b-s-r-dashed\@md {
+  .brs-r-dashed\@md {
     border-right-style: dashed;
   }
   
-  .b-s-b-dashed\@md {
+  .brs-b-dashed\@md {
     border-bottom-style: dashed;
   }
   
-  .b-s-x-dashed\@md {
+  .brs-x-dashed\@md {
     border-left-style: dashed;
     border-right-style: dashed;
   }
   
-  .b-s-y-dashed\@md {
+  .brs-y-dashed\@md {
     border-top-style: dashed;
     border-bottom-style: dashed;
   }
   
-  .b-s-solid\@md {
+  .brs-solid\@md {
     border-style: solid;
   }
   
-  .b-s-t-solid\@md {
+  .brs-t-solid\@md {
     border-top-style: solid;
   }
   
-  .b-s-l-solid\@md {
+  .brs-l-solid\@md {
     border-left-style: solid;
   }
   
-  .b-s-r-solid\@md {
+  .brs-r-solid\@md {
     border-right-style: solid;
   }
   
-  .b-s-b-solid\@md {
+  .brs-b-solid\@md {
     border-bottom-style: solid;
   }
   
-  .b-s-x-solid\@md {
+  .brs-x-solid\@md {
     border-left-style: solid;
     border-right-style: solid;
   }
   
-  .b-s-y-solid\@md {
+  .brs-y-solid\@md {
     border-top-style: solid;
     border-bottom-style: solid;
   }
@@ -2364,92 +2364,92 @@
 
 @media all and (min-width: 1220px) {
   
-  .b-s-dotted\@lg {
+  .brs-dotted\@lg {
     border-style: dotted;
   }
   
-  .b-s-t-dotted\@lg {
+  .brs-t-dotted\@lg {
     border-top-style: dotted;
   }
   
-  .b-s-l-dotted\@lg {
+  .brs-l-dotted\@lg {
     border-left-style: dotted;
   }
   
-  .b-s-r-dotted\@lg {
+  .brs-r-dotted\@lg {
     border-right-style: dotted;
   }
   
-  .b-s-b-dotted\@lg {
+  .brs-b-dotted\@lg {
     border-bottom-style: dotted;
   }
   
-  .b-s-x-dotted\@lg {
+  .brs-x-dotted\@lg {
     border-left-style: dotted;
     border-right-style: dotted;
   }
   
-  .b-s-y-dotted\@lg {
+  .brs-y-dotted\@lg {
     border-top-style: dotted;
     border-bottom-style: dotted;
   }
   
-  .b-s-dashed\@lg {
+  .brs-dashed\@lg {
     border-style: dashed;
   }
   
-  .b-s-t-dashed\@lg {
+  .brs-t-dashed\@lg {
     border-top-style: dashed;
   }
   
-  .b-s-l-dashed\@lg {
+  .brs-l-dashed\@lg {
     border-left-style: dashed;
   }
   
-  .b-s-r-dashed\@lg {
+  .brs-r-dashed\@lg {
     border-right-style: dashed;
   }
   
-  .b-s-b-dashed\@lg {
+  .brs-b-dashed\@lg {
     border-bottom-style: dashed;
   }
   
-  .b-s-x-dashed\@lg {
+  .brs-x-dashed\@lg {
     border-left-style: dashed;
     border-right-style: dashed;
   }
   
-  .b-s-y-dashed\@lg {
+  .brs-y-dashed\@lg {
     border-top-style: dashed;
     border-bottom-style: dashed;
   }
   
-  .b-s-solid\@lg {
+  .brs-solid\@lg {
     border-style: solid;
   }
   
-  .b-s-t-solid\@lg {
+  .brs-t-solid\@lg {
     border-top-style: solid;
   }
   
-  .b-s-l-solid\@lg {
+  .brs-l-solid\@lg {
     border-left-style: solid;
   }
   
-  .b-s-r-solid\@lg {
+  .brs-r-solid\@lg {
     border-right-style: solid;
   }
   
-  .b-s-b-solid\@lg {
+  .brs-b-solid\@lg {
     border-bottom-style: solid;
   }
   
-  .b-s-x-solid\@lg {
+  .brs-x-solid\@lg {
     border-left-style: solid;
     border-right-style: solid;
   }
   
-  .b-s-y-solid\@lg {
+  .brs-y-solid\@lg {
     border-top-style: solid;
     border-bottom-style: solid;
   }
@@ -2457,363 +2457,363 @@
 
 @media all and (min-width: 1460px) {
   
-  .b-s-dotted\@xl {
+  .brs-dotted\@xl {
     border-style: dotted;
   }
   
-  .b-s-t-dotted\@xl {
+  .brs-t-dotted\@xl {
     border-top-style: dotted;
   }
   
-  .b-s-l-dotted\@xl {
+  .brs-l-dotted\@xl {
     border-left-style: dotted;
   }
   
-  .b-s-r-dotted\@xl {
+  .brs-r-dotted\@xl {
     border-right-style: dotted;
   }
   
-  .b-s-b-dotted\@xl {
+  .brs-b-dotted\@xl {
     border-bottom-style: dotted;
   }
   
-  .b-s-x-dotted\@xl {
+  .brs-x-dotted\@xl {
     border-left-style: dotted;
     border-right-style: dotted;
   }
   
-  .b-s-y-dotted\@xl {
+  .brs-y-dotted\@xl {
     border-top-style: dotted;
     border-bottom-style: dotted;
   }
   
-  .b-s-dashed\@xl {
+  .brs-dashed\@xl {
     border-style: dashed;
   }
   
-  .b-s-t-dashed\@xl {
+  .brs-t-dashed\@xl {
     border-top-style: dashed;
   }
   
-  .b-s-l-dashed\@xl {
+  .brs-l-dashed\@xl {
     border-left-style: dashed;
   }
   
-  .b-s-r-dashed\@xl {
+  .brs-r-dashed\@xl {
     border-right-style: dashed;
   }
   
-  .b-s-b-dashed\@xl {
+  .brs-b-dashed\@xl {
     border-bottom-style: dashed;
   }
   
-  .b-s-x-dashed\@xl {
+  .brs-x-dashed\@xl {
     border-left-style: dashed;
     border-right-style: dashed;
   }
   
-  .b-s-y-dashed\@xl {
+  .brs-y-dashed\@xl {
     border-top-style: dashed;
     border-bottom-style: dashed;
   }
   
-  .b-s-solid\@xl {
+  .brs-solid\@xl {
     border-style: solid;
   }
   
-  .b-s-t-solid\@xl {
+  .brs-t-solid\@xl {
     border-top-style: solid;
   }
   
-  .b-s-l-solid\@xl {
+  .brs-l-solid\@xl {
     border-left-style: solid;
   }
   
-  .b-s-r-solid\@xl {
+  .brs-r-solid\@xl {
     border-right-style: solid;
   }
   
-  .b-s-b-solid\@xl {
+  .brs-b-solid\@xl {
     border-bottom-style: solid;
   }
   
-  .b-s-x-solid\@xl {
+  .brs-x-solid\@xl {
     border-left-style: solid;
     border-right-style: solid;
   }
   
-  .b-s-y-solid\@xl {
+  .brs-y-solid\@xl {
     border-top-style: solid;
     border-bottom-style: solid;
   }
 }
 
 
-.b-w-0 {
+.brw-0 {
   border-width: 0;
 }
 
 
-.b-w-t-0 {
+.brw-t-0 {
   border-top-width: 0;
 }
 
 
-.b-w-l-0 {
+.brw-l-0 {
   border-left-width: 0;
 }
 
 
-.b-w-r-0 {
+.brw-r-0 {
   border-right-width: 0;
 }
 
 
-.b-w-b-0 {
+.brw-b-0 {
   border-bottom-width: 0;
 }
 
 
-.b-w-x-0 {
+.brw-x-0 {
   border-left-width: 0;
   border-right-width: 0;
 }
 
 
-.b-w-y-0 {
+.brw-y-0 {
   border-top-width: 0;
   border-bottom-width: 0;
 }
 
 
-.b-w-1 {
+.brw-1 {
   border-width: 1px;
 }
 
 
-.b-w-t-1 {
+.brw-t-1 {
   border-top-width: 1px;
 }
 
 
-.b-w-l-1 {
+.brw-l-1 {
   border-left-width: 1px;
 }
 
 
-.b-w-r-1 {
+.brw-r-1 {
   border-right-width: 1px;
 }
 
 
-.b-w-b-1 {
+.brw-b-1 {
   border-bottom-width: 1px;
 }
 
 
-.b-w-x-1 {
+.brw-x-1 {
   border-left-width: 1px;
   border-right-width: 1px;
 }
 
 
-.b-w-y-1 {
+.brw-y-1 {
   border-top-width: 1px;
   border-bottom-width: 1px;
 }
 
 
-.b-w-2 {
+.brw-2 {
   border-width: 2px;
 }
 
 
-.b-w-t-2 {
+.brw-t-2 {
   border-top-width: 2px;
 }
 
 
-.b-w-l-2 {
+.brw-l-2 {
   border-left-width: 2px;
 }
 
 
-.b-w-r-2 {
+.brw-r-2 {
   border-right-width: 2px;
 }
 
 
-.b-w-b-2 {
+.brw-b-2 {
   border-bottom-width: 2px;
 }
 
 
-.b-w-x-2 {
+.brw-x-2 {
   border-left-width: 2px;
   border-right-width: 2px;
 }
 
 
-.b-w-y-2 {
+.brw-y-2 {
   border-top-width: 2px;
   border-bottom-width: 2px;
 }
 
 
-.b-w-3 {
+.brw-3 {
   border-width: 3px;
 }
 
 
-.b-w-t-3 {
+.brw-t-3 {
   border-top-width: 3px;
 }
 
 
-.b-w-l-3 {
+.brw-l-3 {
   border-left-width: 3px;
 }
 
 
-.b-w-r-3 {
+.brw-r-3 {
   border-right-width: 3px;
 }
 
 
-.b-w-b-3 {
+.brw-b-3 {
   border-bottom-width: 3px;
 }
 
 
-.b-w-x-3 {
+.brw-x-3 {
   border-left-width: 3px;
   border-right-width: 3px;
 }
 
 
-.b-w-y-3 {
+.brw-y-3 {
   border-top-width: 3px;
   border-bottom-width: 3px;
 }
 
 @media all and (min-width: 416px) {
   
-  .b-w-0\@xs {
+  .brw-0\@xs {
     border-width: 0;
   }
   
-  .b-w-t-0\@xs {
+  .brw-t-0\@xs {
     border-top-width: 0;
   }
   
-  .b-w-l-0\@xs {
+  .brw-l-0\@xs {
     border-left-width: 0;
   }
   
-  .b-w-r-0\@xs {
+  .brw-r-0\@xs {
     border-right-width: 0;
   }
   
-  .b-w-b-0\@xs {
+  .brw-b-0\@xs {
     border-bottom-width: 0;
   }
   
-  .b-w-x-0\@xs {
+  .brw-x-0\@xs {
     border-left-width: 0;
     border-right-width: 0;
   }
   
-  .b-w-y-0\@xs {
+  .brw-y-0\@xs {
     border-top-width: 0;
     border-bottom-width: 0;
   }
   
-  .b-w-1\@xs {
+  .brw-1\@xs {
     border-width: 1px;
   }
   
-  .b-w-t-1\@xs {
+  .brw-t-1\@xs {
     border-top-width: 1px;
   }
   
-  .b-w-l-1\@xs {
+  .brw-l-1\@xs {
     border-left-width: 1px;
   }
   
-  .b-w-r-1\@xs {
+  .brw-r-1\@xs {
     border-right-width: 1px;
   }
   
-  .b-w-b-1\@xs {
+  .brw-b-1\@xs {
     border-bottom-width: 1px;
   }
   
-  .b-w-x-1\@xs {
+  .brw-x-1\@xs {
     border-left-width: 1px;
     border-right-width: 1px;
   }
   
-  .b-w-y-1\@xs {
+  .brw-y-1\@xs {
     border-top-width: 1px;
     border-bottom-width: 1px;
   }
   
-  .b-w-2\@xs {
+  .brw-2\@xs {
     border-width: 2px;
   }
   
-  .b-w-t-2\@xs {
+  .brw-t-2\@xs {
     border-top-width: 2px;
   }
   
-  .b-w-l-2\@xs {
+  .brw-l-2\@xs {
     border-left-width: 2px;
   }
   
-  .b-w-r-2\@xs {
+  .brw-r-2\@xs {
     border-right-width: 2px;
   }
   
-  .b-w-b-2\@xs {
+  .brw-b-2\@xs {
     border-bottom-width: 2px;
   }
   
-  .b-w-x-2\@xs {
+  .brw-x-2\@xs {
     border-left-width: 2px;
     border-right-width: 2px;
   }
   
-  .b-w-y-2\@xs {
+  .brw-y-2\@xs {
     border-top-width: 2px;
     border-bottom-width: 2px;
   }
   
-  .b-w-3\@xs {
+  .brw-3\@xs {
     border-width: 3px;
   }
   
-  .b-w-t-3\@xs {
+  .brw-t-3\@xs {
     border-top-width: 3px;
   }
   
-  .b-w-l-3\@xs {
+  .brw-l-3\@xs {
     border-left-width: 3px;
   }
   
-  .b-w-r-3\@xs {
+  .brw-r-3\@xs {
     border-right-width: 3px;
   }
   
-  .b-w-b-3\@xs {
+  .brw-b-3\@xs {
     border-bottom-width: 3px;
   }
   
-  .b-w-x-3\@xs {
+  .brw-x-3\@xs {
     border-left-width: 3px;
     border-right-width: 3px;
   }
   
-  .b-w-y-3\@xs {
+  .brw-y-3\@xs {
     border-top-width: 3px;
     border-bottom-width: 3px;
   }
@@ -2821,122 +2821,122 @@
 
 @media all and (min-width: 756px) {
   
-  .b-w-0\@sm {
+  .brw-0\@sm {
     border-width: 0;
   }
   
-  .b-w-t-0\@sm {
+  .brw-t-0\@sm {
     border-top-width: 0;
   }
   
-  .b-w-l-0\@sm {
+  .brw-l-0\@sm {
     border-left-width: 0;
   }
   
-  .b-w-r-0\@sm {
+  .brw-r-0\@sm {
     border-right-width: 0;
   }
   
-  .b-w-b-0\@sm {
+  .brw-b-0\@sm {
     border-bottom-width: 0;
   }
   
-  .b-w-x-0\@sm {
+  .brw-x-0\@sm {
     border-left-width: 0;
     border-right-width: 0;
   }
   
-  .b-w-y-0\@sm {
+  .brw-y-0\@sm {
     border-top-width: 0;
     border-bottom-width: 0;
   }
   
-  .b-w-1\@sm {
+  .brw-1\@sm {
     border-width: 1px;
   }
   
-  .b-w-t-1\@sm {
+  .brw-t-1\@sm {
     border-top-width: 1px;
   }
   
-  .b-w-l-1\@sm {
+  .brw-l-1\@sm {
     border-left-width: 1px;
   }
   
-  .b-w-r-1\@sm {
+  .brw-r-1\@sm {
     border-right-width: 1px;
   }
   
-  .b-w-b-1\@sm {
+  .brw-b-1\@sm {
     border-bottom-width: 1px;
   }
   
-  .b-w-x-1\@sm {
+  .brw-x-1\@sm {
     border-left-width: 1px;
     border-right-width: 1px;
   }
   
-  .b-w-y-1\@sm {
+  .brw-y-1\@sm {
     border-top-width: 1px;
     border-bottom-width: 1px;
   }
   
-  .b-w-2\@sm {
+  .brw-2\@sm {
     border-width: 2px;
   }
   
-  .b-w-t-2\@sm {
+  .brw-t-2\@sm {
     border-top-width: 2px;
   }
   
-  .b-w-l-2\@sm {
+  .brw-l-2\@sm {
     border-left-width: 2px;
   }
   
-  .b-w-r-2\@sm {
+  .brw-r-2\@sm {
     border-right-width: 2px;
   }
   
-  .b-w-b-2\@sm {
+  .brw-b-2\@sm {
     border-bottom-width: 2px;
   }
   
-  .b-w-x-2\@sm {
+  .brw-x-2\@sm {
     border-left-width: 2px;
     border-right-width: 2px;
   }
   
-  .b-w-y-2\@sm {
+  .brw-y-2\@sm {
     border-top-width: 2px;
     border-bottom-width: 2px;
   }
   
-  .b-w-3\@sm {
+  .brw-3\@sm {
     border-width: 3px;
   }
   
-  .b-w-t-3\@sm {
+  .brw-t-3\@sm {
     border-top-width: 3px;
   }
   
-  .b-w-l-3\@sm {
+  .brw-l-3\@sm {
     border-left-width: 3px;
   }
   
-  .b-w-r-3\@sm {
+  .brw-r-3\@sm {
     border-right-width: 3px;
   }
   
-  .b-w-b-3\@sm {
+  .brw-b-3\@sm {
     border-bottom-width: 3px;
   }
   
-  .b-w-x-3\@sm {
+  .brw-x-3\@sm {
     border-left-width: 3px;
     border-right-width: 3px;
   }
   
-  .b-w-y-3\@sm {
+  .brw-y-3\@sm {
     border-top-width: 3px;
     border-bottom-width: 3px;
   }
@@ -2944,122 +2944,122 @@
 
 @media all and (min-width: 1024px) {
   
-  .b-w-0\@md {
+  .brw-0\@md {
     border-width: 0;
   }
   
-  .b-w-t-0\@md {
+  .brw-t-0\@md {
     border-top-width: 0;
   }
   
-  .b-w-l-0\@md {
+  .brw-l-0\@md {
     border-left-width: 0;
   }
   
-  .b-w-r-0\@md {
+  .brw-r-0\@md {
     border-right-width: 0;
   }
   
-  .b-w-b-0\@md {
+  .brw-b-0\@md {
     border-bottom-width: 0;
   }
   
-  .b-w-x-0\@md {
+  .brw-x-0\@md {
     border-left-width: 0;
     border-right-width: 0;
   }
   
-  .b-w-y-0\@md {
+  .brw-y-0\@md {
     border-top-width: 0;
     border-bottom-width: 0;
   }
   
-  .b-w-1\@md {
+  .brw-1\@md {
     border-width: 1px;
   }
   
-  .b-w-t-1\@md {
+  .brw-t-1\@md {
     border-top-width: 1px;
   }
   
-  .b-w-l-1\@md {
+  .brw-l-1\@md {
     border-left-width: 1px;
   }
   
-  .b-w-r-1\@md {
+  .brw-r-1\@md {
     border-right-width: 1px;
   }
   
-  .b-w-b-1\@md {
+  .brw-b-1\@md {
     border-bottom-width: 1px;
   }
   
-  .b-w-x-1\@md {
+  .brw-x-1\@md {
     border-left-width: 1px;
     border-right-width: 1px;
   }
   
-  .b-w-y-1\@md {
+  .brw-y-1\@md {
     border-top-width: 1px;
     border-bottom-width: 1px;
   }
   
-  .b-w-2\@md {
+  .brw-2\@md {
     border-width: 2px;
   }
   
-  .b-w-t-2\@md {
+  .brw-t-2\@md {
     border-top-width: 2px;
   }
   
-  .b-w-l-2\@md {
+  .brw-l-2\@md {
     border-left-width: 2px;
   }
   
-  .b-w-r-2\@md {
+  .brw-r-2\@md {
     border-right-width: 2px;
   }
   
-  .b-w-b-2\@md {
+  .brw-b-2\@md {
     border-bottom-width: 2px;
   }
   
-  .b-w-x-2\@md {
+  .brw-x-2\@md {
     border-left-width: 2px;
     border-right-width: 2px;
   }
   
-  .b-w-y-2\@md {
+  .brw-y-2\@md {
     border-top-width: 2px;
     border-bottom-width: 2px;
   }
   
-  .b-w-3\@md {
+  .brw-3\@md {
     border-width: 3px;
   }
   
-  .b-w-t-3\@md {
+  .brw-t-3\@md {
     border-top-width: 3px;
   }
   
-  .b-w-l-3\@md {
+  .brw-l-3\@md {
     border-left-width: 3px;
   }
   
-  .b-w-r-3\@md {
+  .brw-r-3\@md {
     border-right-width: 3px;
   }
   
-  .b-w-b-3\@md {
+  .brw-b-3\@md {
     border-bottom-width: 3px;
   }
   
-  .b-w-x-3\@md {
+  .brw-x-3\@md {
     border-left-width: 3px;
     border-right-width: 3px;
   }
   
-  .b-w-y-3\@md {
+  .brw-y-3\@md {
     border-top-width: 3px;
     border-bottom-width: 3px;
   }
@@ -3067,122 +3067,122 @@
 
 @media all and (min-width: 1220px) {
   
-  .b-w-0\@lg {
+  .brw-0\@lg {
     border-width: 0;
   }
   
-  .b-w-t-0\@lg {
+  .brw-t-0\@lg {
     border-top-width: 0;
   }
   
-  .b-w-l-0\@lg {
+  .brw-l-0\@lg {
     border-left-width: 0;
   }
   
-  .b-w-r-0\@lg {
+  .brw-r-0\@lg {
     border-right-width: 0;
   }
   
-  .b-w-b-0\@lg {
+  .brw-b-0\@lg {
     border-bottom-width: 0;
   }
   
-  .b-w-x-0\@lg {
+  .brw-x-0\@lg {
     border-left-width: 0;
     border-right-width: 0;
   }
   
-  .b-w-y-0\@lg {
+  .brw-y-0\@lg {
     border-top-width: 0;
     border-bottom-width: 0;
   }
   
-  .b-w-1\@lg {
+  .brw-1\@lg {
     border-width: 1px;
   }
   
-  .b-w-t-1\@lg {
+  .brw-t-1\@lg {
     border-top-width: 1px;
   }
   
-  .b-w-l-1\@lg {
+  .brw-l-1\@lg {
     border-left-width: 1px;
   }
   
-  .b-w-r-1\@lg {
+  .brw-r-1\@lg {
     border-right-width: 1px;
   }
   
-  .b-w-b-1\@lg {
+  .brw-b-1\@lg {
     border-bottom-width: 1px;
   }
   
-  .b-w-x-1\@lg {
+  .brw-x-1\@lg {
     border-left-width: 1px;
     border-right-width: 1px;
   }
   
-  .b-w-y-1\@lg {
+  .brw-y-1\@lg {
     border-top-width: 1px;
     border-bottom-width: 1px;
   }
   
-  .b-w-2\@lg {
+  .brw-2\@lg {
     border-width: 2px;
   }
   
-  .b-w-t-2\@lg {
+  .brw-t-2\@lg {
     border-top-width: 2px;
   }
   
-  .b-w-l-2\@lg {
+  .brw-l-2\@lg {
     border-left-width: 2px;
   }
   
-  .b-w-r-2\@lg {
+  .brw-r-2\@lg {
     border-right-width: 2px;
   }
   
-  .b-w-b-2\@lg {
+  .brw-b-2\@lg {
     border-bottom-width: 2px;
   }
   
-  .b-w-x-2\@lg {
+  .brw-x-2\@lg {
     border-left-width: 2px;
     border-right-width: 2px;
   }
   
-  .b-w-y-2\@lg {
+  .brw-y-2\@lg {
     border-top-width: 2px;
     border-bottom-width: 2px;
   }
   
-  .b-w-3\@lg {
+  .brw-3\@lg {
     border-width: 3px;
   }
   
-  .b-w-t-3\@lg {
+  .brw-t-3\@lg {
     border-top-width: 3px;
   }
   
-  .b-w-l-3\@lg {
+  .brw-l-3\@lg {
     border-left-width: 3px;
   }
   
-  .b-w-r-3\@lg {
+  .brw-r-3\@lg {
     border-right-width: 3px;
   }
   
-  .b-w-b-3\@lg {
+  .brw-b-3\@lg {
     border-bottom-width: 3px;
   }
   
-  .b-w-x-3\@lg {
+  .brw-x-3\@lg {
     border-left-width: 3px;
     border-right-width: 3px;
   }
   
-  .b-w-y-3\@lg {
+  .brw-y-3\@lg {
     border-top-width: 3px;
     border-bottom-width: 3px;
   }
@@ -3190,1632 +3190,1632 @@
 
 @media all and (min-width: 1460px) {
   
-  .b-w-0\@xl {
+  .brw-0\@xl {
     border-width: 0;
   }
   
-  .b-w-t-0\@xl {
+  .brw-t-0\@xl {
     border-top-width: 0;
   }
   
-  .b-w-l-0\@xl {
+  .brw-l-0\@xl {
     border-left-width: 0;
   }
   
-  .b-w-r-0\@xl {
+  .brw-r-0\@xl {
     border-right-width: 0;
   }
   
-  .b-w-b-0\@xl {
+  .brw-b-0\@xl {
     border-bottom-width: 0;
   }
   
-  .b-w-x-0\@xl {
+  .brw-x-0\@xl {
     border-left-width: 0;
     border-right-width: 0;
   }
   
-  .b-w-y-0\@xl {
+  .brw-y-0\@xl {
     border-top-width: 0;
     border-bottom-width: 0;
   }
   
-  .b-w-1\@xl {
+  .brw-1\@xl {
     border-width: 1px;
   }
   
-  .b-w-t-1\@xl {
+  .brw-t-1\@xl {
     border-top-width: 1px;
   }
   
-  .b-w-l-1\@xl {
+  .brw-l-1\@xl {
     border-left-width: 1px;
   }
   
-  .b-w-r-1\@xl {
+  .brw-r-1\@xl {
     border-right-width: 1px;
   }
   
-  .b-w-b-1\@xl {
+  .brw-b-1\@xl {
     border-bottom-width: 1px;
   }
   
-  .b-w-x-1\@xl {
+  .brw-x-1\@xl {
     border-left-width: 1px;
     border-right-width: 1px;
   }
   
-  .b-w-y-1\@xl {
+  .brw-y-1\@xl {
     border-top-width: 1px;
     border-bottom-width: 1px;
   }
   
-  .b-w-2\@xl {
+  .brw-2\@xl {
     border-width: 2px;
   }
   
-  .b-w-t-2\@xl {
+  .brw-t-2\@xl {
     border-top-width: 2px;
   }
   
-  .b-w-l-2\@xl {
+  .brw-l-2\@xl {
     border-left-width: 2px;
   }
   
-  .b-w-r-2\@xl {
+  .brw-r-2\@xl {
     border-right-width: 2px;
   }
   
-  .b-w-b-2\@xl {
+  .brw-b-2\@xl {
     border-bottom-width: 2px;
   }
   
-  .b-w-x-2\@xl {
+  .brw-x-2\@xl {
     border-left-width: 2px;
     border-right-width: 2px;
   }
   
-  .b-w-y-2\@xl {
+  .brw-y-2\@xl {
     border-top-width: 2px;
     border-bottom-width: 2px;
   }
   
-  .b-w-3\@xl {
+  .brw-3\@xl {
     border-width: 3px;
   }
   
-  .b-w-t-3\@xl {
+  .brw-t-3\@xl {
     border-top-width: 3px;
   }
   
-  .b-w-l-3\@xl {
+  .brw-l-3\@xl {
     border-left-width: 3px;
   }
   
-  .b-w-r-3\@xl {
+  .brw-r-3\@xl {
     border-right-width: 3px;
   }
   
-  .b-w-b-3\@xl {
+  .brw-b-3\@xl {
     border-bottom-width: 3px;
   }
   
-  .b-w-x-3\@xl {
+  .brw-x-3\@xl {
     border-left-width: 3px;
     border-right-width: 3px;
   }
   
-  .b-w-y-3\@xl {
+  .brw-y-3\@xl {
     border-top-width: 3px;
     border-bottom-width: 3px;
   }
 }
 
 
-.br-2 {
+.brr-2 {
   border-radius: 2px;
 }
 
 
-.br-t-2 {
+.brr-t-2 {
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
 }
 
 
-.br-l-2 {
+.brr-l-2 {
   border-top-left-radius: 2px;
   border-bottom-left-radius: 2px;
 }
 
 
-.br-r-2 {
+.brr-r-2 {
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
 }
 
 
-.br-b-2 {
+.brr-b-2 {
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
 }
 
 
-.br-tl-2 {
+.brr-tl-2 {
   border-top-left-radius: 2px;
 }
 
 
-.br-tr-2 {
+.brr-tr-2 {
   border-top-right-radius: 2px;
 }
 
 
-.br-bl-2 {
+.brr-bl-2 {
   border-bottom-left-radius: 2px;
 }
 
 
-.br-br-2 {
+.brr-br-2 {
   border-bottom-right-radius: 2px;
 }
 
 
-.br-3 {
+.brr-3 {
   border-radius: 3px;
 }
 
 
-.br-t-3 {
+.brr-t-3 {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
 
 
-.br-l-3 {
+.brr-l-3 {
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
 }
 
 
-.br-r-3 {
+.brr-r-3 {
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
 }
 
 
-.br-b-3 {
+.brr-b-3 {
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
 }
 
 
-.br-tl-3 {
+.brr-tl-3 {
   border-top-left-radius: 3px;
 }
 
 
-.br-tr-3 {
+.brr-tr-3 {
   border-top-right-radius: 3px;
 }
 
 
-.br-bl-3 {
+.brr-bl-3 {
   border-bottom-left-radius: 3px;
 }
 
 
-.br-br-3 {
+.brr-br-3 {
   border-bottom-right-radius: 3px;
 }
 
 
-.br-4 {
+.brr-4 {
   border-radius: 4px;
 }
 
 
-.br-t-4 {
+.brr-t-4 {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
 
 
-.br-l-4 {
+.brr-l-4 {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
 
 
-.br-r-4 {
+.brr-r-4 {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
 
 
-.br-b-4 {
+.brr-b-4 {
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
 }
 
 
-.br-tl-4 {
+.brr-tl-4 {
   border-top-left-radius: 4px;
 }
 
 
-.br-tr-4 {
+.brr-tr-4 {
   border-top-right-radius: 4px;
 }
 
 
-.br-bl-4 {
+.brr-bl-4 {
   border-bottom-left-radius: 4px;
 }
 
 
-.br-br-4 {
+.brr-br-4 {
   border-bottom-right-radius: 4px;
 }
 
 
-.br-10 {
+.brr-10 {
   border-radius: 10px;
 }
 
 
-.br-t-10 {
+.brr-t-10 {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
 
-.br-l-10 {
+.brr-l-10 {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
 
 
-.br-r-10 {
+.brr-r-10 {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 
 
-.br-b-10 {
+.brr-b-10 {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 
 
-.br-tl-10 {
+.brr-tl-10 {
   border-top-left-radius: 10px;
 }
 
 
-.br-tr-10 {
+.brr-tr-10 {
   border-top-right-radius: 10px;
 }
 
 
-.br-bl-10 {
+.brr-bl-10 {
   border-bottom-left-radius: 10px;
 }
 
 
-.br-br-10 {
+.brr-br-10 {
   border-bottom-right-radius: 10px;
 }
 
 
-.br-50\% {
+.brr-50\% {
   border-radius: 50%;
 }
 
 
-.br-t-50\% {
+.brr-t-50\% {
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
 }
 
 
-.br-l-50\% {
+.brr-l-50\% {
   border-top-left-radius: 50%;
   border-bottom-left-radius: 50%;
 }
 
 
-.br-r-50\% {
+.brr-r-50\% {
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
 }
 
 
-.br-b-50\% {
+.brr-b-50\% {
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
 }
 
 
-.br-tl-50\% {
+.brr-tl-50\% {
   border-top-left-radius: 50%;
 }
 
 
-.br-tr-50\% {
+.brr-tr-50\% {
   border-top-right-radius: 50%;
 }
 
 
-.br-bl-50\% {
+.brr-bl-50\% {
   border-bottom-left-radius: 50%;
 }
 
 
-.br-br-50\% {
+.brr-br-50\% {
   border-bottom-right-radius: 50%;
 }
 
 
-.br-rounded {
+.brr-rounded {
   border-radius: 9999px;
 }
 
 
-.br-t-rounded {
+.brr-t-rounded {
   border-top-left-radius: 9999px;
   border-top-right-radius: 9999px;
 }
 
 
-.br-l-rounded {
+.brr-l-rounded {
   border-top-left-radius: 9999px;
   border-bottom-left-radius: 9999px;
 }
 
 
-.br-r-rounded {
+.brr-r-rounded {
   border-top-right-radius: 9999px;
   border-bottom-right-radius: 9999px;
 }
 
 
-.br-b-rounded {
+.brr-b-rounded {
   border-bottom-left-radius: 9999px;
   border-bottom-right-radius: 9999px;
 }
 
 
-.br-tl-rounded {
+.brr-tl-rounded {
   border-top-left-radius: 9999px;
 }
 
 
-.br-tr-rounded {
+.brr-tr-rounded {
   border-top-right-radius: 9999px;
 }
 
 
-.br-bl-rounded {
+.brr-bl-rounded {
   border-bottom-left-radius: 9999px;
 }
 
 
-.br-br-rounded {
+.brr-br-rounded {
   border-bottom-right-radius: 9999px;
 }
 
 @media all and (min-width: 416px) {
   
-  .br-2\@xs {
+  .brr-2\@xs {
     border-radius: 2px;
   }
   
-  .br-t-2\@xs {
+  .brr-t-2\@xs {
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
   }
   
-  .br-l-2\@xs {
+  .brr-l-2\@xs {
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
   }
   
-  .br-r-2\@xs {
+  .brr-r-2\@xs {
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
   }
   
-  .br-b-2\@xs {
+  .brr-b-2\@xs {
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
   }
   
-  .br-tl-2\@xs {
+  .brr-tl-2\@xs {
     border-top-left-radius: 2px;
   }
   
-  .br-tr-2\@xs {
+  .brr-tr-2\@xs {
     border-top-right-radius: 2px;
   }
   
-  .br-bl-2\@xs {
+  .brr-bl-2\@xs {
     border-bottom-left-radius: 2px;
   }
   
-  .br-br-2\@xs {
+  .brr-br-2\@xs {
     border-bottom-right-radius: 2px;
   }
   
-  .br-3\@xs {
+  .brr-3\@xs {
     border-radius: 3px;
   }
   
-  .br-t-3\@xs {
+  .brr-t-3\@xs {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
   }
   
-  .br-l-3\@xs {
+  .brr-l-3\@xs {
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
   }
   
-  .br-r-3\@xs {
+  .brr-r-3\@xs {
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
   }
   
-  .br-b-3\@xs {
+  .brr-b-3\@xs {
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
   }
   
-  .br-tl-3\@xs {
+  .brr-tl-3\@xs {
     border-top-left-radius: 3px;
   }
   
-  .br-tr-3\@xs {
+  .brr-tr-3\@xs {
     border-top-right-radius: 3px;
   }
   
-  .br-bl-3\@xs {
+  .brr-bl-3\@xs {
     border-bottom-left-radius: 3px;
   }
   
-  .br-br-3\@xs {
+  .brr-br-3\@xs {
     border-bottom-right-radius: 3px;
   }
   
-  .br-4\@xs {
+  .brr-4\@xs {
     border-radius: 4px;
   }
   
-  .br-t-4\@xs {
+  .brr-t-4\@xs {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
   }
   
-  .br-l-4\@xs {
+  .brr-l-4\@xs {
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
   }
   
-  .br-r-4\@xs {
+  .brr-r-4\@xs {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
   }
   
-  .br-b-4\@xs {
+  .brr-b-4\@xs {
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
   }
   
-  .br-tl-4\@xs {
+  .brr-tl-4\@xs {
     border-top-left-radius: 4px;
   }
   
-  .br-tr-4\@xs {
+  .brr-tr-4\@xs {
     border-top-right-radius: 4px;
   }
   
-  .br-bl-4\@xs {
+  .brr-bl-4\@xs {
     border-bottom-left-radius: 4px;
   }
   
-  .br-br-4\@xs {
+  .brr-br-4\@xs {
     border-bottom-right-radius: 4px;
   }
   
-  .br-10\@xs {
+  .brr-10\@xs {
     border-radius: 10px;
   }
   
-  .br-t-10\@xs {
+  .brr-t-10\@xs {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
   
-  .br-l-10\@xs {
+  .brr-l-10\@xs {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
   }
   
-  .br-r-10\@xs {
+  .brr-r-10\@xs {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
   }
   
-  .br-b-10\@xs {
+  .brr-b-10\@xs {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }
   
-  .br-tl-10\@xs {
+  .brr-tl-10\@xs {
     border-top-left-radius: 10px;
   }
   
-  .br-tr-10\@xs {
+  .brr-tr-10\@xs {
     border-top-right-radius: 10px;
   }
   
-  .br-bl-10\@xs {
+  .brr-bl-10\@xs {
     border-bottom-left-radius: 10px;
   }
   
-  .br-br-10\@xs {
+  .brr-br-10\@xs {
     border-bottom-right-radius: 10px;
   }
   
-  .br-50\%\@xs {
+  .brr-50\%\@xs {
     border-radius: 50%;
   }
   
-  .br-t-50\%\@xs {
+  .brr-t-50\%\@xs {
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
   }
   
-  .br-l-50\%\@xs {
+  .brr-l-50\%\@xs {
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
   }
   
-  .br-r-50\%\@xs {
+  .brr-r-50\%\@xs {
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
   }
   
-  .br-b-50\%\@xs {
+  .brr-b-50\%\@xs {
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
   }
   
-  .br-tl-50\%\@xs {
+  .brr-tl-50\%\@xs {
     border-top-left-radius: 50%;
   }
   
-  .br-tr-50\%\@xs {
+  .brr-tr-50\%\@xs {
     border-top-right-radius: 50%;
   }
   
-  .br-bl-50\%\@xs {
+  .brr-bl-50\%\@xs {
     border-bottom-left-radius: 50%;
   }
   
-  .br-br-50\%\@xs {
+  .brr-br-50\%\@xs {
     border-bottom-right-radius: 50%;
   }
   
-  .br-rounded\@xs {
+  .brr-rounded\@xs {
     border-radius: 9999px;
   }
   
-  .br-t-rounded\@xs {
+  .brr-t-rounded\@xs {
     border-top-left-radius: 9999px;
     border-top-right-radius: 9999px;
   }
   
-  .br-l-rounded\@xs {
+  .brr-l-rounded\@xs {
     border-top-left-radius: 9999px;
     border-bottom-left-radius: 9999px;
   }
   
-  .br-r-rounded\@xs {
+  .brr-r-rounded\@xs {
     border-top-right-radius: 9999px;
     border-bottom-right-radius: 9999px;
   }
   
-  .br-b-rounded\@xs {
+  .brr-b-rounded\@xs {
     border-bottom-left-radius: 9999px;
     border-bottom-right-radius: 9999px;
   }
   
-  .br-tl-rounded\@xs {
+  .brr-tl-rounded\@xs {
     border-top-left-radius: 9999px;
   }
   
-  .br-tr-rounded\@xs {
+  .brr-tr-rounded\@xs {
     border-top-right-radius: 9999px;
   }
   
-  .br-bl-rounded\@xs {
+  .brr-bl-rounded\@xs {
     border-bottom-left-radius: 9999px;
   }
   
-  .br-br-rounded\@xs {
+  .brr-br-rounded\@xs {
     border-bottom-right-radius: 9999px;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .br-2\@sm {
+  .brr-2\@sm {
     border-radius: 2px;
   }
   
-  .br-t-2\@sm {
+  .brr-t-2\@sm {
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
   }
   
-  .br-l-2\@sm {
+  .brr-l-2\@sm {
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
   }
   
-  .br-r-2\@sm {
+  .brr-r-2\@sm {
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
   }
   
-  .br-b-2\@sm {
+  .brr-b-2\@sm {
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
   }
   
-  .br-tl-2\@sm {
+  .brr-tl-2\@sm {
     border-top-left-radius: 2px;
   }
   
-  .br-tr-2\@sm {
+  .brr-tr-2\@sm {
     border-top-right-radius: 2px;
   }
   
-  .br-bl-2\@sm {
+  .brr-bl-2\@sm {
     border-bottom-left-radius: 2px;
   }
   
-  .br-br-2\@sm {
+  .brr-br-2\@sm {
     border-bottom-right-radius: 2px;
   }
   
-  .br-3\@sm {
+  .brr-3\@sm {
     border-radius: 3px;
   }
   
-  .br-t-3\@sm {
+  .brr-t-3\@sm {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
   }
   
-  .br-l-3\@sm {
+  .brr-l-3\@sm {
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
   }
   
-  .br-r-3\@sm {
+  .brr-r-3\@sm {
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
   }
   
-  .br-b-3\@sm {
+  .brr-b-3\@sm {
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
   }
   
-  .br-tl-3\@sm {
+  .brr-tl-3\@sm {
     border-top-left-radius: 3px;
   }
   
-  .br-tr-3\@sm {
+  .brr-tr-3\@sm {
     border-top-right-radius: 3px;
   }
   
-  .br-bl-3\@sm {
+  .brr-bl-3\@sm {
     border-bottom-left-radius: 3px;
   }
   
-  .br-br-3\@sm {
+  .brr-br-3\@sm {
     border-bottom-right-radius: 3px;
   }
   
-  .br-4\@sm {
+  .brr-4\@sm {
     border-radius: 4px;
   }
   
-  .br-t-4\@sm {
+  .brr-t-4\@sm {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
   }
   
-  .br-l-4\@sm {
+  .brr-l-4\@sm {
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
   }
   
-  .br-r-4\@sm {
+  .brr-r-4\@sm {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
   }
   
-  .br-b-4\@sm {
+  .brr-b-4\@sm {
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
   }
   
-  .br-tl-4\@sm {
+  .brr-tl-4\@sm {
     border-top-left-radius: 4px;
   }
   
-  .br-tr-4\@sm {
+  .brr-tr-4\@sm {
     border-top-right-radius: 4px;
   }
   
-  .br-bl-4\@sm {
+  .brr-bl-4\@sm {
     border-bottom-left-radius: 4px;
   }
   
-  .br-br-4\@sm {
+  .brr-br-4\@sm {
     border-bottom-right-radius: 4px;
   }
   
-  .br-10\@sm {
+  .brr-10\@sm {
     border-radius: 10px;
   }
   
-  .br-t-10\@sm {
+  .brr-t-10\@sm {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
   
-  .br-l-10\@sm {
+  .brr-l-10\@sm {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
   }
   
-  .br-r-10\@sm {
+  .brr-r-10\@sm {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
   }
   
-  .br-b-10\@sm {
+  .brr-b-10\@sm {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }
   
-  .br-tl-10\@sm {
+  .brr-tl-10\@sm {
     border-top-left-radius: 10px;
   }
   
-  .br-tr-10\@sm {
+  .brr-tr-10\@sm {
     border-top-right-radius: 10px;
   }
   
-  .br-bl-10\@sm {
+  .brr-bl-10\@sm {
     border-bottom-left-radius: 10px;
   }
   
-  .br-br-10\@sm {
+  .brr-br-10\@sm {
     border-bottom-right-radius: 10px;
   }
   
-  .br-50\%\@sm {
+  .brr-50\%\@sm {
     border-radius: 50%;
   }
   
-  .br-t-50\%\@sm {
+  .brr-t-50\%\@sm {
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
   }
   
-  .br-l-50\%\@sm {
+  .brr-l-50\%\@sm {
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
   }
   
-  .br-r-50\%\@sm {
+  .brr-r-50\%\@sm {
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
   }
   
-  .br-b-50\%\@sm {
+  .brr-b-50\%\@sm {
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
   }
   
-  .br-tl-50\%\@sm {
+  .brr-tl-50\%\@sm {
     border-top-left-radius: 50%;
   }
   
-  .br-tr-50\%\@sm {
+  .brr-tr-50\%\@sm {
     border-top-right-radius: 50%;
   }
   
-  .br-bl-50\%\@sm {
+  .brr-bl-50\%\@sm {
     border-bottom-left-radius: 50%;
   }
   
-  .br-br-50\%\@sm {
+  .brr-br-50\%\@sm {
     border-bottom-right-radius: 50%;
   }
   
-  .br-rounded\@sm {
+  .brr-rounded\@sm {
     border-radius: 9999px;
   }
   
-  .br-t-rounded\@sm {
+  .brr-t-rounded\@sm {
     border-top-left-radius: 9999px;
     border-top-right-radius: 9999px;
   }
   
-  .br-l-rounded\@sm {
+  .brr-l-rounded\@sm {
     border-top-left-radius: 9999px;
     border-bottom-left-radius: 9999px;
   }
   
-  .br-r-rounded\@sm {
+  .brr-r-rounded\@sm {
     border-top-right-radius: 9999px;
     border-bottom-right-radius: 9999px;
   }
   
-  .br-b-rounded\@sm {
+  .brr-b-rounded\@sm {
     border-bottom-left-radius: 9999px;
     border-bottom-right-radius: 9999px;
   }
   
-  .br-tl-rounded\@sm {
+  .brr-tl-rounded\@sm {
     border-top-left-radius: 9999px;
   }
   
-  .br-tr-rounded\@sm {
+  .brr-tr-rounded\@sm {
     border-top-right-radius: 9999px;
   }
   
-  .br-bl-rounded\@sm {
+  .brr-bl-rounded\@sm {
     border-bottom-left-radius: 9999px;
   }
   
-  .br-br-rounded\@sm {
+  .brr-br-rounded\@sm {
     border-bottom-right-radius: 9999px;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .br-2\@md {
+  .brr-2\@md {
     border-radius: 2px;
   }
   
-  .br-t-2\@md {
+  .brr-t-2\@md {
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
   }
   
-  .br-l-2\@md {
+  .brr-l-2\@md {
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
   }
   
-  .br-r-2\@md {
+  .brr-r-2\@md {
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
   }
   
-  .br-b-2\@md {
+  .brr-b-2\@md {
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
   }
   
-  .br-tl-2\@md {
+  .brr-tl-2\@md {
     border-top-left-radius: 2px;
   }
   
-  .br-tr-2\@md {
+  .brr-tr-2\@md {
     border-top-right-radius: 2px;
   }
   
-  .br-bl-2\@md {
+  .brr-bl-2\@md {
     border-bottom-left-radius: 2px;
   }
   
-  .br-br-2\@md {
+  .brr-br-2\@md {
     border-bottom-right-radius: 2px;
   }
   
-  .br-3\@md {
+  .brr-3\@md {
     border-radius: 3px;
   }
   
-  .br-t-3\@md {
+  .brr-t-3\@md {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
   }
   
-  .br-l-3\@md {
+  .brr-l-3\@md {
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
   }
   
-  .br-r-3\@md {
+  .brr-r-3\@md {
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
   }
   
-  .br-b-3\@md {
+  .brr-b-3\@md {
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
   }
   
-  .br-tl-3\@md {
+  .brr-tl-3\@md {
     border-top-left-radius: 3px;
   }
   
-  .br-tr-3\@md {
+  .brr-tr-3\@md {
     border-top-right-radius: 3px;
   }
   
-  .br-bl-3\@md {
+  .brr-bl-3\@md {
     border-bottom-left-radius: 3px;
   }
   
-  .br-br-3\@md {
+  .brr-br-3\@md {
     border-bottom-right-radius: 3px;
   }
   
-  .br-4\@md {
+  .brr-4\@md {
     border-radius: 4px;
   }
   
-  .br-t-4\@md {
+  .brr-t-4\@md {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
   }
   
-  .br-l-4\@md {
+  .brr-l-4\@md {
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
   }
   
-  .br-r-4\@md {
+  .brr-r-4\@md {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
   }
   
-  .br-b-4\@md {
+  .brr-b-4\@md {
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
   }
   
-  .br-tl-4\@md {
+  .brr-tl-4\@md {
     border-top-left-radius: 4px;
   }
   
-  .br-tr-4\@md {
+  .brr-tr-4\@md {
     border-top-right-radius: 4px;
   }
   
-  .br-bl-4\@md {
+  .brr-bl-4\@md {
     border-bottom-left-radius: 4px;
   }
   
-  .br-br-4\@md {
+  .brr-br-4\@md {
     border-bottom-right-radius: 4px;
   }
   
-  .br-10\@md {
+  .brr-10\@md {
     border-radius: 10px;
   }
   
-  .br-t-10\@md {
+  .brr-t-10\@md {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
   
-  .br-l-10\@md {
+  .brr-l-10\@md {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
   }
   
-  .br-r-10\@md {
+  .brr-r-10\@md {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
   }
   
-  .br-b-10\@md {
+  .brr-b-10\@md {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }
   
-  .br-tl-10\@md {
+  .brr-tl-10\@md {
     border-top-left-radius: 10px;
   }
   
-  .br-tr-10\@md {
+  .brr-tr-10\@md {
     border-top-right-radius: 10px;
   }
   
-  .br-bl-10\@md {
+  .brr-bl-10\@md {
     border-bottom-left-radius: 10px;
   }
   
-  .br-br-10\@md {
+  .brr-br-10\@md {
     border-bottom-right-radius: 10px;
   }
   
-  .br-50\%\@md {
+  .brr-50\%\@md {
     border-radius: 50%;
   }
   
-  .br-t-50\%\@md {
+  .brr-t-50\%\@md {
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
   }
   
-  .br-l-50\%\@md {
+  .brr-l-50\%\@md {
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
   }
   
-  .br-r-50\%\@md {
+  .brr-r-50\%\@md {
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
   }
   
-  .br-b-50\%\@md {
+  .brr-b-50\%\@md {
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
   }
   
-  .br-tl-50\%\@md {
+  .brr-tl-50\%\@md {
     border-top-left-radius: 50%;
   }
   
-  .br-tr-50\%\@md {
+  .brr-tr-50\%\@md {
     border-top-right-radius: 50%;
   }
   
-  .br-bl-50\%\@md {
+  .brr-bl-50\%\@md {
     border-bottom-left-radius: 50%;
   }
   
-  .br-br-50\%\@md {
+  .brr-br-50\%\@md {
     border-bottom-right-radius: 50%;
   }
   
-  .br-rounded\@md {
+  .brr-rounded\@md {
     border-radius: 9999px;
   }
   
-  .br-t-rounded\@md {
+  .brr-t-rounded\@md {
     border-top-left-radius: 9999px;
     border-top-right-radius: 9999px;
   }
   
-  .br-l-rounded\@md {
+  .brr-l-rounded\@md {
     border-top-left-radius: 9999px;
     border-bottom-left-radius: 9999px;
   }
   
-  .br-r-rounded\@md {
+  .brr-r-rounded\@md {
     border-top-right-radius: 9999px;
     border-bottom-right-radius: 9999px;
   }
   
-  .br-b-rounded\@md {
+  .brr-b-rounded\@md {
     border-bottom-left-radius: 9999px;
     border-bottom-right-radius: 9999px;
   }
   
-  .br-tl-rounded\@md {
+  .brr-tl-rounded\@md {
     border-top-left-radius: 9999px;
   }
   
-  .br-tr-rounded\@md {
+  .brr-tr-rounded\@md {
     border-top-right-radius: 9999px;
   }
   
-  .br-bl-rounded\@md {
+  .brr-bl-rounded\@md {
     border-bottom-left-radius: 9999px;
   }
   
-  .br-br-rounded\@md {
+  .brr-br-rounded\@md {
     border-bottom-right-radius: 9999px;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .br-2\@lg {
+  .brr-2\@lg {
     border-radius: 2px;
   }
   
-  .br-t-2\@lg {
+  .brr-t-2\@lg {
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
   }
   
-  .br-l-2\@lg {
+  .brr-l-2\@lg {
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
   }
   
-  .br-r-2\@lg {
+  .brr-r-2\@lg {
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
   }
   
-  .br-b-2\@lg {
+  .brr-b-2\@lg {
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
   }
   
-  .br-tl-2\@lg {
+  .brr-tl-2\@lg {
     border-top-left-radius: 2px;
   }
   
-  .br-tr-2\@lg {
+  .brr-tr-2\@lg {
     border-top-right-radius: 2px;
   }
   
-  .br-bl-2\@lg {
+  .brr-bl-2\@lg {
     border-bottom-left-radius: 2px;
   }
   
-  .br-br-2\@lg {
+  .brr-br-2\@lg {
     border-bottom-right-radius: 2px;
   }
   
-  .br-3\@lg {
+  .brr-3\@lg {
     border-radius: 3px;
   }
   
-  .br-t-3\@lg {
+  .brr-t-3\@lg {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
   }
   
-  .br-l-3\@lg {
+  .brr-l-3\@lg {
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
   }
   
-  .br-r-3\@lg {
+  .brr-r-3\@lg {
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
   }
   
-  .br-b-3\@lg {
+  .brr-b-3\@lg {
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
   }
   
-  .br-tl-3\@lg {
+  .brr-tl-3\@lg {
     border-top-left-radius: 3px;
   }
   
-  .br-tr-3\@lg {
+  .brr-tr-3\@lg {
     border-top-right-radius: 3px;
   }
   
-  .br-bl-3\@lg {
+  .brr-bl-3\@lg {
     border-bottom-left-radius: 3px;
   }
   
-  .br-br-3\@lg {
+  .brr-br-3\@lg {
     border-bottom-right-radius: 3px;
   }
   
-  .br-4\@lg {
+  .brr-4\@lg {
     border-radius: 4px;
   }
   
-  .br-t-4\@lg {
+  .brr-t-4\@lg {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
   }
   
-  .br-l-4\@lg {
+  .brr-l-4\@lg {
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
   }
   
-  .br-r-4\@lg {
+  .brr-r-4\@lg {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
   }
   
-  .br-b-4\@lg {
+  .brr-b-4\@lg {
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
   }
   
-  .br-tl-4\@lg {
+  .brr-tl-4\@lg {
     border-top-left-radius: 4px;
   }
   
-  .br-tr-4\@lg {
+  .brr-tr-4\@lg {
     border-top-right-radius: 4px;
   }
   
-  .br-bl-4\@lg {
+  .brr-bl-4\@lg {
     border-bottom-left-radius: 4px;
   }
   
-  .br-br-4\@lg {
+  .brr-br-4\@lg {
     border-bottom-right-radius: 4px;
   }
   
-  .br-10\@lg {
+  .brr-10\@lg {
     border-radius: 10px;
   }
   
-  .br-t-10\@lg {
+  .brr-t-10\@lg {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
   
-  .br-l-10\@lg {
+  .brr-l-10\@lg {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
   }
   
-  .br-r-10\@lg {
+  .brr-r-10\@lg {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
   }
   
-  .br-b-10\@lg {
+  .brr-b-10\@lg {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }
   
-  .br-tl-10\@lg {
+  .brr-tl-10\@lg {
     border-top-left-radius: 10px;
   }
   
-  .br-tr-10\@lg {
+  .brr-tr-10\@lg {
     border-top-right-radius: 10px;
   }
   
-  .br-bl-10\@lg {
+  .brr-bl-10\@lg {
     border-bottom-left-radius: 10px;
   }
   
-  .br-br-10\@lg {
+  .brr-br-10\@lg {
     border-bottom-right-radius: 10px;
   }
   
-  .br-50\%\@lg {
+  .brr-50\%\@lg {
     border-radius: 50%;
   }
   
-  .br-t-50\%\@lg {
+  .brr-t-50\%\@lg {
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
   }
   
-  .br-l-50\%\@lg {
+  .brr-l-50\%\@lg {
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
   }
   
-  .br-r-50\%\@lg {
+  .brr-r-50\%\@lg {
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
   }
   
-  .br-b-50\%\@lg {
+  .brr-b-50\%\@lg {
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
   }
   
-  .br-tl-50\%\@lg {
+  .brr-tl-50\%\@lg {
     border-top-left-radius: 50%;
   }
   
-  .br-tr-50\%\@lg {
+  .brr-tr-50\%\@lg {
     border-top-right-radius: 50%;
   }
   
-  .br-bl-50\%\@lg {
+  .brr-bl-50\%\@lg {
     border-bottom-left-radius: 50%;
   }
   
-  .br-br-50\%\@lg {
+  .brr-br-50\%\@lg {
     border-bottom-right-radius: 50%;
   }
   
-  .br-rounded\@lg {
+  .brr-rounded\@lg {
     border-radius: 9999px;
   }
   
-  .br-t-rounded\@lg {
+  .brr-t-rounded\@lg {
     border-top-left-radius: 9999px;
     border-top-right-radius: 9999px;
   }
   
-  .br-l-rounded\@lg {
+  .brr-l-rounded\@lg {
     border-top-left-radius: 9999px;
     border-bottom-left-radius: 9999px;
   }
   
-  .br-r-rounded\@lg {
+  .brr-r-rounded\@lg {
     border-top-right-radius: 9999px;
     border-bottom-right-radius: 9999px;
   }
   
-  .br-b-rounded\@lg {
+  .brr-b-rounded\@lg {
     border-bottom-left-radius: 9999px;
     border-bottom-right-radius: 9999px;
   }
   
-  .br-tl-rounded\@lg {
+  .brr-tl-rounded\@lg {
     border-top-left-radius: 9999px;
   }
   
-  .br-tr-rounded\@lg {
+  .brr-tr-rounded\@lg {
     border-top-right-radius: 9999px;
   }
   
-  .br-bl-rounded\@lg {
+  .brr-bl-rounded\@lg {
     border-bottom-left-radius: 9999px;
   }
   
-  .br-br-rounded\@lg {
+  .brr-br-rounded\@lg {
     border-bottom-right-radius: 9999px;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .br-2\@xl {
+  .brr-2\@xl {
     border-radius: 2px;
   }
   
-  .br-t-2\@xl {
+  .brr-t-2\@xl {
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
   }
   
-  .br-l-2\@xl {
+  .brr-l-2\@xl {
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
   }
   
-  .br-r-2\@xl {
+  .brr-r-2\@xl {
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
   }
   
-  .br-b-2\@xl {
+  .brr-b-2\@xl {
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
   }
   
-  .br-tl-2\@xl {
+  .brr-tl-2\@xl {
     border-top-left-radius: 2px;
   }
   
-  .br-tr-2\@xl {
+  .brr-tr-2\@xl {
     border-top-right-radius: 2px;
   }
   
-  .br-bl-2\@xl {
+  .brr-bl-2\@xl {
     border-bottom-left-radius: 2px;
   }
   
-  .br-br-2\@xl {
+  .brr-br-2\@xl {
     border-bottom-right-radius: 2px;
   }
   
-  .br-3\@xl {
+  .brr-3\@xl {
     border-radius: 3px;
   }
   
-  .br-t-3\@xl {
+  .brr-t-3\@xl {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
   }
   
-  .br-l-3\@xl {
+  .brr-l-3\@xl {
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
   }
   
-  .br-r-3\@xl {
+  .brr-r-3\@xl {
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
   }
   
-  .br-b-3\@xl {
+  .brr-b-3\@xl {
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
   }
   
-  .br-tl-3\@xl {
+  .brr-tl-3\@xl {
     border-top-left-radius: 3px;
   }
   
-  .br-tr-3\@xl {
+  .brr-tr-3\@xl {
     border-top-right-radius: 3px;
   }
   
-  .br-bl-3\@xl {
+  .brr-bl-3\@xl {
     border-bottom-left-radius: 3px;
   }
   
-  .br-br-3\@xl {
+  .brr-br-3\@xl {
     border-bottom-right-radius: 3px;
   }
   
-  .br-4\@xl {
+  .brr-4\@xl {
     border-radius: 4px;
   }
   
-  .br-t-4\@xl {
+  .brr-t-4\@xl {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
   }
   
-  .br-l-4\@xl {
+  .brr-l-4\@xl {
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
   }
   
-  .br-r-4\@xl {
+  .brr-r-4\@xl {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
   }
   
-  .br-b-4\@xl {
+  .brr-b-4\@xl {
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
   }
   
-  .br-tl-4\@xl {
+  .brr-tl-4\@xl {
     border-top-left-radius: 4px;
   }
   
-  .br-tr-4\@xl {
+  .brr-tr-4\@xl {
     border-top-right-radius: 4px;
   }
   
-  .br-bl-4\@xl {
+  .brr-bl-4\@xl {
     border-bottom-left-radius: 4px;
   }
   
-  .br-br-4\@xl {
+  .brr-br-4\@xl {
     border-bottom-right-radius: 4px;
   }
   
-  .br-10\@xl {
+  .brr-10\@xl {
     border-radius: 10px;
   }
   
-  .br-t-10\@xl {
+  .brr-t-10\@xl {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
   
-  .br-l-10\@xl {
+  .brr-l-10\@xl {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
   }
   
-  .br-r-10\@xl {
+  .brr-r-10\@xl {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
   }
   
-  .br-b-10\@xl {
+  .brr-b-10\@xl {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }
   
-  .br-tl-10\@xl {
+  .brr-tl-10\@xl {
     border-top-left-radius: 10px;
   }
   
-  .br-tr-10\@xl {
+  .brr-tr-10\@xl {
     border-top-right-radius: 10px;
   }
   
-  .br-bl-10\@xl {
+  .brr-bl-10\@xl {
     border-bottom-left-radius: 10px;
   }
   
-  .br-br-10\@xl {
+  .brr-br-10\@xl {
     border-bottom-right-radius: 10px;
   }
   
-  .br-50\%\@xl {
+  .brr-50\%\@xl {
     border-radius: 50%;
   }
   
-  .br-t-50\%\@xl {
+  .brr-t-50\%\@xl {
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
   }
   
-  .br-l-50\%\@xl {
+  .brr-l-50\%\@xl {
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
   }
   
-  .br-r-50\%\@xl {
+  .brr-r-50\%\@xl {
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
   }
   
-  .br-b-50\%\@xl {
+  .brr-b-50\%\@xl {
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
   }
   
-  .br-tl-50\%\@xl {
+  .brr-tl-50\%\@xl {
     border-top-left-radius: 50%;
   }
   
-  .br-tr-50\%\@xl {
+  .brr-tr-50\%\@xl {
     border-top-right-radius: 50%;
   }
   
-  .br-bl-50\%\@xl {
+  .brr-bl-50\%\@xl {
     border-bottom-left-radius: 50%;
   }
   
-  .br-br-50\%\@xl {
+  .brr-br-50\%\@xl {
     border-bottom-right-radius: 50%;
   }
   
-  .br-rounded\@xl {
+  .brr-rounded\@xl {
     border-radius: 9999px;
   }
   
-  .br-t-rounded\@xl {
+  .brr-t-rounded\@xl {
     border-top-left-radius: 9999px;
     border-top-right-radius: 9999px;
   }
   
-  .br-l-rounded\@xl {
+  .brr-l-rounded\@xl {
     border-top-left-radius: 9999px;
     border-bottom-left-radius: 9999px;
   }
   
-  .br-r-rounded\@xl {
+  .brr-r-rounded\@xl {
     border-top-right-radius: 9999px;
     border-bottom-right-radius: 9999px;
   }
   
-  .br-b-rounded\@xl {
+  .brr-b-rounded\@xl {
     border-bottom-left-radius: 9999px;
     border-bottom-right-radius: 9999px;
   }
   
-  .br-tl-rounded\@xl {
+  .brr-tl-rounded\@xl {
     border-top-left-radius: 9999px;
   }
   
-  .br-tr-rounded\@xl {
+  .brr-tr-rounded\@xl {
     border-top-right-radius: 9999px;
   }
   
-  .br-bl-rounded\@xl {
+  .brr-bl-rounded\@xl {
     border-bottom-left-radius: 9999px;
   }
   
-  .br-br-rounded\@xl {
+  .brr-br-rounded\@xl {
     border-bottom-right-radius: 9999px;
   }
 }
@@ -5704,231 +5704,231 @@
 }
 
 
-.col-c-1 {
+.colc-1 {
   column-count: 1;
 }
 
 
-.col-c-2 {
+.colc-2 {
   column-count: 2;
 }
 
 
-.col-c-3 {
+.colc-3 {
   column-count: 3;
 }
 
 @media all and (min-width: 416px) {
   
-  .col-c-1\@xs {
+  .colc-1\@xs {
     column-count: 1;
   }
   
-  .col-c-2\@xs {
+  .colc-2\@xs {
     column-count: 2;
   }
   
-  .col-c-3\@xs {
+  .colc-3\@xs {
     column-count: 3;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .col-c-1\@sm {
+  .colc-1\@sm {
     column-count: 1;
   }
   
-  .col-c-2\@sm {
+  .colc-2\@sm {
     column-count: 2;
   }
   
-  .col-c-3\@sm {
+  .colc-3\@sm {
     column-count: 3;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .col-c-1\@md {
+  .colc-1\@md {
     column-count: 1;
   }
   
-  .col-c-2\@md {
+  .colc-2\@md {
     column-count: 2;
   }
   
-  .col-c-3\@md {
+  .colc-3\@md {
     column-count: 3;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .col-c-1\@lg {
+  .colc-1\@lg {
     column-count: 1;
   }
   
-  .col-c-2\@lg {
+  .colc-2\@lg {
     column-count: 2;
   }
   
-  .col-c-3\@lg {
+  .colc-3\@lg {
     column-count: 3;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .col-c-1\@xl {
+  .colc-1\@xl {
     column-count: 1;
   }
   
-  .col-c-2\@xl {
+  .colc-2\@xl {
     column-count: 2;
   }
   
-  .col-c-3\@xl {
+  .colc-3\@xl {
     column-count: 3;
   }
 }
 
 
-.col-gap-1 {
+.colg-1 {
   column-gap: 1px;
 }
 
 
-.col-gap-2 {
+.colg-2 {
   column-gap: 2px;
 }
 
 
-.col-gap-3 {
+.colg-3 {
   column-gap: 3px;
 }
 
 
-.col-gap-4 {
+.colg-4 {
   column-gap: 4px;
 }
 
 
-.col-gap {
+.colg {
   column-gap: 26px;
 }
 
 @media all and (min-width: 416px) {
   
-  .col-gap-1\@xs {
+  .colg-1\@xs {
     column-gap: 1px;
   }
   
-  .col-gap-2\@xs {
+  .colg-2\@xs {
     column-gap: 2px;
   }
   
-  .col-gap-3\@xs {
+  .colg-3\@xs {
     column-gap: 3px;
   }
   
-  .col-gap-4\@xs {
+  .colg-4\@xs {
     column-gap: 4px;
   }
   
-  .col-gap\@xs {
+  .colg\@xs {
     column-gap: 26px;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .col-gap-1\@sm {
+  .colg-1\@sm {
     column-gap: 1px;
   }
   
-  .col-gap-2\@sm {
+  .colg-2\@sm {
     column-gap: 2px;
   }
   
-  .col-gap-3\@sm {
+  .colg-3\@sm {
     column-gap: 3px;
   }
   
-  .col-gap-4\@sm {
+  .colg-4\@sm {
     column-gap: 4px;
   }
   
-  .col-gap\@sm {
+  .colg\@sm {
     column-gap: 26px;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .col-gap-1\@md {
+  .colg-1\@md {
     column-gap: 1px;
   }
   
-  .col-gap-2\@md {
+  .colg-2\@md {
     column-gap: 2px;
   }
   
-  .col-gap-3\@md {
+  .colg-3\@md {
     column-gap: 3px;
   }
   
-  .col-gap-4\@md {
+  .colg-4\@md {
     column-gap: 4px;
   }
   
-  .col-gap\@md {
+  .colg\@md {
     column-gap: 26px;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .col-gap-1\@lg {
+  .colg-1\@lg {
     column-gap: 1px;
   }
   
-  .col-gap-2\@lg {
+  .colg-2\@lg {
     column-gap: 2px;
   }
   
-  .col-gap-3\@lg {
+  .colg-3\@lg {
     column-gap: 3px;
   }
   
-  .col-gap-4\@lg {
+  .colg-4\@lg {
     column-gap: 4px;
   }
   
-  .col-gap\@lg {
+  .colg\@lg {
     column-gap: 26px;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .col-gap-1\@xl {
+  .colg-1\@xl {
     column-gap: 1px;
   }
   
-  .col-gap-2\@xl {
+  .colg-2\@xl {
     column-gap: 2px;
   }
   
-  .col-gap-3\@xl {
+  .colg-3\@xl {
     column-gap: 3px;
   }
   
-  .col-gap-4\@xl {
+  .colg-4\@xl {
     column-gap: 4px;
   }
   
-  .col-gap\@xl {
+  .colg\@xl {
     column-gap: 26px;
   }
 }
@@ -6479,626 +6479,626 @@
 }
 
 
-.flx-b-1 {
+.flxb-1 {
   flex-basis: 1px;
 }
 
 
-.flx-b-2 {
+.flxb-2 {
   flex-basis: 2px;
 }
 
 
-.flx-b-3 {
+.flxb-3 {
   flex-basis: 3px;
 }
 
 
-.flx-b-4 {
+.flxb-4 {
   flex-basis: 4px;
 }
 
 
-.flx-b {
+.flxb {
   flex-basis: 26px;
 }
 
 @media all and (min-width: 416px) {
   
-  .flx-b-1\@xs {
+  .flxb-1\@xs {
     flex-basis: 1px;
   }
   
-  .flx-b-2\@xs {
+  .flxb-2\@xs {
     flex-basis: 2px;
   }
   
-  .flx-b-3\@xs {
+  .flxb-3\@xs {
     flex-basis: 3px;
   }
   
-  .flx-b-4\@xs {
+  .flxb-4\@xs {
     flex-basis: 4px;
   }
   
-  .flx-b\@xs {
+  .flxb\@xs {
     flex-basis: 26px;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .flx-b-1\@sm {
+  .flxb-1\@sm {
     flex-basis: 1px;
   }
   
-  .flx-b-2\@sm {
+  .flxb-2\@sm {
     flex-basis: 2px;
   }
   
-  .flx-b-3\@sm {
+  .flxb-3\@sm {
     flex-basis: 3px;
   }
   
-  .flx-b-4\@sm {
+  .flxb-4\@sm {
     flex-basis: 4px;
   }
   
-  .flx-b\@sm {
+  .flxb\@sm {
     flex-basis: 26px;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .flx-b-1\@md {
+  .flxb-1\@md {
     flex-basis: 1px;
   }
   
-  .flx-b-2\@md {
+  .flxb-2\@md {
     flex-basis: 2px;
   }
   
-  .flx-b-3\@md {
+  .flxb-3\@md {
     flex-basis: 3px;
   }
   
-  .flx-b-4\@md {
+  .flxb-4\@md {
     flex-basis: 4px;
   }
   
-  .flx-b\@md {
+  .flxb\@md {
     flex-basis: 26px;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .flx-b-1\@lg {
+  .flxb-1\@lg {
     flex-basis: 1px;
   }
   
-  .flx-b-2\@lg {
+  .flxb-2\@lg {
     flex-basis: 2px;
   }
   
-  .flx-b-3\@lg {
+  .flxb-3\@lg {
     flex-basis: 3px;
   }
   
-  .flx-b-4\@lg {
+  .flxb-4\@lg {
     flex-basis: 4px;
   }
   
-  .flx-b\@lg {
+  .flxb\@lg {
     flex-basis: 26px;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .flx-b-1\@xl {
+  .flxb-1\@xl {
     flex-basis: 1px;
   }
   
-  .flx-b-2\@xl {
+  .flxb-2\@xl {
     flex-basis: 2px;
   }
   
-  .flx-b-3\@xl {
+  .flxb-3\@xl {
     flex-basis: 3px;
   }
   
-  .flx-b-4\@xl {
+  .flxb-4\@xl {
     flex-basis: 4px;
   }
   
-  .flx-b\@xl {
+  .flxb\@xl {
     flex-basis: 26px;
   }
 }
 
 
-.flx-dir-row {
+.flxd-row {
   flex-direction: row;
 }
 
 
-.flx-dir-row-reverse {
+.flxd-row-reverse {
   flex-direction: row-reverse;
 }
 
 
-.flx-dir-column {
+.flxd-column {
   flex-direction: column;
 }
 
 
-.flx-dir-col {
+.flxd-col {
   flex-direction: column;
 }
 
 
-.flx-dir-column-reverse {
+.flxd-column-reverse {
   flex-direction: column-reverse;
 }
 
 
-.flx-dir-col-reverse {
+.flxd-col-reverse {
   flex-direction: column-reverse;
 }
 
 @media all and (min-width: 416px) {
   
-  .flx-dir-row\@xs {
+  .flxd-row\@xs {
     flex-direction: row;
   }
   
-  .flx-dir-row-reverse\@xs {
+  .flxd-row-reverse\@xs {
     flex-direction: row-reverse;
   }
   
-  .flx-dir-column\@xs {
+  .flxd-column\@xs {
     flex-direction: column;
   }
   
-  .flx-dir-col\@xs {
+  .flxd-col\@xs {
     flex-direction: column;
   }
   
-  .flx-dir-column-reverse\@xs {
+  .flxd-column-reverse\@xs {
     flex-direction: column-reverse;
   }
   
-  .flx-dir-col-reverse\@xs {
+  .flxd-col-reverse\@xs {
     flex-direction: column-reverse;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .flx-dir-row\@sm {
+  .flxd-row\@sm {
     flex-direction: row;
   }
   
-  .flx-dir-row-reverse\@sm {
+  .flxd-row-reverse\@sm {
     flex-direction: row-reverse;
   }
   
-  .flx-dir-column\@sm {
+  .flxd-column\@sm {
     flex-direction: column;
   }
   
-  .flx-dir-col\@sm {
+  .flxd-col\@sm {
     flex-direction: column;
   }
   
-  .flx-dir-column-reverse\@sm {
+  .flxd-column-reverse\@sm {
     flex-direction: column-reverse;
   }
   
-  .flx-dir-col-reverse\@sm {
+  .flxd-col-reverse\@sm {
     flex-direction: column-reverse;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .flx-dir-row\@md {
+  .flxd-row\@md {
     flex-direction: row;
   }
   
-  .flx-dir-row-reverse\@md {
+  .flxd-row-reverse\@md {
     flex-direction: row-reverse;
   }
   
-  .flx-dir-column\@md {
+  .flxd-column\@md {
     flex-direction: column;
   }
   
-  .flx-dir-col\@md {
+  .flxd-col\@md {
     flex-direction: column;
   }
   
-  .flx-dir-column-reverse\@md {
+  .flxd-column-reverse\@md {
     flex-direction: column-reverse;
   }
   
-  .flx-dir-col-reverse\@md {
+  .flxd-col-reverse\@md {
     flex-direction: column-reverse;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .flx-dir-row\@lg {
+  .flxd-row\@lg {
     flex-direction: row;
   }
   
-  .flx-dir-row-reverse\@lg {
+  .flxd-row-reverse\@lg {
     flex-direction: row-reverse;
   }
   
-  .flx-dir-column\@lg {
+  .flxd-column\@lg {
     flex-direction: column;
   }
   
-  .flx-dir-col\@lg {
+  .flxd-col\@lg {
     flex-direction: column;
   }
   
-  .flx-dir-column-reverse\@lg {
+  .flxd-column-reverse\@lg {
     flex-direction: column-reverse;
   }
   
-  .flx-dir-col-reverse\@lg {
+  .flxd-col-reverse\@lg {
     flex-direction: column-reverse;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .flx-dir-row\@xl {
+  .flxd-row\@xl {
     flex-direction: row;
   }
   
-  .flx-dir-row-reverse\@xl {
+  .flxd-row-reverse\@xl {
     flex-direction: row-reverse;
   }
   
-  .flx-dir-column\@xl {
+  .flxd-column\@xl {
     flex-direction: column;
   }
   
-  .flx-dir-col\@xl {
+  .flxd-col\@xl {
     flex-direction: column;
   }
   
-  .flx-dir-column-reverse\@xl {
+  .flxd-column-reverse\@xl {
     flex-direction: column-reverse;
   }
   
-  .flx-dir-col-reverse\@xl {
+  .flxd-col-reverse\@xl {
     flex-direction: column-reverse;
   }
 }
 
 
-.flx-g-0 {
+.flxg-0 {
   flex-grow: 0;
 }
 
 
-.flx-g-1 {
+.flxg-1 {
   flex-grow: 1;
 }
 
 
-.flx-g-2 {
+.flxg-2 {
   flex-grow: 2;
 }
 
 
-.flx-g-3 {
+.flxg-3 {
   flex-grow: 3;
 }
 
 @media all and (min-width: 416px) {
   
-  .flx-g-0\@xs {
+  .flxg-0\@xs {
     flex-grow: 0;
   }
   
-  .flx-g-1\@xs {
+  .flxg-1\@xs {
     flex-grow: 1;
   }
   
-  .flx-g-2\@xs {
+  .flxg-2\@xs {
     flex-grow: 2;
   }
   
-  .flx-g-3\@xs {
+  .flxg-3\@xs {
     flex-grow: 3;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .flx-g-0\@sm {
+  .flxg-0\@sm {
     flex-grow: 0;
   }
   
-  .flx-g-1\@sm {
+  .flxg-1\@sm {
     flex-grow: 1;
   }
   
-  .flx-g-2\@sm {
+  .flxg-2\@sm {
     flex-grow: 2;
   }
   
-  .flx-g-3\@sm {
+  .flxg-3\@sm {
     flex-grow: 3;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .flx-g-0\@md {
+  .flxg-0\@md {
     flex-grow: 0;
   }
   
-  .flx-g-1\@md {
+  .flxg-1\@md {
     flex-grow: 1;
   }
   
-  .flx-g-2\@md {
+  .flxg-2\@md {
     flex-grow: 2;
   }
   
-  .flx-g-3\@md {
+  .flxg-3\@md {
     flex-grow: 3;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .flx-g-0\@lg {
+  .flxg-0\@lg {
     flex-grow: 0;
   }
   
-  .flx-g-1\@lg {
+  .flxg-1\@lg {
     flex-grow: 1;
   }
   
-  .flx-g-2\@lg {
+  .flxg-2\@lg {
     flex-grow: 2;
   }
   
-  .flx-g-3\@lg {
+  .flxg-3\@lg {
     flex-grow: 3;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .flx-g-0\@xl {
+  .flxg-0\@xl {
     flex-grow: 0;
   }
   
-  .flx-g-1\@xl {
+  .flxg-1\@xl {
     flex-grow: 1;
   }
   
-  .flx-g-2\@xl {
+  .flxg-2\@xl {
     flex-grow: 2;
   }
   
-  .flx-g-3\@xl {
+  .flxg-3\@xl {
     flex-grow: 3;
   }
 }
 
 
-.flx-s-0 {
+.flxs-0 {
   flex-shrink: 0;
 }
 
 
-.flx-s-1 {
+.flxs-1 {
   flex-shrink: 1;
 }
 
 
-.flx-s-2 {
+.flxs-2 {
   flex-shrink: 2;
 }
 
 
-.flx-s-3 {
+.flxs-3 {
   flex-shrink: 3;
 }
 
 @media all and (min-width: 416px) {
   
-  .flx-s-0\@xs {
+  .flxs-0\@xs {
     flex-shrink: 0;
   }
   
-  .flx-s-1\@xs {
+  .flxs-1\@xs {
     flex-shrink: 1;
   }
   
-  .flx-s-2\@xs {
+  .flxs-2\@xs {
     flex-shrink: 2;
   }
   
-  .flx-s-3\@xs {
+  .flxs-3\@xs {
     flex-shrink: 3;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .flx-s-0\@sm {
+  .flxs-0\@sm {
     flex-shrink: 0;
   }
   
-  .flx-s-1\@sm {
+  .flxs-1\@sm {
     flex-shrink: 1;
   }
   
-  .flx-s-2\@sm {
+  .flxs-2\@sm {
     flex-shrink: 2;
   }
   
-  .flx-s-3\@sm {
+  .flxs-3\@sm {
     flex-shrink: 3;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .flx-s-0\@md {
+  .flxs-0\@md {
     flex-shrink: 0;
   }
   
-  .flx-s-1\@md {
+  .flxs-1\@md {
     flex-shrink: 1;
   }
   
-  .flx-s-2\@md {
+  .flxs-2\@md {
     flex-shrink: 2;
   }
   
-  .flx-s-3\@md {
+  .flxs-3\@md {
     flex-shrink: 3;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .flx-s-0\@lg {
+  .flxs-0\@lg {
     flex-shrink: 0;
   }
   
-  .flx-s-1\@lg {
+  .flxs-1\@lg {
     flex-shrink: 1;
   }
   
-  .flx-s-2\@lg {
+  .flxs-2\@lg {
     flex-shrink: 2;
   }
   
-  .flx-s-3\@lg {
+  .flxs-3\@lg {
     flex-shrink: 3;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .flx-s-0\@xl {
+  .flxs-0\@xl {
     flex-shrink: 0;
   }
   
-  .flx-s-1\@xl {
+  .flxs-1\@xl {
     flex-shrink: 1;
   }
   
-  .flx-s-2\@xl {
+  .flxs-2\@xl {
     flex-shrink: 2;
   }
   
-  .flx-s-3\@xl {
+  .flxs-3\@xl {
     flex-shrink: 3;
   }
 }
 
 
-.flx-w-nowrap {
+.flxw-nowrap {
   flex-wrap: nowrap;
 }
 
 
-.flx-w-wrap {
+.flxw-wrap {
   flex-wrap: wrap;
 }
 
 
-.flx-w-wrap-reverse {
+.flxw-wrap-reverse {
   flex-wrap: wrap-reverse;
 }
 
 @media all and (min-width: 416px) {
   
-  .flx-w-nowrap\@xs {
+  .flxw-nowrap\@xs {
     flex-wrap: nowrap;
   }
   
-  .flx-w-wrap\@xs {
+  .flxw-wrap\@xs {
     flex-wrap: wrap;
   }
   
-  .flx-w-wrap-reverse\@xs {
+  .flxw-wrap-reverse\@xs {
     flex-wrap: wrap-reverse;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .flx-w-nowrap\@sm {
+  .flxw-nowrap\@sm {
     flex-wrap: nowrap;
   }
   
-  .flx-w-wrap\@sm {
+  .flxw-wrap\@sm {
     flex-wrap: wrap;
   }
   
-  .flx-w-wrap-reverse\@sm {
+  .flxw-wrap-reverse\@sm {
     flex-wrap: wrap-reverse;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .flx-w-nowrap\@md {
+  .flxw-nowrap\@md {
     flex-wrap: nowrap;
   }
   
-  .flx-w-wrap\@md {
+  .flxw-wrap\@md {
     flex-wrap: wrap;
   }
   
-  .flx-w-wrap-reverse\@md {
+  .flxw-wrap-reverse\@md {
     flex-wrap: wrap-reverse;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .flx-w-nowrap\@lg {
+  .flxw-nowrap\@lg {
     flex-wrap: nowrap;
   }
   
-  .flx-w-wrap\@lg {
+  .flxw-wrap\@lg {
     flex-wrap: wrap;
   }
   
-  .flx-w-wrap-reverse\@lg {
+  .flxw-wrap-reverse\@lg {
     flex-wrap: wrap-reverse;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .flx-w-nowrap\@xl {
+  .flxw-nowrap\@xl {
     flex-wrap: nowrap;
   }
   
-  .flx-w-wrap\@xl {
+  .flxw-wrap\@xl {
     flex-wrap: wrap;
   }
   
-  .flx-w-wrap-reverse\@xl {
+  .flxw-wrap-reverse\@xl {
     flex-wrap: wrap-reverse;
   }
 }
@@ -8612,156 +8612,156 @@
 }
 
 
-.list-pos-inside {
+.listpos-inside {
   list-style-position: inside;
 }
 
 
-.list-pos-outside {
+.listpos-outside {
   list-style-position: outside;
 }
 
 @media all and (min-width: 416px) {
   
-  .list-pos-inside\@xs {
+  .listpos-inside\@xs {
     list-style-position: inside;
   }
   
-  .list-pos-outside\@xs {
+  .listpos-outside\@xs {
     list-style-position: outside;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .list-pos-inside\@sm {
+  .listpos-inside\@sm {
     list-style-position: inside;
   }
   
-  .list-pos-outside\@sm {
+  .listpos-outside\@sm {
     list-style-position: outside;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .list-pos-inside\@md {
+  .listpos-inside\@md {
     list-style-position: inside;
   }
   
-  .list-pos-outside\@md {
+  .listpos-outside\@md {
     list-style-position: outside;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .list-pos-inside\@lg {
+  .listpos-inside\@lg {
     list-style-position: inside;
   }
   
-  .list-pos-outside\@lg {
+  .listpos-outside\@lg {
     list-style-position: outside;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .list-pos-inside\@xl {
+  .listpos-inside\@xl {
     list-style-position: inside;
   }
   
-  .list-pos-outside\@xl {
+  .listpos-outside\@xl {
     list-style-position: outside;
   }
 }
 
 
-.list-type-none {
+.listtype-none {
   list-style-type: none;
 }
 
 
-.list-type-disc {
+.listtype-disc {
   list-style-type: disc;
 }
 
 
-.list-type-decimal {
+.listtype-decimal {
   list-style-type: decimal;
 }
 
 @media all and (min-width: 416px) {
   
-  .list-type-none\@xs {
+  .listtype-none\@xs {
     list-style-type: none;
   }
   
-  .list-type-disc\@xs {
+  .listtype-disc\@xs {
     list-style-type: disc;
   }
   
-  .list-type-decimal\@xs {
+  .listtype-decimal\@xs {
     list-style-type: decimal;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .list-type-none\@sm {
+  .listtype-none\@sm {
     list-style-type: none;
   }
   
-  .list-type-disc\@sm {
+  .listtype-disc\@sm {
     list-style-type: disc;
   }
   
-  .list-type-decimal\@sm {
+  .listtype-decimal\@sm {
     list-style-type: decimal;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .list-type-none\@md {
+  .listtype-none\@md {
     list-style-type: none;
   }
   
-  .list-type-disc\@md {
+  .listtype-disc\@md {
     list-style-type: disc;
   }
   
-  .list-type-decimal\@md {
+  .listtype-decimal\@md {
     list-style-type: decimal;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .list-type-none\@lg {
+  .listtype-none\@lg {
     list-style-type: none;
   }
   
-  .list-type-disc\@lg {
+  .listtype-disc\@lg {
     list-style-type: disc;
   }
   
-  .list-type-decimal\@lg {
+  .listtype-decimal\@lg {
     list-style-type: decimal;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .list-type-none\@xl {
+  .listtype-none\@xl {
     list-style-type: none;
   }
   
-  .list-type-disc\@xl {
+  .listtype-disc\@xl {
     list-style-type: disc;
   }
   
-  .list-type-decimal\@xl {
+  .listtype-decimal\@xl {
     list-style-type: decimal;
   }
 }
@@ -13937,1811 +13937,1811 @@
 }
 
 
-.ol-c-white {
+.otlc-white {
   outline-color: #fff;
 }
 
 
-.ol-c-black {
+.otlc-black {
   outline-color: #000;
 }
 
 
-.ol-c-white:hover {
+.otlc-white:hover {
   outline-color: #fff;
 }
 
 
-.ol-c-black:hover {
+.otlc-black:hover {
   outline-color: #000;
 }
 
 
-.ol-c-white:focus {
+.otlc-white:focus {
   outline-color: #fff;
 }
 
 
-.ol-c-black:focus {
+.otlc-black:focus {
   outline-color: #000;
 }
 
 
-.ol-c-white:active {
+.otlc-white:active {
   outline-color: #fff;
 }
 
 
-.ol-c-black:active {
+.otlc-black:active {
   outline-color: #000;
 }
 
 .group:hover
-.ol-c-white\:group-hover {
+.otlc-white\:group-hover {
   outline-color: #fff;
 }
 
 .group:hover
-.ol-c-black\:group-hover {
+.otlc-black\:group-hover {
   outline-color: #000;
 }
 
 @media all and (min-width: 416px) {
   
-  .ol-c-white\@xs {
+  .otlc-white\@xs {
     outline-color: #fff;
   }
   
-  .ol-c-black\@xs {
+  .otlc-black\@xs {
     outline-color: #000;
   }
   
-  .ol-c-white:hover\@xs {
+  .otlc-white:hover\@xs {
     outline-color: #fff;
   }
   
-  .ol-c-black:hover\@xs {
+  .otlc-black:hover\@xs {
     outline-color: #000;
   }
   
-  .ol-c-white:focus\@xs {
+  .otlc-white:focus\@xs {
     outline-color: #fff;
   }
   
-  .ol-c-black:focus\@xs {
+  .otlc-black:focus\@xs {
     outline-color: #000;
   }
   
-  .ol-c-white:active\@xs {
+  .otlc-white:active\@xs {
     outline-color: #fff;
   }
   
-  .ol-c-black:active\@xs {
+  .otlc-black:active\@xs {
     outline-color: #000;
   }
   .group:hover
-.ol-c-white\:group-hover\@xs {
+.otlc-white\:group-hover\@xs {
     outline-color: #fff;
   }
   .group:hover
-.ol-c-black\:group-hover\@xs {
+.otlc-black\:group-hover\@xs {
     outline-color: #000;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .ol-c-white\@sm {
+  .otlc-white\@sm {
     outline-color: #fff;
   }
   
-  .ol-c-black\@sm {
+  .otlc-black\@sm {
     outline-color: #000;
   }
   
-  .ol-c-white:hover\@sm {
+  .otlc-white:hover\@sm {
     outline-color: #fff;
   }
   
-  .ol-c-black:hover\@sm {
+  .otlc-black:hover\@sm {
     outline-color: #000;
   }
   
-  .ol-c-white:focus\@sm {
+  .otlc-white:focus\@sm {
     outline-color: #fff;
   }
   
-  .ol-c-black:focus\@sm {
+  .otlc-black:focus\@sm {
     outline-color: #000;
   }
   
-  .ol-c-white:active\@sm {
+  .otlc-white:active\@sm {
     outline-color: #fff;
   }
   
-  .ol-c-black:active\@sm {
+  .otlc-black:active\@sm {
     outline-color: #000;
   }
   .group:hover
-.ol-c-white\:group-hover\@sm {
+.otlc-white\:group-hover\@sm {
     outline-color: #fff;
   }
   .group:hover
-.ol-c-black\:group-hover\@sm {
+.otlc-black\:group-hover\@sm {
     outline-color: #000;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .ol-c-white\@md {
+  .otlc-white\@md {
     outline-color: #fff;
   }
   
-  .ol-c-black\@md {
+  .otlc-black\@md {
     outline-color: #000;
   }
   
-  .ol-c-white:hover\@md {
+  .otlc-white:hover\@md {
     outline-color: #fff;
   }
   
-  .ol-c-black:hover\@md {
+  .otlc-black:hover\@md {
     outline-color: #000;
   }
   
-  .ol-c-white:focus\@md {
+  .otlc-white:focus\@md {
     outline-color: #fff;
   }
   
-  .ol-c-black:focus\@md {
+  .otlc-black:focus\@md {
     outline-color: #000;
   }
   
-  .ol-c-white:active\@md {
+  .otlc-white:active\@md {
     outline-color: #fff;
   }
   
-  .ol-c-black:active\@md {
+  .otlc-black:active\@md {
     outline-color: #000;
   }
   .group:hover
-.ol-c-white\:group-hover\@md {
+.otlc-white\:group-hover\@md {
     outline-color: #fff;
   }
   .group:hover
-.ol-c-black\:group-hover\@md {
+.otlc-black\:group-hover\@md {
     outline-color: #000;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .ol-c-white\@lg {
+  .otlc-white\@lg {
     outline-color: #fff;
   }
   
-  .ol-c-black\@lg {
+  .otlc-black\@lg {
     outline-color: #000;
   }
   
-  .ol-c-white:hover\@lg {
+  .otlc-white:hover\@lg {
     outline-color: #fff;
   }
   
-  .ol-c-black:hover\@lg {
+  .otlc-black:hover\@lg {
     outline-color: #000;
   }
   
-  .ol-c-white:focus\@lg {
+  .otlc-white:focus\@lg {
     outline-color: #fff;
   }
   
-  .ol-c-black:focus\@lg {
+  .otlc-black:focus\@lg {
     outline-color: #000;
   }
   
-  .ol-c-white:active\@lg {
+  .otlc-white:active\@lg {
     outline-color: #fff;
   }
   
-  .ol-c-black:active\@lg {
+  .otlc-black:active\@lg {
     outline-color: #000;
   }
   .group:hover
-.ol-c-white\:group-hover\@lg {
+.otlc-white\:group-hover\@lg {
     outline-color: #fff;
   }
   .group:hover
-.ol-c-black\:group-hover\@lg {
+.otlc-black\:group-hover\@lg {
     outline-color: #000;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .ol-c-white\@xl {
+  .otlc-white\@xl {
     outline-color: #fff;
   }
   
-  .ol-c-black\@xl {
+  .otlc-black\@xl {
     outline-color: #000;
   }
   
-  .ol-c-white:hover\@xl {
+  .otlc-white:hover\@xl {
     outline-color: #fff;
   }
   
-  .ol-c-black:hover\@xl {
+  .otlc-black:hover\@xl {
     outline-color: #000;
   }
   
-  .ol-c-white:focus\@xl {
+  .otlc-white:focus\@xl {
     outline-color: #fff;
   }
   
-  .ol-c-black:focus\@xl {
+  .otlc-black:focus\@xl {
     outline-color: #000;
   }
   
-  .ol-c-white:active\@xl {
+  .otlc-white:active\@xl {
     outline-color: #fff;
   }
   
-  .ol-c-black:active\@xl {
+  .otlc-black:active\@xl {
     outline-color: #000;
   }
   .group:hover
-.ol-c-white\:group-hover\@xl {
+.otlc-white\:group-hover\@xl {
     outline-color: #fff;
   }
   .group:hover
-.ol-c-black\:group-hover\@xl {
+.otlc-black\:group-hover\@xl {
     outline-color: #000;
   }
 }
 
 
-.ol-off-0 {
+.otlo-0 {
   outline-offset: 0;
 }
 
 
-.ol-off-1 {
+.otlo-1 {
   outline-offset: 1px;
 }
 
 
-.ol-off-2 {
+.otlo-2 {
   outline-offset: 2px;
 }
 
 
-.ol-off-3 {
+.otlo-3 {
   outline-offset: 3px;
 }
 
 
-.ol-off-4 {
+.otlo-4 {
   outline-offset: 4px;
 }
 
 
-.ol-off-0:hover {
+.otlo-0:hover {
   outline-offset: 0;
 }
 
 
-.ol-off-1:hover {
+.otlo-1:hover {
   outline-offset: 1px;
 }
 
 
-.ol-off-2:hover {
+.otlo-2:hover {
   outline-offset: 2px;
 }
 
 
-.ol-off-3:hover {
+.otlo-3:hover {
   outline-offset: 3px;
 }
 
 
-.ol-off-4:hover {
+.otlo-4:hover {
   outline-offset: 4px;
 }
 
 
-.ol-off-0:focus {
+.otlo-0:focus {
   outline-offset: 0;
 }
 
 
-.ol-off-1:focus {
+.otlo-1:focus {
   outline-offset: 1px;
 }
 
 
-.ol-off-2:focus {
+.otlo-2:focus {
   outline-offset: 2px;
 }
 
 
-.ol-off-3:focus {
+.otlo-3:focus {
   outline-offset: 3px;
 }
 
 
-.ol-off-4:focus {
+.otlo-4:focus {
   outline-offset: 4px;
 }
 
 
-.ol-off-0:active {
+.otlo-0:active {
   outline-offset: 0;
 }
 
 
-.ol-off-1:active {
+.otlo-1:active {
   outline-offset: 1px;
 }
 
 
-.ol-off-2:active {
+.otlo-2:active {
   outline-offset: 2px;
 }
 
 
-.ol-off-3:active {
+.otlo-3:active {
   outline-offset: 3px;
 }
 
 
-.ol-off-4:active {
+.otlo-4:active {
   outline-offset: 4px;
 }
 
 .group:hover
-.ol-off-0\:group-hover {
+.otlo-0\:group-hover {
   outline-offset: 0;
 }
 
 .group:hover
-.ol-off-1\:group-hover {
+.otlo-1\:group-hover {
   outline-offset: 1px;
 }
 
 .group:hover
-.ol-off-2\:group-hover {
+.otlo-2\:group-hover {
   outline-offset: 2px;
 }
 
 .group:hover
-.ol-off-3\:group-hover {
+.otlo-3\:group-hover {
   outline-offset: 3px;
 }
 
 .group:hover
-.ol-off-4\:group-hover {
+.otlo-4\:group-hover {
   outline-offset: 4px;
 }
 
 @media all and (min-width: 416px) {
   
-  .ol-off-0\@xs {
+  .otlo-0\@xs {
     outline-offset: 0;
   }
   
-  .ol-off-1\@xs {
+  .otlo-1\@xs {
     outline-offset: 1px;
   }
   
-  .ol-off-2\@xs {
+  .otlo-2\@xs {
     outline-offset: 2px;
   }
   
-  .ol-off-3\@xs {
+  .otlo-3\@xs {
     outline-offset: 3px;
   }
   
-  .ol-off-4\@xs {
+  .otlo-4\@xs {
     outline-offset: 4px;
   }
   
-  .ol-off-0:hover\@xs {
+  .otlo-0:hover\@xs {
     outline-offset: 0;
   }
   
-  .ol-off-1:hover\@xs {
+  .otlo-1:hover\@xs {
     outline-offset: 1px;
   }
   
-  .ol-off-2:hover\@xs {
+  .otlo-2:hover\@xs {
     outline-offset: 2px;
   }
   
-  .ol-off-3:hover\@xs {
+  .otlo-3:hover\@xs {
     outline-offset: 3px;
   }
   
-  .ol-off-4:hover\@xs {
+  .otlo-4:hover\@xs {
     outline-offset: 4px;
   }
   
-  .ol-off-0:focus\@xs {
+  .otlo-0:focus\@xs {
     outline-offset: 0;
   }
   
-  .ol-off-1:focus\@xs {
+  .otlo-1:focus\@xs {
     outline-offset: 1px;
   }
   
-  .ol-off-2:focus\@xs {
+  .otlo-2:focus\@xs {
     outline-offset: 2px;
   }
   
-  .ol-off-3:focus\@xs {
+  .otlo-3:focus\@xs {
     outline-offset: 3px;
   }
   
-  .ol-off-4:focus\@xs {
+  .otlo-4:focus\@xs {
     outline-offset: 4px;
   }
   
-  .ol-off-0:active\@xs {
+  .otlo-0:active\@xs {
     outline-offset: 0;
   }
   
-  .ol-off-1:active\@xs {
+  .otlo-1:active\@xs {
     outline-offset: 1px;
   }
   
-  .ol-off-2:active\@xs {
+  .otlo-2:active\@xs {
     outline-offset: 2px;
   }
   
-  .ol-off-3:active\@xs {
+  .otlo-3:active\@xs {
     outline-offset: 3px;
   }
   
-  .ol-off-4:active\@xs {
+  .otlo-4:active\@xs {
     outline-offset: 4px;
   }
   .group:hover
-.ol-off-0\:group-hover\@xs {
+.otlo-0\:group-hover\@xs {
     outline-offset: 0;
   }
   .group:hover
-.ol-off-1\:group-hover\@xs {
+.otlo-1\:group-hover\@xs {
     outline-offset: 1px;
   }
   .group:hover
-.ol-off-2\:group-hover\@xs {
+.otlo-2\:group-hover\@xs {
     outline-offset: 2px;
   }
   .group:hover
-.ol-off-3\:group-hover\@xs {
+.otlo-3\:group-hover\@xs {
     outline-offset: 3px;
   }
   .group:hover
-.ol-off-4\:group-hover\@xs {
+.otlo-4\:group-hover\@xs {
     outline-offset: 4px;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .ol-off-0\@sm {
+  .otlo-0\@sm {
     outline-offset: 0;
   }
   
-  .ol-off-1\@sm {
+  .otlo-1\@sm {
     outline-offset: 1px;
   }
   
-  .ol-off-2\@sm {
+  .otlo-2\@sm {
     outline-offset: 2px;
   }
   
-  .ol-off-3\@sm {
+  .otlo-3\@sm {
     outline-offset: 3px;
   }
   
-  .ol-off-4\@sm {
+  .otlo-4\@sm {
     outline-offset: 4px;
   }
   
-  .ol-off-0:hover\@sm {
+  .otlo-0:hover\@sm {
     outline-offset: 0;
   }
   
-  .ol-off-1:hover\@sm {
+  .otlo-1:hover\@sm {
     outline-offset: 1px;
   }
   
-  .ol-off-2:hover\@sm {
+  .otlo-2:hover\@sm {
     outline-offset: 2px;
   }
   
-  .ol-off-3:hover\@sm {
+  .otlo-3:hover\@sm {
     outline-offset: 3px;
   }
   
-  .ol-off-4:hover\@sm {
+  .otlo-4:hover\@sm {
     outline-offset: 4px;
   }
   
-  .ol-off-0:focus\@sm {
+  .otlo-0:focus\@sm {
     outline-offset: 0;
   }
   
-  .ol-off-1:focus\@sm {
+  .otlo-1:focus\@sm {
     outline-offset: 1px;
   }
   
-  .ol-off-2:focus\@sm {
+  .otlo-2:focus\@sm {
     outline-offset: 2px;
   }
   
-  .ol-off-3:focus\@sm {
+  .otlo-3:focus\@sm {
     outline-offset: 3px;
   }
   
-  .ol-off-4:focus\@sm {
+  .otlo-4:focus\@sm {
     outline-offset: 4px;
   }
   
-  .ol-off-0:active\@sm {
+  .otlo-0:active\@sm {
     outline-offset: 0;
   }
   
-  .ol-off-1:active\@sm {
+  .otlo-1:active\@sm {
     outline-offset: 1px;
   }
   
-  .ol-off-2:active\@sm {
+  .otlo-2:active\@sm {
     outline-offset: 2px;
   }
   
-  .ol-off-3:active\@sm {
+  .otlo-3:active\@sm {
     outline-offset: 3px;
   }
   
-  .ol-off-4:active\@sm {
+  .otlo-4:active\@sm {
     outline-offset: 4px;
   }
   .group:hover
-.ol-off-0\:group-hover\@sm {
+.otlo-0\:group-hover\@sm {
     outline-offset: 0;
   }
   .group:hover
-.ol-off-1\:group-hover\@sm {
+.otlo-1\:group-hover\@sm {
     outline-offset: 1px;
   }
   .group:hover
-.ol-off-2\:group-hover\@sm {
+.otlo-2\:group-hover\@sm {
     outline-offset: 2px;
   }
   .group:hover
-.ol-off-3\:group-hover\@sm {
+.otlo-3\:group-hover\@sm {
     outline-offset: 3px;
   }
   .group:hover
-.ol-off-4\:group-hover\@sm {
+.otlo-4\:group-hover\@sm {
     outline-offset: 4px;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .ol-off-0\@md {
+  .otlo-0\@md {
     outline-offset: 0;
   }
   
-  .ol-off-1\@md {
+  .otlo-1\@md {
     outline-offset: 1px;
   }
   
-  .ol-off-2\@md {
+  .otlo-2\@md {
     outline-offset: 2px;
   }
   
-  .ol-off-3\@md {
+  .otlo-3\@md {
     outline-offset: 3px;
   }
   
-  .ol-off-4\@md {
+  .otlo-4\@md {
     outline-offset: 4px;
   }
   
-  .ol-off-0:hover\@md {
+  .otlo-0:hover\@md {
     outline-offset: 0;
   }
   
-  .ol-off-1:hover\@md {
+  .otlo-1:hover\@md {
     outline-offset: 1px;
   }
   
-  .ol-off-2:hover\@md {
+  .otlo-2:hover\@md {
     outline-offset: 2px;
   }
   
-  .ol-off-3:hover\@md {
+  .otlo-3:hover\@md {
     outline-offset: 3px;
   }
   
-  .ol-off-4:hover\@md {
+  .otlo-4:hover\@md {
     outline-offset: 4px;
   }
   
-  .ol-off-0:focus\@md {
+  .otlo-0:focus\@md {
     outline-offset: 0;
   }
   
-  .ol-off-1:focus\@md {
+  .otlo-1:focus\@md {
     outline-offset: 1px;
   }
   
-  .ol-off-2:focus\@md {
+  .otlo-2:focus\@md {
     outline-offset: 2px;
   }
   
-  .ol-off-3:focus\@md {
+  .otlo-3:focus\@md {
     outline-offset: 3px;
   }
   
-  .ol-off-4:focus\@md {
+  .otlo-4:focus\@md {
     outline-offset: 4px;
   }
   
-  .ol-off-0:active\@md {
+  .otlo-0:active\@md {
     outline-offset: 0;
   }
   
-  .ol-off-1:active\@md {
+  .otlo-1:active\@md {
     outline-offset: 1px;
   }
   
-  .ol-off-2:active\@md {
+  .otlo-2:active\@md {
     outline-offset: 2px;
   }
   
-  .ol-off-3:active\@md {
+  .otlo-3:active\@md {
     outline-offset: 3px;
   }
   
-  .ol-off-4:active\@md {
+  .otlo-4:active\@md {
     outline-offset: 4px;
   }
   .group:hover
-.ol-off-0\:group-hover\@md {
+.otlo-0\:group-hover\@md {
     outline-offset: 0;
   }
   .group:hover
-.ol-off-1\:group-hover\@md {
+.otlo-1\:group-hover\@md {
     outline-offset: 1px;
   }
   .group:hover
-.ol-off-2\:group-hover\@md {
+.otlo-2\:group-hover\@md {
     outline-offset: 2px;
   }
   .group:hover
-.ol-off-3\:group-hover\@md {
+.otlo-3\:group-hover\@md {
     outline-offset: 3px;
   }
   .group:hover
-.ol-off-4\:group-hover\@md {
+.otlo-4\:group-hover\@md {
     outline-offset: 4px;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .ol-off-0\@lg {
+  .otlo-0\@lg {
     outline-offset: 0;
   }
   
-  .ol-off-1\@lg {
+  .otlo-1\@lg {
     outline-offset: 1px;
   }
   
-  .ol-off-2\@lg {
+  .otlo-2\@lg {
     outline-offset: 2px;
   }
   
-  .ol-off-3\@lg {
+  .otlo-3\@lg {
     outline-offset: 3px;
   }
   
-  .ol-off-4\@lg {
+  .otlo-4\@lg {
     outline-offset: 4px;
   }
   
-  .ol-off-0:hover\@lg {
+  .otlo-0:hover\@lg {
     outline-offset: 0;
   }
   
-  .ol-off-1:hover\@lg {
+  .otlo-1:hover\@lg {
     outline-offset: 1px;
   }
   
-  .ol-off-2:hover\@lg {
+  .otlo-2:hover\@lg {
     outline-offset: 2px;
   }
   
-  .ol-off-3:hover\@lg {
+  .otlo-3:hover\@lg {
     outline-offset: 3px;
   }
   
-  .ol-off-4:hover\@lg {
+  .otlo-4:hover\@lg {
     outline-offset: 4px;
   }
   
-  .ol-off-0:focus\@lg {
+  .otlo-0:focus\@lg {
     outline-offset: 0;
   }
   
-  .ol-off-1:focus\@lg {
+  .otlo-1:focus\@lg {
     outline-offset: 1px;
   }
   
-  .ol-off-2:focus\@lg {
+  .otlo-2:focus\@lg {
     outline-offset: 2px;
   }
   
-  .ol-off-3:focus\@lg {
+  .otlo-3:focus\@lg {
     outline-offset: 3px;
   }
   
-  .ol-off-4:focus\@lg {
+  .otlo-4:focus\@lg {
     outline-offset: 4px;
   }
   
-  .ol-off-0:active\@lg {
+  .otlo-0:active\@lg {
     outline-offset: 0;
   }
   
-  .ol-off-1:active\@lg {
+  .otlo-1:active\@lg {
     outline-offset: 1px;
   }
   
-  .ol-off-2:active\@lg {
+  .otlo-2:active\@lg {
     outline-offset: 2px;
   }
   
-  .ol-off-3:active\@lg {
+  .otlo-3:active\@lg {
     outline-offset: 3px;
   }
   
-  .ol-off-4:active\@lg {
+  .otlo-4:active\@lg {
     outline-offset: 4px;
   }
   .group:hover
-.ol-off-0\:group-hover\@lg {
+.otlo-0\:group-hover\@lg {
     outline-offset: 0;
   }
   .group:hover
-.ol-off-1\:group-hover\@lg {
+.otlo-1\:group-hover\@lg {
     outline-offset: 1px;
   }
   .group:hover
-.ol-off-2\:group-hover\@lg {
+.otlo-2\:group-hover\@lg {
     outline-offset: 2px;
   }
   .group:hover
-.ol-off-3\:group-hover\@lg {
+.otlo-3\:group-hover\@lg {
     outline-offset: 3px;
   }
   .group:hover
-.ol-off-4\:group-hover\@lg {
+.otlo-4\:group-hover\@lg {
     outline-offset: 4px;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .ol-off-0\@xl {
+  .otlo-0\@xl {
     outline-offset: 0;
   }
   
-  .ol-off-1\@xl {
+  .otlo-1\@xl {
     outline-offset: 1px;
   }
   
-  .ol-off-2\@xl {
+  .otlo-2\@xl {
     outline-offset: 2px;
   }
   
-  .ol-off-3\@xl {
+  .otlo-3\@xl {
     outline-offset: 3px;
   }
   
-  .ol-off-4\@xl {
+  .otlo-4\@xl {
     outline-offset: 4px;
   }
   
-  .ol-off-0:hover\@xl {
+  .otlo-0:hover\@xl {
     outline-offset: 0;
   }
   
-  .ol-off-1:hover\@xl {
+  .otlo-1:hover\@xl {
     outline-offset: 1px;
   }
   
-  .ol-off-2:hover\@xl {
+  .otlo-2:hover\@xl {
     outline-offset: 2px;
   }
   
-  .ol-off-3:hover\@xl {
+  .otlo-3:hover\@xl {
     outline-offset: 3px;
   }
   
-  .ol-off-4:hover\@xl {
+  .otlo-4:hover\@xl {
     outline-offset: 4px;
   }
   
-  .ol-off-0:focus\@xl {
+  .otlo-0:focus\@xl {
     outline-offset: 0;
   }
   
-  .ol-off-1:focus\@xl {
+  .otlo-1:focus\@xl {
     outline-offset: 1px;
   }
   
-  .ol-off-2:focus\@xl {
+  .otlo-2:focus\@xl {
     outline-offset: 2px;
   }
   
-  .ol-off-3:focus\@xl {
+  .otlo-3:focus\@xl {
     outline-offset: 3px;
   }
   
-  .ol-off-4:focus\@xl {
+  .otlo-4:focus\@xl {
     outline-offset: 4px;
   }
   
-  .ol-off-0:active\@xl {
+  .otlo-0:active\@xl {
     outline-offset: 0;
   }
   
-  .ol-off-1:active\@xl {
+  .otlo-1:active\@xl {
     outline-offset: 1px;
   }
   
-  .ol-off-2:active\@xl {
+  .otlo-2:active\@xl {
     outline-offset: 2px;
   }
   
-  .ol-off-3:active\@xl {
+  .otlo-3:active\@xl {
     outline-offset: 3px;
   }
   
-  .ol-off-4:active\@xl {
+  .otlo-4:active\@xl {
     outline-offset: 4px;
   }
   .group:hover
-.ol-off-0\:group-hover\@xl {
+.otlo-0\:group-hover\@xl {
     outline-offset: 0;
   }
   .group:hover
-.ol-off-1\:group-hover\@xl {
+.otlo-1\:group-hover\@xl {
     outline-offset: 1px;
   }
   .group:hover
-.ol-off-2\:group-hover\@xl {
+.otlo-2\:group-hover\@xl {
     outline-offset: 2px;
   }
   .group:hover
-.ol-off-3\:group-hover\@xl {
+.otlo-3\:group-hover\@xl {
     outline-offset: 3px;
   }
   .group:hover
-.ol-off-4\:group-hover\@xl {
+.otlo-4\:group-hover\@xl {
     outline-offset: 4px;
   }
 }
 
 
-.ol-off-dotted {
+.otls-dotted {
   outline-style: dotted;
 }
 
 
-.ol-off-dashed {
+.otls-dashed {
   outline-style: dashed;
 }
 
 
-.ol-off-solid {
+.otls-solid {
   outline-style: solid;
 }
 
 
-.ol-off-dotted:hover {
+.otls-dotted:hover {
   outline-style: dotted;
 }
 
 
-.ol-off-dashed:hover {
+.otls-dashed:hover {
   outline-style: dashed;
 }
 
 
-.ol-off-solid:hover {
+.otls-solid:hover {
   outline-style: solid;
 }
 
 
-.ol-off-dotted:focus {
+.otls-dotted:focus {
   outline-style: dotted;
 }
 
 
-.ol-off-dashed:focus {
+.otls-dashed:focus {
   outline-style: dashed;
 }
 
 
-.ol-off-solid:focus {
+.otls-solid:focus {
   outline-style: solid;
 }
 
 
-.ol-off-dotted:active {
+.otls-dotted:active {
   outline-style: dotted;
 }
 
 
-.ol-off-dashed:active {
+.otls-dashed:active {
   outline-style: dashed;
 }
 
 
-.ol-off-solid:active {
+.otls-solid:active {
   outline-style: solid;
 }
 
 .group:hover
-.ol-off-dotted\:group-hover {
+.otls-dotted\:group-hover {
   outline-style: dotted;
 }
 
 .group:hover
-.ol-off-dashed\:group-hover {
+.otls-dashed\:group-hover {
   outline-style: dashed;
 }
 
 .group:hover
-.ol-off-solid\:group-hover {
+.otls-solid\:group-hover {
   outline-style: solid;
 }
 
 @media all and (min-width: 416px) {
   
-  .ol-off-dotted\@xs {
+  .otls-dotted\@xs {
     outline-style: dotted;
   }
   
-  .ol-off-dashed\@xs {
+  .otls-dashed\@xs {
     outline-style: dashed;
   }
   
-  .ol-off-solid\@xs {
+  .otls-solid\@xs {
     outline-style: solid;
   }
   
-  .ol-off-dotted:hover\@xs {
+  .otls-dotted:hover\@xs {
     outline-style: dotted;
   }
   
-  .ol-off-dashed:hover\@xs {
+  .otls-dashed:hover\@xs {
     outline-style: dashed;
   }
   
-  .ol-off-solid:hover\@xs {
+  .otls-solid:hover\@xs {
     outline-style: solid;
   }
   
-  .ol-off-dotted:focus\@xs {
+  .otls-dotted:focus\@xs {
     outline-style: dotted;
   }
   
-  .ol-off-dashed:focus\@xs {
+  .otls-dashed:focus\@xs {
     outline-style: dashed;
   }
   
-  .ol-off-solid:focus\@xs {
+  .otls-solid:focus\@xs {
     outline-style: solid;
   }
   
-  .ol-off-dotted:active\@xs {
+  .otls-dotted:active\@xs {
     outline-style: dotted;
   }
   
-  .ol-off-dashed:active\@xs {
+  .otls-dashed:active\@xs {
     outline-style: dashed;
   }
   
-  .ol-off-solid:active\@xs {
+  .otls-solid:active\@xs {
     outline-style: solid;
   }
   .group:hover
-.ol-off-dotted\:group-hover\@xs {
+.otls-dotted\:group-hover\@xs {
     outline-style: dotted;
   }
   .group:hover
-.ol-off-dashed\:group-hover\@xs {
+.otls-dashed\:group-hover\@xs {
     outline-style: dashed;
   }
   .group:hover
-.ol-off-solid\:group-hover\@xs {
+.otls-solid\:group-hover\@xs {
     outline-style: solid;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .ol-off-dotted\@sm {
+  .otls-dotted\@sm {
     outline-style: dotted;
   }
   
-  .ol-off-dashed\@sm {
+  .otls-dashed\@sm {
     outline-style: dashed;
   }
   
-  .ol-off-solid\@sm {
+  .otls-solid\@sm {
     outline-style: solid;
   }
   
-  .ol-off-dotted:hover\@sm {
+  .otls-dotted:hover\@sm {
     outline-style: dotted;
   }
   
-  .ol-off-dashed:hover\@sm {
+  .otls-dashed:hover\@sm {
     outline-style: dashed;
   }
   
-  .ol-off-solid:hover\@sm {
+  .otls-solid:hover\@sm {
     outline-style: solid;
   }
   
-  .ol-off-dotted:focus\@sm {
+  .otls-dotted:focus\@sm {
     outline-style: dotted;
   }
   
-  .ol-off-dashed:focus\@sm {
+  .otls-dashed:focus\@sm {
     outline-style: dashed;
   }
   
-  .ol-off-solid:focus\@sm {
+  .otls-solid:focus\@sm {
     outline-style: solid;
   }
   
-  .ol-off-dotted:active\@sm {
+  .otls-dotted:active\@sm {
     outline-style: dotted;
   }
   
-  .ol-off-dashed:active\@sm {
+  .otls-dashed:active\@sm {
     outline-style: dashed;
   }
   
-  .ol-off-solid:active\@sm {
+  .otls-solid:active\@sm {
     outline-style: solid;
   }
   .group:hover
-.ol-off-dotted\:group-hover\@sm {
+.otls-dotted\:group-hover\@sm {
     outline-style: dotted;
   }
   .group:hover
-.ol-off-dashed\:group-hover\@sm {
+.otls-dashed\:group-hover\@sm {
     outline-style: dashed;
   }
   .group:hover
-.ol-off-solid\:group-hover\@sm {
+.otls-solid\:group-hover\@sm {
     outline-style: solid;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .ol-off-dotted\@md {
+  .otls-dotted\@md {
     outline-style: dotted;
   }
   
-  .ol-off-dashed\@md {
+  .otls-dashed\@md {
     outline-style: dashed;
   }
   
-  .ol-off-solid\@md {
+  .otls-solid\@md {
     outline-style: solid;
   }
   
-  .ol-off-dotted:hover\@md {
+  .otls-dotted:hover\@md {
     outline-style: dotted;
   }
   
-  .ol-off-dashed:hover\@md {
+  .otls-dashed:hover\@md {
     outline-style: dashed;
   }
   
-  .ol-off-solid:hover\@md {
+  .otls-solid:hover\@md {
     outline-style: solid;
   }
   
-  .ol-off-dotted:focus\@md {
+  .otls-dotted:focus\@md {
     outline-style: dotted;
   }
   
-  .ol-off-dashed:focus\@md {
+  .otls-dashed:focus\@md {
     outline-style: dashed;
   }
   
-  .ol-off-solid:focus\@md {
+  .otls-solid:focus\@md {
     outline-style: solid;
   }
   
-  .ol-off-dotted:active\@md {
+  .otls-dotted:active\@md {
     outline-style: dotted;
   }
   
-  .ol-off-dashed:active\@md {
+  .otls-dashed:active\@md {
     outline-style: dashed;
   }
   
-  .ol-off-solid:active\@md {
+  .otls-solid:active\@md {
     outline-style: solid;
   }
   .group:hover
-.ol-off-dotted\:group-hover\@md {
+.otls-dotted\:group-hover\@md {
     outline-style: dotted;
   }
   .group:hover
-.ol-off-dashed\:group-hover\@md {
+.otls-dashed\:group-hover\@md {
     outline-style: dashed;
   }
   .group:hover
-.ol-off-solid\:group-hover\@md {
+.otls-solid\:group-hover\@md {
     outline-style: solid;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .ol-off-dotted\@lg {
+  .otls-dotted\@lg {
     outline-style: dotted;
   }
   
-  .ol-off-dashed\@lg {
+  .otls-dashed\@lg {
     outline-style: dashed;
   }
   
-  .ol-off-solid\@lg {
+  .otls-solid\@lg {
     outline-style: solid;
   }
   
-  .ol-off-dotted:hover\@lg {
+  .otls-dotted:hover\@lg {
     outline-style: dotted;
   }
   
-  .ol-off-dashed:hover\@lg {
+  .otls-dashed:hover\@lg {
     outline-style: dashed;
   }
   
-  .ol-off-solid:hover\@lg {
+  .otls-solid:hover\@lg {
     outline-style: solid;
   }
   
-  .ol-off-dotted:focus\@lg {
+  .otls-dotted:focus\@lg {
     outline-style: dotted;
   }
   
-  .ol-off-dashed:focus\@lg {
+  .otls-dashed:focus\@lg {
     outline-style: dashed;
   }
   
-  .ol-off-solid:focus\@lg {
+  .otls-solid:focus\@lg {
     outline-style: solid;
   }
   
-  .ol-off-dotted:active\@lg {
+  .otls-dotted:active\@lg {
     outline-style: dotted;
   }
   
-  .ol-off-dashed:active\@lg {
+  .otls-dashed:active\@lg {
     outline-style: dashed;
   }
   
-  .ol-off-solid:active\@lg {
+  .otls-solid:active\@lg {
     outline-style: solid;
   }
   .group:hover
-.ol-off-dotted\:group-hover\@lg {
+.otls-dotted\:group-hover\@lg {
     outline-style: dotted;
   }
   .group:hover
-.ol-off-dashed\:group-hover\@lg {
+.otls-dashed\:group-hover\@lg {
     outline-style: dashed;
   }
   .group:hover
-.ol-off-solid\:group-hover\@lg {
+.otls-solid\:group-hover\@lg {
     outline-style: solid;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .ol-off-dotted\@xl {
+  .otls-dotted\@xl {
     outline-style: dotted;
   }
   
-  .ol-off-dashed\@xl {
+  .otls-dashed\@xl {
     outline-style: dashed;
   }
   
-  .ol-off-solid\@xl {
+  .otls-solid\@xl {
     outline-style: solid;
   }
   
-  .ol-off-dotted:hover\@xl {
+  .otls-dotted:hover\@xl {
     outline-style: dotted;
   }
   
-  .ol-off-dashed:hover\@xl {
+  .otls-dashed:hover\@xl {
     outline-style: dashed;
   }
   
-  .ol-off-solid:hover\@xl {
+  .otls-solid:hover\@xl {
     outline-style: solid;
   }
   
-  .ol-off-dotted:focus\@xl {
+  .otls-dotted:focus\@xl {
     outline-style: dotted;
   }
   
-  .ol-off-dashed:focus\@xl {
+  .otls-dashed:focus\@xl {
     outline-style: dashed;
   }
   
-  .ol-off-solid:focus\@xl {
+  .otls-solid:focus\@xl {
     outline-style: solid;
   }
   
-  .ol-off-dotted:active\@xl {
+  .otls-dotted:active\@xl {
     outline-style: dotted;
   }
   
-  .ol-off-dashed:active\@xl {
+  .otls-dashed:active\@xl {
     outline-style: dashed;
   }
   
-  .ol-off-solid:active\@xl {
+  .otls-solid:active\@xl {
     outline-style: solid;
   }
   .group:hover
-.ol-off-dotted\:group-hover\@xl {
+.otls-dotted\:group-hover\@xl {
     outline-style: dotted;
   }
   .group:hover
-.ol-off-dashed\:group-hover\@xl {
+.otls-dashed\:group-hover\@xl {
     outline-style: dashed;
   }
   .group:hover
-.ol-off-solid\:group-hover\@xl {
+.otls-solid\:group-hover\@xl {
     outline-style: solid;
   }
 }
 
 
-.ol-w-0 {
+.otlw-0 {
   outline-width: 0;
 }
 
 
-.ol-w-1 {
+.otlw-1 {
   outline-width: 1px;
 }
 
 
-.ol-w-2 {
+.otlw-2 {
   outline-width: 2px;
 }
 
 
-.ol-w-3 {
+.otlw-3 {
   outline-width: 3px;
 }
 
 
-.ol-w-0:hover {
+.otlw-0:hover {
   outline-width: 0;
 }
 
 
-.ol-w-1:hover {
+.otlw-1:hover {
   outline-width: 1px;
 }
 
 
-.ol-w-2:hover {
+.otlw-2:hover {
   outline-width: 2px;
 }
 
 
-.ol-w-3:hover {
+.otlw-3:hover {
   outline-width: 3px;
 }
 
 
-.ol-w-0:focus {
+.otlw-0:focus {
   outline-width: 0;
 }
 
 
-.ol-w-1:focus {
+.otlw-1:focus {
   outline-width: 1px;
 }
 
 
-.ol-w-2:focus {
+.otlw-2:focus {
   outline-width: 2px;
 }
 
 
-.ol-w-3:focus {
+.otlw-3:focus {
   outline-width: 3px;
 }
 
 
-.ol-w-0:active {
+.otlw-0:active {
   outline-width: 0;
 }
 
 
-.ol-w-1:active {
+.otlw-1:active {
   outline-width: 1px;
 }
 
 
-.ol-w-2:active {
+.otlw-2:active {
   outline-width: 2px;
 }
 
 
-.ol-w-3:active {
+.otlw-3:active {
   outline-width: 3px;
 }
 
 .group:hover
-.ol-w-0\:group-hover {
+.otlw-0\:group-hover {
   outline-width: 0;
 }
 
 .group:hover
-.ol-w-1\:group-hover {
+.otlw-1\:group-hover {
   outline-width: 1px;
 }
 
 .group:hover
-.ol-w-2\:group-hover {
+.otlw-2\:group-hover {
   outline-width: 2px;
 }
 
 .group:hover
-.ol-w-3\:group-hover {
+.otlw-3\:group-hover {
   outline-width: 3px;
 }
 
 @media all and (min-width: 416px) {
   
-  .ol-w-0\@xs {
+  .otlw-0\@xs {
     outline-width: 0;
   }
   
-  .ol-w-1\@xs {
+  .otlw-1\@xs {
     outline-width: 1px;
   }
   
-  .ol-w-2\@xs {
+  .otlw-2\@xs {
     outline-width: 2px;
   }
   
-  .ol-w-3\@xs {
+  .otlw-3\@xs {
     outline-width: 3px;
   }
   
-  .ol-w-0:hover\@xs {
+  .otlw-0:hover\@xs {
     outline-width: 0;
   }
   
-  .ol-w-1:hover\@xs {
+  .otlw-1:hover\@xs {
     outline-width: 1px;
   }
   
-  .ol-w-2:hover\@xs {
+  .otlw-2:hover\@xs {
     outline-width: 2px;
   }
   
-  .ol-w-3:hover\@xs {
+  .otlw-3:hover\@xs {
     outline-width: 3px;
   }
   
-  .ol-w-0:focus\@xs {
+  .otlw-0:focus\@xs {
     outline-width: 0;
   }
   
-  .ol-w-1:focus\@xs {
+  .otlw-1:focus\@xs {
     outline-width: 1px;
   }
   
-  .ol-w-2:focus\@xs {
+  .otlw-2:focus\@xs {
     outline-width: 2px;
   }
   
-  .ol-w-3:focus\@xs {
+  .otlw-3:focus\@xs {
     outline-width: 3px;
   }
   
-  .ol-w-0:active\@xs {
+  .otlw-0:active\@xs {
     outline-width: 0;
   }
   
-  .ol-w-1:active\@xs {
+  .otlw-1:active\@xs {
     outline-width: 1px;
   }
   
-  .ol-w-2:active\@xs {
+  .otlw-2:active\@xs {
     outline-width: 2px;
   }
   
-  .ol-w-3:active\@xs {
+  .otlw-3:active\@xs {
     outline-width: 3px;
   }
   .group:hover
-.ol-w-0\:group-hover\@xs {
+.otlw-0\:group-hover\@xs {
     outline-width: 0;
   }
   .group:hover
-.ol-w-1\:group-hover\@xs {
+.otlw-1\:group-hover\@xs {
     outline-width: 1px;
   }
   .group:hover
-.ol-w-2\:group-hover\@xs {
+.otlw-2\:group-hover\@xs {
     outline-width: 2px;
   }
   .group:hover
-.ol-w-3\:group-hover\@xs {
+.otlw-3\:group-hover\@xs {
     outline-width: 3px;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .ol-w-0\@sm {
+  .otlw-0\@sm {
     outline-width: 0;
   }
   
-  .ol-w-1\@sm {
+  .otlw-1\@sm {
     outline-width: 1px;
   }
   
-  .ol-w-2\@sm {
+  .otlw-2\@sm {
     outline-width: 2px;
   }
   
-  .ol-w-3\@sm {
+  .otlw-3\@sm {
     outline-width: 3px;
   }
   
-  .ol-w-0:hover\@sm {
+  .otlw-0:hover\@sm {
     outline-width: 0;
   }
   
-  .ol-w-1:hover\@sm {
+  .otlw-1:hover\@sm {
     outline-width: 1px;
   }
   
-  .ol-w-2:hover\@sm {
+  .otlw-2:hover\@sm {
     outline-width: 2px;
   }
   
-  .ol-w-3:hover\@sm {
+  .otlw-3:hover\@sm {
     outline-width: 3px;
   }
   
-  .ol-w-0:focus\@sm {
+  .otlw-0:focus\@sm {
     outline-width: 0;
   }
   
-  .ol-w-1:focus\@sm {
+  .otlw-1:focus\@sm {
     outline-width: 1px;
   }
   
-  .ol-w-2:focus\@sm {
+  .otlw-2:focus\@sm {
     outline-width: 2px;
   }
   
-  .ol-w-3:focus\@sm {
+  .otlw-3:focus\@sm {
     outline-width: 3px;
   }
   
-  .ol-w-0:active\@sm {
+  .otlw-0:active\@sm {
     outline-width: 0;
   }
   
-  .ol-w-1:active\@sm {
+  .otlw-1:active\@sm {
     outline-width: 1px;
   }
   
-  .ol-w-2:active\@sm {
+  .otlw-2:active\@sm {
     outline-width: 2px;
   }
   
-  .ol-w-3:active\@sm {
+  .otlw-3:active\@sm {
     outline-width: 3px;
   }
   .group:hover
-.ol-w-0\:group-hover\@sm {
+.otlw-0\:group-hover\@sm {
     outline-width: 0;
   }
   .group:hover
-.ol-w-1\:group-hover\@sm {
+.otlw-1\:group-hover\@sm {
     outline-width: 1px;
   }
   .group:hover
-.ol-w-2\:group-hover\@sm {
+.otlw-2\:group-hover\@sm {
     outline-width: 2px;
   }
   .group:hover
-.ol-w-3\:group-hover\@sm {
+.otlw-3\:group-hover\@sm {
     outline-width: 3px;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .ol-w-0\@md {
+  .otlw-0\@md {
     outline-width: 0;
   }
   
-  .ol-w-1\@md {
+  .otlw-1\@md {
     outline-width: 1px;
   }
   
-  .ol-w-2\@md {
+  .otlw-2\@md {
     outline-width: 2px;
   }
   
-  .ol-w-3\@md {
+  .otlw-3\@md {
     outline-width: 3px;
   }
   
-  .ol-w-0:hover\@md {
+  .otlw-0:hover\@md {
     outline-width: 0;
   }
   
-  .ol-w-1:hover\@md {
+  .otlw-1:hover\@md {
     outline-width: 1px;
   }
   
-  .ol-w-2:hover\@md {
+  .otlw-2:hover\@md {
     outline-width: 2px;
   }
   
-  .ol-w-3:hover\@md {
+  .otlw-3:hover\@md {
     outline-width: 3px;
   }
   
-  .ol-w-0:focus\@md {
+  .otlw-0:focus\@md {
     outline-width: 0;
   }
   
-  .ol-w-1:focus\@md {
+  .otlw-1:focus\@md {
     outline-width: 1px;
   }
   
-  .ol-w-2:focus\@md {
+  .otlw-2:focus\@md {
     outline-width: 2px;
   }
   
-  .ol-w-3:focus\@md {
+  .otlw-3:focus\@md {
     outline-width: 3px;
   }
   
-  .ol-w-0:active\@md {
+  .otlw-0:active\@md {
     outline-width: 0;
   }
   
-  .ol-w-1:active\@md {
+  .otlw-1:active\@md {
     outline-width: 1px;
   }
   
-  .ol-w-2:active\@md {
+  .otlw-2:active\@md {
     outline-width: 2px;
   }
   
-  .ol-w-3:active\@md {
+  .otlw-3:active\@md {
     outline-width: 3px;
   }
   .group:hover
-.ol-w-0\:group-hover\@md {
+.otlw-0\:group-hover\@md {
     outline-width: 0;
   }
   .group:hover
-.ol-w-1\:group-hover\@md {
+.otlw-1\:group-hover\@md {
     outline-width: 1px;
   }
   .group:hover
-.ol-w-2\:group-hover\@md {
+.otlw-2\:group-hover\@md {
     outline-width: 2px;
   }
   .group:hover
-.ol-w-3\:group-hover\@md {
+.otlw-3\:group-hover\@md {
     outline-width: 3px;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .ol-w-0\@lg {
+  .otlw-0\@lg {
     outline-width: 0;
   }
   
-  .ol-w-1\@lg {
+  .otlw-1\@lg {
     outline-width: 1px;
   }
   
-  .ol-w-2\@lg {
+  .otlw-2\@lg {
     outline-width: 2px;
   }
   
-  .ol-w-3\@lg {
+  .otlw-3\@lg {
     outline-width: 3px;
   }
   
-  .ol-w-0:hover\@lg {
+  .otlw-0:hover\@lg {
     outline-width: 0;
   }
   
-  .ol-w-1:hover\@lg {
+  .otlw-1:hover\@lg {
     outline-width: 1px;
   }
   
-  .ol-w-2:hover\@lg {
+  .otlw-2:hover\@lg {
     outline-width: 2px;
   }
   
-  .ol-w-3:hover\@lg {
+  .otlw-3:hover\@lg {
     outline-width: 3px;
   }
   
-  .ol-w-0:focus\@lg {
+  .otlw-0:focus\@lg {
     outline-width: 0;
   }
   
-  .ol-w-1:focus\@lg {
+  .otlw-1:focus\@lg {
     outline-width: 1px;
   }
   
-  .ol-w-2:focus\@lg {
+  .otlw-2:focus\@lg {
     outline-width: 2px;
   }
   
-  .ol-w-3:focus\@lg {
+  .otlw-3:focus\@lg {
     outline-width: 3px;
   }
   
-  .ol-w-0:active\@lg {
+  .otlw-0:active\@lg {
     outline-width: 0;
   }
   
-  .ol-w-1:active\@lg {
+  .otlw-1:active\@lg {
     outline-width: 1px;
   }
   
-  .ol-w-2:active\@lg {
+  .otlw-2:active\@lg {
     outline-width: 2px;
   }
   
-  .ol-w-3:active\@lg {
+  .otlw-3:active\@lg {
     outline-width: 3px;
   }
   .group:hover
-.ol-w-0\:group-hover\@lg {
+.otlw-0\:group-hover\@lg {
     outline-width: 0;
   }
   .group:hover
-.ol-w-1\:group-hover\@lg {
+.otlw-1\:group-hover\@lg {
     outline-width: 1px;
   }
   .group:hover
-.ol-w-2\:group-hover\@lg {
+.otlw-2\:group-hover\@lg {
     outline-width: 2px;
   }
   .group:hover
-.ol-w-3\:group-hover\@lg {
+.otlw-3\:group-hover\@lg {
     outline-width: 3px;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .ol-w-0\@xl {
+  .otlw-0\@xl {
     outline-width: 0;
   }
   
-  .ol-w-1\@xl {
+  .otlw-1\@xl {
     outline-width: 1px;
   }
   
-  .ol-w-2\@xl {
+  .otlw-2\@xl {
     outline-width: 2px;
   }
   
-  .ol-w-3\@xl {
+  .otlw-3\@xl {
     outline-width: 3px;
   }
   
-  .ol-w-0:hover\@xl {
+  .otlw-0:hover\@xl {
     outline-width: 0;
   }
   
-  .ol-w-1:hover\@xl {
+  .otlw-1:hover\@xl {
     outline-width: 1px;
   }
   
-  .ol-w-2:hover\@xl {
+  .otlw-2:hover\@xl {
     outline-width: 2px;
   }
   
-  .ol-w-3:hover\@xl {
+  .otlw-3:hover\@xl {
     outline-width: 3px;
   }
   
-  .ol-w-0:focus\@xl {
+  .otlw-0:focus\@xl {
     outline-width: 0;
   }
   
-  .ol-w-1:focus\@xl {
+  .otlw-1:focus\@xl {
     outline-width: 1px;
   }
   
-  .ol-w-2:focus\@xl {
+  .otlw-2:focus\@xl {
     outline-width: 2px;
   }
   
-  .ol-w-3:focus\@xl {
+  .otlw-3:focus\@xl {
     outline-width: 3px;
   }
   
-  .ol-w-0:active\@xl {
+  .otlw-0:active\@xl {
     outline-width: 0;
   }
   
-  .ol-w-1:active\@xl {
+  .otlw-1:active\@xl {
     outline-width: 1px;
   }
   
-  .ol-w-2:active\@xl {
+  .otlw-2:active\@xl {
     outline-width: 2px;
   }
   
-  .ol-w-3:active\@xl {
+  .otlw-3:active\@xl {
     outline-width: 3px;
   }
   .group:hover
-.ol-w-0\:group-hover\@xl {
+.otlw-0\:group-hover\@xl {
     outline-width: 0;
   }
   .group:hover
-.ol-w-1\:group-hover\@xl {
+.otlw-1\:group-hover\@xl {
     outline-width: 1px;
   }
   .group:hover
-.ol-w-2\:group-hover\@xl {
+.otlw-2\:group-hover\@xl {
     outline-width: 2px;
   }
   .group:hover
-.ol-w-3\:group-hover\@xl {
+.otlw-3\:group-hover\@xl {
     outline-width: 3px;
   }
 }
@@ -15862,231 +15862,231 @@
 }
 
 
-.of-hidden {
+.ofx-hidden {
   overflow: hidden;
 }
 
 
-.of-visible {
+.ofx-visible {
   overflow: visible;
 }
 
 
-.of-scroll {
+.ofx-scroll {
   overflow: scroll;
 }
 
 
-.of-auto {
+.ofx-auto {
   overflow: auto;
 }
 
 @media all and (min-width: 416px) {
   
-  .of-hidden\@xs {
+  .ofx-hidden\@xs {
     overflow: hidden;
   }
   
-  .of-visible\@xs {
+  .ofx-visible\@xs {
     overflow: visible;
   }
   
-  .of-scroll\@xs {
+  .ofx-scroll\@xs {
     overflow: scroll;
   }
   
-  .of-auto\@xs {
+  .ofx-auto\@xs {
     overflow: auto;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .of-hidden\@sm {
+  .ofx-hidden\@sm {
     overflow: hidden;
   }
   
-  .of-visible\@sm {
+  .ofx-visible\@sm {
     overflow: visible;
   }
   
-  .of-scroll\@sm {
+  .ofx-scroll\@sm {
     overflow: scroll;
   }
   
-  .of-auto\@sm {
+  .ofx-auto\@sm {
     overflow: auto;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .of-hidden\@md {
+  .ofx-hidden\@md {
     overflow: hidden;
   }
   
-  .of-visible\@md {
+  .ofx-visible\@md {
     overflow: visible;
   }
   
-  .of-scroll\@md {
+  .ofx-scroll\@md {
     overflow: scroll;
   }
   
-  .of-auto\@md {
+  .ofx-auto\@md {
     overflow: auto;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .of-hidden\@lg {
+  .ofx-hidden\@lg {
     overflow: hidden;
   }
   
-  .of-visible\@lg {
+  .ofx-visible\@lg {
     overflow: visible;
   }
   
-  .of-scroll\@lg {
+  .ofx-scroll\@lg {
     overflow: scroll;
   }
   
-  .of-auto\@lg {
+  .ofx-auto\@lg {
     overflow: auto;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .of-hidden\@xl {
+  .ofx-hidden\@xl {
     overflow: hidden;
   }
   
-  .of-visible\@xl {
+  .ofx-visible\@xl {
     overflow: visible;
   }
   
-  .of-scroll\@xl {
+  .ofx-scroll\@xl {
     overflow: scroll;
   }
   
-  .of-auto\@xl {
+  .ofx-auto\@xl {
     overflow: auto;
   }
 }
 
 
-.of-hidden {
+.ofy-hidden {
   overflow: hidden;
 }
 
 
-.of-visible {
+.ofy-visible {
   overflow: visible;
 }
 
 
-.of-scroll {
+.ofy-scroll {
   overflow: scroll;
 }
 
 
-.of-auto {
+.ofy-auto {
   overflow: auto;
 }
 
 @media all and (min-width: 416px) {
   
-  .of-hidden\@xs {
+  .ofy-hidden\@xs {
     overflow: hidden;
   }
   
-  .of-visible\@xs {
+  .ofy-visible\@xs {
     overflow: visible;
   }
   
-  .of-scroll\@xs {
+  .ofy-scroll\@xs {
     overflow: scroll;
   }
   
-  .of-auto\@xs {
+  .ofy-auto\@xs {
     overflow: auto;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .of-hidden\@sm {
+  .ofy-hidden\@sm {
     overflow: hidden;
   }
   
-  .of-visible\@sm {
+  .ofy-visible\@sm {
     overflow: visible;
   }
   
-  .of-scroll\@sm {
+  .ofy-scroll\@sm {
     overflow: scroll;
   }
   
-  .of-auto\@sm {
+  .ofy-auto\@sm {
     overflow: auto;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .of-hidden\@md {
+  .ofy-hidden\@md {
     overflow: hidden;
   }
   
-  .of-visible\@md {
+  .ofy-visible\@md {
     overflow: visible;
   }
   
-  .of-scroll\@md {
+  .ofy-scroll\@md {
     overflow: scroll;
   }
   
-  .of-auto\@md {
+  .ofy-auto\@md {
     overflow: auto;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .of-hidden\@lg {
+  .ofy-hidden\@lg {
     overflow: hidden;
   }
   
-  .of-visible\@lg {
+  .ofy-visible\@lg {
     overflow: visible;
   }
   
-  .of-scroll\@lg {
+  .ofy-scroll\@lg {
     overflow: scroll;
   }
   
-  .of-auto\@lg {
+  .ofy-auto\@lg {
     overflow: auto;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .of-hidden\@xl {
+  .ofy-hidden\@xl {
     overflow: hidden;
   }
   
-  .of-visible\@xl {
+  .ofy-visible\@xl {
     overflow: visible;
   }
   
-  .of-scroll\@xl {
+  .ofy-scroll\@xl {
     overflow: scroll;
   }
   
-  .of-auto\@xl {
+  .ofy-auto\@xl {
     overflow: auto;
   }
 }
@@ -17327,116 +17327,116 @@
 }
 
 
-.rze-none {
+.resize-none {
   resize: none;
 }
 
 
-.rze-y {
+.resize-y {
   resize: vertical;
 }
 
 
-.rze-x {
+.resize-x {
   resize: horizontal;
 }
 
 
-.rze {
+.resize {
   resize: both;
 }
 
 @media all and (min-width: 416px) {
   
-  .rze-none\@xs {
+  .resize-none\@xs {
     resize: none;
   }
   
-  .rze-y\@xs {
+  .resize-y\@xs {
     resize: vertical;
   }
   
-  .rze-x\@xs {
+  .resize-x\@xs {
     resize: horizontal;
   }
   
-  .rze\@xs {
+  .resize\@xs {
     resize: both;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .rze-none\@sm {
+  .resize-none\@sm {
     resize: none;
   }
   
-  .rze-y\@sm {
+  .resize-y\@sm {
     resize: vertical;
   }
   
-  .rze-x\@sm {
+  .resize-x\@sm {
     resize: horizontal;
   }
   
-  .rze\@sm {
+  .resize\@sm {
     resize: both;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .rze-none\@md {
+  .resize-none\@md {
     resize: none;
   }
   
-  .rze-y\@md {
+  .resize-y\@md {
     resize: vertical;
   }
   
-  .rze-x\@md {
+  .resize-x\@md {
     resize: horizontal;
   }
   
-  .rze\@md {
+  .resize\@md {
     resize: both;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .rze-none\@lg {
+  .resize-none\@lg {
     resize: none;
   }
   
-  .rze-y\@lg {
+  .resize-y\@lg {
     resize: vertical;
   }
   
-  .rze-x\@lg {
+  .resize-x\@lg {
     resize: horizontal;
   }
   
-  .rze\@lg {
+  .resize\@lg {
     resize: both;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .rze-none\@xl {
+  .resize-none\@xl {
     resize: none;
   }
   
-  .rze-y\@xl {
+  .resize-y\@xl {
     resize: vertical;
   }
   
-  .rze-x\@xl {
+  .resize-x\@xl {
     resize: horizontal;
   }
   
-  .rze\@xl {
+  .resize\@xl {
     resize: both;
   }
 }
@@ -17790,66 +17790,66 @@
 }
 
 
-.tbl-layout-auto {
+.tbllay-auto {
   table-layout: auto;
 }
 
 
-.tbl-layout-fixed {
+.tbllay-fixed {
   table-layout: fixed;
 }
 
 @media all and (min-width: 416px) {
   
-  .tbl-layout-auto\@xs {
+  .tbllay-auto\@xs {
     table-layout: auto;
   }
   
-  .tbl-layout-fixed\@xs {
+  .tbllay-fixed\@xs {
     table-layout: fixed;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .tbl-layout-auto\@sm {
+  .tbllay-auto\@sm {
     table-layout: auto;
   }
   
-  .tbl-layout-fixed\@sm {
+  .tbllay-fixed\@sm {
     table-layout: fixed;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .tbl-layout-auto\@md {
+  .tbllay-auto\@md {
     table-layout: auto;
   }
   
-  .tbl-layout-fixed\@md {
+  .tbllay-fixed\@md {
     table-layout: fixed;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .tbl-layout-auto\@lg {
+  .tbllay-auto\@lg {
     table-layout: auto;
   }
   
-  .tbl-layout-fixed\@lg {
+  .tbllay-fixed\@lg {
     table-layout: fixed;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .tbl-layout-auto\@xl {
+  .tbllay-auto\@xl {
     table-layout: auto;
   }
   
-  .tbl-layout-fixed\@xl {
+  .tbllay-fixed\@xl {
     table-layout: fixed;
   }
 }
@@ -18703,931 +18703,931 @@
 }
 
 
-.to-center {
+.tfo-center {
   transform-origin: center;
 }
 
 
-.to-tl {
+.tfo-tl {
   transform-origin: left top;
 }
 
 
-.to-tr {
+.tfo-tr {
   transform-origin: right top;
 }
 
 
-.to-bl {
+.tfo-bl {
   transform-origin: left bottom;
 }
 
 
-.to-br {
+.tfo-br {
   transform-origin: right bottom;
 }
 
 
-.to-cl {
+.tfo-cl {
   transform-origin: left center;
 }
 
 
-.to-cr {
+.tfo-cr {
   transform-origin: right center;
 }
 
 
-.to-ct {
+.tfo-ct {
   transform-origin: center top;
 }
 
 
-.to-cb {
+.tfo-cb {
   transform-origin: center bottom;
 }
 
 @media all and (min-width: 416px) {
   
-  .to-center\@xs {
+  .tfo-center\@xs {
     transform-origin: center;
   }
   
-  .to-tl\@xs {
+  .tfo-tl\@xs {
     transform-origin: left top;
   }
   
-  .to-tr\@xs {
+  .tfo-tr\@xs {
     transform-origin: right top;
   }
   
-  .to-bl\@xs {
+  .tfo-bl\@xs {
     transform-origin: left bottom;
   }
   
-  .to-br\@xs {
+  .tfo-br\@xs {
     transform-origin: right bottom;
   }
   
-  .to-cl\@xs {
+  .tfo-cl\@xs {
     transform-origin: left center;
   }
   
-  .to-cr\@xs {
+  .tfo-cr\@xs {
     transform-origin: right center;
   }
   
-  .to-ct\@xs {
+  .tfo-ct\@xs {
     transform-origin: center top;
   }
   
-  .to-cb\@xs {
+  .tfo-cb\@xs {
     transform-origin: center bottom;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .to-center\@sm {
+  .tfo-center\@sm {
     transform-origin: center;
   }
   
-  .to-tl\@sm {
+  .tfo-tl\@sm {
     transform-origin: left top;
   }
   
-  .to-tr\@sm {
+  .tfo-tr\@sm {
     transform-origin: right top;
   }
   
-  .to-bl\@sm {
+  .tfo-bl\@sm {
     transform-origin: left bottom;
   }
   
-  .to-br\@sm {
+  .tfo-br\@sm {
     transform-origin: right bottom;
   }
   
-  .to-cl\@sm {
+  .tfo-cl\@sm {
     transform-origin: left center;
   }
   
-  .to-cr\@sm {
+  .tfo-cr\@sm {
     transform-origin: right center;
   }
   
-  .to-ct\@sm {
+  .tfo-ct\@sm {
     transform-origin: center top;
   }
   
-  .to-cb\@sm {
+  .tfo-cb\@sm {
     transform-origin: center bottom;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .to-center\@md {
+  .tfo-center\@md {
     transform-origin: center;
   }
   
-  .to-tl\@md {
+  .tfo-tl\@md {
     transform-origin: left top;
   }
   
-  .to-tr\@md {
+  .tfo-tr\@md {
     transform-origin: right top;
   }
   
-  .to-bl\@md {
+  .tfo-bl\@md {
     transform-origin: left bottom;
   }
   
-  .to-br\@md {
+  .tfo-br\@md {
     transform-origin: right bottom;
   }
   
-  .to-cl\@md {
+  .tfo-cl\@md {
     transform-origin: left center;
   }
   
-  .to-cr\@md {
+  .tfo-cr\@md {
     transform-origin: right center;
   }
   
-  .to-ct\@md {
+  .tfo-ct\@md {
     transform-origin: center top;
   }
   
-  .to-cb\@md {
+  .tfo-cb\@md {
     transform-origin: center bottom;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .to-center\@lg {
+  .tfo-center\@lg {
     transform-origin: center;
   }
   
-  .to-tl\@lg {
+  .tfo-tl\@lg {
     transform-origin: left top;
   }
   
-  .to-tr\@lg {
+  .tfo-tr\@lg {
     transform-origin: right top;
   }
   
-  .to-bl\@lg {
+  .tfo-bl\@lg {
     transform-origin: left bottom;
   }
   
-  .to-br\@lg {
+  .tfo-br\@lg {
     transform-origin: right bottom;
   }
   
-  .to-cl\@lg {
+  .tfo-cl\@lg {
     transform-origin: left center;
   }
   
-  .to-cr\@lg {
+  .tfo-cr\@lg {
     transform-origin: right center;
   }
   
-  .to-ct\@lg {
+  .tfo-ct\@lg {
     transform-origin: center top;
   }
   
-  .to-cb\@lg {
+  .tfo-cb\@lg {
     transform-origin: center bottom;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .to-center\@xl {
+  .tfo-center\@xl {
     transform-origin: center;
   }
   
-  .to-tl\@xl {
+  .tfo-tl\@xl {
     transform-origin: left top;
   }
   
-  .to-tr\@xl {
+  .tfo-tr\@xl {
     transform-origin: right top;
   }
   
-  .to-bl\@xl {
+  .tfo-bl\@xl {
     transform-origin: left bottom;
   }
   
-  .to-br\@xl {
+  .tfo-br\@xl {
     transform-origin: right bottom;
   }
   
-  .to-cl\@xl {
+  .tfo-cl\@xl {
     transform-origin: left center;
   }
   
-  .to-cr\@xl {
+  .tfo-cr\@xl {
     transform-origin: right center;
   }
   
-  .to-ct\@xl {
+  .tfo-ct\@xl {
     transform-origin: center top;
   }
   
-  .to-cb\@xl {
+  .tfo-cb\@xl {
     transform-origin: center bottom;
   }
 }
 
 
-.ts-flat {
+.tfs-flat {
   transform-style: flat;
 }
 
 
-.ts-3d {
+.tfs-3d {
   transform-style: preserve-3d;
 }
 
 @media all and (min-width: 416px) {
   
-  .ts-flat\@xs {
+  .tfs-flat\@xs {
     transform-style: flat;
   }
   
-  .ts-3d\@xs {
+  .tfs-3d\@xs {
     transform-style: preserve-3d;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .ts-flat\@sm {
+  .tfs-flat\@sm {
     transform-style: flat;
   }
   
-  .ts-3d\@sm {
+  .tfs-3d\@sm {
     transform-style: preserve-3d;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .ts-flat\@md {
+  .tfs-flat\@md {
     transform-style: flat;
   }
   
-  .ts-3d\@md {
+  .tfs-3d\@md {
     transform-style: preserve-3d;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .ts-flat\@lg {
+  .tfs-flat\@lg {
     transform-style: flat;
   }
   
-  .ts-3d\@lg {
+  .tfs-3d\@lg {
     transform-style: preserve-3d;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .ts-flat\@xl {
+  .tfs-flat\@xl {
     transform-style: flat;
   }
   
-  .ts-3d\@xl {
+  .tfs-3d\@xl {
     transform-style: preserve-3d;
   }
 }
 
 
-.t-scale-1\.1 {
+.tf-scale-1\.1 {
   transform: scale(1.1);
 }
 
 
-.t-scale-1\.2 {
+.tf-scale-1\.2 {
   transform: scale(1.2);
 }
 
 
-.t-scale-2 {
+.tf-scale-2 {
   transform: scale(2);
 }
 
 
-.-t-xy-50\% {
+.-tf-xy-50\% {
   transform: translate(-50%, -50%);
 }
 
 @media all and (min-width: 416px) {
   
-  .t-scale-1\.1\@xs {
+  .tf-scale-1\.1\@xs {
     transform: scale(1.1);
   }
   
-  .t-scale-1\.2\@xs {
+  .tf-scale-1\.2\@xs {
     transform: scale(1.2);
   }
   
-  .t-scale-2\@xs {
+  .tf-scale-2\@xs {
     transform: scale(2);
   }
   
-  .-t-xy-50\%\@xs {
+  .-tf-xy-50\%\@xs {
     transform: translate(-50%, -50%);
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .t-scale-1\.1\@sm {
+  .tf-scale-1\.1\@sm {
     transform: scale(1.1);
   }
   
-  .t-scale-1\.2\@sm {
+  .tf-scale-1\.2\@sm {
     transform: scale(1.2);
   }
   
-  .t-scale-2\@sm {
+  .tf-scale-2\@sm {
     transform: scale(2);
   }
   
-  .-t-xy-50\%\@sm {
+  .-tf-xy-50\%\@sm {
     transform: translate(-50%, -50%);
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .t-scale-1\.1\@md {
+  .tf-scale-1\.1\@md {
     transform: scale(1.1);
   }
   
-  .t-scale-1\.2\@md {
+  .tf-scale-1\.2\@md {
     transform: scale(1.2);
   }
   
-  .t-scale-2\@md {
+  .tf-scale-2\@md {
     transform: scale(2);
   }
   
-  .-t-xy-50\%\@md {
+  .-tf-xy-50\%\@md {
     transform: translate(-50%, -50%);
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .t-scale-1\.1\@lg {
+  .tf-scale-1\.1\@lg {
     transform: scale(1.1);
   }
   
-  .t-scale-1\.2\@lg {
+  .tf-scale-1\.2\@lg {
     transform: scale(1.2);
   }
   
-  .t-scale-2\@lg {
+  .tf-scale-2\@lg {
     transform: scale(2);
   }
   
-  .-t-xy-50\%\@lg {
+  .-tf-xy-50\%\@lg {
     transform: translate(-50%, -50%);
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .t-scale-1\.1\@xl {
+  .tf-scale-1\.1\@xl {
     transform: scale(1.1);
   }
   
-  .t-scale-1\.2\@xl {
+  .tf-scale-1\.2\@xl {
     transform: scale(1.2);
   }
   
-  .t-scale-2\@xl {
+  .tf-scale-2\@xl {
     transform: scale(2);
   }
   
-  .-t-xy-50\%\@xl {
+  .-tf-xy-50\%\@xl {
     transform: translate(-50%, -50%);
   }
 }
 
 
-.tr-delay-200 {
+.tsdelay-200 {
   transition-delay: 200ms;
 }
 
 
-.tr-delay-300 {
+.tsdelay-300 {
   transition-delay: 300ms;
 }
 
 @media all and (min-width: 416px) {
   
-  .tr-delay-200\@xs {
+  .tsdelay-200\@xs {
     transition-delay: 200ms;
   }
   
-  .tr-delay-300\@xs {
+  .tsdelay-300\@xs {
     transition-delay: 300ms;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .tr-delay-200\@sm {
+  .tsdelay-200\@sm {
     transition-delay: 200ms;
   }
   
-  .tr-delay-300\@sm {
+  .tsdelay-300\@sm {
     transition-delay: 300ms;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .tr-delay-200\@md {
+  .tsdelay-200\@md {
     transition-delay: 200ms;
   }
   
-  .tr-delay-300\@md {
+  .tsdelay-300\@md {
     transition-delay: 300ms;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .tr-delay-200\@lg {
+  .tsdelay-200\@lg {
     transition-delay: 200ms;
   }
   
-  .tr-delay-300\@lg {
+  .tsdelay-300\@lg {
     transition-delay: 300ms;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .tr-delay-200\@xl {
+  .tsdelay-200\@xl {
     transition-delay: 200ms;
   }
   
-  .tr-delay-300\@xl {
+  .tsdelay-300\@xl {
     transition-delay: 300ms;
   }
 }
 
 
-.tr-dur-200 {
+.tsd-200 {
   transition-duration: 200ms;
 }
 
 
-.tr-dur-300 {
+.tsd-300 {
   transition-duration: 300ms;
 }
 
 @media all and (min-width: 416px) {
   
-  .tr-dur-200\@xs {
+  .tsd-200\@xs {
     transition-duration: 200ms;
   }
   
-  .tr-dur-300\@xs {
+  .tsd-300\@xs {
     transition-duration: 300ms;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .tr-dur-200\@sm {
+  .tsd-200\@sm {
     transition-duration: 200ms;
   }
   
-  .tr-dur-300\@sm {
+  .tsd-300\@sm {
     transition-duration: 300ms;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .tr-dur-200\@md {
+  .tsd-200\@md {
     transition-duration: 200ms;
   }
   
-  .tr-dur-300\@md {
+  .tsd-300\@md {
     transition-duration: 300ms;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .tr-dur-200\@lg {
+  .tsd-200\@lg {
     transition-duration: 200ms;
   }
   
-  .tr-dur-300\@lg {
+  .tsd-300\@lg {
     transition-duration: 300ms;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .tr-dur-200\@xl {
+  .tsd-200\@xl {
     transition-duration: 200ms;
   }
   
-  .tr-dur-300\@xl {
+  .tsd-300\@xl {
     transition-duration: 300ms;
   }
 }
 
 
-.tr-prop-c {
+.tsp-c {
   transition-property: color;
 }
 
 
-.tr-prop-bg {
+.tsp-bg {
   transition-property: background-color;
 }
 
 
-.tr-prop-bc {
+.tsp-bc {
   transition-property: border-color;
 }
 
 
-.tr-prop-colors {
+.tsp-colors {
   transition-property: color, background-color, border-color;
 }
 
 
-.tr-prop-o {
+.tsp-o {
   transition-property: opacity;
 }
 
 
-.tr-prop-t {
+.tsp-t {
   transition-property: transform;
 }
 
 
-.tr-prop-ot {
+.tsp-ot {
   transition-property: opacity, transform;
 }
 
 
-.tr-prop-all {
+.tsp-all {
   transition-property: all;
 }
 
 
-.tr-prop-otc {
+.tsp-otc {
   transition-property: opacity, transform, color, background-color, border-color;
 }
 
 @media all and (min-width: 416px) {
   
-  .tr-prop-c\@xs {
+  .tsp-c\@xs {
     transition-property: color;
   }
   
-  .tr-prop-bg\@xs {
+  .tsp-bg\@xs {
     transition-property: background-color;
   }
   
-  .tr-prop-bc\@xs {
+  .tsp-bc\@xs {
     transition-property: border-color;
   }
   
-  .tr-prop-colors\@xs {
+  .tsp-colors\@xs {
     transition-property: color, background-color, border-color;
   }
   
-  .tr-prop-o\@xs {
+  .tsp-o\@xs {
     transition-property: opacity;
   }
   
-  .tr-prop-t\@xs {
+  .tsp-t\@xs {
     transition-property: transform;
   }
   
-  .tr-prop-ot\@xs {
+  .tsp-ot\@xs {
     transition-property: opacity, transform;
   }
   
-  .tr-prop-all\@xs {
+  .tsp-all\@xs {
     transition-property: all;
   }
   
-  .tr-prop-otc\@xs {
+  .tsp-otc\@xs {
     transition-property: opacity, transform, color, background-color, border-color;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .tr-prop-c\@sm {
+  .tsp-c\@sm {
     transition-property: color;
   }
   
-  .tr-prop-bg\@sm {
+  .tsp-bg\@sm {
     transition-property: background-color;
   }
   
-  .tr-prop-bc\@sm {
+  .tsp-bc\@sm {
     transition-property: border-color;
   }
   
-  .tr-prop-colors\@sm {
+  .tsp-colors\@sm {
     transition-property: color, background-color, border-color;
   }
   
-  .tr-prop-o\@sm {
+  .tsp-o\@sm {
     transition-property: opacity;
   }
   
-  .tr-prop-t\@sm {
+  .tsp-t\@sm {
     transition-property: transform;
   }
   
-  .tr-prop-ot\@sm {
+  .tsp-ot\@sm {
     transition-property: opacity, transform;
   }
   
-  .tr-prop-all\@sm {
+  .tsp-all\@sm {
     transition-property: all;
   }
   
-  .tr-prop-otc\@sm {
+  .tsp-otc\@sm {
     transition-property: opacity, transform, color, background-color, border-color;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .tr-prop-c\@md {
+  .tsp-c\@md {
     transition-property: color;
   }
   
-  .tr-prop-bg\@md {
+  .tsp-bg\@md {
     transition-property: background-color;
   }
   
-  .tr-prop-bc\@md {
+  .tsp-bc\@md {
     transition-property: border-color;
   }
   
-  .tr-prop-colors\@md {
+  .tsp-colors\@md {
     transition-property: color, background-color, border-color;
   }
   
-  .tr-prop-o\@md {
+  .tsp-o\@md {
     transition-property: opacity;
   }
   
-  .tr-prop-t\@md {
+  .tsp-t\@md {
     transition-property: transform;
   }
   
-  .tr-prop-ot\@md {
+  .tsp-ot\@md {
     transition-property: opacity, transform;
   }
   
-  .tr-prop-all\@md {
+  .tsp-all\@md {
     transition-property: all;
   }
   
-  .tr-prop-otc\@md {
+  .tsp-otc\@md {
     transition-property: opacity, transform, color, background-color, border-color;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .tr-prop-c\@lg {
+  .tsp-c\@lg {
     transition-property: color;
   }
   
-  .tr-prop-bg\@lg {
+  .tsp-bg\@lg {
     transition-property: background-color;
   }
   
-  .tr-prop-bc\@lg {
+  .tsp-bc\@lg {
     transition-property: border-color;
   }
   
-  .tr-prop-colors\@lg {
+  .tsp-colors\@lg {
     transition-property: color, background-color, border-color;
   }
   
-  .tr-prop-o\@lg {
+  .tsp-o\@lg {
     transition-property: opacity;
   }
   
-  .tr-prop-t\@lg {
+  .tsp-t\@lg {
     transition-property: transform;
   }
   
-  .tr-prop-ot\@lg {
+  .tsp-ot\@lg {
     transition-property: opacity, transform;
   }
   
-  .tr-prop-all\@lg {
+  .tsp-all\@lg {
     transition-property: all;
   }
   
-  .tr-prop-otc\@lg {
+  .tsp-otc\@lg {
     transition-property: opacity, transform, color, background-color, border-color;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .tr-prop-c\@xl {
+  .tsp-c\@xl {
     transition-property: color;
   }
   
-  .tr-prop-bg\@xl {
+  .tsp-bg\@xl {
     transition-property: background-color;
   }
   
-  .tr-prop-bc\@xl {
+  .tsp-bc\@xl {
     transition-property: border-color;
   }
   
-  .tr-prop-colors\@xl {
+  .tsp-colors\@xl {
     transition-property: color, background-color, border-color;
   }
   
-  .tr-prop-o\@xl {
+  .tsp-o\@xl {
     transition-property: opacity;
   }
   
-  .tr-prop-t\@xl {
+  .tsp-t\@xl {
     transition-property: transform;
   }
   
-  .tr-prop-ot\@xl {
+  .tsp-ot\@xl {
     transition-property: opacity, transform;
   }
   
-  .tr-prop-all\@xl {
+  .tsp-all\@xl {
     transition-property: all;
   }
   
-  .tr-prop-otc\@xl {
+  .tsp-otc\@xl {
     transition-property: opacity, transform, color, background-color, border-color;
   }
 }
 
 
-.tr-easing-ease {
+.tstf-ease {
   transition-timing-function: ease;
 }
 
 
-.tr-easing-in {
+.tstf-in {
   transition-timing-function: ease-in;
 }
 
 
-.tr-easing-out {
+.tstf-out {
   transition-timing-function: ease-out;
 }
 
 
-.tr-easing-in-out {
+.tstf-in-out {
   transition-timing-function: ease-in-out;
 }
 
 
-.tr-easing-linear {
+.tstf-linear {
   transition-timing-function: linear;
 }
 
 @media all and (min-width: 416px) {
   
-  .tr-easing-ease\@xs {
+  .tstf-ease\@xs {
     transition-timing-function: ease;
   }
   
-  .tr-easing-in\@xs {
+  .tstf-in\@xs {
     transition-timing-function: ease-in;
   }
   
-  .tr-easing-out\@xs {
+  .tstf-out\@xs {
     transition-timing-function: ease-out;
   }
   
-  .tr-easing-in-out\@xs {
+  .tstf-in-out\@xs {
     transition-timing-function: ease-in-out;
   }
   
-  .tr-easing-linear\@xs {
+  .tstf-linear\@xs {
     transition-timing-function: linear;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .tr-easing-ease\@sm {
+  .tstf-ease\@sm {
     transition-timing-function: ease;
   }
   
-  .tr-easing-in\@sm {
+  .tstf-in\@sm {
     transition-timing-function: ease-in;
   }
   
-  .tr-easing-out\@sm {
+  .tstf-out\@sm {
     transition-timing-function: ease-out;
   }
   
-  .tr-easing-in-out\@sm {
+  .tstf-in-out\@sm {
     transition-timing-function: ease-in-out;
   }
   
-  .tr-easing-linear\@sm {
+  .tstf-linear\@sm {
     transition-timing-function: linear;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .tr-easing-ease\@md {
+  .tstf-ease\@md {
     transition-timing-function: ease;
   }
   
-  .tr-easing-in\@md {
+  .tstf-in\@md {
     transition-timing-function: ease-in;
   }
   
-  .tr-easing-out\@md {
+  .tstf-out\@md {
     transition-timing-function: ease-out;
   }
   
-  .tr-easing-in-out\@md {
+  .tstf-in-out\@md {
     transition-timing-function: ease-in-out;
   }
   
-  .tr-easing-linear\@md {
+  .tstf-linear\@md {
     transition-timing-function: linear;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .tr-easing-ease\@lg {
+  .tstf-ease\@lg {
     transition-timing-function: ease;
   }
   
-  .tr-easing-in\@lg {
+  .tstf-in\@lg {
     transition-timing-function: ease-in;
   }
   
-  .tr-easing-out\@lg {
+  .tstf-out\@lg {
     transition-timing-function: ease-out;
   }
   
-  .tr-easing-in-out\@lg {
+  .tstf-in-out\@lg {
     transition-timing-function: ease-in-out;
   }
   
-  .tr-easing-linear\@lg {
+  .tstf-linear\@lg {
     transition-timing-function: linear;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .tr-easing-ease\@xl {
+  .tstf-ease\@xl {
     transition-timing-function: ease;
   }
   
-  .tr-easing-in\@xl {
+  .tstf-in\@xl {
     transition-timing-function: ease-in;
   }
   
-  .tr-easing-out\@xl {
+  .tstf-out\@xl {
     transition-timing-function: ease-out;
   }
   
-  .tr-easing-in-out\@xl {
+  .tstf-in-out\@xl {
     transition-timing-function: ease-in-out;
   }
   
-  .tr-easing-linear\@xl {
+  .tstf-linear\@xl {
     transition-timing-function: linear;
   }
 }

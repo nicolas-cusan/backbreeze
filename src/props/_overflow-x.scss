@@ -4,15 +4,13 @@
 
 /// ## Values
 
-$bb-overflow-values: $bb-overflow !default;
+$bb-overflow-x-values: $bb-overflow !default;
 
 /// ## Config
 
-$bb-overflow-config: (
+$bb-overflow-x-config: (
   'name': 'ofx',
   'prop': 'overflow',
   'bps': $bb-bps,
-  'values': $bb-overflow-values
+  'values': $bb-overflow-x-values
 ) !default;
-
-

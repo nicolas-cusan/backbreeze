@@ -4,15 +4,13 @@
 
 /// ## Values
 
-$bb-overflow-values: $bb-overflow !default;
+$bb-overflow-y-values: $bb-overflow !default;
 
 /// ## Config
 
-$bb-overflow-config: (
+$bb-overflow-y-config: (
   'name': 'ofy',
   'prop': 'overflow',
   'bps': $bb-bps,
-  'values': $bb-overflow-values
+  'values': $bb-overflow-y-values
 ) !default;
-
-
