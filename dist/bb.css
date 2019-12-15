@@ -1589,33 +1589,33 @@
 }
 
 
-.brc-t-white {
+.brct-white {
   border-top-color: #fff;
 }
 
 
-.brc-l-white {
+.brcl-white {
   border-left-color: #fff;
 }
 
 
-.brc-r-white {
+.brcr-white {
   border-right-color: #fff;
 }
 
 
-.brc-b-white {
+.brcb-white {
   border-bottom-color: #fff;
 }
 
 
-.brc-x-white {
+.brcx-white {
   border-left-color: #fff;
   border-right-color: #fff;
 }
 
 
-.brc-y-white {
+.brcy-white {
   border-top-color: #fff;
   border-bottom-color: #fff;
 }
@@ -1626,33 +1626,33 @@
 }
 
 
-.brc-t-black {
+.brct-black {
   border-top-color: #000;
 }
 
 
-.brc-l-black {
+.brcl-black {
   border-left-color: #000;
 }
 
 
-.brc-r-black {
+.brcr-black {
   border-right-color: #000;
 }
 
 
-.brc-b-black {
+.brcb-black {
   border-bottom-color: #000;
 }
 
 
-.brc-x-black {
+.brcx-black {
   border-left-color: #000;
   border-right-color: #000;
 }
 
 
-.brc-y-black {
+.brcy-black {
   border-top-color: #000;
   border-bottom-color: #000;
 }
@@ -1663,28 +1663,28 @@
     border-color: #fff;
   }
   
-  .brc-t-white\@xs {
+  .brct-white\@xs {
     border-top-color: #fff;
   }
   
-  .brc-l-white\@xs {
+  .brcl-white\@xs {
     border-left-color: #fff;
   }
   
-  .brc-r-white\@xs {
+  .brcr-white\@xs {
     border-right-color: #fff;
   }
   
-  .brc-b-white\@xs {
+  .brcb-white\@xs {
     border-bottom-color: #fff;
   }
   
-  .brc-x-white\@xs {
+  .brcx-white\@xs {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .brc-y-white\@xs {
+  .brcy-white\@xs {
     border-top-color: #fff;
     border-bottom-color: #fff;
   }
@@ -1693,28 +1693,28 @@
     border-color: #000;
   }
   
-  .brc-t-black\@xs {
+  .brct-black\@xs {
     border-top-color: #000;
   }
   
-  .brc-l-black\@xs {
+  .brcl-black\@xs {
     border-left-color: #000;
   }
   
-  .brc-r-black\@xs {
+  .brcr-black\@xs {
     border-right-color: #000;
   }
   
-  .brc-b-black\@xs {
+  .brcb-black\@xs {
     border-bottom-color: #000;
   }
   
-  .brc-x-black\@xs {
+  .brcx-black\@xs {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .brc-y-black\@xs {
+  .brcy-black\@xs {
     border-top-color: #000;
     border-bottom-color: #000;
   }
@@ -1726,28 +1726,28 @@
     border-color: #fff;
   }
   
-  .brc-t-white\@sm {
+  .brct-white\@sm {
     border-top-color: #fff;
   }
   
-  .brc-l-white\@sm {
+  .brcl-white\@sm {
     border-left-color: #fff;
   }
   
-  .brc-r-white\@sm {
+  .brcr-white\@sm {
     border-right-color: #fff;
   }
   
-  .brc-b-white\@sm {
+  .brcb-white\@sm {
     border-bottom-color: #fff;
   }
   
-  .brc-x-white\@sm {
+  .brcx-white\@sm {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .brc-y-white\@sm {
+  .brcy-white\@sm {
     border-top-color: #fff;
     border-bottom-color: #fff;
   }
@@ -1756,28 +1756,28 @@
     border-color: #000;
   }
   
-  .brc-t-black\@sm {
+  .brct-black\@sm {
     border-top-color: #000;
   }
   
-  .brc-l-black\@sm {
+  .brcl-black\@sm {
     border-left-color: #000;
   }
   
-  .brc-r-black\@sm {
+  .brcr-black\@sm {
     border-right-color: #000;
   }
   
-  .brc-b-black\@sm {
+  .brcb-black\@sm {
     border-bottom-color: #000;
   }
   
-  .brc-x-black\@sm {
+  .brcx-black\@sm {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .brc-y-black\@sm {
+  .brcy-black\@sm {
     border-top-color: #000;
     border-bottom-color: #000;
   }
@@ -1789,28 +1789,28 @@
     border-color: #fff;
   }
   
-  .brc-t-white\@md {
+  .brct-white\@md {
     border-top-color: #fff;
   }
   
-  .brc-l-white\@md {
+  .brcl-white\@md {
     border-left-color: #fff;
   }
   
-  .brc-r-white\@md {
+  .brcr-white\@md {
     border-right-color: #fff;
   }
   
-  .brc-b-white\@md {
+  .brcb-white\@md {
     border-bottom-color: #fff;
   }
   
-  .brc-x-white\@md {
+  .brcx-white\@md {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .brc-y-white\@md {
+  .brcy-white\@md {
     border-top-color: #fff;
     border-bottom-color: #fff;
   }
@@ -1819,28 +1819,28 @@
     border-color: #000;
   }
   
-  .brc-t-black\@md {
+  .brct-black\@md {
     border-top-color: #000;
   }
   
-  .brc-l-black\@md {
+  .brcl-black\@md {
     border-left-color: #000;
   }
   
-  .brc-r-black\@md {
+  .brcr-black\@md {
     border-right-color: #000;
   }
   
-  .brc-b-black\@md {
+  .brcb-black\@md {
     border-bottom-color: #000;
   }
   
-  .brc-x-black\@md {
+  .brcx-black\@md {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .brc-y-black\@md {
+  .brcy-black\@md {
     border-top-color: #000;
     border-bottom-color: #000;
   }
@@ -1852,28 +1852,28 @@
     border-color: #fff;
   }
   
-  .brc-t-white\@lg {
+  .brct-white\@lg {
     border-top-color: #fff;
   }
   
-  .brc-l-white\@lg {
+  .brcl-white\@lg {
     border-left-color: #fff;
   }
   
-  .brc-r-white\@lg {
+  .brcr-white\@lg {
     border-right-color: #fff;
   }
   
-  .brc-b-white\@lg {
+  .brcb-white\@lg {
     border-bottom-color: #fff;
   }
   
-  .brc-x-white\@lg {
+  .brcx-white\@lg {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .brc-y-white\@lg {
+  .brcy-white\@lg {
     border-top-color: #fff;
     border-bottom-color: #fff;
   }
@@ -1882,28 +1882,28 @@
     border-color: #000;
   }
   
-  .brc-t-black\@lg {
+  .brct-black\@lg {
     border-top-color: #000;
   }
   
-  .brc-l-black\@lg {
+  .brcl-black\@lg {
     border-left-color: #000;
   }
   
-  .brc-r-black\@lg {
+  .brcr-black\@lg {
     border-right-color: #000;
   }
   
-  .brc-b-black\@lg {
+  .brcb-black\@lg {
     border-bottom-color: #000;
   }
   
-  .brc-x-black\@lg {
+  .brcx-black\@lg {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .brc-y-black\@lg {
+  .brcy-black\@lg {
     border-top-color: #000;
     border-bottom-color: #000;
   }
@@ -1915,28 +1915,28 @@
     border-color: #fff;
   }
   
-  .brc-t-white\@xl {
+  .brct-white\@xl {
     border-top-color: #fff;
   }
   
-  .brc-l-white\@xl {
+  .brcl-white\@xl {
     border-left-color: #fff;
   }
   
-  .brc-r-white\@xl {
+  .brcr-white\@xl {
     border-right-color: #fff;
   }
   
-  .brc-b-white\@xl {
+  .brcb-white\@xl {
     border-bottom-color: #fff;
   }
   
-  .brc-x-white\@xl {
+  .brcx-white\@xl {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .brc-y-white\@xl {
+  .brcy-white\@xl {
     border-top-color: #fff;
     border-bottom-color: #fff;
   }
@@ -1945,28 +1945,28 @@
     border-color: #000;
   }
   
-  .brc-t-black\@xl {
+  .brct-black\@xl {
     border-top-color: #000;
   }
   
-  .brc-l-black\@xl {
+  .brcl-black\@xl {
     border-left-color: #000;
   }
   
-  .brc-r-black\@xl {
+  .brcr-black\@xl {
     border-right-color: #000;
   }
   
-  .brc-b-black\@xl {
+  .brcb-black\@xl {
     border-bottom-color: #000;
   }
   
-  .brc-x-black\@xl {
+  .brcx-black\@xl {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .brc-y-black\@xl {
+  .brcy-black\@xl {
     border-top-color: #000;
     border-bottom-color: #000;
   }
@@ -1978,33 +1978,33 @@
 }
 
 
-.brs-t-dotted {
+.brst-dotted {
   border-top-style: dotted;
 }
 
 
-.brs-l-dotted {
+.brsl-dotted {
   border-left-style: dotted;
 }
 
 
-.brs-r-dotted {
+.brsr-dotted {
   border-right-style: dotted;
 }
 
 
-.brs-b-dotted {
+.brsb-dotted {
   border-bottom-style: dotted;
 }
 
 
-.brs-x-dotted {
+.brsx-dotted {
   border-left-style: dotted;
   border-right-style: dotted;
 }
 
 
-.brs-y-dotted {
+.brsy-dotted {
   border-top-style: dotted;
   border-bottom-style: dotted;
 }
@@ -2015,33 +2015,33 @@
 }
 
 
-.brs-t-dashed {
+.brst-dashed {
   border-top-style: dashed;
 }
 
 
-.brs-l-dashed {
+.brsl-dashed {
   border-left-style: dashed;
 }
 
 
-.brs-r-dashed {
+.brsr-dashed {
   border-right-style: dashed;
 }
 
 
-.brs-b-dashed {
+.brsb-dashed {
   border-bottom-style: dashed;
 }
 
 
-.brs-x-dashed {
+.brsx-dashed {
   border-left-style: dashed;
   border-right-style: dashed;
 }
 
 
-.brs-y-dashed {
+.brsy-dashed {
   border-top-style: dashed;
   border-bottom-style: dashed;
 }
@@ -2052,33 +2052,33 @@
 }
 
 
-.brs-t-solid {
+.brst-solid {
   border-top-style: solid;
 }
 
 
-.brs-l-solid {
+.brsl-solid {
   border-left-style: solid;
 }
 
 
-.brs-r-solid {
+.brsr-solid {
   border-right-style: solid;
 }
 
 
-.brs-b-solid {
+.brsb-solid {
   border-bottom-style: solid;
 }
 
 
-.brs-x-solid {
+.brsx-solid {
   border-left-style: solid;
   border-right-style: solid;
 }
 
 
-.brs-y-solid {
+.brsy-solid {
   border-top-style: solid;
   border-bottom-style: solid;
 }
@@ -2089,28 +2089,28 @@
     border-style: dotted;
   }
   
-  .brs-t-dotted\@xs {
+  .brst-dotted\@xs {
     border-top-style: dotted;
   }
   
-  .brs-l-dotted\@xs {
+  .brsl-dotted\@xs {
     border-left-style: dotted;
   }
   
-  .brs-r-dotted\@xs {
+  .brsr-dotted\@xs {
     border-right-style: dotted;
   }
   
-  .brs-b-dotted\@xs {
+  .brsb-dotted\@xs {
     border-bottom-style: dotted;
   }
   
-  .brs-x-dotted\@xs {
+  .brsx-dotted\@xs {
     border-left-style: dotted;
     border-right-style: dotted;
   }
   
-  .brs-y-dotted\@xs {
+  .brsy-dotted\@xs {
     border-top-style: dotted;
     border-bottom-style: dotted;
   }
@@ -2119,28 +2119,28 @@
     border-style: dashed;
   }
   
-  .brs-t-dashed\@xs {
+  .brst-dashed\@xs {
     border-top-style: dashed;
   }
   
-  .brs-l-dashed\@xs {
+  .brsl-dashed\@xs {
     border-left-style: dashed;
   }
   
-  .brs-r-dashed\@xs {
+  .brsr-dashed\@xs {
     border-right-style: dashed;
   }
   
-  .brs-b-dashed\@xs {
+  .brsb-dashed\@xs {
     border-bottom-style: dashed;
   }
   
-  .brs-x-dashed\@xs {
+  .brsx-dashed\@xs {
     border-left-style: dashed;
     border-right-style: dashed;
   }
   
-  .brs-y-dashed\@xs {
+  .brsy-dashed\@xs {
     border-top-style: dashed;
     border-bottom-style: dashed;
   }
@@ -2149,28 +2149,28 @@
     border-style: solid;
   }
   
-  .brs-t-solid\@xs {
+  .brst-solid\@xs {
     border-top-style: solid;
   }
   
-  .brs-l-solid\@xs {
+  .brsl-solid\@xs {
     border-left-style: solid;
   }
   
-  .brs-r-solid\@xs {
+  .brsr-solid\@xs {
     border-right-style: solid;
   }
   
-  .brs-b-solid\@xs {
+  .brsb-solid\@xs {
     border-bottom-style: solid;
   }
   
-  .brs-x-solid\@xs {
+  .brsx-solid\@xs {
     border-left-style: solid;
     border-right-style: solid;
   }
   
-  .brs-y-solid\@xs {
+  .brsy-solid\@xs {
     border-top-style: solid;
     border-bottom-style: solid;
   }
@@ -2182,28 +2182,28 @@
     border-style: dotted;
   }
   
-  .brs-t-dotted\@sm {
+  .brst-dotted\@sm {
     border-top-style: dotted;
   }
   
-  .brs-l-dotted\@sm {
+  .brsl-dotted\@sm {
     border-left-style: dotted;
   }
   
-  .brs-r-dotted\@sm {
+  .brsr-dotted\@sm {
     border-right-style: dotted;
   }
   
-  .brs-b-dotted\@sm {
+  .brsb-dotted\@sm {
     border-bottom-style: dotted;
   }
   
-  .brs-x-dotted\@sm {
+  .brsx-dotted\@sm {
     border-left-style: dotted;
     border-right-style: dotted;
   }
   
-  .brs-y-dotted\@sm {
+  .brsy-dotted\@sm {
     border-top-style: dotted;
     border-bottom-style: dotted;
   }
@@ -2212,28 +2212,28 @@
     border-style: dashed;
   }
   
-  .brs-t-dashed\@sm {
+  .brst-dashed\@sm {
     border-top-style: dashed;
   }
   
-  .brs-l-dashed\@sm {
+  .brsl-dashed\@sm {
     border-left-style: dashed;
   }
   
-  .brs-r-dashed\@sm {
+  .brsr-dashed\@sm {
     border-right-style: dashed;
   }
   
-  .brs-b-dashed\@sm {
+  .brsb-dashed\@sm {
     border-bottom-style: dashed;
   }
   
-  .brs-x-dashed\@sm {
+  .brsx-dashed\@sm {
     border-left-style: dashed;
     border-right-style: dashed;
   }
   
-  .brs-y-dashed\@sm {
+  .brsy-dashed\@sm {
     border-top-style: dashed;
     border-bottom-style: dashed;
   }
@@ -2242,28 +2242,28 @@
     border-style: solid;
   }
   
-  .brs-t-solid\@sm {
+  .brst-solid\@sm {
     border-top-style: solid;
   }
   
-  .brs-l-solid\@sm {
+  .brsl-solid\@sm {
     border-left-style: solid;
   }
   
-  .brs-r-solid\@sm {
+  .brsr-solid\@sm {
     border-right-style: solid;
   }
   
-  .brs-b-solid\@sm {
+  .brsb-solid\@sm {
     border-bottom-style: solid;
   }
   
-  .brs-x-solid\@sm {
+  .brsx-solid\@sm {
     border-left-style: solid;
     border-right-style: solid;
   }
   
-  .brs-y-solid\@sm {
+  .brsy-solid\@sm {
     border-top-style: solid;
     border-bottom-style: solid;
   }
@@ -2275,28 +2275,28 @@
     border-style: dotted;
   }
   
-  .brs-t-dotted\@md {
+  .brst-dotted\@md {
     border-top-style: dotted;
   }
   
-  .brs-l-dotted\@md {
+  .brsl-dotted\@md {
     border-left-style: dotted;
   }
   
-  .brs-r-dotted\@md {
+  .brsr-dotted\@md {
     border-right-style: dotted;
   }
   
-  .brs-b-dotted\@md {
+  .brsb-dotted\@md {
     border-bottom-style: dotted;
   }
   
-  .brs-x-dotted\@md {
+  .brsx-dotted\@md {
     border-left-style: dotted;
     border-right-style: dotted;
   }
   
-  .brs-y-dotted\@md {
+  .brsy-dotted\@md {
     border-top-style: dotted;
     border-bottom-style: dotted;
   }
@@ -2305,28 +2305,28 @@
     border-style: dashed;
   }
   
-  .brs-t-dashed\@md {
+  .brst-dashed\@md {
     border-top-style: dashed;
   }
   
-  .brs-l-dashed\@md {
+  .brsl-dashed\@md {
     border-left-style: dashed;
   }
   
-  .brs-r-dashed\@md {
+  .brsr-dashed\@md {
     border-right-style: dashed;
   }
   
-  .brs-b-dashed\@md {
+  .brsb-dashed\@md {
     border-bottom-style: dashed;
   }
   
-  .brs-x-dashed\@md {
+  .brsx-dashed\@md {
     border-left-style: dashed;
     border-right-style: dashed;
   }
   
-  .brs-y-dashed\@md {
+  .brsy-dashed\@md {
     border-top-style: dashed;
     border-bottom-style: dashed;
   }
@@ -2335,28 +2335,28 @@
     border-style: solid;
   }
   
-  .brs-t-solid\@md {
+  .brst-solid\@md {
     border-top-style: solid;
   }
   
-  .brs-l-solid\@md {
+  .brsl-solid\@md {
     border-left-style: solid;
   }
   
-  .brs-r-solid\@md {
+  .brsr-solid\@md {
     border-right-style: solid;
   }
   
-  .brs-b-solid\@md {
+  .brsb-solid\@md {
     border-bottom-style: solid;
   }
   
-  .brs-x-solid\@md {
+  .brsx-solid\@md {
     border-left-style: solid;
     border-right-style: solid;
   }
   
-  .brs-y-solid\@md {
+  .brsy-solid\@md {
     border-top-style: solid;
     border-bottom-style: solid;
   }
@@ -2368,28 +2368,28 @@
     border-style: dotted;
   }
   
-  .brs-t-dotted\@lg {
+  .brst-dotted\@lg {
     border-top-style: dotted;
   }
   
-  .brs-l-dotted\@lg {
+  .brsl-dotted\@lg {
     border-left-style: dotted;
   }
   
-  .brs-r-dotted\@lg {
+  .brsr-dotted\@lg {
     border-right-style: dotted;
   }
   
-  .brs-b-dotted\@lg {
+  .brsb-dotted\@lg {
     border-bottom-style: dotted;
   }
   
-  .brs-x-dotted\@lg {
+  .brsx-dotted\@lg {
     border-left-style: dotted;
     border-right-style: dotted;
   }
   
-  .brs-y-dotted\@lg {
+  .brsy-dotted\@lg {
     border-top-style: dotted;
     border-bottom-style: dotted;
   }
@@ -2398,28 +2398,28 @@
     border-style: dashed;
   }
   
-  .brs-t-dashed\@lg {
+  .brst-dashed\@lg {
     border-top-style: dashed;
   }
   
-  .brs-l-dashed\@lg {
+  .brsl-dashed\@lg {
     border-left-style: dashed;
   }
   
-  .brs-r-dashed\@lg {
+  .brsr-dashed\@lg {
     border-right-style: dashed;
   }
   
-  .brs-b-dashed\@lg {
+  .brsb-dashed\@lg {
     border-bottom-style: dashed;
   }
   
-  .brs-x-dashed\@lg {
+  .brsx-dashed\@lg {
     border-left-style: dashed;
     border-right-style: dashed;
   }
   
-  .brs-y-dashed\@lg {
+  .brsy-dashed\@lg {
     border-top-style: dashed;
     border-bottom-style: dashed;
   }
@@ -2428,28 +2428,28 @@
     border-style: solid;
   }
   
-  .brs-t-solid\@lg {
+  .brst-solid\@lg {
     border-top-style: solid;
   }
   
-  .brs-l-solid\@lg {
+  .brsl-solid\@lg {
     border-left-style: solid;
   }
   
-  .brs-r-solid\@lg {
+  .brsr-solid\@lg {
     border-right-style: solid;
   }
   
-  .brs-b-solid\@lg {
+  .brsb-solid\@lg {
     border-bottom-style: solid;
   }
   
-  .brs-x-solid\@lg {
+  .brsx-solid\@lg {
     border-left-style: solid;
     border-right-style: solid;
   }
   
-  .brs-y-solid\@lg {
+  .brsy-solid\@lg {
     border-top-style: solid;
     border-bottom-style: solid;
   }
@@ -2461,28 +2461,28 @@
     border-style: dotted;
   }
   
-  .brs-t-dotted\@xl {
+  .brst-dotted\@xl {
     border-top-style: dotted;
   }
   
-  .brs-l-dotted\@xl {
+  .brsl-dotted\@xl {
     border-left-style: dotted;
   }
   
-  .brs-r-dotted\@xl {
+  .brsr-dotted\@xl {
     border-right-style: dotted;
   }
   
-  .brs-b-dotted\@xl {
+  .brsb-dotted\@xl {
     border-bottom-style: dotted;
   }
   
-  .brs-x-dotted\@xl {
+  .brsx-dotted\@xl {
     border-left-style: dotted;
     border-right-style: dotted;
   }
   
-  .brs-y-dotted\@xl {
+  .brsy-dotted\@xl {
     border-top-style: dotted;
     border-bottom-style: dotted;
   }
@@ -2491,28 +2491,28 @@
     border-style: dashed;
   }
   
-  .brs-t-dashed\@xl {
+  .brst-dashed\@xl {
     border-top-style: dashed;
   }
   
-  .brs-l-dashed\@xl {
+  .brsl-dashed\@xl {
     border-left-style: dashed;
   }
   
-  .brs-r-dashed\@xl {
+  .brsr-dashed\@xl {
     border-right-style: dashed;
   }
   
-  .brs-b-dashed\@xl {
+  .brsb-dashed\@xl {
     border-bottom-style: dashed;
   }
   
-  .brs-x-dashed\@xl {
+  .brsx-dashed\@xl {
     border-left-style: dashed;
     border-right-style: dashed;
   }
   
-  .brs-y-dashed\@xl {
+  .brsy-dashed\@xl {
     border-top-style: dashed;
     border-bottom-style: dashed;
   }
@@ -2521,28 +2521,28 @@
     border-style: solid;
   }
   
-  .brs-t-solid\@xl {
+  .brst-solid\@xl {
     border-top-style: solid;
   }
   
-  .brs-l-solid\@xl {
+  .brsl-solid\@xl {
     border-left-style: solid;
   }
   
-  .brs-r-solid\@xl {
+  .brsr-solid\@xl {
     border-right-style: solid;
   }
   
-  .brs-b-solid\@xl {
+  .brsb-solid\@xl {
     border-bottom-style: solid;
   }
   
-  .brs-x-solid\@xl {
+  .brsx-solid\@xl {
     border-left-style: solid;
     border-right-style: solid;
   }
   
-  .brs-y-solid\@xl {
+  .brsy-solid\@xl {
     border-top-style: solid;
     border-bottom-style: solid;
   }
@@ -2554,33 +2554,33 @@
 }
 
 
-.brw-t-0 {
+.brwt-0 {
   border-top-width: 0;
 }
 
 
-.brw-l-0 {
+.brwl-0 {
   border-left-width: 0;
 }
 
 
-.brw-r-0 {
+.brwr-0 {
   border-right-width: 0;
 }
 
 
-.brw-b-0 {
+.brwb-0 {
   border-bottom-width: 0;
 }
 
 
-.brw-x-0 {
+.brwx-0 {
   border-left-width: 0;
   border-right-width: 0;
 }
 
 
-.brw-y-0 {
+.brwy-0 {
   border-top-width: 0;
   border-bottom-width: 0;
 }
@@ -2591,33 +2591,33 @@
 }
 
 
-.brw-t-1 {
+.brwt-1 {
   border-top-width: 1px;
 }
 
 
-.brw-l-1 {
+.brwl-1 {
   border-left-width: 1px;
 }
 
 
-.brw-r-1 {
+.brwr-1 {
   border-right-width: 1px;
 }
 
 
-.brw-b-1 {
+.brwb-1 {
   border-bottom-width: 1px;
 }
 
 
-.brw-x-1 {
+.brwx-1 {
   border-left-width: 1px;
   border-right-width: 1px;
 }
 
 
-.brw-y-1 {
+.brwy-1 {
   border-top-width: 1px;
   border-bottom-width: 1px;
 }
@@ -2628,33 +2628,33 @@
 }
 
 
-.brw-t-2 {
+.brwt-2 {
   border-top-width: 2px;
 }
 
 
-.brw-l-2 {
+.brwl-2 {
   border-left-width: 2px;
 }
 
 
-.brw-r-2 {
+.brwr-2 {
   border-right-width: 2px;
 }
 
 
-.brw-b-2 {
+.brwb-2 {
   border-bottom-width: 2px;
 }
 
 
-.brw-x-2 {
+.brwx-2 {
   border-left-width: 2px;
   border-right-width: 2px;
 }
 
 
-.brw-y-2 {
+.brwy-2 {
   border-top-width: 2px;
   border-bottom-width: 2px;
 }
@@ -2665,33 +2665,33 @@
 }
 
 
-.brw-t-3 {
+.brwt-3 {
   border-top-width: 3px;
 }
 
 
-.brw-l-3 {
+.brwl-3 {
   border-left-width: 3px;
 }
 
 
-.brw-r-3 {
+.brwr-3 {
   border-right-width: 3px;
 }
 
 
-.brw-b-3 {
+.brwb-3 {
   border-bottom-width: 3px;
 }
 
 
-.brw-x-3 {
+.brwx-3 {
   border-left-width: 3px;
   border-right-width: 3px;
 }
 
 
-.brw-y-3 {
+.brwy-3 {
   border-top-width: 3px;
   border-bottom-width: 3px;
 }
@@ -2702,28 +2702,28 @@
     border-width: 0;
   }
   
-  .brw-t-0\@xs {
+  .brwt-0\@xs {
     border-top-width: 0;
   }
   
-  .brw-l-0\@xs {
+  .brwl-0\@xs {
     border-left-width: 0;
   }
   
-  .brw-r-0\@xs {
+  .brwr-0\@xs {
     border-right-width: 0;
   }
   
-  .brw-b-0\@xs {
+  .brwb-0\@xs {
     border-bottom-width: 0;
   }
   
-  .brw-x-0\@xs {
+  .brwx-0\@xs {
     border-left-width: 0;
     border-right-width: 0;
   }
   
-  .brw-y-0\@xs {
+  .brwy-0\@xs {
     border-top-width: 0;
     border-bottom-width: 0;
   }
@@ -2732,28 +2732,28 @@
     border-width: 1px;
   }
   
-  .brw-t-1\@xs {
+  .brwt-1\@xs {
     border-top-width: 1px;
   }
   
-  .brw-l-1\@xs {
+  .brwl-1\@xs {
     border-left-width: 1px;
   }
   
-  .brw-r-1\@xs {
+  .brwr-1\@xs {
     border-right-width: 1px;
   }
   
-  .brw-b-1\@xs {
+  .brwb-1\@xs {
     border-bottom-width: 1px;
   }
   
-  .brw-x-1\@xs {
+  .brwx-1\@xs {
     border-left-width: 1px;
     border-right-width: 1px;
   }
   
-  .brw-y-1\@xs {
+  .brwy-1\@xs {
     border-top-width: 1px;
     border-bottom-width: 1px;
   }
@@ -2762,28 +2762,28 @@
     border-width: 2px;
   }
   
-  .brw-t-2\@xs {
+  .brwt-2\@xs {
     border-top-width: 2px;
   }
   
-  .brw-l-2\@xs {
+  .brwl-2\@xs {
     border-left-width: 2px;
   }
   
-  .brw-r-2\@xs {
+  .brwr-2\@xs {
     border-right-width: 2px;
   }
   
-  .brw-b-2\@xs {
+  .brwb-2\@xs {
     border-bottom-width: 2px;
   }
   
-  .brw-x-2\@xs {
+  .brwx-2\@xs {
     border-left-width: 2px;
     border-right-width: 2px;
   }
   
-  .brw-y-2\@xs {
+  .brwy-2\@xs {
     border-top-width: 2px;
     border-bottom-width: 2px;
   }
@@ -2792,28 +2792,28 @@
     border-width: 3px;
   }
   
-  .brw-t-3\@xs {
+  .brwt-3\@xs {
     border-top-width: 3px;
   }
   
-  .brw-l-3\@xs {
+  .brwl-3\@xs {
     border-left-width: 3px;
   }
   
-  .brw-r-3\@xs {
+  .brwr-3\@xs {
     border-right-width: 3px;
   }
   
-  .brw-b-3\@xs {
+  .brwb-3\@xs {
     border-bottom-width: 3px;
   }
   
-  .brw-x-3\@xs {
+  .brwx-3\@xs {
     border-left-width: 3px;
     border-right-width: 3px;
   }
   
-  .brw-y-3\@xs {
+  .brwy-3\@xs {
     border-top-width: 3px;
     border-bottom-width: 3px;
   }
@@ -2825,28 +2825,28 @@
     border-width: 0;
   }
   
-  .brw-t-0\@sm {
+  .brwt-0\@sm {
     border-top-width: 0;
   }
   
-  .brw-l-0\@sm {
+  .brwl-0\@sm {
     border-left-width: 0;
   }
   
-  .brw-r-0\@sm {
+  .brwr-0\@sm {
     border-right-width: 0;
   }
   
-  .brw-b-0\@sm {
+  .brwb-0\@sm {
     border-bottom-width: 0;
   }
   
-  .brw-x-0\@sm {
+  .brwx-0\@sm {
     border-left-width: 0;
     border-right-width: 0;
   }
   
-  .brw-y-0\@sm {
+  .brwy-0\@sm {
     border-top-width: 0;
     border-bottom-width: 0;
   }
@@ -2855,28 +2855,28 @@
     border-width: 1px;
   }
   
-  .brw-t-1\@sm {
+  .brwt-1\@sm {
     border-top-width: 1px;
   }
   
-  .brw-l-1\@sm {
+  .brwl-1\@sm {
     border-left-width: 1px;
   }
   
-  .brw-r-1\@sm {
+  .brwr-1\@sm {
     border-right-width: 1px;
   }
   
-  .brw-b-1\@sm {
+  .brwb-1\@sm {
     border-bottom-width: 1px;
   }
   
-  .brw-x-1\@sm {
+  .brwx-1\@sm {
     border-left-width: 1px;
     border-right-width: 1px;
   }
   
-  .brw-y-1\@sm {
+  .brwy-1\@sm {
     border-top-width: 1px;
     border-bottom-width: 1px;
   }
@@ -2885,28 +2885,28 @@
     border-width: 2px;
   }
   
-  .brw-t-2\@sm {
+  .brwt-2\@sm {
     border-top-width: 2px;
   }
   
-  .brw-l-2\@sm {
+  .brwl-2\@sm {
     border-left-width: 2px;
   }
   
-  .brw-r-2\@sm {
+  .brwr-2\@sm {
     border-right-width: 2px;
   }
   
-  .brw-b-2\@sm {
+  .brwb-2\@sm {
     border-bottom-width: 2px;
   }
   
-  .brw-x-2\@sm {
+  .brwx-2\@sm {
     border-left-width: 2px;
     border-right-width: 2px;
   }
   
-  .brw-y-2\@sm {
+  .brwy-2\@sm {
     border-top-width: 2px;
     border-bottom-width: 2px;
   }
@@ -2915,28 +2915,28 @@
     border-width: 3px;
   }
   
-  .brw-t-3\@sm {
+  .brwt-3\@sm {
     border-top-width: 3px;
   }
   
-  .brw-l-3\@sm {
+  .brwl-3\@sm {
     border-left-width: 3px;
   }
   
-  .brw-r-3\@sm {
+  .brwr-3\@sm {
     border-right-width: 3px;
   }
   
-  .brw-b-3\@sm {
+  .brwb-3\@sm {
     border-bottom-width: 3px;
   }
   
-  .brw-x-3\@sm {
+  .brwx-3\@sm {
     border-left-width: 3px;
     border-right-width: 3px;
   }
   
-  .brw-y-3\@sm {
+  .brwy-3\@sm {
     border-top-width: 3px;
     border-bottom-width: 3px;
   }
@@ -2948,28 +2948,28 @@
     border-width: 0;
   }
   
-  .brw-t-0\@md {
+  .brwt-0\@md {
     border-top-width: 0;
   }
   
-  .brw-l-0\@md {
+  .brwl-0\@md {
     border-left-width: 0;
   }
   
-  .brw-r-0\@md {
+  .brwr-0\@md {
     border-right-width: 0;
   }
   
-  .brw-b-0\@md {
+  .brwb-0\@md {
     border-bottom-width: 0;
   }
   
-  .brw-x-0\@md {
+  .brwx-0\@md {
     border-left-width: 0;
     border-right-width: 0;
   }
   
-  .brw-y-0\@md {
+  .brwy-0\@md {
     border-top-width: 0;
     border-bottom-width: 0;
   }
@@ -2978,28 +2978,28 @@
     border-width: 1px;
   }
   
-  .brw-t-1\@md {
+  .brwt-1\@md {
     border-top-width: 1px;
   }
   
-  .brw-l-1\@md {
+  .brwl-1\@md {
     border-left-width: 1px;
   }
   
-  .brw-r-1\@md {
+  .brwr-1\@md {
     border-right-width: 1px;
   }
   
-  .brw-b-1\@md {
+  .brwb-1\@md {
     border-bottom-width: 1px;
   }
   
-  .brw-x-1\@md {
+  .brwx-1\@md {
     border-left-width: 1px;
     border-right-width: 1px;
   }
   
-  .brw-y-1\@md {
+  .brwy-1\@md {
     border-top-width: 1px;
     border-bottom-width: 1px;
   }
@@ -3008,28 +3008,28 @@
     border-width: 2px;
   }
   
-  .brw-t-2\@md {
+  .brwt-2\@md {
     border-top-width: 2px;
   }
   
-  .brw-l-2\@md {
+  .brwl-2\@md {
     border-left-width: 2px;
   }
   
-  .brw-r-2\@md {
+  .brwr-2\@md {
     border-right-width: 2px;
   }
   
-  .brw-b-2\@md {
+  .brwb-2\@md {
     border-bottom-width: 2px;
   }
   
-  .brw-x-2\@md {
+  .brwx-2\@md {
     border-left-width: 2px;
     border-right-width: 2px;
   }
   
-  .brw-y-2\@md {
+  .brwy-2\@md {
     border-top-width: 2px;
     border-bottom-width: 2px;
   }
@@ -3038,28 +3038,28 @@
     border-width: 3px;
   }
   
-  .brw-t-3\@md {
+  .brwt-3\@md {
     border-top-width: 3px;
   }
   
-  .brw-l-3\@md {
+  .brwl-3\@md {
     border-left-width: 3px;
   }
   
-  .brw-r-3\@md {
+  .brwr-3\@md {
     border-right-width: 3px;
   }
   
-  .brw-b-3\@md {
+  .brwb-3\@md {
     border-bottom-width: 3px;
   }
   
-  .brw-x-3\@md {
+  .brwx-3\@md {
     border-left-width: 3px;
     border-right-width: 3px;
   }
   
-  .brw-y-3\@md {
+  .brwy-3\@md {
     border-top-width: 3px;
     border-bottom-width: 3px;
   }
@@ -3071,28 +3071,28 @@
     border-width: 0;
   }
   
-  .brw-t-0\@lg {
+  .brwt-0\@lg {
     border-top-width: 0;
   }
   
-  .brw-l-0\@lg {
+  .brwl-0\@lg {
     border-left-width: 0;
   }
   
-  .brw-r-0\@lg {
+  .brwr-0\@lg {
     border-right-width: 0;
   }
   
-  .brw-b-0\@lg {
+  .brwb-0\@lg {
     border-bottom-width: 0;
   }
   
-  .brw-x-0\@lg {
+  .brwx-0\@lg {
     border-left-width: 0;
     border-right-width: 0;
   }
   
-  .brw-y-0\@lg {
+  .brwy-0\@lg {
     border-top-width: 0;
     border-bottom-width: 0;
   }
@@ -3101,28 +3101,28 @@
     border-width: 1px;
   }
   
-  .brw-t-1\@lg {
+  .brwt-1\@lg {
     border-top-width: 1px;
   }
   
-  .brw-l-1\@lg {
+  .brwl-1\@lg {
     border-left-width: 1px;
   }
   
-  .brw-r-1\@lg {
+  .brwr-1\@lg {
     border-right-width: 1px;
   }
   
-  .brw-b-1\@lg {
+  .brwb-1\@lg {
     border-bottom-width: 1px;
   }
   
-  .brw-x-1\@lg {
+  .brwx-1\@lg {
     border-left-width: 1px;
     border-right-width: 1px;
   }
   
-  .brw-y-1\@lg {
+  .brwy-1\@lg {
     border-top-width: 1px;
     border-bottom-width: 1px;
   }
@@ -3131,28 +3131,28 @@
     border-width: 2px;
   }
   
-  .brw-t-2\@lg {
+  .brwt-2\@lg {
     border-top-width: 2px;
   }
   
-  .brw-l-2\@lg {
+  .brwl-2\@lg {
     border-left-width: 2px;
   }
   
-  .brw-r-2\@lg {
+  .brwr-2\@lg {
     border-right-width: 2px;
   }
   
-  .brw-b-2\@lg {
+  .brwb-2\@lg {
     border-bottom-width: 2px;
   }
   
-  .brw-x-2\@lg {
+  .brwx-2\@lg {
     border-left-width: 2px;
     border-right-width: 2px;
   }
   
-  .brw-y-2\@lg {
+  .brwy-2\@lg {
     border-top-width: 2px;
     border-bottom-width: 2px;
   }
@@ -3161,28 +3161,28 @@
     border-width: 3px;
   }
   
-  .brw-t-3\@lg {
+  .brwt-3\@lg {
     border-top-width: 3px;
   }
   
-  .brw-l-3\@lg {
+  .brwl-3\@lg {
     border-left-width: 3px;
   }
   
-  .brw-r-3\@lg {
+  .brwr-3\@lg {
     border-right-width: 3px;
   }
   
-  .brw-b-3\@lg {
+  .brwb-3\@lg {
     border-bottom-width: 3px;
   }
   
-  .brw-x-3\@lg {
+  .brwx-3\@lg {
     border-left-width: 3px;
     border-right-width: 3px;
   }
   
-  .brw-y-3\@lg {
+  .brwy-3\@lg {
     border-top-width: 3px;
     border-bottom-width: 3px;
   }
@@ -3194,28 +3194,28 @@
     border-width: 0;
   }
   
-  .brw-t-0\@xl {
+  .brwt-0\@xl {
     border-top-width: 0;
   }
   
-  .brw-l-0\@xl {
+  .brwl-0\@xl {
     border-left-width: 0;
   }
   
-  .brw-r-0\@xl {
+  .brwr-0\@xl {
     border-right-width: 0;
   }
   
-  .brw-b-0\@xl {
+  .brwb-0\@xl {
     border-bottom-width: 0;
   }
   
-  .brw-x-0\@xl {
+  .brwx-0\@xl {
     border-left-width: 0;
     border-right-width: 0;
   }
   
-  .brw-y-0\@xl {
+  .brwy-0\@xl {
     border-top-width: 0;
     border-bottom-width: 0;
   }
@@ -3224,28 +3224,28 @@
     border-width: 1px;
   }
   
-  .brw-t-1\@xl {
+  .brwt-1\@xl {
     border-top-width: 1px;
   }
   
-  .brw-l-1\@xl {
+  .brwl-1\@xl {
     border-left-width: 1px;
   }
   
-  .brw-r-1\@xl {
+  .brwr-1\@xl {
     border-right-width: 1px;
   }
   
-  .brw-b-1\@xl {
+  .brwb-1\@xl {
     border-bottom-width: 1px;
   }
   
-  .brw-x-1\@xl {
+  .brwx-1\@xl {
     border-left-width: 1px;
     border-right-width: 1px;
   }
   
-  .brw-y-1\@xl {
+  .brwy-1\@xl {
     border-top-width: 1px;
     border-bottom-width: 1px;
   }
@@ -3254,28 +3254,28 @@
     border-width: 2px;
   }
   
-  .brw-t-2\@xl {
+  .brwt-2\@xl {
     border-top-width: 2px;
   }
   
-  .brw-l-2\@xl {
+  .brwl-2\@xl {
     border-left-width: 2px;
   }
   
-  .brw-r-2\@xl {
+  .brwr-2\@xl {
     border-right-width: 2px;
   }
   
-  .brw-b-2\@xl {
+  .brwb-2\@xl {
     border-bottom-width: 2px;
   }
   
-  .brw-x-2\@xl {
+  .brwx-2\@xl {
     border-left-width: 2px;
     border-right-width: 2px;
   }
   
-  .brw-y-2\@xl {
+  .brwy-2\@xl {
     border-top-width: 2px;
     border-bottom-width: 2px;
   }
@@ -3284,28 +3284,28 @@
     border-width: 3px;
   }
   
-  .brw-t-3\@xl {
+  .brwt-3\@xl {
     border-top-width: 3px;
   }
   
-  .brw-l-3\@xl {
+  .brwl-3\@xl {
     border-left-width: 3px;
   }
   
-  .brw-r-3\@xl {
+  .brwr-3\@xl {
     border-right-width: 3px;
   }
   
-  .brw-b-3\@xl {
+  .brwb-3\@xl {
     border-bottom-width: 3px;
   }
   
-  .brw-x-3\@xl {
+  .brwx-3\@xl {
     border-left-width: 3px;
     border-right-width: 3px;
   }
   
-  .brw-y-3\@xl {
+  .brwy-3\@xl {
     border-top-width: 3px;
     border-bottom-width: 3px;
   }
@@ -3317,46 +3317,46 @@
 }
 
 
-.brr-t-2 {
+.brrt-2 {
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
 }
 
 
-.brr-l-2 {
+.brrl-2 {
   border-top-left-radius: 2px;
   border-bottom-left-radius: 2px;
 }
 
 
-.brr-r-2 {
+.brrr-2 {
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
 }
 
 
-.brr-b-2 {
+.brrb-2 {
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
 }
 
 
-.brr-tl-2 {
+.brrtl-2 {
   border-top-left-radius: 2px;
 }
 
 
-.brr-tr-2 {
+.brrtr-2 {
   border-top-right-radius: 2px;
 }
 
 
-.brr-bl-2 {
+.brrbl-2 {
   border-bottom-left-radius: 2px;
 }
 
 
-.brr-br-2 {
+.brrbr-2 {
   border-bottom-right-radius: 2px;
 }
 
@@ -3366,46 +3366,46 @@
 }
 
 
-.brr-t-3 {
+.brrt-3 {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
 
 
-.brr-l-3 {
+.brrl-3 {
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
 }
 
 
-.brr-r-3 {
+.brrr-3 {
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
 }
 
 
-.brr-b-3 {
+.brrb-3 {
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
 }
 
 
-.brr-tl-3 {
+.brrtl-3 {
   border-top-left-radius: 3px;
 }
 
 
-.brr-tr-3 {
+.brrtr-3 {
   border-top-right-radius: 3px;
 }
 
 
-.brr-bl-3 {
+.brrbl-3 {
   border-bottom-left-radius: 3px;
 }
 
 
-.brr-br-3 {
+.brrbr-3 {
   border-bottom-right-radius: 3px;
 }
 
@@ -3415,46 +3415,46 @@
 }
 
 
-.brr-t-4 {
+.brrt-4 {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
 
 
-.brr-l-4 {
+.brrl-4 {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
 
 
-.brr-r-4 {
+.brrr-4 {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
 
 
-.brr-b-4 {
+.brrb-4 {
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
 }
 
 
-.brr-tl-4 {
+.brrtl-4 {
   border-top-left-radius: 4px;
 }
 
 
-.brr-tr-4 {
+.brrtr-4 {
   border-top-right-radius: 4px;
 }
 
 
-.brr-bl-4 {
+.brrbl-4 {
   border-bottom-left-radius: 4px;
 }
 
 
-.brr-br-4 {
+.brrbr-4 {
   border-bottom-right-radius: 4px;
 }
 
@@ -3464,46 +3464,46 @@
 }
 
 
-.brr-t-10 {
+.brrt-10 {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
 
-.brr-l-10 {
+.brrl-10 {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
 
 
-.brr-r-10 {
+.brrr-10 {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 
 
-.brr-b-10 {
+.brrb-10 {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 
 
-.brr-tl-10 {
+.brrtl-10 {
   border-top-left-radius: 10px;
 }
 
 
-.brr-tr-10 {
+.brrtr-10 {
   border-top-right-radius: 10px;
 }
 
 
-.brr-bl-10 {
+.brrbl-10 {
   border-bottom-left-radius: 10px;
 }
 
 
-.brr-br-10 {
+.brrbr-10 {
   border-bottom-right-radius: 10px;
 }
 
@@ -3513,46 +3513,46 @@
 }
 
 
-.brr-t-50\% {
+.brrt-50\% {
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
 }
 
 
-.brr-l-50\% {
+.brrl-50\% {
   border-top-left-radius: 50%;
   border-bottom-left-radius: 50%;
 }
 
 
-.brr-r-50\% {
+.brrr-50\% {
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
 }
 
 
-.brr-b-50\% {
+.brrb-50\% {
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
 }
 
 
-.brr-tl-50\% {
+.brrtl-50\% {
   border-top-left-radius: 50%;
 }
 
 
-.brr-tr-50\% {
+.brrtr-50\% {
   border-top-right-radius: 50%;
 }
 
 
-.brr-bl-50\% {
+.brrbl-50\% {
   border-bottom-left-radius: 50%;
 }
 
 
-.brr-br-50\% {
+.brrbr-50\% {
   border-bottom-right-radius: 50%;
 }
 
@@ -3562,46 +3562,46 @@
 }
 
 
-.brr-t-rounded {
+.brrt-rounded {
   border-top-left-radius: 9999px;
   border-top-right-radius: 9999px;
 }
 
 
-.brr-l-rounded {
+.brrl-rounded {
   border-top-left-radius: 9999px;
   border-bottom-left-radius: 9999px;
 }
 
 
-.brr-r-rounded {
+.brrr-rounded {
   border-top-right-radius: 9999px;
   border-bottom-right-radius: 9999px;
 }
 
 
-.brr-b-rounded {
+.brrb-rounded {
   border-bottom-left-radius: 9999px;
   border-bottom-right-radius: 9999px;
 }
 
 
-.brr-tl-rounded {
+.brrtl-rounded {
   border-top-left-radius: 9999px;
 }
 
 
-.brr-tr-rounded {
+.brrtr-rounded {
   border-top-right-radius: 9999px;
 }
 
 
-.brr-bl-rounded {
+.brrbl-rounded {
   border-bottom-left-radius: 9999px;
 }
 
 
-.brr-br-rounded {
+.brrbr-rounded {
   border-bottom-right-radius: 9999px;
 }
 
@@ -3611,39 +3611,39 @@
     border-radius: 2px;
   }
   
-  .brr-t-2\@xs {
+  .brrt-2\@xs {
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
   }
   
-  .brr-l-2\@xs {
+  .brrl-2\@xs {
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
   }
   
-  .brr-r-2\@xs {
+  .brrr-2\@xs {
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
   }
   
-  .brr-b-2\@xs {
+  .brrb-2\@xs {
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
   }
   
-  .brr-tl-2\@xs {
+  .brrtl-2\@xs {
     border-top-left-radius: 2px;
   }
   
-  .brr-tr-2\@xs {
+  .brrtr-2\@xs {
     border-top-right-radius: 2px;
   }
   
-  .brr-bl-2\@xs {
+  .brrbl-2\@xs {
     border-bottom-left-radius: 2px;
   }
   
-  .brr-br-2\@xs {
+  .brrbr-2\@xs {
     border-bottom-right-radius: 2px;
   }
   
@@ -3651,39 +3651,39 @@
     border-radius: 3px;
   }
   
-  .brr-t-3\@xs {
+  .brrt-3\@xs {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
   }
   
-  .brr-l-3\@xs {
+  .brrl-3\@xs {
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
   }
   
-  .brr-r-3\@xs {
+  .brrr-3\@xs {
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
   }
   
-  .brr-b-3\@xs {
+  .brrb-3\@xs {
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
   }
   
-  .brr-tl-3\@xs {
+  .brrtl-3\@xs {
     border-top-left-radius: 3px;
   }
   
-  .brr-tr-3\@xs {
+  .brrtr-3\@xs {
     border-top-right-radius: 3px;
   }
   
-  .brr-bl-3\@xs {
+  .brrbl-3\@xs {
     border-bottom-left-radius: 3px;
   }
   
-  .brr-br-3\@xs {
+  .brrbr-3\@xs {
     border-bottom-right-radius: 3px;
   }
   
@@ -3691,39 +3691,39 @@
     border-radius: 4px;
   }
   
-  .brr-t-4\@xs {
+  .brrt-4\@xs {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
   }
   
-  .brr-l-4\@xs {
+  .brrl-4\@xs {
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
   }
   
-  .brr-r-4\@xs {
+  .brrr-4\@xs {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
   }
   
-  .brr-b-4\@xs {
+  .brrb-4\@xs {
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
   }
   
-  .brr-tl-4\@xs {
+  .brrtl-4\@xs {
     border-top-left-radius: 4px;
   }
   
-  .brr-tr-4\@xs {
+  .brrtr-4\@xs {
     border-top-right-radius: 4px;
   }
   
-  .brr-bl-4\@xs {
+  .brrbl-4\@xs {
     border-bottom-left-radius: 4px;
   }
   
-  .brr-br-4\@xs {
+  .brrbr-4\@xs {
     border-bottom-right-radius: 4px;
   }
   
@@ -3731,39 +3731,39 @@
     border-radius: 10px;
   }
   
-  .brr-t-10\@xs {
+  .brrt-10\@xs {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
   
-  .brr-l-10\@xs {
+  .brrl-10\@xs {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
   }
   
-  .brr-r-10\@xs {
+  .brrr-10\@xs {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
   }
   
-  .brr-b-10\@xs {
+  .brrb-10\@xs {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }
   
-  .brr-tl-10\@xs {
+  .brrtl-10\@xs {
     border-top-left-radius: 10px;
   }
   
-  .brr-tr-10\@xs {
+  .brrtr-10\@xs {
     border-top-right-radius: 10px;
   }
   
-  .brr-bl-10\@xs {
+  .brrbl-10\@xs {
     border-bottom-left-radius: 10px;
   }
   
-  .brr-br-10\@xs {
+  .brrbr-10\@xs {
     border-bottom-right-radius: 10px;
   }
   
@@ -3771,39 +3771,39 @@
     border-radius: 50%;
   }
   
-  .brr-t-50\%\@xs {
+  .brrt-50\%\@xs {
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
   }
   
-  .brr-l-50\%\@xs {
+  .brrl-50\%\@xs {
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
   }
   
-  .brr-r-50\%\@xs {
+  .brrr-50\%\@xs {
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
   }
   
-  .brr-b-50\%\@xs {
+  .brrb-50\%\@xs {
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
   }
   
-  .brr-tl-50\%\@xs {
+  .brrtl-50\%\@xs {
     border-top-left-radius: 50%;
   }
   
-  .brr-tr-50\%\@xs {
+  .brrtr-50\%\@xs {
     border-top-right-radius: 50%;
   }
   
-  .brr-bl-50\%\@xs {
+  .brrbl-50\%\@xs {
     border-bottom-left-radius: 50%;
   }
   
-  .brr-br-50\%\@xs {
+  .brrbr-50\%\@xs {
     border-bottom-right-radius: 50%;
   }
   
@@ -3811,39 +3811,39 @@
     border-radius: 9999px;
   }
   
-  .brr-t-rounded\@xs {
+  .brrt-rounded\@xs {
     border-top-left-radius: 9999px;
     border-top-right-radius: 9999px;
   }
   
-  .brr-l-rounded\@xs {
+  .brrl-rounded\@xs {
     border-top-left-radius: 9999px;
     border-bottom-left-radius: 9999px;
   }
   
-  .brr-r-rounded\@xs {
+  .brrr-rounded\@xs {
     border-top-right-radius: 9999px;
     border-bottom-right-radius: 9999px;
   }
   
-  .brr-b-rounded\@xs {
+  .brrb-rounded\@xs {
     border-bottom-left-radius: 9999px;
     border-bottom-right-radius: 9999px;
   }
   
-  .brr-tl-rounded\@xs {
+  .brrtl-rounded\@xs {
     border-top-left-radius: 9999px;
   }
   
-  .brr-tr-rounded\@xs {
+  .brrtr-rounded\@xs {
     border-top-right-radius: 9999px;
   }
   
-  .brr-bl-rounded\@xs {
+  .brrbl-rounded\@xs {
     border-bottom-left-radius: 9999px;
   }
   
-  .brr-br-rounded\@xs {
+  .brrbr-rounded\@xs {
     border-bottom-right-radius: 9999px;
   }
 }
@@ -3854,39 +3854,39 @@
     border-radius: 2px;
   }
   
-  .brr-t-2\@sm {
+  .brrt-2\@sm {
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
   }
   
-  .brr-l-2\@sm {
+  .brrl-2\@sm {
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
   }
   
-  .brr-r-2\@sm {
+  .brrr-2\@sm {
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
   }
   
-  .brr-b-2\@sm {
+  .brrb-2\@sm {
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
   }
   
-  .brr-tl-2\@sm {
+  .brrtl-2\@sm {
     border-top-left-radius: 2px;
   }
   
-  .brr-tr-2\@sm {
+  .brrtr-2\@sm {
     border-top-right-radius: 2px;
   }
   
-  .brr-bl-2\@sm {
+  .brrbl-2\@sm {
     border-bottom-left-radius: 2px;
   }
   
-  .brr-br-2\@sm {
+  .brrbr-2\@sm {
     border-bottom-right-radius: 2px;
   }
   
@@ -3894,39 +3894,39 @@
     border-radius: 3px;
   }
   
-  .brr-t-3\@sm {
+  .brrt-3\@sm {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
   }
   
-  .brr-l-3\@sm {
+  .brrl-3\@sm {
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
   }
   
-  .brr-r-3\@sm {
+  .brrr-3\@sm {
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
   }
   
-  .brr-b-3\@sm {
+  .brrb-3\@sm {
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
   }
   
-  .brr-tl-3\@sm {
+  .brrtl-3\@sm {
     border-top-left-radius: 3px;
   }
   
-  .brr-tr-3\@sm {
+  .brrtr-3\@sm {
     border-top-right-radius: 3px;
   }
   
-  .brr-bl-3\@sm {
+  .brrbl-3\@sm {
     border-bottom-left-radius: 3px;
   }
   
-  .brr-br-3\@sm {
+  .brrbr-3\@sm {
     border-bottom-right-radius: 3px;
   }
   
@@ -3934,39 +3934,39 @@
     border-radius: 4px;
   }
   
-  .brr-t-4\@sm {
+  .brrt-4\@sm {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
   }
   
-  .brr-l-4\@sm {
+  .brrl-4\@sm {
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
   }
   
-  .brr-r-4\@sm {
+  .brrr-4\@sm {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
   }
   
-  .brr-b-4\@sm {
+  .brrb-4\@sm {
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
   }
   
-  .brr-tl-4\@sm {
+  .brrtl-4\@sm {
     border-top-left-radius: 4px;
   }
   
-  .brr-tr-4\@sm {
+  .brrtr-4\@sm {
     border-top-right-radius: 4px;
   }
   
-  .brr-bl-4\@sm {
+  .brrbl-4\@sm {
     border-bottom-left-radius: 4px;
   }
   
-  .brr-br-4\@sm {
+  .brrbr-4\@sm {
     border-bottom-right-radius: 4px;
   }
   
@@ -3974,39 +3974,39 @@
     border-radius: 10px;
   }
   
-  .brr-t-10\@sm {
+  .brrt-10\@sm {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
   
-  .brr-l-10\@sm {
+  .brrl-10\@sm {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
   }
   
-  .brr-r-10\@sm {
+  .brrr-10\@sm {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
   }
   
-  .brr-b-10\@sm {
+  .brrb-10\@sm {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }
   
-  .brr-tl-10\@sm {
+  .brrtl-10\@sm {
     border-top-left-radius: 10px;
   }
   
-  .brr-tr-10\@sm {
+  .brrtr-10\@sm {
     border-top-right-radius: 10px;
   }
   
-  .brr-bl-10\@sm {
+  .brrbl-10\@sm {
     border-bottom-left-radius: 10px;
   }
   
-  .brr-br-10\@sm {
+  .brrbr-10\@sm {
     border-bottom-right-radius: 10px;
   }
   
@@ -4014,39 +4014,39 @@
     border-radius: 50%;
   }
   
-  .brr-t-50\%\@sm {
+  .brrt-50\%\@sm {
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
   }
   
-  .brr-l-50\%\@sm {
+  .brrl-50\%\@sm {
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
   }
   
-  .brr-r-50\%\@sm {
+  .brrr-50\%\@sm {
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
   }
   
-  .brr-b-50\%\@sm {
+  .brrb-50\%\@sm {
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
   }
   
-  .brr-tl-50\%\@sm {
+  .brrtl-50\%\@sm {
     border-top-left-radius: 50%;
   }
   
-  .brr-tr-50\%\@sm {
+  .brrtr-50\%\@sm {
     border-top-right-radius: 50%;
   }
   
-  .brr-bl-50\%\@sm {
+  .brrbl-50\%\@sm {
     border-bottom-left-radius: 50%;
   }
   
-  .brr-br-50\%\@sm {
+  .brrbr-50\%\@sm {
     border-bottom-right-radius: 50%;
   }
   
@@ -4054,39 +4054,39 @@
     border-radius: 9999px;
   }
   
-  .brr-t-rounded\@sm {
+  .brrt-rounded\@sm {
     border-top-left-radius: 9999px;
     border-top-right-radius: 9999px;
   }
   
-  .brr-l-rounded\@sm {
+  .brrl-rounded\@sm {
     border-top-left-radius: 9999px;
     border-bottom-left-radius: 9999px;
   }
   
-  .brr-r-rounded\@sm {
+  .brrr-rounded\@sm {
     border-top-right-radius: 9999px;
     border-bottom-right-radius: 9999px;
   }
   
-  .brr-b-rounded\@sm {
+  .brrb-rounded\@sm {
     border-bottom-left-radius: 9999px;
     border-bottom-right-radius: 9999px;
   }
   
-  .brr-tl-rounded\@sm {
+  .brrtl-rounded\@sm {
     border-top-left-radius: 9999px;
   }
   
-  .brr-tr-rounded\@sm {
+  .brrtr-rounded\@sm {
     border-top-right-radius: 9999px;
   }
   
-  .brr-bl-rounded\@sm {
+  .brrbl-rounded\@sm {
     border-bottom-left-radius: 9999px;
   }
   
-  .brr-br-rounded\@sm {
+  .brrbr-rounded\@sm {
     border-bottom-right-radius: 9999px;
   }
 }
@@ -4097,39 +4097,39 @@
     border-radius: 2px;
   }
   
-  .brr-t-2\@md {
+  .brrt-2\@md {
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
   }
   
-  .brr-l-2\@md {
+  .brrl-2\@md {
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
   }
   
-  .brr-r-2\@md {
+  .brrr-2\@md {
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
   }
   
-  .brr-b-2\@md {
+  .brrb-2\@md {
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
   }
   
-  .brr-tl-2\@md {
+  .brrtl-2\@md {
     border-top-left-radius: 2px;
   }
   
-  .brr-tr-2\@md {
+  .brrtr-2\@md {
     border-top-right-radius: 2px;
   }
   
-  .brr-bl-2\@md {
+  .brrbl-2\@md {
     border-bottom-left-radius: 2px;
   }
   
-  .brr-br-2\@md {
+  .brrbr-2\@md {
     border-bottom-right-radius: 2px;
   }
   
@@ -4137,39 +4137,39 @@
     border-radius: 3px;
   }
   
-  .brr-t-3\@md {
+  .brrt-3\@md {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
   }
   
-  .brr-l-3\@md {
+  .brrl-3\@md {
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
   }
   
-  .brr-r-3\@md {
+  .brrr-3\@md {
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
   }
   
-  .brr-b-3\@md {
+  .brrb-3\@md {
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
   }
   
-  .brr-tl-3\@md {
+  .brrtl-3\@md {
     border-top-left-radius: 3px;
   }
   
-  .brr-tr-3\@md {
+  .brrtr-3\@md {
     border-top-right-radius: 3px;
   }
   
-  .brr-bl-3\@md {
+  .brrbl-3\@md {
     border-bottom-left-radius: 3px;
   }
   
-  .brr-br-3\@md {
+  .brrbr-3\@md {
     border-bottom-right-radius: 3px;
   }
   
@@ -4177,39 +4177,39 @@
     border-radius: 4px;
   }
   
-  .brr-t-4\@md {
+  .brrt-4\@md {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
   }
   
-  .brr-l-4\@md {
+  .brrl-4\@md {
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
   }
   
-  .brr-r-4\@md {
+  .brrr-4\@md {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
   }
   
-  .brr-b-4\@md {
+  .brrb-4\@md {
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
   }
   
-  .brr-tl-4\@md {
+  .brrtl-4\@md {
     border-top-left-radius: 4px;
   }
   
-  .brr-tr-4\@md {
+  .brrtr-4\@md {
     border-top-right-radius: 4px;
   }
   
-  .brr-bl-4\@md {
+  .brrbl-4\@md {
     border-bottom-left-radius: 4px;
   }
   
-  .brr-br-4\@md {
+  .brrbr-4\@md {
     border-bottom-right-radius: 4px;
   }
   
@@ -4217,39 +4217,39 @@
     border-radius: 10px;
   }
   
-  .brr-t-10\@md {
+  .brrt-10\@md {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
   
-  .brr-l-10\@md {
+  .brrl-10\@md {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
   }
   
-  .brr-r-10\@md {
+  .brrr-10\@md {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
   }
   
-  .brr-b-10\@md {
+  .brrb-10\@md {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }
   
-  .brr-tl-10\@md {
+  .brrtl-10\@md {
     border-top-left-radius: 10px;
   }
   
-  .brr-tr-10\@md {
+  .brrtr-10\@md {
     border-top-right-radius: 10px;
   }
   
-  .brr-bl-10\@md {
+  .brrbl-10\@md {
     border-bottom-left-radius: 10px;
   }
   
-  .brr-br-10\@md {
+  .brrbr-10\@md {
     border-bottom-right-radius: 10px;
   }
   
@@ -4257,39 +4257,39 @@
     border-radius: 50%;
   }
   
-  .brr-t-50\%\@md {
+  .brrt-50\%\@md {
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
   }
   
-  .brr-l-50\%\@md {
+  .brrl-50\%\@md {
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
   }
   
-  .brr-r-50\%\@md {
+  .brrr-50\%\@md {
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
   }
   
-  .brr-b-50\%\@md {
+  .brrb-50\%\@md {
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
   }
   
-  .brr-tl-50\%\@md {
+  .brrtl-50\%\@md {
     border-top-left-radius: 50%;
   }
   
-  .brr-tr-50\%\@md {
+  .brrtr-50\%\@md {
     border-top-right-radius: 50%;
   }
   
-  .brr-bl-50\%\@md {
+  .brrbl-50\%\@md {
     border-bottom-left-radius: 50%;
   }
   
-  .brr-br-50\%\@md {
+  .brrbr-50\%\@md {
     border-bottom-right-radius: 50%;
   }
   
@@ -4297,39 +4297,39 @@
     border-radius: 9999px;
   }
   
-  .brr-t-rounded\@md {
+  .brrt-rounded\@md {
     border-top-left-radius: 9999px;
     border-top-right-radius: 9999px;
   }
   
-  .brr-l-rounded\@md {
+  .brrl-rounded\@md {
     border-top-left-radius: 9999px;
     border-bottom-left-radius: 9999px;
   }
   
-  .brr-r-rounded\@md {
+  .brrr-rounded\@md {
     border-top-right-radius: 9999px;
     border-bottom-right-radius: 9999px;
   }
   
-  .brr-b-rounded\@md {
+  .brrb-rounded\@md {
     border-bottom-left-radius: 9999px;
     border-bottom-right-radius: 9999px;
   }
   
-  .brr-tl-rounded\@md {
+  .brrtl-rounded\@md {
     border-top-left-radius: 9999px;
   }
   
-  .brr-tr-rounded\@md {
+  .brrtr-rounded\@md {
     border-top-right-radius: 9999px;
   }
   
-  .brr-bl-rounded\@md {
+  .brrbl-rounded\@md {
     border-bottom-left-radius: 9999px;
   }
   
-  .brr-br-rounded\@md {
+  .brrbr-rounded\@md {
     border-bottom-right-radius: 9999px;
   }
 }
@@ -4340,39 +4340,39 @@
     border-radius: 2px;
   }
   
-  .brr-t-2\@lg {
+  .brrt-2\@lg {
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
   }
   
-  .brr-l-2\@lg {
+  .brrl-2\@lg {
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
   }
   
-  .brr-r-2\@lg {
+  .brrr-2\@lg {
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
   }
   
-  .brr-b-2\@lg {
+  .brrb-2\@lg {
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
   }
   
-  .brr-tl-2\@lg {
+  .brrtl-2\@lg {
     border-top-left-radius: 2px;
   }
   
-  .brr-tr-2\@lg {
+  .brrtr-2\@lg {
     border-top-right-radius: 2px;
   }
   
-  .brr-bl-2\@lg {
+  .brrbl-2\@lg {
     border-bottom-left-radius: 2px;
   }
   
-  .brr-br-2\@lg {
+  .brrbr-2\@lg {
     border-bottom-right-radius: 2px;
   }
   
@@ -4380,39 +4380,39 @@
     border-radius: 3px;
   }
   
-  .brr-t-3\@lg {
+  .brrt-3\@lg {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
   }
   
-  .brr-l-3\@lg {
+  .brrl-3\@lg {
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
   }
   
-  .brr-r-3\@lg {
+  .brrr-3\@lg {
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
   }
   
-  .brr-b-3\@lg {
+  .brrb-3\@lg {
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
   }
   
-  .brr-tl-3\@lg {
+  .brrtl-3\@lg {
     border-top-left-radius: 3px;
   }
   
-  .brr-tr-3\@lg {
+  .brrtr-3\@lg {
     border-top-right-radius: 3px;
   }
   
-  .brr-bl-3\@lg {
+  .brrbl-3\@lg {
     border-bottom-left-radius: 3px;
   }
   
-  .brr-br-3\@lg {
+  .brrbr-3\@lg {
     border-bottom-right-radius: 3px;
   }
   
@@ -4420,39 +4420,39 @@
     border-radius: 4px;
   }
   
-  .brr-t-4\@lg {
+  .brrt-4\@lg {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
   }
   
-  .brr-l-4\@lg {
+  .brrl-4\@lg {
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
   }
   
-  .brr-r-4\@lg {
+  .brrr-4\@lg {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
   }
   
-  .brr-b-4\@lg {
+  .brrb-4\@lg {
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
   }
   
-  .brr-tl-4\@lg {
+  .brrtl-4\@lg {
     border-top-left-radius: 4px;
   }
   
-  .brr-tr-4\@lg {
+  .brrtr-4\@lg {
     border-top-right-radius: 4px;
   }
   
-  .brr-bl-4\@lg {
+  .brrbl-4\@lg {
     border-bottom-left-radius: 4px;
   }
   
-  .brr-br-4\@lg {
+  .brrbr-4\@lg {
     border-bottom-right-radius: 4px;
   }
   
@@ -4460,39 +4460,39 @@
     border-radius: 10px;
   }
   
-  .brr-t-10\@lg {
+  .brrt-10\@lg {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
   
-  .brr-l-10\@lg {
+  .brrl-10\@lg {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
   }
   
-  .brr-r-10\@lg {
+  .brrr-10\@lg {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
   }
   
-  .brr-b-10\@lg {
+  .brrb-10\@lg {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }
   
-  .brr-tl-10\@lg {
+  .brrtl-10\@lg {
     border-top-left-radius: 10px;
   }
   
-  .brr-tr-10\@lg {
+  .brrtr-10\@lg {
     border-top-right-radius: 10px;
   }
   
-  .brr-bl-10\@lg {
+  .brrbl-10\@lg {
     border-bottom-left-radius: 10px;
   }
   
-  .brr-br-10\@lg {
+  .brrbr-10\@lg {
     border-bottom-right-radius: 10px;
   }
   
@@ -4500,39 +4500,39 @@
     border-radius: 50%;
   }
   
-  .brr-t-50\%\@lg {
+  .brrt-50\%\@lg {
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
   }
   
-  .brr-l-50\%\@lg {
+  .brrl-50\%\@lg {
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
   }
   
-  .brr-r-50\%\@lg {
+  .brrr-50\%\@lg {
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
   }
   
-  .brr-b-50\%\@lg {
+  .brrb-50\%\@lg {
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
   }
   
-  .brr-tl-50\%\@lg {
+  .brrtl-50\%\@lg {
     border-top-left-radius: 50%;
   }
   
-  .brr-tr-50\%\@lg {
+  .brrtr-50\%\@lg {
     border-top-right-radius: 50%;
   }
   
-  .brr-bl-50\%\@lg {
+  .brrbl-50\%\@lg {
     border-bottom-left-radius: 50%;
   }
   
-  .brr-br-50\%\@lg {
+  .brrbr-50\%\@lg {
     border-bottom-right-radius: 50%;
   }
   
@@ -4540,39 +4540,39 @@
     border-radius: 9999px;
   }
   
-  .brr-t-rounded\@lg {
+  .brrt-rounded\@lg {
     border-top-left-radius: 9999px;
     border-top-right-radius: 9999px;
   }
   
-  .brr-l-rounded\@lg {
+  .brrl-rounded\@lg {
     border-top-left-radius: 9999px;
     border-bottom-left-radius: 9999px;
   }
   
-  .brr-r-rounded\@lg {
+  .brrr-rounded\@lg {
     border-top-right-radius: 9999px;
     border-bottom-right-radius: 9999px;
   }
   
-  .brr-b-rounded\@lg {
+  .brrb-rounded\@lg {
     border-bottom-left-radius: 9999px;
     border-bottom-right-radius: 9999px;
   }
   
-  .brr-tl-rounded\@lg {
+  .brrtl-rounded\@lg {
     border-top-left-radius: 9999px;
   }
   
-  .brr-tr-rounded\@lg {
+  .brrtr-rounded\@lg {
     border-top-right-radius: 9999px;
   }
   
-  .brr-bl-rounded\@lg {
+  .brrbl-rounded\@lg {
     border-bottom-left-radius: 9999px;
   }
   
-  .brr-br-rounded\@lg {
+  .brrbr-rounded\@lg {
     border-bottom-right-radius: 9999px;
   }
 }
@@ -4583,39 +4583,39 @@
     border-radius: 2px;
   }
   
-  .brr-t-2\@xl {
+  .brrt-2\@xl {
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
   }
   
-  .brr-l-2\@xl {
+  .brrl-2\@xl {
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
   }
   
-  .brr-r-2\@xl {
+  .brrr-2\@xl {
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
   }
   
-  .brr-b-2\@xl {
+  .brrb-2\@xl {
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
   }
   
-  .brr-tl-2\@xl {
+  .brrtl-2\@xl {
     border-top-left-radius: 2px;
   }
   
-  .brr-tr-2\@xl {
+  .brrtr-2\@xl {
     border-top-right-radius: 2px;
   }
   
-  .brr-bl-2\@xl {
+  .brrbl-2\@xl {
     border-bottom-left-radius: 2px;
   }
   
-  .brr-br-2\@xl {
+  .brrbr-2\@xl {
     border-bottom-right-radius: 2px;
   }
   
@@ -4623,39 +4623,39 @@
     border-radius: 3px;
   }
   
-  .brr-t-3\@xl {
+  .brrt-3\@xl {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
   }
   
-  .brr-l-3\@xl {
+  .brrl-3\@xl {
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
   }
   
-  .brr-r-3\@xl {
+  .brrr-3\@xl {
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
   }
   
-  .brr-b-3\@xl {
+  .brrb-3\@xl {
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
   }
   
-  .brr-tl-3\@xl {
+  .brrtl-3\@xl {
     border-top-left-radius: 3px;
   }
   
-  .brr-tr-3\@xl {
+  .brrtr-3\@xl {
     border-top-right-radius: 3px;
   }
   
-  .brr-bl-3\@xl {
+  .brrbl-3\@xl {
     border-bottom-left-radius: 3px;
   }
   
-  .brr-br-3\@xl {
+  .brrbr-3\@xl {
     border-bottom-right-radius: 3px;
   }
   
@@ -4663,39 +4663,39 @@
     border-radius: 4px;
   }
   
-  .brr-t-4\@xl {
+  .brrt-4\@xl {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
   }
   
-  .brr-l-4\@xl {
+  .brrl-4\@xl {
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
   }
   
-  .brr-r-4\@xl {
+  .brrr-4\@xl {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
   }
   
-  .brr-b-4\@xl {
+  .brrb-4\@xl {
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
   }
   
-  .brr-tl-4\@xl {
+  .brrtl-4\@xl {
     border-top-left-radius: 4px;
   }
   
-  .brr-tr-4\@xl {
+  .brrtr-4\@xl {
     border-top-right-radius: 4px;
   }
   
-  .brr-bl-4\@xl {
+  .brrbl-4\@xl {
     border-bottom-left-radius: 4px;
   }
   
-  .brr-br-4\@xl {
+  .brrbr-4\@xl {
     border-bottom-right-radius: 4px;
   }
   
@@ -4703,39 +4703,39 @@
     border-radius: 10px;
   }
   
-  .brr-t-10\@xl {
+  .brrt-10\@xl {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
   
-  .brr-l-10\@xl {
+  .brrl-10\@xl {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
   }
   
-  .brr-r-10\@xl {
+  .brrr-10\@xl {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
   }
   
-  .brr-b-10\@xl {
+  .brrb-10\@xl {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }
   
-  .brr-tl-10\@xl {
+  .brrtl-10\@xl {
     border-top-left-radius: 10px;
   }
   
-  .brr-tr-10\@xl {
+  .brrtr-10\@xl {
     border-top-right-radius: 10px;
   }
   
-  .brr-bl-10\@xl {
+  .brrbl-10\@xl {
     border-bottom-left-radius: 10px;
   }
   
-  .brr-br-10\@xl {
+  .brrbr-10\@xl {
     border-bottom-right-radius: 10px;
   }
   
@@ -4743,39 +4743,39 @@
     border-radius: 50%;
   }
   
-  .brr-t-50\%\@xl {
+  .brrt-50\%\@xl {
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
   }
   
-  .brr-l-50\%\@xl {
+  .brrl-50\%\@xl {
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
   }
   
-  .brr-r-50\%\@xl {
+  .brrr-50\%\@xl {
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
   }
   
-  .brr-b-50\%\@xl {
+  .brrb-50\%\@xl {
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
   }
   
-  .brr-tl-50\%\@xl {
+  .brrtl-50\%\@xl {
     border-top-left-radius: 50%;
   }
   
-  .brr-tr-50\%\@xl {
+  .brrtr-50\%\@xl {
     border-top-right-radius: 50%;
   }
   
-  .brr-bl-50\%\@xl {
+  .brrbl-50\%\@xl {
     border-bottom-left-radius: 50%;
   }
   
-  .brr-br-50\%\@xl {
+  .brrbr-50\%\@xl {
     border-bottom-right-radius: 50%;
   }
   
@@ -4783,39 +4783,39 @@
     border-radius: 9999px;
   }
   
-  .brr-t-rounded\@xl {
+  .brrt-rounded\@xl {
     border-top-left-radius: 9999px;
     border-top-right-radius: 9999px;
   }
   
-  .brr-l-rounded\@xl {
+  .brrl-rounded\@xl {
     border-top-left-radius: 9999px;
     border-bottom-left-radius: 9999px;
   }
   
-  .brr-r-rounded\@xl {
+  .brrr-rounded\@xl {
     border-top-right-radius: 9999px;
     border-bottom-right-radius: 9999px;
   }
   
-  .brr-b-rounded\@xl {
+  .brrb-rounded\@xl {
     border-bottom-left-radius: 9999px;
     border-bottom-right-radius: 9999px;
   }
   
-  .brr-tl-rounded\@xl {
+  .brrtl-rounded\@xl {
     border-top-left-radius: 9999px;
   }
   
-  .brr-tr-rounded\@xl {
+  .brrtr-rounded\@xl {
     border-top-right-radius: 9999px;
   }
   
-  .brr-bl-rounded\@xl {
+  .brrbl-rounded\@xl {
     border-bottom-left-radius: 9999px;
   }
   
-  .brr-br-rounded\@xl {
+  .brrbr-rounded\@xl {
     border-bottom-right-radius: 9999px;
   }
 }
@@ -8772,33 +8772,33 @@
 }
 
 
-.m-t-1 {
+.mt-1 {
   margin-top: 1px;
 }
 
 
-.m-l-1 {
+.ml-1 {
   margin-left: 1px;
 }
 
 
-.m-r-1 {
+.mr-1 {
   margin-right: 1px;
 }
 
 
-.m-b-1 {
+.mb-1 {
   margin-bottom: 1px;
 }
 
 
-.m-x-1 {
+.mx-1 {
   margin-left: 1px;
   margin-right: 1px;
 }
 
 
-.m-y-1 {
+.my-1 {
   margin-top: 1px;
   margin-bottom: 1px;
 }
@@ -8808,33 +8808,33 @@
 }
 
 
-.-m-t-1 {
+.-mt-1 {
   margin-top: -1px;
 }
 
 
-.-m-l-1 {
+.-ml-1 {
   margin-left: -1px;
 }
 
 
-.-m-b-1 {
+.-mb-1 {
   margin-bottom: -1px;
 }
 
 
-.-m-r-1 {
+.-mr-1 {
   margin-right: -1px;
 }
 
 
-.-m-x-1 {
+.-mx-1 {
   margin-left: -1px;
   margin-right: -1px;
 }
 
 
-.-m-y-1 {
+.-my-1 {
   margin-top: -1px;
   margin-bottom: -1px;
 }
@@ -8845,33 +8845,33 @@
 }
 
 
-.m-t-2 {
+.mt-2 {
   margin-top: 2px;
 }
 
 
-.m-l-2 {
+.ml-2 {
   margin-left: 2px;
 }
 
 
-.m-r-2 {
+.mr-2 {
   margin-right: 2px;
 }
 
 
-.m-b-2 {
+.mb-2 {
   margin-bottom: 2px;
 }
 
 
-.m-x-2 {
+.mx-2 {
   margin-left: 2px;
   margin-right: 2px;
 }
 
 
-.m-y-2 {
+.my-2 {
   margin-top: 2px;
   margin-bottom: 2px;
 }
@@ -8881,33 +8881,33 @@
 }
 
 
-.-m-t-2 {
+.-mt-2 {
   margin-top: -2px;
 }
 
 
-.-m-l-2 {
+.-ml-2 {
   margin-left: -2px;
 }
 
 
-.-m-b-2 {
+.-mb-2 {
   margin-bottom: -2px;
 }
 
 
-.-m-r-2 {
+.-mr-2 {
   margin-right: -2px;
 }
 
 
-.-m-x-2 {
+.-mx-2 {
   margin-left: -2px;
   margin-right: -2px;
 }
 
 
-.-m-y-2 {
+.-my-2 {
   margin-top: -2px;
   margin-bottom: -2px;
 }
@@ -8918,33 +8918,33 @@
 }
 
 
-.m-t-3 {
+.mt-3 {
   margin-top: 3px;
 }
 
 
-.m-l-3 {
+.ml-3 {
   margin-left: 3px;
 }
 
 
-.m-r-3 {
+.mr-3 {
   margin-right: 3px;
 }
 
 
-.m-b-3 {
+.mb-3 {
   margin-bottom: 3px;
 }
 
 
-.m-x-3 {
+.mx-3 {
   margin-left: 3px;
   margin-right: 3px;
 }
 
 
-.m-y-3 {
+.my-3 {
   margin-top: 3px;
   margin-bottom: 3px;
 }
@@ -8954,33 +8954,33 @@
 }
 
 
-.-m-t-3 {
+.-mt-3 {
   margin-top: -3px;
 }
 
 
-.-m-l-3 {
+.-ml-3 {
   margin-left: -3px;
 }
 
 
-.-m-b-3 {
+.-mb-3 {
   margin-bottom: -3px;
 }
 
 
-.-m-r-3 {
+.-mr-3 {
   margin-right: -3px;
 }
 
 
-.-m-x-3 {
+.-mx-3 {
   margin-left: -3px;
   margin-right: -3px;
 }
 
 
-.-m-y-3 {
+.-my-3 {
   margin-top: -3px;
   margin-bottom: -3px;
 }
@@ -8991,33 +8991,33 @@
 }
 
 
-.m-t-4 {
+.mt-4 {
   margin-top: 4px;
 }
 
 
-.m-l-4 {
+.ml-4 {
   margin-left: 4px;
 }
 
 
-.m-r-4 {
+.mr-4 {
   margin-right: 4px;
 }
 
 
-.m-b-4 {
+.mb-4 {
   margin-bottom: 4px;
 }
 
 
-.m-x-4 {
+.mx-4 {
   margin-left: 4px;
   margin-right: 4px;
 }
 
 
-.m-y-4 {
+.my-4 {
   margin-top: 4px;
   margin-bottom: 4px;
 }
@@ -9027,33 +9027,33 @@
 }
 
 
-.-m-t-4 {
+.-mt-4 {
   margin-top: -4px;
 }
 
 
-.-m-l-4 {
+.-ml-4 {
   margin-left: -4px;
 }
 
 
-.-m-b-4 {
+.-mb-4 {
   margin-bottom: -4px;
 }
 
 
-.-m-r-4 {
+.-mr-4 {
   margin-right: -4px;
 }
 
 
-.-m-x-4 {
+.-mx-4 {
   margin-left: -4px;
   margin-right: -4px;
 }
 
 
-.-m-y-4 {
+.-my-4 {
   margin-top: -4px;
   margin-bottom: -4px;
 }
@@ -9064,33 +9064,33 @@
 }
 
 
-.m-t {
+.mt {
   margin-top: 26px;
 }
 
 
-.m-l {
+.ml {
   margin-left: 26px;
 }
 
 
-.m-r {
+.mr {
   margin-right: 26px;
 }
 
 
-.m-b {
+.mb {
   margin-bottom: 26px;
 }
 
 
-.m-x {
+.mx {
   margin-left: 26px;
   margin-right: 26px;
 }
 
 
-.m-y {
+.my {
   margin-top: 26px;
   margin-bottom: 26px;
 }
@@ -9100,33 +9100,33 @@
 }
 
 
-.-m-t {
+.-mt {
   margin-top: -26px;
 }
 
 
-.-m-l {
+.-ml {
   margin-left: -26px;
 }
 
 
-.-m-b {
+.-mb {
   margin-bottom: -26px;
 }
 
 
-.-m-r {
+.-mr {
   margin-right: -26px;
 }
 
 
-.-m-x {
+.-mx {
   margin-left: -26px;
   margin-right: -26px;
 }
 
 
-.-m-y {
+.-my {
   margin-top: -26px;
   margin-bottom: -26px;
 }
@@ -9137,33 +9137,33 @@
 }
 
 
-.m-t-50\% {
+.mt-50\% {
   margin-top: 50%;
 }
 
 
-.m-l-50\% {
+.ml-50\% {
   margin-left: 50%;
 }
 
 
-.m-r-50\% {
+.mr-50\% {
   margin-right: 50%;
 }
 
 
-.m-b-50\% {
+.mb-50\% {
   margin-bottom: 50%;
 }
 
 
-.m-x-50\% {
+.mx-50\% {
   margin-left: 50%;
   margin-right: 50%;
 }
 
 
-.m-y-50\% {
+.my-50\% {
   margin-top: 50%;
   margin-bottom: 50%;
 }
@@ -9173,33 +9173,33 @@
 }
 
 
-.-m-t-50\% {
+.-mt-50\% {
   margin-top: -50%;
 }
 
 
-.-m-l-50\% {
+.-ml-50\% {
   margin-left: -50%;
 }
 
 
-.-m-b-50\% {
+.-mb-50\% {
   margin-bottom: -50%;
 }
 
 
-.-m-r-50\% {
+.-mr-50\% {
   margin-right: -50%;
 }
 
 
-.-m-x-50\% {
+.-mx-50\% {
   margin-left: -50%;
   margin-right: -50%;
 }
 
 
-.-m-y-50\% {
+.-my-50\% {
   margin-top: -50%;
   margin-bottom: -50%;
 }
@@ -9210,33 +9210,33 @@
 }
 
 
-.m-t-auto {
+.mt-auto {
   margin-top: auto;
 }
 
 
-.m-l-auto {
+.ml-auto {
   margin-left: auto;
 }
 
 
-.m-r-auto {
+.mr-auto {
   margin-right: auto;
 }
 
 
-.m-b-auto {
+.mb-auto {
   margin-bottom: auto;
 }
 
 
-.m-x-auto {
+.mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
 
 
-.m-y-auto {
+.my-auto {
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -9247,28 +9247,28 @@
     margin: 1px;
   }
   
-  .m-t-1\@xs {
+  .mt-1\@xs {
     margin-top: 1px;
   }
   
-  .m-l-1\@xs {
+  .ml-1\@xs {
     margin-left: 1px;
   }
   
-  .m-r-1\@xs {
+  .mr-1\@xs {
     margin-right: 1px;
   }
   
-  .m-b-1\@xs {
+  .mb-1\@xs {
     margin-bottom: 1px;
   }
   
-  .m-x-1\@xs {
+  .mx-1\@xs {
     margin-left: 1px;
     margin-right: 1px;
   }
   
-  .m-y-1\@xs {
+  .my-1\@xs {
     margin-top: 1px;
     margin-bottom: 1px;
   }
@@ -9276,28 +9276,28 @@
     margin: -1px;
   }
   
-  .-m-t-1\@xs {
+  .-mt-1\@xs {
     margin-top: -1px;
   }
   
-  .-m-l-1\@xs {
+  .-ml-1\@xs {
     margin-left: -1px;
   }
   
-  .-m-b-1\@xs {
+  .-mb-1\@xs {
     margin-bottom: -1px;
   }
   
-  .-m-r-1\@xs {
+  .-mr-1\@xs {
     margin-right: -1px;
   }
   
-  .-m-x-1\@xs {
+  .-mx-1\@xs {
     margin-left: -1px;
     margin-right: -1px;
   }
   
-  .-m-y-1\@xs {
+  .-my-1\@xs {
     margin-top: -1px;
     margin-bottom: -1px;
   }
@@ -9306,28 +9306,28 @@
     margin: 2px;
   }
   
-  .m-t-2\@xs {
+  .mt-2\@xs {
     margin-top: 2px;
   }
   
-  .m-l-2\@xs {
+  .ml-2\@xs {
     margin-left: 2px;
   }
   
-  .m-r-2\@xs {
+  .mr-2\@xs {
     margin-right: 2px;
   }
   
-  .m-b-2\@xs {
+  .mb-2\@xs {
     margin-bottom: 2px;
   }
   
-  .m-x-2\@xs {
+  .mx-2\@xs {
     margin-left: 2px;
     margin-right: 2px;
   }
   
-  .m-y-2\@xs {
+  .my-2\@xs {
     margin-top: 2px;
     margin-bottom: 2px;
   }
@@ -9335,28 +9335,28 @@
     margin: -2px;
   }
   
-  .-m-t-2\@xs {
+  .-mt-2\@xs {
     margin-top: -2px;
   }
   
-  .-m-l-2\@xs {
+  .-ml-2\@xs {
     margin-left: -2px;
   }
   
-  .-m-b-2\@xs {
+  .-mb-2\@xs {
     margin-bottom: -2px;
   }
   
-  .-m-r-2\@xs {
+  .-mr-2\@xs {
     margin-right: -2px;
   }
   
-  .-m-x-2\@xs {
+  .-mx-2\@xs {
     margin-left: -2px;
     margin-right: -2px;
   }
   
-  .-m-y-2\@xs {
+  .-my-2\@xs {
     margin-top: -2px;
     margin-bottom: -2px;
   }
@@ -9365,28 +9365,28 @@
     margin: 3px;
   }
   
-  .m-t-3\@xs {
+  .mt-3\@xs {
     margin-top: 3px;
   }
   
-  .m-l-3\@xs {
+  .ml-3\@xs {
     margin-left: 3px;
   }
   
-  .m-r-3\@xs {
+  .mr-3\@xs {
     margin-right: 3px;
   }
   
-  .m-b-3\@xs {
+  .mb-3\@xs {
     margin-bottom: 3px;
   }
   
-  .m-x-3\@xs {
+  .mx-3\@xs {
     margin-left: 3px;
     margin-right: 3px;
   }
   
-  .m-y-3\@xs {
+  .my-3\@xs {
     margin-top: 3px;
     margin-bottom: 3px;
   }
@@ -9394,28 +9394,28 @@
     margin: -3px;
   }
   
-  .-m-t-3\@xs {
+  .-mt-3\@xs {
     margin-top: -3px;
   }
   
-  .-m-l-3\@xs {
+  .-ml-3\@xs {
     margin-left: -3px;
   }
   
-  .-m-b-3\@xs {
+  .-mb-3\@xs {
     margin-bottom: -3px;
   }
   
-  .-m-r-3\@xs {
+  .-mr-3\@xs {
     margin-right: -3px;
   }
   
-  .-m-x-3\@xs {
+  .-mx-3\@xs {
     margin-left: -3px;
     margin-right: -3px;
   }
   
-  .-m-y-3\@xs {
+  .-my-3\@xs {
     margin-top: -3px;
     margin-bottom: -3px;
   }
@@ -9424,28 +9424,28 @@
     margin: 4px;
   }
   
-  .m-t-4\@xs {
+  .mt-4\@xs {
     margin-top: 4px;
   }
   
-  .m-l-4\@xs {
+  .ml-4\@xs {
     margin-left: 4px;
   }
   
-  .m-r-4\@xs {
+  .mr-4\@xs {
     margin-right: 4px;
   }
   
-  .m-b-4\@xs {
+  .mb-4\@xs {
     margin-bottom: 4px;
   }
   
-  .m-x-4\@xs {
+  .mx-4\@xs {
     margin-left: 4px;
     margin-right: 4px;
   }
   
-  .m-y-4\@xs {
+  .my-4\@xs {
     margin-top: 4px;
     margin-bottom: 4px;
   }
@@ -9453,28 +9453,28 @@
     margin: -4px;
   }
   
-  .-m-t-4\@xs {
+  .-mt-4\@xs {
     margin-top: -4px;
   }
   
-  .-m-l-4\@xs {
+  .-ml-4\@xs {
     margin-left: -4px;
   }
   
-  .-m-b-4\@xs {
+  .-mb-4\@xs {
     margin-bottom: -4px;
   }
   
-  .-m-r-4\@xs {
+  .-mr-4\@xs {
     margin-right: -4px;
   }
   
-  .-m-x-4\@xs {
+  .-mx-4\@xs {
     margin-left: -4px;
     margin-right: -4px;
   }
   
-  .-m-y-4\@xs {
+  .-my-4\@xs {
     margin-top: -4px;
     margin-bottom: -4px;
   }
@@ -9483,28 +9483,28 @@
     margin: 26px;
   }
   
-  .m-t\@xs {
+  .mt\@xs {
     margin-top: 26px;
   }
   
-  .m-l\@xs {
+  .ml\@xs {
     margin-left: 26px;
   }
   
-  .m-r\@xs {
+  .mr\@xs {
     margin-right: 26px;
   }
   
-  .m-b\@xs {
+  .mb\@xs {
     margin-bottom: 26px;
   }
   
-  .m-x\@xs {
+  .mx\@xs {
     margin-left: 26px;
     margin-right: 26px;
   }
   
-  .m-y\@xs {
+  .my\@xs {
     margin-top: 26px;
     margin-bottom: 26px;
   }
@@ -9512,28 +9512,28 @@
     margin: -26px;
   }
   
-  .-m-t\@xs {
+  .-mt\@xs {
     margin-top: -26px;
   }
   
-  .-m-l\@xs {
+  .-ml\@xs {
     margin-left: -26px;
   }
   
-  .-m-b\@xs {
+  .-mb\@xs {
     margin-bottom: -26px;
   }
   
-  .-m-r\@xs {
+  .-mr\@xs {
     margin-right: -26px;
   }
   
-  .-m-x\@xs {
+  .-mx\@xs {
     margin-left: -26px;
     margin-right: -26px;
   }
   
-  .-m-y\@xs {
+  .-my\@xs {
     margin-top: -26px;
     margin-bottom: -26px;
   }
@@ -9542,28 +9542,28 @@
     margin: 50%;
   }
   
-  .m-t-50\%\@xs {
+  .mt-50\%\@xs {
     margin-top: 50%;
   }
   
-  .m-l-50\%\@xs {
+  .ml-50\%\@xs {
     margin-left: 50%;
   }
   
-  .m-r-50\%\@xs {
+  .mr-50\%\@xs {
     margin-right: 50%;
   }
   
-  .m-b-50\%\@xs {
+  .mb-50\%\@xs {
     margin-bottom: 50%;
   }
   
-  .m-x-50\%\@xs {
+  .mx-50\%\@xs {
     margin-left: 50%;
     margin-right: 50%;
   }
   
-  .m-y-50\%\@xs {
+  .my-50\%\@xs {
     margin-top: 50%;
     margin-bottom: 50%;
   }
@@ -9571,28 +9571,28 @@
     margin: -50%;
   }
   
-  .-m-t-50\%\@xs {
+  .-mt-50\%\@xs {
     margin-top: -50%;
   }
   
-  .-m-l-50\%\@xs {
+  .-ml-50\%\@xs {
     margin-left: -50%;
   }
   
-  .-m-b-50\%\@xs {
+  .-mb-50\%\@xs {
     margin-bottom: -50%;
   }
   
-  .-m-r-50\%\@xs {
+  .-mr-50\%\@xs {
     margin-right: -50%;
   }
   
-  .-m-x-50\%\@xs {
+  .-mx-50\%\@xs {
     margin-left: -50%;
     margin-right: -50%;
   }
   
-  .-m-y-50\%\@xs {
+  .-my-50\%\@xs {
     margin-top: -50%;
     margin-bottom: -50%;
   }
@@ -9601,28 +9601,28 @@
     margin: auto;
   }
   
-  .m-t-auto\@xs {
+  .mt-auto\@xs {
     margin-top: auto;
   }
   
-  .m-l-auto\@xs {
+  .ml-auto\@xs {
     margin-left: auto;
   }
   
-  .m-r-auto\@xs {
+  .mr-auto\@xs {
     margin-right: auto;
   }
   
-  .m-b-auto\@xs {
+  .mb-auto\@xs {
     margin-bottom: auto;
   }
   
-  .m-x-auto\@xs {
+  .mx-auto\@xs {
     margin-left: auto;
     margin-right: auto;
   }
   
-  .m-y-auto\@xs {
+  .my-auto\@xs {
     margin-top: auto;
     margin-bottom: auto;
   }
@@ -9634,28 +9634,28 @@
     margin: 1px;
   }
   
-  .m-t-1\@sm {
+  .mt-1\@sm {
     margin-top: 1px;
   }
   
-  .m-l-1\@sm {
+  .ml-1\@sm {
     margin-left: 1px;
   }
   
-  .m-r-1\@sm {
+  .mr-1\@sm {
     margin-right: 1px;
   }
   
-  .m-b-1\@sm {
+  .mb-1\@sm {
     margin-bottom: 1px;
   }
   
-  .m-x-1\@sm {
+  .mx-1\@sm {
     margin-left: 1px;
     margin-right: 1px;
   }
   
-  .m-y-1\@sm {
+  .my-1\@sm {
     margin-top: 1px;
     margin-bottom: 1px;
   }
@@ -9663,28 +9663,28 @@
     margin: -1px;
   }
   
-  .-m-t-1\@sm {
+  .-mt-1\@sm {
     margin-top: -1px;
   }
   
-  .-m-l-1\@sm {
+  .-ml-1\@sm {
     margin-left: -1px;
   }
   
-  .-m-b-1\@sm {
+  .-mb-1\@sm {
     margin-bottom: -1px;
   }
   
-  .-m-r-1\@sm {
+  .-mr-1\@sm {
     margin-right: -1px;
   }
   
-  .-m-x-1\@sm {
+  .-mx-1\@sm {
     margin-left: -1px;
     margin-right: -1px;
   }
   
-  .-m-y-1\@sm {
+  .-my-1\@sm {
     margin-top: -1px;
     margin-bottom: -1px;
   }
@@ -9693,28 +9693,28 @@
     margin: 2px;
   }
   
-  .m-t-2\@sm {
+  .mt-2\@sm {
     margin-top: 2px;
   }
   
-  .m-l-2\@sm {
+  .ml-2\@sm {
     margin-left: 2px;
   }
   
-  .m-r-2\@sm {
+  .mr-2\@sm {
     margin-right: 2px;
   }
   
-  .m-b-2\@sm {
+  .mb-2\@sm {
     margin-bottom: 2px;
   }
   
-  .m-x-2\@sm {
+  .mx-2\@sm {
     margin-left: 2px;
     margin-right: 2px;
   }
   
-  .m-y-2\@sm {
+  .my-2\@sm {
     margin-top: 2px;
     margin-bottom: 2px;
   }
@@ -9722,28 +9722,28 @@
     margin: -2px;
   }
   
-  .-m-t-2\@sm {
+  .-mt-2\@sm {
     margin-top: -2px;
   }
   
-  .-m-l-2\@sm {
+  .-ml-2\@sm {
     margin-left: -2px;
   }
   
-  .-m-b-2\@sm {
+  .-mb-2\@sm {
     margin-bottom: -2px;
   }
   
-  .-m-r-2\@sm {
+  .-mr-2\@sm {
     margin-right: -2px;
   }
   
-  .-m-x-2\@sm {
+  .-mx-2\@sm {
     margin-left: -2px;
     margin-right: -2px;
   }
   
-  .-m-y-2\@sm {
+  .-my-2\@sm {
     margin-top: -2px;
     margin-bottom: -2px;
   }
@@ -9752,28 +9752,28 @@
     margin: 3px;
   }
   
-  .m-t-3\@sm {
+  .mt-3\@sm {
     margin-top: 3px;
   }
   
-  .m-l-3\@sm {
+  .ml-3\@sm {
     margin-left: 3px;
   }
   
-  .m-r-3\@sm {
+  .mr-3\@sm {
     margin-right: 3px;
   }
   
-  .m-b-3\@sm {
+  .mb-3\@sm {
     margin-bottom: 3px;
   }
   
-  .m-x-3\@sm {
+  .mx-3\@sm {
     margin-left: 3px;
     margin-right: 3px;
   }
   
-  .m-y-3\@sm {
+  .my-3\@sm {
     margin-top: 3px;
     margin-bottom: 3px;
   }
@@ -9781,28 +9781,28 @@
     margin: -3px;
   }
   
-  .-m-t-3\@sm {
+  .-mt-3\@sm {
     margin-top: -3px;
   }
   
-  .-m-l-3\@sm {
+  .-ml-3\@sm {
     margin-left: -3px;
   }
   
-  .-m-b-3\@sm {
+  .-mb-3\@sm {
     margin-bottom: -3px;
   }
   
-  .-m-r-3\@sm {
+  .-mr-3\@sm {
     margin-right: -3px;
   }
   
-  .-m-x-3\@sm {
+  .-mx-3\@sm {
     margin-left: -3px;
     margin-right: -3px;
   }
   
-  .-m-y-3\@sm {
+  .-my-3\@sm {
     margin-top: -3px;
     margin-bottom: -3px;
   }
@@ -9811,28 +9811,28 @@
     margin: 4px;
   }
   
-  .m-t-4\@sm {
+  .mt-4\@sm {
     margin-top: 4px;
   }
   
-  .m-l-4\@sm {
+  .ml-4\@sm {
     margin-left: 4px;
   }
   
-  .m-r-4\@sm {
+  .mr-4\@sm {
     margin-right: 4px;
   }
   
-  .m-b-4\@sm {
+  .mb-4\@sm {
     margin-bottom: 4px;
   }
   
-  .m-x-4\@sm {
+  .mx-4\@sm {
     margin-left: 4px;
     margin-right: 4px;
   }
   
-  .m-y-4\@sm {
+  .my-4\@sm {
     margin-top: 4px;
     margin-bottom: 4px;
   }
@@ -9840,28 +9840,28 @@
     margin: -4px;
   }
   
-  .-m-t-4\@sm {
+  .-mt-4\@sm {
     margin-top: -4px;
   }
   
-  .-m-l-4\@sm {
+  .-ml-4\@sm {
     margin-left: -4px;
   }
   
-  .-m-b-4\@sm {
+  .-mb-4\@sm {
     margin-bottom: -4px;
   }
   
-  .-m-r-4\@sm {
+  .-mr-4\@sm {
     margin-right: -4px;
   }
   
-  .-m-x-4\@sm {
+  .-mx-4\@sm {
     margin-left: -4px;
     margin-right: -4px;
   }
   
-  .-m-y-4\@sm {
+  .-my-4\@sm {
     margin-top: -4px;
     margin-bottom: -4px;
   }
@@ -9870,28 +9870,28 @@
     margin: 26px;
   }
   
-  .m-t\@sm {
+  .mt\@sm {
     margin-top: 26px;
   }
   
-  .m-l\@sm {
+  .ml\@sm {
     margin-left: 26px;
   }
   
-  .m-r\@sm {
+  .mr\@sm {
     margin-right: 26px;
   }
   
-  .m-b\@sm {
+  .mb\@sm {
     margin-bottom: 26px;
   }
   
-  .m-x\@sm {
+  .mx\@sm {
     margin-left: 26px;
     margin-right: 26px;
   }
   
-  .m-y\@sm {
+  .my\@sm {
     margin-top: 26px;
     margin-bottom: 26px;
   }
@@ -9899,28 +9899,28 @@
     margin: -26px;
   }
   
-  .-m-t\@sm {
+  .-mt\@sm {
     margin-top: -26px;
   }
   
-  .-m-l\@sm {
+  .-ml\@sm {
     margin-left: -26px;
   }
   
-  .-m-b\@sm {
+  .-mb\@sm {
     margin-bottom: -26px;
   }
   
-  .-m-r\@sm {
+  .-mr\@sm {
     margin-right: -26px;
   }
   
-  .-m-x\@sm {
+  .-mx\@sm {
     margin-left: -26px;
     margin-right: -26px;
   }
   
-  .-m-y\@sm {
+  .-my\@sm {
     margin-top: -26px;
     margin-bottom: -26px;
   }
@@ -9929,28 +9929,28 @@
     margin: 50%;
   }
   
-  .m-t-50\%\@sm {
+  .mt-50\%\@sm {
     margin-top: 50%;
   }
   
-  .m-l-50\%\@sm {
+  .ml-50\%\@sm {
     margin-left: 50%;
   }
   
-  .m-r-50\%\@sm {
+  .mr-50\%\@sm {
     margin-right: 50%;
   }
   
-  .m-b-50\%\@sm {
+  .mb-50\%\@sm {
     margin-bottom: 50%;
   }
   
-  .m-x-50\%\@sm {
+  .mx-50\%\@sm {
     margin-left: 50%;
     margin-right: 50%;
   }
   
-  .m-y-50\%\@sm {
+  .my-50\%\@sm {
     margin-top: 50%;
     margin-bottom: 50%;
   }
@@ -9958,28 +9958,28 @@
     margin: -50%;
   }
   
-  .-m-t-50\%\@sm {
+  .-mt-50\%\@sm {
     margin-top: -50%;
   }
   
-  .-m-l-50\%\@sm {
+  .-ml-50\%\@sm {
     margin-left: -50%;
   }
   
-  .-m-b-50\%\@sm {
+  .-mb-50\%\@sm {
     margin-bottom: -50%;
   }
   
-  .-m-r-50\%\@sm {
+  .-mr-50\%\@sm {
     margin-right: -50%;
   }
   
-  .-m-x-50\%\@sm {
+  .-mx-50\%\@sm {
     margin-left: -50%;
     margin-right: -50%;
   }
   
-  .-m-y-50\%\@sm {
+  .-my-50\%\@sm {
     margin-top: -50%;
     margin-bottom: -50%;
   }
@@ -9988,28 +9988,28 @@
     margin: auto;
   }
   
-  .m-t-auto\@sm {
+  .mt-auto\@sm {
     margin-top: auto;
   }
   
-  .m-l-auto\@sm {
+  .ml-auto\@sm {
     margin-left: auto;
   }
   
-  .m-r-auto\@sm {
+  .mr-auto\@sm {
     margin-right: auto;
   }
   
-  .m-b-auto\@sm {
+  .mb-auto\@sm {
     margin-bottom: auto;
   }
   
-  .m-x-auto\@sm {
+  .mx-auto\@sm {
     margin-left: auto;
     margin-right: auto;
   }
   
-  .m-y-auto\@sm {
+  .my-auto\@sm {
     margin-top: auto;
     margin-bottom: auto;
   }
@@ -10021,28 +10021,28 @@
     margin: 1px;
   }
   
-  .m-t-1\@md {
+  .mt-1\@md {
     margin-top: 1px;
   }
   
-  .m-l-1\@md {
+  .ml-1\@md {
     margin-left: 1px;
   }
   
-  .m-r-1\@md {
+  .mr-1\@md {
     margin-right: 1px;
   }
   
-  .m-b-1\@md {
+  .mb-1\@md {
     margin-bottom: 1px;
   }
   
-  .m-x-1\@md {
+  .mx-1\@md {
     margin-left: 1px;
     margin-right: 1px;
   }
   
-  .m-y-1\@md {
+  .my-1\@md {
     margin-top: 1px;
     margin-bottom: 1px;
   }
@@ -10050,28 +10050,28 @@
     margin: -1px;
   }
   
-  .-m-t-1\@md {
+  .-mt-1\@md {
     margin-top: -1px;
   }
   
-  .-m-l-1\@md {
+  .-ml-1\@md {
     margin-left: -1px;
   }
   
-  .-m-b-1\@md {
+  .-mb-1\@md {
     margin-bottom: -1px;
   }
   
-  .-m-r-1\@md {
+  .-mr-1\@md {
     margin-right: -1px;
   }
   
-  .-m-x-1\@md {
+  .-mx-1\@md {
     margin-left: -1px;
     margin-right: -1px;
   }
   
-  .-m-y-1\@md {
+  .-my-1\@md {
     margin-top: -1px;
     margin-bottom: -1px;
   }
@@ -10080,28 +10080,28 @@
     margin: 2px;
   }
   
-  .m-t-2\@md {
+  .mt-2\@md {
     margin-top: 2px;
   }
   
-  .m-l-2\@md {
+  .ml-2\@md {
     margin-left: 2px;
   }
   
-  .m-r-2\@md {
+  .mr-2\@md {
     margin-right: 2px;
   }
   
-  .m-b-2\@md {
+  .mb-2\@md {
     margin-bottom: 2px;
   }
   
-  .m-x-2\@md {
+  .mx-2\@md {
     margin-left: 2px;
     margin-right: 2px;
   }
   
-  .m-y-2\@md {
+  .my-2\@md {
     margin-top: 2px;
     margin-bottom: 2px;
   }
@@ -10109,28 +10109,28 @@
     margin: -2px;
   }
   
-  .-m-t-2\@md {
+  .-mt-2\@md {
     margin-top: -2px;
   }
   
-  .-m-l-2\@md {
+  .-ml-2\@md {
     margin-left: -2px;
   }
   
-  .-m-b-2\@md {
+  .-mb-2\@md {
     margin-bottom: -2px;
   }
   
-  .-m-r-2\@md {
+  .-mr-2\@md {
     margin-right: -2px;
   }
   
-  .-m-x-2\@md {
+  .-mx-2\@md {
     margin-left: -2px;
     margin-right: -2px;
   }
   
-  .-m-y-2\@md {
+  .-my-2\@md {
     margin-top: -2px;
     margin-bottom: -2px;
   }
@@ -10139,28 +10139,28 @@
     margin: 3px;
   }
   
-  .m-t-3\@md {
+  .mt-3\@md {
     margin-top: 3px;
   }
   
-  .m-l-3\@md {
+  .ml-3\@md {
     margin-left: 3px;
   }
   
-  .m-r-3\@md {
+  .mr-3\@md {
     margin-right: 3px;
   }
   
-  .m-b-3\@md {
+  .mb-3\@md {
     margin-bottom: 3px;
   }
   
-  .m-x-3\@md {
+  .mx-3\@md {
     margin-left: 3px;
     margin-right: 3px;
   }
   
-  .m-y-3\@md {
+  .my-3\@md {
     margin-top: 3px;
     margin-bottom: 3px;
   }
@@ -10168,28 +10168,28 @@
     margin: -3px;
   }
   
-  .-m-t-3\@md {
+  .-mt-3\@md {
     margin-top: -3px;
   }
   
-  .-m-l-3\@md {
+  .-ml-3\@md {
     margin-left: -3px;
   }
   
-  .-m-b-3\@md {
+  .-mb-3\@md {
     margin-bottom: -3px;
   }
   
-  .-m-r-3\@md {
+  .-mr-3\@md {
     margin-right: -3px;
   }
   
-  .-m-x-3\@md {
+  .-mx-3\@md {
     margin-left: -3px;
     margin-right: -3px;
   }
   
-  .-m-y-3\@md {
+  .-my-3\@md {
     margin-top: -3px;
     margin-bottom: -3px;
   }
@@ -10198,28 +10198,28 @@
     margin: 4px;
   }
   
-  .m-t-4\@md {
+  .mt-4\@md {
     margin-top: 4px;
   }
   
-  .m-l-4\@md {
+  .ml-4\@md {
     margin-left: 4px;
   }
   
-  .m-r-4\@md {
+  .mr-4\@md {
     margin-right: 4px;
   }
   
-  .m-b-4\@md {
+  .mb-4\@md {
     margin-bottom: 4px;
   }
   
-  .m-x-4\@md {
+  .mx-4\@md {
     margin-left: 4px;
     margin-right: 4px;
   }
   
-  .m-y-4\@md {
+  .my-4\@md {
     margin-top: 4px;
     margin-bottom: 4px;
   }
@@ -10227,28 +10227,28 @@
     margin: -4px;
   }
   
-  .-m-t-4\@md {
+  .-mt-4\@md {
     margin-top: -4px;
   }
   
-  .-m-l-4\@md {
+  .-ml-4\@md {
     margin-left: -4px;
   }
   
-  .-m-b-4\@md {
+  .-mb-4\@md {
     margin-bottom: -4px;
   }
   
-  .-m-r-4\@md {
+  .-mr-4\@md {
     margin-right: -4px;
   }
   
-  .-m-x-4\@md {
+  .-mx-4\@md {
     margin-left: -4px;
     margin-right: -4px;
   }
   
-  .-m-y-4\@md {
+  .-my-4\@md {
     margin-top: -4px;
     margin-bottom: -4px;
   }
@@ -10257,28 +10257,28 @@
     margin: 26px;
   }
   
-  .m-t\@md {
+  .mt\@md {
     margin-top: 26px;
   }
   
-  .m-l\@md {
+  .ml\@md {
     margin-left: 26px;
   }
   
-  .m-r\@md {
+  .mr\@md {
     margin-right: 26px;
   }
   
-  .m-b\@md {
+  .mb\@md {
     margin-bottom: 26px;
   }
   
-  .m-x\@md {
+  .mx\@md {
     margin-left: 26px;
     margin-right: 26px;
   }
   
-  .m-y\@md {
+  .my\@md {
     margin-top: 26px;
     margin-bottom: 26px;
   }
@@ -10286,28 +10286,28 @@
     margin: -26px;
   }
   
-  .-m-t\@md {
+  .-mt\@md {
     margin-top: -26px;
   }
   
-  .-m-l\@md {
+  .-ml\@md {
     margin-left: -26px;
   }
   
-  .-m-b\@md {
+  .-mb\@md {
     margin-bottom: -26px;
   }
   
-  .-m-r\@md {
+  .-mr\@md {
     margin-right: -26px;
   }
   
-  .-m-x\@md {
+  .-mx\@md {
     margin-left: -26px;
     margin-right: -26px;
   }
   
-  .-m-y\@md {
+  .-my\@md {
     margin-top: -26px;
     margin-bottom: -26px;
   }
@@ -10316,28 +10316,28 @@
     margin: 50%;
   }
   
-  .m-t-50\%\@md {
+  .mt-50\%\@md {
     margin-top: 50%;
   }
   
-  .m-l-50\%\@md {
+  .ml-50\%\@md {
     margin-left: 50%;
   }
   
-  .m-r-50\%\@md {
+  .mr-50\%\@md {
     margin-right: 50%;
   }
   
-  .m-b-50\%\@md {
+  .mb-50\%\@md {
     margin-bottom: 50%;
   }
   
-  .m-x-50\%\@md {
+  .mx-50\%\@md {
     margin-left: 50%;
     margin-right: 50%;
   }
   
-  .m-y-50\%\@md {
+  .my-50\%\@md {
     margin-top: 50%;
     margin-bottom: 50%;
   }
@@ -10345,28 +10345,28 @@
     margin: -50%;
   }
   
-  .-m-t-50\%\@md {
+  .-mt-50\%\@md {
     margin-top: -50%;
   }
   
-  .-m-l-50\%\@md {
+  .-ml-50\%\@md {
     margin-left: -50%;
   }
   
-  .-m-b-50\%\@md {
+  .-mb-50\%\@md {
     margin-bottom: -50%;
   }
   
-  .-m-r-50\%\@md {
+  .-mr-50\%\@md {
     margin-right: -50%;
   }
   
-  .-m-x-50\%\@md {
+  .-mx-50\%\@md {
     margin-left: -50%;
     margin-right: -50%;
   }
   
-  .-m-y-50\%\@md {
+  .-my-50\%\@md {
     margin-top: -50%;
     margin-bottom: -50%;
   }
@@ -10375,28 +10375,28 @@
     margin: auto;
   }
   
-  .m-t-auto\@md {
+  .mt-auto\@md {
     margin-top: auto;
   }
   
-  .m-l-auto\@md {
+  .ml-auto\@md {
     margin-left: auto;
   }
   
-  .m-r-auto\@md {
+  .mr-auto\@md {
     margin-right: auto;
   }
   
-  .m-b-auto\@md {
+  .mb-auto\@md {
     margin-bottom: auto;
   }
   
-  .m-x-auto\@md {
+  .mx-auto\@md {
     margin-left: auto;
     margin-right: auto;
   }
   
-  .m-y-auto\@md {
+  .my-auto\@md {
     margin-top: auto;
     margin-bottom: auto;
   }
@@ -10408,28 +10408,28 @@
     margin: 1px;
   }
   
-  .m-t-1\@lg {
+  .mt-1\@lg {
     margin-top: 1px;
   }
   
-  .m-l-1\@lg {
+  .ml-1\@lg {
     margin-left: 1px;
   }
   
-  .m-r-1\@lg {
+  .mr-1\@lg {
     margin-right: 1px;
   }
   
-  .m-b-1\@lg {
+  .mb-1\@lg {
     margin-bottom: 1px;
   }
   
-  .m-x-1\@lg {
+  .mx-1\@lg {
     margin-left: 1px;
     margin-right: 1px;
   }
   
-  .m-y-1\@lg {
+  .my-1\@lg {
     margin-top: 1px;
     margin-bottom: 1px;
   }
@@ -10437,28 +10437,28 @@
     margin: -1px;
   }
   
-  .-m-t-1\@lg {
+  .-mt-1\@lg {
     margin-top: -1px;
   }
   
-  .-m-l-1\@lg {
+  .-ml-1\@lg {
     margin-left: -1px;
   }
   
-  .-m-b-1\@lg {
+  .-mb-1\@lg {
     margin-bottom: -1px;
   }
   
-  .-m-r-1\@lg {
+  .-mr-1\@lg {
     margin-right: -1px;
   }
   
-  .-m-x-1\@lg {
+  .-mx-1\@lg {
     margin-left: -1px;
     margin-right: -1px;
   }
   
-  .-m-y-1\@lg {
+  .-my-1\@lg {
     margin-top: -1px;
     margin-bottom: -1px;
   }
@@ -10467,28 +10467,28 @@
     margin: 2px;
   }
   
-  .m-t-2\@lg {
+  .mt-2\@lg {
     margin-top: 2px;
   }
   
-  .m-l-2\@lg {
+  .ml-2\@lg {
     margin-left: 2px;
   }
   
-  .m-r-2\@lg {
+  .mr-2\@lg {
     margin-right: 2px;
   }
   
-  .m-b-2\@lg {
+  .mb-2\@lg {
     margin-bottom: 2px;
   }
   
-  .m-x-2\@lg {
+  .mx-2\@lg {
     margin-left: 2px;
     margin-right: 2px;
   }
   
-  .m-y-2\@lg {
+  .my-2\@lg {
     margin-top: 2px;
     margin-bottom: 2px;
   }
@@ -10496,28 +10496,28 @@
     margin: -2px;
   }
   
-  .-m-t-2\@lg {
+  .-mt-2\@lg {
     margin-top: -2px;
   }
   
-  .-m-l-2\@lg {
+  .-ml-2\@lg {
     margin-left: -2px;
   }
   
-  .-m-b-2\@lg {
+  .-mb-2\@lg {
     margin-bottom: -2px;
   }
   
-  .-m-r-2\@lg {
+  .-mr-2\@lg {
     margin-right: -2px;
   }
   
-  .-m-x-2\@lg {
+  .-mx-2\@lg {
     margin-left: -2px;
     margin-right: -2px;
   }
   
-  .-m-y-2\@lg {
+  .-my-2\@lg {
     margin-top: -2px;
     margin-bottom: -2px;
   }
@@ -10526,28 +10526,28 @@
     margin: 3px;
   }
   
-  .m-t-3\@lg {
+  .mt-3\@lg {
     margin-top: 3px;
   }
   
-  .m-l-3\@lg {
+  .ml-3\@lg {
     margin-left: 3px;
   }
   
-  .m-r-3\@lg {
+  .mr-3\@lg {
     margin-right: 3px;
   }
   
-  .m-b-3\@lg {
+  .mb-3\@lg {
     margin-bottom: 3px;
   }
   
-  .m-x-3\@lg {
+  .mx-3\@lg {
     margin-left: 3px;
     margin-right: 3px;
   }
   
-  .m-y-3\@lg {
+  .my-3\@lg {
     margin-top: 3px;
     margin-bottom: 3px;
   }
@@ -10555,28 +10555,28 @@
     margin: -3px;
   }
   
-  .-m-t-3\@lg {
+  .-mt-3\@lg {
     margin-top: -3px;
   }
   
-  .-m-l-3\@lg {
+  .-ml-3\@lg {
     margin-left: -3px;
   }
   
-  .-m-b-3\@lg {
+  .-mb-3\@lg {
     margin-bottom: -3px;
   }
   
-  .-m-r-3\@lg {
+  .-mr-3\@lg {
     margin-right: -3px;
   }
   
-  .-m-x-3\@lg {
+  .-mx-3\@lg {
     margin-left: -3px;
     margin-right: -3px;
   }
   
-  .-m-y-3\@lg {
+  .-my-3\@lg {
     margin-top: -3px;
     margin-bottom: -3px;
   }
@@ -10585,28 +10585,28 @@
     margin: 4px;
   }
   
-  .m-t-4\@lg {
+  .mt-4\@lg {
     margin-top: 4px;
   }
   
-  .m-l-4\@lg {
+  .ml-4\@lg {
     margin-left: 4px;
   }
   
-  .m-r-4\@lg {
+  .mr-4\@lg {
     margin-right: 4px;
   }
   
-  .m-b-4\@lg {
+  .mb-4\@lg {
     margin-bottom: 4px;
   }
   
-  .m-x-4\@lg {
+  .mx-4\@lg {
     margin-left: 4px;
     margin-right: 4px;
   }
   
-  .m-y-4\@lg {
+  .my-4\@lg {
     margin-top: 4px;
     margin-bottom: 4px;
   }
@@ -10614,28 +10614,28 @@
     margin: -4px;
   }
   
-  .-m-t-4\@lg {
+  .-mt-4\@lg {
     margin-top: -4px;
   }
   
-  .-m-l-4\@lg {
+  .-ml-4\@lg {
     margin-left: -4px;
   }
   
-  .-m-b-4\@lg {
+  .-mb-4\@lg {
     margin-bottom: -4px;
   }
   
-  .-m-r-4\@lg {
+  .-mr-4\@lg {
     margin-right: -4px;
   }
   
-  .-m-x-4\@lg {
+  .-mx-4\@lg {
     margin-left: -4px;
     margin-right: -4px;
   }
   
-  .-m-y-4\@lg {
+  .-my-4\@lg {
     margin-top: -4px;
     margin-bottom: -4px;
   }
@@ -10644,28 +10644,28 @@
     margin: 26px;
   }
   
-  .m-t\@lg {
+  .mt\@lg {
     margin-top: 26px;
   }
   
-  .m-l\@lg {
+  .ml\@lg {
     margin-left: 26px;
   }
   
-  .m-r\@lg {
+  .mr\@lg {
     margin-right: 26px;
   }
   
-  .m-b\@lg {
+  .mb\@lg {
     margin-bottom: 26px;
   }
   
-  .m-x\@lg {
+  .mx\@lg {
     margin-left: 26px;
     margin-right: 26px;
   }
   
-  .m-y\@lg {
+  .my\@lg {
     margin-top: 26px;
     margin-bottom: 26px;
   }
@@ -10673,28 +10673,28 @@
     margin: -26px;
   }
   
-  .-m-t\@lg {
+  .-mt\@lg {
     margin-top: -26px;
   }
   
-  .-m-l\@lg {
+  .-ml\@lg {
     margin-left: -26px;
   }
   
-  .-m-b\@lg {
+  .-mb\@lg {
     margin-bottom: -26px;
   }
   
-  .-m-r\@lg {
+  .-mr\@lg {
     margin-right: -26px;
   }
   
-  .-m-x\@lg {
+  .-mx\@lg {
     margin-left: -26px;
     margin-right: -26px;
   }
   
-  .-m-y\@lg {
+  .-my\@lg {
     margin-top: -26px;
     margin-bottom: -26px;
   }
@@ -10703,28 +10703,28 @@
     margin: 50%;
   }
   
-  .m-t-50\%\@lg {
+  .mt-50\%\@lg {
     margin-top: 50%;
   }
   
-  .m-l-50\%\@lg {
+  .ml-50\%\@lg {
     margin-left: 50%;
   }
   
-  .m-r-50\%\@lg {
+  .mr-50\%\@lg {
     margin-right: 50%;
   }
   
-  .m-b-50\%\@lg {
+  .mb-50\%\@lg {
     margin-bottom: 50%;
   }
   
-  .m-x-50\%\@lg {
+  .mx-50\%\@lg {
     margin-left: 50%;
     margin-right: 50%;
   }
   
-  .m-y-50\%\@lg {
+  .my-50\%\@lg {
     margin-top: 50%;
     margin-bottom: 50%;
   }
@@ -10732,28 +10732,28 @@
     margin: -50%;
   }
   
-  .-m-t-50\%\@lg {
+  .-mt-50\%\@lg {
     margin-top: -50%;
   }
   
-  .-m-l-50\%\@lg {
+  .-ml-50\%\@lg {
     margin-left: -50%;
   }
   
-  .-m-b-50\%\@lg {
+  .-mb-50\%\@lg {
     margin-bottom: -50%;
   }
   
-  .-m-r-50\%\@lg {
+  .-mr-50\%\@lg {
     margin-right: -50%;
   }
   
-  .-m-x-50\%\@lg {
+  .-mx-50\%\@lg {
     margin-left: -50%;
     margin-right: -50%;
   }
   
-  .-m-y-50\%\@lg {
+  .-my-50\%\@lg {
     margin-top: -50%;
     margin-bottom: -50%;
   }
@@ -10762,28 +10762,28 @@
     margin: auto;
   }
   
-  .m-t-auto\@lg {
+  .mt-auto\@lg {
     margin-top: auto;
   }
   
-  .m-l-auto\@lg {
+  .ml-auto\@lg {
     margin-left: auto;
   }
   
-  .m-r-auto\@lg {
+  .mr-auto\@lg {
     margin-right: auto;
   }
   
-  .m-b-auto\@lg {
+  .mb-auto\@lg {
     margin-bottom: auto;
   }
   
-  .m-x-auto\@lg {
+  .mx-auto\@lg {
     margin-left: auto;
     margin-right: auto;
   }
   
-  .m-y-auto\@lg {
+  .my-auto\@lg {
     margin-top: auto;
     margin-bottom: auto;
   }
@@ -10795,28 +10795,28 @@
     margin: 1px;
   }
   
-  .m-t-1\@xl {
+  .mt-1\@xl {
     margin-top: 1px;
   }
   
-  .m-l-1\@xl {
+  .ml-1\@xl {
     margin-left: 1px;
   }
   
-  .m-r-1\@xl {
+  .mr-1\@xl {
     margin-right: 1px;
   }
   
-  .m-b-1\@xl {
+  .mb-1\@xl {
     margin-bottom: 1px;
   }
   
-  .m-x-1\@xl {
+  .mx-1\@xl {
     margin-left: 1px;
     margin-right: 1px;
   }
   
-  .m-y-1\@xl {
+  .my-1\@xl {
     margin-top: 1px;
     margin-bottom: 1px;
   }
@@ -10824,28 +10824,28 @@
     margin: -1px;
   }
   
-  .-m-t-1\@xl {
+  .-mt-1\@xl {
     margin-top: -1px;
   }
   
-  .-m-l-1\@xl {
+  .-ml-1\@xl {
     margin-left: -1px;
   }
   
-  .-m-b-1\@xl {
+  .-mb-1\@xl {
     margin-bottom: -1px;
   }
   
-  .-m-r-1\@xl {
+  .-mr-1\@xl {
     margin-right: -1px;
   }
   
-  .-m-x-1\@xl {
+  .-mx-1\@xl {
     margin-left: -1px;
     margin-right: -1px;
   }
   
-  .-m-y-1\@xl {
+  .-my-1\@xl {
     margin-top: -1px;
     margin-bottom: -1px;
   }
@@ -10854,28 +10854,28 @@
     margin: 2px;
   }
   
-  .m-t-2\@xl {
+  .mt-2\@xl {
     margin-top: 2px;
   }
   
-  .m-l-2\@xl {
+  .ml-2\@xl {
     margin-left: 2px;
   }
   
-  .m-r-2\@xl {
+  .mr-2\@xl {
     margin-right: 2px;
   }
   
-  .m-b-2\@xl {
+  .mb-2\@xl {
     margin-bottom: 2px;
   }
   
-  .m-x-2\@xl {
+  .mx-2\@xl {
     margin-left: 2px;
     margin-right: 2px;
   }
   
-  .m-y-2\@xl {
+  .my-2\@xl {
     margin-top: 2px;
     margin-bottom: 2px;
   }
@@ -10883,28 +10883,28 @@
     margin: -2px;
   }
   
-  .-m-t-2\@xl {
+  .-mt-2\@xl {
     margin-top: -2px;
   }
   
-  .-m-l-2\@xl {
+  .-ml-2\@xl {
     margin-left: -2px;
   }
   
-  .-m-b-2\@xl {
+  .-mb-2\@xl {
     margin-bottom: -2px;
   }
   
-  .-m-r-2\@xl {
+  .-mr-2\@xl {
     margin-right: -2px;
   }
   
-  .-m-x-2\@xl {
+  .-mx-2\@xl {
     margin-left: -2px;
     margin-right: -2px;
   }
   
-  .-m-y-2\@xl {
+  .-my-2\@xl {
     margin-top: -2px;
     margin-bottom: -2px;
   }
@@ -10913,28 +10913,28 @@
     margin: 3px;
   }
   
-  .m-t-3\@xl {
+  .mt-3\@xl {
     margin-top: 3px;
   }
   
-  .m-l-3\@xl {
+  .ml-3\@xl {
     margin-left: 3px;
   }
   
-  .m-r-3\@xl {
+  .mr-3\@xl {
     margin-right: 3px;
   }
   
-  .m-b-3\@xl {
+  .mb-3\@xl {
     margin-bottom: 3px;
   }
   
-  .m-x-3\@xl {
+  .mx-3\@xl {
     margin-left: 3px;
     margin-right: 3px;
   }
   
-  .m-y-3\@xl {
+  .my-3\@xl {
     margin-top: 3px;
     margin-bottom: 3px;
   }
@@ -10942,28 +10942,28 @@
     margin: -3px;
   }
   
-  .-m-t-3\@xl {
+  .-mt-3\@xl {
     margin-top: -3px;
   }
   
-  .-m-l-3\@xl {
+  .-ml-3\@xl {
     margin-left: -3px;
   }
   
-  .-m-b-3\@xl {
+  .-mb-3\@xl {
     margin-bottom: -3px;
   }
   
-  .-m-r-3\@xl {
+  .-mr-3\@xl {
     margin-right: -3px;
   }
   
-  .-m-x-3\@xl {
+  .-mx-3\@xl {
     margin-left: -3px;
     margin-right: -3px;
   }
   
-  .-m-y-3\@xl {
+  .-my-3\@xl {
     margin-top: -3px;
     margin-bottom: -3px;
   }
@@ -10972,28 +10972,28 @@
     margin: 4px;
   }
   
-  .m-t-4\@xl {
+  .mt-4\@xl {
     margin-top: 4px;
   }
   
-  .m-l-4\@xl {
+  .ml-4\@xl {
     margin-left: 4px;
   }
   
-  .m-r-4\@xl {
+  .mr-4\@xl {
     margin-right: 4px;
   }
   
-  .m-b-4\@xl {
+  .mb-4\@xl {
     margin-bottom: 4px;
   }
   
-  .m-x-4\@xl {
+  .mx-4\@xl {
     margin-left: 4px;
     margin-right: 4px;
   }
   
-  .m-y-4\@xl {
+  .my-4\@xl {
     margin-top: 4px;
     margin-bottom: 4px;
   }
@@ -11001,28 +11001,28 @@
     margin: -4px;
   }
   
-  .-m-t-4\@xl {
+  .-mt-4\@xl {
     margin-top: -4px;
   }
   
-  .-m-l-4\@xl {
+  .-ml-4\@xl {
     margin-left: -4px;
   }
   
-  .-m-b-4\@xl {
+  .-mb-4\@xl {
     margin-bottom: -4px;
   }
   
-  .-m-r-4\@xl {
+  .-mr-4\@xl {
     margin-right: -4px;
   }
   
-  .-m-x-4\@xl {
+  .-mx-4\@xl {
     margin-left: -4px;
     margin-right: -4px;
   }
   
-  .-m-y-4\@xl {
+  .-my-4\@xl {
     margin-top: -4px;
     margin-bottom: -4px;
   }
@@ -11031,28 +11031,28 @@
     margin: 26px;
   }
   
-  .m-t\@xl {
+  .mt\@xl {
     margin-top: 26px;
   }
   
-  .m-l\@xl {
+  .ml\@xl {
     margin-left: 26px;
   }
   
-  .m-r\@xl {
+  .mr\@xl {
     margin-right: 26px;
   }
   
-  .m-b\@xl {
+  .mb\@xl {
     margin-bottom: 26px;
   }
   
-  .m-x\@xl {
+  .mx\@xl {
     margin-left: 26px;
     margin-right: 26px;
   }
   
-  .m-y\@xl {
+  .my\@xl {
     margin-top: 26px;
     margin-bottom: 26px;
   }
@@ -11060,28 +11060,28 @@
     margin: -26px;
   }
   
-  .-m-t\@xl {
+  .-mt\@xl {
     margin-top: -26px;
   }
   
-  .-m-l\@xl {
+  .-ml\@xl {
     margin-left: -26px;
   }
   
-  .-m-b\@xl {
+  .-mb\@xl {
     margin-bottom: -26px;
   }
   
-  .-m-r\@xl {
+  .-mr\@xl {
     margin-right: -26px;
   }
   
-  .-m-x\@xl {
+  .-mx\@xl {
     margin-left: -26px;
     margin-right: -26px;
   }
   
-  .-m-y\@xl {
+  .-my\@xl {
     margin-top: -26px;
     margin-bottom: -26px;
   }
@@ -11090,28 +11090,28 @@
     margin: 50%;
   }
   
-  .m-t-50\%\@xl {
+  .mt-50\%\@xl {
     margin-top: 50%;
   }
   
-  .m-l-50\%\@xl {
+  .ml-50\%\@xl {
     margin-left: 50%;
   }
   
-  .m-r-50\%\@xl {
+  .mr-50\%\@xl {
     margin-right: 50%;
   }
   
-  .m-b-50\%\@xl {
+  .mb-50\%\@xl {
     margin-bottom: 50%;
   }
   
-  .m-x-50\%\@xl {
+  .mx-50\%\@xl {
     margin-left: 50%;
     margin-right: 50%;
   }
   
-  .m-y-50\%\@xl {
+  .my-50\%\@xl {
     margin-top: 50%;
     margin-bottom: 50%;
   }
@@ -11119,28 +11119,28 @@
     margin: -50%;
   }
   
-  .-m-t-50\%\@xl {
+  .-mt-50\%\@xl {
     margin-top: -50%;
   }
   
-  .-m-l-50\%\@xl {
+  .-ml-50\%\@xl {
     margin-left: -50%;
   }
   
-  .-m-b-50\%\@xl {
+  .-mb-50\%\@xl {
     margin-bottom: -50%;
   }
   
-  .-m-r-50\%\@xl {
+  .-mr-50\%\@xl {
     margin-right: -50%;
   }
   
-  .-m-x-50\%\@xl {
+  .-mx-50\%\@xl {
     margin-left: -50%;
     margin-right: -50%;
   }
   
-  .-m-y-50\%\@xl {
+  .-my-50\%\@xl {
     margin-top: -50%;
     margin-bottom: -50%;
   }
@@ -11149,28 +11149,28 @@
     margin: auto;
   }
   
-  .m-t-auto\@xl {
+  .mt-auto\@xl {
     margin-top: auto;
   }
   
-  .m-l-auto\@xl {
+  .ml-auto\@xl {
     margin-left: auto;
   }
   
-  .m-r-auto\@xl {
+  .mr-auto\@xl {
     margin-right: auto;
   }
   
-  .m-b-auto\@xl {
+  .mb-auto\@xl {
     margin-bottom: auto;
   }
   
-  .m-x-auto\@xl {
+  .mx-auto\@xl {
     margin-left: auto;
     margin-right: auto;
   }
   
-  .m-y-auto\@xl {
+  .my-auto\@xl {
     margin-top: auto;
     margin-bottom: auto;
   }
@@ -16097,33 +16097,33 @@
 }
 
 
-.p-t-1 {
+.pt-1 {
   padding-top: 1px;
 }
 
 
-.p-l-1 {
+.pl-1 {
   padding-left: 1px;
 }
 
 
-.p-r-1 {
+.pr-1 {
   padding-right: 1px;
 }
 
 
-.p-b-1 {
+.pb-1 {
   padding-bottom: 1px;
 }
 
 
-.p-x-1 {
+.px-1 {
   padding-left: 1px;
   padding-right: 1px;
 }
 
 
-.p-y-1 {
+.py-1 {
   padding-top: 1px;
   padding-bottom: 1px;
 }
@@ -16134,33 +16134,33 @@
 }
 
 
-.p-t-2 {
+.pt-2 {
   padding-top: 2px;
 }
 
 
-.p-l-2 {
+.pl-2 {
   padding-left: 2px;
 }
 
 
-.p-r-2 {
+.pr-2 {
   padding-right: 2px;
 }
 
 
-.p-b-2 {
+.pb-2 {
   padding-bottom: 2px;
 }
 
 
-.p-x-2 {
+.px-2 {
   padding-left: 2px;
   padding-right: 2px;
 }
 
 
-.p-y-2 {
+.py-2 {
   padding-top: 2px;
   padding-bottom: 2px;
 }
@@ -16171,33 +16171,33 @@
 }
 
 
-.p-t-3 {
+.pt-3 {
   padding-top: 3px;
 }
 
 
-.p-l-3 {
+.pl-3 {
   padding-left: 3px;
 }
 
 
-.p-r-3 {
+.pr-3 {
   padding-right: 3px;
 }
 
 
-.p-b-3 {
+.pb-3 {
   padding-bottom: 3px;
 }
 
 
-.p-x-3 {
+.px-3 {
   padding-left: 3px;
   padding-right: 3px;
 }
 
 
-.p-y-3 {
+.py-3 {
   padding-top: 3px;
   padding-bottom: 3px;
 }
@@ -16208,33 +16208,33 @@
 }
 
 
-.p-t-4 {
+.pt-4 {
   padding-top: 4px;
 }
 
 
-.p-l-4 {
+.pl-4 {
   padding-left: 4px;
 }
 
 
-.p-r-4 {
+.pr-4 {
   padding-right: 4px;
 }
 
 
-.p-b-4 {
+.pb-4 {
   padding-bottom: 4px;
 }
 
 
-.p-x-4 {
+.px-4 {
   padding-left: 4px;
   padding-right: 4px;
 }
 
 
-.p-y-4 {
+.py-4 {
   padding-top: 4px;
   padding-bottom: 4px;
 }
@@ -16245,33 +16245,33 @@
 }
 
 
-.p-t {
+.pt {
   padding-top: 26px;
 }
 
 
-.p-l {
+.pl {
   padding-left: 26px;
 }
 
 
-.p-r {
+.pr {
   padding-right: 26px;
 }
 
 
-.p-b {
+.pb {
   padding-bottom: 26px;
 }
 
 
-.p-x {
+.px {
   padding-left: 26px;
   padding-right: 26px;
 }
 
 
-.p-y {
+.py {
   padding-top: 26px;
   padding-bottom: 26px;
 }
@@ -16282,28 +16282,28 @@
     padding: 1px;
   }
   
-  .p-t-1\@xs {
+  .pt-1\@xs {
     padding-top: 1px;
   }
   
-  .p-l-1\@xs {
+  .pl-1\@xs {
     padding-left: 1px;
   }
   
-  .p-r-1\@xs {
+  .pr-1\@xs {
     padding-right: 1px;
   }
   
-  .p-b-1\@xs {
+  .pb-1\@xs {
     padding-bottom: 1px;
   }
   
-  .p-x-1\@xs {
+  .px-1\@xs {
     padding-left: 1px;
     padding-right: 1px;
   }
   
-  .p-y-1\@xs {
+  .py-1\@xs {
     padding-top: 1px;
     padding-bottom: 1px;
   }
@@ -16312,28 +16312,28 @@
     padding: 2px;
   }
   
-  .p-t-2\@xs {
+  .pt-2\@xs {
     padding-top: 2px;
   }
   
-  .p-l-2\@xs {
+  .pl-2\@xs {
     padding-left: 2px;
   }
   
-  .p-r-2\@xs {
+  .pr-2\@xs {
     padding-right: 2px;
   }
   
-  .p-b-2\@xs {
+  .pb-2\@xs {
     padding-bottom: 2px;
   }
   
-  .p-x-2\@xs {
+  .px-2\@xs {
     padding-left: 2px;
     padding-right: 2px;
   }
   
-  .p-y-2\@xs {
+  .py-2\@xs {
     padding-top: 2px;
     padding-bottom: 2px;
   }
@@ -16342,28 +16342,28 @@
     padding: 3px;
   }
   
-  .p-t-3\@xs {
+  .pt-3\@xs {
     padding-top: 3px;
   }
   
-  .p-l-3\@xs {
+  .pl-3\@xs {
     padding-left: 3px;
   }
   
-  .p-r-3\@xs {
+  .pr-3\@xs {
     padding-right: 3px;
   }
   
-  .p-b-3\@xs {
+  .pb-3\@xs {
     padding-bottom: 3px;
   }
   
-  .p-x-3\@xs {
+  .px-3\@xs {
     padding-left: 3px;
     padding-right: 3px;
   }
   
-  .p-y-3\@xs {
+  .py-3\@xs {
     padding-top: 3px;
     padding-bottom: 3px;
   }
@@ -16372,28 +16372,28 @@
     padding: 4px;
   }
   
-  .p-t-4\@xs {
+  .pt-4\@xs {
     padding-top: 4px;
   }
   
-  .p-l-4\@xs {
+  .pl-4\@xs {
     padding-left: 4px;
   }
   
-  .p-r-4\@xs {
+  .pr-4\@xs {
     padding-right: 4px;
   }
   
-  .p-b-4\@xs {
+  .pb-4\@xs {
     padding-bottom: 4px;
   }
   
-  .p-x-4\@xs {
+  .px-4\@xs {
     padding-left: 4px;
     padding-right: 4px;
   }
   
-  .p-y-4\@xs {
+  .py-4\@xs {
     padding-top: 4px;
     padding-bottom: 4px;
   }
@@ -16402,28 +16402,28 @@
     padding: 26px;
   }
   
-  .p-t\@xs {
+  .pt\@xs {
     padding-top: 26px;
   }
   
-  .p-l\@xs {
+  .pl\@xs {
     padding-left: 26px;
   }
   
-  .p-r\@xs {
+  .pr\@xs {
     padding-right: 26px;
   }
   
-  .p-b\@xs {
+  .pb\@xs {
     padding-bottom: 26px;
   }
   
-  .p-x\@xs {
+  .px\@xs {
     padding-left: 26px;
     padding-right: 26px;
   }
   
-  .p-y\@xs {
+  .py\@xs {
     padding-top: 26px;
     padding-bottom: 26px;
   }
@@ -16435,28 +16435,28 @@
     padding: 1px;
   }
   
-  .p-t-1\@sm {
+  .pt-1\@sm {
     padding-top: 1px;
   }
   
-  .p-l-1\@sm {
+  .pl-1\@sm {
     padding-left: 1px;
   }
   
-  .p-r-1\@sm {
+  .pr-1\@sm {
     padding-right: 1px;
   }
   
-  .p-b-1\@sm {
+  .pb-1\@sm {
     padding-bottom: 1px;
   }
   
-  .p-x-1\@sm {
+  .px-1\@sm {
     padding-left: 1px;
     padding-right: 1px;
   }
   
-  .p-y-1\@sm {
+  .py-1\@sm {
     padding-top: 1px;
     padding-bottom: 1px;
   }
@@ -16465,28 +16465,28 @@
     padding: 2px;
   }
   
-  .p-t-2\@sm {
+  .pt-2\@sm {
     padding-top: 2px;
   }
   
-  .p-l-2\@sm {
+  .pl-2\@sm {
     padding-left: 2px;
   }
   
-  .p-r-2\@sm {
+  .pr-2\@sm {
     padding-right: 2px;
   }
   
-  .p-b-2\@sm {
+  .pb-2\@sm {
     padding-bottom: 2px;
   }
   
-  .p-x-2\@sm {
+  .px-2\@sm {
     padding-left: 2px;
     padding-right: 2px;
   }
   
-  .p-y-2\@sm {
+  .py-2\@sm {
     padding-top: 2px;
     padding-bottom: 2px;
   }
@@ -16495,28 +16495,28 @@
     padding: 3px;
   }
   
-  .p-t-3\@sm {
+  .pt-3\@sm {
     padding-top: 3px;
   }
   
-  .p-l-3\@sm {
+  .pl-3\@sm {
     padding-left: 3px;
   }
   
-  .p-r-3\@sm {
+  .pr-3\@sm {
     padding-right: 3px;
   }
   
-  .p-b-3\@sm {
+  .pb-3\@sm {
     padding-bottom: 3px;
   }
   
-  .p-x-3\@sm {
+  .px-3\@sm {
     padding-left: 3px;
     padding-right: 3px;
   }
   
-  .p-y-3\@sm {
+  .py-3\@sm {
     padding-top: 3px;
     padding-bottom: 3px;
   }
@@ -16525,28 +16525,28 @@
     padding: 4px;
   }
   
-  .p-t-4\@sm {
+  .pt-4\@sm {
     padding-top: 4px;
   }
   
-  .p-l-4\@sm {
+  .pl-4\@sm {
     padding-left: 4px;
   }
   
-  .p-r-4\@sm {
+  .pr-4\@sm {
     padding-right: 4px;
   }
   
-  .p-b-4\@sm {
+  .pb-4\@sm {
     padding-bottom: 4px;
   }
   
-  .p-x-4\@sm {
+  .px-4\@sm {
     padding-left: 4px;
     padding-right: 4px;
   }
   
-  .p-y-4\@sm {
+  .py-4\@sm {
     padding-top: 4px;
     padding-bottom: 4px;
   }
@@ -16555,28 +16555,28 @@
     padding: 26px;
   }
   
-  .p-t\@sm {
+  .pt\@sm {
     padding-top: 26px;
   }
   
-  .p-l\@sm {
+  .pl\@sm {
     padding-left: 26px;
   }
   
-  .p-r\@sm {
+  .pr\@sm {
     padding-right: 26px;
   }
   
-  .p-b\@sm {
+  .pb\@sm {
     padding-bottom: 26px;
   }
   
-  .p-x\@sm {
+  .px\@sm {
     padding-left: 26px;
     padding-right: 26px;
   }
   
-  .p-y\@sm {
+  .py\@sm {
     padding-top: 26px;
     padding-bottom: 26px;
   }
@@ -16588,28 +16588,28 @@
     padding: 1px;
   }
   
-  .p-t-1\@md {
+  .pt-1\@md {
     padding-top: 1px;
   }
   
-  .p-l-1\@md {
+  .pl-1\@md {
     padding-left: 1px;
   }
   
-  .p-r-1\@md {
+  .pr-1\@md {
     padding-right: 1px;
   }
   
-  .p-b-1\@md {
+  .pb-1\@md {
     padding-bottom: 1px;
   }
   
-  .p-x-1\@md {
+  .px-1\@md {
     padding-left: 1px;
     padding-right: 1px;
   }
   
-  .p-y-1\@md {
+  .py-1\@md {
     padding-top: 1px;
     padding-bottom: 1px;
   }
@@ -16618,28 +16618,28 @@
     padding: 2px;
   }
   
-  .p-t-2\@md {
+  .pt-2\@md {
     padding-top: 2px;
   }
   
-  .p-l-2\@md {
+  .pl-2\@md {
     padding-left: 2px;
   }
   
-  .p-r-2\@md {
+  .pr-2\@md {
     padding-right: 2px;
   }
   
-  .p-b-2\@md {
+  .pb-2\@md {
     padding-bottom: 2px;
   }
   
-  .p-x-2\@md {
+  .px-2\@md {
     padding-left: 2px;
     padding-right: 2px;
   }
   
-  .p-y-2\@md {
+  .py-2\@md {
     padding-top: 2px;
     padding-bottom: 2px;
   }
@@ -16648,28 +16648,28 @@
     padding: 3px;
   }
   
-  .p-t-3\@md {
+  .pt-3\@md {
     padding-top: 3px;
   }
   
-  .p-l-3\@md {
+  .pl-3\@md {
     padding-left: 3px;
   }
   
-  .p-r-3\@md {
+  .pr-3\@md {
     padding-right: 3px;
   }
   
-  .p-b-3\@md {
+  .pb-3\@md {
     padding-bottom: 3px;
   }
   
-  .p-x-3\@md {
+  .px-3\@md {
     padding-left: 3px;
     padding-right: 3px;
   }
   
-  .p-y-3\@md {
+  .py-3\@md {
     padding-top: 3px;
     padding-bottom: 3px;
   }
@@ -16678,28 +16678,28 @@
     padding: 4px;
   }
   
-  .p-t-4\@md {
+  .pt-4\@md {
     padding-top: 4px;
   }
   
-  .p-l-4\@md {
+  .pl-4\@md {
     padding-left: 4px;
   }
   
-  .p-r-4\@md {
+  .pr-4\@md {
     padding-right: 4px;
   }
   
-  .p-b-4\@md {
+  .pb-4\@md {
     padding-bottom: 4px;
   }
   
-  .p-x-4\@md {
+  .px-4\@md {
     padding-left: 4px;
     padding-right: 4px;
   }
   
-  .p-y-4\@md {
+  .py-4\@md {
     padding-top: 4px;
     padding-bottom: 4px;
   }
@@ -16708,28 +16708,28 @@
     padding: 26px;
   }
   
-  .p-t\@md {
+  .pt\@md {
     padding-top: 26px;
   }
   
-  .p-l\@md {
+  .pl\@md {
     padding-left: 26px;
   }
   
-  .p-r\@md {
+  .pr\@md {
     padding-right: 26px;
   }
   
-  .p-b\@md {
+  .pb\@md {
     padding-bottom: 26px;
   }
   
-  .p-x\@md {
+  .px\@md {
     padding-left: 26px;
     padding-right: 26px;
   }
   
-  .p-y\@md {
+  .py\@md {
     padding-top: 26px;
     padding-bottom: 26px;
   }
@@ -16741,28 +16741,28 @@
     padding: 1px;
   }
   
-  .p-t-1\@lg {
+  .pt-1\@lg {
     padding-top: 1px;
   }
   
-  .p-l-1\@lg {
+  .pl-1\@lg {
     padding-left: 1px;
   }
   
-  .p-r-1\@lg {
+  .pr-1\@lg {
     padding-right: 1px;
   }
   
-  .p-b-1\@lg {
+  .pb-1\@lg {
     padding-bottom: 1px;
   }
   
-  .p-x-1\@lg {
+  .px-1\@lg {
     padding-left: 1px;
     padding-right: 1px;
   }
   
-  .p-y-1\@lg {
+  .py-1\@lg {
     padding-top: 1px;
     padding-bottom: 1px;
   }
@@ -16771,28 +16771,28 @@
     padding: 2px;
   }
   
-  .p-t-2\@lg {
+  .pt-2\@lg {
     padding-top: 2px;
   }
   
-  .p-l-2\@lg {
+  .pl-2\@lg {
     padding-left: 2px;
   }
   
-  .p-r-2\@lg {
+  .pr-2\@lg {
     padding-right: 2px;
   }
   
-  .p-b-2\@lg {
+  .pb-2\@lg {
     padding-bottom: 2px;
   }
   
-  .p-x-2\@lg {
+  .px-2\@lg {
     padding-left: 2px;
     padding-right: 2px;
   }
   
-  .p-y-2\@lg {
+  .py-2\@lg {
     padding-top: 2px;
     padding-bottom: 2px;
   }
@@ -16801,28 +16801,28 @@
     padding: 3px;
   }
   
-  .p-t-3\@lg {
+  .pt-3\@lg {
     padding-top: 3px;
   }
   
-  .p-l-3\@lg {
+  .pl-3\@lg {
     padding-left: 3px;
   }
   
-  .p-r-3\@lg {
+  .pr-3\@lg {
     padding-right: 3px;
   }
   
-  .p-b-3\@lg {
+  .pb-3\@lg {
     padding-bottom: 3px;
   }
   
-  .p-x-3\@lg {
+  .px-3\@lg {
     padding-left: 3px;
     padding-right: 3px;
   }
   
-  .p-y-3\@lg {
+  .py-3\@lg {
     padding-top: 3px;
     padding-bottom: 3px;
   }
@@ -16831,28 +16831,28 @@
     padding: 4px;
   }
   
-  .p-t-4\@lg {
+  .pt-4\@lg {
     padding-top: 4px;
   }
   
-  .p-l-4\@lg {
+  .pl-4\@lg {
     padding-left: 4px;
   }
   
-  .p-r-4\@lg {
+  .pr-4\@lg {
     padding-right: 4px;
   }
   
-  .p-b-4\@lg {
+  .pb-4\@lg {
     padding-bottom: 4px;
   }
   
-  .p-x-4\@lg {
+  .px-4\@lg {
     padding-left: 4px;
     padding-right: 4px;
   }
   
-  .p-y-4\@lg {
+  .py-4\@lg {
     padding-top: 4px;
     padding-bottom: 4px;
   }
@@ -16861,28 +16861,28 @@
     padding: 26px;
   }
   
-  .p-t\@lg {
+  .pt\@lg {
     padding-top: 26px;
   }
   
-  .p-l\@lg {
+  .pl\@lg {
     padding-left: 26px;
   }
   
-  .p-r\@lg {
+  .pr\@lg {
     padding-right: 26px;
   }
   
-  .p-b\@lg {
+  .pb\@lg {
     padding-bottom: 26px;
   }
   
-  .p-x\@lg {
+  .px\@lg {
     padding-left: 26px;
     padding-right: 26px;
   }
   
-  .p-y\@lg {
+  .py\@lg {
     padding-top: 26px;
     padding-bottom: 26px;
   }
@@ -16894,28 +16894,28 @@
     padding: 1px;
   }
   
-  .p-t-1\@xl {
+  .pt-1\@xl {
     padding-top: 1px;
   }
   
-  .p-l-1\@xl {
+  .pl-1\@xl {
     padding-left: 1px;
   }
   
-  .p-r-1\@xl {
+  .pr-1\@xl {
     padding-right: 1px;
   }
   
-  .p-b-1\@xl {
+  .pb-1\@xl {
     padding-bottom: 1px;
   }
   
-  .p-x-1\@xl {
+  .px-1\@xl {
     padding-left: 1px;
     padding-right: 1px;
   }
   
-  .p-y-1\@xl {
+  .py-1\@xl {
     padding-top: 1px;
     padding-bottom: 1px;
   }
@@ -16924,28 +16924,28 @@
     padding: 2px;
   }
   
-  .p-t-2\@xl {
+  .pt-2\@xl {
     padding-top: 2px;
   }
   
-  .p-l-2\@xl {
+  .pl-2\@xl {
     padding-left: 2px;
   }
   
-  .p-r-2\@xl {
+  .pr-2\@xl {
     padding-right: 2px;
   }
   
-  .p-b-2\@xl {
+  .pb-2\@xl {
     padding-bottom: 2px;
   }
   
-  .p-x-2\@xl {
+  .px-2\@xl {
     padding-left: 2px;
     padding-right: 2px;
   }
   
-  .p-y-2\@xl {
+  .py-2\@xl {
     padding-top: 2px;
     padding-bottom: 2px;
   }
@@ -16954,28 +16954,28 @@
     padding: 3px;
   }
   
-  .p-t-3\@xl {
+  .pt-3\@xl {
     padding-top: 3px;
   }
   
-  .p-l-3\@xl {
+  .pl-3\@xl {
     padding-left: 3px;
   }
   
-  .p-r-3\@xl {
+  .pr-3\@xl {
     padding-right: 3px;
   }
   
-  .p-b-3\@xl {
+  .pb-3\@xl {
     padding-bottom: 3px;
   }
   
-  .p-x-3\@xl {
+  .px-3\@xl {
     padding-left: 3px;
     padding-right: 3px;
   }
   
-  .p-y-3\@xl {
+  .py-3\@xl {
     padding-top: 3px;
     padding-bottom: 3px;
   }
@@ -16984,28 +16984,28 @@
     padding: 4px;
   }
   
-  .p-t-4\@xl {
+  .pt-4\@xl {
     padding-top: 4px;
   }
   
-  .p-l-4\@xl {
+  .pl-4\@xl {
     padding-left: 4px;
   }
   
-  .p-r-4\@xl {
+  .pr-4\@xl {
     padding-right: 4px;
   }
   
-  .p-b-4\@xl {
+  .pb-4\@xl {
     padding-bottom: 4px;
   }
   
-  .p-x-4\@xl {
+  .px-4\@xl {
     padding-left: 4px;
     padding-right: 4px;
   }
   
-  .p-y-4\@xl {
+  .py-4\@xl {
     padding-top: 4px;
     padding-bottom: 4px;
   }
@@ -17014,28 +17014,28 @@
     padding: 26px;
   }
   
-  .p-t\@xl {
+  .pt\@xl {
     padding-top: 26px;
   }
   
-  .p-l\@xl {
+  .pl\@xl {
     padding-left: 26px;
   }
   
-  .p-r\@xl {
+  .pr\@xl {
     padding-right: 26px;
   }
   
-  .p-b\@xl {
+  .pb\@xl {
     padding-bottom: 26px;
   }
   
-  .p-x\@xl {
+  .px\@xl {
     padding-left: 26px;
     padding-right: 26px;
   }
   
-  .p-y\@xl {
+  .py\@xl {
     padding-top: 26px;
     padding-bottom: 26px;
   }

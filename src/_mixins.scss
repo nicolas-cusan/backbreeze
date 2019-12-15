@@ -102,67 +102,67 @@
 
     @if $directional and not $is-border-radius {
       #{$parent}
-        .#{$bb-prefix}#{$name}-t#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$bb-prefix}#{$name}t#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-top}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name}-l#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$bb-prefix}#{$name}l#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-left}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name}-r#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$bb-prefix}#{$name}r#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-right}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name}-b#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$bb-prefix}#{$name}b#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-bottom}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name}-x#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$bb-prefix}#{$name}x#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-left}: #{$val};
         #{$prop-right}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name}-y#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$bb-prefix}#{$name}y#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-top}: #{$val};
         #{$prop-bottom}: #{$val};
       }
     } @else if $is-border-radius {
       #{$parent}
-        .#{$bb-prefix}#{$name}-t#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$bb-prefix}#{$name}t#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-top-left}: #{$val};
         #{$prop-top-right}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name}-l#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$bb-prefix}#{$name}l#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-top-left}: #{$val};
         #{$prop-bottom-left}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name}-r#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$bb-prefix}#{$name}r#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-top-right}: #{$val};
         #{$prop-bottom-right)}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name}-b#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$bb-prefix}#{$name}b#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-bottom-left}: #{$val};
         #{$prop-bottom-right)}: #{$val};
       }
 
       #{$parent}
-        .#{$bb-prefix}#{$name}-tl#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$bb-prefix}#{$name}tl#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-top-left}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name}-tr#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$bb-prefix}#{$name}tr#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-top-right}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name}-bl#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$bb-prefix}#{$name}bl#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-bottom-left}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name}-br#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$bb-prefix}#{$name}br#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-bottom-right)}: #{$val};
       }
     }
@@ -180,28 +180,28 @@
       $negative-key
     {
       #{$parent}
-        .#{$name-negative}-t#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$name-negative}t#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-top}: -#{$val};
       }
       #{$parent}
-        .#{$name-negative}-l#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$name-negative}l#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-left}: -#{$val};
       }
       #{$parent}
-        .#{$name-negative}-b#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$name-negative}b#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-bottom}: -#{$val};
       }
       #{$parent}
-        .#{$name-negative}-r#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$name-negative}r#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-right}: -#{$val};
       }
       #{$parent}
-        .#{$name-negative}-x#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$name-negative}x#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-left}: -#{$val};
         #{$prop-right}: -#{$val};
       }
       #{$parent}
-        .#{$name-negative}-y#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$name-negative}y#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-top}: -#{$val};
         #{$prop-bottom}: -#{$val};
       }
