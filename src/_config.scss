@@ -48,8 +48,9 @@ $bb-spacing: (
 ) !default;
 
 $bb-colors: (
-  'white': '#fff',
-  'black': '#000'
+  'white': #fff,
+  'black': #000,
+  'current': currentColor
 ) !default;
 
 // Property-driven
