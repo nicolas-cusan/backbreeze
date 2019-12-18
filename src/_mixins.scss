@@ -60,13 +60,13 @@
 ) {
   $bp-name: if(str-length($bp-name) > 0, '#{\@}#{$bp-name}', '');
   $name-negative: if($bb-prefix, '-#{$bb-prefix}#{$name}', '-#{$name}');
-  $pseudo: if($pseudo, ':#{$pseudo}', '');
-  $pseudo-name: if($pseudo, '#{\:}#{$pseudo}', '');
 
-  // Group
+  $pseudo-name: if($pseudo, '#{\:}#{$pseudo}', '');
+  $pseudo: if($pseudo, ':#{$pseudo}', '');
+
   $parent: if($pseudo == ':group-hover', '.group:hover', '');
-  $pseudo-name: if($pseudo == ':group-hover', '#{\:}group-hover', $pseudo);
-  $pseudo: if($pseudo == ':group-hover', '', '');
+  $pseudo-name: if($pseudo == ':group-hover', '#{\:}group-hover', $pseudo-name);
+  $pseudo: if($pseudo == ':group-hover', '', $pseudo);
 
   // Directional props
   $prop-top: bb-insert-direction($prop, 'top');
@@ -94,6 +94,8 @@
         @warn '`Value `#{str-slice($key, 2)}: #{$val}` for property `#{$prop}` is negative. Negative values for `#{$prop}` are automatically generated. Please remove `#{str-slice($key, 2)}: #{$val}` for `#{$prop}`.';
       }
     } @else {
+      // @debug $pseudo;
+      // @debug $pseudo-name;
       #{$parent}
         .#{$bb-prefix}#{$name}#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop}: #{$val};

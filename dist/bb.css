@@ -1159,33 +1159,53 @@
 }
 
 
-.bgc-white:hover {
+.bgc-current {
+  background-color: currentColor;
+}
+
+
+.bgc-white\:hover:hover {
   background-color: #fff;
 }
 
 
-.bgc-black:hover {
+.bgc-black\:hover:hover {
   background-color: #000;
 }
 
 
-.bgc-white:focus {
+.bgc-current\:hover:hover {
+  background-color: currentColor;
+}
+
+
+.bgc-white\:focus:focus {
   background-color: #fff;
 }
 
 
-.bgc-black:focus {
+.bgc-black\:focus:focus {
   background-color: #000;
 }
 
 
-.bgc-white:active {
+.bgc-current\:focus:focus {
+  background-color: currentColor;
+}
+
+
+.bgc-white\:active:active {
   background-color: #fff;
 }
 
 
-.bgc-black:active {
+.bgc-black\:active:active {
   background-color: #000;
+}
+
+
+.bgc-current\:active:active {
+  background-color: currentColor;
 }
 
 .group:hover
@@ -1198,6 +1218,11 @@
   background-color: #000;
 }
 
+.group:hover
+.bgc-current\:group-hover {
+  background-color: currentColor;
+}
+
 @media all and (min-width: 416px) {
   
   .bgc-white\@xs {
@@ -1208,28 +1233,44 @@
     background-color: #000;
   }
   
-  .bgc-white:hover\@xs {
+  .bgc-current\@xs {
+    background-color: currentColor;
+  }
+  
+  .bgc-white\:hover\@xs:hover {
     background-color: #fff;
   }
   
-  .bgc-black:hover\@xs {
+  .bgc-black\:hover\@xs:hover {
     background-color: #000;
   }
   
-  .bgc-white:focus\@xs {
+  .bgc-current\:hover\@xs:hover {
+    background-color: currentColor;
+  }
+  
+  .bgc-white\:focus\@xs:focus {
     background-color: #fff;
   }
   
-  .bgc-black:focus\@xs {
+  .bgc-black\:focus\@xs:focus {
     background-color: #000;
   }
   
-  .bgc-white:active\@xs {
+  .bgc-current\:focus\@xs:focus {
+    background-color: currentColor;
+  }
+  
+  .bgc-white\:active\@xs:active {
     background-color: #fff;
   }
   
-  .bgc-black:active\@xs {
+  .bgc-black\:active\@xs:active {
     background-color: #000;
+  }
+  
+  .bgc-current\:active\@xs:active {
+    background-color: currentColor;
   }
   .group:hover
 .bgc-white\:group-hover\@xs {
@@ -1238,6 +1279,10 @@
   .group:hover
 .bgc-black\:group-hover\@xs {
     background-color: #000;
+  }
+  .group:hover
+.bgc-current\:group-hover\@xs {
+    background-color: currentColor;
   }
 }
 
@@ -1251,28 +1296,44 @@
     background-color: #000;
   }
   
-  .bgc-white:hover\@sm {
+  .bgc-current\@sm {
+    background-color: currentColor;
+  }
+  
+  .bgc-white\:hover\@sm:hover {
     background-color: #fff;
   }
   
-  .bgc-black:hover\@sm {
+  .bgc-black\:hover\@sm:hover {
     background-color: #000;
   }
   
-  .bgc-white:focus\@sm {
+  .bgc-current\:hover\@sm:hover {
+    background-color: currentColor;
+  }
+  
+  .bgc-white\:focus\@sm:focus {
     background-color: #fff;
   }
   
-  .bgc-black:focus\@sm {
+  .bgc-black\:focus\@sm:focus {
     background-color: #000;
   }
   
-  .bgc-white:active\@sm {
+  .bgc-current\:focus\@sm:focus {
+    background-color: currentColor;
+  }
+  
+  .bgc-white\:active\@sm:active {
     background-color: #fff;
   }
   
-  .bgc-black:active\@sm {
+  .bgc-black\:active\@sm:active {
     background-color: #000;
+  }
+  
+  .bgc-current\:active\@sm:active {
+    background-color: currentColor;
   }
   .group:hover
 .bgc-white\:group-hover\@sm {
@@ -1281,6 +1342,10 @@
   .group:hover
 .bgc-black\:group-hover\@sm {
     background-color: #000;
+  }
+  .group:hover
+.bgc-current\:group-hover\@sm {
+    background-color: currentColor;
   }
 }
 
@@ -1294,28 +1359,44 @@
     background-color: #000;
   }
   
-  .bgc-white:hover\@md {
+  .bgc-current\@md {
+    background-color: currentColor;
+  }
+  
+  .bgc-white\:hover\@md:hover {
     background-color: #fff;
   }
   
-  .bgc-black:hover\@md {
+  .bgc-black\:hover\@md:hover {
     background-color: #000;
   }
   
-  .bgc-white:focus\@md {
+  .bgc-current\:hover\@md:hover {
+    background-color: currentColor;
+  }
+  
+  .bgc-white\:focus\@md:focus {
     background-color: #fff;
   }
   
-  .bgc-black:focus\@md {
+  .bgc-black\:focus\@md:focus {
     background-color: #000;
   }
   
-  .bgc-white:active\@md {
+  .bgc-current\:focus\@md:focus {
+    background-color: currentColor;
+  }
+  
+  .bgc-white\:active\@md:active {
     background-color: #fff;
   }
   
-  .bgc-black:active\@md {
+  .bgc-black\:active\@md:active {
     background-color: #000;
+  }
+  
+  .bgc-current\:active\@md:active {
+    background-color: currentColor;
   }
   .group:hover
 .bgc-white\:group-hover\@md {
@@ -1324,6 +1405,10 @@
   .group:hover
 .bgc-black\:group-hover\@md {
     background-color: #000;
+  }
+  .group:hover
+.bgc-current\:group-hover\@md {
+    background-color: currentColor;
   }
 }
 
@@ -1337,28 +1422,44 @@
     background-color: #000;
   }
   
-  .bgc-white:hover\@lg {
+  .bgc-current\@lg {
+    background-color: currentColor;
+  }
+  
+  .bgc-white\:hover\@lg:hover {
     background-color: #fff;
   }
   
-  .bgc-black:hover\@lg {
+  .bgc-black\:hover\@lg:hover {
     background-color: #000;
   }
   
-  .bgc-white:focus\@lg {
+  .bgc-current\:hover\@lg:hover {
+    background-color: currentColor;
+  }
+  
+  .bgc-white\:focus\@lg:focus {
     background-color: #fff;
   }
   
-  .bgc-black:focus\@lg {
+  .bgc-black\:focus\@lg:focus {
     background-color: #000;
   }
   
-  .bgc-white:active\@lg {
+  .bgc-current\:focus\@lg:focus {
+    background-color: currentColor;
+  }
+  
+  .bgc-white\:active\@lg:active {
     background-color: #fff;
   }
   
-  .bgc-black:active\@lg {
+  .bgc-black\:active\@lg:active {
     background-color: #000;
+  }
+  
+  .bgc-current\:active\@lg:active {
+    background-color: currentColor;
   }
   .group:hover
 .bgc-white\:group-hover\@lg {
@@ -1367,6 +1468,10 @@
   .group:hover
 .bgc-black\:group-hover\@lg {
     background-color: #000;
+  }
+  .group:hover
+.bgc-current\:group-hover\@lg {
+    background-color: currentColor;
   }
 }
 
@@ -1380,28 +1485,44 @@
     background-color: #000;
   }
   
-  .bgc-white:hover\@xl {
+  .bgc-current\@xl {
+    background-color: currentColor;
+  }
+  
+  .bgc-white\:hover\@xl:hover {
     background-color: #fff;
   }
   
-  .bgc-black:hover\@xl {
+  .bgc-black\:hover\@xl:hover {
     background-color: #000;
   }
   
-  .bgc-white:focus\@xl {
+  .bgc-current\:hover\@xl:hover {
+    background-color: currentColor;
+  }
+  
+  .bgc-white\:focus\@xl:focus {
     background-color: #fff;
   }
   
-  .bgc-black:focus\@xl {
+  .bgc-black\:focus\@xl:focus {
     background-color: #000;
   }
   
-  .bgc-white:active\@xl {
+  .bgc-current\:focus\@xl:focus {
+    background-color: currentColor;
+  }
+  
+  .bgc-white\:active\@xl:active {
     background-color: #fff;
   }
   
-  .bgc-black:active\@xl {
+  .bgc-black\:active\@xl:active {
     background-color: #000;
+  }
+  
+  .bgc-current\:active\@xl:active {
+    background-color: currentColor;
   }
   .group:hover
 .bgc-white\:group-hover\@xl {
@@ -1410,6 +1531,10 @@
   .group:hover
 .bgc-black\:group-hover\@xl {
     background-color: #000;
+  }
+  .group:hover
+.bgc-current\:group-hover\@xl {
+    background-color: currentColor;
   }
 }
 
@@ -1657,6 +1782,43 @@
   border-bottom-color: #000;
 }
 
+
+.brc-current {
+  border-color: currentColor;
+}
+
+
+.brct-current {
+  border-top-color: currentColor;
+}
+
+
+.brcl-current {
+  border-left-color: currentColor;
+}
+
+
+.brcr-current {
+  border-right-color: currentColor;
+}
+
+
+.brcb-current {
+  border-bottom-color: currentColor;
+}
+
+
+.brcx-current {
+  border-left-color: currentColor;
+  border-right-color: currentColor;
+}
+
+
+.brcy-current {
+  border-top-color: currentColor;
+  border-bottom-color: currentColor;
+}
+
 @media all and (min-width: 416px) {
   
   .brc-white\@xs {
@@ -1717,6 +1879,36 @@
   .brcy-black\@xs {
     border-top-color: #000;
     border-bottom-color: #000;
+  }
+  
+  .brc-current\@xs {
+    border-color: currentColor;
+  }
+  
+  .brct-current\@xs {
+    border-top-color: currentColor;
+  }
+  
+  .brcl-current\@xs {
+    border-left-color: currentColor;
+  }
+  
+  .brcr-current\@xs {
+    border-right-color: currentColor;
+  }
+  
+  .brcb-current\@xs {
+    border-bottom-color: currentColor;
+  }
+  
+  .brcx-current\@xs {
+    border-left-color: currentColor;
+    border-right-color: currentColor;
+  }
+  
+  .brcy-current\@xs {
+    border-top-color: currentColor;
+    border-bottom-color: currentColor;
   }
 }
 
@@ -1781,6 +1973,36 @@
     border-top-color: #000;
     border-bottom-color: #000;
   }
+  
+  .brc-current\@sm {
+    border-color: currentColor;
+  }
+  
+  .brct-current\@sm {
+    border-top-color: currentColor;
+  }
+  
+  .brcl-current\@sm {
+    border-left-color: currentColor;
+  }
+  
+  .brcr-current\@sm {
+    border-right-color: currentColor;
+  }
+  
+  .brcb-current\@sm {
+    border-bottom-color: currentColor;
+  }
+  
+  .brcx-current\@sm {
+    border-left-color: currentColor;
+    border-right-color: currentColor;
+  }
+  
+  .brcy-current\@sm {
+    border-top-color: currentColor;
+    border-bottom-color: currentColor;
+  }
 }
 
 @media all and (min-width: 1024px) {
@@ -1843,6 +2065,36 @@
   .brcy-black\@md {
     border-top-color: #000;
     border-bottom-color: #000;
+  }
+  
+  .brc-current\@md {
+    border-color: currentColor;
+  }
+  
+  .brct-current\@md {
+    border-top-color: currentColor;
+  }
+  
+  .brcl-current\@md {
+    border-left-color: currentColor;
+  }
+  
+  .brcr-current\@md {
+    border-right-color: currentColor;
+  }
+  
+  .brcb-current\@md {
+    border-bottom-color: currentColor;
+  }
+  
+  .brcx-current\@md {
+    border-left-color: currentColor;
+    border-right-color: currentColor;
+  }
+  
+  .brcy-current\@md {
+    border-top-color: currentColor;
+    border-bottom-color: currentColor;
   }
 }
 
@@ -1907,6 +2159,36 @@
     border-top-color: #000;
     border-bottom-color: #000;
   }
+  
+  .brc-current\@lg {
+    border-color: currentColor;
+  }
+  
+  .brct-current\@lg {
+    border-top-color: currentColor;
+  }
+  
+  .brcl-current\@lg {
+    border-left-color: currentColor;
+  }
+  
+  .brcr-current\@lg {
+    border-right-color: currentColor;
+  }
+  
+  .brcb-current\@lg {
+    border-bottom-color: currentColor;
+  }
+  
+  .brcx-current\@lg {
+    border-left-color: currentColor;
+    border-right-color: currentColor;
+  }
+  
+  .brcy-current\@lg {
+    border-top-color: currentColor;
+    border-bottom-color: currentColor;
+  }
 }
 
 @media all and (min-width: 1460px) {
@@ -1969,6 +2251,36 @@
   .brcy-black\@xl {
     border-top-color: #000;
     border-bottom-color: #000;
+  }
+  
+  .brc-current\@xl {
+    border-color: currentColor;
+  }
+  
+  .brct-current\@xl {
+    border-top-color: currentColor;
+  }
+  
+  .brcl-current\@xl {
+    border-left-color: currentColor;
+  }
+  
+  .brcr-current\@xl {
+    border-right-color: currentColor;
+  }
+  
+  .brcb-current\@xl {
+    border-bottom-color: currentColor;
+  }
+  
+  .brcx-current\@xl {
+    border-left-color: currentColor;
+    border-right-color: currentColor;
+  }
+  
+  .brcy-current\@xl {
+    border-top-color: currentColor;
+    border-bottom-color: currentColor;
   }
 }
 
@@ -5449,33 +5761,53 @@
 }
 
 
-.c-white:hover {
+.c-current {
+  color: currentColor;
+}
+
+
+.c-white\:hover:hover {
   color: #fff;
 }
 
 
-.c-black:hover {
+.c-black\:hover:hover {
   color: #000;
 }
 
 
-.c-white:focus {
+.c-current\:hover:hover {
+  color: currentColor;
+}
+
+
+.c-white\:focus:focus {
   color: #fff;
 }
 
 
-.c-black:focus {
+.c-black\:focus:focus {
   color: #000;
 }
 
 
-.c-white:active {
+.c-current\:focus:focus {
+  color: currentColor;
+}
+
+
+.c-white\:active:active {
   color: #fff;
 }
 
 
-.c-black:active {
+.c-black\:active:active {
   color: #000;
+}
+
+
+.c-current\:active:active {
+  color: currentColor;
 }
 
 .group:hover
@@ -5488,6 +5820,11 @@
   color: #000;
 }
 
+.group:hover
+.c-current\:group-hover {
+  color: currentColor;
+}
+
 @media all and (min-width: 416px) {
   
   .c-white\@xs {
@@ -5498,28 +5835,44 @@
     color: #000;
   }
   
-  .c-white:hover\@xs {
+  .c-current\@xs {
+    color: currentColor;
+  }
+  
+  .c-white\:hover\@xs:hover {
     color: #fff;
   }
   
-  .c-black:hover\@xs {
+  .c-black\:hover\@xs:hover {
     color: #000;
   }
   
-  .c-white:focus\@xs {
+  .c-current\:hover\@xs:hover {
+    color: currentColor;
+  }
+  
+  .c-white\:focus\@xs:focus {
     color: #fff;
   }
   
-  .c-black:focus\@xs {
+  .c-black\:focus\@xs:focus {
     color: #000;
   }
   
-  .c-white:active\@xs {
+  .c-current\:focus\@xs:focus {
+    color: currentColor;
+  }
+  
+  .c-white\:active\@xs:active {
     color: #fff;
   }
   
-  .c-black:active\@xs {
+  .c-black\:active\@xs:active {
     color: #000;
+  }
+  
+  .c-current\:active\@xs:active {
+    color: currentColor;
   }
   .group:hover
 .c-white\:group-hover\@xs {
@@ -5528,6 +5881,10 @@
   .group:hover
 .c-black\:group-hover\@xs {
     color: #000;
+  }
+  .group:hover
+.c-current\:group-hover\@xs {
+    color: currentColor;
   }
 }
 
@@ -5541,28 +5898,44 @@
     color: #000;
   }
   
-  .c-white:hover\@sm {
+  .c-current\@sm {
+    color: currentColor;
+  }
+  
+  .c-white\:hover\@sm:hover {
     color: #fff;
   }
   
-  .c-black:hover\@sm {
+  .c-black\:hover\@sm:hover {
     color: #000;
   }
   
-  .c-white:focus\@sm {
+  .c-current\:hover\@sm:hover {
+    color: currentColor;
+  }
+  
+  .c-white\:focus\@sm:focus {
     color: #fff;
   }
   
-  .c-black:focus\@sm {
+  .c-black\:focus\@sm:focus {
     color: #000;
   }
   
-  .c-white:active\@sm {
+  .c-current\:focus\@sm:focus {
+    color: currentColor;
+  }
+  
+  .c-white\:active\@sm:active {
     color: #fff;
   }
   
-  .c-black:active\@sm {
+  .c-black\:active\@sm:active {
     color: #000;
+  }
+  
+  .c-current\:active\@sm:active {
+    color: currentColor;
   }
   .group:hover
 .c-white\:group-hover\@sm {
@@ -5571,6 +5944,10 @@
   .group:hover
 .c-black\:group-hover\@sm {
     color: #000;
+  }
+  .group:hover
+.c-current\:group-hover\@sm {
+    color: currentColor;
   }
 }
 
@@ -5584,28 +5961,44 @@
     color: #000;
   }
   
-  .c-white:hover\@md {
+  .c-current\@md {
+    color: currentColor;
+  }
+  
+  .c-white\:hover\@md:hover {
     color: #fff;
   }
   
-  .c-black:hover\@md {
+  .c-black\:hover\@md:hover {
     color: #000;
   }
   
-  .c-white:focus\@md {
+  .c-current\:hover\@md:hover {
+    color: currentColor;
+  }
+  
+  .c-white\:focus\@md:focus {
     color: #fff;
   }
   
-  .c-black:focus\@md {
+  .c-black\:focus\@md:focus {
     color: #000;
   }
   
-  .c-white:active\@md {
+  .c-current\:focus\@md:focus {
+    color: currentColor;
+  }
+  
+  .c-white\:active\@md:active {
     color: #fff;
   }
   
-  .c-black:active\@md {
+  .c-black\:active\@md:active {
     color: #000;
+  }
+  
+  .c-current\:active\@md:active {
+    color: currentColor;
   }
   .group:hover
 .c-white\:group-hover\@md {
@@ -5614,6 +6007,10 @@
   .group:hover
 .c-black\:group-hover\@md {
     color: #000;
+  }
+  .group:hover
+.c-current\:group-hover\@md {
+    color: currentColor;
   }
 }
 
@@ -5627,28 +6024,44 @@
     color: #000;
   }
   
-  .c-white:hover\@lg {
+  .c-current\@lg {
+    color: currentColor;
+  }
+  
+  .c-white\:hover\@lg:hover {
     color: #fff;
   }
   
-  .c-black:hover\@lg {
+  .c-black\:hover\@lg:hover {
     color: #000;
   }
   
-  .c-white:focus\@lg {
+  .c-current\:hover\@lg:hover {
+    color: currentColor;
+  }
+  
+  .c-white\:focus\@lg:focus {
     color: #fff;
   }
   
-  .c-black:focus\@lg {
+  .c-black\:focus\@lg:focus {
     color: #000;
   }
   
-  .c-white:active\@lg {
+  .c-current\:focus\@lg:focus {
+    color: currentColor;
+  }
+  
+  .c-white\:active\@lg:active {
     color: #fff;
   }
   
-  .c-black:active\@lg {
+  .c-black\:active\@lg:active {
     color: #000;
+  }
+  
+  .c-current\:active\@lg:active {
+    color: currentColor;
   }
   .group:hover
 .c-white\:group-hover\@lg {
@@ -5657,6 +6070,10 @@
   .group:hover
 .c-black\:group-hover\@lg {
     color: #000;
+  }
+  .group:hover
+.c-current\:group-hover\@lg {
+    color: currentColor;
   }
 }
 
@@ -5670,28 +6087,44 @@
     color: #000;
   }
   
-  .c-white:hover\@xl {
+  .c-current\@xl {
+    color: currentColor;
+  }
+  
+  .c-white\:hover\@xl:hover {
     color: #fff;
   }
   
-  .c-black:hover\@xl {
+  .c-black\:hover\@xl:hover {
     color: #000;
   }
   
-  .c-white:focus\@xl {
+  .c-current\:hover\@xl:hover {
+    color: currentColor;
+  }
+  
+  .c-white\:focus\@xl:focus {
     color: #fff;
   }
   
-  .c-black:focus\@xl {
+  .c-black\:focus\@xl:focus {
     color: #000;
   }
   
-  .c-white:active\@xl {
+  .c-current\:focus\@xl:focus {
+    color: currentColor;
+  }
+  
+  .c-white\:active\@xl:active {
     color: #fff;
   }
   
-  .c-black:active\@xl {
+  .c-black\:active\@xl:active {
     color: #000;
+  }
+  
+  .c-current\:active\@xl:active {
+    color: currentColor;
   }
   .group:hover
 .c-white\:group-hover\@xl {
@@ -5700,6 +6133,10 @@
   .group:hover
 .c-black\:group-hover\@xl {
     color: #000;
+  }
+  .group:hover
+.c-current\:group-hover\@xl {
+    color: currentColor;
   }
 }
 
@@ -6385,6 +6822,96 @@
   
   .d-inherit\@xl {
     display: inherit;
+  }
+}
+
+
+.fl-white {
+  fill: #fff;
+}
+
+
+.fl-black {
+  fill: #000;
+}
+
+
+.fl-current {
+  fill: currentColor;
+}
+
+@media all and (min-width: 416px) {
+  
+  .fl-white\@xs {
+    fill: #fff;
+  }
+  
+  .fl-black\@xs {
+    fill: #000;
+  }
+  
+  .fl-current\@xs {
+    fill: currentColor;
+  }
+}
+
+@media all and (min-width: 756px) {
+  
+  .fl-white\@sm {
+    fill: #fff;
+  }
+  
+  .fl-black\@sm {
+    fill: #000;
+  }
+  
+  .fl-current\@sm {
+    fill: currentColor;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  
+  .fl-white\@md {
+    fill: #fff;
+  }
+  
+  .fl-black\@md {
+    fill: #000;
+  }
+  
+  .fl-current\@md {
+    fill: currentColor;
+  }
+}
+
+@media all and (min-width: 1220px) {
+  
+  .fl-white\@lg {
+    fill: #fff;
+  }
+  
+  .fl-black\@lg {
+    fill: #000;
+  }
+  
+  .fl-current\@lg {
+    fill: currentColor;
+  }
+}
+
+@media all and (min-width: 1460px) {
+  
+  .fl-white\@xl {
+    fill: #fff;
+  }
+  
+  .fl-black\@xl {
+    fill: #000;
+  }
+  
+  .fl-current\@xl {
+    fill: currentColor;
   }
 }
 
@@ -12387,167 +12914,167 @@
 }
 
 
-.o-0:hover {
+.o-0\:hover:hover {
   opacity: 0;
 }
 
 
-.o-0\.1:hover {
+.o-0\.1\:hover:hover {
   opacity: 0.1;
 }
 
 
-.o-0\.2:hover {
+.o-0\.2\:hover:hover {
   opacity: 0.2;
 }
 
 
-.o-0\.3:hover {
+.o-0\.3\:hover:hover {
   opacity: 0.3;
 }
 
 
-.o-0\.4:hover {
+.o-0\.4\:hover:hover {
   opacity: 0.4;
 }
 
 
-.o-0\.5:hover {
+.o-0\.5\:hover:hover {
   opacity: 0.5;
 }
 
 
-.o-0\.6:hover {
+.o-0\.6\:hover:hover {
   opacity: 0.6;
 }
 
 
-.o-0\.7:hover {
+.o-0\.7\:hover:hover {
   opacity: 0.7;
 }
 
 
-.o-0\.8:hover {
+.o-0\.8\:hover:hover {
   opacity: 0.8;
 }
 
 
-.o-0\.9:hover {
+.o-0\.9\:hover:hover {
   opacity: 0.9;
 }
 
 
-.o-1:hover {
+.o-1\:hover:hover {
   opacity: 1;
 }
 
 
-.o-0:focus {
+.o-0\:focus:focus {
   opacity: 0;
 }
 
 
-.o-0\.1:focus {
+.o-0\.1\:focus:focus {
   opacity: 0.1;
 }
 
 
-.o-0\.2:focus {
+.o-0\.2\:focus:focus {
   opacity: 0.2;
 }
 
 
-.o-0\.3:focus {
+.o-0\.3\:focus:focus {
   opacity: 0.3;
 }
 
 
-.o-0\.4:focus {
+.o-0\.4\:focus:focus {
   opacity: 0.4;
 }
 
 
-.o-0\.5:focus {
+.o-0\.5\:focus:focus {
   opacity: 0.5;
 }
 
 
-.o-0\.6:focus {
+.o-0\.6\:focus:focus {
   opacity: 0.6;
 }
 
 
-.o-0\.7:focus {
+.o-0\.7\:focus:focus {
   opacity: 0.7;
 }
 
 
-.o-0\.8:focus {
+.o-0\.8\:focus:focus {
   opacity: 0.8;
 }
 
 
-.o-0\.9:focus {
+.o-0\.9\:focus:focus {
   opacity: 0.9;
 }
 
 
-.o-1:focus {
+.o-1\:focus:focus {
   opacity: 1;
 }
 
 
-.o-0:active {
+.o-0\:active:active {
   opacity: 0;
 }
 
 
-.o-0\.1:active {
+.o-0\.1\:active:active {
   opacity: 0.1;
 }
 
 
-.o-0\.2:active {
+.o-0\.2\:active:active {
   opacity: 0.2;
 }
 
 
-.o-0\.3:active {
+.o-0\.3\:active:active {
   opacity: 0.3;
 }
 
 
-.o-0\.4:active {
+.o-0\.4\:active:active {
   opacity: 0.4;
 }
 
 
-.o-0\.5:active {
+.o-0\.5\:active:active {
   opacity: 0.5;
 }
 
 
-.o-0\.6:active {
+.o-0\.6\:active:active {
   opacity: 0.6;
 }
 
 
-.o-0\.7:active {
+.o-0\.7\:active:active {
   opacity: 0.7;
 }
 
 
-.o-0\.8:active {
+.o-0\.8\:active:active {
   opacity: 0.8;
 }
 
 
-.o-0\.9:active {
+.o-0\.9\:active:active {
   opacity: 0.9;
 }
 
 
-.o-1:active {
+.o-1\:active:active {
   opacity: 1;
 }
 
@@ -12652,135 +13179,135 @@
     opacity: 1;
   }
   
-  .o-0:hover\@xs {
+  .o-0\:hover\@xs:hover {
     opacity: 0;
   }
   
-  .o-0\.1:hover\@xs {
+  .o-0\.1\:hover\@xs:hover {
     opacity: 0.1;
   }
   
-  .o-0\.2:hover\@xs {
+  .o-0\.2\:hover\@xs:hover {
     opacity: 0.2;
   }
   
-  .o-0\.3:hover\@xs {
+  .o-0\.3\:hover\@xs:hover {
     opacity: 0.3;
   }
   
-  .o-0\.4:hover\@xs {
+  .o-0\.4\:hover\@xs:hover {
     opacity: 0.4;
   }
   
-  .o-0\.5:hover\@xs {
+  .o-0\.5\:hover\@xs:hover {
     opacity: 0.5;
   }
   
-  .o-0\.6:hover\@xs {
+  .o-0\.6\:hover\@xs:hover {
     opacity: 0.6;
   }
   
-  .o-0\.7:hover\@xs {
+  .o-0\.7\:hover\@xs:hover {
     opacity: 0.7;
   }
   
-  .o-0\.8:hover\@xs {
+  .o-0\.8\:hover\@xs:hover {
     opacity: 0.8;
   }
   
-  .o-0\.9:hover\@xs {
+  .o-0\.9\:hover\@xs:hover {
     opacity: 0.9;
   }
   
-  .o-1:hover\@xs {
+  .o-1\:hover\@xs:hover {
     opacity: 1;
   }
   
-  .o-0:focus\@xs {
+  .o-0\:focus\@xs:focus {
     opacity: 0;
   }
   
-  .o-0\.1:focus\@xs {
+  .o-0\.1\:focus\@xs:focus {
     opacity: 0.1;
   }
   
-  .o-0\.2:focus\@xs {
+  .o-0\.2\:focus\@xs:focus {
     opacity: 0.2;
   }
   
-  .o-0\.3:focus\@xs {
+  .o-0\.3\:focus\@xs:focus {
     opacity: 0.3;
   }
   
-  .o-0\.4:focus\@xs {
+  .o-0\.4\:focus\@xs:focus {
     opacity: 0.4;
   }
   
-  .o-0\.5:focus\@xs {
+  .o-0\.5\:focus\@xs:focus {
     opacity: 0.5;
   }
   
-  .o-0\.6:focus\@xs {
+  .o-0\.6\:focus\@xs:focus {
     opacity: 0.6;
   }
   
-  .o-0\.7:focus\@xs {
+  .o-0\.7\:focus\@xs:focus {
     opacity: 0.7;
   }
   
-  .o-0\.8:focus\@xs {
+  .o-0\.8\:focus\@xs:focus {
     opacity: 0.8;
   }
   
-  .o-0\.9:focus\@xs {
+  .o-0\.9\:focus\@xs:focus {
     opacity: 0.9;
   }
   
-  .o-1:focus\@xs {
+  .o-1\:focus\@xs:focus {
     opacity: 1;
   }
   
-  .o-0:active\@xs {
+  .o-0\:active\@xs:active {
     opacity: 0;
   }
   
-  .o-0\.1:active\@xs {
+  .o-0\.1\:active\@xs:active {
     opacity: 0.1;
   }
   
-  .o-0\.2:active\@xs {
+  .o-0\.2\:active\@xs:active {
     opacity: 0.2;
   }
   
-  .o-0\.3:active\@xs {
+  .o-0\.3\:active\@xs:active {
     opacity: 0.3;
   }
   
-  .o-0\.4:active\@xs {
+  .o-0\.4\:active\@xs:active {
     opacity: 0.4;
   }
   
-  .o-0\.5:active\@xs {
+  .o-0\.5\:active\@xs:active {
     opacity: 0.5;
   }
   
-  .o-0\.6:active\@xs {
+  .o-0\.6\:active\@xs:active {
     opacity: 0.6;
   }
   
-  .o-0\.7:active\@xs {
+  .o-0\.7\:active\@xs:active {
     opacity: 0.7;
   }
   
-  .o-0\.8:active\@xs {
+  .o-0\.8\:active\@xs:active {
     opacity: 0.8;
   }
   
-  .o-0\.9:active\@xs {
+  .o-0\.9\:active\@xs:active {
     opacity: 0.9;
   }
   
-  .o-1:active\@xs {
+  .o-1\:active\@xs:active {
     opacity: 1;
   }
   .group:hover
@@ -12875,135 +13402,135 @@
     opacity: 1;
   }
   
-  .o-0:hover\@sm {
+  .o-0\:hover\@sm:hover {
     opacity: 0;
   }
   
-  .o-0\.1:hover\@sm {
+  .o-0\.1\:hover\@sm:hover {
     opacity: 0.1;
   }
   
-  .o-0\.2:hover\@sm {
+  .o-0\.2\:hover\@sm:hover {
     opacity: 0.2;
   }
   
-  .o-0\.3:hover\@sm {
+  .o-0\.3\:hover\@sm:hover {
     opacity: 0.3;
   }
   
-  .o-0\.4:hover\@sm {
+  .o-0\.4\:hover\@sm:hover {
     opacity: 0.4;
   }
   
-  .o-0\.5:hover\@sm {
+  .o-0\.5\:hover\@sm:hover {
     opacity: 0.5;
   }
   
-  .o-0\.6:hover\@sm {
+  .o-0\.6\:hover\@sm:hover {
     opacity: 0.6;
   }
   
-  .o-0\.7:hover\@sm {
+  .o-0\.7\:hover\@sm:hover {
     opacity: 0.7;
   }
   
-  .o-0\.8:hover\@sm {
+  .o-0\.8\:hover\@sm:hover {
     opacity: 0.8;
   }
   
-  .o-0\.9:hover\@sm {
+  .o-0\.9\:hover\@sm:hover {
     opacity: 0.9;
   }
   
-  .o-1:hover\@sm {
+  .o-1\:hover\@sm:hover {
     opacity: 1;
   }
   
-  .o-0:focus\@sm {
+  .o-0\:focus\@sm:focus {
     opacity: 0;
   }
   
-  .o-0\.1:focus\@sm {
+  .o-0\.1\:focus\@sm:focus {
     opacity: 0.1;
   }
   
-  .o-0\.2:focus\@sm {
+  .o-0\.2\:focus\@sm:focus {
     opacity: 0.2;
   }
   
-  .o-0\.3:focus\@sm {
+  .o-0\.3\:focus\@sm:focus {
     opacity: 0.3;
   }
   
-  .o-0\.4:focus\@sm {
+  .o-0\.4\:focus\@sm:focus {
     opacity: 0.4;
   }
   
-  .o-0\.5:focus\@sm {
+  .o-0\.5\:focus\@sm:focus {
     opacity: 0.5;
   }
   
-  .o-0\.6:focus\@sm {
+  .o-0\.6\:focus\@sm:focus {
     opacity: 0.6;
   }
   
-  .o-0\.7:focus\@sm {
+  .o-0\.7\:focus\@sm:focus {
     opacity: 0.7;
   }
   
-  .o-0\.8:focus\@sm {
+  .o-0\.8\:focus\@sm:focus {
     opacity: 0.8;
   }
   
-  .o-0\.9:focus\@sm {
+  .o-0\.9\:focus\@sm:focus {
     opacity: 0.9;
   }
   
-  .o-1:focus\@sm {
+  .o-1\:focus\@sm:focus {
     opacity: 1;
   }
   
-  .o-0:active\@sm {
+  .o-0\:active\@sm:active {
     opacity: 0;
   }
   
-  .o-0\.1:active\@sm {
+  .o-0\.1\:active\@sm:active {
     opacity: 0.1;
   }
   
-  .o-0\.2:active\@sm {
+  .o-0\.2\:active\@sm:active {
     opacity: 0.2;
   }
   
-  .o-0\.3:active\@sm {
+  .o-0\.3\:active\@sm:active {
     opacity: 0.3;
   }
   
-  .o-0\.4:active\@sm {
+  .o-0\.4\:active\@sm:active {
     opacity: 0.4;
   }
   
-  .o-0\.5:active\@sm {
+  .o-0\.5\:active\@sm:active {
     opacity: 0.5;
   }
   
-  .o-0\.6:active\@sm {
+  .o-0\.6\:active\@sm:active {
     opacity: 0.6;
   }
   
-  .o-0\.7:active\@sm {
+  .o-0\.7\:active\@sm:active {
     opacity: 0.7;
   }
   
-  .o-0\.8:active\@sm {
+  .o-0\.8\:active\@sm:active {
     opacity: 0.8;
   }
   
-  .o-0\.9:active\@sm {
+  .o-0\.9\:active\@sm:active {
     opacity: 0.9;
   }
   
-  .o-1:active\@sm {
+  .o-1\:active\@sm:active {
     opacity: 1;
   }
   .group:hover
@@ -13098,135 +13625,135 @@
     opacity: 1;
   }
   
-  .o-0:hover\@md {
+  .o-0\:hover\@md:hover {
     opacity: 0;
   }
   
-  .o-0\.1:hover\@md {
+  .o-0\.1\:hover\@md:hover {
     opacity: 0.1;
   }
   
-  .o-0\.2:hover\@md {
+  .o-0\.2\:hover\@md:hover {
     opacity: 0.2;
   }
   
-  .o-0\.3:hover\@md {
+  .o-0\.3\:hover\@md:hover {
     opacity: 0.3;
   }
   
-  .o-0\.4:hover\@md {
+  .o-0\.4\:hover\@md:hover {
     opacity: 0.4;
   }
   
-  .o-0\.5:hover\@md {
+  .o-0\.5\:hover\@md:hover {
     opacity: 0.5;
   }
   
-  .o-0\.6:hover\@md {
+  .o-0\.6\:hover\@md:hover {
     opacity: 0.6;
   }
   
-  .o-0\.7:hover\@md {
+  .o-0\.7\:hover\@md:hover {
     opacity: 0.7;
   }
   
-  .o-0\.8:hover\@md {
+  .o-0\.8\:hover\@md:hover {
     opacity: 0.8;
   }
   
-  .o-0\.9:hover\@md {
+  .o-0\.9\:hover\@md:hover {
     opacity: 0.9;
   }
   
-  .o-1:hover\@md {
+  .o-1\:hover\@md:hover {
     opacity: 1;
   }
   
-  .o-0:focus\@md {
+  .o-0\:focus\@md:focus {
     opacity: 0;
   }
   
-  .o-0\.1:focus\@md {
+  .o-0\.1\:focus\@md:focus {
     opacity: 0.1;
   }
   
-  .o-0\.2:focus\@md {
+  .o-0\.2\:focus\@md:focus {
     opacity: 0.2;
   }
   
-  .o-0\.3:focus\@md {
+  .o-0\.3\:focus\@md:focus {
     opacity: 0.3;
   }
   
-  .o-0\.4:focus\@md {
+  .o-0\.4\:focus\@md:focus {
     opacity: 0.4;
   }
   
-  .o-0\.5:focus\@md {
+  .o-0\.5\:focus\@md:focus {
     opacity: 0.5;
   }
   
-  .o-0\.6:focus\@md {
+  .o-0\.6\:focus\@md:focus {
     opacity: 0.6;
   }
   
-  .o-0\.7:focus\@md {
+  .o-0\.7\:focus\@md:focus {
     opacity: 0.7;
   }
   
-  .o-0\.8:focus\@md {
+  .o-0\.8\:focus\@md:focus {
     opacity: 0.8;
   }
   
-  .o-0\.9:focus\@md {
+  .o-0\.9\:focus\@md:focus {
     opacity: 0.9;
   }
   
-  .o-1:focus\@md {
+  .o-1\:focus\@md:focus {
     opacity: 1;
   }
   
-  .o-0:active\@md {
+  .o-0\:active\@md:active {
     opacity: 0;
   }
   
-  .o-0\.1:active\@md {
+  .o-0\.1\:active\@md:active {
     opacity: 0.1;
   }
   
-  .o-0\.2:active\@md {
+  .o-0\.2\:active\@md:active {
     opacity: 0.2;
   }
   
-  .o-0\.3:active\@md {
+  .o-0\.3\:active\@md:active {
     opacity: 0.3;
   }
   
-  .o-0\.4:active\@md {
+  .o-0\.4\:active\@md:active {
     opacity: 0.4;
   }
   
-  .o-0\.5:active\@md {
+  .o-0\.5\:active\@md:active {
     opacity: 0.5;
   }
   
-  .o-0\.6:active\@md {
+  .o-0\.6\:active\@md:active {
     opacity: 0.6;
   }
   
-  .o-0\.7:active\@md {
+  .o-0\.7\:active\@md:active {
     opacity: 0.7;
   }
   
-  .o-0\.8:active\@md {
+  .o-0\.8\:active\@md:active {
     opacity: 0.8;
   }
   
-  .o-0\.9:active\@md {
+  .o-0\.9\:active\@md:active {
     opacity: 0.9;
   }
   
-  .o-1:active\@md {
+  .o-1\:active\@md:active {
     opacity: 1;
   }
   .group:hover
@@ -13321,135 +13848,135 @@
     opacity: 1;
   }
   
-  .o-0:hover\@lg {
+  .o-0\:hover\@lg:hover {
     opacity: 0;
   }
   
-  .o-0\.1:hover\@lg {
+  .o-0\.1\:hover\@lg:hover {
     opacity: 0.1;
   }
   
-  .o-0\.2:hover\@lg {
+  .o-0\.2\:hover\@lg:hover {
     opacity: 0.2;
   }
   
-  .o-0\.3:hover\@lg {
+  .o-0\.3\:hover\@lg:hover {
     opacity: 0.3;
   }
   
-  .o-0\.4:hover\@lg {
+  .o-0\.4\:hover\@lg:hover {
     opacity: 0.4;
   }
   
-  .o-0\.5:hover\@lg {
+  .o-0\.5\:hover\@lg:hover {
     opacity: 0.5;
   }
   
-  .o-0\.6:hover\@lg {
+  .o-0\.6\:hover\@lg:hover {
     opacity: 0.6;
   }
   
-  .o-0\.7:hover\@lg {
+  .o-0\.7\:hover\@lg:hover {
     opacity: 0.7;
   }
   
-  .o-0\.8:hover\@lg {
+  .o-0\.8\:hover\@lg:hover {
     opacity: 0.8;
   }
   
-  .o-0\.9:hover\@lg {
+  .o-0\.9\:hover\@lg:hover {
     opacity: 0.9;
   }
   
-  .o-1:hover\@lg {
+  .o-1\:hover\@lg:hover {
     opacity: 1;
   }
   
-  .o-0:focus\@lg {
+  .o-0\:focus\@lg:focus {
     opacity: 0;
   }
   
-  .o-0\.1:focus\@lg {
+  .o-0\.1\:focus\@lg:focus {
     opacity: 0.1;
   }
   
-  .o-0\.2:focus\@lg {
+  .o-0\.2\:focus\@lg:focus {
     opacity: 0.2;
   }
   
-  .o-0\.3:focus\@lg {
+  .o-0\.3\:focus\@lg:focus {
     opacity: 0.3;
   }
   
-  .o-0\.4:focus\@lg {
+  .o-0\.4\:focus\@lg:focus {
     opacity: 0.4;
   }
   
-  .o-0\.5:focus\@lg {
+  .o-0\.5\:focus\@lg:focus {
     opacity: 0.5;
   }
   
-  .o-0\.6:focus\@lg {
+  .o-0\.6\:focus\@lg:focus {
     opacity: 0.6;
   }
   
-  .o-0\.7:focus\@lg {
+  .o-0\.7\:focus\@lg:focus {
     opacity: 0.7;
   }
   
-  .o-0\.8:focus\@lg {
+  .o-0\.8\:focus\@lg:focus {
     opacity: 0.8;
   }
   
-  .o-0\.9:focus\@lg {
+  .o-0\.9\:focus\@lg:focus {
     opacity: 0.9;
   }
   
-  .o-1:focus\@lg {
+  .o-1\:focus\@lg:focus {
     opacity: 1;
   }
   
-  .o-0:active\@lg {
+  .o-0\:active\@lg:active {
     opacity: 0;
   }
   
-  .o-0\.1:active\@lg {
+  .o-0\.1\:active\@lg:active {
     opacity: 0.1;
   }
   
-  .o-0\.2:active\@lg {
+  .o-0\.2\:active\@lg:active {
     opacity: 0.2;
   }
   
-  .o-0\.3:active\@lg {
+  .o-0\.3\:active\@lg:active {
     opacity: 0.3;
   }
   
-  .o-0\.4:active\@lg {
+  .o-0\.4\:active\@lg:active {
     opacity: 0.4;
   }
   
-  .o-0\.5:active\@lg {
+  .o-0\.5\:active\@lg:active {
     opacity: 0.5;
   }
   
-  .o-0\.6:active\@lg {
+  .o-0\.6\:active\@lg:active {
     opacity: 0.6;
   }
   
-  .o-0\.7:active\@lg {
+  .o-0\.7\:active\@lg:active {
     opacity: 0.7;
   }
   
-  .o-0\.8:active\@lg {
+  .o-0\.8\:active\@lg:active {
     opacity: 0.8;
   }
   
-  .o-0\.9:active\@lg {
+  .o-0\.9\:active\@lg:active {
     opacity: 0.9;
   }
   
-  .o-1:active\@lg {
+  .o-1\:active\@lg:active {
     opacity: 1;
   }
   .group:hover
@@ -13544,135 +14071,135 @@
     opacity: 1;
   }
   
-  .o-0:hover\@xl {
+  .o-0\:hover\@xl:hover {
     opacity: 0;
   }
   
-  .o-0\.1:hover\@xl {
+  .o-0\.1\:hover\@xl:hover {
     opacity: 0.1;
   }
   
-  .o-0\.2:hover\@xl {
+  .o-0\.2\:hover\@xl:hover {
     opacity: 0.2;
   }
   
-  .o-0\.3:hover\@xl {
+  .o-0\.3\:hover\@xl:hover {
     opacity: 0.3;
   }
   
-  .o-0\.4:hover\@xl {
+  .o-0\.4\:hover\@xl:hover {
     opacity: 0.4;
   }
   
-  .o-0\.5:hover\@xl {
+  .o-0\.5\:hover\@xl:hover {
     opacity: 0.5;
   }
   
-  .o-0\.6:hover\@xl {
+  .o-0\.6\:hover\@xl:hover {
     opacity: 0.6;
   }
   
-  .o-0\.7:hover\@xl {
+  .o-0\.7\:hover\@xl:hover {
     opacity: 0.7;
   }
   
-  .o-0\.8:hover\@xl {
+  .o-0\.8\:hover\@xl:hover {
     opacity: 0.8;
   }
   
-  .o-0\.9:hover\@xl {
+  .o-0\.9\:hover\@xl:hover {
     opacity: 0.9;
   }
   
-  .o-1:hover\@xl {
+  .o-1\:hover\@xl:hover {
     opacity: 1;
   }
   
-  .o-0:focus\@xl {
+  .o-0\:focus\@xl:focus {
     opacity: 0;
   }
   
-  .o-0\.1:focus\@xl {
+  .o-0\.1\:focus\@xl:focus {
     opacity: 0.1;
   }
   
-  .o-0\.2:focus\@xl {
+  .o-0\.2\:focus\@xl:focus {
     opacity: 0.2;
   }
   
-  .o-0\.3:focus\@xl {
+  .o-0\.3\:focus\@xl:focus {
     opacity: 0.3;
   }
   
-  .o-0\.4:focus\@xl {
+  .o-0\.4\:focus\@xl:focus {
     opacity: 0.4;
   }
   
-  .o-0\.5:focus\@xl {
+  .o-0\.5\:focus\@xl:focus {
     opacity: 0.5;
   }
   
-  .o-0\.6:focus\@xl {
+  .o-0\.6\:focus\@xl:focus {
     opacity: 0.6;
   }
   
-  .o-0\.7:focus\@xl {
+  .o-0\.7\:focus\@xl:focus {
     opacity: 0.7;
   }
   
-  .o-0\.8:focus\@xl {
+  .o-0\.8\:focus\@xl:focus {
     opacity: 0.8;
   }
   
-  .o-0\.9:focus\@xl {
+  .o-0\.9\:focus\@xl:focus {
     opacity: 0.9;
   }
   
-  .o-1:focus\@xl {
+  .o-1\:focus\@xl:focus {
     opacity: 1;
   }
   
-  .o-0:active\@xl {
+  .o-0\:active\@xl:active {
     opacity: 0;
   }
   
-  .o-0\.1:active\@xl {
+  .o-0\.1\:active\@xl:active {
     opacity: 0.1;
   }
   
-  .o-0\.2:active\@xl {
+  .o-0\.2\:active\@xl:active {
     opacity: 0.2;
   }
   
-  .o-0\.3:active\@xl {
+  .o-0\.3\:active\@xl:active {
     opacity: 0.3;
   }
   
-  .o-0\.4:active\@xl {
+  .o-0\.4\:active\@xl:active {
     opacity: 0.4;
   }
   
-  .o-0\.5:active\@xl {
+  .o-0\.5\:active\@xl:active {
     opacity: 0.5;
   }
   
-  .o-0\.6:active\@xl {
+  .o-0\.6\:active\@xl:active {
     opacity: 0.6;
   }
   
-  .o-0\.7:active\@xl {
+  .o-0\.7\:active\@xl:active {
     opacity: 0.7;
   }
   
-  .o-0\.8:active\@xl {
+  .o-0\.8\:active\@xl:active {
     opacity: 0.8;
   }
   
-  .o-0\.9:active\@xl {
+  .o-0\.9\:active\@xl:active {
     opacity: 0.9;
   }
   
-  .o-1:active\@xl {
+  .o-1\:active\@xl:active {
     opacity: 1;
   }
   .group:hover
@@ -13947,33 +14474,53 @@
 }
 
 
-.otlc-white:hover {
+.otlc-current {
+  outline-color: currentColor;
+}
+
+
+.otlc-white\:hover:hover {
   outline-color: #fff;
 }
 
 
-.otlc-black:hover {
+.otlc-black\:hover:hover {
   outline-color: #000;
 }
 
 
-.otlc-white:focus {
+.otlc-current\:hover:hover {
+  outline-color: currentColor;
+}
+
+
+.otlc-white\:focus:focus {
   outline-color: #fff;
 }
 
 
-.otlc-black:focus {
+.otlc-black\:focus:focus {
   outline-color: #000;
 }
 
 
-.otlc-white:active {
+.otlc-current\:focus:focus {
+  outline-color: currentColor;
+}
+
+
+.otlc-white\:active:active {
   outline-color: #fff;
 }
 
 
-.otlc-black:active {
+.otlc-black\:active:active {
   outline-color: #000;
+}
+
+
+.otlc-current\:active:active {
+  outline-color: currentColor;
 }
 
 .group:hover
@@ -13986,6 +14533,11 @@
   outline-color: #000;
 }
 
+.group:hover
+.otlc-current\:group-hover {
+  outline-color: currentColor;
+}
+
 @media all and (min-width: 416px) {
   
   .otlc-white\@xs {
@@ -13996,28 +14548,44 @@
     outline-color: #000;
   }
   
-  .otlc-white:hover\@xs {
+  .otlc-current\@xs {
+    outline-color: currentColor;
+  }
+  
+  .otlc-white\:hover\@xs:hover {
     outline-color: #fff;
   }
   
-  .otlc-black:hover\@xs {
+  .otlc-black\:hover\@xs:hover {
     outline-color: #000;
   }
   
-  .otlc-white:focus\@xs {
+  .otlc-current\:hover\@xs:hover {
+    outline-color: currentColor;
+  }
+  
+  .otlc-white\:focus\@xs:focus {
     outline-color: #fff;
   }
   
-  .otlc-black:focus\@xs {
+  .otlc-black\:focus\@xs:focus {
     outline-color: #000;
   }
   
-  .otlc-white:active\@xs {
+  .otlc-current\:focus\@xs:focus {
+    outline-color: currentColor;
+  }
+  
+  .otlc-white\:active\@xs:active {
     outline-color: #fff;
   }
   
-  .otlc-black:active\@xs {
+  .otlc-black\:active\@xs:active {
     outline-color: #000;
+  }
+  
+  .otlc-current\:active\@xs:active {
+    outline-color: currentColor;
   }
   .group:hover
 .otlc-white\:group-hover\@xs {
@@ -14026,6 +14594,10 @@
   .group:hover
 .otlc-black\:group-hover\@xs {
     outline-color: #000;
+  }
+  .group:hover
+.otlc-current\:group-hover\@xs {
+    outline-color: currentColor;
   }
 }
 
@@ -14039,28 +14611,44 @@
     outline-color: #000;
   }
   
-  .otlc-white:hover\@sm {
+  .otlc-current\@sm {
+    outline-color: currentColor;
+  }
+  
+  .otlc-white\:hover\@sm:hover {
     outline-color: #fff;
   }
   
-  .otlc-black:hover\@sm {
+  .otlc-black\:hover\@sm:hover {
     outline-color: #000;
   }
   
-  .otlc-white:focus\@sm {
+  .otlc-current\:hover\@sm:hover {
+    outline-color: currentColor;
+  }
+  
+  .otlc-white\:focus\@sm:focus {
     outline-color: #fff;
   }
   
-  .otlc-black:focus\@sm {
+  .otlc-black\:focus\@sm:focus {
     outline-color: #000;
   }
   
-  .otlc-white:active\@sm {
+  .otlc-current\:focus\@sm:focus {
+    outline-color: currentColor;
+  }
+  
+  .otlc-white\:active\@sm:active {
     outline-color: #fff;
   }
   
-  .otlc-black:active\@sm {
+  .otlc-black\:active\@sm:active {
     outline-color: #000;
+  }
+  
+  .otlc-current\:active\@sm:active {
+    outline-color: currentColor;
   }
   .group:hover
 .otlc-white\:group-hover\@sm {
@@ -14069,6 +14657,10 @@
   .group:hover
 .otlc-black\:group-hover\@sm {
     outline-color: #000;
+  }
+  .group:hover
+.otlc-current\:group-hover\@sm {
+    outline-color: currentColor;
   }
 }
 
@@ -14082,28 +14674,44 @@
     outline-color: #000;
   }
   
-  .otlc-white:hover\@md {
+  .otlc-current\@md {
+    outline-color: currentColor;
+  }
+  
+  .otlc-white\:hover\@md:hover {
     outline-color: #fff;
   }
   
-  .otlc-black:hover\@md {
+  .otlc-black\:hover\@md:hover {
     outline-color: #000;
   }
   
-  .otlc-white:focus\@md {
+  .otlc-current\:hover\@md:hover {
+    outline-color: currentColor;
+  }
+  
+  .otlc-white\:focus\@md:focus {
     outline-color: #fff;
   }
   
-  .otlc-black:focus\@md {
+  .otlc-black\:focus\@md:focus {
     outline-color: #000;
   }
   
-  .otlc-white:active\@md {
+  .otlc-current\:focus\@md:focus {
+    outline-color: currentColor;
+  }
+  
+  .otlc-white\:active\@md:active {
     outline-color: #fff;
   }
   
-  .otlc-black:active\@md {
+  .otlc-black\:active\@md:active {
     outline-color: #000;
+  }
+  
+  .otlc-current\:active\@md:active {
+    outline-color: currentColor;
   }
   .group:hover
 .otlc-white\:group-hover\@md {
@@ -14112,6 +14720,10 @@
   .group:hover
 .otlc-black\:group-hover\@md {
     outline-color: #000;
+  }
+  .group:hover
+.otlc-current\:group-hover\@md {
+    outline-color: currentColor;
   }
 }
 
@@ -14125,28 +14737,44 @@
     outline-color: #000;
   }
   
-  .otlc-white:hover\@lg {
+  .otlc-current\@lg {
+    outline-color: currentColor;
+  }
+  
+  .otlc-white\:hover\@lg:hover {
     outline-color: #fff;
   }
   
-  .otlc-black:hover\@lg {
+  .otlc-black\:hover\@lg:hover {
     outline-color: #000;
   }
   
-  .otlc-white:focus\@lg {
+  .otlc-current\:hover\@lg:hover {
+    outline-color: currentColor;
+  }
+  
+  .otlc-white\:focus\@lg:focus {
     outline-color: #fff;
   }
   
-  .otlc-black:focus\@lg {
+  .otlc-black\:focus\@lg:focus {
     outline-color: #000;
   }
   
-  .otlc-white:active\@lg {
+  .otlc-current\:focus\@lg:focus {
+    outline-color: currentColor;
+  }
+  
+  .otlc-white\:active\@lg:active {
     outline-color: #fff;
   }
   
-  .otlc-black:active\@lg {
+  .otlc-black\:active\@lg:active {
     outline-color: #000;
+  }
+  
+  .otlc-current\:active\@lg:active {
+    outline-color: currentColor;
   }
   .group:hover
 .otlc-white\:group-hover\@lg {
@@ -14155,6 +14783,10 @@
   .group:hover
 .otlc-black\:group-hover\@lg {
     outline-color: #000;
+  }
+  .group:hover
+.otlc-current\:group-hover\@lg {
+    outline-color: currentColor;
   }
 }
 
@@ -14168,28 +14800,44 @@
     outline-color: #000;
   }
   
-  .otlc-white:hover\@xl {
+  .otlc-current\@xl {
+    outline-color: currentColor;
+  }
+  
+  .otlc-white\:hover\@xl:hover {
     outline-color: #fff;
   }
   
-  .otlc-black:hover\@xl {
+  .otlc-black\:hover\@xl:hover {
     outline-color: #000;
   }
   
-  .otlc-white:focus\@xl {
+  .otlc-current\:hover\@xl:hover {
+    outline-color: currentColor;
+  }
+  
+  .otlc-white\:focus\@xl:focus {
     outline-color: #fff;
   }
   
-  .otlc-black:focus\@xl {
+  .otlc-black\:focus\@xl:focus {
     outline-color: #000;
   }
   
-  .otlc-white:active\@xl {
+  .otlc-current\:focus\@xl:focus {
+    outline-color: currentColor;
+  }
+  
+  .otlc-white\:active\@xl:active {
     outline-color: #fff;
   }
   
-  .otlc-black:active\@xl {
+  .otlc-black\:active\@xl:active {
     outline-color: #000;
+  }
+  
+  .otlc-current\:active\@xl:active {
+    outline-color: currentColor;
   }
   .group:hover
 .otlc-white\:group-hover\@xl {
@@ -14198,6 +14846,10 @@
   .group:hover
 .otlc-black\:group-hover\@xl {
     outline-color: #000;
+  }
+  .group:hover
+.otlc-current\:group-hover\@xl {
+    outline-color: currentColor;
   }
 }
 
@@ -14227,77 +14879,77 @@
 }
 
 
-.otlo-0:hover {
+.otlo-0\:hover:hover {
   outline-offset: 0;
 }
 
 
-.otlo-1:hover {
+.otlo-1\:hover:hover {
   outline-offset: 1px;
 }
 
 
-.otlo-2:hover {
+.otlo-2\:hover:hover {
   outline-offset: 2px;
 }
 
 
-.otlo-3:hover {
+.otlo-3\:hover:hover {
   outline-offset: 3px;
 }
 
 
-.otlo-4:hover {
+.otlo-4\:hover:hover {
   outline-offset: 4px;
 }
 
 
-.otlo-0:focus {
+.otlo-0\:focus:focus {
   outline-offset: 0;
 }
 
 
-.otlo-1:focus {
+.otlo-1\:focus:focus {
   outline-offset: 1px;
 }
 
 
-.otlo-2:focus {
+.otlo-2\:focus:focus {
   outline-offset: 2px;
 }
 
 
-.otlo-3:focus {
+.otlo-3\:focus:focus {
   outline-offset: 3px;
 }
 
 
-.otlo-4:focus {
+.otlo-4\:focus:focus {
   outline-offset: 4px;
 }
 
 
-.otlo-0:active {
+.otlo-0\:active:active {
   outline-offset: 0;
 }
 
 
-.otlo-1:active {
+.otlo-1\:active:active {
   outline-offset: 1px;
 }
 
 
-.otlo-2:active {
+.otlo-2\:active:active {
   outline-offset: 2px;
 }
 
 
-.otlo-3:active {
+.otlo-3\:active:active {
   outline-offset: 3px;
 }
 
 
-.otlo-4:active {
+.otlo-4\:active:active {
   outline-offset: 4px;
 }
 
@@ -14348,63 +15000,63 @@
     outline-offset: 4px;
   }
   
-  .otlo-0:hover\@xs {
+  .otlo-0\:hover\@xs:hover {
     outline-offset: 0;
   }
   
-  .otlo-1:hover\@xs {
+  .otlo-1\:hover\@xs:hover {
     outline-offset: 1px;
   }
   
-  .otlo-2:hover\@xs {
+  .otlo-2\:hover\@xs:hover {
     outline-offset: 2px;
   }
   
-  .otlo-3:hover\@xs {
+  .otlo-3\:hover\@xs:hover {
     outline-offset: 3px;
   }
   
-  .otlo-4:hover\@xs {
+  .otlo-4\:hover\@xs:hover {
     outline-offset: 4px;
   }
   
-  .otlo-0:focus\@xs {
+  .otlo-0\:focus\@xs:focus {
     outline-offset: 0;
   }
   
-  .otlo-1:focus\@xs {
+  .otlo-1\:focus\@xs:focus {
     outline-offset: 1px;
   }
   
-  .otlo-2:focus\@xs {
+  .otlo-2\:focus\@xs:focus {
     outline-offset: 2px;
   }
   
-  .otlo-3:focus\@xs {
+  .otlo-3\:focus\@xs:focus {
     outline-offset: 3px;
   }
   
-  .otlo-4:focus\@xs {
+  .otlo-4\:focus\@xs:focus {
     outline-offset: 4px;
   }
   
-  .otlo-0:active\@xs {
+  .otlo-0\:active\@xs:active {
     outline-offset: 0;
   }
   
-  .otlo-1:active\@xs {
+  .otlo-1\:active\@xs:active {
     outline-offset: 1px;
   }
   
-  .otlo-2:active\@xs {
+  .otlo-2\:active\@xs:active {
     outline-offset: 2px;
   }
   
-  .otlo-3:active\@xs {
+  .otlo-3\:active\@xs:active {
     outline-offset: 3px;
   }
   
-  .otlo-4:active\@xs {
+  .otlo-4\:active\@xs:active {
     outline-offset: 4px;
   }
   .group:hover
@@ -14451,63 +15103,63 @@
     outline-offset: 4px;
   }
   
-  .otlo-0:hover\@sm {
+  .otlo-0\:hover\@sm:hover {
     outline-offset: 0;
   }
   
-  .otlo-1:hover\@sm {
+  .otlo-1\:hover\@sm:hover {
     outline-offset: 1px;
   }
   
-  .otlo-2:hover\@sm {
+  .otlo-2\:hover\@sm:hover {
     outline-offset: 2px;
   }
   
-  .otlo-3:hover\@sm {
+  .otlo-3\:hover\@sm:hover {
     outline-offset: 3px;
   }
   
-  .otlo-4:hover\@sm {
+  .otlo-4\:hover\@sm:hover {
     outline-offset: 4px;
   }
   
-  .otlo-0:focus\@sm {
+  .otlo-0\:focus\@sm:focus {
     outline-offset: 0;
   }
   
-  .otlo-1:focus\@sm {
+  .otlo-1\:focus\@sm:focus {
     outline-offset: 1px;
   }
   
-  .otlo-2:focus\@sm {
+  .otlo-2\:focus\@sm:focus {
     outline-offset: 2px;
   }
   
-  .otlo-3:focus\@sm {
+  .otlo-3\:focus\@sm:focus {
     outline-offset: 3px;
   }
   
-  .otlo-4:focus\@sm {
+  .otlo-4\:focus\@sm:focus {
     outline-offset: 4px;
   }
   
-  .otlo-0:active\@sm {
+  .otlo-0\:active\@sm:active {
     outline-offset: 0;
   }
   
-  .otlo-1:active\@sm {
+  .otlo-1\:active\@sm:active {
     outline-offset: 1px;
   }
   
-  .otlo-2:active\@sm {
+  .otlo-2\:active\@sm:active {
     outline-offset: 2px;
   }
   
-  .otlo-3:active\@sm {
+  .otlo-3\:active\@sm:active {
     outline-offset: 3px;
   }
   
-  .otlo-4:active\@sm {
+  .otlo-4\:active\@sm:active {
     outline-offset: 4px;
   }
   .group:hover
@@ -14554,63 +15206,63 @@
     outline-offset: 4px;
   }
   
-  .otlo-0:hover\@md {
+  .otlo-0\:hover\@md:hover {
     outline-offset: 0;
   }
   
-  .otlo-1:hover\@md {
+  .otlo-1\:hover\@md:hover {
     outline-offset: 1px;
   }
   
-  .otlo-2:hover\@md {
+  .otlo-2\:hover\@md:hover {
     outline-offset: 2px;
   }
   
-  .otlo-3:hover\@md {
+  .otlo-3\:hover\@md:hover {
     outline-offset: 3px;
   }
   
-  .otlo-4:hover\@md {
+  .otlo-4\:hover\@md:hover {
     outline-offset: 4px;
   }
   
-  .otlo-0:focus\@md {
+  .otlo-0\:focus\@md:focus {
     outline-offset: 0;
   }
   
-  .otlo-1:focus\@md {
+  .otlo-1\:focus\@md:focus {
     outline-offset: 1px;
   }
   
-  .otlo-2:focus\@md {
+  .otlo-2\:focus\@md:focus {
     outline-offset: 2px;
   }
   
-  .otlo-3:focus\@md {
+  .otlo-3\:focus\@md:focus {
     outline-offset: 3px;
   }
   
-  .otlo-4:focus\@md {
+  .otlo-4\:focus\@md:focus {
     outline-offset: 4px;
   }
   
-  .otlo-0:active\@md {
+  .otlo-0\:active\@md:active {
     outline-offset: 0;
   }
   
-  .otlo-1:active\@md {
+  .otlo-1\:active\@md:active {
     outline-offset: 1px;
   }
   
-  .otlo-2:active\@md {
+  .otlo-2\:active\@md:active {
     outline-offset: 2px;
   }
   
-  .otlo-3:active\@md {
+  .otlo-3\:active\@md:active {
     outline-offset: 3px;
   }
   
-  .otlo-4:active\@md {
+  .otlo-4\:active\@md:active {
     outline-offset: 4px;
   }
   .group:hover
@@ -14657,63 +15309,63 @@
     outline-offset: 4px;
   }
   
-  .otlo-0:hover\@lg {
+  .otlo-0\:hover\@lg:hover {
     outline-offset: 0;
   }
   
-  .otlo-1:hover\@lg {
+  .otlo-1\:hover\@lg:hover {
     outline-offset: 1px;
   }
   
-  .otlo-2:hover\@lg {
+  .otlo-2\:hover\@lg:hover {
     outline-offset: 2px;
   }
   
-  .otlo-3:hover\@lg {
+  .otlo-3\:hover\@lg:hover {
     outline-offset: 3px;
   }
   
-  .otlo-4:hover\@lg {
+  .otlo-4\:hover\@lg:hover {
     outline-offset: 4px;
   }
   
-  .otlo-0:focus\@lg {
+  .otlo-0\:focus\@lg:focus {
     outline-offset: 0;
   }
   
-  .otlo-1:focus\@lg {
+  .otlo-1\:focus\@lg:focus {
     outline-offset: 1px;
   }
   
-  .otlo-2:focus\@lg {
+  .otlo-2\:focus\@lg:focus {
     outline-offset: 2px;
   }
   
-  .otlo-3:focus\@lg {
+  .otlo-3\:focus\@lg:focus {
     outline-offset: 3px;
   }
   
-  .otlo-4:focus\@lg {
+  .otlo-4\:focus\@lg:focus {
     outline-offset: 4px;
   }
   
-  .otlo-0:active\@lg {
+  .otlo-0\:active\@lg:active {
     outline-offset: 0;
   }
   
-  .otlo-1:active\@lg {
+  .otlo-1\:active\@lg:active {
     outline-offset: 1px;
   }
   
-  .otlo-2:active\@lg {
+  .otlo-2\:active\@lg:active {
     outline-offset: 2px;
   }
   
-  .otlo-3:active\@lg {
+  .otlo-3\:active\@lg:active {
     outline-offset: 3px;
   }
   
-  .otlo-4:active\@lg {
+  .otlo-4\:active\@lg:active {
     outline-offset: 4px;
   }
   .group:hover
@@ -14760,63 +15412,63 @@
     outline-offset: 4px;
   }
   
-  .otlo-0:hover\@xl {
+  .otlo-0\:hover\@xl:hover {
     outline-offset: 0;
   }
   
-  .otlo-1:hover\@xl {
+  .otlo-1\:hover\@xl:hover {
     outline-offset: 1px;
   }
   
-  .otlo-2:hover\@xl {
+  .otlo-2\:hover\@xl:hover {
     outline-offset: 2px;
   }
   
-  .otlo-3:hover\@xl {
+  .otlo-3\:hover\@xl:hover {
     outline-offset: 3px;
   }
   
-  .otlo-4:hover\@xl {
+  .otlo-4\:hover\@xl:hover {
     outline-offset: 4px;
   }
   
-  .otlo-0:focus\@xl {
+  .otlo-0\:focus\@xl:focus {
     outline-offset: 0;
   }
   
-  .otlo-1:focus\@xl {
+  .otlo-1\:focus\@xl:focus {
     outline-offset: 1px;
   }
   
-  .otlo-2:focus\@xl {
+  .otlo-2\:focus\@xl:focus {
     outline-offset: 2px;
   }
   
-  .otlo-3:focus\@xl {
+  .otlo-3\:focus\@xl:focus {
     outline-offset: 3px;
   }
   
-  .otlo-4:focus\@xl {
+  .otlo-4\:focus\@xl:focus {
     outline-offset: 4px;
   }
   
-  .otlo-0:active\@xl {
+  .otlo-0\:active\@xl:active {
     outline-offset: 0;
   }
   
-  .otlo-1:active\@xl {
+  .otlo-1\:active\@xl:active {
     outline-offset: 1px;
   }
   
-  .otlo-2:active\@xl {
+  .otlo-2\:active\@xl:active {
     outline-offset: 2px;
   }
   
-  .otlo-3:active\@xl {
+  .otlo-3\:active\@xl:active {
     outline-offset: 3px;
   }
   
-  .otlo-4:active\@xl {
+  .otlo-4\:active\@xl:active {
     outline-offset: 4px;
   }
   .group:hover
@@ -14857,47 +15509,47 @@
 }
 
 
-.otls-dotted:hover {
+.otls-dotted\:hover:hover {
   outline-style: dotted;
 }
 
 
-.otls-dashed:hover {
+.otls-dashed\:hover:hover {
   outline-style: dashed;
 }
 
 
-.otls-solid:hover {
+.otls-solid\:hover:hover {
   outline-style: solid;
 }
 
 
-.otls-dotted:focus {
+.otls-dotted\:focus:focus {
   outline-style: dotted;
 }
 
 
-.otls-dashed:focus {
+.otls-dashed\:focus:focus {
   outline-style: dashed;
 }
 
 
-.otls-solid:focus {
+.otls-solid\:focus:focus {
   outline-style: solid;
 }
 
 
-.otls-dotted:active {
+.otls-dotted\:active:active {
   outline-style: dotted;
 }
 
 
-.otls-dashed:active {
+.otls-dashed\:active:active {
   outline-style: dashed;
 }
 
 
-.otls-solid:active {
+.otls-solid\:active:active {
   outline-style: solid;
 }
 
@@ -14930,39 +15582,39 @@
     outline-style: solid;
   }
   
-  .otls-dotted:hover\@xs {
+  .otls-dotted\:hover\@xs:hover {
     outline-style: dotted;
   }
   
-  .otls-dashed:hover\@xs {
+  .otls-dashed\:hover\@xs:hover {
     outline-style: dashed;
   }
   
-  .otls-solid:hover\@xs {
+  .otls-solid\:hover\@xs:hover {
     outline-style: solid;
   }
   
-  .otls-dotted:focus\@xs {
+  .otls-dotted\:focus\@xs:focus {
     outline-style: dotted;
   }
   
-  .otls-dashed:focus\@xs {
+  .otls-dashed\:focus\@xs:focus {
     outline-style: dashed;
   }
   
-  .otls-solid:focus\@xs {
+  .otls-solid\:focus\@xs:focus {
     outline-style: solid;
   }
   
-  .otls-dotted:active\@xs {
+  .otls-dotted\:active\@xs:active {
     outline-style: dotted;
   }
   
-  .otls-dashed:active\@xs {
+  .otls-dashed\:active\@xs:active {
     outline-style: dashed;
   }
   
-  .otls-solid:active\@xs {
+  .otls-solid\:active\@xs:active {
     outline-style: solid;
   }
   .group:hover
@@ -14993,39 +15645,39 @@
     outline-style: solid;
   }
   
-  .otls-dotted:hover\@sm {
+  .otls-dotted\:hover\@sm:hover {
     outline-style: dotted;
   }
   
-  .otls-dashed:hover\@sm {
+  .otls-dashed\:hover\@sm:hover {
     outline-style: dashed;
   }
   
-  .otls-solid:hover\@sm {
+  .otls-solid\:hover\@sm:hover {
     outline-style: solid;
   }
   
-  .otls-dotted:focus\@sm {
+  .otls-dotted\:focus\@sm:focus {
     outline-style: dotted;
   }
   
-  .otls-dashed:focus\@sm {
+  .otls-dashed\:focus\@sm:focus {
     outline-style: dashed;
   }
   
-  .otls-solid:focus\@sm {
+  .otls-solid\:focus\@sm:focus {
     outline-style: solid;
   }
   
-  .otls-dotted:active\@sm {
+  .otls-dotted\:active\@sm:active {
     outline-style: dotted;
   }
   
-  .otls-dashed:active\@sm {
+  .otls-dashed\:active\@sm:active {
     outline-style: dashed;
   }
   
-  .otls-solid:active\@sm {
+  .otls-solid\:active\@sm:active {
     outline-style: solid;
   }
   .group:hover
@@ -15056,39 +15708,39 @@
     outline-style: solid;
   }
   
-  .otls-dotted:hover\@md {
+  .otls-dotted\:hover\@md:hover {
     outline-style: dotted;
   }
   
-  .otls-dashed:hover\@md {
+  .otls-dashed\:hover\@md:hover {
     outline-style: dashed;
   }
   
-  .otls-solid:hover\@md {
+  .otls-solid\:hover\@md:hover {
     outline-style: solid;
   }
   
-  .otls-dotted:focus\@md {
+  .otls-dotted\:focus\@md:focus {
     outline-style: dotted;
   }
   
-  .otls-dashed:focus\@md {
+  .otls-dashed\:focus\@md:focus {
     outline-style: dashed;
   }
   
-  .otls-solid:focus\@md {
+  .otls-solid\:focus\@md:focus {
     outline-style: solid;
   }
   
-  .otls-dotted:active\@md {
+  .otls-dotted\:active\@md:active {
     outline-style: dotted;
   }
   
-  .otls-dashed:active\@md {
+  .otls-dashed\:active\@md:active {
     outline-style: dashed;
   }
   
-  .otls-solid:active\@md {
+  .otls-solid\:active\@md:active {
     outline-style: solid;
   }
   .group:hover
@@ -15119,39 +15771,39 @@
     outline-style: solid;
   }
   
-  .otls-dotted:hover\@lg {
+  .otls-dotted\:hover\@lg:hover {
     outline-style: dotted;
   }
   
-  .otls-dashed:hover\@lg {
+  .otls-dashed\:hover\@lg:hover {
     outline-style: dashed;
   }
   
-  .otls-solid:hover\@lg {
+  .otls-solid\:hover\@lg:hover {
     outline-style: solid;
   }
   
-  .otls-dotted:focus\@lg {
+  .otls-dotted\:focus\@lg:focus {
     outline-style: dotted;
   }
   
-  .otls-dashed:focus\@lg {
+  .otls-dashed\:focus\@lg:focus {
     outline-style: dashed;
   }
   
-  .otls-solid:focus\@lg {
+  .otls-solid\:focus\@lg:focus {
     outline-style: solid;
   }
   
-  .otls-dotted:active\@lg {
+  .otls-dotted\:active\@lg:active {
     outline-style: dotted;
   }
   
-  .otls-dashed:active\@lg {
+  .otls-dashed\:active\@lg:active {
     outline-style: dashed;
   }
   
-  .otls-solid:active\@lg {
+  .otls-solid\:active\@lg:active {
     outline-style: solid;
   }
   .group:hover
@@ -15182,39 +15834,39 @@
     outline-style: solid;
   }
   
-  .otls-dotted:hover\@xl {
+  .otls-dotted\:hover\@xl:hover {
     outline-style: dotted;
   }
   
-  .otls-dashed:hover\@xl {
+  .otls-dashed\:hover\@xl:hover {
     outline-style: dashed;
   }
   
-  .otls-solid:hover\@xl {
+  .otls-solid\:hover\@xl:hover {
     outline-style: solid;
   }
   
-  .otls-dotted:focus\@xl {
+  .otls-dotted\:focus\@xl:focus {
     outline-style: dotted;
   }
   
-  .otls-dashed:focus\@xl {
+  .otls-dashed\:focus\@xl:focus {
     outline-style: dashed;
   }
   
-  .otls-solid:focus\@xl {
+  .otls-solid\:focus\@xl:focus {
     outline-style: solid;
   }
   
-  .otls-dotted:active\@xl {
+  .otls-dotted\:active\@xl:active {
     outline-style: dotted;
   }
   
-  .otls-dashed:active\@xl {
+  .otls-dashed\:active\@xl:active {
     outline-style: dashed;
   }
   
-  .otls-solid:active\@xl {
+  .otls-solid\:active\@xl:active {
     outline-style: solid;
   }
   .group:hover
@@ -15252,62 +15904,62 @@
 }
 
 
-.otlw-0:hover {
+.otlw-0\:hover:hover {
   outline-width: 0;
 }
 
 
-.otlw-1:hover {
+.otlw-1\:hover:hover {
   outline-width: 1px;
 }
 
 
-.otlw-2:hover {
+.otlw-2\:hover:hover {
   outline-width: 2px;
 }
 
 
-.otlw-3:hover {
+.otlw-3\:hover:hover {
   outline-width: 3px;
 }
 
 
-.otlw-0:focus {
+.otlw-0\:focus:focus {
   outline-width: 0;
 }
 
 
-.otlw-1:focus {
+.otlw-1\:focus:focus {
   outline-width: 1px;
 }
 
 
-.otlw-2:focus {
+.otlw-2\:focus:focus {
   outline-width: 2px;
 }
 
 
-.otlw-3:focus {
+.otlw-3\:focus:focus {
   outline-width: 3px;
 }
 
 
-.otlw-0:active {
+.otlw-0\:active:active {
   outline-width: 0;
 }
 
 
-.otlw-1:active {
+.otlw-1\:active:active {
   outline-width: 1px;
 }
 
 
-.otlw-2:active {
+.otlw-2\:active:active {
   outline-width: 2px;
 }
 
 
-.otlw-3:active {
+.otlw-3\:active:active {
   outline-width: 3px;
 }
 
@@ -15349,51 +16001,51 @@
     outline-width: 3px;
   }
   
-  .otlw-0:hover\@xs {
+  .otlw-0\:hover\@xs:hover {
     outline-width: 0;
   }
   
-  .otlw-1:hover\@xs {
+  .otlw-1\:hover\@xs:hover {
     outline-width: 1px;
   }
   
-  .otlw-2:hover\@xs {
+  .otlw-2\:hover\@xs:hover {
     outline-width: 2px;
   }
   
-  .otlw-3:hover\@xs {
+  .otlw-3\:hover\@xs:hover {
     outline-width: 3px;
   }
   
-  .otlw-0:focus\@xs {
+  .otlw-0\:focus\@xs:focus {
     outline-width: 0;
   }
   
-  .otlw-1:focus\@xs {
+  .otlw-1\:focus\@xs:focus {
     outline-width: 1px;
   }
   
-  .otlw-2:focus\@xs {
+  .otlw-2\:focus\@xs:focus {
     outline-width: 2px;
   }
   
-  .otlw-3:focus\@xs {
+  .otlw-3\:focus\@xs:focus {
     outline-width: 3px;
   }
   
-  .otlw-0:active\@xs {
+  .otlw-0\:active\@xs:active {
     outline-width: 0;
   }
   
-  .otlw-1:active\@xs {
+  .otlw-1\:active\@xs:active {
     outline-width: 1px;
   }
   
-  .otlw-2:active\@xs {
+  .otlw-2\:active\@xs:active {
     outline-width: 2px;
   }
   
-  .otlw-3:active\@xs {
+  .otlw-3\:active\@xs:active {
     outline-width: 3px;
   }
   .group:hover
@@ -15432,51 +16084,51 @@
     outline-width: 3px;
   }
   
-  .otlw-0:hover\@sm {
+  .otlw-0\:hover\@sm:hover {
     outline-width: 0;
   }
   
-  .otlw-1:hover\@sm {
+  .otlw-1\:hover\@sm:hover {
     outline-width: 1px;
   }
   
-  .otlw-2:hover\@sm {
+  .otlw-2\:hover\@sm:hover {
     outline-width: 2px;
   }
   
-  .otlw-3:hover\@sm {
+  .otlw-3\:hover\@sm:hover {
     outline-width: 3px;
   }
   
-  .otlw-0:focus\@sm {
+  .otlw-0\:focus\@sm:focus {
     outline-width: 0;
   }
   
-  .otlw-1:focus\@sm {
+  .otlw-1\:focus\@sm:focus {
     outline-width: 1px;
   }
   
-  .otlw-2:focus\@sm {
+  .otlw-2\:focus\@sm:focus {
     outline-width: 2px;
   }
   
-  .otlw-3:focus\@sm {
+  .otlw-3\:focus\@sm:focus {
     outline-width: 3px;
   }
   
-  .otlw-0:active\@sm {
+  .otlw-0\:active\@sm:active {
     outline-width: 0;
   }
   
-  .otlw-1:active\@sm {
+  .otlw-1\:active\@sm:active {
     outline-width: 1px;
   }
   
-  .otlw-2:active\@sm {
+  .otlw-2\:active\@sm:active {
     outline-width: 2px;
   }
   
-  .otlw-3:active\@sm {
+  .otlw-3\:active\@sm:active {
     outline-width: 3px;
   }
   .group:hover
@@ -15515,51 +16167,51 @@
     outline-width: 3px;
   }
   
-  .otlw-0:hover\@md {
+  .otlw-0\:hover\@md:hover {
     outline-width: 0;
   }
   
-  .otlw-1:hover\@md {
+  .otlw-1\:hover\@md:hover {
     outline-width: 1px;
   }
   
-  .otlw-2:hover\@md {
+  .otlw-2\:hover\@md:hover {
     outline-width: 2px;
   }
   
-  .otlw-3:hover\@md {
+  .otlw-3\:hover\@md:hover {
     outline-width: 3px;
   }
   
-  .otlw-0:focus\@md {
+  .otlw-0\:focus\@md:focus {
     outline-width: 0;
   }
   
-  .otlw-1:focus\@md {
+  .otlw-1\:focus\@md:focus {
     outline-width: 1px;
   }
   
-  .otlw-2:focus\@md {
+  .otlw-2\:focus\@md:focus {
     outline-width: 2px;
   }
   
-  .otlw-3:focus\@md {
+  .otlw-3\:focus\@md:focus {
     outline-width: 3px;
   }
   
-  .otlw-0:active\@md {
+  .otlw-0\:active\@md:active {
     outline-width: 0;
   }
   
-  .otlw-1:active\@md {
+  .otlw-1\:active\@md:active {
     outline-width: 1px;
   }
   
-  .otlw-2:active\@md {
+  .otlw-2\:active\@md:active {
     outline-width: 2px;
   }
   
-  .otlw-3:active\@md {
+  .otlw-3\:active\@md:active {
     outline-width: 3px;
   }
   .group:hover
@@ -15598,51 +16250,51 @@
     outline-width: 3px;
   }
   
-  .otlw-0:hover\@lg {
+  .otlw-0\:hover\@lg:hover {
     outline-width: 0;
   }
   
-  .otlw-1:hover\@lg {
+  .otlw-1\:hover\@lg:hover {
     outline-width: 1px;
   }
   
-  .otlw-2:hover\@lg {
+  .otlw-2\:hover\@lg:hover {
     outline-width: 2px;
   }
   
-  .otlw-3:hover\@lg {
+  .otlw-3\:hover\@lg:hover {
     outline-width: 3px;
   }
   
-  .otlw-0:focus\@lg {
+  .otlw-0\:focus\@lg:focus {
     outline-width: 0;
   }
   
-  .otlw-1:focus\@lg {
+  .otlw-1\:focus\@lg:focus {
     outline-width: 1px;
   }
   
-  .otlw-2:focus\@lg {
+  .otlw-2\:focus\@lg:focus {
     outline-width: 2px;
   }
   
-  .otlw-3:focus\@lg {
+  .otlw-3\:focus\@lg:focus {
     outline-width: 3px;
   }
   
-  .otlw-0:active\@lg {
+  .otlw-0\:active\@lg:active {
     outline-width: 0;
   }
   
-  .otlw-1:active\@lg {
+  .otlw-1\:active\@lg:active {
     outline-width: 1px;
   }
   
-  .otlw-2:active\@lg {
+  .otlw-2\:active\@lg:active {
     outline-width: 2px;
   }
   
-  .otlw-3:active\@lg {
+  .otlw-3\:active\@lg:active {
     outline-width: 3px;
   }
   .group:hover
@@ -15681,51 +16333,51 @@
     outline-width: 3px;
   }
   
-  .otlw-0:hover\@xl {
+  .otlw-0\:hover\@xl:hover {
     outline-width: 0;
   }
   
-  .otlw-1:hover\@xl {
+  .otlw-1\:hover\@xl:hover {
     outline-width: 1px;
   }
   
-  .otlw-2:hover\@xl {
+  .otlw-2\:hover\@xl:hover {
     outline-width: 2px;
   }
   
-  .otlw-3:hover\@xl {
+  .otlw-3\:hover\@xl:hover {
     outline-width: 3px;
   }
   
-  .otlw-0:focus\@xl {
+  .otlw-0\:focus\@xl:focus {
     outline-width: 0;
   }
   
-  .otlw-1:focus\@xl {
+  .otlw-1\:focus\@xl:focus {
     outline-width: 1px;
   }
   
-  .otlw-2:focus\@xl {
+  .otlw-2\:focus\@xl:focus {
     outline-width: 2px;
   }
   
-  .otlw-3:focus\@xl {
+  .otlw-3\:focus\@xl:focus {
     outline-width: 3px;
   }
   
-  .otlw-0:active\@xl {
+  .otlw-0\:active\@xl:active {
     outline-width: 0;
   }
   
-  .otlw-1:active\@xl {
+  .otlw-1\:active\@xl:active {
     outline-width: 1px;
   }
   
-  .otlw-2:active\@xl {
+  .otlw-2\:active\@xl:active {
     outline-width: 2px;
   }
   
-  .otlw-3:active\@xl {
+  .otlw-3\:active\@xl:active {
     outline-width: 3px;
   }
   .group:hover
@@ -17786,6 +18438,286 @@
   
   .rgt-auto\@xl {
     right: auto;
+  }
+}
+
+
+.stw-1 {
+  stroke-width: 1;
+}
+
+
+.stw-1\.5 {
+  stroke-width: 1.5;
+}
+
+
+.stw-2 {
+  stroke-width: 2;
+}
+
+
+.stw-2\.5 {
+  stroke-width: 2.5;
+}
+
+
+.stw-3 {
+  stroke-width: 3;
+}
+
+
+.stw-3\.5 {
+  stroke-width: 3.5;
+}
+
+
+.stw-4 {
+  stroke-width: 4;
+}
+
+@media all and (min-width: 416px) {
+  
+  .stw-1\@xs {
+    stroke-width: 1;
+  }
+  
+  .stw-1\.5\@xs {
+    stroke-width: 1.5;
+  }
+  
+  .stw-2\@xs {
+    stroke-width: 2;
+  }
+  
+  .stw-2\.5\@xs {
+    stroke-width: 2.5;
+  }
+  
+  .stw-3\@xs {
+    stroke-width: 3;
+  }
+  
+  .stw-3\.5\@xs {
+    stroke-width: 3.5;
+  }
+  
+  .stw-4\@xs {
+    stroke-width: 4;
+  }
+}
+
+@media all and (min-width: 756px) {
+  
+  .stw-1\@sm {
+    stroke-width: 1;
+  }
+  
+  .stw-1\.5\@sm {
+    stroke-width: 1.5;
+  }
+  
+  .stw-2\@sm {
+    stroke-width: 2;
+  }
+  
+  .stw-2\.5\@sm {
+    stroke-width: 2.5;
+  }
+  
+  .stw-3\@sm {
+    stroke-width: 3;
+  }
+  
+  .stw-3\.5\@sm {
+    stroke-width: 3.5;
+  }
+  
+  .stw-4\@sm {
+    stroke-width: 4;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  
+  .stw-1\@md {
+    stroke-width: 1;
+  }
+  
+  .stw-1\.5\@md {
+    stroke-width: 1.5;
+  }
+  
+  .stw-2\@md {
+    stroke-width: 2;
+  }
+  
+  .stw-2\.5\@md {
+    stroke-width: 2.5;
+  }
+  
+  .stw-3\@md {
+    stroke-width: 3;
+  }
+  
+  .stw-3\.5\@md {
+    stroke-width: 3.5;
+  }
+  
+  .stw-4\@md {
+    stroke-width: 4;
+  }
+}
+
+@media all and (min-width: 1220px) {
+  
+  .stw-1\@lg {
+    stroke-width: 1;
+  }
+  
+  .stw-1\.5\@lg {
+    stroke-width: 1.5;
+  }
+  
+  .stw-2\@lg {
+    stroke-width: 2;
+  }
+  
+  .stw-2\.5\@lg {
+    stroke-width: 2.5;
+  }
+  
+  .stw-3\@lg {
+    stroke-width: 3;
+  }
+  
+  .stw-3\.5\@lg {
+    stroke-width: 3.5;
+  }
+  
+  .stw-4\@lg {
+    stroke-width: 4;
+  }
+}
+
+@media all and (min-width: 1460px) {
+  
+  .stw-1\@xl {
+    stroke-width: 1;
+  }
+  
+  .stw-1\.5\@xl {
+    stroke-width: 1.5;
+  }
+  
+  .stw-2\@xl {
+    stroke-width: 2;
+  }
+  
+  .stw-2\.5\@xl {
+    stroke-width: 2.5;
+  }
+  
+  .stw-3\@xl {
+    stroke-width: 3;
+  }
+  
+  .stw-3\.5\@xl {
+    stroke-width: 3.5;
+  }
+  
+  .stw-4\@xl {
+    stroke-width: 4;
+  }
+}
+
+
+.st-white {
+  stroke: #fff;
+}
+
+
+.st-black {
+  stroke: #000;
+}
+
+
+.st-current {
+  stroke: currentColor;
+}
+
+@media all and (min-width: 416px) {
+  
+  .st-white\@xs {
+    stroke: #fff;
+  }
+  
+  .st-black\@xs {
+    stroke: #000;
+  }
+  
+  .st-current\@xs {
+    stroke: currentColor;
+  }
+}
+
+@media all and (min-width: 756px) {
+  
+  .st-white\@sm {
+    stroke: #fff;
+  }
+  
+  .st-black\@sm {
+    stroke: #000;
+  }
+  
+  .st-current\@sm {
+    stroke: currentColor;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  
+  .st-white\@md {
+    stroke: #fff;
+  }
+  
+  .st-black\@md {
+    stroke: #000;
+  }
+  
+  .st-current\@md {
+    stroke: currentColor;
+  }
+}
+
+@media all and (min-width: 1220px) {
+  
+  .st-white\@lg {
+    stroke: #fff;
+  }
+  
+  .st-black\@lg {
+    stroke: #000;
+  }
+  
+  .st-current\@lg {
+    stroke: currentColor;
+  }
+}
+
+@media all and (min-width: 1460px) {
+  
+  .st-white\@xl {
+    stroke: #fff;
+  }
+  
+  .st-black\@xl {
+    stroke: #000;
+  }
+  
+  .st-current\@xl {
+    stroke: currentColor;
   }
 }
 
