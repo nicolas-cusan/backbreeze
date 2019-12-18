@@ -1,0 +1,24 @@
+////
+/// @group svg
+////
+
+/// ## Values
+
+$bb-stroke-width-values: (
+  '1': 1,
+  '1\\.5': 1.5,
+  '2': 2,
+  '2\\.5': 2.5,
+  '3': 3,
+  '3\\.5': 3.5,
+  '4': 4
+) !default;
+
+/// ## Config
+
+$bb-stroke-width-config: (
+  'name': 'stw',
+  'prop': 'stroke-width',
+  'bps': $bb-bps,
+  'values': $bb-stroke-width-values
+) !default;

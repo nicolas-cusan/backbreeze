@@ -1,0 +1,16 @@
+////
+/// @group svg
+////
+
+/// ## Values
+
+$bb-stroke-values: $bb-colors !default;
+
+/// ## Config
+
+$bb-stroke-config: (
+  'name': 'st',
+  'prop': 'stroke',
+  'bps': $bb-bps,
+  'values': $bb-stroke-values
+) !default;

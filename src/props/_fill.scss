@@ -1,0 +1,16 @@
+////
+/// @group svg
+////
+
+/// ## Values
+
+$bb-fill-values: $bb-colors !default;
+
+/// ## Config
+
+$bb-fill-config: (
+  'name': 'fl',
+  'prop': 'fill',
+  'bps': $bb-bps,
+  'values': $bb-fill-values
+) !default;

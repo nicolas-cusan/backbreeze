@@ -26,6 +26,7 @@
 @include bb-utility-class($bb-column-gap-config);
 @include bb-utility-class($bb-cursor-config);
 @include bb-utility-class($bb-display-config);
+@include bb-utility-class($bb-fill-config);
 @include bb-utility-class($bb-flex-config);
 @include bb-utility-class($bb-flex-basis-config);
 @include bb-utility-class($bb-flex-direction-config);
@@ -68,6 +69,8 @@
 @include bb-utility-class($bb-position-config);
 @include bb-utility-class($bb-resize-config);
 @include bb-utility-class($bb-right-config);
+@include bb-utility-class($bb-stroke-width-config);
+@include bb-utility-class($bb-stroke-config);
 @include bb-utility-class($bb-table-layout-config);
 @include bb-utility-class($bb-text-align-config);
 @include bb-utility-class($bb-text-decoration-config);

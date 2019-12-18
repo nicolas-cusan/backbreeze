@@ -79,6 +79,7 @@ $bb-colors: (
 @import 'props/column-gap';
 @import 'props/cursor';
 @import 'props/display';
+@import 'props/fill';
 @import 'props/flex';
 @import 'props/flex-basis';
 @import 'props/flex-direction';
@@ -121,6 +122,8 @@ $bb-colors: (
 @import 'props/position';
 @import 'props/resize';
 @import 'props/right';
+@import 'props/stroke-width';
+@import 'props/stroke';
 @import 'props/table-layout';
 @import 'props/text-align';
 @import 'props/text-decoration';
