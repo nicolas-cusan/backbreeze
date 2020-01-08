@@ -59,7 +59,7 @@
   $pseudo: false
 ) {
   $bp-name: if(str-length($bp-name) > 0, '#{\@}#{$bp-name}', '');
-  $name-negative: if($bb-prefix, '-#{$bb-prefix}#{$name}', '-#{$name}');
+  $name-negative: if($bb-namespace, '-#{$bb-namespace}#{$name}', '-#{$name}');
 
   $pseudo-name: if($pseudo, '#{\:}#{$pseudo}', '');
   $pseudo: if($pseudo, ':#{$pseudo}', '');
@@ -97,74 +97,74 @@
       // @debug $pseudo;
       // @debug $pseudo-name;
       #{$parent}
-        .#{$bb-prefix}#{$name}#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$bb-namespace}#{$name}#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop}: #{$val};
       }
     }
 
     @if $directional and not $is-border-radius {
       #{$parent}
-        .#{$bb-prefix}#{$name}t#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$bb-namespace}#{$name}t#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-top}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name}l#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$bb-namespace}#{$name}l#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-left}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name}r#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$bb-namespace}#{$name}r#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-right}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name}b#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$bb-namespace}#{$name}b#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-bottom}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name}x#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$bb-namespace}#{$name}x#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-left}: #{$val};
         #{$prop-right}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name}y#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$bb-namespace}#{$name}y#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-top}: #{$val};
         #{$prop-bottom}: #{$val};
       }
     } @else if $is-border-radius {
       #{$parent}
-        .#{$bb-prefix}#{$name}t#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$bb-namespace}#{$name}t#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-top-left}: #{$val};
         #{$prop-top-right}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name}l#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$bb-namespace}#{$name}l#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-top-left}: #{$val};
         #{$prop-bottom-left}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name}r#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$bb-namespace}#{$name}r#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-top-right}: #{$val};
         #{$prop-bottom-right)}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name}b#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$bb-namespace}#{$name}b#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-bottom-left}: #{$val};
         #{$prop-bottom-right)}: #{$val};
       }
 
       #{$parent}
-        .#{$bb-prefix}#{$name}tl#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$bb-namespace}#{$name}tl#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-top-left}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name}tr#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$bb-namespace}#{$name}tr#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-top-right}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name}bl#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$bb-namespace}#{$name}bl#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-bottom-left}: #{$val};
       }
       #{$parent}
-        .#{$bb-prefix}#{$name}br#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
+        .#{$bb-namespace}#{$name}br#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-bottom-right)}: #{$val};
       }
     }
