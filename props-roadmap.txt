@@ -24,7 +24,6 @@ caret-color (cursor in text boxes)
 
 color-adjust (automatic a18y contrast optimization)
 
-
 column-fill
 column-rule
 column-rule-color
