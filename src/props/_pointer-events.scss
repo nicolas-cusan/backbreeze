@@ -15,7 +15,8 @@ $bb-pointer-events-config: (
   'name': 'pointer',
   'prop': 'pointer-events',
   'bps': $bb-bps,
+  'pseudo': (
+    'group-hover'
+  ),
   'values': $bb-pointer-events-values
 ) !default;
-
-
