@@ -8,10 +8,14 @@ $bb-transition-property-values: (
   'c': color,
   'bg': background-color,
   'bc': border-color,
+  'fl': fill,
+  'st': stroke,
   'colors': (
     color,
     background-color,
-    border-color
+    border-color,
+    fill,
+    stroke
   ),
   'o': opacity,
   't': transform,
@@ -37,5 +41,3 @@ $bb-transition-property-config: (
   'bps': $bb-bps,
   'values': $bb-transition-property-values
 ) !default;
-
-
