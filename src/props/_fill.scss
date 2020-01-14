@@ -12,5 +12,6 @@ $bb-fill-config: (
   'name': 'fl',
   'prop': 'fill',
   'bps': $bb-bps,
+  'pseudo': $bb-pseudo,
   'values': $bb-fill-values
 ) !default;
