@@ -216,9 +216,20 @@
     @media print {
       @content;
     }
-  } @else if $mq {
+  } @else if type-of($mq) == 'number' {
     @media #{$media} and (min-width: #{$mq}) {
       @content;
+    }
+  } @else if type-of($mq) == 'string' {
+    $general-mq: map-get($bb-bps, $mq);
+    @if $general-mq {
+      @media #{$media} and (min-width: #{$general-mq}) {
+        @content;
+      }
+    } @else {
+      @media #{$mq} {
+        @content;
+      }
     }
   } @else {
     @content;
