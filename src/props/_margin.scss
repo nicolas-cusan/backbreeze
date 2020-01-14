@@ -7,7 +7,7 @@
 $bb-margin-values: map-merge(
   $bb-spacing,
   (
-    '50\\%': 50%,
+    '50%': 50%,
     'auto': auto
   )
 ) !default;
@@ -20,5 +20,3 @@ $bb-margin-config: (
   'bps': $bb-bps,
   'values': $bb-margin-values
 ) !default;
-
-

@@ -5,7 +5,7 @@
 /// ## Values
 
 $bb-object-position-values: (
-  '50\\%': 50%
+  '50%': 50%
 ) !default;
 
 /// ## Config
@@ -16,5 +16,3 @@ $bb-object-position-config: (
   'bps': $bb-bps,
   'values': $bb-object-position-values
 ) !default;
-
-

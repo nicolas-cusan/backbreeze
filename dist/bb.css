@@ -279,11 +279,11 @@
     align-items: space-evenly;
   }
   
-  .ai-stretch \@xs {
+  .ai-stretch\@xs {
     align-items: stretch;
   }
   
-  .ai-baseline \@xs {
+  .ai-baseline\@xs {
     align-items: baseline;
   }
 }
@@ -314,11 +314,11 @@
     align-items: space-evenly;
   }
   
-  .ai-stretch \@sm {
+  .ai-stretch\@sm {
     align-items: stretch;
   }
   
-  .ai-baseline \@sm {
+  .ai-baseline\@sm {
     align-items: baseline;
   }
 }
@@ -349,11 +349,11 @@
     align-items: space-evenly;
   }
   
-  .ai-stretch \@md {
+  .ai-stretch\@md {
     align-items: stretch;
   }
   
-  .ai-baseline \@md {
+  .ai-baseline\@md {
     align-items: baseline;
   }
 }
@@ -384,11 +384,11 @@
     align-items: space-evenly;
   }
   
-  .ai-stretch \@lg {
+  .ai-stretch\@lg {
     align-items: stretch;
   }
   
-  .ai-baseline \@lg {
+  .ai-baseline\@lg {
     align-items: baseline;
   }
 }
@@ -419,11 +419,11 @@
     align-items: space-evenly;
   }
   
-  .ai-stretch \@xl {
+  .ai-stretch\@xl {
     align-items: stretch;
   }
   
-  .ai-baseline \@xl {
+  .ai-baseline\@xl {
     align-items: baseline;
   }
 }

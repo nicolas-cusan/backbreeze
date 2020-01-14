@@ -5,7 +5,7 @@
 /// ## Values
 
 $bb-text-indent-values: (
-  '100\\%': 100%
+  '100%': 100%
 ) !default;
 
 /// ## Config
@@ -16,5 +16,3 @@ $bb-text-indent-config: (
   'bps': $bb-bps,
   'values': $bb-text-indent-values
 ) !default;
-
-
