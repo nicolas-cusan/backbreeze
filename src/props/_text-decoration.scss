@@ -16,7 +16,6 @@ $bb-text-decoration-config: (
   'name': 'td',
   'prop': 'text-decoration',
   'bps': $bb-bps,
+  'pseudo': $bb-pseudo,
   'values': $bb-text-decoration-values
 ) !default;
-
-
