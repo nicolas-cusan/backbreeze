@@ -30,7 +30,9 @@ $bb-transition-property-values: (
     transform,
     color,
     background-color,
-    border-color
+    border-color,
+    fill,
+    stroke
   )
 ) !default;
 
