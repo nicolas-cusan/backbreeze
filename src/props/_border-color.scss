@@ -12,5 +12,6 @@ $bb-border-color-config: (
   'name': 'brc',
   'prop': 'border-color',
   'bps': $bb-bps,
+  'pseudo': $bb-pseudo,
   'values': $bb-border-color-values
 ) !default;
