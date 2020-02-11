@@ -28,8 +28,5 @@ $bb-mix-blend-mode-values: (
 $bb-mix-blend-mode-config: (
   'name': 'blend',
   'prop': 'mix-blend-mode',
-  'bps': $bb-bps,
   'values': $bb-mix-blend-mode-values
 ) !default;
-
-

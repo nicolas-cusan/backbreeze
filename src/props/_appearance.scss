@@ -13,6 +13,5 @@ $bb-appearance-values: (
 $bb-appearance-config: (
   'name': 'appr',
   'prop': 'appearance',
-  'bps': $bb-bps,
   'values': $bb-appearance-values
 ) !default;

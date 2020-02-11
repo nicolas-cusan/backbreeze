@@ -16,8 +16,5 @@ $bb-resize-values: (
 $bb-resize-config: (
   'name': 'resize',
   'prop': 'resize',
-  'bps': $bb-bps,
   'values': $bb-resize-values
 ) !default;
-
-

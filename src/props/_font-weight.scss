@@ -23,8 +23,5 @@ $bb-font-weight-values: (
 $bb-font-weight-config: (
   'name': 'fw',
   'prop': 'font-weight',
-  'bps': $bb-bps,
   'values': $bb-font-weight-values
 ) !default;
-
-

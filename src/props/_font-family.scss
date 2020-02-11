@@ -17,8 +17,5 @@ $bb-font-family-values: (
 $bb-font-family-config: (
   'name': 'ff',
   'prop': 'font-family',
-  'bps': $bb-bps,
   'values': $bb-font-family-values
 ) !default;
-
-

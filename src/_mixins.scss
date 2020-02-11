@@ -147,12 +147,12 @@
       #{$parent}
         .#{$bb-namespace}#{$name}r#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-top-right}: #{$val};
-        #{$prop-bottom-right)}: #{$val};
+        #{$prop-bottom-right}: #{$val};
       }
       #{$parent}
         .#{$bb-namespace}#{$name}b#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
         #{$prop-bottom-left}: #{$val};
-        #{$prop-bottom-right)}: #{$val};
+        #{$prop-bottom-right}: #{$val};
       }
 
       #{$parent}
@@ -169,7 +169,7 @@
       }
       #{$parent}
         .#{$bb-namespace}#{$name}br#{$key}#{$pseudo-name}#{$bp-name}#{$pseudo} {
-        #{$prop-bottom-right)}: #{$val};
+        #{$prop-bottom-right}: #{$val};
       }
     }
 

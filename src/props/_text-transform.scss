@@ -19,8 +19,5 @@ $bb-text-transform-values: (
 $bb-text-transform-config: (
   'name': 'tt',
   'prop': 'text-transform',
-  'bps': $bb-bps,
   'values': $bb-text-transform-values
 ) !default;
-
-

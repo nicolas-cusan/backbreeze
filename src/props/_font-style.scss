@@ -14,8 +14,5 @@ $bb-font-style-values: (
 $bb-font-style-config: (
   'name': 'fstyl',
   'prop': 'font-style',
-  'bps': $bb-bps,
   'values': $bb-font-style-values
 ) !default;
-
-

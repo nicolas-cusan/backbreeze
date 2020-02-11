@@ -15,8 +15,5 @@ $bb-list-style-type-values: (
 $bb-list-style-type-config: (
   'name': 'listtype',
   'prop': 'list-style-type',
-  'bps': $bb-bps,
   'values': $bb-list-style-type-values
 ) !default;
-
-

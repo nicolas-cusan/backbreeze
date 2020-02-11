@@ -19,8 +19,5 @@ $bb-cursor-values: (
 $bb-cursor-config: (
   'name': 'cur',
   'prop': 'cursor',
-  'bps': $bb-bps,
   'values': $bb-cursor-values
 ) !default;
-
-

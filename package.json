@@ -5,7 +5,8 @@
   "main": "bb.scss",
   "scripts": {
     "watch": "node-sass src/bb.scss -o dist --output-style expanded --source-map true && node-sass -rw src -o dist --output-style expanded --source-map true",
-    "build": "node-sass src/bb.scss -o dist --output-style expanded --source-map true"
+    "build": "node-sass src/bb.scss -o dist --output-style expanded --source-map true",
+    "dart-build": "sass src/bb.scss dist/bb.css"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
   "homepage": "https://github.com/nicolas-cusan/backbreeze#readme",
   "devDependencies": {
     "del": "^5.1.0",
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.12.0",
+    "sass": "^1.25.0"
   }
 }

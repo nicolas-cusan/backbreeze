@@ -16,6 +16,5 @@ $bb-box-sizing-values: (
 $bb-box-sizing-config: (
   'name': 'bxsize',
   'prop': 'box-sizing',
-  'bps': $bb-bps,
   'values': $bb-box-sizing-values
 ) !default;

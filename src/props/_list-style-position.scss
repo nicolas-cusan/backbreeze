@@ -14,8 +14,5 @@ $bb-list-style-position-values: (
 $bb-list-style-position-config: (
   'name': 'listpos',
   'prop': 'list-style-position',
-  'bps': $bb-bps,
   'values': $bb-list-style-position-values
 ) !default;
-
-
