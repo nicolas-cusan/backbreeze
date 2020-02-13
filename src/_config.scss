@@ -67,6 +67,7 @@ $bb-colors: (
 @import 'props/background-position';
 @import 'props/background-repeat';
 @import 'props/background-size';
+@import 'props/border-collapse';
 @import 'props/border-color';
 @import 'props/border-style';
 @import 'props/border-width';
@@ -117,8 +118,6 @@ $bb-colors: (
 @import 'props/overflow-x';
 @import 'props/overflow-y';
 @import 'props/padding';
-@import 'props/perspective';
-@import 'props/perspective-origin';
 @import 'props/pointer-events';
 @import 'props/position';
 @import 'props/resize';
@@ -133,13 +132,13 @@ $bb-colors: (
 @import 'props/text-transform';
 @import 'props/top';
 @import 'props/transform-origin';
-@import 'props/transform-style';
 @import 'props/transform';
 @import 'props/transition-delay';
 @import 'props/transition-duration';
 @import 'props/transition-property';
 @import 'props/transition-timing-function';
 @import 'props/vertical-align';
+@import 'props/visbilitiy';
 @import 'props/white-space';
 @import 'props/width';
 @import 'props/z-index';

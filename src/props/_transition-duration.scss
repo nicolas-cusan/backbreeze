@@ -12,10 +12,8 @@ $bb-transition-duration-values: (
 /// ## Config
 
 $bb-transition-duration-config: (
-  'name': 'tsd',
+  'name': 'tr',
   'prop': 'transition-duration',
   'bps': $bb-bps,
   'values': $bb-transition-duration-values
 ) !default;
-
-

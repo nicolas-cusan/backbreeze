@@ -1,0 +1,18 @@
+////
+/// @group border
+////
+
+/// ## Values
+
+$bb-border-collapse-values: (
+  'collapse': collapse,
+  'separate': separate
+) !default;
+
+/// ## Config
+
+$bb-border-collapse-config: (
+  'name': 'br',
+  'prop': 'border-collapse',
+  'values': $bb-border-collapse-values
+) !default;

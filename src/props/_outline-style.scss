@@ -13,11 +13,9 @@ $bb-outline-style-values: (
 /// ## Config
 
 $bb-outline-style-config: (
-  'name': 'otls',
+  'name': 'otl',
   'prop': 'outline-style',
   'bps': $bb-bps,
   'pseudo': $bb-pseudo,
   'values': $bb-outline-style-values
 ) !default;
-
-

@@ -19,10 +19,8 @@ $bb-transform-origin-values: (
 /// ## Config
 
 $bb-transform-origin-config: (
-  'name': 'tfo',
+  'name': 'tf',
   'prop': 'transform-origin',
   'bps': $bb-bps,
   'values': $bb-transform-origin-values
 ) !default;
-
-

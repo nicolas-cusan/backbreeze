@@ -26,7 +26,7 @@ $bb-background-blend-mode-values: (
 /// ## Config
 
 $bb-background-blend-mode-config: (
-  'name': 'bgbm',
+  'name': 'bg',
   'prop': 'background-blend-mode',
   'bps': $bb-bps,
   'values': $bb-background-blend-mode-values

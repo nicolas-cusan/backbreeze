@@ -70,12 +70,17 @@ line-break
 ** page-break-before
 ** page-break-inside
 
+perspective-origin
+perspective
+
 row-gap
 
 tab-size
 text-align-last
 text-justify
 text-shadow
+
+transform-style
 
 touch-action
 

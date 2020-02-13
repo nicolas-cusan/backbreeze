@@ -15,10 +15,8 @@ $bb-transition-timing-function-values: (
 /// ## Config
 
 $bb-transition-timing-function-config: (
-  'name': 'tstf',
+  'name': 'tr',
   'prop': 'transition-timing-function',
   'bps': $bb-bps,
   'values': $bb-transition-timing-function-values
 ) !default;
-
-

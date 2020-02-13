@@ -13,6 +13,7 @@
 @include bb-utility-class($bb-background-position-config);
 @include bb-utility-class($bb-background-repeat-config);
 @include bb-utility-class($bb-background-size-config);
+@include bb-utility-class($bb-border-collapse-config);
 @include bb-utility-class($bb-border-color-config);
 @include bb-utility-class($bb-border-style-config);
 @include bb-utility-class($bb-border-width-config);
@@ -63,8 +64,6 @@
 @include bb-utility-class($bb-overflow-x-config);
 @include bb-utility-class($bb-overflow-y-config);
 @include bb-utility-class($bb-padding-config);
-@include bb-utility-class($bb-perspective-config);
-@include bb-utility-class($bb-perspective-origin-config);
 @include bb-utility-class($bb-pointer-events-config);
 @include bb-utility-class($bb-position-config);
 @include bb-utility-class($bb-resize-config);
@@ -79,13 +78,13 @@
 @include bb-utility-class($bb-text-transform-config);
 @include bb-utility-class($bb-top-config);
 @include bb-utility-class($bb-transform-origin-config);
-@include bb-utility-class($bb-transform-style-config);
 @include bb-utility-class($bb-transform-config);
 @include bb-utility-class($bb-transition-delay-config);
 @include bb-utility-class($bb-transition-duration-config);
 @include bb-utility-class($bb-transition-property-config);
 @include bb-utility-class($bb-transition-timing-function-config);
 @include bb-utility-class($bb-vertical-align-config);
+@include bb-utility-class($bb-visbilitiy-config);
 @include bb-utility-class($bb-white-space-config);
 @include bb-utility-class($bb-width-config);
 @include bb-utility-class($bb-z-index-config);

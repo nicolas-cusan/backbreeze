@@ -1,0 +1,19 @@
+////
+/// @group layout
+////
+
+/// ## Values
+
+$bb-visibility-values: (
+  'hidden': hidden,
+  'visible': visible
+) !default;
+
+/// ## Config
+
+$bb-visibility-config: (
+  'name': 'vis',
+  'prop': 'visibility',
+  'bps': $bb-bps,
+  'values': $bb-visibility-values
+) !default;

@@ -9,11 +9,9 @@ $bb-outline-color-values: $bb-colors !default;
 /// ## Config
 
 $bb-outline-color-config: (
-  'name': 'otlc',
+  'name': 'otl',
   'prop': 'outline-color',
   'bps': $bb-bps,
   'pseudo': $bb-pseudo,
   'values': $bb-outline-color-values
 ) !default;
-
-

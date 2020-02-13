@@ -15,10 +15,8 @@ $bb-object-fit-values: (
 /// ## Config
 
 $bb-object-fit-config: (
-  'name': 'objf',
+  'name': 'obj',
   'prop': 'object-fit',
   'bps': $bb-bps,
   'values': $bb-object-fit-values
 ) !default;
-
-

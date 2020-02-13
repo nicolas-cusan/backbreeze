@@ -5,17 +5,15 @@
 /// ## Values
 
 $bb-transition-delay-values: (
-  '200': 200ms,
-  '300': 300ms
+  '-200': 200ms,
+  '-300': 300ms
 ) !default;
 
 /// ## Config
 
 $bb-transition-delay-config: (
-  'name': 'tsdelay',
+  'name': 'tr',
   'prop': 'transition-delay',
   'bps': $bb-bps,
   'values': $bb-transition-delay-values
 ) !default;
-
-
