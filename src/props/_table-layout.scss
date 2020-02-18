@@ -12,10 +12,8 @@ $bb-table-layout-values: (
 /// ## Config
 
 $bb-table-layout-config: (
-  'name': 'tbllay',
+  'name': 'table-layout',
   'prop': 'table-layout',
   'bps': $bb-bps,
   'values': $bb-table-layout-values
 ) !default;
-
-

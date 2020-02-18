@@ -1124,6 +1124,11 @@
 }
 
 
+.bg-transparent {
+  background-color: transparent;
+}
+
+
 .bg-current {
   background-color: currentColor;
 }
@@ -1136,6 +1141,11 @@
 
 .bg-black\:hover:hover {
   background-color: #000;
+}
+
+
+.bg-transparent\:hover:hover {
+  background-color: transparent;
 }
 
 
@@ -1154,6 +1164,11 @@
 }
 
 
+.bg-transparent\:focus:focus {
+  background-color: transparent;
+}
+
+
 .bg-current\:focus:focus {
   background-color: currentColor;
 }
@@ -1166,6 +1181,11 @@
 
 .bg-black\:active:active {
   background-color: #000;
+}
+
+
+.bg-transparent\:active:active {
+  background-color: transparent;
 }
 
 
@@ -1184,6 +1204,11 @@
 }
 
 .group:hover
+.bg-transparent\:group-hover {
+  background-color: transparent;
+}
+
+.group:hover
 .bg-current\:group-hover {
   background-color: currentColor;
 }
@@ -1198,6 +1223,10 @@
     background-color: #000;
   }
   
+  .bg-transparent\@xs {
+    background-color: transparent;
+  }
+  
   .bg-current\@xs {
     background-color: currentColor;
   }
@@ -1208,6 +1237,10 @@
   
   .bg-black\:hover\@xs:hover {
     background-color: #000;
+  }
+  
+  .bg-transparent\:hover\@xs:hover {
+    background-color: transparent;
   }
   
   .bg-current\:hover\@xs:hover {
@@ -1222,6 +1255,10 @@
     background-color: #000;
   }
   
+  .bg-transparent\:focus\@xs:focus {
+    background-color: transparent;
+  }
+  
   .bg-current\:focus\@xs:focus {
     background-color: currentColor;
   }
@@ -1234,6 +1271,10 @@
     background-color: #000;
   }
   
+  .bg-transparent\:active\@xs:active {
+    background-color: transparent;
+  }
+  
   .bg-current\:active\@xs:active {
     background-color: currentColor;
   }
@@ -1244,6 +1285,10 @@
   .group:hover
 .bg-black\:group-hover\@xs {
     background-color: #000;
+  }
+  .group:hover
+.bg-transparent\:group-hover\@xs {
+    background-color: transparent;
   }
   .group:hover
 .bg-current\:group-hover\@xs {
@@ -1261,6 +1306,10 @@
     background-color: #000;
   }
   
+  .bg-transparent\@sm {
+    background-color: transparent;
+  }
+  
   .bg-current\@sm {
     background-color: currentColor;
   }
@@ -1271,6 +1320,10 @@
   
   .bg-black\:hover\@sm:hover {
     background-color: #000;
+  }
+  
+  .bg-transparent\:hover\@sm:hover {
+    background-color: transparent;
   }
   
   .bg-current\:hover\@sm:hover {
@@ -1285,6 +1338,10 @@
     background-color: #000;
   }
   
+  .bg-transparent\:focus\@sm:focus {
+    background-color: transparent;
+  }
+  
   .bg-current\:focus\@sm:focus {
     background-color: currentColor;
   }
@@ -1297,6 +1354,10 @@
     background-color: #000;
   }
   
+  .bg-transparent\:active\@sm:active {
+    background-color: transparent;
+  }
+  
   .bg-current\:active\@sm:active {
     background-color: currentColor;
   }
@@ -1307,6 +1368,10 @@
   .group:hover
 .bg-black\:group-hover\@sm {
     background-color: #000;
+  }
+  .group:hover
+.bg-transparent\:group-hover\@sm {
+    background-color: transparent;
   }
   .group:hover
 .bg-current\:group-hover\@sm {
@@ -1324,6 +1389,10 @@
     background-color: #000;
   }
   
+  .bg-transparent\@md {
+    background-color: transparent;
+  }
+  
   .bg-current\@md {
     background-color: currentColor;
   }
@@ -1334,6 +1403,10 @@
   
   .bg-black\:hover\@md:hover {
     background-color: #000;
+  }
+  
+  .bg-transparent\:hover\@md:hover {
+    background-color: transparent;
   }
   
   .bg-current\:hover\@md:hover {
@@ -1348,6 +1421,10 @@
     background-color: #000;
   }
   
+  .bg-transparent\:focus\@md:focus {
+    background-color: transparent;
+  }
+  
   .bg-current\:focus\@md:focus {
     background-color: currentColor;
   }
@@ -1360,6 +1437,10 @@
     background-color: #000;
   }
   
+  .bg-transparent\:active\@md:active {
+    background-color: transparent;
+  }
+  
   .bg-current\:active\@md:active {
     background-color: currentColor;
   }
@@ -1370,6 +1451,10 @@
   .group:hover
 .bg-black\:group-hover\@md {
     background-color: #000;
+  }
+  .group:hover
+.bg-transparent\:group-hover\@md {
+    background-color: transparent;
   }
   .group:hover
 .bg-current\:group-hover\@md {
@@ -1387,6 +1472,10 @@
     background-color: #000;
   }
   
+  .bg-transparent\@lg {
+    background-color: transparent;
+  }
+  
   .bg-current\@lg {
     background-color: currentColor;
   }
@@ -1397,6 +1486,10 @@
   
   .bg-black\:hover\@lg:hover {
     background-color: #000;
+  }
+  
+  .bg-transparent\:hover\@lg:hover {
+    background-color: transparent;
   }
   
   .bg-current\:hover\@lg:hover {
@@ -1411,6 +1504,10 @@
     background-color: #000;
   }
   
+  .bg-transparent\:focus\@lg:focus {
+    background-color: transparent;
+  }
+  
   .bg-current\:focus\@lg:focus {
     background-color: currentColor;
   }
@@ -1423,6 +1520,10 @@
     background-color: #000;
   }
   
+  .bg-transparent\:active\@lg:active {
+    background-color: transparent;
+  }
+  
   .bg-current\:active\@lg:active {
     background-color: currentColor;
   }
@@ -1433,6 +1534,10 @@
   .group:hover
 .bg-black\:group-hover\@lg {
     background-color: #000;
+  }
+  .group:hover
+.bg-transparent\:group-hover\@lg {
+    background-color: transparent;
   }
   .group:hover
 .bg-current\:group-hover\@lg {
@@ -1450,6 +1555,10 @@
     background-color: #000;
   }
   
+  .bg-transparent\@xl {
+    background-color: transparent;
+  }
+  
   .bg-current\@xl {
     background-color: currentColor;
   }
@@ -1460,6 +1569,10 @@
   
   .bg-black\:hover\@xl:hover {
     background-color: #000;
+  }
+  
+  .bg-transparent\:hover\@xl:hover {
+    background-color: transparent;
   }
   
   .bg-current\:hover\@xl:hover {
@@ -1474,6 +1587,10 @@
     background-color: #000;
   }
   
+  .bg-transparent\:focus\@xl:focus {
+    background-color: transparent;
+  }
+  
   .bg-current\:focus\@xl:focus {
     background-color: currentColor;
   }
@@ -1486,6 +1603,10 @@
     background-color: #000;
   }
   
+  .bg-transparent\:active\@xl:active {
+    background-color: transparent;
+  }
+  
   .bg-current\:active\@xl:active {
     background-color: currentColor;
   }
@@ -1496,6 +1617,10 @@
   .group:hover
 .bg-black\:group-hover\@xl {
     background-color: #000;
+  }
+  .group:hover
+.bg-transparent\:group-hover\@xl {
+    background-color: transparent;
   }
   .group:hover
 .bg-current\:group-hover\@xl {
@@ -1674,1018 +1799,1353 @@
 }
 
 
-.br-collapse {
+.b-collapse {
   border-collapse: collapse;
 }
 
 
-.br-separate {
+.b-separate {
   border-collapse: separate;
 }
 
 
-.br-white {
+.b-white {
   border-color: #fff;
 }
 
 
-.brt-white {
+.bt-white {
   border-top-color: #fff;
 }
 
 
-.brl-white {
+.bl-white {
   border-left-color: #fff;
 }
 
 
-.brr-white {
+.br-white {
   border-right-color: #fff;
 }
 
 
-.brb-white {
+.bb-white {
   border-bottom-color: #fff;
 }
 
 
-.brx-white {
+.bx-white {
   border-left-color: #fff;
   border-right-color: #fff;
 }
 
 
-.bry-white {
+.by-white {
   border-top-color: #fff;
   border-bottom-color: #fff;
+}
+
+
+.b-black {
+  border-color: #000;
+}
+
+
+.bt-black {
+  border-top-color: #000;
+}
+
+
+.bl-black {
+  border-left-color: #000;
 }
 
 
 .br-black {
-  border-color: #000;
-}
-
-
-.brt-black {
-  border-top-color: #000;
-}
-
-
-.brl-black {
-  border-left-color: #000;
-}
-
-
-.brr-black {
   border-right-color: #000;
 }
 
 
-.brb-black {
+.bb-black {
   border-bottom-color: #000;
 }
 
 
-.brx-black {
+.bx-black {
   border-left-color: #000;
   border-right-color: #000;
 }
 
 
-.bry-black {
+.by-black {
   border-top-color: #000;
   border-bottom-color: #000;
+}
+
+
+.b-transparent {
+  border-color: transparent;
+}
+
+
+.bt-transparent {
+  border-top-color: transparent;
+}
+
+
+.bl-transparent {
+  border-left-color: transparent;
+}
+
+
+.br-transparent {
+  border-right-color: transparent;
+}
+
+
+.bb-transparent {
+  border-bottom-color: transparent;
+}
+
+
+.bx-transparent {
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+
+.by-transparent {
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+
+
+.b-current {
+  border-color: currentColor;
+}
+
+
+.bt-current {
+  border-top-color: currentColor;
+}
+
+
+.bl-current {
+  border-left-color: currentColor;
 }
 
 
 .br-current {
-  border-color: currentColor;
-}
-
-
-.brt-current {
-  border-top-color: currentColor;
-}
-
-
-.brl-current {
-  border-left-color: currentColor;
-}
-
-
-.brr-current {
   border-right-color: currentColor;
 }
 
 
-.brb-current {
+.bb-current {
   border-bottom-color: currentColor;
 }
 
 
-.brx-current {
+.bx-current {
   border-left-color: currentColor;
   border-right-color: currentColor;
 }
 
 
-.bry-current {
+.by-current {
   border-top-color: currentColor;
   border-bottom-color: currentColor;
+}
+
+
+.b-white\:hover:hover {
+  border-color: #fff;
+}
+
+
+.bt-white\:hover:hover {
+  border-top-color: #fff;
+}
+
+
+.bl-white\:hover:hover {
+  border-left-color: #fff;
 }
 
 
 .br-white\:hover:hover {
-  border-color: #fff;
-}
-
-
-.brt-white\:hover:hover {
-  border-top-color: #fff;
-}
-
-
-.brl-white\:hover:hover {
-  border-left-color: #fff;
-}
-
-
-.brr-white\:hover:hover {
   border-right-color: #fff;
 }
 
 
-.brb-white\:hover:hover {
+.bb-white\:hover:hover {
   border-bottom-color: #fff;
 }
 
 
-.brx-white\:hover:hover {
+.bx-white\:hover:hover {
   border-left-color: #fff;
   border-right-color: #fff;
 }
 
 
-.bry-white\:hover:hover {
+.by-white\:hover:hover {
   border-top-color: #fff;
   border-bottom-color: #fff;
+}
+
+
+.b-black\:hover:hover {
+  border-color: #000;
+}
+
+
+.bt-black\:hover:hover {
+  border-top-color: #000;
+}
+
+
+.bl-black\:hover:hover {
+  border-left-color: #000;
 }
 
 
 .br-black\:hover:hover {
-  border-color: #000;
-}
-
-
-.brt-black\:hover:hover {
-  border-top-color: #000;
-}
-
-
-.brl-black\:hover:hover {
-  border-left-color: #000;
-}
-
-
-.brr-black\:hover:hover {
   border-right-color: #000;
 }
 
 
-.brb-black\:hover:hover {
+.bb-black\:hover:hover {
   border-bottom-color: #000;
 }
 
 
-.brx-black\:hover:hover {
+.bx-black\:hover:hover {
   border-left-color: #000;
   border-right-color: #000;
 }
 
 
-.bry-black\:hover:hover {
+.by-black\:hover:hover {
   border-top-color: #000;
   border-bottom-color: #000;
+}
+
+
+.b-transparent\:hover:hover {
+  border-color: transparent;
+}
+
+
+.bt-transparent\:hover:hover {
+  border-top-color: transparent;
+}
+
+
+.bl-transparent\:hover:hover {
+  border-left-color: transparent;
+}
+
+
+.br-transparent\:hover:hover {
+  border-right-color: transparent;
+}
+
+
+.bb-transparent\:hover:hover {
+  border-bottom-color: transparent;
+}
+
+
+.bx-transparent\:hover:hover {
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+
+.by-transparent\:hover:hover {
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+
+
+.b-current\:hover:hover {
+  border-color: currentColor;
+}
+
+
+.bt-current\:hover:hover {
+  border-top-color: currentColor;
+}
+
+
+.bl-current\:hover:hover {
+  border-left-color: currentColor;
 }
 
 
 .br-current\:hover:hover {
-  border-color: currentColor;
-}
-
-
-.brt-current\:hover:hover {
-  border-top-color: currentColor;
-}
-
-
-.brl-current\:hover:hover {
-  border-left-color: currentColor;
-}
-
-
-.brr-current\:hover:hover {
   border-right-color: currentColor;
 }
 
 
-.brb-current\:hover:hover {
+.bb-current\:hover:hover {
   border-bottom-color: currentColor;
 }
 
 
-.brx-current\:hover:hover {
+.bx-current\:hover:hover {
   border-left-color: currentColor;
   border-right-color: currentColor;
 }
 
 
-.bry-current\:hover:hover {
+.by-current\:hover:hover {
   border-top-color: currentColor;
   border-bottom-color: currentColor;
+}
+
+
+.b-white\:focus:focus {
+  border-color: #fff;
+}
+
+
+.bt-white\:focus:focus {
+  border-top-color: #fff;
+}
+
+
+.bl-white\:focus:focus {
+  border-left-color: #fff;
 }
 
 
 .br-white\:focus:focus {
-  border-color: #fff;
-}
-
-
-.brt-white\:focus:focus {
-  border-top-color: #fff;
-}
-
-
-.brl-white\:focus:focus {
-  border-left-color: #fff;
-}
-
-
-.brr-white\:focus:focus {
   border-right-color: #fff;
 }
 
 
-.brb-white\:focus:focus {
+.bb-white\:focus:focus {
   border-bottom-color: #fff;
 }
 
 
-.brx-white\:focus:focus {
+.bx-white\:focus:focus {
   border-left-color: #fff;
   border-right-color: #fff;
 }
 
 
-.bry-white\:focus:focus {
+.by-white\:focus:focus {
   border-top-color: #fff;
   border-bottom-color: #fff;
+}
+
+
+.b-black\:focus:focus {
+  border-color: #000;
+}
+
+
+.bt-black\:focus:focus {
+  border-top-color: #000;
+}
+
+
+.bl-black\:focus:focus {
+  border-left-color: #000;
 }
 
 
 .br-black\:focus:focus {
-  border-color: #000;
-}
-
-
-.brt-black\:focus:focus {
-  border-top-color: #000;
-}
-
-
-.brl-black\:focus:focus {
-  border-left-color: #000;
-}
-
-
-.brr-black\:focus:focus {
   border-right-color: #000;
 }
 
 
-.brb-black\:focus:focus {
+.bb-black\:focus:focus {
   border-bottom-color: #000;
 }
 
 
-.brx-black\:focus:focus {
+.bx-black\:focus:focus {
   border-left-color: #000;
   border-right-color: #000;
 }
 
 
-.bry-black\:focus:focus {
+.by-black\:focus:focus {
   border-top-color: #000;
   border-bottom-color: #000;
+}
+
+
+.b-transparent\:focus:focus {
+  border-color: transparent;
+}
+
+
+.bt-transparent\:focus:focus {
+  border-top-color: transparent;
+}
+
+
+.bl-transparent\:focus:focus {
+  border-left-color: transparent;
+}
+
+
+.br-transparent\:focus:focus {
+  border-right-color: transparent;
+}
+
+
+.bb-transparent\:focus:focus {
+  border-bottom-color: transparent;
+}
+
+
+.bx-transparent\:focus:focus {
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+
+.by-transparent\:focus:focus {
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+
+
+.b-current\:focus:focus {
+  border-color: currentColor;
+}
+
+
+.bt-current\:focus:focus {
+  border-top-color: currentColor;
+}
+
+
+.bl-current\:focus:focus {
+  border-left-color: currentColor;
 }
 
 
 .br-current\:focus:focus {
-  border-color: currentColor;
-}
-
-
-.brt-current\:focus:focus {
-  border-top-color: currentColor;
-}
-
-
-.brl-current\:focus:focus {
-  border-left-color: currentColor;
-}
-
-
-.brr-current\:focus:focus {
   border-right-color: currentColor;
 }
 
 
-.brb-current\:focus:focus {
+.bb-current\:focus:focus {
   border-bottom-color: currentColor;
 }
 
 
-.brx-current\:focus:focus {
+.bx-current\:focus:focus {
   border-left-color: currentColor;
   border-right-color: currentColor;
 }
 
 
-.bry-current\:focus:focus {
+.by-current\:focus:focus {
   border-top-color: currentColor;
   border-bottom-color: currentColor;
+}
+
+
+.b-white\:active:active {
+  border-color: #fff;
+}
+
+
+.bt-white\:active:active {
+  border-top-color: #fff;
+}
+
+
+.bl-white\:active:active {
+  border-left-color: #fff;
 }
 
 
 .br-white\:active:active {
-  border-color: #fff;
-}
-
-
-.brt-white\:active:active {
-  border-top-color: #fff;
-}
-
-
-.brl-white\:active:active {
-  border-left-color: #fff;
-}
-
-
-.brr-white\:active:active {
   border-right-color: #fff;
 }
 
 
-.brb-white\:active:active {
+.bb-white\:active:active {
   border-bottom-color: #fff;
 }
 
 
-.brx-white\:active:active {
+.bx-white\:active:active {
   border-left-color: #fff;
   border-right-color: #fff;
 }
 
 
-.bry-white\:active:active {
+.by-white\:active:active {
   border-top-color: #fff;
   border-bottom-color: #fff;
+}
+
+
+.b-black\:active:active {
+  border-color: #000;
+}
+
+
+.bt-black\:active:active {
+  border-top-color: #000;
+}
+
+
+.bl-black\:active:active {
+  border-left-color: #000;
 }
 
 
 .br-black\:active:active {
-  border-color: #000;
-}
-
-
-.brt-black\:active:active {
-  border-top-color: #000;
-}
-
-
-.brl-black\:active:active {
-  border-left-color: #000;
-}
-
-
-.brr-black\:active:active {
   border-right-color: #000;
 }
 
 
-.brb-black\:active:active {
+.bb-black\:active:active {
   border-bottom-color: #000;
 }
 
 
-.brx-black\:active:active {
+.bx-black\:active:active {
   border-left-color: #000;
   border-right-color: #000;
 }
 
 
-.bry-black\:active:active {
+.by-black\:active:active {
   border-top-color: #000;
   border-bottom-color: #000;
+}
+
+
+.b-transparent\:active:active {
+  border-color: transparent;
+}
+
+
+.bt-transparent\:active:active {
+  border-top-color: transparent;
+}
+
+
+.bl-transparent\:active:active {
+  border-left-color: transparent;
+}
+
+
+.br-transparent\:active:active {
+  border-right-color: transparent;
+}
+
+
+.bb-transparent\:active:active {
+  border-bottom-color: transparent;
+}
+
+
+.bx-transparent\:active:active {
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+
+.by-transparent\:active:active {
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+
+
+.b-current\:active:active {
+  border-color: currentColor;
+}
+
+
+.bt-current\:active:active {
+  border-top-color: currentColor;
+}
+
+
+.bl-current\:active:active {
+  border-left-color: currentColor;
 }
 
 
 .br-current\:active:active {
-  border-color: currentColor;
-}
-
-
-.brt-current\:active:active {
-  border-top-color: currentColor;
-}
-
-
-.brl-current\:active:active {
-  border-left-color: currentColor;
-}
-
-
-.brr-current\:active:active {
   border-right-color: currentColor;
 }
 
 
-.brb-current\:active:active {
+.bb-current\:active:active {
   border-bottom-color: currentColor;
 }
 
 
-.brx-current\:active:active {
+.bx-current\:active:active {
   border-left-color: currentColor;
   border-right-color: currentColor;
 }
 
 
-.bry-current\:active:active {
+.by-current\:active:active {
   border-top-color: currentColor;
   border-bottom-color: currentColor;
 }
 
 .group:hover
-.br-white\:group-hover {
+.b-white\:group-hover {
   border-color: #fff;
 }
 
 .group:hover
-.brt-white\:group-hover {
+.bt-white\:group-hover {
   border-top-color: #fff;
 }
 
 .group:hover
-.brl-white\:group-hover {
+.bl-white\:group-hover {
   border-left-color: #fff;
 }
 
 .group:hover
-.brr-white\:group-hover {
+.br-white\:group-hover {
   border-right-color: #fff;
 }
 
 .group:hover
-.brb-white\:group-hover {
+.bb-white\:group-hover {
   border-bottom-color: #fff;
 }
 
 .group:hover
-.brx-white\:group-hover {
+.bx-white\:group-hover {
   border-left-color: #fff;
   border-right-color: #fff;
 }
 
 .group:hover
-.bry-white\:group-hover {
+.by-white\:group-hover {
   border-top-color: #fff;
   border-bottom-color: #fff;
 }
 
 .group:hover
-.br-black\:group-hover {
+.b-black\:group-hover {
   border-color: #000;
 }
 
 .group:hover
-.brt-black\:group-hover {
+.bt-black\:group-hover {
   border-top-color: #000;
 }
 
 .group:hover
-.brl-black\:group-hover {
+.bl-black\:group-hover {
   border-left-color: #000;
 }
 
 .group:hover
-.brr-black\:group-hover {
+.br-black\:group-hover {
   border-right-color: #000;
 }
 
 .group:hover
-.brb-black\:group-hover {
+.bb-black\:group-hover {
   border-bottom-color: #000;
 }
 
 .group:hover
-.brx-black\:group-hover {
+.bx-black\:group-hover {
   border-left-color: #000;
   border-right-color: #000;
 }
 
 .group:hover
-.bry-black\:group-hover {
+.by-black\:group-hover {
   border-top-color: #000;
   border-bottom-color: #000;
 }
 
 .group:hover
-.br-current\:group-hover {
+.b-transparent\:group-hover {
+  border-color: transparent;
+}
+
+.group:hover
+.bt-transparent\:group-hover {
+  border-top-color: transparent;
+}
+
+.group:hover
+.bl-transparent\:group-hover {
+  border-left-color: transparent;
+}
+
+.group:hover
+.br-transparent\:group-hover {
+  border-right-color: transparent;
+}
+
+.group:hover
+.bb-transparent\:group-hover {
+  border-bottom-color: transparent;
+}
+
+.group:hover
+.bx-transparent\:group-hover {
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+.group:hover
+.by-transparent\:group-hover {
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.group:hover
+.b-current\:group-hover {
   border-color: currentColor;
 }
 
 .group:hover
-.brt-current\:group-hover {
+.bt-current\:group-hover {
   border-top-color: currentColor;
 }
 
 .group:hover
-.brl-current\:group-hover {
+.bl-current\:group-hover {
   border-left-color: currentColor;
 }
 
 .group:hover
-.brr-current\:group-hover {
+.br-current\:group-hover {
   border-right-color: currentColor;
 }
 
 .group:hover
-.brb-current\:group-hover {
+.bb-current\:group-hover {
   border-bottom-color: currentColor;
 }
 
 .group:hover
-.brx-current\:group-hover {
+.bx-current\:group-hover {
   border-left-color: currentColor;
   border-right-color: currentColor;
 }
 
 .group:hover
-.bry-current\:group-hover {
+.by-current\:group-hover {
   border-top-color: currentColor;
   border-bottom-color: currentColor;
 }
 
 @media all and (min-width: 416px) {
   
-  .br-white\@xs {
+  .b-white\@xs {
     border-color: #fff;
   }
   
-  .brt-white\@xs {
+  .bt-white\@xs {
     border-top-color: #fff;
   }
   
-  .brl-white\@xs {
+  .bl-white\@xs {
     border-left-color: #fff;
   }
   
-  .brr-white\@xs {
+  .br-white\@xs {
     border-right-color: #fff;
   }
   
-  .brb-white\@xs {
+  .bb-white\@xs {
     border-bottom-color: #fff;
   }
   
-  .brx-white\@xs {
+  .bx-white\@xs {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .bry-white\@xs {
+  .by-white\@xs {
     border-top-color: #fff;
     border-bottom-color: #fff;
+  }
+  
+  .b-black\@xs {
+    border-color: #000;
+  }
+  
+  .bt-black\@xs {
+    border-top-color: #000;
+  }
+  
+  .bl-black\@xs {
+    border-left-color: #000;
   }
   
   .br-black\@xs {
-    border-color: #000;
-  }
-  
-  .brt-black\@xs {
-    border-top-color: #000;
-  }
-  
-  .brl-black\@xs {
-    border-left-color: #000;
-  }
-  
-  .brr-black\@xs {
     border-right-color: #000;
   }
   
-  .brb-black\@xs {
+  .bb-black\@xs {
     border-bottom-color: #000;
   }
   
-  .brx-black\@xs {
+  .bx-black\@xs {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .bry-black\@xs {
+  .by-black\@xs {
     border-top-color: #000;
     border-bottom-color: #000;
+  }
+  
+  .b-transparent\@xs {
+    border-color: transparent;
+  }
+  
+  .bt-transparent\@xs {
+    border-top-color: transparent;
+  }
+  
+  .bl-transparent\@xs {
+    border-left-color: transparent;
+  }
+  
+  .br-transparent\@xs {
+    border-right-color: transparent;
+  }
+  
+  .bb-transparent\@xs {
+    border-bottom-color: transparent;
+  }
+  
+  .bx-transparent\@xs {
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  
+  .by-transparent\@xs {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+  
+  .b-current\@xs {
+    border-color: currentColor;
+  }
+  
+  .bt-current\@xs {
+    border-top-color: currentColor;
+  }
+  
+  .bl-current\@xs {
+    border-left-color: currentColor;
   }
   
   .br-current\@xs {
-    border-color: currentColor;
-  }
-  
-  .brt-current\@xs {
-    border-top-color: currentColor;
-  }
-  
-  .brl-current\@xs {
-    border-left-color: currentColor;
-  }
-  
-  .brr-current\@xs {
     border-right-color: currentColor;
   }
   
-  .brb-current\@xs {
+  .bb-current\@xs {
     border-bottom-color: currentColor;
   }
   
-  .brx-current\@xs {
+  .bx-current\@xs {
     border-left-color: currentColor;
     border-right-color: currentColor;
   }
   
-  .bry-current\@xs {
+  .by-current\@xs {
     border-top-color: currentColor;
     border-bottom-color: currentColor;
+  }
+  
+  .b-white\:hover\@xs:hover {
+    border-color: #fff;
+  }
+  
+  .bt-white\:hover\@xs:hover {
+    border-top-color: #fff;
+  }
+  
+  .bl-white\:hover\@xs:hover {
+    border-left-color: #fff;
   }
   
   .br-white\:hover\@xs:hover {
-    border-color: #fff;
-  }
-  
-  .brt-white\:hover\@xs:hover {
-    border-top-color: #fff;
-  }
-  
-  .brl-white\:hover\@xs:hover {
-    border-left-color: #fff;
-  }
-  
-  .brr-white\:hover\@xs:hover {
     border-right-color: #fff;
   }
   
-  .brb-white\:hover\@xs:hover {
+  .bb-white\:hover\@xs:hover {
     border-bottom-color: #fff;
   }
   
-  .brx-white\:hover\@xs:hover {
+  .bx-white\:hover\@xs:hover {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .bry-white\:hover\@xs:hover {
+  .by-white\:hover\@xs:hover {
     border-top-color: #fff;
     border-bottom-color: #fff;
+  }
+  
+  .b-black\:hover\@xs:hover {
+    border-color: #000;
+  }
+  
+  .bt-black\:hover\@xs:hover {
+    border-top-color: #000;
+  }
+  
+  .bl-black\:hover\@xs:hover {
+    border-left-color: #000;
   }
   
   .br-black\:hover\@xs:hover {
-    border-color: #000;
-  }
-  
-  .brt-black\:hover\@xs:hover {
-    border-top-color: #000;
-  }
-  
-  .brl-black\:hover\@xs:hover {
-    border-left-color: #000;
-  }
-  
-  .brr-black\:hover\@xs:hover {
     border-right-color: #000;
   }
   
-  .brb-black\:hover\@xs:hover {
+  .bb-black\:hover\@xs:hover {
     border-bottom-color: #000;
   }
   
-  .brx-black\:hover\@xs:hover {
+  .bx-black\:hover\@xs:hover {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .bry-black\:hover\@xs:hover {
+  .by-black\:hover\@xs:hover {
     border-top-color: #000;
     border-bottom-color: #000;
+  }
+  
+  .b-transparent\:hover\@xs:hover {
+    border-color: transparent;
+  }
+  
+  .bt-transparent\:hover\@xs:hover {
+    border-top-color: transparent;
+  }
+  
+  .bl-transparent\:hover\@xs:hover {
+    border-left-color: transparent;
+  }
+  
+  .br-transparent\:hover\@xs:hover {
+    border-right-color: transparent;
+  }
+  
+  .bb-transparent\:hover\@xs:hover {
+    border-bottom-color: transparent;
+  }
+  
+  .bx-transparent\:hover\@xs:hover {
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  
+  .by-transparent\:hover\@xs:hover {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+  
+  .b-current\:hover\@xs:hover {
+    border-color: currentColor;
+  }
+  
+  .bt-current\:hover\@xs:hover {
+    border-top-color: currentColor;
+  }
+  
+  .bl-current\:hover\@xs:hover {
+    border-left-color: currentColor;
   }
   
   .br-current\:hover\@xs:hover {
-    border-color: currentColor;
-  }
-  
-  .brt-current\:hover\@xs:hover {
-    border-top-color: currentColor;
-  }
-  
-  .brl-current\:hover\@xs:hover {
-    border-left-color: currentColor;
-  }
-  
-  .brr-current\:hover\@xs:hover {
     border-right-color: currentColor;
   }
   
-  .brb-current\:hover\@xs:hover {
+  .bb-current\:hover\@xs:hover {
     border-bottom-color: currentColor;
   }
   
-  .brx-current\:hover\@xs:hover {
+  .bx-current\:hover\@xs:hover {
     border-left-color: currentColor;
     border-right-color: currentColor;
   }
   
-  .bry-current\:hover\@xs:hover {
+  .by-current\:hover\@xs:hover {
     border-top-color: currentColor;
     border-bottom-color: currentColor;
+  }
+  
+  .b-white\:focus\@xs:focus {
+    border-color: #fff;
+  }
+  
+  .bt-white\:focus\@xs:focus {
+    border-top-color: #fff;
+  }
+  
+  .bl-white\:focus\@xs:focus {
+    border-left-color: #fff;
   }
   
   .br-white\:focus\@xs:focus {
-    border-color: #fff;
-  }
-  
-  .brt-white\:focus\@xs:focus {
-    border-top-color: #fff;
-  }
-  
-  .brl-white\:focus\@xs:focus {
-    border-left-color: #fff;
-  }
-  
-  .brr-white\:focus\@xs:focus {
     border-right-color: #fff;
   }
   
-  .brb-white\:focus\@xs:focus {
+  .bb-white\:focus\@xs:focus {
     border-bottom-color: #fff;
   }
   
-  .brx-white\:focus\@xs:focus {
+  .bx-white\:focus\@xs:focus {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .bry-white\:focus\@xs:focus {
+  .by-white\:focus\@xs:focus {
     border-top-color: #fff;
     border-bottom-color: #fff;
+  }
+  
+  .b-black\:focus\@xs:focus {
+    border-color: #000;
+  }
+  
+  .bt-black\:focus\@xs:focus {
+    border-top-color: #000;
+  }
+  
+  .bl-black\:focus\@xs:focus {
+    border-left-color: #000;
   }
   
   .br-black\:focus\@xs:focus {
-    border-color: #000;
-  }
-  
-  .brt-black\:focus\@xs:focus {
-    border-top-color: #000;
-  }
-  
-  .brl-black\:focus\@xs:focus {
-    border-left-color: #000;
-  }
-  
-  .brr-black\:focus\@xs:focus {
     border-right-color: #000;
   }
   
-  .brb-black\:focus\@xs:focus {
+  .bb-black\:focus\@xs:focus {
     border-bottom-color: #000;
   }
   
-  .brx-black\:focus\@xs:focus {
+  .bx-black\:focus\@xs:focus {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .bry-black\:focus\@xs:focus {
+  .by-black\:focus\@xs:focus {
     border-top-color: #000;
     border-bottom-color: #000;
+  }
+  
+  .b-transparent\:focus\@xs:focus {
+    border-color: transparent;
+  }
+  
+  .bt-transparent\:focus\@xs:focus {
+    border-top-color: transparent;
+  }
+  
+  .bl-transparent\:focus\@xs:focus {
+    border-left-color: transparent;
+  }
+  
+  .br-transparent\:focus\@xs:focus {
+    border-right-color: transparent;
+  }
+  
+  .bb-transparent\:focus\@xs:focus {
+    border-bottom-color: transparent;
+  }
+  
+  .bx-transparent\:focus\@xs:focus {
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  
+  .by-transparent\:focus\@xs:focus {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+  
+  .b-current\:focus\@xs:focus {
+    border-color: currentColor;
+  }
+  
+  .bt-current\:focus\@xs:focus {
+    border-top-color: currentColor;
+  }
+  
+  .bl-current\:focus\@xs:focus {
+    border-left-color: currentColor;
   }
   
   .br-current\:focus\@xs:focus {
-    border-color: currentColor;
-  }
-  
-  .brt-current\:focus\@xs:focus {
-    border-top-color: currentColor;
-  }
-  
-  .brl-current\:focus\@xs:focus {
-    border-left-color: currentColor;
-  }
-  
-  .brr-current\:focus\@xs:focus {
     border-right-color: currentColor;
   }
   
-  .brb-current\:focus\@xs:focus {
+  .bb-current\:focus\@xs:focus {
     border-bottom-color: currentColor;
   }
   
-  .brx-current\:focus\@xs:focus {
+  .bx-current\:focus\@xs:focus {
     border-left-color: currentColor;
     border-right-color: currentColor;
   }
   
-  .bry-current\:focus\@xs:focus {
+  .by-current\:focus\@xs:focus {
     border-top-color: currentColor;
     border-bottom-color: currentColor;
+  }
+  
+  .b-white\:active\@xs:active {
+    border-color: #fff;
+  }
+  
+  .bt-white\:active\@xs:active {
+    border-top-color: #fff;
+  }
+  
+  .bl-white\:active\@xs:active {
+    border-left-color: #fff;
   }
   
   .br-white\:active\@xs:active {
-    border-color: #fff;
-  }
-  
-  .brt-white\:active\@xs:active {
-    border-top-color: #fff;
-  }
-  
-  .brl-white\:active\@xs:active {
-    border-left-color: #fff;
-  }
-  
-  .brr-white\:active\@xs:active {
     border-right-color: #fff;
   }
   
-  .brb-white\:active\@xs:active {
+  .bb-white\:active\@xs:active {
     border-bottom-color: #fff;
   }
   
-  .brx-white\:active\@xs:active {
+  .bx-white\:active\@xs:active {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .bry-white\:active\@xs:active {
+  .by-white\:active\@xs:active {
     border-top-color: #fff;
     border-bottom-color: #fff;
+  }
+  
+  .b-black\:active\@xs:active {
+    border-color: #000;
+  }
+  
+  .bt-black\:active\@xs:active {
+    border-top-color: #000;
+  }
+  
+  .bl-black\:active\@xs:active {
+    border-left-color: #000;
   }
   
   .br-black\:active\@xs:active {
-    border-color: #000;
-  }
-  
-  .brt-black\:active\@xs:active {
-    border-top-color: #000;
-  }
-  
-  .brl-black\:active\@xs:active {
-    border-left-color: #000;
-  }
-  
-  .brr-black\:active\@xs:active {
     border-right-color: #000;
   }
   
-  .brb-black\:active\@xs:active {
+  .bb-black\:active\@xs:active {
     border-bottom-color: #000;
   }
   
-  .brx-black\:active\@xs:active {
+  .bx-black\:active\@xs:active {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .bry-black\:active\@xs:active {
+  .by-black\:active\@xs:active {
     border-top-color: #000;
     border-bottom-color: #000;
+  }
+  
+  .b-transparent\:active\@xs:active {
+    border-color: transparent;
+  }
+  
+  .bt-transparent\:active\@xs:active {
+    border-top-color: transparent;
+  }
+  
+  .bl-transparent\:active\@xs:active {
+    border-left-color: transparent;
+  }
+  
+  .br-transparent\:active\@xs:active {
+    border-right-color: transparent;
+  }
+  
+  .bb-transparent\:active\@xs:active {
+    border-bottom-color: transparent;
+  }
+  
+  .bx-transparent\:active\@xs:active {
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  
+  .by-transparent\:active\@xs:active {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+  
+  .b-current\:active\@xs:active {
+    border-color: currentColor;
+  }
+  
+  .bt-current\:active\@xs:active {
+    border-top-color: currentColor;
+  }
+  
+  .bl-current\:active\@xs:active {
+    border-left-color: currentColor;
   }
   
   .br-current\:active\@xs:active {
-    border-color: currentColor;
-  }
-  
-  .brt-current\:active\@xs:active {
-    border-top-color: currentColor;
-  }
-  
-  .brl-current\:active\@xs:active {
-    border-left-color: currentColor;
-  }
-  
-  .brr-current\:active\@xs:active {
     border-right-color: currentColor;
   }
   
-  .brb-current\:active\@xs:active {
+  .bb-current\:active\@xs:active {
     border-bottom-color: currentColor;
   }
   
-  .brx-current\:active\@xs:active {
+  .bx-current\:active\@xs:active {
     border-left-color: currentColor;
     border-right-color: currentColor;
   }
   
-  .bry-current\:active\@xs:active {
+  .by-current\:active\@xs:active {
     border-top-color: currentColor;
     border-bottom-color: currentColor;
   }
   .group:hover
-.br-white\:group-hover\@xs {
+.b-white\:group-hover\@xs {
     border-color: #fff;
   }
   .group:hover
-.brt-white\:group-hover\@xs {
+.bt-white\:group-hover\@xs {
     border-top-color: #fff;
   }
   .group:hover
-.brl-white\:group-hover\@xs {
+.bl-white\:group-hover\@xs {
     border-left-color: #fff;
   }
   .group:hover
-.brr-white\:group-hover\@xs {
+.br-white\:group-hover\@xs {
     border-right-color: #fff;
   }
   .group:hover
-.brb-white\:group-hover\@xs {
+.bb-white\:group-hover\@xs {
     border-bottom-color: #fff;
   }
   .group:hover
-.brx-white\:group-hover\@xs {
+.bx-white\:group-hover\@xs {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   .group:hover
-.bry-white\:group-hover\@xs {
+.by-white\:group-hover\@xs {
     border-top-color: #fff;
     border-bottom-color: #fff;
   }
   .group:hover
-.br-black\:group-hover\@xs {
+.b-black\:group-hover\@xs {
     border-color: #000;
   }
   .group:hover
-.brt-black\:group-hover\@xs {
+.bt-black\:group-hover\@xs {
     border-top-color: #000;
   }
   .group:hover
-.brl-black\:group-hover\@xs {
+.bl-black\:group-hover\@xs {
     border-left-color: #000;
   }
   .group:hover
-.brr-black\:group-hover\@xs {
+.br-black\:group-hover\@xs {
     border-right-color: #000;
   }
   .group:hover
-.brb-black\:group-hover\@xs {
+.bb-black\:group-hover\@xs {
     border-bottom-color: #000;
   }
   .group:hover
-.brx-black\:group-hover\@xs {
+.bx-black\:group-hover\@xs {
     border-left-color: #000;
     border-right-color: #000;
   }
   .group:hover
-.bry-black\:group-hover\@xs {
+.by-black\:group-hover\@xs {
     border-top-color: #000;
     border-bottom-color: #000;
   }
   .group:hover
-.br-current\:group-hover\@xs {
+.b-transparent\:group-hover\@xs {
+    border-color: transparent;
+  }
+  .group:hover
+.bt-transparent\:group-hover\@xs {
+    border-top-color: transparent;
+  }
+  .group:hover
+.bl-transparent\:group-hover\@xs {
+    border-left-color: transparent;
+  }
+  .group:hover
+.br-transparent\:group-hover\@xs {
+    border-right-color: transparent;
+  }
+  .group:hover
+.bb-transparent\:group-hover\@xs {
+    border-bottom-color: transparent;
+  }
+  .group:hover
+.bx-transparent\:group-hover\@xs {
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  .group:hover
+.by-transparent\:group-hover\@xs {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+  .group:hover
+.b-current\:group-hover\@xs {
     border-color: currentColor;
   }
   .group:hover
-.brt-current\:group-hover\@xs {
+.bt-current\:group-hover\@xs {
     border-top-color: currentColor;
   }
   .group:hover
-.brl-current\:group-hover\@xs {
+.bl-current\:group-hover\@xs {
     border-left-color: currentColor;
   }
   .group:hover
-.brr-current\:group-hover\@xs {
+.br-current\:group-hover\@xs {
     border-right-color: currentColor;
   }
   .group:hover
-.brb-current\:group-hover\@xs {
+.bb-current\:group-hover\@xs {
     border-bottom-color: currentColor;
   }
   .group:hover
-.brx-current\:group-hover\@xs {
+.bx-current\:group-hover\@xs {
     border-left-color: currentColor;
     border-right-color: currentColor;
   }
   .group:hover
-.bry-current\:group-hover\@xs {
+.by-current\:group-hover\@xs {
     border-top-color: currentColor;
     border-bottom-color: currentColor;
   }
@@ -2693,452 +3153,602 @@
 
 @media all and (min-width: 756px) {
   
-  .br-white\@sm {
+  .b-white\@sm {
     border-color: #fff;
   }
   
-  .brt-white\@sm {
+  .bt-white\@sm {
     border-top-color: #fff;
   }
   
-  .brl-white\@sm {
+  .bl-white\@sm {
     border-left-color: #fff;
   }
   
-  .brr-white\@sm {
+  .br-white\@sm {
     border-right-color: #fff;
   }
   
-  .brb-white\@sm {
+  .bb-white\@sm {
     border-bottom-color: #fff;
   }
   
-  .brx-white\@sm {
+  .bx-white\@sm {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .bry-white\@sm {
+  .by-white\@sm {
     border-top-color: #fff;
     border-bottom-color: #fff;
+  }
+  
+  .b-black\@sm {
+    border-color: #000;
+  }
+  
+  .bt-black\@sm {
+    border-top-color: #000;
+  }
+  
+  .bl-black\@sm {
+    border-left-color: #000;
   }
   
   .br-black\@sm {
-    border-color: #000;
-  }
-  
-  .brt-black\@sm {
-    border-top-color: #000;
-  }
-  
-  .brl-black\@sm {
-    border-left-color: #000;
-  }
-  
-  .brr-black\@sm {
     border-right-color: #000;
   }
   
-  .brb-black\@sm {
+  .bb-black\@sm {
     border-bottom-color: #000;
   }
   
-  .brx-black\@sm {
+  .bx-black\@sm {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .bry-black\@sm {
+  .by-black\@sm {
     border-top-color: #000;
     border-bottom-color: #000;
+  }
+  
+  .b-transparent\@sm {
+    border-color: transparent;
+  }
+  
+  .bt-transparent\@sm {
+    border-top-color: transparent;
+  }
+  
+  .bl-transparent\@sm {
+    border-left-color: transparent;
+  }
+  
+  .br-transparent\@sm {
+    border-right-color: transparent;
+  }
+  
+  .bb-transparent\@sm {
+    border-bottom-color: transparent;
+  }
+  
+  .bx-transparent\@sm {
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  
+  .by-transparent\@sm {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+  
+  .b-current\@sm {
+    border-color: currentColor;
+  }
+  
+  .bt-current\@sm {
+    border-top-color: currentColor;
+  }
+  
+  .bl-current\@sm {
+    border-left-color: currentColor;
   }
   
   .br-current\@sm {
-    border-color: currentColor;
-  }
-  
-  .brt-current\@sm {
-    border-top-color: currentColor;
-  }
-  
-  .brl-current\@sm {
-    border-left-color: currentColor;
-  }
-  
-  .brr-current\@sm {
     border-right-color: currentColor;
   }
   
-  .brb-current\@sm {
+  .bb-current\@sm {
     border-bottom-color: currentColor;
   }
   
-  .brx-current\@sm {
+  .bx-current\@sm {
     border-left-color: currentColor;
     border-right-color: currentColor;
   }
   
-  .bry-current\@sm {
+  .by-current\@sm {
     border-top-color: currentColor;
     border-bottom-color: currentColor;
+  }
+  
+  .b-white\:hover\@sm:hover {
+    border-color: #fff;
+  }
+  
+  .bt-white\:hover\@sm:hover {
+    border-top-color: #fff;
+  }
+  
+  .bl-white\:hover\@sm:hover {
+    border-left-color: #fff;
   }
   
   .br-white\:hover\@sm:hover {
-    border-color: #fff;
-  }
-  
-  .brt-white\:hover\@sm:hover {
-    border-top-color: #fff;
-  }
-  
-  .brl-white\:hover\@sm:hover {
-    border-left-color: #fff;
-  }
-  
-  .brr-white\:hover\@sm:hover {
     border-right-color: #fff;
   }
   
-  .brb-white\:hover\@sm:hover {
+  .bb-white\:hover\@sm:hover {
     border-bottom-color: #fff;
   }
   
-  .brx-white\:hover\@sm:hover {
+  .bx-white\:hover\@sm:hover {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .bry-white\:hover\@sm:hover {
+  .by-white\:hover\@sm:hover {
     border-top-color: #fff;
     border-bottom-color: #fff;
+  }
+  
+  .b-black\:hover\@sm:hover {
+    border-color: #000;
+  }
+  
+  .bt-black\:hover\@sm:hover {
+    border-top-color: #000;
+  }
+  
+  .bl-black\:hover\@sm:hover {
+    border-left-color: #000;
   }
   
   .br-black\:hover\@sm:hover {
-    border-color: #000;
-  }
-  
-  .brt-black\:hover\@sm:hover {
-    border-top-color: #000;
-  }
-  
-  .brl-black\:hover\@sm:hover {
-    border-left-color: #000;
-  }
-  
-  .brr-black\:hover\@sm:hover {
     border-right-color: #000;
   }
   
-  .brb-black\:hover\@sm:hover {
+  .bb-black\:hover\@sm:hover {
     border-bottom-color: #000;
   }
   
-  .brx-black\:hover\@sm:hover {
+  .bx-black\:hover\@sm:hover {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .bry-black\:hover\@sm:hover {
+  .by-black\:hover\@sm:hover {
     border-top-color: #000;
     border-bottom-color: #000;
+  }
+  
+  .b-transparent\:hover\@sm:hover {
+    border-color: transparent;
+  }
+  
+  .bt-transparent\:hover\@sm:hover {
+    border-top-color: transparent;
+  }
+  
+  .bl-transparent\:hover\@sm:hover {
+    border-left-color: transparent;
+  }
+  
+  .br-transparent\:hover\@sm:hover {
+    border-right-color: transparent;
+  }
+  
+  .bb-transparent\:hover\@sm:hover {
+    border-bottom-color: transparent;
+  }
+  
+  .bx-transparent\:hover\@sm:hover {
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  
+  .by-transparent\:hover\@sm:hover {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+  
+  .b-current\:hover\@sm:hover {
+    border-color: currentColor;
+  }
+  
+  .bt-current\:hover\@sm:hover {
+    border-top-color: currentColor;
+  }
+  
+  .bl-current\:hover\@sm:hover {
+    border-left-color: currentColor;
   }
   
   .br-current\:hover\@sm:hover {
-    border-color: currentColor;
-  }
-  
-  .brt-current\:hover\@sm:hover {
-    border-top-color: currentColor;
-  }
-  
-  .brl-current\:hover\@sm:hover {
-    border-left-color: currentColor;
-  }
-  
-  .brr-current\:hover\@sm:hover {
     border-right-color: currentColor;
   }
   
-  .brb-current\:hover\@sm:hover {
+  .bb-current\:hover\@sm:hover {
     border-bottom-color: currentColor;
   }
   
-  .brx-current\:hover\@sm:hover {
+  .bx-current\:hover\@sm:hover {
     border-left-color: currentColor;
     border-right-color: currentColor;
   }
   
-  .bry-current\:hover\@sm:hover {
+  .by-current\:hover\@sm:hover {
     border-top-color: currentColor;
     border-bottom-color: currentColor;
+  }
+  
+  .b-white\:focus\@sm:focus {
+    border-color: #fff;
+  }
+  
+  .bt-white\:focus\@sm:focus {
+    border-top-color: #fff;
+  }
+  
+  .bl-white\:focus\@sm:focus {
+    border-left-color: #fff;
   }
   
   .br-white\:focus\@sm:focus {
-    border-color: #fff;
-  }
-  
-  .brt-white\:focus\@sm:focus {
-    border-top-color: #fff;
-  }
-  
-  .brl-white\:focus\@sm:focus {
-    border-left-color: #fff;
-  }
-  
-  .brr-white\:focus\@sm:focus {
     border-right-color: #fff;
   }
   
-  .brb-white\:focus\@sm:focus {
+  .bb-white\:focus\@sm:focus {
     border-bottom-color: #fff;
   }
   
-  .brx-white\:focus\@sm:focus {
+  .bx-white\:focus\@sm:focus {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .bry-white\:focus\@sm:focus {
+  .by-white\:focus\@sm:focus {
     border-top-color: #fff;
     border-bottom-color: #fff;
+  }
+  
+  .b-black\:focus\@sm:focus {
+    border-color: #000;
+  }
+  
+  .bt-black\:focus\@sm:focus {
+    border-top-color: #000;
+  }
+  
+  .bl-black\:focus\@sm:focus {
+    border-left-color: #000;
   }
   
   .br-black\:focus\@sm:focus {
-    border-color: #000;
-  }
-  
-  .brt-black\:focus\@sm:focus {
-    border-top-color: #000;
-  }
-  
-  .brl-black\:focus\@sm:focus {
-    border-left-color: #000;
-  }
-  
-  .brr-black\:focus\@sm:focus {
     border-right-color: #000;
   }
   
-  .brb-black\:focus\@sm:focus {
+  .bb-black\:focus\@sm:focus {
     border-bottom-color: #000;
   }
   
-  .brx-black\:focus\@sm:focus {
+  .bx-black\:focus\@sm:focus {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .bry-black\:focus\@sm:focus {
+  .by-black\:focus\@sm:focus {
     border-top-color: #000;
     border-bottom-color: #000;
+  }
+  
+  .b-transparent\:focus\@sm:focus {
+    border-color: transparent;
+  }
+  
+  .bt-transparent\:focus\@sm:focus {
+    border-top-color: transparent;
+  }
+  
+  .bl-transparent\:focus\@sm:focus {
+    border-left-color: transparent;
+  }
+  
+  .br-transparent\:focus\@sm:focus {
+    border-right-color: transparent;
+  }
+  
+  .bb-transparent\:focus\@sm:focus {
+    border-bottom-color: transparent;
+  }
+  
+  .bx-transparent\:focus\@sm:focus {
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  
+  .by-transparent\:focus\@sm:focus {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+  
+  .b-current\:focus\@sm:focus {
+    border-color: currentColor;
+  }
+  
+  .bt-current\:focus\@sm:focus {
+    border-top-color: currentColor;
+  }
+  
+  .bl-current\:focus\@sm:focus {
+    border-left-color: currentColor;
   }
   
   .br-current\:focus\@sm:focus {
-    border-color: currentColor;
-  }
-  
-  .brt-current\:focus\@sm:focus {
-    border-top-color: currentColor;
-  }
-  
-  .brl-current\:focus\@sm:focus {
-    border-left-color: currentColor;
-  }
-  
-  .brr-current\:focus\@sm:focus {
     border-right-color: currentColor;
   }
   
-  .brb-current\:focus\@sm:focus {
+  .bb-current\:focus\@sm:focus {
     border-bottom-color: currentColor;
   }
   
-  .brx-current\:focus\@sm:focus {
+  .bx-current\:focus\@sm:focus {
     border-left-color: currentColor;
     border-right-color: currentColor;
   }
   
-  .bry-current\:focus\@sm:focus {
+  .by-current\:focus\@sm:focus {
     border-top-color: currentColor;
     border-bottom-color: currentColor;
+  }
+  
+  .b-white\:active\@sm:active {
+    border-color: #fff;
+  }
+  
+  .bt-white\:active\@sm:active {
+    border-top-color: #fff;
+  }
+  
+  .bl-white\:active\@sm:active {
+    border-left-color: #fff;
   }
   
   .br-white\:active\@sm:active {
-    border-color: #fff;
-  }
-  
-  .brt-white\:active\@sm:active {
-    border-top-color: #fff;
-  }
-  
-  .brl-white\:active\@sm:active {
-    border-left-color: #fff;
-  }
-  
-  .brr-white\:active\@sm:active {
     border-right-color: #fff;
   }
   
-  .brb-white\:active\@sm:active {
+  .bb-white\:active\@sm:active {
     border-bottom-color: #fff;
   }
   
-  .brx-white\:active\@sm:active {
+  .bx-white\:active\@sm:active {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .bry-white\:active\@sm:active {
+  .by-white\:active\@sm:active {
     border-top-color: #fff;
     border-bottom-color: #fff;
+  }
+  
+  .b-black\:active\@sm:active {
+    border-color: #000;
+  }
+  
+  .bt-black\:active\@sm:active {
+    border-top-color: #000;
+  }
+  
+  .bl-black\:active\@sm:active {
+    border-left-color: #000;
   }
   
   .br-black\:active\@sm:active {
-    border-color: #000;
-  }
-  
-  .brt-black\:active\@sm:active {
-    border-top-color: #000;
-  }
-  
-  .brl-black\:active\@sm:active {
-    border-left-color: #000;
-  }
-  
-  .brr-black\:active\@sm:active {
     border-right-color: #000;
   }
   
-  .brb-black\:active\@sm:active {
+  .bb-black\:active\@sm:active {
     border-bottom-color: #000;
   }
   
-  .brx-black\:active\@sm:active {
+  .bx-black\:active\@sm:active {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .bry-black\:active\@sm:active {
+  .by-black\:active\@sm:active {
     border-top-color: #000;
     border-bottom-color: #000;
+  }
+  
+  .b-transparent\:active\@sm:active {
+    border-color: transparent;
+  }
+  
+  .bt-transparent\:active\@sm:active {
+    border-top-color: transparent;
+  }
+  
+  .bl-transparent\:active\@sm:active {
+    border-left-color: transparent;
+  }
+  
+  .br-transparent\:active\@sm:active {
+    border-right-color: transparent;
+  }
+  
+  .bb-transparent\:active\@sm:active {
+    border-bottom-color: transparent;
+  }
+  
+  .bx-transparent\:active\@sm:active {
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  
+  .by-transparent\:active\@sm:active {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+  
+  .b-current\:active\@sm:active {
+    border-color: currentColor;
+  }
+  
+  .bt-current\:active\@sm:active {
+    border-top-color: currentColor;
+  }
+  
+  .bl-current\:active\@sm:active {
+    border-left-color: currentColor;
   }
   
   .br-current\:active\@sm:active {
-    border-color: currentColor;
-  }
-  
-  .brt-current\:active\@sm:active {
-    border-top-color: currentColor;
-  }
-  
-  .brl-current\:active\@sm:active {
-    border-left-color: currentColor;
-  }
-  
-  .brr-current\:active\@sm:active {
     border-right-color: currentColor;
   }
   
-  .brb-current\:active\@sm:active {
+  .bb-current\:active\@sm:active {
     border-bottom-color: currentColor;
   }
   
-  .brx-current\:active\@sm:active {
+  .bx-current\:active\@sm:active {
     border-left-color: currentColor;
     border-right-color: currentColor;
   }
   
-  .bry-current\:active\@sm:active {
+  .by-current\:active\@sm:active {
     border-top-color: currentColor;
     border-bottom-color: currentColor;
   }
   .group:hover
-.br-white\:group-hover\@sm {
+.b-white\:group-hover\@sm {
     border-color: #fff;
   }
   .group:hover
-.brt-white\:group-hover\@sm {
+.bt-white\:group-hover\@sm {
     border-top-color: #fff;
   }
   .group:hover
-.brl-white\:group-hover\@sm {
+.bl-white\:group-hover\@sm {
     border-left-color: #fff;
   }
   .group:hover
-.brr-white\:group-hover\@sm {
+.br-white\:group-hover\@sm {
     border-right-color: #fff;
   }
   .group:hover
-.brb-white\:group-hover\@sm {
+.bb-white\:group-hover\@sm {
     border-bottom-color: #fff;
   }
   .group:hover
-.brx-white\:group-hover\@sm {
+.bx-white\:group-hover\@sm {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   .group:hover
-.bry-white\:group-hover\@sm {
+.by-white\:group-hover\@sm {
     border-top-color: #fff;
     border-bottom-color: #fff;
   }
   .group:hover
-.br-black\:group-hover\@sm {
+.b-black\:group-hover\@sm {
     border-color: #000;
   }
   .group:hover
-.brt-black\:group-hover\@sm {
+.bt-black\:group-hover\@sm {
     border-top-color: #000;
   }
   .group:hover
-.brl-black\:group-hover\@sm {
+.bl-black\:group-hover\@sm {
     border-left-color: #000;
   }
   .group:hover
-.brr-black\:group-hover\@sm {
+.br-black\:group-hover\@sm {
     border-right-color: #000;
   }
   .group:hover
-.brb-black\:group-hover\@sm {
+.bb-black\:group-hover\@sm {
     border-bottom-color: #000;
   }
   .group:hover
-.brx-black\:group-hover\@sm {
+.bx-black\:group-hover\@sm {
     border-left-color: #000;
     border-right-color: #000;
   }
   .group:hover
-.bry-black\:group-hover\@sm {
+.by-black\:group-hover\@sm {
     border-top-color: #000;
     border-bottom-color: #000;
   }
   .group:hover
-.br-current\:group-hover\@sm {
+.b-transparent\:group-hover\@sm {
+    border-color: transparent;
+  }
+  .group:hover
+.bt-transparent\:group-hover\@sm {
+    border-top-color: transparent;
+  }
+  .group:hover
+.bl-transparent\:group-hover\@sm {
+    border-left-color: transparent;
+  }
+  .group:hover
+.br-transparent\:group-hover\@sm {
+    border-right-color: transparent;
+  }
+  .group:hover
+.bb-transparent\:group-hover\@sm {
+    border-bottom-color: transparent;
+  }
+  .group:hover
+.bx-transparent\:group-hover\@sm {
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  .group:hover
+.by-transparent\:group-hover\@sm {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+  .group:hover
+.b-current\:group-hover\@sm {
     border-color: currentColor;
   }
   .group:hover
-.brt-current\:group-hover\@sm {
+.bt-current\:group-hover\@sm {
     border-top-color: currentColor;
   }
   .group:hover
-.brl-current\:group-hover\@sm {
+.bl-current\:group-hover\@sm {
     border-left-color: currentColor;
   }
   .group:hover
-.brr-current\:group-hover\@sm {
+.br-current\:group-hover\@sm {
     border-right-color: currentColor;
   }
   .group:hover
-.brb-current\:group-hover\@sm {
+.bb-current\:group-hover\@sm {
     border-bottom-color: currentColor;
   }
   .group:hover
-.brx-current\:group-hover\@sm {
+.bx-current\:group-hover\@sm {
     border-left-color: currentColor;
     border-right-color: currentColor;
   }
   .group:hover
-.bry-current\:group-hover\@sm {
+.by-current\:group-hover\@sm {
     border-top-color: currentColor;
     border-bottom-color: currentColor;
   }
@@ -3146,452 +3756,602 @@
 
 @media all and (min-width: 1024px) {
   
-  .br-white\@md {
+  .b-white\@md {
     border-color: #fff;
   }
   
-  .brt-white\@md {
+  .bt-white\@md {
     border-top-color: #fff;
   }
   
-  .brl-white\@md {
+  .bl-white\@md {
     border-left-color: #fff;
   }
   
-  .brr-white\@md {
+  .br-white\@md {
     border-right-color: #fff;
   }
   
-  .brb-white\@md {
+  .bb-white\@md {
     border-bottom-color: #fff;
   }
   
-  .brx-white\@md {
+  .bx-white\@md {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .bry-white\@md {
+  .by-white\@md {
     border-top-color: #fff;
     border-bottom-color: #fff;
+  }
+  
+  .b-black\@md {
+    border-color: #000;
+  }
+  
+  .bt-black\@md {
+    border-top-color: #000;
+  }
+  
+  .bl-black\@md {
+    border-left-color: #000;
   }
   
   .br-black\@md {
-    border-color: #000;
-  }
-  
-  .brt-black\@md {
-    border-top-color: #000;
-  }
-  
-  .brl-black\@md {
-    border-left-color: #000;
-  }
-  
-  .brr-black\@md {
     border-right-color: #000;
   }
   
-  .brb-black\@md {
+  .bb-black\@md {
     border-bottom-color: #000;
   }
   
-  .brx-black\@md {
+  .bx-black\@md {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .bry-black\@md {
+  .by-black\@md {
     border-top-color: #000;
     border-bottom-color: #000;
+  }
+  
+  .b-transparent\@md {
+    border-color: transparent;
+  }
+  
+  .bt-transparent\@md {
+    border-top-color: transparent;
+  }
+  
+  .bl-transparent\@md {
+    border-left-color: transparent;
+  }
+  
+  .br-transparent\@md {
+    border-right-color: transparent;
+  }
+  
+  .bb-transparent\@md {
+    border-bottom-color: transparent;
+  }
+  
+  .bx-transparent\@md {
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  
+  .by-transparent\@md {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+  
+  .b-current\@md {
+    border-color: currentColor;
+  }
+  
+  .bt-current\@md {
+    border-top-color: currentColor;
+  }
+  
+  .bl-current\@md {
+    border-left-color: currentColor;
   }
   
   .br-current\@md {
-    border-color: currentColor;
-  }
-  
-  .brt-current\@md {
-    border-top-color: currentColor;
-  }
-  
-  .brl-current\@md {
-    border-left-color: currentColor;
-  }
-  
-  .brr-current\@md {
     border-right-color: currentColor;
   }
   
-  .brb-current\@md {
+  .bb-current\@md {
     border-bottom-color: currentColor;
   }
   
-  .brx-current\@md {
+  .bx-current\@md {
     border-left-color: currentColor;
     border-right-color: currentColor;
   }
   
-  .bry-current\@md {
+  .by-current\@md {
     border-top-color: currentColor;
     border-bottom-color: currentColor;
+  }
+  
+  .b-white\:hover\@md:hover {
+    border-color: #fff;
+  }
+  
+  .bt-white\:hover\@md:hover {
+    border-top-color: #fff;
+  }
+  
+  .bl-white\:hover\@md:hover {
+    border-left-color: #fff;
   }
   
   .br-white\:hover\@md:hover {
-    border-color: #fff;
-  }
-  
-  .brt-white\:hover\@md:hover {
-    border-top-color: #fff;
-  }
-  
-  .brl-white\:hover\@md:hover {
-    border-left-color: #fff;
-  }
-  
-  .brr-white\:hover\@md:hover {
     border-right-color: #fff;
   }
   
-  .brb-white\:hover\@md:hover {
+  .bb-white\:hover\@md:hover {
     border-bottom-color: #fff;
   }
   
-  .brx-white\:hover\@md:hover {
+  .bx-white\:hover\@md:hover {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .bry-white\:hover\@md:hover {
+  .by-white\:hover\@md:hover {
     border-top-color: #fff;
     border-bottom-color: #fff;
+  }
+  
+  .b-black\:hover\@md:hover {
+    border-color: #000;
+  }
+  
+  .bt-black\:hover\@md:hover {
+    border-top-color: #000;
+  }
+  
+  .bl-black\:hover\@md:hover {
+    border-left-color: #000;
   }
   
   .br-black\:hover\@md:hover {
-    border-color: #000;
-  }
-  
-  .brt-black\:hover\@md:hover {
-    border-top-color: #000;
-  }
-  
-  .brl-black\:hover\@md:hover {
-    border-left-color: #000;
-  }
-  
-  .brr-black\:hover\@md:hover {
     border-right-color: #000;
   }
   
-  .brb-black\:hover\@md:hover {
+  .bb-black\:hover\@md:hover {
     border-bottom-color: #000;
   }
   
-  .brx-black\:hover\@md:hover {
+  .bx-black\:hover\@md:hover {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .bry-black\:hover\@md:hover {
+  .by-black\:hover\@md:hover {
     border-top-color: #000;
     border-bottom-color: #000;
+  }
+  
+  .b-transparent\:hover\@md:hover {
+    border-color: transparent;
+  }
+  
+  .bt-transparent\:hover\@md:hover {
+    border-top-color: transparent;
+  }
+  
+  .bl-transparent\:hover\@md:hover {
+    border-left-color: transparent;
+  }
+  
+  .br-transparent\:hover\@md:hover {
+    border-right-color: transparent;
+  }
+  
+  .bb-transparent\:hover\@md:hover {
+    border-bottom-color: transparent;
+  }
+  
+  .bx-transparent\:hover\@md:hover {
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  
+  .by-transparent\:hover\@md:hover {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+  
+  .b-current\:hover\@md:hover {
+    border-color: currentColor;
+  }
+  
+  .bt-current\:hover\@md:hover {
+    border-top-color: currentColor;
+  }
+  
+  .bl-current\:hover\@md:hover {
+    border-left-color: currentColor;
   }
   
   .br-current\:hover\@md:hover {
-    border-color: currentColor;
-  }
-  
-  .brt-current\:hover\@md:hover {
-    border-top-color: currentColor;
-  }
-  
-  .brl-current\:hover\@md:hover {
-    border-left-color: currentColor;
-  }
-  
-  .brr-current\:hover\@md:hover {
     border-right-color: currentColor;
   }
   
-  .brb-current\:hover\@md:hover {
+  .bb-current\:hover\@md:hover {
     border-bottom-color: currentColor;
   }
   
-  .brx-current\:hover\@md:hover {
+  .bx-current\:hover\@md:hover {
     border-left-color: currentColor;
     border-right-color: currentColor;
   }
   
-  .bry-current\:hover\@md:hover {
+  .by-current\:hover\@md:hover {
     border-top-color: currentColor;
     border-bottom-color: currentColor;
+  }
+  
+  .b-white\:focus\@md:focus {
+    border-color: #fff;
+  }
+  
+  .bt-white\:focus\@md:focus {
+    border-top-color: #fff;
+  }
+  
+  .bl-white\:focus\@md:focus {
+    border-left-color: #fff;
   }
   
   .br-white\:focus\@md:focus {
-    border-color: #fff;
-  }
-  
-  .brt-white\:focus\@md:focus {
-    border-top-color: #fff;
-  }
-  
-  .brl-white\:focus\@md:focus {
-    border-left-color: #fff;
-  }
-  
-  .brr-white\:focus\@md:focus {
     border-right-color: #fff;
   }
   
-  .brb-white\:focus\@md:focus {
+  .bb-white\:focus\@md:focus {
     border-bottom-color: #fff;
   }
   
-  .brx-white\:focus\@md:focus {
+  .bx-white\:focus\@md:focus {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .bry-white\:focus\@md:focus {
+  .by-white\:focus\@md:focus {
     border-top-color: #fff;
     border-bottom-color: #fff;
+  }
+  
+  .b-black\:focus\@md:focus {
+    border-color: #000;
+  }
+  
+  .bt-black\:focus\@md:focus {
+    border-top-color: #000;
+  }
+  
+  .bl-black\:focus\@md:focus {
+    border-left-color: #000;
   }
   
   .br-black\:focus\@md:focus {
-    border-color: #000;
-  }
-  
-  .brt-black\:focus\@md:focus {
-    border-top-color: #000;
-  }
-  
-  .brl-black\:focus\@md:focus {
-    border-left-color: #000;
-  }
-  
-  .brr-black\:focus\@md:focus {
     border-right-color: #000;
   }
   
-  .brb-black\:focus\@md:focus {
+  .bb-black\:focus\@md:focus {
     border-bottom-color: #000;
   }
   
-  .brx-black\:focus\@md:focus {
+  .bx-black\:focus\@md:focus {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .bry-black\:focus\@md:focus {
+  .by-black\:focus\@md:focus {
     border-top-color: #000;
     border-bottom-color: #000;
+  }
+  
+  .b-transparent\:focus\@md:focus {
+    border-color: transparent;
+  }
+  
+  .bt-transparent\:focus\@md:focus {
+    border-top-color: transparent;
+  }
+  
+  .bl-transparent\:focus\@md:focus {
+    border-left-color: transparent;
+  }
+  
+  .br-transparent\:focus\@md:focus {
+    border-right-color: transparent;
+  }
+  
+  .bb-transparent\:focus\@md:focus {
+    border-bottom-color: transparent;
+  }
+  
+  .bx-transparent\:focus\@md:focus {
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  
+  .by-transparent\:focus\@md:focus {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+  
+  .b-current\:focus\@md:focus {
+    border-color: currentColor;
+  }
+  
+  .bt-current\:focus\@md:focus {
+    border-top-color: currentColor;
+  }
+  
+  .bl-current\:focus\@md:focus {
+    border-left-color: currentColor;
   }
   
   .br-current\:focus\@md:focus {
-    border-color: currentColor;
-  }
-  
-  .brt-current\:focus\@md:focus {
-    border-top-color: currentColor;
-  }
-  
-  .brl-current\:focus\@md:focus {
-    border-left-color: currentColor;
-  }
-  
-  .brr-current\:focus\@md:focus {
     border-right-color: currentColor;
   }
   
-  .brb-current\:focus\@md:focus {
+  .bb-current\:focus\@md:focus {
     border-bottom-color: currentColor;
   }
   
-  .brx-current\:focus\@md:focus {
+  .bx-current\:focus\@md:focus {
     border-left-color: currentColor;
     border-right-color: currentColor;
   }
   
-  .bry-current\:focus\@md:focus {
+  .by-current\:focus\@md:focus {
     border-top-color: currentColor;
     border-bottom-color: currentColor;
+  }
+  
+  .b-white\:active\@md:active {
+    border-color: #fff;
+  }
+  
+  .bt-white\:active\@md:active {
+    border-top-color: #fff;
+  }
+  
+  .bl-white\:active\@md:active {
+    border-left-color: #fff;
   }
   
   .br-white\:active\@md:active {
-    border-color: #fff;
-  }
-  
-  .brt-white\:active\@md:active {
-    border-top-color: #fff;
-  }
-  
-  .brl-white\:active\@md:active {
-    border-left-color: #fff;
-  }
-  
-  .brr-white\:active\@md:active {
     border-right-color: #fff;
   }
   
-  .brb-white\:active\@md:active {
+  .bb-white\:active\@md:active {
     border-bottom-color: #fff;
   }
   
-  .brx-white\:active\@md:active {
+  .bx-white\:active\@md:active {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .bry-white\:active\@md:active {
+  .by-white\:active\@md:active {
     border-top-color: #fff;
     border-bottom-color: #fff;
+  }
+  
+  .b-black\:active\@md:active {
+    border-color: #000;
+  }
+  
+  .bt-black\:active\@md:active {
+    border-top-color: #000;
+  }
+  
+  .bl-black\:active\@md:active {
+    border-left-color: #000;
   }
   
   .br-black\:active\@md:active {
-    border-color: #000;
-  }
-  
-  .brt-black\:active\@md:active {
-    border-top-color: #000;
-  }
-  
-  .brl-black\:active\@md:active {
-    border-left-color: #000;
-  }
-  
-  .brr-black\:active\@md:active {
     border-right-color: #000;
   }
   
-  .brb-black\:active\@md:active {
+  .bb-black\:active\@md:active {
     border-bottom-color: #000;
   }
   
-  .brx-black\:active\@md:active {
+  .bx-black\:active\@md:active {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .bry-black\:active\@md:active {
+  .by-black\:active\@md:active {
     border-top-color: #000;
     border-bottom-color: #000;
+  }
+  
+  .b-transparent\:active\@md:active {
+    border-color: transparent;
+  }
+  
+  .bt-transparent\:active\@md:active {
+    border-top-color: transparent;
+  }
+  
+  .bl-transparent\:active\@md:active {
+    border-left-color: transparent;
+  }
+  
+  .br-transparent\:active\@md:active {
+    border-right-color: transparent;
+  }
+  
+  .bb-transparent\:active\@md:active {
+    border-bottom-color: transparent;
+  }
+  
+  .bx-transparent\:active\@md:active {
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  
+  .by-transparent\:active\@md:active {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+  
+  .b-current\:active\@md:active {
+    border-color: currentColor;
+  }
+  
+  .bt-current\:active\@md:active {
+    border-top-color: currentColor;
+  }
+  
+  .bl-current\:active\@md:active {
+    border-left-color: currentColor;
   }
   
   .br-current\:active\@md:active {
-    border-color: currentColor;
-  }
-  
-  .brt-current\:active\@md:active {
-    border-top-color: currentColor;
-  }
-  
-  .brl-current\:active\@md:active {
-    border-left-color: currentColor;
-  }
-  
-  .brr-current\:active\@md:active {
     border-right-color: currentColor;
   }
   
-  .brb-current\:active\@md:active {
+  .bb-current\:active\@md:active {
     border-bottom-color: currentColor;
   }
   
-  .brx-current\:active\@md:active {
+  .bx-current\:active\@md:active {
     border-left-color: currentColor;
     border-right-color: currentColor;
   }
   
-  .bry-current\:active\@md:active {
+  .by-current\:active\@md:active {
     border-top-color: currentColor;
     border-bottom-color: currentColor;
   }
   .group:hover
-.br-white\:group-hover\@md {
+.b-white\:group-hover\@md {
     border-color: #fff;
   }
   .group:hover
-.brt-white\:group-hover\@md {
+.bt-white\:group-hover\@md {
     border-top-color: #fff;
   }
   .group:hover
-.brl-white\:group-hover\@md {
+.bl-white\:group-hover\@md {
     border-left-color: #fff;
   }
   .group:hover
-.brr-white\:group-hover\@md {
+.br-white\:group-hover\@md {
     border-right-color: #fff;
   }
   .group:hover
-.brb-white\:group-hover\@md {
+.bb-white\:group-hover\@md {
     border-bottom-color: #fff;
   }
   .group:hover
-.brx-white\:group-hover\@md {
+.bx-white\:group-hover\@md {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   .group:hover
-.bry-white\:group-hover\@md {
+.by-white\:group-hover\@md {
     border-top-color: #fff;
     border-bottom-color: #fff;
   }
   .group:hover
-.br-black\:group-hover\@md {
+.b-black\:group-hover\@md {
     border-color: #000;
   }
   .group:hover
-.brt-black\:group-hover\@md {
+.bt-black\:group-hover\@md {
     border-top-color: #000;
   }
   .group:hover
-.brl-black\:group-hover\@md {
+.bl-black\:group-hover\@md {
     border-left-color: #000;
   }
   .group:hover
-.brr-black\:group-hover\@md {
+.br-black\:group-hover\@md {
     border-right-color: #000;
   }
   .group:hover
-.brb-black\:group-hover\@md {
+.bb-black\:group-hover\@md {
     border-bottom-color: #000;
   }
   .group:hover
-.brx-black\:group-hover\@md {
+.bx-black\:group-hover\@md {
     border-left-color: #000;
     border-right-color: #000;
   }
   .group:hover
-.bry-black\:group-hover\@md {
+.by-black\:group-hover\@md {
     border-top-color: #000;
     border-bottom-color: #000;
   }
   .group:hover
-.br-current\:group-hover\@md {
+.b-transparent\:group-hover\@md {
+    border-color: transparent;
+  }
+  .group:hover
+.bt-transparent\:group-hover\@md {
+    border-top-color: transparent;
+  }
+  .group:hover
+.bl-transparent\:group-hover\@md {
+    border-left-color: transparent;
+  }
+  .group:hover
+.br-transparent\:group-hover\@md {
+    border-right-color: transparent;
+  }
+  .group:hover
+.bb-transparent\:group-hover\@md {
+    border-bottom-color: transparent;
+  }
+  .group:hover
+.bx-transparent\:group-hover\@md {
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  .group:hover
+.by-transparent\:group-hover\@md {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+  .group:hover
+.b-current\:group-hover\@md {
     border-color: currentColor;
   }
   .group:hover
-.brt-current\:group-hover\@md {
+.bt-current\:group-hover\@md {
     border-top-color: currentColor;
   }
   .group:hover
-.brl-current\:group-hover\@md {
+.bl-current\:group-hover\@md {
     border-left-color: currentColor;
   }
   .group:hover
-.brr-current\:group-hover\@md {
+.br-current\:group-hover\@md {
     border-right-color: currentColor;
   }
   .group:hover
-.brb-current\:group-hover\@md {
+.bb-current\:group-hover\@md {
     border-bottom-color: currentColor;
   }
   .group:hover
-.brx-current\:group-hover\@md {
+.bx-current\:group-hover\@md {
     border-left-color: currentColor;
     border-right-color: currentColor;
   }
   .group:hover
-.bry-current\:group-hover\@md {
+.by-current\:group-hover\@md {
     border-top-color: currentColor;
     border-bottom-color: currentColor;
   }
@@ -3599,452 +4359,602 @@
 
 @media all and (min-width: 1220px) {
   
-  .br-white\@lg {
+  .b-white\@lg {
     border-color: #fff;
   }
   
-  .brt-white\@lg {
+  .bt-white\@lg {
     border-top-color: #fff;
   }
   
-  .brl-white\@lg {
+  .bl-white\@lg {
     border-left-color: #fff;
   }
   
-  .brr-white\@lg {
+  .br-white\@lg {
     border-right-color: #fff;
   }
   
-  .brb-white\@lg {
+  .bb-white\@lg {
     border-bottom-color: #fff;
   }
   
-  .brx-white\@lg {
+  .bx-white\@lg {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .bry-white\@lg {
+  .by-white\@lg {
     border-top-color: #fff;
     border-bottom-color: #fff;
+  }
+  
+  .b-black\@lg {
+    border-color: #000;
+  }
+  
+  .bt-black\@lg {
+    border-top-color: #000;
+  }
+  
+  .bl-black\@lg {
+    border-left-color: #000;
   }
   
   .br-black\@lg {
-    border-color: #000;
-  }
-  
-  .brt-black\@lg {
-    border-top-color: #000;
-  }
-  
-  .brl-black\@lg {
-    border-left-color: #000;
-  }
-  
-  .brr-black\@lg {
     border-right-color: #000;
   }
   
-  .brb-black\@lg {
+  .bb-black\@lg {
     border-bottom-color: #000;
   }
   
-  .brx-black\@lg {
+  .bx-black\@lg {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .bry-black\@lg {
+  .by-black\@lg {
     border-top-color: #000;
     border-bottom-color: #000;
+  }
+  
+  .b-transparent\@lg {
+    border-color: transparent;
+  }
+  
+  .bt-transparent\@lg {
+    border-top-color: transparent;
+  }
+  
+  .bl-transparent\@lg {
+    border-left-color: transparent;
+  }
+  
+  .br-transparent\@lg {
+    border-right-color: transparent;
+  }
+  
+  .bb-transparent\@lg {
+    border-bottom-color: transparent;
+  }
+  
+  .bx-transparent\@lg {
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  
+  .by-transparent\@lg {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+  
+  .b-current\@lg {
+    border-color: currentColor;
+  }
+  
+  .bt-current\@lg {
+    border-top-color: currentColor;
+  }
+  
+  .bl-current\@lg {
+    border-left-color: currentColor;
   }
   
   .br-current\@lg {
-    border-color: currentColor;
-  }
-  
-  .brt-current\@lg {
-    border-top-color: currentColor;
-  }
-  
-  .brl-current\@lg {
-    border-left-color: currentColor;
-  }
-  
-  .brr-current\@lg {
     border-right-color: currentColor;
   }
   
-  .brb-current\@lg {
+  .bb-current\@lg {
     border-bottom-color: currentColor;
   }
   
-  .brx-current\@lg {
+  .bx-current\@lg {
     border-left-color: currentColor;
     border-right-color: currentColor;
   }
   
-  .bry-current\@lg {
+  .by-current\@lg {
     border-top-color: currentColor;
     border-bottom-color: currentColor;
+  }
+  
+  .b-white\:hover\@lg:hover {
+    border-color: #fff;
+  }
+  
+  .bt-white\:hover\@lg:hover {
+    border-top-color: #fff;
+  }
+  
+  .bl-white\:hover\@lg:hover {
+    border-left-color: #fff;
   }
   
   .br-white\:hover\@lg:hover {
-    border-color: #fff;
-  }
-  
-  .brt-white\:hover\@lg:hover {
-    border-top-color: #fff;
-  }
-  
-  .brl-white\:hover\@lg:hover {
-    border-left-color: #fff;
-  }
-  
-  .brr-white\:hover\@lg:hover {
     border-right-color: #fff;
   }
   
-  .brb-white\:hover\@lg:hover {
+  .bb-white\:hover\@lg:hover {
     border-bottom-color: #fff;
   }
   
-  .brx-white\:hover\@lg:hover {
+  .bx-white\:hover\@lg:hover {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .bry-white\:hover\@lg:hover {
+  .by-white\:hover\@lg:hover {
     border-top-color: #fff;
     border-bottom-color: #fff;
+  }
+  
+  .b-black\:hover\@lg:hover {
+    border-color: #000;
+  }
+  
+  .bt-black\:hover\@lg:hover {
+    border-top-color: #000;
+  }
+  
+  .bl-black\:hover\@lg:hover {
+    border-left-color: #000;
   }
   
   .br-black\:hover\@lg:hover {
-    border-color: #000;
-  }
-  
-  .brt-black\:hover\@lg:hover {
-    border-top-color: #000;
-  }
-  
-  .brl-black\:hover\@lg:hover {
-    border-left-color: #000;
-  }
-  
-  .brr-black\:hover\@lg:hover {
     border-right-color: #000;
   }
   
-  .brb-black\:hover\@lg:hover {
+  .bb-black\:hover\@lg:hover {
     border-bottom-color: #000;
   }
   
-  .brx-black\:hover\@lg:hover {
+  .bx-black\:hover\@lg:hover {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .bry-black\:hover\@lg:hover {
+  .by-black\:hover\@lg:hover {
     border-top-color: #000;
     border-bottom-color: #000;
+  }
+  
+  .b-transparent\:hover\@lg:hover {
+    border-color: transparent;
+  }
+  
+  .bt-transparent\:hover\@lg:hover {
+    border-top-color: transparent;
+  }
+  
+  .bl-transparent\:hover\@lg:hover {
+    border-left-color: transparent;
+  }
+  
+  .br-transparent\:hover\@lg:hover {
+    border-right-color: transparent;
+  }
+  
+  .bb-transparent\:hover\@lg:hover {
+    border-bottom-color: transparent;
+  }
+  
+  .bx-transparent\:hover\@lg:hover {
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  
+  .by-transparent\:hover\@lg:hover {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+  
+  .b-current\:hover\@lg:hover {
+    border-color: currentColor;
+  }
+  
+  .bt-current\:hover\@lg:hover {
+    border-top-color: currentColor;
+  }
+  
+  .bl-current\:hover\@lg:hover {
+    border-left-color: currentColor;
   }
   
   .br-current\:hover\@lg:hover {
-    border-color: currentColor;
-  }
-  
-  .brt-current\:hover\@lg:hover {
-    border-top-color: currentColor;
-  }
-  
-  .brl-current\:hover\@lg:hover {
-    border-left-color: currentColor;
-  }
-  
-  .brr-current\:hover\@lg:hover {
     border-right-color: currentColor;
   }
   
-  .brb-current\:hover\@lg:hover {
+  .bb-current\:hover\@lg:hover {
     border-bottom-color: currentColor;
   }
   
-  .brx-current\:hover\@lg:hover {
+  .bx-current\:hover\@lg:hover {
     border-left-color: currentColor;
     border-right-color: currentColor;
   }
   
-  .bry-current\:hover\@lg:hover {
+  .by-current\:hover\@lg:hover {
     border-top-color: currentColor;
     border-bottom-color: currentColor;
+  }
+  
+  .b-white\:focus\@lg:focus {
+    border-color: #fff;
+  }
+  
+  .bt-white\:focus\@lg:focus {
+    border-top-color: #fff;
+  }
+  
+  .bl-white\:focus\@lg:focus {
+    border-left-color: #fff;
   }
   
   .br-white\:focus\@lg:focus {
-    border-color: #fff;
-  }
-  
-  .brt-white\:focus\@lg:focus {
-    border-top-color: #fff;
-  }
-  
-  .brl-white\:focus\@lg:focus {
-    border-left-color: #fff;
-  }
-  
-  .brr-white\:focus\@lg:focus {
     border-right-color: #fff;
   }
   
-  .brb-white\:focus\@lg:focus {
+  .bb-white\:focus\@lg:focus {
     border-bottom-color: #fff;
   }
   
-  .brx-white\:focus\@lg:focus {
+  .bx-white\:focus\@lg:focus {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .bry-white\:focus\@lg:focus {
+  .by-white\:focus\@lg:focus {
     border-top-color: #fff;
     border-bottom-color: #fff;
+  }
+  
+  .b-black\:focus\@lg:focus {
+    border-color: #000;
+  }
+  
+  .bt-black\:focus\@lg:focus {
+    border-top-color: #000;
+  }
+  
+  .bl-black\:focus\@lg:focus {
+    border-left-color: #000;
   }
   
   .br-black\:focus\@lg:focus {
-    border-color: #000;
-  }
-  
-  .brt-black\:focus\@lg:focus {
-    border-top-color: #000;
-  }
-  
-  .brl-black\:focus\@lg:focus {
-    border-left-color: #000;
-  }
-  
-  .brr-black\:focus\@lg:focus {
     border-right-color: #000;
   }
   
-  .brb-black\:focus\@lg:focus {
+  .bb-black\:focus\@lg:focus {
     border-bottom-color: #000;
   }
   
-  .brx-black\:focus\@lg:focus {
+  .bx-black\:focus\@lg:focus {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .bry-black\:focus\@lg:focus {
+  .by-black\:focus\@lg:focus {
     border-top-color: #000;
     border-bottom-color: #000;
+  }
+  
+  .b-transparent\:focus\@lg:focus {
+    border-color: transparent;
+  }
+  
+  .bt-transparent\:focus\@lg:focus {
+    border-top-color: transparent;
+  }
+  
+  .bl-transparent\:focus\@lg:focus {
+    border-left-color: transparent;
+  }
+  
+  .br-transparent\:focus\@lg:focus {
+    border-right-color: transparent;
+  }
+  
+  .bb-transparent\:focus\@lg:focus {
+    border-bottom-color: transparent;
+  }
+  
+  .bx-transparent\:focus\@lg:focus {
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  
+  .by-transparent\:focus\@lg:focus {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+  
+  .b-current\:focus\@lg:focus {
+    border-color: currentColor;
+  }
+  
+  .bt-current\:focus\@lg:focus {
+    border-top-color: currentColor;
+  }
+  
+  .bl-current\:focus\@lg:focus {
+    border-left-color: currentColor;
   }
   
   .br-current\:focus\@lg:focus {
-    border-color: currentColor;
-  }
-  
-  .brt-current\:focus\@lg:focus {
-    border-top-color: currentColor;
-  }
-  
-  .brl-current\:focus\@lg:focus {
-    border-left-color: currentColor;
-  }
-  
-  .brr-current\:focus\@lg:focus {
     border-right-color: currentColor;
   }
   
-  .brb-current\:focus\@lg:focus {
+  .bb-current\:focus\@lg:focus {
     border-bottom-color: currentColor;
   }
   
-  .brx-current\:focus\@lg:focus {
+  .bx-current\:focus\@lg:focus {
     border-left-color: currentColor;
     border-right-color: currentColor;
   }
   
-  .bry-current\:focus\@lg:focus {
+  .by-current\:focus\@lg:focus {
     border-top-color: currentColor;
     border-bottom-color: currentColor;
+  }
+  
+  .b-white\:active\@lg:active {
+    border-color: #fff;
+  }
+  
+  .bt-white\:active\@lg:active {
+    border-top-color: #fff;
+  }
+  
+  .bl-white\:active\@lg:active {
+    border-left-color: #fff;
   }
   
   .br-white\:active\@lg:active {
-    border-color: #fff;
-  }
-  
-  .brt-white\:active\@lg:active {
-    border-top-color: #fff;
-  }
-  
-  .brl-white\:active\@lg:active {
-    border-left-color: #fff;
-  }
-  
-  .brr-white\:active\@lg:active {
     border-right-color: #fff;
   }
   
-  .brb-white\:active\@lg:active {
+  .bb-white\:active\@lg:active {
     border-bottom-color: #fff;
   }
   
-  .brx-white\:active\@lg:active {
+  .bx-white\:active\@lg:active {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .bry-white\:active\@lg:active {
+  .by-white\:active\@lg:active {
     border-top-color: #fff;
     border-bottom-color: #fff;
+  }
+  
+  .b-black\:active\@lg:active {
+    border-color: #000;
+  }
+  
+  .bt-black\:active\@lg:active {
+    border-top-color: #000;
+  }
+  
+  .bl-black\:active\@lg:active {
+    border-left-color: #000;
   }
   
   .br-black\:active\@lg:active {
-    border-color: #000;
-  }
-  
-  .brt-black\:active\@lg:active {
-    border-top-color: #000;
-  }
-  
-  .brl-black\:active\@lg:active {
-    border-left-color: #000;
-  }
-  
-  .brr-black\:active\@lg:active {
     border-right-color: #000;
   }
   
-  .brb-black\:active\@lg:active {
+  .bb-black\:active\@lg:active {
     border-bottom-color: #000;
   }
   
-  .brx-black\:active\@lg:active {
+  .bx-black\:active\@lg:active {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .bry-black\:active\@lg:active {
+  .by-black\:active\@lg:active {
     border-top-color: #000;
     border-bottom-color: #000;
+  }
+  
+  .b-transparent\:active\@lg:active {
+    border-color: transparent;
+  }
+  
+  .bt-transparent\:active\@lg:active {
+    border-top-color: transparent;
+  }
+  
+  .bl-transparent\:active\@lg:active {
+    border-left-color: transparent;
+  }
+  
+  .br-transparent\:active\@lg:active {
+    border-right-color: transparent;
+  }
+  
+  .bb-transparent\:active\@lg:active {
+    border-bottom-color: transparent;
+  }
+  
+  .bx-transparent\:active\@lg:active {
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  
+  .by-transparent\:active\@lg:active {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+  
+  .b-current\:active\@lg:active {
+    border-color: currentColor;
+  }
+  
+  .bt-current\:active\@lg:active {
+    border-top-color: currentColor;
+  }
+  
+  .bl-current\:active\@lg:active {
+    border-left-color: currentColor;
   }
   
   .br-current\:active\@lg:active {
-    border-color: currentColor;
-  }
-  
-  .brt-current\:active\@lg:active {
-    border-top-color: currentColor;
-  }
-  
-  .brl-current\:active\@lg:active {
-    border-left-color: currentColor;
-  }
-  
-  .brr-current\:active\@lg:active {
     border-right-color: currentColor;
   }
   
-  .brb-current\:active\@lg:active {
+  .bb-current\:active\@lg:active {
     border-bottom-color: currentColor;
   }
   
-  .brx-current\:active\@lg:active {
+  .bx-current\:active\@lg:active {
     border-left-color: currentColor;
     border-right-color: currentColor;
   }
   
-  .bry-current\:active\@lg:active {
+  .by-current\:active\@lg:active {
     border-top-color: currentColor;
     border-bottom-color: currentColor;
   }
   .group:hover
-.br-white\:group-hover\@lg {
+.b-white\:group-hover\@lg {
     border-color: #fff;
   }
   .group:hover
-.brt-white\:group-hover\@lg {
+.bt-white\:group-hover\@lg {
     border-top-color: #fff;
   }
   .group:hover
-.brl-white\:group-hover\@lg {
+.bl-white\:group-hover\@lg {
     border-left-color: #fff;
   }
   .group:hover
-.brr-white\:group-hover\@lg {
+.br-white\:group-hover\@lg {
     border-right-color: #fff;
   }
   .group:hover
-.brb-white\:group-hover\@lg {
+.bb-white\:group-hover\@lg {
     border-bottom-color: #fff;
   }
   .group:hover
-.brx-white\:group-hover\@lg {
+.bx-white\:group-hover\@lg {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   .group:hover
-.bry-white\:group-hover\@lg {
+.by-white\:group-hover\@lg {
     border-top-color: #fff;
     border-bottom-color: #fff;
   }
   .group:hover
-.br-black\:group-hover\@lg {
+.b-black\:group-hover\@lg {
     border-color: #000;
   }
   .group:hover
-.brt-black\:group-hover\@lg {
+.bt-black\:group-hover\@lg {
     border-top-color: #000;
   }
   .group:hover
-.brl-black\:group-hover\@lg {
+.bl-black\:group-hover\@lg {
     border-left-color: #000;
   }
   .group:hover
-.brr-black\:group-hover\@lg {
+.br-black\:group-hover\@lg {
     border-right-color: #000;
   }
   .group:hover
-.brb-black\:group-hover\@lg {
+.bb-black\:group-hover\@lg {
     border-bottom-color: #000;
   }
   .group:hover
-.brx-black\:group-hover\@lg {
+.bx-black\:group-hover\@lg {
     border-left-color: #000;
     border-right-color: #000;
   }
   .group:hover
-.bry-black\:group-hover\@lg {
+.by-black\:group-hover\@lg {
     border-top-color: #000;
     border-bottom-color: #000;
   }
   .group:hover
-.br-current\:group-hover\@lg {
+.b-transparent\:group-hover\@lg {
+    border-color: transparent;
+  }
+  .group:hover
+.bt-transparent\:group-hover\@lg {
+    border-top-color: transparent;
+  }
+  .group:hover
+.bl-transparent\:group-hover\@lg {
+    border-left-color: transparent;
+  }
+  .group:hover
+.br-transparent\:group-hover\@lg {
+    border-right-color: transparent;
+  }
+  .group:hover
+.bb-transparent\:group-hover\@lg {
+    border-bottom-color: transparent;
+  }
+  .group:hover
+.bx-transparent\:group-hover\@lg {
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  .group:hover
+.by-transparent\:group-hover\@lg {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+  .group:hover
+.b-current\:group-hover\@lg {
     border-color: currentColor;
   }
   .group:hover
-.brt-current\:group-hover\@lg {
+.bt-current\:group-hover\@lg {
     border-top-color: currentColor;
   }
   .group:hover
-.brl-current\:group-hover\@lg {
+.bl-current\:group-hover\@lg {
     border-left-color: currentColor;
   }
   .group:hover
-.brr-current\:group-hover\@lg {
+.br-current\:group-hover\@lg {
     border-right-color: currentColor;
   }
   .group:hover
-.brb-current\:group-hover\@lg {
+.bb-current\:group-hover\@lg {
     border-bottom-color: currentColor;
   }
   .group:hover
-.brx-current\:group-hover\@lg {
+.bx-current\:group-hover\@lg {
     border-left-color: currentColor;
     border-right-color: currentColor;
   }
   .group:hover
-.bry-current\:group-hover\@lg {
+.by-current\:group-hover\@lg {
     border-top-color: currentColor;
     border-bottom-color: currentColor;
   }
@@ -4052,656 +4962,806 @@
 
 @media all and (min-width: 1460px) {
   
-  .br-white\@xl {
+  .b-white\@xl {
     border-color: #fff;
   }
   
-  .brt-white\@xl {
+  .bt-white\@xl {
     border-top-color: #fff;
   }
   
-  .brl-white\@xl {
+  .bl-white\@xl {
     border-left-color: #fff;
   }
   
-  .brr-white\@xl {
+  .br-white\@xl {
     border-right-color: #fff;
   }
   
-  .brb-white\@xl {
+  .bb-white\@xl {
     border-bottom-color: #fff;
   }
   
-  .brx-white\@xl {
+  .bx-white\@xl {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .bry-white\@xl {
+  .by-white\@xl {
     border-top-color: #fff;
     border-bottom-color: #fff;
+  }
+  
+  .b-black\@xl {
+    border-color: #000;
+  }
+  
+  .bt-black\@xl {
+    border-top-color: #000;
+  }
+  
+  .bl-black\@xl {
+    border-left-color: #000;
   }
   
   .br-black\@xl {
-    border-color: #000;
-  }
-  
-  .brt-black\@xl {
-    border-top-color: #000;
-  }
-  
-  .brl-black\@xl {
-    border-left-color: #000;
-  }
-  
-  .brr-black\@xl {
     border-right-color: #000;
   }
   
-  .brb-black\@xl {
+  .bb-black\@xl {
     border-bottom-color: #000;
   }
   
-  .brx-black\@xl {
+  .bx-black\@xl {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .bry-black\@xl {
+  .by-black\@xl {
     border-top-color: #000;
     border-bottom-color: #000;
+  }
+  
+  .b-transparent\@xl {
+    border-color: transparent;
+  }
+  
+  .bt-transparent\@xl {
+    border-top-color: transparent;
+  }
+  
+  .bl-transparent\@xl {
+    border-left-color: transparent;
+  }
+  
+  .br-transparent\@xl {
+    border-right-color: transparent;
+  }
+  
+  .bb-transparent\@xl {
+    border-bottom-color: transparent;
+  }
+  
+  .bx-transparent\@xl {
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  
+  .by-transparent\@xl {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+  
+  .b-current\@xl {
+    border-color: currentColor;
+  }
+  
+  .bt-current\@xl {
+    border-top-color: currentColor;
+  }
+  
+  .bl-current\@xl {
+    border-left-color: currentColor;
   }
   
   .br-current\@xl {
-    border-color: currentColor;
-  }
-  
-  .brt-current\@xl {
-    border-top-color: currentColor;
-  }
-  
-  .brl-current\@xl {
-    border-left-color: currentColor;
-  }
-  
-  .brr-current\@xl {
     border-right-color: currentColor;
   }
   
-  .brb-current\@xl {
+  .bb-current\@xl {
     border-bottom-color: currentColor;
   }
   
-  .brx-current\@xl {
+  .bx-current\@xl {
     border-left-color: currentColor;
     border-right-color: currentColor;
   }
   
-  .bry-current\@xl {
+  .by-current\@xl {
     border-top-color: currentColor;
     border-bottom-color: currentColor;
+  }
+  
+  .b-white\:hover\@xl:hover {
+    border-color: #fff;
+  }
+  
+  .bt-white\:hover\@xl:hover {
+    border-top-color: #fff;
+  }
+  
+  .bl-white\:hover\@xl:hover {
+    border-left-color: #fff;
   }
   
   .br-white\:hover\@xl:hover {
-    border-color: #fff;
-  }
-  
-  .brt-white\:hover\@xl:hover {
-    border-top-color: #fff;
-  }
-  
-  .brl-white\:hover\@xl:hover {
-    border-left-color: #fff;
-  }
-  
-  .brr-white\:hover\@xl:hover {
     border-right-color: #fff;
   }
   
-  .brb-white\:hover\@xl:hover {
+  .bb-white\:hover\@xl:hover {
     border-bottom-color: #fff;
   }
   
-  .brx-white\:hover\@xl:hover {
+  .bx-white\:hover\@xl:hover {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .bry-white\:hover\@xl:hover {
+  .by-white\:hover\@xl:hover {
     border-top-color: #fff;
     border-bottom-color: #fff;
+  }
+  
+  .b-black\:hover\@xl:hover {
+    border-color: #000;
+  }
+  
+  .bt-black\:hover\@xl:hover {
+    border-top-color: #000;
+  }
+  
+  .bl-black\:hover\@xl:hover {
+    border-left-color: #000;
   }
   
   .br-black\:hover\@xl:hover {
-    border-color: #000;
-  }
-  
-  .brt-black\:hover\@xl:hover {
-    border-top-color: #000;
-  }
-  
-  .brl-black\:hover\@xl:hover {
-    border-left-color: #000;
-  }
-  
-  .brr-black\:hover\@xl:hover {
     border-right-color: #000;
   }
   
-  .brb-black\:hover\@xl:hover {
+  .bb-black\:hover\@xl:hover {
     border-bottom-color: #000;
   }
   
-  .brx-black\:hover\@xl:hover {
+  .bx-black\:hover\@xl:hover {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .bry-black\:hover\@xl:hover {
+  .by-black\:hover\@xl:hover {
     border-top-color: #000;
     border-bottom-color: #000;
+  }
+  
+  .b-transparent\:hover\@xl:hover {
+    border-color: transparent;
+  }
+  
+  .bt-transparent\:hover\@xl:hover {
+    border-top-color: transparent;
+  }
+  
+  .bl-transparent\:hover\@xl:hover {
+    border-left-color: transparent;
+  }
+  
+  .br-transparent\:hover\@xl:hover {
+    border-right-color: transparent;
+  }
+  
+  .bb-transparent\:hover\@xl:hover {
+    border-bottom-color: transparent;
+  }
+  
+  .bx-transparent\:hover\@xl:hover {
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  
+  .by-transparent\:hover\@xl:hover {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+  
+  .b-current\:hover\@xl:hover {
+    border-color: currentColor;
+  }
+  
+  .bt-current\:hover\@xl:hover {
+    border-top-color: currentColor;
+  }
+  
+  .bl-current\:hover\@xl:hover {
+    border-left-color: currentColor;
   }
   
   .br-current\:hover\@xl:hover {
-    border-color: currentColor;
-  }
-  
-  .brt-current\:hover\@xl:hover {
-    border-top-color: currentColor;
-  }
-  
-  .brl-current\:hover\@xl:hover {
-    border-left-color: currentColor;
-  }
-  
-  .brr-current\:hover\@xl:hover {
     border-right-color: currentColor;
   }
   
-  .brb-current\:hover\@xl:hover {
+  .bb-current\:hover\@xl:hover {
     border-bottom-color: currentColor;
   }
   
-  .brx-current\:hover\@xl:hover {
+  .bx-current\:hover\@xl:hover {
     border-left-color: currentColor;
     border-right-color: currentColor;
   }
   
-  .bry-current\:hover\@xl:hover {
+  .by-current\:hover\@xl:hover {
     border-top-color: currentColor;
     border-bottom-color: currentColor;
+  }
+  
+  .b-white\:focus\@xl:focus {
+    border-color: #fff;
+  }
+  
+  .bt-white\:focus\@xl:focus {
+    border-top-color: #fff;
+  }
+  
+  .bl-white\:focus\@xl:focus {
+    border-left-color: #fff;
   }
   
   .br-white\:focus\@xl:focus {
-    border-color: #fff;
-  }
-  
-  .brt-white\:focus\@xl:focus {
-    border-top-color: #fff;
-  }
-  
-  .brl-white\:focus\@xl:focus {
-    border-left-color: #fff;
-  }
-  
-  .brr-white\:focus\@xl:focus {
     border-right-color: #fff;
   }
   
-  .brb-white\:focus\@xl:focus {
+  .bb-white\:focus\@xl:focus {
     border-bottom-color: #fff;
   }
   
-  .brx-white\:focus\@xl:focus {
+  .bx-white\:focus\@xl:focus {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .bry-white\:focus\@xl:focus {
+  .by-white\:focus\@xl:focus {
     border-top-color: #fff;
     border-bottom-color: #fff;
+  }
+  
+  .b-black\:focus\@xl:focus {
+    border-color: #000;
+  }
+  
+  .bt-black\:focus\@xl:focus {
+    border-top-color: #000;
+  }
+  
+  .bl-black\:focus\@xl:focus {
+    border-left-color: #000;
   }
   
   .br-black\:focus\@xl:focus {
-    border-color: #000;
-  }
-  
-  .brt-black\:focus\@xl:focus {
-    border-top-color: #000;
-  }
-  
-  .brl-black\:focus\@xl:focus {
-    border-left-color: #000;
-  }
-  
-  .brr-black\:focus\@xl:focus {
     border-right-color: #000;
   }
   
-  .brb-black\:focus\@xl:focus {
+  .bb-black\:focus\@xl:focus {
     border-bottom-color: #000;
   }
   
-  .brx-black\:focus\@xl:focus {
+  .bx-black\:focus\@xl:focus {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .bry-black\:focus\@xl:focus {
+  .by-black\:focus\@xl:focus {
     border-top-color: #000;
     border-bottom-color: #000;
+  }
+  
+  .b-transparent\:focus\@xl:focus {
+    border-color: transparent;
+  }
+  
+  .bt-transparent\:focus\@xl:focus {
+    border-top-color: transparent;
+  }
+  
+  .bl-transparent\:focus\@xl:focus {
+    border-left-color: transparent;
+  }
+  
+  .br-transparent\:focus\@xl:focus {
+    border-right-color: transparent;
+  }
+  
+  .bb-transparent\:focus\@xl:focus {
+    border-bottom-color: transparent;
+  }
+  
+  .bx-transparent\:focus\@xl:focus {
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  
+  .by-transparent\:focus\@xl:focus {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+  
+  .b-current\:focus\@xl:focus {
+    border-color: currentColor;
+  }
+  
+  .bt-current\:focus\@xl:focus {
+    border-top-color: currentColor;
+  }
+  
+  .bl-current\:focus\@xl:focus {
+    border-left-color: currentColor;
   }
   
   .br-current\:focus\@xl:focus {
-    border-color: currentColor;
-  }
-  
-  .brt-current\:focus\@xl:focus {
-    border-top-color: currentColor;
-  }
-  
-  .brl-current\:focus\@xl:focus {
-    border-left-color: currentColor;
-  }
-  
-  .brr-current\:focus\@xl:focus {
     border-right-color: currentColor;
   }
   
-  .brb-current\:focus\@xl:focus {
+  .bb-current\:focus\@xl:focus {
     border-bottom-color: currentColor;
   }
   
-  .brx-current\:focus\@xl:focus {
+  .bx-current\:focus\@xl:focus {
     border-left-color: currentColor;
     border-right-color: currentColor;
   }
   
-  .bry-current\:focus\@xl:focus {
+  .by-current\:focus\@xl:focus {
     border-top-color: currentColor;
     border-bottom-color: currentColor;
+  }
+  
+  .b-white\:active\@xl:active {
+    border-color: #fff;
+  }
+  
+  .bt-white\:active\@xl:active {
+    border-top-color: #fff;
+  }
+  
+  .bl-white\:active\@xl:active {
+    border-left-color: #fff;
   }
   
   .br-white\:active\@xl:active {
-    border-color: #fff;
-  }
-  
-  .brt-white\:active\@xl:active {
-    border-top-color: #fff;
-  }
-  
-  .brl-white\:active\@xl:active {
-    border-left-color: #fff;
-  }
-  
-  .brr-white\:active\@xl:active {
     border-right-color: #fff;
   }
   
-  .brb-white\:active\@xl:active {
+  .bb-white\:active\@xl:active {
     border-bottom-color: #fff;
   }
   
-  .brx-white\:active\@xl:active {
+  .bx-white\:active\@xl:active {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   
-  .bry-white\:active\@xl:active {
+  .by-white\:active\@xl:active {
     border-top-color: #fff;
     border-bottom-color: #fff;
+  }
+  
+  .b-black\:active\@xl:active {
+    border-color: #000;
+  }
+  
+  .bt-black\:active\@xl:active {
+    border-top-color: #000;
+  }
+  
+  .bl-black\:active\@xl:active {
+    border-left-color: #000;
   }
   
   .br-black\:active\@xl:active {
-    border-color: #000;
-  }
-  
-  .brt-black\:active\@xl:active {
-    border-top-color: #000;
-  }
-  
-  .brl-black\:active\@xl:active {
-    border-left-color: #000;
-  }
-  
-  .brr-black\:active\@xl:active {
     border-right-color: #000;
   }
   
-  .brb-black\:active\@xl:active {
+  .bb-black\:active\@xl:active {
     border-bottom-color: #000;
   }
   
-  .brx-black\:active\@xl:active {
+  .bx-black\:active\@xl:active {
     border-left-color: #000;
     border-right-color: #000;
   }
   
-  .bry-black\:active\@xl:active {
+  .by-black\:active\@xl:active {
     border-top-color: #000;
     border-bottom-color: #000;
+  }
+  
+  .b-transparent\:active\@xl:active {
+    border-color: transparent;
+  }
+  
+  .bt-transparent\:active\@xl:active {
+    border-top-color: transparent;
+  }
+  
+  .bl-transparent\:active\@xl:active {
+    border-left-color: transparent;
+  }
+  
+  .br-transparent\:active\@xl:active {
+    border-right-color: transparent;
+  }
+  
+  .bb-transparent\:active\@xl:active {
+    border-bottom-color: transparent;
+  }
+  
+  .bx-transparent\:active\@xl:active {
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  
+  .by-transparent\:active\@xl:active {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+  
+  .b-current\:active\@xl:active {
+    border-color: currentColor;
+  }
+  
+  .bt-current\:active\@xl:active {
+    border-top-color: currentColor;
+  }
+  
+  .bl-current\:active\@xl:active {
+    border-left-color: currentColor;
   }
   
   .br-current\:active\@xl:active {
-    border-color: currentColor;
-  }
-  
-  .brt-current\:active\@xl:active {
-    border-top-color: currentColor;
-  }
-  
-  .brl-current\:active\@xl:active {
-    border-left-color: currentColor;
-  }
-  
-  .brr-current\:active\@xl:active {
     border-right-color: currentColor;
   }
   
-  .brb-current\:active\@xl:active {
+  .bb-current\:active\@xl:active {
     border-bottom-color: currentColor;
   }
   
-  .brx-current\:active\@xl:active {
+  .bx-current\:active\@xl:active {
     border-left-color: currentColor;
     border-right-color: currentColor;
   }
   
-  .bry-current\:active\@xl:active {
+  .by-current\:active\@xl:active {
     border-top-color: currentColor;
     border-bottom-color: currentColor;
   }
   .group:hover
-.br-white\:group-hover\@xl {
+.b-white\:group-hover\@xl {
     border-color: #fff;
   }
   .group:hover
-.brt-white\:group-hover\@xl {
+.bt-white\:group-hover\@xl {
     border-top-color: #fff;
   }
   .group:hover
-.brl-white\:group-hover\@xl {
+.bl-white\:group-hover\@xl {
     border-left-color: #fff;
   }
   .group:hover
-.brr-white\:group-hover\@xl {
+.br-white\:group-hover\@xl {
     border-right-color: #fff;
   }
   .group:hover
-.brb-white\:group-hover\@xl {
+.bb-white\:group-hover\@xl {
     border-bottom-color: #fff;
   }
   .group:hover
-.brx-white\:group-hover\@xl {
+.bx-white\:group-hover\@xl {
     border-left-color: #fff;
     border-right-color: #fff;
   }
   .group:hover
-.bry-white\:group-hover\@xl {
+.by-white\:group-hover\@xl {
     border-top-color: #fff;
     border-bottom-color: #fff;
   }
   .group:hover
-.br-black\:group-hover\@xl {
+.b-black\:group-hover\@xl {
     border-color: #000;
   }
   .group:hover
-.brt-black\:group-hover\@xl {
+.bt-black\:group-hover\@xl {
     border-top-color: #000;
   }
   .group:hover
-.brl-black\:group-hover\@xl {
+.bl-black\:group-hover\@xl {
     border-left-color: #000;
   }
   .group:hover
-.brr-black\:group-hover\@xl {
+.br-black\:group-hover\@xl {
     border-right-color: #000;
   }
   .group:hover
-.brb-black\:group-hover\@xl {
+.bb-black\:group-hover\@xl {
     border-bottom-color: #000;
   }
   .group:hover
-.brx-black\:group-hover\@xl {
+.bx-black\:group-hover\@xl {
     border-left-color: #000;
     border-right-color: #000;
   }
   .group:hover
-.bry-black\:group-hover\@xl {
+.by-black\:group-hover\@xl {
     border-top-color: #000;
     border-bottom-color: #000;
   }
   .group:hover
-.br-current\:group-hover\@xl {
+.b-transparent\:group-hover\@xl {
+    border-color: transparent;
+  }
+  .group:hover
+.bt-transparent\:group-hover\@xl {
+    border-top-color: transparent;
+  }
+  .group:hover
+.bl-transparent\:group-hover\@xl {
+    border-left-color: transparent;
+  }
+  .group:hover
+.br-transparent\:group-hover\@xl {
+    border-right-color: transparent;
+  }
+  .group:hover
+.bb-transparent\:group-hover\@xl {
+    border-bottom-color: transparent;
+  }
+  .group:hover
+.bx-transparent\:group-hover\@xl {
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  .group:hover
+.by-transparent\:group-hover\@xl {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+  .group:hover
+.b-current\:group-hover\@xl {
     border-color: currentColor;
   }
   .group:hover
-.brt-current\:group-hover\@xl {
+.bt-current\:group-hover\@xl {
     border-top-color: currentColor;
   }
   .group:hover
-.brl-current\:group-hover\@xl {
+.bl-current\:group-hover\@xl {
     border-left-color: currentColor;
   }
   .group:hover
-.brr-current\:group-hover\@xl {
+.br-current\:group-hover\@xl {
     border-right-color: currentColor;
   }
   .group:hover
-.brb-current\:group-hover\@xl {
+.bb-current\:group-hover\@xl {
     border-bottom-color: currentColor;
   }
   .group:hover
-.brx-current\:group-hover\@xl {
+.bx-current\:group-hover\@xl {
     border-left-color: currentColor;
     border-right-color: currentColor;
   }
   .group:hover
-.bry-current\:group-hover\@xl {
+.by-current\:group-hover\@xl {
     border-top-color: currentColor;
     border-bottom-color: currentColor;
   }
 }
 
 
-.br-dotted {
+.b-dotted {
   border-style: dotted;
 }
 
 
-.brt-dotted {
+.bt-dotted {
   border-top-style: dotted;
 }
 
 
-.brl-dotted {
+.bl-dotted {
   border-left-style: dotted;
 }
 
 
-.brr-dotted {
+.br-dotted {
   border-right-style: dotted;
 }
 
 
-.brb-dotted {
+.bb-dotted {
   border-bottom-style: dotted;
 }
 
 
-.brx-dotted {
+.bx-dotted {
   border-left-style: dotted;
   border-right-style: dotted;
 }
 
 
-.bry-dotted {
+.by-dotted {
   border-top-style: dotted;
   border-bottom-style: dotted;
 }
 
 
-.br-dashed {
+.b-dashed {
   border-style: dashed;
 }
 
 
-.brt-dashed {
+.bt-dashed {
   border-top-style: dashed;
 }
 
 
-.brl-dashed {
+.bl-dashed {
   border-left-style: dashed;
 }
 
 
-.brr-dashed {
+.br-dashed {
   border-right-style: dashed;
 }
 
 
-.brb-dashed {
+.bb-dashed {
   border-bottom-style: dashed;
 }
 
 
-.brx-dashed {
+.bx-dashed {
   border-left-style: dashed;
   border-right-style: dashed;
 }
 
 
-.bry-dashed {
+.by-dashed {
   border-top-style: dashed;
   border-bottom-style: dashed;
 }
 
 
-.br-solid {
+.b-solid {
   border-style: solid;
 }
 
 
-.brt-solid {
+.bt-solid {
   border-top-style: solid;
 }
 
 
-.brl-solid {
+.bl-solid {
   border-left-style: solid;
 }
 
 
-.brr-solid {
+.br-solid {
   border-right-style: solid;
 }
 
 
-.brb-solid {
+.bb-solid {
   border-bottom-style: solid;
 }
 
 
-.brx-solid {
+.bx-solid {
   border-left-style: solid;
   border-right-style: solid;
 }
 
 
-.bry-solid {
+.by-solid {
   border-top-style: solid;
   border-bottom-style: solid;
 }
 
 @media all and (min-width: 416px) {
   
-  .br-dotted\@xs {
+  .b-dotted\@xs {
     border-style: dotted;
   }
   
-  .brt-dotted\@xs {
+  .bt-dotted\@xs {
     border-top-style: dotted;
   }
   
-  .brl-dotted\@xs {
+  .bl-dotted\@xs {
     border-left-style: dotted;
   }
   
-  .brr-dotted\@xs {
+  .br-dotted\@xs {
     border-right-style: dotted;
   }
   
-  .brb-dotted\@xs {
+  .bb-dotted\@xs {
     border-bottom-style: dotted;
   }
   
-  .brx-dotted\@xs {
+  .bx-dotted\@xs {
     border-left-style: dotted;
     border-right-style: dotted;
   }
   
-  .bry-dotted\@xs {
+  .by-dotted\@xs {
     border-top-style: dotted;
     border-bottom-style: dotted;
   }
   
-  .br-dashed\@xs {
+  .b-dashed\@xs {
     border-style: dashed;
   }
   
-  .brt-dashed\@xs {
+  .bt-dashed\@xs {
     border-top-style: dashed;
   }
   
-  .brl-dashed\@xs {
+  .bl-dashed\@xs {
     border-left-style: dashed;
   }
   
-  .brr-dashed\@xs {
+  .br-dashed\@xs {
     border-right-style: dashed;
   }
   
-  .brb-dashed\@xs {
+  .bb-dashed\@xs {
     border-bottom-style: dashed;
   }
   
-  .brx-dashed\@xs {
+  .bx-dashed\@xs {
     border-left-style: dashed;
     border-right-style: dashed;
   }
   
-  .bry-dashed\@xs {
+  .by-dashed\@xs {
     border-top-style: dashed;
     border-bottom-style: dashed;
   }
   
-  .br-solid\@xs {
+  .b-solid\@xs {
     border-style: solid;
   }
   
-  .brt-solid\@xs {
+  .bt-solid\@xs {
     border-top-style: solid;
   }
   
-  .brl-solid\@xs {
+  .bl-solid\@xs {
     border-left-style: solid;
   }
   
-  .brr-solid\@xs {
+  .br-solid\@xs {
     border-right-style: solid;
   }
   
-  .brb-solid\@xs {
+  .bb-solid\@xs {
     border-bottom-style: solid;
   }
   
-  .brx-solid\@xs {
+  .bx-solid\@xs {
     border-left-style: solid;
     border-right-style: solid;
   }
   
-  .bry-solid\@xs {
+  .by-solid\@xs {
     border-top-style: solid;
     border-bottom-style: solid;
   }
@@ -4709,92 +5769,92 @@
 
 @media all and (min-width: 756px) {
   
-  .br-dotted\@sm {
+  .b-dotted\@sm {
     border-style: dotted;
   }
   
-  .brt-dotted\@sm {
+  .bt-dotted\@sm {
     border-top-style: dotted;
   }
   
-  .brl-dotted\@sm {
+  .bl-dotted\@sm {
     border-left-style: dotted;
   }
   
-  .brr-dotted\@sm {
+  .br-dotted\@sm {
     border-right-style: dotted;
   }
   
-  .brb-dotted\@sm {
+  .bb-dotted\@sm {
     border-bottom-style: dotted;
   }
   
-  .brx-dotted\@sm {
+  .bx-dotted\@sm {
     border-left-style: dotted;
     border-right-style: dotted;
   }
   
-  .bry-dotted\@sm {
+  .by-dotted\@sm {
     border-top-style: dotted;
     border-bottom-style: dotted;
   }
   
-  .br-dashed\@sm {
+  .b-dashed\@sm {
     border-style: dashed;
   }
   
-  .brt-dashed\@sm {
+  .bt-dashed\@sm {
     border-top-style: dashed;
   }
   
-  .brl-dashed\@sm {
+  .bl-dashed\@sm {
     border-left-style: dashed;
   }
   
-  .brr-dashed\@sm {
+  .br-dashed\@sm {
     border-right-style: dashed;
   }
   
-  .brb-dashed\@sm {
+  .bb-dashed\@sm {
     border-bottom-style: dashed;
   }
   
-  .brx-dashed\@sm {
+  .bx-dashed\@sm {
     border-left-style: dashed;
     border-right-style: dashed;
   }
   
-  .bry-dashed\@sm {
+  .by-dashed\@sm {
     border-top-style: dashed;
     border-bottom-style: dashed;
   }
   
-  .br-solid\@sm {
+  .b-solid\@sm {
     border-style: solid;
   }
   
-  .brt-solid\@sm {
+  .bt-solid\@sm {
     border-top-style: solid;
   }
   
-  .brl-solid\@sm {
+  .bl-solid\@sm {
     border-left-style: solid;
   }
   
-  .brr-solid\@sm {
+  .br-solid\@sm {
     border-right-style: solid;
   }
   
-  .brb-solid\@sm {
+  .bb-solid\@sm {
     border-bottom-style: solid;
   }
   
-  .brx-solid\@sm {
+  .bx-solid\@sm {
     border-left-style: solid;
     border-right-style: solid;
   }
   
-  .bry-solid\@sm {
+  .by-solid\@sm {
     border-top-style: solid;
     border-bottom-style: solid;
   }
@@ -4802,92 +5862,92 @@
 
 @media all and (min-width: 1024px) {
   
-  .br-dotted\@md {
+  .b-dotted\@md {
     border-style: dotted;
   }
   
-  .brt-dotted\@md {
+  .bt-dotted\@md {
     border-top-style: dotted;
   }
   
-  .brl-dotted\@md {
+  .bl-dotted\@md {
     border-left-style: dotted;
   }
   
-  .brr-dotted\@md {
+  .br-dotted\@md {
     border-right-style: dotted;
   }
   
-  .brb-dotted\@md {
+  .bb-dotted\@md {
     border-bottom-style: dotted;
   }
   
-  .brx-dotted\@md {
+  .bx-dotted\@md {
     border-left-style: dotted;
     border-right-style: dotted;
   }
   
-  .bry-dotted\@md {
+  .by-dotted\@md {
     border-top-style: dotted;
     border-bottom-style: dotted;
   }
   
-  .br-dashed\@md {
+  .b-dashed\@md {
     border-style: dashed;
   }
   
-  .brt-dashed\@md {
+  .bt-dashed\@md {
     border-top-style: dashed;
   }
   
-  .brl-dashed\@md {
+  .bl-dashed\@md {
     border-left-style: dashed;
   }
   
-  .brr-dashed\@md {
+  .br-dashed\@md {
     border-right-style: dashed;
   }
   
-  .brb-dashed\@md {
+  .bb-dashed\@md {
     border-bottom-style: dashed;
   }
   
-  .brx-dashed\@md {
+  .bx-dashed\@md {
     border-left-style: dashed;
     border-right-style: dashed;
   }
   
-  .bry-dashed\@md {
+  .by-dashed\@md {
     border-top-style: dashed;
     border-bottom-style: dashed;
   }
   
-  .br-solid\@md {
+  .b-solid\@md {
     border-style: solid;
   }
   
-  .brt-solid\@md {
+  .bt-solid\@md {
     border-top-style: solid;
   }
   
-  .brl-solid\@md {
+  .bl-solid\@md {
     border-left-style: solid;
   }
   
-  .brr-solid\@md {
+  .br-solid\@md {
     border-right-style: solid;
   }
   
-  .brb-solid\@md {
+  .bb-solid\@md {
     border-bottom-style: solid;
   }
   
-  .brx-solid\@md {
+  .bx-solid\@md {
     border-left-style: solid;
     border-right-style: solid;
   }
   
-  .bry-solid\@md {
+  .by-solid\@md {
     border-top-style: solid;
     border-bottom-style: solid;
   }
@@ -4895,92 +5955,92 @@
 
 @media all and (min-width: 1220px) {
   
-  .br-dotted\@lg {
+  .b-dotted\@lg {
     border-style: dotted;
   }
   
-  .brt-dotted\@lg {
+  .bt-dotted\@lg {
     border-top-style: dotted;
   }
   
-  .brl-dotted\@lg {
+  .bl-dotted\@lg {
     border-left-style: dotted;
   }
   
-  .brr-dotted\@lg {
+  .br-dotted\@lg {
     border-right-style: dotted;
   }
   
-  .brb-dotted\@lg {
+  .bb-dotted\@lg {
     border-bottom-style: dotted;
   }
   
-  .brx-dotted\@lg {
+  .bx-dotted\@lg {
     border-left-style: dotted;
     border-right-style: dotted;
   }
   
-  .bry-dotted\@lg {
+  .by-dotted\@lg {
     border-top-style: dotted;
     border-bottom-style: dotted;
   }
   
-  .br-dashed\@lg {
+  .b-dashed\@lg {
     border-style: dashed;
   }
   
-  .brt-dashed\@lg {
+  .bt-dashed\@lg {
     border-top-style: dashed;
   }
   
-  .brl-dashed\@lg {
+  .bl-dashed\@lg {
     border-left-style: dashed;
   }
   
-  .brr-dashed\@lg {
+  .br-dashed\@lg {
     border-right-style: dashed;
   }
   
-  .brb-dashed\@lg {
+  .bb-dashed\@lg {
     border-bottom-style: dashed;
   }
   
-  .brx-dashed\@lg {
+  .bx-dashed\@lg {
     border-left-style: dashed;
     border-right-style: dashed;
   }
   
-  .bry-dashed\@lg {
+  .by-dashed\@lg {
     border-top-style: dashed;
     border-bottom-style: dashed;
   }
   
-  .br-solid\@lg {
+  .b-solid\@lg {
     border-style: solid;
   }
   
-  .brt-solid\@lg {
+  .bt-solid\@lg {
     border-top-style: solid;
   }
   
-  .brl-solid\@lg {
+  .bl-solid\@lg {
     border-left-style: solid;
   }
   
-  .brr-solid\@lg {
+  .br-solid\@lg {
     border-right-style: solid;
   }
   
-  .brb-solid\@lg {
+  .bb-solid\@lg {
     border-bottom-style: solid;
   }
   
-  .brx-solid\@lg {
+  .bx-solid\@lg {
     border-left-style: solid;
     border-right-style: solid;
   }
   
-  .bry-solid\@lg {
+  .by-solid\@lg {
     border-top-style: solid;
     border-bottom-style: solid;
   }
@@ -4988,363 +6048,363 @@
 
 @media all and (min-width: 1460px) {
   
-  .br-dotted\@xl {
+  .b-dotted\@xl {
     border-style: dotted;
   }
   
-  .brt-dotted\@xl {
+  .bt-dotted\@xl {
     border-top-style: dotted;
   }
   
-  .brl-dotted\@xl {
+  .bl-dotted\@xl {
     border-left-style: dotted;
   }
   
-  .brr-dotted\@xl {
+  .br-dotted\@xl {
     border-right-style: dotted;
   }
   
-  .brb-dotted\@xl {
+  .bb-dotted\@xl {
     border-bottom-style: dotted;
   }
   
-  .brx-dotted\@xl {
+  .bx-dotted\@xl {
     border-left-style: dotted;
     border-right-style: dotted;
   }
   
-  .bry-dotted\@xl {
+  .by-dotted\@xl {
     border-top-style: dotted;
     border-bottom-style: dotted;
   }
   
-  .br-dashed\@xl {
+  .b-dashed\@xl {
     border-style: dashed;
   }
   
-  .brt-dashed\@xl {
+  .bt-dashed\@xl {
     border-top-style: dashed;
   }
   
-  .brl-dashed\@xl {
+  .bl-dashed\@xl {
     border-left-style: dashed;
   }
   
-  .brr-dashed\@xl {
+  .br-dashed\@xl {
     border-right-style: dashed;
   }
   
-  .brb-dashed\@xl {
+  .bb-dashed\@xl {
     border-bottom-style: dashed;
   }
   
-  .brx-dashed\@xl {
+  .bx-dashed\@xl {
     border-left-style: dashed;
     border-right-style: dashed;
   }
   
-  .bry-dashed\@xl {
+  .by-dashed\@xl {
     border-top-style: dashed;
     border-bottom-style: dashed;
   }
   
-  .br-solid\@xl {
+  .b-solid\@xl {
     border-style: solid;
   }
   
-  .brt-solid\@xl {
+  .bt-solid\@xl {
     border-top-style: solid;
   }
   
-  .brl-solid\@xl {
+  .bl-solid\@xl {
     border-left-style: solid;
   }
   
-  .brr-solid\@xl {
+  .br-solid\@xl {
     border-right-style: solid;
   }
   
-  .brb-solid\@xl {
+  .bb-solid\@xl {
     border-bottom-style: solid;
   }
   
-  .brx-solid\@xl {
+  .bx-solid\@xl {
     border-left-style: solid;
     border-right-style: solid;
   }
   
-  .bry-solid\@xl {
+  .by-solid\@xl {
     border-top-style: solid;
     border-bottom-style: solid;
   }
 }
 
 
-.br-0 {
+.b-0 {
   border-width: 0;
 }
 
 
-.brt-0 {
+.bt-0 {
   border-top-width: 0;
 }
 
 
-.brl-0 {
+.bl-0 {
   border-left-width: 0;
 }
 
 
-.brr-0 {
+.br-0 {
   border-right-width: 0;
 }
 
 
-.brb-0 {
+.bb-0 {
   border-bottom-width: 0;
 }
 
 
-.brx-0 {
+.bx-0 {
   border-left-width: 0;
   border-right-width: 0;
 }
 
 
-.bry-0 {
+.by-0 {
   border-top-width: 0;
   border-bottom-width: 0;
 }
 
 
-.br-1 {
+.b-1 {
   border-width: 1px;
 }
 
 
-.brt-1 {
+.bt-1 {
   border-top-width: 1px;
 }
 
 
-.brl-1 {
+.bl-1 {
   border-left-width: 1px;
 }
 
 
-.brr-1 {
+.br-1 {
   border-right-width: 1px;
 }
 
 
-.brb-1 {
+.bb-1 {
   border-bottom-width: 1px;
 }
 
 
-.brx-1 {
+.bx-1 {
   border-left-width: 1px;
   border-right-width: 1px;
 }
 
 
-.bry-1 {
+.by-1 {
   border-top-width: 1px;
   border-bottom-width: 1px;
 }
 
 
-.br-2 {
+.b-2 {
   border-width: 2px;
 }
 
 
-.brt-2 {
+.bt-2 {
   border-top-width: 2px;
 }
 
 
-.brl-2 {
+.bl-2 {
   border-left-width: 2px;
 }
 
 
-.brr-2 {
+.br-2 {
   border-right-width: 2px;
 }
 
 
-.brb-2 {
+.bb-2 {
   border-bottom-width: 2px;
 }
 
 
-.brx-2 {
+.bx-2 {
   border-left-width: 2px;
   border-right-width: 2px;
 }
 
 
-.bry-2 {
+.by-2 {
   border-top-width: 2px;
   border-bottom-width: 2px;
 }
 
 
-.br-3 {
+.b-3 {
   border-width: 3px;
 }
 
 
-.brt-3 {
+.bt-3 {
   border-top-width: 3px;
 }
 
 
-.brl-3 {
+.bl-3 {
   border-left-width: 3px;
 }
 
 
-.brr-3 {
+.br-3 {
   border-right-width: 3px;
 }
 
 
-.brb-3 {
+.bb-3 {
   border-bottom-width: 3px;
 }
 
 
-.brx-3 {
+.bx-3 {
   border-left-width: 3px;
   border-right-width: 3px;
 }
 
 
-.bry-3 {
+.by-3 {
   border-top-width: 3px;
   border-bottom-width: 3px;
 }
 
 @media all and (min-width: 416px) {
   
-  .br-0\@xs {
+  .b-0\@xs {
     border-width: 0;
   }
   
-  .brt-0\@xs {
+  .bt-0\@xs {
     border-top-width: 0;
   }
   
-  .brl-0\@xs {
+  .bl-0\@xs {
     border-left-width: 0;
   }
   
-  .brr-0\@xs {
+  .br-0\@xs {
     border-right-width: 0;
   }
   
-  .brb-0\@xs {
+  .bb-0\@xs {
     border-bottom-width: 0;
   }
   
-  .brx-0\@xs {
+  .bx-0\@xs {
     border-left-width: 0;
     border-right-width: 0;
   }
   
-  .bry-0\@xs {
+  .by-0\@xs {
     border-top-width: 0;
     border-bottom-width: 0;
   }
   
-  .br-1\@xs {
+  .b-1\@xs {
     border-width: 1px;
   }
   
-  .brt-1\@xs {
+  .bt-1\@xs {
     border-top-width: 1px;
   }
   
-  .brl-1\@xs {
+  .bl-1\@xs {
     border-left-width: 1px;
   }
   
-  .brr-1\@xs {
+  .br-1\@xs {
     border-right-width: 1px;
   }
   
-  .brb-1\@xs {
+  .bb-1\@xs {
     border-bottom-width: 1px;
   }
   
-  .brx-1\@xs {
+  .bx-1\@xs {
     border-left-width: 1px;
     border-right-width: 1px;
   }
   
-  .bry-1\@xs {
+  .by-1\@xs {
     border-top-width: 1px;
     border-bottom-width: 1px;
   }
   
-  .br-2\@xs {
+  .b-2\@xs {
     border-width: 2px;
   }
   
-  .brt-2\@xs {
+  .bt-2\@xs {
     border-top-width: 2px;
   }
   
-  .brl-2\@xs {
+  .bl-2\@xs {
     border-left-width: 2px;
   }
   
-  .brr-2\@xs {
+  .br-2\@xs {
     border-right-width: 2px;
   }
   
-  .brb-2\@xs {
+  .bb-2\@xs {
     border-bottom-width: 2px;
   }
   
-  .brx-2\@xs {
+  .bx-2\@xs {
     border-left-width: 2px;
     border-right-width: 2px;
   }
   
-  .bry-2\@xs {
+  .by-2\@xs {
     border-top-width: 2px;
     border-bottom-width: 2px;
   }
   
-  .br-3\@xs {
+  .b-3\@xs {
     border-width: 3px;
   }
   
-  .brt-3\@xs {
+  .bt-3\@xs {
     border-top-width: 3px;
   }
   
-  .brl-3\@xs {
+  .bl-3\@xs {
     border-left-width: 3px;
   }
   
-  .brr-3\@xs {
+  .br-3\@xs {
     border-right-width: 3px;
   }
   
-  .brb-3\@xs {
+  .bb-3\@xs {
     border-bottom-width: 3px;
   }
   
-  .brx-3\@xs {
+  .bx-3\@xs {
     border-left-width: 3px;
     border-right-width: 3px;
   }
   
-  .bry-3\@xs {
+  .by-3\@xs {
     border-top-width: 3px;
     border-bottom-width: 3px;
   }
@@ -5352,122 +6412,122 @@
 
 @media all and (min-width: 756px) {
   
-  .br-0\@sm {
+  .b-0\@sm {
     border-width: 0;
   }
   
-  .brt-0\@sm {
+  .bt-0\@sm {
     border-top-width: 0;
   }
   
-  .brl-0\@sm {
+  .bl-0\@sm {
     border-left-width: 0;
   }
   
-  .brr-0\@sm {
+  .br-0\@sm {
     border-right-width: 0;
   }
   
-  .brb-0\@sm {
+  .bb-0\@sm {
     border-bottom-width: 0;
   }
   
-  .brx-0\@sm {
+  .bx-0\@sm {
     border-left-width: 0;
     border-right-width: 0;
   }
   
-  .bry-0\@sm {
+  .by-0\@sm {
     border-top-width: 0;
     border-bottom-width: 0;
   }
   
-  .br-1\@sm {
+  .b-1\@sm {
     border-width: 1px;
   }
   
-  .brt-1\@sm {
+  .bt-1\@sm {
     border-top-width: 1px;
   }
   
-  .brl-1\@sm {
+  .bl-1\@sm {
     border-left-width: 1px;
   }
   
-  .brr-1\@sm {
+  .br-1\@sm {
     border-right-width: 1px;
   }
   
-  .brb-1\@sm {
+  .bb-1\@sm {
     border-bottom-width: 1px;
   }
   
-  .brx-1\@sm {
+  .bx-1\@sm {
     border-left-width: 1px;
     border-right-width: 1px;
   }
   
-  .bry-1\@sm {
+  .by-1\@sm {
     border-top-width: 1px;
     border-bottom-width: 1px;
   }
   
-  .br-2\@sm {
+  .b-2\@sm {
     border-width: 2px;
   }
   
-  .brt-2\@sm {
+  .bt-2\@sm {
     border-top-width: 2px;
   }
   
-  .brl-2\@sm {
+  .bl-2\@sm {
     border-left-width: 2px;
   }
   
-  .brr-2\@sm {
+  .br-2\@sm {
     border-right-width: 2px;
   }
   
-  .brb-2\@sm {
+  .bb-2\@sm {
     border-bottom-width: 2px;
   }
   
-  .brx-2\@sm {
+  .bx-2\@sm {
     border-left-width: 2px;
     border-right-width: 2px;
   }
   
-  .bry-2\@sm {
+  .by-2\@sm {
     border-top-width: 2px;
     border-bottom-width: 2px;
   }
   
-  .br-3\@sm {
+  .b-3\@sm {
     border-width: 3px;
   }
   
-  .brt-3\@sm {
+  .bt-3\@sm {
     border-top-width: 3px;
   }
   
-  .brl-3\@sm {
+  .bl-3\@sm {
     border-left-width: 3px;
   }
   
-  .brr-3\@sm {
+  .br-3\@sm {
     border-right-width: 3px;
   }
   
-  .brb-3\@sm {
+  .bb-3\@sm {
     border-bottom-width: 3px;
   }
   
-  .brx-3\@sm {
+  .bx-3\@sm {
     border-left-width: 3px;
     border-right-width: 3px;
   }
   
-  .bry-3\@sm {
+  .by-3\@sm {
     border-top-width: 3px;
     border-bottom-width: 3px;
   }
@@ -5475,122 +6535,122 @@
 
 @media all and (min-width: 1024px) {
   
-  .br-0\@md {
+  .b-0\@md {
     border-width: 0;
   }
   
-  .brt-0\@md {
+  .bt-0\@md {
     border-top-width: 0;
   }
   
-  .brl-0\@md {
+  .bl-0\@md {
     border-left-width: 0;
   }
   
-  .brr-0\@md {
+  .br-0\@md {
     border-right-width: 0;
   }
   
-  .brb-0\@md {
+  .bb-0\@md {
     border-bottom-width: 0;
   }
   
-  .brx-0\@md {
+  .bx-0\@md {
     border-left-width: 0;
     border-right-width: 0;
   }
   
-  .bry-0\@md {
+  .by-0\@md {
     border-top-width: 0;
     border-bottom-width: 0;
   }
   
-  .br-1\@md {
+  .b-1\@md {
     border-width: 1px;
   }
   
-  .brt-1\@md {
+  .bt-1\@md {
     border-top-width: 1px;
   }
   
-  .brl-1\@md {
+  .bl-1\@md {
     border-left-width: 1px;
   }
   
-  .brr-1\@md {
+  .br-1\@md {
     border-right-width: 1px;
   }
   
-  .brb-1\@md {
+  .bb-1\@md {
     border-bottom-width: 1px;
   }
   
-  .brx-1\@md {
+  .bx-1\@md {
     border-left-width: 1px;
     border-right-width: 1px;
   }
   
-  .bry-1\@md {
+  .by-1\@md {
     border-top-width: 1px;
     border-bottom-width: 1px;
   }
   
-  .br-2\@md {
+  .b-2\@md {
     border-width: 2px;
   }
   
-  .brt-2\@md {
+  .bt-2\@md {
     border-top-width: 2px;
   }
   
-  .brl-2\@md {
+  .bl-2\@md {
     border-left-width: 2px;
   }
   
-  .brr-2\@md {
+  .br-2\@md {
     border-right-width: 2px;
   }
   
-  .brb-2\@md {
+  .bb-2\@md {
     border-bottom-width: 2px;
   }
   
-  .brx-2\@md {
+  .bx-2\@md {
     border-left-width: 2px;
     border-right-width: 2px;
   }
   
-  .bry-2\@md {
+  .by-2\@md {
     border-top-width: 2px;
     border-bottom-width: 2px;
   }
   
-  .br-3\@md {
+  .b-3\@md {
     border-width: 3px;
   }
   
-  .brt-3\@md {
+  .bt-3\@md {
     border-top-width: 3px;
   }
   
-  .brl-3\@md {
+  .bl-3\@md {
     border-left-width: 3px;
   }
   
-  .brr-3\@md {
+  .br-3\@md {
     border-right-width: 3px;
   }
   
-  .brb-3\@md {
+  .bb-3\@md {
     border-bottom-width: 3px;
   }
   
-  .brx-3\@md {
+  .bx-3\@md {
     border-left-width: 3px;
     border-right-width: 3px;
   }
   
-  .bry-3\@md {
+  .by-3\@md {
     border-top-width: 3px;
     border-bottom-width: 3px;
   }
@@ -5598,122 +6658,122 @@
 
 @media all and (min-width: 1220px) {
   
-  .br-0\@lg {
+  .b-0\@lg {
     border-width: 0;
   }
   
-  .brt-0\@lg {
+  .bt-0\@lg {
     border-top-width: 0;
   }
   
-  .brl-0\@lg {
+  .bl-0\@lg {
     border-left-width: 0;
   }
   
-  .brr-0\@lg {
+  .br-0\@lg {
     border-right-width: 0;
   }
   
-  .brb-0\@lg {
+  .bb-0\@lg {
     border-bottom-width: 0;
   }
   
-  .brx-0\@lg {
+  .bx-0\@lg {
     border-left-width: 0;
     border-right-width: 0;
   }
   
-  .bry-0\@lg {
+  .by-0\@lg {
     border-top-width: 0;
     border-bottom-width: 0;
   }
   
-  .br-1\@lg {
+  .b-1\@lg {
     border-width: 1px;
   }
   
-  .brt-1\@lg {
+  .bt-1\@lg {
     border-top-width: 1px;
   }
   
-  .brl-1\@lg {
+  .bl-1\@lg {
     border-left-width: 1px;
   }
   
-  .brr-1\@lg {
+  .br-1\@lg {
     border-right-width: 1px;
   }
   
-  .brb-1\@lg {
+  .bb-1\@lg {
     border-bottom-width: 1px;
   }
   
-  .brx-1\@lg {
+  .bx-1\@lg {
     border-left-width: 1px;
     border-right-width: 1px;
   }
   
-  .bry-1\@lg {
+  .by-1\@lg {
     border-top-width: 1px;
     border-bottom-width: 1px;
   }
   
-  .br-2\@lg {
+  .b-2\@lg {
     border-width: 2px;
   }
   
-  .brt-2\@lg {
+  .bt-2\@lg {
     border-top-width: 2px;
   }
   
-  .brl-2\@lg {
+  .bl-2\@lg {
     border-left-width: 2px;
   }
   
-  .brr-2\@lg {
+  .br-2\@lg {
     border-right-width: 2px;
   }
   
-  .brb-2\@lg {
+  .bb-2\@lg {
     border-bottom-width: 2px;
   }
   
-  .brx-2\@lg {
+  .bx-2\@lg {
     border-left-width: 2px;
     border-right-width: 2px;
   }
   
-  .bry-2\@lg {
+  .by-2\@lg {
     border-top-width: 2px;
     border-bottom-width: 2px;
   }
   
-  .br-3\@lg {
+  .b-3\@lg {
     border-width: 3px;
   }
   
-  .brt-3\@lg {
+  .bt-3\@lg {
     border-top-width: 3px;
   }
   
-  .brl-3\@lg {
+  .bl-3\@lg {
     border-left-width: 3px;
   }
   
-  .brr-3\@lg {
+  .br-3\@lg {
     border-right-width: 3px;
   }
   
-  .brb-3\@lg {
+  .bb-3\@lg {
     border-bottom-width: 3px;
   }
   
-  .brx-3\@lg {
+  .bx-3\@lg {
     border-left-width: 3px;
     border-right-width: 3px;
   }
   
-  .bry-3\@lg {
+  .by-3\@lg {
     border-top-width: 3px;
     border-bottom-width: 3px;
   }
@@ -5721,122 +6781,122 @@
 
 @media all and (min-width: 1460px) {
   
-  .br-0\@xl {
+  .b-0\@xl {
     border-width: 0;
   }
   
-  .brt-0\@xl {
+  .bt-0\@xl {
     border-top-width: 0;
   }
   
-  .brl-0\@xl {
+  .bl-0\@xl {
     border-left-width: 0;
   }
   
-  .brr-0\@xl {
+  .br-0\@xl {
     border-right-width: 0;
   }
   
-  .brb-0\@xl {
+  .bb-0\@xl {
     border-bottom-width: 0;
   }
   
-  .brx-0\@xl {
+  .bx-0\@xl {
     border-left-width: 0;
     border-right-width: 0;
   }
   
-  .bry-0\@xl {
+  .by-0\@xl {
     border-top-width: 0;
     border-bottom-width: 0;
   }
   
-  .br-1\@xl {
+  .b-1\@xl {
     border-width: 1px;
   }
   
-  .brt-1\@xl {
+  .bt-1\@xl {
     border-top-width: 1px;
   }
   
-  .brl-1\@xl {
+  .bl-1\@xl {
     border-left-width: 1px;
   }
   
-  .brr-1\@xl {
+  .br-1\@xl {
     border-right-width: 1px;
   }
   
-  .brb-1\@xl {
+  .bb-1\@xl {
     border-bottom-width: 1px;
   }
   
-  .brx-1\@xl {
+  .bx-1\@xl {
     border-left-width: 1px;
     border-right-width: 1px;
   }
   
-  .bry-1\@xl {
+  .by-1\@xl {
     border-top-width: 1px;
     border-bottom-width: 1px;
   }
   
-  .br-2\@xl {
+  .b-2\@xl {
     border-width: 2px;
   }
   
-  .brt-2\@xl {
+  .bt-2\@xl {
     border-top-width: 2px;
   }
   
-  .brl-2\@xl {
+  .bl-2\@xl {
     border-left-width: 2px;
   }
   
-  .brr-2\@xl {
+  .br-2\@xl {
     border-right-width: 2px;
   }
   
-  .brb-2\@xl {
+  .bb-2\@xl {
     border-bottom-width: 2px;
   }
   
-  .brx-2\@xl {
+  .bx-2\@xl {
     border-left-width: 2px;
     border-right-width: 2px;
   }
   
-  .bry-2\@xl {
+  .by-2\@xl {
     border-top-width: 2px;
     border-bottom-width: 2px;
   }
   
-  .br-3\@xl {
+  .b-3\@xl {
     border-width: 3px;
   }
   
-  .brt-3\@xl {
+  .bt-3\@xl {
     border-top-width: 3px;
   }
   
-  .brl-3\@xl {
+  .bl-3\@xl {
     border-left-width: 3px;
   }
   
-  .brr-3\@xl {
+  .br-3\@xl {
     border-right-width: 3px;
   }
   
-  .brb-3\@xl {
+  .bb-3\@xl {
     border-bottom-width: 3px;
   }
   
-  .brx-3\@xl {
+  .bx-3\@xl {
     border-left-width: 3px;
     border-right-width: 3px;
   }
   
-  .bry-3\@xl {
+  .by-3\@xl {
     border-top-width: 3px;
     border-bottom-width: 3px;
   }
@@ -7601,6 +8661,15 @@
 }
 
 
+.btm-0 {
+  bottom: 0;
+}
+
+.-btm-0 {
+  bottom: -0;
+}
+
+
 .btm-1 {
   bottom: 1px;
 }
@@ -7646,15 +8715,6 @@
 }
 
 
-.btm-0 {
-  bottom: 0;
-}
-
-.-btm-0 {
-  bottom: -0;
-}
-
-
 .btm-50\% {
   bottom: 50%;
 }
@@ -7669,6 +8729,13 @@
 }
 
 @media all and (min-width: 416px) {
+  
+  .btm-0\@xs {
+    bottom: 0;
+  }
+  .-btm-0\@xs {
+    bottom: -0;
+  }
   
   .btm-1\@xs {
     bottom: 1px;
@@ -7705,13 +8772,6 @@
     bottom: -26px;
   }
   
-  .btm-0\@xs {
-    bottom: 0;
-  }
-  .-btm-0\@xs {
-    bottom: -0;
-  }
-  
   .btm-50\%\@xs {
     bottom: 50%;
   }
@@ -7725,6 +8785,13 @@
 }
 
 @media all and (min-width: 756px) {
+  
+  .btm-0\@sm {
+    bottom: 0;
+  }
+  .-btm-0\@sm {
+    bottom: -0;
+  }
   
   .btm-1\@sm {
     bottom: 1px;
@@ -7761,13 +8828,6 @@
     bottom: -26px;
   }
   
-  .btm-0\@sm {
-    bottom: 0;
-  }
-  .-btm-0\@sm {
-    bottom: -0;
-  }
-  
   .btm-50\%\@sm {
     bottom: 50%;
   }
@@ -7781,6 +8841,13 @@
 }
 
 @media all and (min-width: 1024px) {
+  
+  .btm-0\@md {
+    bottom: 0;
+  }
+  .-btm-0\@md {
+    bottom: -0;
+  }
   
   .btm-1\@md {
     bottom: 1px;
@@ -7817,13 +8884,6 @@
     bottom: -26px;
   }
   
-  .btm-0\@md {
-    bottom: 0;
-  }
-  .-btm-0\@md {
-    bottom: -0;
-  }
-  
   .btm-50\%\@md {
     bottom: 50%;
   }
@@ -7837,6 +8897,13 @@
 }
 
 @media all and (min-width: 1220px) {
+  
+  .btm-0\@lg {
+    bottom: 0;
+  }
+  .-btm-0\@lg {
+    bottom: -0;
+  }
   
   .btm-1\@lg {
     bottom: 1px;
@@ -7873,13 +8940,6 @@
     bottom: -26px;
   }
   
-  .btm-0\@lg {
-    bottom: 0;
-  }
-  .-btm-0\@lg {
-    bottom: -0;
-  }
-  
   .btm-50\%\@lg {
     bottom: 50%;
   }
@@ -7893,6 +8953,13 @@
 }
 
 @media all and (min-width: 1460px) {
+  
+  .btm-0\@xl {
+    bottom: 0;
+  }
+  .-btm-0\@xl {
+    bottom: -0;
+  }
   
   .btm-1\@xl {
     bottom: 1px;
@@ -7927,13 +8994,6 @@
   }
   .-btm\@xl {
     bottom: -26px;
-  }
-  
-  .btm-0\@xl {
-    bottom: 0;
-  }
-  .-btm-0\@xl {
-    bottom: -0;
   }
   
   .btm-50\%\@xl {
@@ -8134,6 +9194,11 @@
 }
 
 
+.c-transparent {
+  color: transparent;
+}
+
+
 .c-current {
   color: currentColor;
 }
@@ -8146,6 +9211,11 @@
 
 .c-black\:hover:hover {
   color: #000;
+}
+
+
+.c-transparent\:hover:hover {
+  color: transparent;
 }
 
 
@@ -8164,6 +9234,11 @@
 }
 
 
+.c-transparent\:focus:focus {
+  color: transparent;
+}
+
+
 .c-current\:focus:focus {
   color: currentColor;
 }
@@ -8176,6 +9251,11 @@
 
 .c-black\:active:active {
   color: #000;
+}
+
+
+.c-transparent\:active:active {
+  color: transparent;
 }
 
 
@@ -8194,6 +9274,11 @@
 }
 
 .group:hover
+.c-transparent\:group-hover {
+  color: transparent;
+}
+
+.group:hover
 .c-current\:group-hover {
   color: currentColor;
 }
@@ -8208,6 +9293,10 @@
     color: #000;
   }
   
+  .c-transparent\@xs {
+    color: transparent;
+  }
+  
   .c-current\@xs {
     color: currentColor;
   }
@@ -8218,6 +9307,10 @@
   
   .c-black\:hover\@xs:hover {
     color: #000;
+  }
+  
+  .c-transparent\:hover\@xs:hover {
+    color: transparent;
   }
   
   .c-current\:hover\@xs:hover {
@@ -8232,6 +9325,10 @@
     color: #000;
   }
   
+  .c-transparent\:focus\@xs:focus {
+    color: transparent;
+  }
+  
   .c-current\:focus\@xs:focus {
     color: currentColor;
   }
@@ -8244,6 +9341,10 @@
     color: #000;
   }
   
+  .c-transparent\:active\@xs:active {
+    color: transparent;
+  }
+  
   .c-current\:active\@xs:active {
     color: currentColor;
   }
@@ -8254,6 +9355,10 @@
   .group:hover
 .c-black\:group-hover\@xs {
     color: #000;
+  }
+  .group:hover
+.c-transparent\:group-hover\@xs {
+    color: transparent;
   }
   .group:hover
 .c-current\:group-hover\@xs {
@@ -8271,6 +9376,10 @@
     color: #000;
   }
   
+  .c-transparent\@sm {
+    color: transparent;
+  }
+  
   .c-current\@sm {
     color: currentColor;
   }
@@ -8281,6 +9390,10 @@
   
   .c-black\:hover\@sm:hover {
     color: #000;
+  }
+  
+  .c-transparent\:hover\@sm:hover {
+    color: transparent;
   }
   
   .c-current\:hover\@sm:hover {
@@ -8295,6 +9408,10 @@
     color: #000;
   }
   
+  .c-transparent\:focus\@sm:focus {
+    color: transparent;
+  }
+  
   .c-current\:focus\@sm:focus {
     color: currentColor;
   }
@@ -8307,6 +9424,10 @@
     color: #000;
   }
   
+  .c-transparent\:active\@sm:active {
+    color: transparent;
+  }
+  
   .c-current\:active\@sm:active {
     color: currentColor;
   }
@@ -8317,6 +9438,10 @@
   .group:hover
 .c-black\:group-hover\@sm {
     color: #000;
+  }
+  .group:hover
+.c-transparent\:group-hover\@sm {
+    color: transparent;
   }
   .group:hover
 .c-current\:group-hover\@sm {
@@ -8334,6 +9459,10 @@
     color: #000;
   }
   
+  .c-transparent\@md {
+    color: transparent;
+  }
+  
   .c-current\@md {
     color: currentColor;
   }
@@ -8344,6 +9473,10 @@
   
   .c-black\:hover\@md:hover {
     color: #000;
+  }
+  
+  .c-transparent\:hover\@md:hover {
+    color: transparent;
   }
   
   .c-current\:hover\@md:hover {
@@ -8358,6 +9491,10 @@
     color: #000;
   }
   
+  .c-transparent\:focus\@md:focus {
+    color: transparent;
+  }
+  
   .c-current\:focus\@md:focus {
     color: currentColor;
   }
@@ -8370,6 +9507,10 @@
     color: #000;
   }
   
+  .c-transparent\:active\@md:active {
+    color: transparent;
+  }
+  
   .c-current\:active\@md:active {
     color: currentColor;
   }
@@ -8380,6 +9521,10 @@
   .group:hover
 .c-black\:group-hover\@md {
     color: #000;
+  }
+  .group:hover
+.c-transparent\:group-hover\@md {
+    color: transparent;
   }
   .group:hover
 .c-current\:group-hover\@md {
@@ -8397,6 +9542,10 @@
     color: #000;
   }
   
+  .c-transparent\@lg {
+    color: transparent;
+  }
+  
   .c-current\@lg {
     color: currentColor;
   }
@@ -8407,6 +9556,10 @@
   
   .c-black\:hover\@lg:hover {
     color: #000;
+  }
+  
+  .c-transparent\:hover\@lg:hover {
+    color: transparent;
   }
   
   .c-current\:hover\@lg:hover {
@@ -8421,6 +9574,10 @@
     color: #000;
   }
   
+  .c-transparent\:focus\@lg:focus {
+    color: transparent;
+  }
+  
   .c-current\:focus\@lg:focus {
     color: currentColor;
   }
@@ -8433,6 +9590,10 @@
     color: #000;
   }
   
+  .c-transparent\:active\@lg:active {
+    color: transparent;
+  }
+  
   .c-current\:active\@lg:active {
     color: currentColor;
   }
@@ -8443,6 +9604,10 @@
   .group:hover
 .c-black\:group-hover\@lg {
     color: #000;
+  }
+  .group:hover
+.c-transparent\:group-hover\@lg {
+    color: transparent;
   }
   .group:hover
 .c-current\:group-hover\@lg {
@@ -8460,6 +9625,10 @@
     color: #000;
   }
   
+  .c-transparent\@xl {
+    color: transparent;
+  }
+  
   .c-current\@xl {
     color: currentColor;
   }
@@ -8470,6 +9639,10 @@
   
   .c-black\:hover\@xl:hover {
     color: #000;
+  }
+  
+  .c-transparent\:hover\@xl:hover {
+    color: transparent;
   }
   
   .c-current\:hover\@xl:hover {
@@ -8484,6 +9657,10 @@
     color: #000;
   }
   
+  .c-transparent\:focus\@xl:focus {
+    color: transparent;
+  }
+  
   .c-current\:focus\@xl:focus {
     color: currentColor;
   }
@@ -8496,6 +9673,10 @@
     color: #000;
   }
   
+  .c-transparent\:active\@xl:active {
+    color: transparent;
+  }
+  
   .c-current\:active\@xl:active {
     color: currentColor;
   }
@@ -8506,6 +9687,10 @@
   .group:hover
 .c-black\:group-hover\@xl {
     color: #000;
+  }
+  .group:hover
+.c-transparent\:group-hover\@xl {
+    color: transparent;
   }
   .group:hover
 .c-current\:group-hover\@xl {
@@ -8954,6 +10139,11 @@
 }
 
 
+.fl-transparent {
+  fill: transparent;
+}
+
+
 .fl-current {
   fill: currentColor;
 }
@@ -8966,6 +10156,11 @@
 
 .fl-black\:hover:hover {
   fill: #000;
+}
+
+
+.fl-transparent\:hover:hover {
+  fill: transparent;
 }
 
 
@@ -8984,6 +10179,11 @@
 }
 
 
+.fl-transparent\:focus:focus {
+  fill: transparent;
+}
+
+
 .fl-current\:focus:focus {
   fill: currentColor;
 }
@@ -8996,6 +10196,11 @@
 
 .fl-black\:active:active {
   fill: #000;
+}
+
+
+.fl-transparent\:active:active {
+  fill: transparent;
 }
 
 
@@ -9014,6 +10219,11 @@
 }
 
 .group:hover
+.fl-transparent\:group-hover {
+  fill: transparent;
+}
+
+.group:hover
 .fl-current\:group-hover {
   fill: currentColor;
 }
@@ -9028,6 +10238,10 @@
     fill: #000;
   }
   
+  .fl-transparent\@xs {
+    fill: transparent;
+  }
+  
   .fl-current\@xs {
     fill: currentColor;
   }
@@ -9038,6 +10252,10 @@
   
   .fl-black\:hover\@xs:hover {
     fill: #000;
+  }
+  
+  .fl-transparent\:hover\@xs:hover {
+    fill: transparent;
   }
   
   .fl-current\:hover\@xs:hover {
@@ -9052,6 +10270,10 @@
     fill: #000;
   }
   
+  .fl-transparent\:focus\@xs:focus {
+    fill: transparent;
+  }
+  
   .fl-current\:focus\@xs:focus {
     fill: currentColor;
   }
@@ -9064,6 +10286,10 @@
     fill: #000;
   }
   
+  .fl-transparent\:active\@xs:active {
+    fill: transparent;
+  }
+  
   .fl-current\:active\@xs:active {
     fill: currentColor;
   }
@@ -9074,6 +10300,10 @@
   .group:hover
 .fl-black\:group-hover\@xs {
     fill: #000;
+  }
+  .group:hover
+.fl-transparent\:group-hover\@xs {
+    fill: transparent;
   }
   .group:hover
 .fl-current\:group-hover\@xs {
@@ -9091,6 +10321,10 @@
     fill: #000;
   }
   
+  .fl-transparent\@sm {
+    fill: transparent;
+  }
+  
   .fl-current\@sm {
     fill: currentColor;
   }
@@ -9101,6 +10335,10 @@
   
   .fl-black\:hover\@sm:hover {
     fill: #000;
+  }
+  
+  .fl-transparent\:hover\@sm:hover {
+    fill: transparent;
   }
   
   .fl-current\:hover\@sm:hover {
@@ -9115,6 +10353,10 @@
     fill: #000;
   }
   
+  .fl-transparent\:focus\@sm:focus {
+    fill: transparent;
+  }
+  
   .fl-current\:focus\@sm:focus {
     fill: currentColor;
   }
@@ -9127,6 +10369,10 @@
     fill: #000;
   }
   
+  .fl-transparent\:active\@sm:active {
+    fill: transparent;
+  }
+  
   .fl-current\:active\@sm:active {
     fill: currentColor;
   }
@@ -9137,6 +10383,10 @@
   .group:hover
 .fl-black\:group-hover\@sm {
     fill: #000;
+  }
+  .group:hover
+.fl-transparent\:group-hover\@sm {
+    fill: transparent;
   }
   .group:hover
 .fl-current\:group-hover\@sm {
@@ -9154,6 +10404,10 @@
     fill: #000;
   }
   
+  .fl-transparent\@md {
+    fill: transparent;
+  }
+  
   .fl-current\@md {
     fill: currentColor;
   }
@@ -9164,6 +10418,10 @@
   
   .fl-black\:hover\@md:hover {
     fill: #000;
+  }
+  
+  .fl-transparent\:hover\@md:hover {
+    fill: transparent;
   }
   
   .fl-current\:hover\@md:hover {
@@ -9178,6 +10436,10 @@
     fill: #000;
   }
   
+  .fl-transparent\:focus\@md:focus {
+    fill: transparent;
+  }
+  
   .fl-current\:focus\@md:focus {
     fill: currentColor;
   }
@@ -9190,6 +10452,10 @@
     fill: #000;
   }
   
+  .fl-transparent\:active\@md:active {
+    fill: transparent;
+  }
+  
   .fl-current\:active\@md:active {
     fill: currentColor;
   }
@@ -9200,6 +10466,10 @@
   .group:hover
 .fl-black\:group-hover\@md {
     fill: #000;
+  }
+  .group:hover
+.fl-transparent\:group-hover\@md {
+    fill: transparent;
   }
   .group:hover
 .fl-current\:group-hover\@md {
@@ -9217,6 +10487,10 @@
     fill: #000;
   }
   
+  .fl-transparent\@lg {
+    fill: transparent;
+  }
+  
   .fl-current\@lg {
     fill: currentColor;
   }
@@ -9227,6 +10501,10 @@
   
   .fl-black\:hover\@lg:hover {
     fill: #000;
+  }
+  
+  .fl-transparent\:hover\@lg:hover {
+    fill: transparent;
   }
   
   .fl-current\:hover\@lg:hover {
@@ -9241,6 +10519,10 @@
     fill: #000;
   }
   
+  .fl-transparent\:focus\@lg:focus {
+    fill: transparent;
+  }
+  
   .fl-current\:focus\@lg:focus {
     fill: currentColor;
   }
@@ -9253,6 +10535,10 @@
     fill: #000;
   }
   
+  .fl-transparent\:active\@lg:active {
+    fill: transparent;
+  }
+  
   .fl-current\:active\@lg:active {
     fill: currentColor;
   }
@@ -9263,6 +10549,10 @@
   .group:hover
 .fl-black\:group-hover\@lg {
     fill: #000;
+  }
+  .group:hover
+.fl-transparent\:group-hover\@lg {
+    fill: transparent;
   }
   .group:hover
 .fl-current\:group-hover\@lg {
@@ -9280,6 +10570,10 @@
     fill: #000;
   }
   
+  .fl-transparent\@xl {
+    fill: transparent;
+  }
+  
   .fl-current\@xl {
     fill: currentColor;
   }
@@ -9290,6 +10584,10 @@
   
   .fl-black\:hover\@xl:hover {
     fill: #000;
+  }
+  
+  .fl-transparent\:hover\@xl:hover {
+    fill: transparent;
   }
   
   .fl-current\:hover\@xl:hover {
@@ -9304,6 +10602,10 @@
     fill: #000;
   }
   
+  .fl-transparent\:focus\@xl:focus {
+    fill: transparent;
+  }
+  
   .fl-current\:focus\@xl:focus {
     fill: currentColor;
   }
@@ -9316,6 +10618,10 @@
     fill: #000;
   }
   
+  .fl-transparent\:active\@xl:active {
+    fill: transparent;
+  }
+  
   .fl-current\:active\@xl:active {
     fill: currentColor;
   }
@@ -9326,6 +10632,10 @@
   .group:hover
 .fl-black\:group-hover\@xl {
     fill: #000;
+  }
+  .group:hover
+.fl-transparent\:group-hover\@xl {
+    fill: transparent;
   }
   .group:hover
 .fl-current\:group-hover\@xl {
@@ -9424,142 +10734,117 @@
 }
 
 
-.flxb-1 {
-  flex-basis: 1px;
+.flxb-0 {
+  flex-basis: 0;
 }
 
 
-.flxb-2 {
-  flex-basis: 2px;
+.flxb-100\% {
+  flex-basis: 100%;
 }
 
 
-.flxb-3 {
-  flex-basis: 3px;
+.flxb-50\% {
+  flex-basis: 50%;
 }
 
 
-.flxb-4 {
-  flex-basis: 4px;
-}
-
-
-.flxb {
-  flex-basis: 26px;
+.flxb-auto {
+  flex-basis: auto;
 }
 
 @media all and (min-width: 416px) {
   
-  .flxb-1\@xs {
-    flex-basis: 1px;
+  .flxb-0\@xs {
+    flex-basis: 0;
   }
   
-  .flxb-2\@xs {
-    flex-basis: 2px;
+  .flxb-100\%\@xs {
+    flex-basis: 100%;
   }
   
-  .flxb-3\@xs {
-    flex-basis: 3px;
+  .flxb-50\%\@xs {
+    flex-basis: 50%;
   }
   
-  .flxb-4\@xs {
-    flex-basis: 4px;
-  }
-  
-  .flxb\@xs {
-    flex-basis: 26px;
+  .flxb-auto\@xs {
+    flex-basis: auto;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .flxb-1\@sm {
-    flex-basis: 1px;
+  .flxb-0\@sm {
+    flex-basis: 0;
   }
   
-  .flxb-2\@sm {
-    flex-basis: 2px;
+  .flxb-100\%\@sm {
+    flex-basis: 100%;
   }
   
-  .flxb-3\@sm {
-    flex-basis: 3px;
+  .flxb-50\%\@sm {
+    flex-basis: 50%;
   }
   
-  .flxb-4\@sm {
-    flex-basis: 4px;
-  }
-  
-  .flxb\@sm {
-    flex-basis: 26px;
+  .flxb-auto\@sm {
+    flex-basis: auto;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .flxb-1\@md {
-    flex-basis: 1px;
+  .flxb-0\@md {
+    flex-basis: 0;
   }
   
-  .flxb-2\@md {
-    flex-basis: 2px;
+  .flxb-100\%\@md {
+    flex-basis: 100%;
   }
   
-  .flxb-3\@md {
-    flex-basis: 3px;
+  .flxb-50\%\@md {
+    flex-basis: 50%;
   }
   
-  .flxb-4\@md {
-    flex-basis: 4px;
-  }
-  
-  .flxb\@md {
-    flex-basis: 26px;
+  .flxb-auto\@md {
+    flex-basis: auto;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .flxb-1\@lg {
-    flex-basis: 1px;
+  .flxb-0\@lg {
+    flex-basis: 0;
   }
   
-  .flxb-2\@lg {
-    flex-basis: 2px;
+  .flxb-100\%\@lg {
+    flex-basis: 100%;
   }
   
-  .flxb-3\@lg {
-    flex-basis: 3px;
+  .flxb-50\%\@lg {
+    flex-basis: 50%;
   }
   
-  .flxb-4\@lg {
-    flex-basis: 4px;
-  }
-  
-  .flxb\@lg {
-    flex-basis: 26px;
+  .flxb-auto\@lg {
+    flex-basis: auto;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .flxb-1\@xl {
-    flex-basis: 1px;
+  .flxb-0\@xl {
+    flex-basis: 0;
   }
   
-  .flxb-2\@xl {
-    flex-basis: 2px;
+  .flxb-100\%\@xl {
+    flex-basis: 100%;
   }
   
-  .flxb-3\@xl {
-    flex-basis: 3px;
+  .flxb-50\%\@xl {
+    flex-basis: 50%;
   }
   
-  .flxb-4\@xl {
-    flex-basis: 4px;
-  }
-  
-  .flxb\@xl {
-    flex-basis: 26px;
+  .flxb-auto\@xl {
+    flex-basis: auto;
   }
 }
 
@@ -10299,6 +11584,11 @@
 }
 
 
+.h-0 {
+  height: 0;
+}
+
+
 .h-1 {
   height: 1px;
 }
@@ -10325,6 +11615,10 @@
 
 @media all and (min-width: 416px) {
   
+  .h-0\@xs {
+    height: 0;
+  }
+  
   .h-1\@xs {
     height: 1px;
   }
@@ -10347,6 +11641,10 @@
 }
 
 @media all and (min-width: 756px) {
+  
+  .h-0\@sm {
+    height: 0;
+  }
   
   .h-1\@sm {
     height: 1px;
@@ -10371,6 +11669,10 @@
 
 @media all and (min-width: 1024px) {
   
+  .h-0\@md {
+    height: 0;
+  }
+  
   .h-1\@md {
     height: 1px;
   }
@@ -10394,6 +11696,10 @@
 
 @media all and (min-width: 1220px) {
   
+  .h-0\@lg {
+    height: 0;
+  }
+  
   .h-1\@lg {
     height: 1px;
   }
@@ -10416,6 +11722,10 @@
 }
 
 @media all and (min-width: 1460px) {
+  
+  .h-0\@xl {
+    height: 0;
+  }
   
   .h-1\@xl {
     height: 1px;
@@ -10604,6 +11914,15 @@
 }
 
 
+.lft-0 {
+  left: 0;
+}
+
+.-lft-0 {
+  left: -0;
+}
+
+
 .lft-1 {
   left: 1px;
 }
@@ -10649,15 +11968,6 @@
 }
 
 
-.lft-0 {
-  left: 0;
-}
-
-.-lft-0 {
-  left: -0;
-}
-
-
 .lft-50\% {
   left: 50%;
 }
@@ -10672,6 +11982,13 @@
 }
 
 @media all and (min-width: 416px) {
+  
+  .lft-0\@xs {
+    left: 0;
+  }
+  .-lft-0\@xs {
+    left: -0;
+  }
   
   .lft-1\@xs {
     left: 1px;
@@ -10708,13 +12025,6 @@
     left: -26px;
   }
   
-  .lft-0\@xs {
-    left: 0;
-  }
-  .-lft-0\@xs {
-    left: -0;
-  }
-  
   .lft-50\%\@xs {
     left: 50%;
   }
@@ -10728,6 +12038,13 @@
 }
 
 @media all and (min-width: 756px) {
+  
+  .lft-0\@sm {
+    left: 0;
+  }
+  .-lft-0\@sm {
+    left: -0;
+  }
   
   .lft-1\@sm {
     left: 1px;
@@ -10764,13 +12081,6 @@
     left: -26px;
   }
   
-  .lft-0\@sm {
-    left: 0;
-  }
-  .-lft-0\@sm {
-    left: -0;
-  }
-  
   .lft-50\%\@sm {
     left: 50%;
   }
@@ -10784,6 +12094,13 @@
 }
 
 @media all and (min-width: 1024px) {
+  
+  .lft-0\@md {
+    left: 0;
+  }
+  .-lft-0\@md {
+    left: -0;
+  }
   
   .lft-1\@md {
     left: 1px;
@@ -10820,13 +12137,6 @@
     left: -26px;
   }
   
-  .lft-0\@md {
-    left: 0;
-  }
-  .-lft-0\@md {
-    left: -0;
-  }
-  
   .lft-50\%\@md {
     left: 50%;
   }
@@ -10840,6 +12150,13 @@
 }
 
 @media all and (min-width: 1220px) {
+  
+  .lft-0\@lg {
+    left: 0;
+  }
+  .-lft-0\@lg {
+    left: -0;
+  }
   
   .lft-1\@lg {
     left: 1px;
@@ -10876,13 +12193,6 @@
     left: -26px;
   }
   
-  .lft-0\@lg {
-    left: 0;
-  }
-  .-lft-0\@lg {
-    left: -0;
-  }
-  
   .lft-50\%\@lg {
     left: 50%;
   }
@@ -10896,6 +12206,13 @@
 }
 
 @media all and (min-width: 1460px) {
+  
+  .lft-0\@xl {
+    left: 0;
+  }
+  .-lft-0\@xl {
+    left: -0;
+  }
   
   .lft-1\@xl {
     left: 1px;
@@ -10930,13 +12247,6 @@
   }
   .-lft\@xl {
     left: -26px;
-  }
-  
-  .lft-0\@xl {
-    left: 0;
-  }
-  .-lft-0\@xl {
-    left: -0;
   }
   
   .lft-50\%\@xl {
@@ -11254,6 +12564,79 @@
 
 .listtype-decimal {
   list-style-type: decimal;
+}
+
+
+.m-0 {
+  margin: 0;
+}
+
+
+.mt-0 {
+  margin-top: 0;
+}
+
+
+.ml-0 {
+  margin-left: 0;
+}
+
+
+.mr-0 {
+  margin-right: 0;
+}
+
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+
+.mx-0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+.my-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.-m-0 {
+  margin: -0;
+}
+
+
+.-mt-0 {
+  margin-top: -0;
+}
+
+
+.-ml-0 {
+  margin-left: -0;
+}
+
+
+.-mb-0 {
+  margin-bottom: -0;
+}
+
+
+.-mr-0 {
+  margin-right: -0;
+}
+
+
+.-mx-0 {
+  margin-left: -0;
+  margin-right: -0;
+}
+
+
+.-my-0 {
+  margin-top: -0;
+  margin-bottom: -0;
 }
 
 
@@ -11622,79 +13005,6 @@
 }
 
 
-.m-50\% {
-  margin: 50%;
-}
-
-
-.mt-50\% {
-  margin-top: 50%;
-}
-
-
-.ml-50\% {
-  margin-left: 50%;
-}
-
-
-.mr-50\% {
-  margin-right: 50%;
-}
-
-
-.mb-50\% {
-  margin-bottom: 50%;
-}
-
-
-.mx-50\% {
-  margin-left: 50%;
-  margin-right: 50%;
-}
-
-
-.my-50\% {
-  margin-top: 50%;
-  margin-bottom: 50%;
-}
-
-.-m-50\% {
-  margin: -50%;
-}
-
-
-.-mt-50\% {
-  margin-top: -50%;
-}
-
-
-.-ml-50\% {
-  margin-left: -50%;
-}
-
-
-.-mb-50\% {
-  margin-bottom: -50%;
-}
-
-
-.-mr-50\% {
-  margin-right: -50%;
-}
-
-
-.-mx-50\% {
-  margin-left: -50%;
-  margin-right: -50%;
-}
-
-
-.-my-50\% {
-  margin-top: -50%;
-  margin-bottom: -50%;
-}
-
-
 .m-auto {
   margin: auto;
 }
@@ -11732,6 +13042,65 @@
 }
 
 @media all and (min-width: 416px) {
+  
+  .m-0\@xs {
+    margin: 0;
+  }
+  
+  .mt-0\@xs {
+    margin-top: 0;
+  }
+  
+  .ml-0\@xs {
+    margin-left: 0;
+  }
+  
+  .mr-0\@xs {
+    margin-right: 0;
+  }
+  
+  .mb-0\@xs {
+    margin-bottom: 0;
+  }
+  
+  .mx-0\@xs {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .my-0\@xs {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .-m-0\@xs {
+    margin: -0;
+  }
+  
+  .-mt-0\@xs {
+    margin-top: -0;
+  }
+  
+  .-ml-0\@xs {
+    margin-left: -0;
+  }
+  
+  .-mb-0\@xs {
+    margin-bottom: -0;
+  }
+  
+  .-mr-0\@xs {
+    margin-right: -0;
+  }
+  
+  .-mx-0\@xs {
+    margin-left: -0;
+    margin-right: -0;
+  }
+  
+  .-my-0\@xs {
+    margin-top: -0;
+    margin-bottom: -0;
+  }
   
   .m-1\@xs {
     margin: 1px;
@@ -12028,65 +13397,6 @@
     margin-bottom: -26px;
   }
   
-  .m-50\%\@xs {
-    margin: 50%;
-  }
-  
-  .mt-50\%\@xs {
-    margin-top: 50%;
-  }
-  
-  .ml-50\%\@xs {
-    margin-left: 50%;
-  }
-  
-  .mr-50\%\@xs {
-    margin-right: 50%;
-  }
-  
-  .mb-50\%\@xs {
-    margin-bottom: 50%;
-  }
-  
-  .mx-50\%\@xs {
-    margin-left: 50%;
-    margin-right: 50%;
-  }
-  
-  .my-50\%\@xs {
-    margin-top: 50%;
-    margin-bottom: 50%;
-  }
-  .-m-50\%\@xs {
-    margin: -50%;
-  }
-  
-  .-mt-50\%\@xs {
-    margin-top: -50%;
-  }
-  
-  .-ml-50\%\@xs {
-    margin-left: -50%;
-  }
-  
-  .-mb-50\%\@xs {
-    margin-bottom: -50%;
-  }
-  
-  .-mr-50\%\@xs {
-    margin-right: -50%;
-  }
-  
-  .-mx-50\%\@xs {
-    margin-left: -50%;
-    margin-right: -50%;
-  }
-  
-  .-my-50\%\@xs {
-    margin-top: -50%;
-    margin-bottom: -50%;
-  }
-  
   .m-auto\@xs {
     margin: auto;
   }
@@ -12119,6 +13429,65 @@
 }
 
 @media all and (min-width: 756px) {
+  
+  .m-0\@sm {
+    margin: 0;
+  }
+  
+  .mt-0\@sm {
+    margin-top: 0;
+  }
+  
+  .ml-0\@sm {
+    margin-left: 0;
+  }
+  
+  .mr-0\@sm {
+    margin-right: 0;
+  }
+  
+  .mb-0\@sm {
+    margin-bottom: 0;
+  }
+  
+  .mx-0\@sm {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .my-0\@sm {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .-m-0\@sm {
+    margin: -0;
+  }
+  
+  .-mt-0\@sm {
+    margin-top: -0;
+  }
+  
+  .-ml-0\@sm {
+    margin-left: -0;
+  }
+  
+  .-mb-0\@sm {
+    margin-bottom: -0;
+  }
+  
+  .-mr-0\@sm {
+    margin-right: -0;
+  }
+  
+  .-mx-0\@sm {
+    margin-left: -0;
+    margin-right: -0;
+  }
+  
+  .-my-0\@sm {
+    margin-top: -0;
+    margin-bottom: -0;
+  }
   
   .m-1\@sm {
     margin: 1px;
@@ -12415,65 +13784,6 @@
     margin-bottom: -26px;
   }
   
-  .m-50\%\@sm {
-    margin: 50%;
-  }
-  
-  .mt-50\%\@sm {
-    margin-top: 50%;
-  }
-  
-  .ml-50\%\@sm {
-    margin-left: 50%;
-  }
-  
-  .mr-50\%\@sm {
-    margin-right: 50%;
-  }
-  
-  .mb-50\%\@sm {
-    margin-bottom: 50%;
-  }
-  
-  .mx-50\%\@sm {
-    margin-left: 50%;
-    margin-right: 50%;
-  }
-  
-  .my-50\%\@sm {
-    margin-top: 50%;
-    margin-bottom: 50%;
-  }
-  .-m-50\%\@sm {
-    margin: -50%;
-  }
-  
-  .-mt-50\%\@sm {
-    margin-top: -50%;
-  }
-  
-  .-ml-50\%\@sm {
-    margin-left: -50%;
-  }
-  
-  .-mb-50\%\@sm {
-    margin-bottom: -50%;
-  }
-  
-  .-mr-50\%\@sm {
-    margin-right: -50%;
-  }
-  
-  .-mx-50\%\@sm {
-    margin-left: -50%;
-    margin-right: -50%;
-  }
-  
-  .-my-50\%\@sm {
-    margin-top: -50%;
-    margin-bottom: -50%;
-  }
-  
   .m-auto\@sm {
     margin: auto;
   }
@@ -12506,6 +13816,65 @@
 }
 
 @media all and (min-width: 1024px) {
+  
+  .m-0\@md {
+    margin: 0;
+  }
+  
+  .mt-0\@md {
+    margin-top: 0;
+  }
+  
+  .ml-0\@md {
+    margin-left: 0;
+  }
+  
+  .mr-0\@md {
+    margin-right: 0;
+  }
+  
+  .mb-0\@md {
+    margin-bottom: 0;
+  }
+  
+  .mx-0\@md {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .my-0\@md {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .-m-0\@md {
+    margin: -0;
+  }
+  
+  .-mt-0\@md {
+    margin-top: -0;
+  }
+  
+  .-ml-0\@md {
+    margin-left: -0;
+  }
+  
+  .-mb-0\@md {
+    margin-bottom: -0;
+  }
+  
+  .-mr-0\@md {
+    margin-right: -0;
+  }
+  
+  .-mx-0\@md {
+    margin-left: -0;
+    margin-right: -0;
+  }
+  
+  .-my-0\@md {
+    margin-top: -0;
+    margin-bottom: -0;
+  }
   
   .m-1\@md {
     margin: 1px;
@@ -12802,65 +14171,6 @@
     margin-bottom: -26px;
   }
   
-  .m-50\%\@md {
-    margin: 50%;
-  }
-  
-  .mt-50\%\@md {
-    margin-top: 50%;
-  }
-  
-  .ml-50\%\@md {
-    margin-left: 50%;
-  }
-  
-  .mr-50\%\@md {
-    margin-right: 50%;
-  }
-  
-  .mb-50\%\@md {
-    margin-bottom: 50%;
-  }
-  
-  .mx-50\%\@md {
-    margin-left: 50%;
-    margin-right: 50%;
-  }
-  
-  .my-50\%\@md {
-    margin-top: 50%;
-    margin-bottom: 50%;
-  }
-  .-m-50\%\@md {
-    margin: -50%;
-  }
-  
-  .-mt-50\%\@md {
-    margin-top: -50%;
-  }
-  
-  .-ml-50\%\@md {
-    margin-left: -50%;
-  }
-  
-  .-mb-50\%\@md {
-    margin-bottom: -50%;
-  }
-  
-  .-mr-50\%\@md {
-    margin-right: -50%;
-  }
-  
-  .-mx-50\%\@md {
-    margin-left: -50%;
-    margin-right: -50%;
-  }
-  
-  .-my-50\%\@md {
-    margin-top: -50%;
-    margin-bottom: -50%;
-  }
-  
   .m-auto\@md {
     margin: auto;
   }
@@ -12893,6 +14203,65 @@
 }
 
 @media all and (min-width: 1220px) {
+  
+  .m-0\@lg {
+    margin: 0;
+  }
+  
+  .mt-0\@lg {
+    margin-top: 0;
+  }
+  
+  .ml-0\@lg {
+    margin-left: 0;
+  }
+  
+  .mr-0\@lg {
+    margin-right: 0;
+  }
+  
+  .mb-0\@lg {
+    margin-bottom: 0;
+  }
+  
+  .mx-0\@lg {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .my-0\@lg {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .-m-0\@lg {
+    margin: -0;
+  }
+  
+  .-mt-0\@lg {
+    margin-top: -0;
+  }
+  
+  .-ml-0\@lg {
+    margin-left: -0;
+  }
+  
+  .-mb-0\@lg {
+    margin-bottom: -0;
+  }
+  
+  .-mr-0\@lg {
+    margin-right: -0;
+  }
+  
+  .-mx-0\@lg {
+    margin-left: -0;
+    margin-right: -0;
+  }
+  
+  .-my-0\@lg {
+    margin-top: -0;
+    margin-bottom: -0;
+  }
   
   .m-1\@lg {
     margin: 1px;
@@ -13189,65 +14558,6 @@
     margin-bottom: -26px;
   }
   
-  .m-50\%\@lg {
-    margin: 50%;
-  }
-  
-  .mt-50\%\@lg {
-    margin-top: 50%;
-  }
-  
-  .ml-50\%\@lg {
-    margin-left: 50%;
-  }
-  
-  .mr-50\%\@lg {
-    margin-right: 50%;
-  }
-  
-  .mb-50\%\@lg {
-    margin-bottom: 50%;
-  }
-  
-  .mx-50\%\@lg {
-    margin-left: 50%;
-    margin-right: 50%;
-  }
-  
-  .my-50\%\@lg {
-    margin-top: 50%;
-    margin-bottom: 50%;
-  }
-  .-m-50\%\@lg {
-    margin: -50%;
-  }
-  
-  .-mt-50\%\@lg {
-    margin-top: -50%;
-  }
-  
-  .-ml-50\%\@lg {
-    margin-left: -50%;
-  }
-  
-  .-mb-50\%\@lg {
-    margin-bottom: -50%;
-  }
-  
-  .-mr-50\%\@lg {
-    margin-right: -50%;
-  }
-  
-  .-mx-50\%\@lg {
-    margin-left: -50%;
-    margin-right: -50%;
-  }
-  
-  .-my-50\%\@lg {
-    margin-top: -50%;
-    margin-bottom: -50%;
-  }
-  
   .m-auto\@lg {
     margin: auto;
   }
@@ -13280,6 +14590,65 @@
 }
 
 @media all and (min-width: 1460px) {
+  
+  .m-0\@xl {
+    margin: 0;
+  }
+  
+  .mt-0\@xl {
+    margin-top: 0;
+  }
+  
+  .ml-0\@xl {
+    margin-left: 0;
+  }
+  
+  .mr-0\@xl {
+    margin-right: 0;
+  }
+  
+  .mb-0\@xl {
+    margin-bottom: 0;
+  }
+  
+  .mx-0\@xl {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .my-0\@xl {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .-m-0\@xl {
+    margin: -0;
+  }
+  
+  .-mt-0\@xl {
+    margin-top: -0;
+  }
+  
+  .-ml-0\@xl {
+    margin-left: -0;
+  }
+  
+  .-mb-0\@xl {
+    margin-bottom: -0;
+  }
+  
+  .-mr-0\@xl {
+    margin-right: -0;
+  }
+  
+  .-mx-0\@xl {
+    margin-left: -0;
+    margin-right: -0;
+  }
+  
+  .-my-0\@xl {
+    margin-top: -0;
+    margin-bottom: -0;
+  }
   
   .m-1\@xl {
     margin: 1px;
@@ -13576,65 +14945,6 @@
     margin-bottom: -26px;
   }
   
-  .m-50\%\@xl {
-    margin: 50%;
-  }
-  
-  .mt-50\%\@xl {
-    margin-top: 50%;
-  }
-  
-  .ml-50\%\@xl {
-    margin-left: 50%;
-  }
-  
-  .mr-50\%\@xl {
-    margin-right: 50%;
-  }
-  
-  .mb-50\%\@xl {
-    margin-bottom: 50%;
-  }
-  
-  .mx-50\%\@xl {
-    margin-left: 50%;
-    margin-right: 50%;
-  }
-  
-  .my-50\%\@xl {
-    margin-top: 50%;
-    margin-bottom: 50%;
-  }
-  .-m-50\%\@xl {
-    margin: -50%;
-  }
-  
-  .-mt-50\%\@xl {
-    margin-top: -50%;
-  }
-  
-  .-ml-50\%\@xl {
-    margin-left: -50%;
-  }
-  
-  .-mb-50\%\@xl {
-    margin-bottom: -50%;
-  }
-  
-  .-mr-50\%\@xl {
-    margin-right: -50%;
-  }
-  
-  .-mx-50\%\@xl {
-    margin-left: -50%;
-    margin-right: -50%;
-  }
-  
-  .-my-50\%\@xl {
-    margin-top: -50%;
-    margin-bottom: -50%;
-  }
-  
   .m-auto\@xl {
     margin: auto;
   }
@@ -13667,562 +14977,512 @@
 }
 
 
-.maxh-1 {
-  max-height: 1px;
+.maxh-0 {
+  max-height: 0;
 }
 
 
-.maxh-2 {
-  max-height: 2px;
+.maxh-100\% {
+  max-height: 100%;
 }
 
 
-.maxh-3 {
-  max-height: 3px;
+.maxh-50\% {
+  max-height: 50%;
 }
 
 
-.maxh-4 {
-  max-height: 4px;
+.maxh-auto {
+  max-height: auto;
 }
 
 
-.maxh {
-  max-height: 26px;
+.maxh-none {
+  max-height: none;
 }
 
 @media all and (min-width: 416px) {
   
-  .maxh-1\@xs {
-    max-height: 1px;
+  .maxh-0\@xs {
+    max-height: 0;
   }
   
-  .maxh-2\@xs {
-    max-height: 2px;
+  .maxh-100\%\@xs {
+    max-height: 100%;
   }
   
-  .maxh-3\@xs {
-    max-height: 3px;
+  .maxh-50\%\@xs {
+    max-height: 50%;
   }
   
-  .maxh-4\@xs {
-    max-height: 4px;
+  .maxh-auto\@xs {
+    max-height: auto;
   }
   
-  .maxh\@xs {
-    max-height: 26px;
+  .maxh-none\@xs {
+    max-height: none;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .maxh-1\@sm {
-    max-height: 1px;
+  .maxh-0\@sm {
+    max-height: 0;
   }
   
-  .maxh-2\@sm {
-    max-height: 2px;
+  .maxh-100\%\@sm {
+    max-height: 100%;
   }
   
-  .maxh-3\@sm {
-    max-height: 3px;
+  .maxh-50\%\@sm {
+    max-height: 50%;
   }
   
-  .maxh-4\@sm {
-    max-height: 4px;
+  .maxh-auto\@sm {
+    max-height: auto;
   }
   
-  .maxh\@sm {
-    max-height: 26px;
+  .maxh-none\@sm {
+    max-height: none;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .maxh-1\@md {
-    max-height: 1px;
+  .maxh-0\@md {
+    max-height: 0;
   }
   
-  .maxh-2\@md {
-    max-height: 2px;
+  .maxh-100\%\@md {
+    max-height: 100%;
   }
   
-  .maxh-3\@md {
-    max-height: 3px;
+  .maxh-50\%\@md {
+    max-height: 50%;
   }
   
-  .maxh-4\@md {
-    max-height: 4px;
+  .maxh-auto\@md {
+    max-height: auto;
   }
   
-  .maxh\@md {
-    max-height: 26px;
+  .maxh-none\@md {
+    max-height: none;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .maxh-1\@lg {
-    max-height: 1px;
+  .maxh-0\@lg {
+    max-height: 0;
   }
   
-  .maxh-2\@lg {
-    max-height: 2px;
+  .maxh-100\%\@lg {
+    max-height: 100%;
   }
   
-  .maxh-3\@lg {
-    max-height: 3px;
+  .maxh-50\%\@lg {
+    max-height: 50%;
   }
   
-  .maxh-4\@lg {
-    max-height: 4px;
+  .maxh-auto\@lg {
+    max-height: auto;
   }
   
-  .maxh\@lg {
-    max-height: 26px;
+  .maxh-none\@lg {
+    max-height: none;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .maxh-1\@xl {
-    max-height: 1px;
+  .maxh-0\@xl {
+    max-height: 0;
   }
   
-  .maxh-2\@xl {
-    max-height: 2px;
+  .maxh-100\%\@xl {
+    max-height: 100%;
   }
   
-  .maxh-3\@xl {
-    max-height: 3px;
+  .maxh-50\%\@xl {
+    max-height: 50%;
   }
   
-  .maxh-4\@xl {
-    max-height: 4px;
+  .maxh-auto\@xl {
+    max-height: auto;
   }
   
-  .maxh\@xl {
-    max-height: 26px;
+  .maxh-none\@xl {
+    max-height: none;
   }
 }
 
 
-.maxw-1 {
-  max-width: 1px;
+.maxw-0 {
+  max-width: 0;
 }
 
 
-.maxw-2 {
-  max-width: 2px;
+.maxw-100\% {
+  max-width: 100%;
 }
 
 
-.maxw-3 {
-  max-width: 3px;
+.maxw-50\% {
+  max-width: 50%;
 }
 
 
-.maxw-4 {
-  max-width: 4px;
+.maxw-auto {
+  max-width: auto;
 }
 
 
-.maxw {
-  max-width: 26px;
+.maxw-none {
+  max-width: none;
 }
 
 @media all and (min-width: 416px) {
   
-  .maxw-1\@xs {
-    max-width: 1px;
+  .maxw-0\@xs {
+    max-width: 0;
   }
   
-  .maxw-2\@xs {
-    max-width: 2px;
+  .maxw-100\%\@xs {
+    max-width: 100%;
   }
   
-  .maxw-3\@xs {
-    max-width: 3px;
+  .maxw-50\%\@xs {
+    max-width: 50%;
   }
   
-  .maxw-4\@xs {
-    max-width: 4px;
+  .maxw-auto\@xs {
+    max-width: auto;
   }
   
-  .maxw\@xs {
-    max-width: 26px;
+  .maxw-none\@xs {
+    max-width: none;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .maxw-1\@sm {
-    max-width: 1px;
+  .maxw-0\@sm {
+    max-width: 0;
   }
   
-  .maxw-2\@sm {
-    max-width: 2px;
+  .maxw-100\%\@sm {
+    max-width: 100%;
   }
   
-  .maxw-3\@sm {
-    max-width: 3px;
+  .maxw-50\%\@sm {
+    max-width: 50%;
   }
   
-  .maxw-4\@sm {
-    max-width: 4px;
+  .maxw-auto\@sm {
+    max-width: auto;
   }
   
-  .maxw\@sm {
-    max-width: 26px;
+  .maxw-none\@sm {
+    max-width: none;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .maxw-1\@md {
-    max-width: 1px;
+  .maxw-0\@md {
+    max-width: 0;
   }
   
-  .maxw-2\@md {
-    max-width: 2px;
+  .maxw-100\%\@md {
+    max-width: 100%;
   }
   
-  .maxw-3\@md {
-    max-width: 3px;
+  .maxw-50\%\@md {
+    max-width: 50%;
   }
   
-  .maxw-4\@md {
-    max-width: 4px;
+  .maxw-auto\@md {
+    max-width: auto;
   }
   
-  .maxw\@md {
-    max-width: 26px;
+  .maxw-none\@md {
+    max-width: none;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .maxw-1\@lg {
-    max-width: 1px;
+  .maxw-0\@lg {
+    max-width: 0;
   }
   
-  .maxw-2\@lg {
-    max-width: 2px;
+  .maxw-100\%\@lg {
+    max-width: 100%;
   }
   
-  .maxw-3\@lg {
-    max-width: 3px;
+  .maxw-50\%\@lg {
+    max-width: 50%;
   }
   
-  .maxw-4\@lg {
-    max-width: 4px;
+  .maxw-auto\@lg {
+    max-width: auto;
   }
   
-  .maxw\@lg {
-    max-width: 26px;
+  .maxw-none\@lg {
+    max-width: none;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .maxw-1\@xl {
-    max-width: 1px;
+  .maxw-0\@xl {
+    max-width: 0;
   }
   
-  .maxw-2\@xl {
-    max-width: 2px;
+  .maxw-100\%\@xl {
+    max-width: 100%;
   }
   
-  .maxw-3\@xl {
-    max-width: 3px;
+  .maxw-50\%\@xl {
+    max-width: 50%;
   }
   
-  .maxw-4\@xl {
-    max-width: 4px;
+  .maxw-auto\@xl {
+    max-width: auto;
   }
   
-  .maxw\@xl {
-    max-width: 26px;
+  .maxw-none\@xl {
+    max-width: none;
   }
 }
 
 
-.minh-1 {
-  min-height: 1px;
+.minh-0 {
+  min-height: 0;
 }
 
 
-.minh-2 {
-  min-height: 2px;
+.minh-100\% {
+  min-height: 100%;
 }
 
 
-.minh-3 {
-  min-height: 3px;
+.minh-50\% {
+  min-height: 50%;
 }
 
 
-.minh-4 {
-  min-height: 4px;
-}
-
-
-.minh {
-  min-height: 26px;
+.minh-auto {
+  min-height: auto;
 }
 
 @media all and (min-width: 416px) {
   
-  .minh-1\@xs {
-    min-height: 1px;
+  .minh-0\@xs {
+    min-height: 0;
   }
   
-  .minh-2\@xs {
-    min-height: 2px;
+  .minh-100\%\@xs {
+    min-height: 100%;
   }
   
-  .minh-3\@xs {
-    min-height: 3px;
+  .minh-50\%\@xs {
+    min-height: 50%;
   }
   
-  .minh-4\@xs {
-    min-height: 4px;
-  }
-  
-  .minh\@xs {
-    min-height: 26px;
+  .minh-auto\@xs {
+    min-height: auto;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .minh-1\@sm {
-    min-height: 1px;
+  .minh-0\@sm {
+    min-height: 0;
   }
   
-  .minh-2\@sm {
-    min-height: 2px;
+  .minh-100\%\@sm {
+    min-height: 100%;
   }
   
-  .minh-3\@sm {
-    min-height: 3px;
+  .minh-50\%\@sm {
+    min-height: 50%;
   }
   
-  .minh-4\@sm {
-    min-height: 4px;
-  }
-  
-  .minh\@sm {
-    min-height: 26px;
+  .minh-auto\@sm {
+    min-height: auto;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .minh-1\@md {
-    min-height: 1px;
+  .minh-0\@md {
+    min-height: 0;
   }
   
-  .minh-2\@md {
-    min-height: 2px;
+  .minh-100\%\@md {
+    min-height: 100%;
   }
   
-  .minh-3\@md {
-    min-height: 3px;
+  .minh-50\%\@md {
+    min-height: 50%;
   }
   
-  .minh-4\@md {
-    min-height: 4px;
-  }
-  
-  .minh\@md {
-    min-height: 26px;
+  .minh-auto\@md {
+    min-height: auto;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .minh-1\@lg {
-    min-height: 1px;
+  .minh-0\@lg {
+    min-height: 0;
   }
   
-  .minh-2\@lg {
-    min-height: 2px;
+  .minh-100\%\@lg {
+    min-height: 100%;
   }
   
-  .minh-3\@lg {
-    min-height: 3px;
+  .minh-50\%\@lg {
+    min-height: 50%;
   }
   
-  .minh-4\@lg {
-    min-height: 4px;
-  }
-  
-  .minh\@lg {
-    min-height: 26px;
+  .minh-auto\@lg {
+    min-height: auto;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .minh-1\@xl {
-    min-height: 1px;
+  .minh-0\@xl {
+    min-height: 0;
   }
   
-  .minh-2\@xl {
-    min-height: 2px;
+  .minh-100\%\@xl {
+    min-height: 100%;
   }
   
-  .minh-3\@xl {
-    min-height: 3px;
+  .minh-50\%\@xl {
+    min-height: 50%;
   }
   
-  .minh-4\@xl {
-    min-height: 4px;
-  }
-  
-  .minh\@xl {
-    min-height: 26px;
+  .minh-auto\@xl {
+    min-height: auto;
   }
 }
 
 
-.minw-1 {
-  min-width: 1px;
+.minw-0 {
+  min-width: 0;
 }
 
 
-.minw-2 {
-  min-width: 2px;
+.minw-100\% {
+  min-width: 100%;
 }
 
 
-.minw-3 {
-  min-width: 3px;
+.minw-50\% {
+  min-width: 50%;
 }
 
 
-.minw-4 {
-  min-width: 4px;
-}
-
-
-.minw {
-  min-width: 26px;
+.minw-auto {
+  min-width: auto;
 }
 
 @media all and (min-width: 416px) {
   
-  .minw-1\@xs {
-    min-width: 1px;
+  .minw-0\@xs {
+    min-width: 0;
   }
   
-  .minw-2\@xs {
-    min-width: 2px;
+  .minw-100\%\@xs {
+    min-width: 100%;
   }
   
-  .minw-3\@xs {
-    min-width: 3px;
+  .minw-50\%\@xs {
+    min-width: 50%;
   }
   
-  .minw-4\@xs {
-    min-width: 4px;
-  }
-  
-  .minw\@xs {
-    min-width: 26px;
+  .minw-auto\@xs {
+    min-width: auto;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .minw-1\@sm {
-    min-width: 1px;
+  .minw-0\@sm {
+    min-width: 0;
   }
   
-  .minw-2\@sm {
-    min-width: 2px;
+  .minw-100\%\@sm {
+    min-width: 100%;
   }
   
-  .minw-3\@sm {
-    min-width: 3px;
+  .minw-50\%\@sm {
+    min-width: 50%;
   }
   
-  .minw-4\@sm {
-    min-width: 4px;
-  }
-  
-  .minw\@sm {
-    min-width: 26px;
+  .minw-auto\@sm {
+    min-width: auto;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .minw-1\@md {
-    min-width: 1px;
+  .minw-0\@md {
+    min-width: 0;
   }
   
-  .minw-2\@md {
-    min-width: 2px;
+  .minw-100\%\@md {
+    min-width: 100%;
   }
   
-  .minw-3\@md {
-    min-width: 3px;
+  .minw-50\%\@md {
+    min-width: 50%;
   }
   
-  .minw-4\@md {
-    min-width: 4px;
-  }
-  
-  .minw\@md {
-    min-width: 26px;
+  .minw-auto\@md {
+    min-width: auto;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .minw-1\@lg {
-    min-width: 1px;
+  .minw-0\@lg {
+    min-width: 0;
   }
   
-  .minw-2\@lg {
-    min-width: 2px;
+  .minw-100\%\@lg {
+    min-width: 100%;
   }
   
-  .minw-3\@lg {
-    min-width: 3px;
+  .minw-50\%\@lg {
+    min-width: 50%;
   }
   
-  .minw-4\@lg {
-    min-width: 4px;
-  }
-  
-  .minw\@lg {
-    min-width: 26px;
+  .minw-auto\@lg {
+    min-width: auto;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .minw-1\@xl {
-    min-width: 1px;
+  .minw-0\@xl {
+    min-width: 0;
   }
   
-  .minw-2\@xl {
-    min-width: 2px;
+  .minw-100\%\@xl {
+    min-width: 100%;
   }
   
-  .minw-3\@xl {
-    min-width: 3px;
+  .minw-50\%\@xl {
+    min-width: 50%;
   }
   
-  .minw-4\@xl {
-    min-width: 4px;
-  }
-  
-  .minw\@xl {
-    min-width: 26px;
+  .minw-auto\@xl {
+    min-width: auto;
   }
 }
 
@@ -16102,6 +17362,11 @@
 }
 
 
+.otl-transparent {
+  outline-color: transparent;
+}
+
+
 .otl-current {
   outline-color: currentColor;
 }
@@ -16114,6 +17379,11 @@
 
 .otl-black\:hover:hover {
   outline-color: #000;
+}
+
+
+.otl-transparent\:hover:hover {
+  outline-color: transparent;
 }
 
 
@@ -16132,6 +17402,11 @@
 }
 
 
+.otl-transparent\:focus:focus {
+  outline-color: transparent;
+}
+
+
 .otl-current\:focus:focus {
   outline-color: currentColor;
 }
@@ -16144,6 +17419,11 @@
 
 .otl-black\:active:active {
   outline-color: #000;
+}
+
+
+.otl-transparent\:active:active {
+  outline-color: transparent;
 }
 
 
@@ -16162,6 +17442,11 @@
 }
 
 .group:hover
+.otl-transparent\:group-hover {
+  outline-color: transparent;
+}
+
+.group:hover
 .otl-current\:group-hover {
   outline-color: currentColor;
 }
@@ -16176,6 +17461,10 @@
     outline-color: #000;
   }
   
+  .otl-transparent\@xs {
+    outline-color: transparent;
+  }
+  
   .otl-current\@xs {
     outline-color: currentColor;
   }
@@ -16186,6 +17475,10 @@
   
   .otl-black\:hover\@xs:hover {
     outline-color: #000;
+  }
+  
+  .otl-transparent\:hover\@xs:hover {
+    outline-color: transparent;
   }
   
   .otl-current\:hover\@xs:hover {
@@ -16200,6 +17493,10 @@
     outline-color: #000;
   }
   
+  .otl-transparent\:focus\@xs:focus {
+    outline-color: transparent;
+  }
+  
   .otl-current\:focus\@xs:focus {
     outline-color: currentColor;
   }
@@ -16212,6 +17509,10 @@
     outline-color: #000;
   }
   
+  .otl-transparent\:active\@xs:active {
+    outline-color: transparent;
+  }
+  
   .otl-current\:active\@xs:active {
     outline-color: currentColor;
   }
@@ -16222,6 +17523,10 @@
   .group:hover
 .otl-black\:group-hover\@xs {
     outline-color: #000;
+  }
+  .group:hover
+.otl-transparent\:group-hover\@xs {
+    outline-color: transparent;
   }
   .group:hover
 .otl-current\:group-hover\@xs {
@@ -16239,6 +17544,10 @@
     outline-color: #000;
   }
   
+  .otl-transparent\@sm {
+    outline-color: transparent;
+  }
+  
   .otl-current\@sm {
     outline-color: currentColor;
   }
@@ -16249,6 +17558,10 @@
   
   .otl-black\:hover\@sm:hover {
     outline-color: #000;
+  }
+  
+  .otl-transparent\:hover\@sm:hover {
+    outline-color: transparent;
   }
   
   .otl-current\:hover\@sm:hover {
@@ -16263,6 +17576,10 @@
     outline-color: #000;
   }
   
+  .otl-transparent\:focus\@sm:focus {
+    outline-color: transparent;
+  }
+  
   .otl-current\:focus\@sm:focus {
     outline-color: currentColor;
   }
@@ -16275,6 +17592,10 @@
     outline-color: #000;
   }
   
+  .otl-transparent\:active\@sm:active {
+    outline-color: transparent;
+  }
+  
   .otl-current\:active\@sm:active {
     outline-color: currentColor;
   }
@@ -16285,6 +17606,10 @@
   .group:hover
 .otl-black\:group-hover\@sm {
     outline-color: #000;
+  }
+  .group:hover
+.otl-transparent\:group-hover\@sm {
+    outline-color: transparent;
   }
   .group:hover
 .otl-current\:group-hover\@sm {
@@ -16302,6 +17627,10 @@
     outline-color: #000;
   }
   
+  .otl-transparent\@md {
+    outline-color: transparent;
+  }
+  
   .otl-current\@md {
     outline-color: currentColor;
   }
@@ -16312,6 +17641,10 @@
   
   .otl-black\:hover\@md:hover {
     outline-color: #000;
+  }
+  
+  .otl-transparent\:hover\@md:hover {
+    outline-color: transparent;
   }
   
   .otl-current\:hover\@md:hover {
@@ -16326,6 +17659,10 @@
     outline-color: #000;
   }
   
+  .otl-transparent\:focus\@md:focus {
+    outline-color: transparent;
+  }
+  
   .otl-current\:focus\@md:focus {
     outline-color: currentColor;
   }
@@ -16338,6 +17675,10 @@
     outline-color: #000;
   }
   
+  .otl-transparent\:active\@md:active {
+    outline-color: transparent;
+  }
+  
   .otl-current\:active\@md:active {
     outline-color: currentColor;
   }
@@ -16348,6 +17689,10 @@
   .group:hover
 .otl-black\:group-hover\@md {
     outline-color: #000;
+  }
+  .group:hover
+.otl-transparent\:group-hover\@md {
+    outline-color: transparent;
   }
   .group:hover
 .otl-current\:group-hover\@md {
@@ -16365,6 +17710,10 @@
     outline-color: #000;
   }
   
+  .otl-transparent\@lg {
+    outline-color: transparent;
+  }
+  
   .otl-current\@lg {
     outline-color: currentColor;
   }
@@ -16375,6 +17724,10 @@
   
   .otl-black\:hover\@lg:hover {
     outline-color: #000;
+  }
+  
+  .otl-transparent\:hover\@lg:hover {
+    outline-color: transparent;
   }
   
   .otl-current\:hover\@lg:hover {
@@ -16389,6 +17742,10 @@
     outline-color: #000;
   }
   
+  .otl-transparent\:focus\@lg:focus {
+    outline-color: transparent;
+  }
+  
   .otl-current\:focus\@lg:focus {
     outline-color: currentColor;
   }
@@ -16401,6 +17758,10 @@
     outline-color: #000;
   }
   
+  .otl-transparent\:active\@lg:active {
+    outline-color: transparent;
+  }
+  
   .otl-current\:active\@lg:active {
     outline-color: currentColor;
   }
@@ -16411,6 +17772,10 @@
   .group:hover
 .otl-black\:group-hover\@lg {
     outline-color: #000;
+  }
+  .group:hover
+.otl-transparent\:group-hover\@lg {
+    outline-color: transparent;
   }
   .group:hover
 .otl-current\:group-hover\@lg {
@@ -16428,6 +17793,10 @@
     outline-color: #000;
   }
   
+  .otl-transparent\@xl {
+    outline-color: transparent;
+  }
+  
   .otl-current\@xl {
     outline-color: currentColor;
   }
@@ -16438,6 +17807,10 @@
   
   .otl-black\:hover\@xl:hover {
     outline-color: #000;
+  }
+  
+  .otl-transparent\:hover\@xl:hover {
+    outline-color: transparent;
   }
   
   .otl-current\:hover\@xl:hover {
@@ -16452,6 +17825,10 @@
     outline-color: #000;
   }
   
+  .otl-transparent\:focus\@xl:focus {
+    outline-color: transparent;
+  }
+  
   .otl-current\:focus\@xl:focus {
     outline-color: currentColor;
   }
@@ -16464,6 +17841,10 @@
     outline-color: #000;
   }
   
+  .otl-transparent\:active\@xl:active {
+    outline-color: transparent;
+  }
+  
   .otl-current\:active\@xl:active {
     outline-color: currentColor;
   }
@@ -16474,6 +17855,10 @@
   .group:hover
 .otl-black\:group-hover\@xl {
     outline-color: #000;
+  }
+  .group:hover
+.otl-transparent\:group-hover\@xl {
+    outline-color: transparent;
   }
   .group:hover
 .otl-current\:group-hover\@xl {
@@ -18372,6 +19757,43 @@
 }
 
 
+.p-0 {
+  padding: 0;
+}
+
+
+.pt-0 {
+  padding-top: 0;
+}
+
+
+.pl-0 {
+  padding-left: 0;
+}
+
+
+.pr-0 {
+  padding-right: 0;
+}
+
+
+.pb-0 {
+  padding-bottom: 0;
+}
+
+
+.px-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+.py-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+
 .p-1 {
   padding: 1px;
 }
@@ -18558,6 +19980,36 @@
 
 @media all and (min-width: 416px) {
   
+  .p-0\@xs {
+    padding: 0;
+  }
+  
+  .pt-0\@xs {
+    padding-top: 0;
+  }
+  
+  .pl-0\@xs {
+    padding-left: 0;
+  }
+  
+  .pr-0\@xs {
+    padding-right: 0;
+  }
+  
+  .pb-0\@xs {
+    padding-bottom: 0;
+  }
+  
+  .px-0\@xs {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .py-0\@xs {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
   .p-1\@xs {
     padding: 1px;
   }
@@ -18710,6 +20162,36 @@
 }
 
 @media all and (min-width: 756px) {
+  
+  .p-0\@sm {
+    padding: 0;
+  }
+  
+  .pt-0\@sm {
+    padding-top: 0;
+  }
+  
+  .pl-0\@sm {
+    padding-left: 0;
+  }
+  
+  .pr-0\@sm {
+    padding-right: 0;
+  }
+  
+  .pb-0\@sm {
+    padding-bottom: 0;
+  }
+  
+  .px-0\@sm {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .py-0\@sm {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
   
   .p-1\@sm {
     padding: 1px;
@@ -18864,6 +20346,36 @@
 
 @media all and (min-width: 1024px) {
   
+  .p-0\@md {
+    padding: 0;
+  }
+  
+  .pt-0\@md {
+    padding-top: 0;
+  }
+  
+  .pl-0\@md {
+    padding-left: 0;
+  }
+  
+  .pr-0\@md {
+    padding-right: 0;
+  }
+  
+  .pb-0\@md {
+    padding-bottom: 0;
+  }
+  
+  .px-0\@md {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .py-0\@md {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
   .p-1\@md {
     padding: 1px;
   }
@@ -19017,6 +20529,36 @@
 
 @media all and (min-width: 1220px) {
   
+  .p-0\@lg {
+    padding: 0;
+  }
+  
+  .pt-0\@lg {
+    padding-top: 0;
+  }
+  
+  .pl-0\@lg {
+    padding-left: 0;
+  }
+  
+  .pr-0\@lg {
+    padding-right: 0;
+  }
+  
+  .pb-0\@lg {
+    padding-bottom: 0;
+  }
+  
+  .px-0\@lg {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .py-0\@lg {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
   .p-1\@lg {
     padding: 1px;
   }
@@ -19169,6 +20711,36 @@
 }
 
 @media all and (min-width: 1460px) {
+  
+  .p-0\@xl {
+    padding: 0;
+  }
+  
+  .pt-0\@xl {
+    padding-top: 0;
+  }
+  
+  .pl-0\@xl {
+    padding-left: 0;
+  }
+  
+  .pr-0\@xl {
+    padding-right: 0;
+  }
+  
+  .pb-0\@xl {
+    padding-bottom: 0;
+  }
+  
+  .px-0\@xl {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .py-0\@xl {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
   
   .p-1\@xl {
     padding: 1px;
@@ -19597,6 +21169,15 @@
 }
 
 
+.rgt-0 {
+  right: 0;
+}
+
+.-rgt-0 {
+  right: -0;
+}
+
+
 .rgt-1 {
   right: 1px;
 }
@@ -19642,15 +21223,6 @@
 }
 
 
-.rgt-0 {
-  right: 0;
-}
-
-.-rgt-0 {
-  right: -0;
-}
-
-
 .rgt-50\% {
   right: 50%;
 }
@@ -19665,6 +21237,13 @@
 }
 
 @media all and (min-width: 416px) {
+  
+  .rgt-0\@xs {
+    right: 0;
+  }
+  .-rgt-0\@xs {
+    right: -0;
+  }
   
   .rgt-1\@xs {
     right: 1px;
@@ -19701,13 +21280,6 @@
     right: -26px;
   }
   
-  .rgt-0\@xs {
-    right: 0;
-  }
-  .-rgt-0\@xs {
-    right: -0;
-  }
-  
   .rgt-50\%\@xs {
     right: 50%;
   }
@@ -19721,6 +21293,13 @@
 }
 
 @media all and (min-width: 756px) {
+  
+  .rgt-0\@sm {
+    right: 0;
+  }
+  .-rgt-0\@sm {
+    right: -0;
+  }
   
   .rgt-1\@sm {
     right: 1px;
@@ -19757,13 +21336,6 @@
     right: -26px;
   }
   
-  .rgt-0\@sm {
-    right: 0;
-  }
-  .-rgt-0\@sm {
-    right: -0;
-  }
-  
   .rgt-50\%\@sm {
     right: 50%;
   }
@@ -19777,6 +21349,13 @@
 }
 
 @media all and (min-width: 1024px) {
+  
+  .rgt-0\@md {
+    right: 0;
+  }
+  .-rgt-0\@md {
+    right: -0;
+  }
   
   .rgt-1\@md {
     right: 1px;
@@ -19813,13 +21392,6 @@
     right: -26px;
   }
   
-  .rgt-0\@md {
-    right: 0;
-  }
-  .-rgt-0\@md {
-    right: -0;
-  }
-  
   .rgt-50\%\@md {
     right: 50%;
   }
@@ -19833,6 +21405,13 @@
 }
 
 @media all and (min-width: 1220px) {
+  
+  .rgt-0\@lg {
+    right: 0;
+  }
+  .-rgt-0\@lg {
+    right: -0;
+  }
   
   .rgt-1\@lg {
     right: 1px;
@@ -19869,13 +21448,6 @@
     right: -26px;
   }
   
-  .rgt-0\@lg {
-    right: 0;
-  }
-  .-rgt-0\@lg {
-    right: -0;
-  }
-  
   .rgt-50\%\@lg {
     right: 50%;
   }
@@ -19889,6 +21461,13 @@
 }
 
 @media all and (min-width: 1460px) {
+  
+  .rgt-0\@xl {
+    right: 0;
+  }
+  .-rgt-0\@xl {
+    right: -0;
+  }
   
   .rgt-1\@xl {
     right: 1px;
@@ -19923,13 +21502,6 @@
   }
   .-rgt\@xl {
     right: -26px;
-  }
-  
-  .rgt-0\@xl {
-    right: 0;
-  }
-  .-rgt-0\@xl {
-    right: -0;
   }
   
   .rgt-50\%\@xl {
@@ -20145,6 +21717,11 @@
 }
 
 
+.st-transparent {
+  stroke: transparent;
+}
+
+
 .st-current {
   stroke: currentColor;
 }
@@ -20157,6 +21734,10 @@
   
   .st-black\@xs {
     stroke: #000;
+  }
+  
+  .st-transparent\@xs {
+    stroke: transparent;
   }
   
   .st-current\@xs {
@@ -20174,6 +21755,10 @@
     stroke: #000;
   }
   
+  .st-transparent\@sm {
+    stroke: transparent;
+  }
+  
   .st-current\@sm {
     stroke: currentColor;
   }
@@ -20187,6 +21772,10 @@
   
   .st-black\@md {
     stroke: #000;
+  }
+  
+  .st-transparent\@md {
+    stroke: transparent;
   }
   
   .st-current\@md {
@@ -20204,6 +21793,10 @@
     stroke: #000;
   }
   
+  .st-transparent\@lg {
+    stroke: transparent;
+  }
+  
   .st-current\@lg {
     stroke: currentColor;
   }
@@ -20219,72 +21812,76 @@
     stroke: #000;
   }
   
+  .st-transparent\@xl {
+    stroke: transparent;
+  }
+  
   .st-current\@xl {
     stroke: currentColor;
   }
 }
 
 
-.tbllay-auto {
+.table-layout-auto {
   table-layout: auto;
 }
 
 
-.tbllay-fixed {
+.table-layout-fixed {
   table-layout: fixed;
 }
 
 @media all and (min-width: 416px) {
   
-  .tbllay-auto\@xs {
+  .table-layout-auto\@xs {
     table-layout: auto;
   }
   
-  .tbllay-fixed\@xs {
+  .table-layout-fixed\@xs {
     table-layout: fixed;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .tbllay-auto\@sm {
+  .table-layout-auto\@sm {
     table-layout: auto;
   }
   
-  .tbllay-fixed\@sm {
+  .table-layout-fixed\@sm {
     table-layout: fixed;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .tbllay-auto\@md {
+  .table-layout-auto\@md {
     table-layout: auto;
   }
   
-  .tbllay-fixed\@md {
+  .table-layout-fixed\@md {
     table-layout: fixed;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .tbllay-auto\@lg {
+  .table-layout-auto\@lg {
     table-layout: auto;
   }
   
-  .tbllay-fixed\@lg {
+  .table-layout-fixed\@lg {
     table-layout: fixed;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .tbllay-auto\@xl {
+  .table-layout-auto\@xl {
     table-layout: auto;
   }
   
-  .tbllay-fixed\@xl {
+  .table-layout-fixed\@xl {
     table-layout: fixed;
   }
 }
@@ -20880,6 +22477,15 @@
 }
 
 
+.top-0 {
+  top: 0;
+}
+
+.-top-0 {
+  top: -0;
+}
+
+
 .top-1 {
   top: 1px;
 }
@@ -20925,15 +22531,6 @@
 }
 
 
-.top-0 {
-  top: 0;
-}
-
-.-top-0 {
-  top: -0;
-}
-
-
 .top-50\% {
   top: 50%;
 }
@@ -20948,6 +22545,13 @@
 }
 
 @media all and (min-width: 416px) {
+  
+  .top-0\@xs {
+    top: 0;
+  }
+  .-top-0\@xs {
+    top: -0;
+  }
   
   .top-1\@xs {
     top: 1px;
@@ -20984,13 +22588,6 @@
     top: -26px;
   }
   
-  .top-0\@xs {
-    top: 0;
-  }
-  .-top-0\@xs {
-    top: -0;
-  }
-  
   .top-50\%\@xs {
     top: 50%;
   }
@@ -21004,6 +22601,13 @@
 }
 
 @media all and (min-width: 756px) {
+  
+  .top-0\@sm {
+    top: 0;
+  }
+  .-top-0\@sm {
+    top: -0;
+  }
   
   .top-1\@sm {
     top: 1px;
@@ -21040,13 +22644,6 @@
     top: -26px;
   }
   
-  .top-0\@sm {
-    top: 0;
-  }
-  .-top-0\@sm {
-    top: -0;
-  }
-  
   .top-50\%\@sm {
     top: 50%;
   }
@@ -21060,6 +22657,13 @@
 }
 
 @media all and (min-width: 1024px) {
+  
+  .top-0\@md {
+    top: 0;
+  }
+  .-top-0\@md {
+    top: -0;
+  }
   
   .top-1\@md {
     top: 1px;
@@ -21096,13 +22700,6 @@
     top: -26px;
   }
   
-  .top-0\@md {
-    top: 0;
-  }
-  .-top-0\@md {
-    top: -0;
-  }
-  
   .top-50\%\@md {
     top: 50%;
   }
@@ -21116,6 +22713,13 @@
 }
 
 @media all and (min-width: 1220px) {
+  
+  .top-0\@lg {
+    top: 0;
+  }
+  .-top-0\@lg {
+    top: -0;
+  }
   
   .top-1\@lg {
     top: 1px;
@@ -21152,13 +22756,6 @@
     top: -26px;
   }
   
-  .top-0\@lg {
-    top: 0;
-  }
-  .-top-0\@lg {
-    top: -0;
-  }
-  
   .top-50\%\@lg {
     top: 50%;
   }
@@ -21172,6 +22769,13 @@
 }
 
 @media all and (min-width: 1460px) {
+  
+  .top-0\@xl {
+    top: 0;
+  }
+  .-top-0\@xl {
+    top: -0;
+  }
   
   .top-1\@xl {
     top: 1px;
@@ -21206,13 +22810,6 @@
   }
   .-top\@xl {
     top: -26px;
-  }
-  
-  .top-0\@xl {
-    top: 0;
-  }
-  .-top-0\@xl {
-    top: -0;
   }
   
   .top-50\%\@xl {
@@ -22463,143 +24060,123 @@
 }
 
 
-.w-1 {
-  width: 1px;
+.w-0 {
+  width: 0;
 }
 
 
-.w-2 {
-  width: 2px;
+.w-100\% {
+  width: 100%;
 }
 
 
-.w-3 {
-  width: 3px;
+.w-50\% {
+  width: 50%;
 }
 
 
-.w-4 {
-  width: 4px;
-}
-
-
-.w {
-  width: 26px;
+.w-auto {
+  width: auto;
 }
 
 @media all and (min-width: 416px) {
   
-  .w-1\@xs {
-    width: 1px;
+  .w-0\@xs {
+    width: 0;
   }
   
-  .w-2\@xs {
-    width: 2px;
+  .w-100\%\@xs {
+    width: 100%;
   }
   
-  .w-3\@xs {
-    width: 3px;
+  .w-50\%\@xs {
+    width: 50%;
   }
   
-  .w-4\@xs {
-    width: 4px;
-  }
-  
-  .w\@xs {
-    width: 26px;
+  .w-auto\@xs {
+    width: auto;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .w-1\@sm {
-    width: 1px;
+  .w-0\@sm {
+    width: 0;
   }
   
-  .w-2\@sm {
-    width: 2px;
+  .w-100\%\@sm {
+    width: 100%;
   }
   
-  .w-3\@sm {
-    width: 3px;
+  .w-50\%\@sm {
+    width: 50%;
   }
   
-  .w-4\@sm {
-    width: 4px;
-  }
-  
-  .w\@sm {
-    width: 26px;
+  .w-auto\@sm {
+    width: auto;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .w-1\@md {
-    width: 1px;
+  .w-0\@md {
+    width: 0;
   }
   
-  .w-2\@md {
-    width: 2px;
+  .w-100\%\@md {
+    width: 100%;
   }
   
-  .w-3\@md {
-    width: 3px;
+  .w-50\%\@md {
+    width: 50%;
   }
   
-  .w-4\@md {
-    width: 4px;
-  }
-  
-  .w\@md {
-    width: 26px;
+  .w-auto\@md {
+    width: auto;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .w-1\@lg {
-    width: 1px;
+  .w-0\@lg {
+    width: 0;
   }
   
-  .w-2\@lg {
-    width: 2px;
+  .w-100\%\@lg {
+    width: 100%;
   }
   
-  .w-3\@lg {
-    width: 3px;
+  .w-50\%\@lg {
+    width: 50%;
   }
   
-  .w-4\@lg {
-    width: 4px;
-  }
-  
-  .w\@lg {
-    width: 26px;
+  .w-auto\@lg {
+    width: auto;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .w-1\@xl {
-    width: 1px;
+  .w-0\@xl {
+    width: 0;
   }
   
-  .w-2\@xl {
-    width: 2px;
+  .w-100\%\@xl {
+    width: 100%;
   }
   
-  .w-3\@xl {
-    width: 3px;
+  .w-50\%\@xl {
+    width: 50%;
   }
   
-  .w-4\@xl {
-    width: 4px;
+  .w-auto\@xl {
+    width: auto;
   }
-  
-  .w\@xl {
-    width: 26px;
-  }
+}
+
+
+.z-auto {
+  z-index: auto;
 }
 
 
@@ -22644,6 +24221,10 @@
 
 @media all and (min-width: 416px) {
   
+  .z-auto\@xs {
+    z-index: auto;
+  }
+  
   .-z-1\@xs {
     z-index: -1;
   }
@@ -22678,6 +24259,10 @@
 }
 
 @media all and (min-width: 756px) {
+  
+  .z-auto\@sm {
+    z-index: auto;
+  }
   
   .-z-1\@sm {
     z-index: -1;
@@ -22714,6 +24299,10 @@
 
 @media all and (min-width: 1024px) {
   
+  .z-auto\@md {
+    z-index: auto;
+  }
+  
   .-z-1\@md {
     z-index: -1;
   }
@@ -22749,6 +24338,10 @@
 
 @media all and (min-width: 1220px) {
   
+  .z-auto\@lg {
+    z-index: auto;
+  }
+  
   .-z-1\@lg {
     z-index: -1;
   }
@@ -22783,6 +24376,10 @@
 }
 
 @media all and (min-width: 1460px) {
+  
+  .z-auto\@xl {
+    z-index: auto;
+  }
   
   .-z-1\@xl {
     z-index: -1;

@@ -40,6 +40,7 @@ $bb-bps: (
 ) !default;
 
 $bb-spacing: (
+  '0': 0,
   '1': 1px,
   '2': 2px,
   '3': 3px,
@@ -47,9 +48,17 @@ $bb-spacing: (
   '': 26px
 ) !default;
 
+$bb-sizes: (
+  '0': 0,
+  '100%': 100%,
+  '50%': 50%,
+  'auto': auto
+) !default;
+
 $bb-colors: (
   'white': #fff,
   'black': #000,
+  'transparent': transparent,
   'current': currentColor
 ) !default;
 

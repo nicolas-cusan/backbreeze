@@ -4,7 +4,12 @@
 
 /// ## Values
 
-$bb-max-width-values: $bb-spacing !default;
+$bb-max-width-values: map-merge(
+  $bb-sizes,
+  (
+    'none': none
+  )
+) !default;
 
 /// ## Config
 
@@ -14,5 +19,3 @@ $bb-max-width-config: (
   'bps': $bb-bps,
   'values': $bb-max-width-values
 ) !default;
-
-
