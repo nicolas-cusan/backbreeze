@@ -1,6 +1,6 @@
 {
   "name": "backbreeze",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "A utility class CSS framework written in Sass.",
   "main": "bb.scss",
   "scripts": {
