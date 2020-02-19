@@ -2,6 +2,8 @@
 /// @group mixins
 ////
 
+/// Backbreeze is not a mixin library and therefor only provides two mixins intended for public use.
+///
 /// ## `bb-utility-class`
 ///
 /// The `bb-utility-class` mixin is used under the hood to create all of Backbrezze' utility classes. By default it takes a property configuration map as parameter (see [property-driven variables](/configuration/#property-driven-variables)) but it can also take a `@content` block to generate classes with multiple properties. This can be practical to generate custom utility classes for your project.
