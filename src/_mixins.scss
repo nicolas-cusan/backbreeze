@@ -1,8 +1,99 @@
-// ============================================
-// Utility Class
-// ============================================
+////
+/// @group mixins
+////
 
-// Create utility classes from a Sass map.
+/// ## `bb-utility-class`
+///
+/// The `bb-utility-class` mixin is used under the hood to create all of Backbrezze' utility classes. By default it takes a property configuration map as parameter (see [property-driven variables](/configuration/#property-driven-variables)) but it can also take a `@content` block to generate classes with multiple properties. This can be practical to generate custom utility classes for your project.
+///
+/// ### Usage with a property configuration map:
+///
+/// Mandatory keys:
+///
+/// - `'name'`: `<String>` Defines the generated class name
+/// - `'prop'`: `<String>` CSS property used
+/// - `'values'`: `<Map>` Property values where each map key maps to the value name used in the class name
+///
+/// Optional keys:
+///
+/// - `'bps'`: `<Map>` If set this will generate a responsive utility classes. Typically this will be set to `$bb-bps`
+/// - `'pseudo'`: `<Map>` If set this will generate pseudo selector utility classes. Typically this will be set to `$bb-pseudo`
+/// - `'important'`: `<Boolean>` If set the properties will be made `!important`
+///
+/// #### Example:
+///
+/// ```scss
+/// // _animation-utility.scss
+///
+/// @include bb-utility-class(
+///   (
+///     'name': 'anim',
+///     'prop': 'animation-name',
+///     'values': (
+///       'spin': spin,
+///       'pulse': pulse,
+///       'none': none,
+///     ),
+///     'bps': $bb-bps // <- Use the general breakpoints
+///   )
+/// );
+/// ```
+///
+/// ### Usage with a content block:
+///
+/// Mandatory keys:
+///
+/// - `'name'`: `<String>` Defines the generated class name
+///
+/// Optional keys:
+///
+/// - `'bps'`: `<Map>` If set this will generate a responsive utility classes. Typically this will be set to `$bb-bps`
+/// - `'pseudo'`: `<Map>` If set this will generate pseudo selector utility classes. Typically this will be set to `$bb-pseudo`
+///
+/// #### Example:
+///
+/// ```scss
+/// // _embed.scss
+///
+/// .embed {
+///   position: relative;
+///
+///   &::before {
+///     content: '';
+///     display: block;
+///   }
+/// }
+///
+/// @include bb-utility-class(
+///   (
+///     'name': 'embed-16\\:9',
+///     'bps': $bb-bps,
+///   )
+/// ) {
+///   &::before {
+///     padding-bottom: 9 / 16 * 100%;
+///   }
+/// }
+///
+/// @include bb-utility-class(
+///   (
+///     'name': 'embed-4\\:3',
+///     'bps': $bb-bps,
+///   )
+/// ) {
+///   &::before {
+///     padding-bottom: 3 / 4 * 100%;
+///   }
+/// }
+///
+///```html
+///<div class="embed embed-4:3 embed-16:9@md">
+///  <iframe src="//example.com/video" frameborder="0"></iframe>
+///  <!-- This embed will be 4:3 ration on mobile and 16:9 on larger screens -->
+///</div>
+///```
+///
+/// @parameter {Map} $config - [Property driven configuration map](/configuration/#property-driven-variables)
 
 @mixin bb-utility-class($config) {
   $has-content: content-exists();
@@ -265,12 +356,102 @@
   }
 }
 
+/// ## `bb-mq`
+///
+/// The `$bb-mq` mixin is a convenience mixin that allows you to reference breakpoints defined in the [global `$bb-mqs` variable](/configuration/#bb-bps) by name and thus avoid having to hardcode values or do string interpolation.
+///
+/// As first parameter it accepts the following:
+///
+/// - `<String>` Will render a `min-width` media query when matching a key in the global [`$bb-mqs`](/configuration/#bb-bps) map matching the key's value
+/// - `<Strings>` Will render `@media #{<String>}`, useful for `max-width` or other complex media queries
+/// - `<Number>` Will render a `min-width` media query
+/// - `<Null | Boolean>` Will just render the `@content` block without a media query
+///
+/// The second parameter allows to define the media type and is only used when a string matching [`$bb-mqs`] map key or a number is passed.
+///
+/// #### Example:
+///
+/// ```scss
+/// // _config.scss
+/// $bb-mqs: (
+///   'sm': 400px,
+///   'lg': 900px,
+/// );
+///
+/// // _my-custom-module.scss
+/// .my-module {
+///   color: red;
+///
+///   @include bb-mq(false) {
+///     font-size: 30px;
+///   }
+///
+///   @include bb-mq('sm') {
+///     color: purple;
+///   }
+///
+///   @include bb-mq(600px) {
+///     color: yellow;
+///   }
+///
+///   @include bb-mq('lg', 'screen') {
+///     color: blue;
+///   }
+///
+///   @include bb-mq('screen and (max-width: #{map-get($bb-mqs, ' sm ') - 1px})') {
+///     font-size: 22px;
+///   }
+///
+///   @include bb-mq('print') {
+///     color: black;
+///   }
+/// }
+/// ```
+///
+/// Will yield:
+///
+/// ```css
+/// .my-module {
+///   color: red;
+///   font-size: 30px;
+/// }
+///
+/// @media all and (min-width: 400px) {
+///   .my-module {
+///     color: purple;
+///   }
+/// }
+///
+/// @media all and (min-width: 600px) {
+///   .my-module {
+///     color: yellow;
+///   }
+/// }
+///
+/// @media screen and (min-width: 900px) {
+///   .my-module {
+///     color: green;
+///   }
+/// }
+///
+/// @media screen and (max-width: 399px) {
+///   .my-module {
+///     font-size: 22px;
+///   }
+/// }
+///
+/// @media print {
+///   .my-module {
+///     color: black;
+///   }
+/// }
+/// ```
+///
+/// @parameter {String | Number | Null | Boolean} $mq - String matching a key from `$bb-mqs`, number for `min-width` media query, Arbitrary string for `@media` + string, `null` of `false` for no media query
+/// @parameter {String} $media [all] - Media type
+
 @mixin bb-mq($mq: false, $media: all) {
-  @if $mq == 'print' {
-    @media print {
-      @content;
-    }
-  } @else if type-of($mq) == 'number' {
+  @if type-of($mq) == 'number' {
     @media #{$media} and (min-width: #{$mq}) {
       @content;
     }
