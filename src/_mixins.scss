@@ -52,48 +52,45 @@
 /// - `'bps'`: `<Map>` If set this will generate a responsive utility classes. Typically this will be set to `$bb-bps`
 /// - `'pseudo'`: `<Map>` If set this will generate pseudo selector utility classes. Typically this will be set to `$bb-pseudo`
 ///
-/// #### Example:
+///  @example scss - Example
+///   // _embed.scss
 ///
-/// ```scss
-/// // _embed.scss
+///   .embed {
+///     position: relative;
 ///
-/// .embed {
-///   position: relative;
-///
-///   &::before {
-///     content: '';
-///     display: block;
+///     &::before {
+///       content: '';
+///       display: block;
+///     }
 ///   }
-/// }
 ///
-/// @include bb-utility-class(
-///   (
-///     'name': 'embed-16\\:9',
-///     'bps': $bb-bps,
-///   )
-/// ) {
-///   &::before {
-///     padding-bottom: 9 / 16 * 100%;
+///   @include bb-utility-class(
+///     (
+///       'name': 'embed-16\\:9',
+///       'bps': $bb-bps,
+///     )
+///   ) {
+///     &::before {
+///       padding-bottom: 9 / 16 * 100%;
+///     }
 ///   }
-/// }
 ///
-/// @include bb-utility-class(
-///   (
-///     'name': 'embed-4\\:3',
-///     'bps': $bb-bps,
-///   )
-/// ) {
-///   &::before {
-///     padding-bottom: 3 / 4 * 100%;
+///   @include bb-utility-class(
+///     (
+///       'name': 'embed-4\\:3',
+///       'bps': $bb-bps,
+///     )
+///   ) {
+///     &::before {
+///       padding-bottom: 3 / 4 * 100%;
+///     }
 ///   }
-/// }
 ///
-///```html
-///<div class="embed embed-4:3 embed-16:9@md">
-///  <iframe src="//example.com/video" frameborder="0"></iframe>
-///  <!-- This embed will be 4:3 ration on mobile and 16:9 on larger screens -->
-///</div>
-///```
+/// @example html - Usage
+///   <div class="embed embed-4:3 embed-16:9@md">
+///     <iframe src="//example.com/video" frameborder="0"></iframe>
+///     <!-- This embed will be 4:3 ration on mobile and 16:9 on larger screens -->
+///   </div>
 ///
 /// @parameter {Map} $config - [Property driven configuration map](/configuration/#property-driven-variables)
 
@@ -371,52 +368,47 @@
 ///
 /// The second parameter allows to define the media type and is only used when a string matching [`$bb-mqs`] map key or a number is passed.
 ///
-/// #### Example:
+/// @example scss - Example
+///   // _config.scss
+///   $bb-mqs: (
+///     'sm': 400px,
+///     'lg': 900px,
+///   );
 ///
-/// ```scss
-/// // _config.scss
-/// $bb-mqs: (
-///   'sm': 400px,
-///   'lg': 900px,
-/// );
+///   // _my-custom-module.scss
+///   .my-module {
+///     color: red;
 ///
-/// // _my-custom-module.scss
-/// .my-module {
-///   color: red;
+///     @include bb-mq(false) {
+///       font-size: 30px;
+///     }
 ///
-///   @include bb-mq(false) {
+///     @include bb-mq('sm') {
+///       color: purple;
+///     }
+///
+///     @include bb-mq(600px) {
+///       color: yellow;
+///     }
+///
+///     @include bb-mq('lg', 'screen') {
+///       color: blue;
+///     }
+///
+///     @include bb-mq('screen and (max-width: #{map-get($bb-mqs, ' sm ') - 1px})') {
+///       font-size: 22px;
+///     }
+///
+///     @include bb-mq('print') {
+///       color: black;
+///     }
+///   }
+///
+/// @example css - Result
+///   .my-module {
+///     color: red;
 ///     font-size: 30px;
 ///   }
-///
-///   @include bb-mq('sm') {
-///     color: purple;
-///   }
-///
-///   @include bb-mq(600px) {
-///     color: yellow;
-///   }
-///
-///   @include bb-mq('lg', 'screen') {
-///     color: blue;
-///   }
-///
-///   @include bb-mq('screen and (max-width: #{map-get($bb-mqs, ' sm ') - 1px})') {
-///     font-size: 22px;
-///   }
-///
-///   @include bb-mq('print') {
-///     color: black;
-///   }
-/// }
-/// ```
-///
-/// Will yield:
-///
-/// ```css
-/// .my-module {
-///   color: red;
-///   font-size: 30px;
-/// }
 ///
 ///   @media all and (min-width: 400px) {
 ///     .my-module {
@@ -447,7 +439,6 @@
 ///       color: black;
 ///     }
 ///   }
-/// ```
 ///
 /// @parameter {String | Number | Null | Boolean} $mq - String matching a key from `$bb-mqs`, number for `min-width` media query, Arbitrary string for `@media` + string, `null` of `false` for no media query
 /// @parameter {String} $media [all] - Media type
