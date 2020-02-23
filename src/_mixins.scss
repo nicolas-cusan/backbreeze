@@ -22,25 +22,6 @@
 /// - `'pseudo'`: `<Map>` If set this will generate pseudo selector utility classes. Typically this will be set to `$bb-pseudo`
 /// - `'important'`: `<Boolean>` If set the properties will be made `!important`
 ///
-/// #### Example:
-///
-/// ```scss
-/// // _animation-utility.scss
-///
-/// @include bb-utility-class(
-///   (
-///     'name': 'anim',
-///     'prop': 'animation-name',
-///     'values': (
-///       'spin': spin,
-///       'pulse': pulse,
-///       'none': none,
-///     ),
-///     'bps': $bb-bps // <- Use the general breakpoints
-///   )
-/// );
-/// ```
-///
 /// ### Usage with a content block:
 ///
 /// Mandatory keys:
@@ -52,7 +33,23 @@
 /// - `'bps'`: `<Map>` If set this will generate a responsive utility classes. Typically this will be set to `$bb-bps`
 /// - `'pseudo'`: `<Map>` If set this will generate pseudo selector utility classes. Typically this will be set to `$bb-pseudo`
 ///
-///  @example scss - Example
+/// @example scss - Regular usage default
+///   // _animation-utility.scss
+///
+///   @include bb-utility-class(
+///     (
+///       'name': 'anim',
+///       'prop': 'animation-name',
+///       'values': (
+///         'spin': spin,
+///         'pulse': pulse,
+///         'none': none,
+///       ),
+///       'bps': $bb-bps // <- Use the general breakpoints
+///     )
+///   );
+///
+/// @example scss - Example with content block
 ///   // _embed.scss
 ///
 ///   .embed {
