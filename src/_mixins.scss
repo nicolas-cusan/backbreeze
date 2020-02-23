@@ -418,35 +418,35 @@
 ///   font-size: 30px;
 /// }
 ///
-/// @media all and (min-width: 400px) {
-///   .my-module {
-///     color: purple;
+///   @media all and (min-width: 400px) {
+///     .my-module {
+///       color: purple;
+///     }
 ///   }
-/// }
 ///
-/// @media all and (min-width: 600px) {
-///   .my-module {
-///     color: yellow;
+///   @media all and (min-width: 600px) {
+///     .my-module {
+///       color: yellow;
+///     }
 ///   }
-/// }
 ///
-/// @media screen and (min-width: 900px) {
-///   .my-module {
-///     color: green;
+///   @media screen and (min-width: 900px) {
+///     .my-module {
+///       color: green;
+///     }
 ///   }
-/// }
 ///
-/// @media screen and (max-width: 399px) {
-///   .my-module {
-///     font-size: 22px;
+///   @media screen and (max-width: 399px) {
+///     .my-module {
+///       font-size: 22px;
+///     }
 ///   }
-/// }
 ///
-/// @media print {
-///   .my-module {
-///     color: black;
+///   @media print {
+///     .my-module {
+///       color: black;
+///     }
 ///   }
-/// }
 /// ```
 ///
 /// @parameter {String | Number | Null | Boolean} $mq - String matching a key from `$bb-mqs`, number for `min-width` media query, Arbitrary string for `@media` + string, `null` of `false` for no media query
