@@ -1,8 +1,10 @@
-////
-/// @group configuration
-////
+// ============================================
+// Backbreeze Configuration
+// ============================================
 
-/// @type map
+// Internal
+// ============================================
+
 $bb-directional-properties: (
   'padding',
   'margin',
@@ -13,13 +15,10 @@ $bb-directional-properties: (
   'border-radius'
 ) !default;
 
-///
 $bb-negative-properties: ('margin', 'top', 'left', 'bottom', 'right') !default;
 
-///
 $bb-pseudo: ('hover', 'focus', 'active', 'group-hover') !default;
 
-///
 $bb-overflow: (
   'hidden': hidden,
   'visible': visible,
