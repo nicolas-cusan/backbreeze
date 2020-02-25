@@ -5,7 +5,8 @@
   "main": "bb.scss",
   "scripts": {
     "watch": "node-sass src/bb.scss -o dist --output-style expanded --source-map true && node-sass -rw src -o dist --output-style expanded --source-map true",
-    "build": "node-sass src/bb.scss -o dist --output-style expanded --source-map true"
+    "build": "node-sass src/bb.scss -o dist --output-style expanded --source-map true",
+    "patch": "npm version patch && git push --tags && npm publish"
   },
   "repository": {
     "type": "git",
