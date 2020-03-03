@@ -4,7 +4,7 @@
 
 /// ## Values
 
-$bb-height-values: $bb-spacing !default;
+$bb-height-values: $bb-sizes !default;
 
 /// ## Config
 
@@ -14,5 +14,3 @@ $bb-height-config: (
   'bps': $bb-bps,
   'values': $bb-height-values
 ) !default;
-
-
