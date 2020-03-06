@@ -11589,28 +11589,18 @@
 }
 
 
-.h-1 {
-  height: 1px;
+.h-100\% {
+  height: 100%;
 }
 
 
-.h-2 {
-  height: 2px;
+.h-50\% {
+  height: 50%;
 }
 
 
-.h-3 {
-  height: 3px;
-}
-
-
-.h-4 {
-  height: 4px;
-}
-
-
-.h {
-  height: 26px;
+.h-auto {
+  height: auto;
 }
 
 @media all and (min-width: 416px) {
@@ -11619,24 +11609,16 @@
     height: 0;
   }
   
-  .h-1\@xs {
-    height: 1px;
+  .h-100\%\@xs {
+    height: 100%;
   }
   
-  .h-2\@xs {
-    height: 2px;
+  .h-50\%\@xs {
+    height: 50%;
   }
   
-  .h-3\@xs {
-    height: 3px;
-  }
-  
-  .h-4\@xs {
-    height: 4px;
-  }
-  
-  .h\@xs {
-    height: 26px;
+  .h-auto\@xs {
+    height: auto;
   }
 }
 
@@ -11646,24 +11628,16 @@
     height: 0;
   }
   
-  .h-1\@sm {
-    height: 1px;
+  .h-100\%\@sm {
+    height: 100%;
   }
   
-  .h-2\@sm {
-    height: 2px;
+  .h-50\%\@sm {
+    height: 50%;
   }
   
-  .h-3\@sm {
-    height: 3px;
-  }
-  
-  .h-4\@sm {
-    height: 4px;
-  }
-  
-  .h\@sm {
-    height: 26px;
+  .h-auto\@sm {
+    height: auto;
   }
 }
 
@@ -11673,24 +11647,16 @@
     height: 0;
   }
   
-  .h-1\@md {
-    height: 1px;
+  .h-100\%\@md {
+    height: 100%;
   }
   
-  .h-2\@md {
-    height: 2px;
+  .h-50\%\@md {
+    height: 50%;
   }
   
-  .h-3\@md {
-    height: 3px;
-  }
-  
-  .h-4\@md {
-    height: 4px;
-  }
-  
-  .h\@md {
-    height: 26px;
+  .h-auto\@md {
+    height: auto;
   }
 }
 
@@ -11700,24 +11666,16 @@
     height: 0;
   }
   
-  .h-1\@lg {
-    height: 1px;
+  .h-100\%\@lg {
+    height: 100%;
   }
   
-  .h-2\@lg {
-    height: 2px;
+  .h-50\%\@lg {
+    height: 50%;
   }
   
-  .h-3\@lg {
-    height: 3px;
-  }
-  
-  .h-4\@lg {
-    height: 4px;
-  }
-  
-  .h\@lg {
-    height: 26px;
+  .h-auto\@lg {
+    height: auto;
   }
 }
 
@@ -11727,24 +11685,16 @@
     height: 0;
   }
   
-  .h-1\@xl {
-    height: 1px;
+  .h-100\%\@xl {
+    height: 100%;
   }
   
-  .h-2\@xl {
-    height: 2px;
+  .h-50\%\@xl {
+    height: 50%;
   }
   
-  .h-3\@xl {
-    height: 3px;
-  }
-  
-  .h-4\@xl {
-    height: 4px;
-  }
-  
-  .h\@xl {
-    height: 26px;
+  .h-auto\@xl {
+    height: auto;
   }
 }
 
@@ -21517,191 +21467,191 @@
 }
 
 
-.stw-1 {
+.st-1 {
   stroke-width: 1;
 }
 
 
-.stw-1\.5 {
+.st-1\.5 {
   stroke-width: 1.5;
 }
 
 
-.stw-2 {
+.st-2 {
   stroke-width: 2;
 }
 
 
-.stw-2\.5 {
+.st-2\.5 {
   stroke-width: 2.5;
 }
 
 
-.stw-3 {
+.st-3 {
   stroke-width: 3;
 }
 
 
-.stw-3\.5 {
+.st-3\.5 {
   stroke-width: 3.5;
 }
 
 
-.stw-4 {
+.st-4 {
   stroke-width: 4;
 }
 
 @media all and (min-width: 416px) {
   
-  .stw-1\@xs {
+  .st-1\@xs {
     stroke-width: 1;
   }
   
-  .stw-1\.5\@xs {
+  .st-1\.5\@xs {
     stroke-width: 1.5;
   }
   
-  .stw-2\@xs {
+  .st-2\@xs {
     stroke-width: 2;
   }
   
-  .stw-2\.5\@xs {
+  .st-2\.5\@xs {
     stroke-width: 2.5;
   }
   
-  .stw-3\@xs {
+  .st-3\@xs {
     stroke-width: 3;
   }
   
-  .stw-3\.5\@xs {
+  .st-3\.5\@xs {
     stroke-width: 3.5;
   }
   
-  .stw-4\@xs {
+  .st-4\@xs {
     stroke-width: 4;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .stw-1\@sm {
+  .st-1\@sm {
     stroke-width: 1;
   }
   
-  .stw-1\.5\@sm {
+  .st-1\.5\@sm {
     stroke-width: 1.5;
   }
   
-  .stw-2\@sm {
+  .st-2\@sm {
     stroke-width: 2;
   }
   
-  .stw-2\.5\@sm {
+  .st-2\.5\@sm {
     stroke-width: 2.5;
   }
   
-  .stw-3\@sm {
+  .st-3\@sm {
     stroke-width: 3;
   }
   
-  .stw-3\.5\@sm {
+  .st-3\.5\@sm {
     stroke-width: 3.5;
   }
   
-  .stw-4\@sm {
+  .st-4\@sm {
     stroke-width: 4;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .stw-1\@md {
+  .st-1\@md {
     stroke-width: 1;
   }
   
-  .stw-1\.5\@md {
+  .st-1\.5\@md {
     stroke-width: 1.5;
   }
   
-  .stw-2\@md {
+  .st-2\@md {
     stroke-width: 2;
   }
   
-  .stw-2\.5\@md {
+  .st-2\.5\@md {
     stroke-width: 2.5;
   }
   
-  .stw-3\@md {
+  .st-3\@md {
     stroke-width: 3;
   }
   
-  .stw-3\.5\@md {
+  .st-3\.5\@md {
     stroke-width: 3.5;
   }
   
-  .stw-4\@md {
+  .st-4\@md {
     stroke-width: 4;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .stw-1\@lg {
+  .st-1\@lg {
     stroke-width: 1;
   }
   
-  .stw-1\.5\@lg {
+  .st-1\.5\@lg {
     stroke-width: 1.5;
   }
   
-  .stw-2\@lg {
+  .st-2\@lg {
     stroke-width: 2;
   }
   
-  .stw-2\.5\@lg {
+  .st-2\.5\@lg {
     stroke-width: 2.5;
   }
   
-  .stw-3\@lg {
+  .st-3\@lg {
     stroke-width: 3;
   }
   
-  .stw-3\.5\@lg {
+  .st-3\.5\@lg {
     stroke-width: 3.5;
   }
   
-  .stw-4\@lg {
+  .st-4\@lg {
     stroke-width: 4;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .stw-1\@xl {
+  .st-1\@xl {
     stroke-width: 1;
   }
   
-  .stw-1\.5\@xl {
+  .st-1\.5\@xl {
     stroke-width: 1.5;
   }
   
-  .stw-2\@xl {
+  .st-2\@xl {
     stroke-width: 2;
   }
   
-  .stw-2\.5\@xl {
+  .st-2\.5\@xl {
     stroke-width: 2.5;
   }
   
-  .stw-3\@xl {
+  .st-3\@xl {
     stroke-width: 3;
   }
   
-  .stw-3\.5\@xl {
+  .st-3\.5\@xl {
     stroke-width: 3.5;
   }
   
-  .stw-4\@xl {
+  .st-4\@xl {
     stroke-width: 4;
   }
 }
@@ -23180,611 +23130,611 @@
 }
 
 
-.-tr-200 {
+.-ts-200 {
   transition-delay: 200ms;
 }
 
 
-.-tr-300 {
+.-ts-300 {
   transition-delay: 300ms;
 }
 
 @media all and (min-width: 416px) {
   
-  .-tr-200\@xs {
+  .-ts-200\@xs {
     transition-delay: 200ms;
   }
   
-  .-tr-300\@xs {
+  .-ts-300\@xs {
     transition-delay: 300ms;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .-tr-200\@sm {
+  .-ts-200\@sm {
     transition-delay: 200ms;
   }
   
-  .-tr-300\@sm {
+  .-ts-300\@sm {
     transition-delay: 300ms;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .-tr-200\@md {
+  .-ts-200\@md {
     transition-delay: 200ms;
   }
   
-  .-tr-300\@md {
+  .-ts-300\@md {
     transition-delay: 300ms;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .-tr-200\@lg {
+  .-ts-200\@lg {
     transition-delay: 200ms;
   }
   
-  .-tr-300\@lg {
+  .-ts-300\@lg {
     transition-delay: 300ms;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .-tr-200\@xl {
+  .-ts-200\@xl {
     transition-delay: 200ms;
   }
   
-  .-tr-300\@xl {
+  .-ts-300\@xl {
     transition-delay: 300ms;
   }
 }
 
 
-.tr-200 {
+.ts-200 {
   transition-duration: 200ms;
 }
 
 
-.tr-300 {
+.ts-300 {
   transition-duration: 300ms;
 }
 
 @media all and (min-width: 416px) {
   
-  .tr-200\@xs {
+  .ts-200\@xs {
     transition-duration: 200ms;
   }
   
-  .tr-300\@xs {
+  .ts-300\@xs {
     transition-duration: 300ms;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .tr-200\@sm {
+  .ts-200\@sm {
     transition-duration: 200ms;
   }
   
-  .tr-300\@sm {
+  .ts-300\@sm {
     transition-duration: 300ms;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .tr-200\@md {
+  .ts-200\@md {
     transition-duration: 200ms;
   }
   
-  .tr-300\@md {
+  .ts-300\@md {
     transition-duration: 300ms;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .tr-200\@lg {
+  .ts-200\@lg {
     transition-duration: 200ms;
   }
   
-  .tr-300\@lg {
+  .ts-300\@lg {
     transition-duration: 300ms;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .tr-200\@xl {
+  .ts-200\@xl {
     transition-duration: 200ms;
   }
   
-  .tr-300\@xl {
+  .ts-300\@xl {
     transition-duration: 300ms;
   }
 }
 
 
-.tr-c {
+.ts-c {
   transition-property: color;
 }
 
 
-.tr-bg {
+.ts-bg {
   transition-property: background-color;
 }
 
 
-.tr-bc {
+.ts-bc {
   transition-property: border-color;
 }
 
 
-.tr-fl {
+.ts-fl {
   transition-property: fill;
 }
 
 
-.tr-st {
+.ts-st {
   transition-property: stroke;
 }
 
 
-.tr-colors {
+.ts-colors {
   transition-property: color, background-color, border-color, fill, stroke;
 }
 
 
-.tr-maxh {
+.ts-maxh {
   transition-property: max-height;
 }
 
 
-.tr-height {
+.ts-height {
   transition-property: height;
 }
 
 
-.tr-o {
+.ts-o {
   transition-property: opacity;
 }
 
 
-.tr-t {
+.ts-t {
   transition-property: transform;
 }
 
 
-.tr-ot {
+.ts-ot {
   transition-property: opacity, transform;
 }
 
 
-.tr-all {
+.ts-all {
   transition-property: all;
 }
 
 
-.tr-otc {
+.ts-otc {
   transition-property: opacity, transform, color, background-color, border-color, fill, stroke;
 }
 
 @media all and (min-width: 416px) {
   
-  .tr-c\@xs {
+  .ts-c\@xs {
     transition-property: color;
   }
   
-  .tr-bg\@xs {
+  .ts-bg\@xs {
     transition-property: background-color;
   }
   
-  .tr-bc\@xs {
+  .ts-bc\@xs {
     transition-property: border-color;
   }
   
-  .tr-fl\@xs {
+  .ts-fl\@xs {
     transition-property: fill;
   }
   
-  .tr-st\@xs {
+  .ts-st\@xs {
     transition-property: stroke;
   }
   
-  .tr-colors\@xs {
+  .ts-colors\@xs {
     transition-property: color, background-color, border-color, fill, stroke;
   }
   
-  .tr-maxh\@xs {
+  .ts-maxh\@xs {
     transition-property: max-height;
   }
   
-  .tr-height\@xs {
+  .ts-height\@xs {
     transition-property: height;
   }
   
-  .tr-o\@xs {
+  .ts-o\@xs {
     transition-property: opacity;
   }
   
-  .tr-t\@xs {
+  .ts-t\@xs {
     transition-property: transform;
   }
   
-  .tr-ot\@xs {
+  .ts-ot\@xs {
     transition-property: opacity, transform;
   }
   
-  .tr-all\@xs {
+  .ts-all\@xs {
     transition-property: all;
   }
   
-  .tr-otc\@xs {
+  .ts-otc\@xs {
     transition-property: opacity, transform, color, background-color, border-color, fill, stroke;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .tr-c\@sm {
+  .ts-c\@sm {
     transition-property: color;
   }
   
-  .tr-bg\@sm {
+  .ts-bg\@sm {
     transition-property: background-color;
   }
   
-  .tr-bc\@sm {
+  .ts-bc\@sm {
     transition-property: border-color;
   }
   
-  .tr-fl\@sm {
+  .ts-fl\@sm {
     transition-property: fill;
   }
   
-  .tr-st\@sm {
+  .ts-st\@sm {
     transition-property: stroke;
   }
   
-  .tr-colors\@sm {
+  .ts-colors\@sm {
     transition-property: color, background-color, border-color, fill, stroke;
   }
   
-  .tr-maxh\@sm {
+  .ts-maxh\@sm {
     transition-property: max-height;
   }
   
-  .tr-height\@sm {
+  .ts-height\@sm {
     transition-property: height;
   }
   
-  .tr-o\@sm {
+  .ts-o\@sm {
     transition-property: opacity;
   }
   
-  .tr-t\@sm {
+  .ts-t\@sm {
     transition-property: transform;
   }
   
-  .tr-ot\@sm {
+  .ts-ot\@sm {
     transition-property: opacity, transform;
   }
   
-  .tr-all\@sm {
+  .ts-all\@sm {
     transition-property: all;
   }
   
-  .tr-otc\@sm {
+  .ts-otc\@sm {
     transition-property: opacity, transform, color, background-color, border-color, fill, stroke;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .tr-c\@md {
+  .ts-c\@md {
     transition-property: color;
   }
   
-  .tr-bg\@md {
+  .ts-bg\@md {
     transition-property: background-color;
   }
   
-  .tr-bc\@md {
+  .ts-bc\@md {
     transition-property: border-color;
   }
   
-  .tr-fl\@md {
+  .ts-fl\@md {
     transition-property: fill;
   }
   
-  .tr-st\@md {
+  .ts-st\@md {
     transition-property: stroke;
   }
   
-  .tr-colors\@md {
+  .ts-colors\@md {
     transition-property: color, background-color, border-color, fill, stroke;
   }
   
-  .tr-maxh\@md {
+  .ts-maxh\@md {
     transition-property: max-height;
   }
   
-  .tr-height\@md {
+  .ts-height\@md {
     transition-property: height;
   }
   
-  .tr-o\@md {
+  .ts-o\@md {
     transition-property: opacity;
   }
   
-  .tr-t\@md {
+  .ts-t\@md {
     transition-property: transform;
   }
   
-  .tr-ot\@md {
+  .ts-ot\@md {
     transition-property: opacity, transform;
   }
   
-  .tr-all\@md {
+  .ts-all\@md {
     transition-property: all;
   }
   
-  .tr-otc\@md {
+  .ts-otc\@md {
     transition-property: opacity, transform, color, background-color, border-color, fill, stroke;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .tr-c\@lg {
+  .ts-c\@lg {
     transition-property: color;
   }
   
-  .tr-bg\@lg {
+  .ts-bg\@lg {
     transition-property: background-color;
   }
   
-  .tr-bc\@lg {
+  .ts-bc\@lg {
     transition-property: border-color;
   }
   
-  .tr-fl\@lg {
+  .ts-fl\@lg {
     transition-property: fill;
   }
   
-  .tr-st\@lg {
+  .ts-st\@lg {
     transition-property: stroke;
   }
   
-  .tr-colors\@lg {
+  .ts-colors\@lg {
     transition-property: color, background-color, border-color, fill, stroke;
   }
   
-  .tr-maxh\@lg {
+  .ts-maxh\@lg {
     transition-property: max-height;
   }
   
-  .tr-height\@lg {
+  .ts-height\@lg {
     transition-property: height;
   }
   
-  .tr-o\@lg {
+  .ts-o\@lg {
     transition-property: opacity;
   }
   
-  .tr-t\@lg {
+  .ts-t\@lg {
     transition-property: transform;
   }
   
-  .tr-ot\@lg {
+  .ts-ot\@lg {
     transition-property: opacity, transform;
   }
   
-  .tr-all\@lg {
+  .ts-all\@lg {
     transition-property: all;
   }
   
-  .tr-otc\@lg {
+  .ts-otc\@lg {
     transition-property: opacity, transform, color, background-color, border-color, fill, stroke;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .tr-c\@xl {
+  .ts-c\@xl {
     transition-property: color;
   }
   
-  .tr-bg\@xl {
+  .ts-bg\@xl {
     transition-property: background-color;
   }
   
-  .tr-bc\@xl {
+  .ts-bc\@xl {
     transition-property: border-color;
   }
   
-  .tr-fl\@xl {
+  .ts-fl\@xl {
     transition-property: fill;
   }
   
-  .tr-st\@xl {
+  .ts-st\@xl {
     transition-property: stroke;
   }
   
-  .tr-colors\@xl {
+  .ts-colors\@xl {
     transition-property: color, background-color, border-color, fill, stroke;
   }
   
-  .tr-maxh\@xl {
+  .ts-maxh\@xl {
     transition-property: max-height;
   }
   
-  .tr-height\@xl {
+  .ts-height\@xl {
     transition-property: height;
   }
   
-  .tr-o\@xl {
+  .ts-o\@xl {
     transition-property: opacity;
   }
   
-  .tr-t\@xl {
+  .ts-t\@xl {
     transition-property: transform;
   }
   
-  .tr-ot\@xl {
+  .ts-ot\@xl {
     transition-property: opacity, transform;
   }
   
-  .tr-all\@xl {
+  .ts-all\@xl {
     transition-property: all;
   }
   
-  .tr-otc\@xl {
+  .ts-otc\@xl {
     transition-property: opacity, transform, color, background-color, border-color, fill, stroke;
   }
 }
 
 
-.tr-ease {
+.ts-ease {
   transition-timing-function: ease;
 }
 
 
-.tr-in {
+.ts-in {
   transition-timing-function: ease-in;
 }
 
 
-.tr-out {
+.ts-out {
   transition-timing-function: ease-out;
 }
 
 
-.tr-in-out {
+.ts-in-out {
   transition-timing-function: ease-in-out;
 }
 
 
-.tr-linear {
+.ts-linear {
   transition-timing-function: linear;
 }
 
 @media all and (min-width: 416px) {
   
-  .tr-ease\@xs {
+  .ts-ease\@xs {
     transition-timing-function: ease;
   }
   
-  .tr-in\@xs {
+  .ts-in\@xs {
     transition-timing-function: ease-in;
   }
   
-  .tr-out\@xs {
+  .ts-out\@xs {
     transition-timing-function: ease-out;
   }
   
-  .tr-in-out\@xs {
+  .ts-in-out\@xs {
     transition-timing-function: ease-in-out;
   }
   
-  .tr-linear\@xs {
+  .ts-linear\@xs {
     transition-timing-function: linear;
   }
 }
 
 @media all and (min-width: 756px) {
   
-  .tr-ease\@sm {
+  .ts-ease\@sm {
     transition-timing-function: ease;
   }
   
-  .tr-in\@sm {
+  .ts-in\@sm {
     transition-timing-function: ease-in;
   }
   
-  .tr-out\@sm {
+  .ts-out\@sm {
     transition-timing-function: ease-out;
   }
   
-  .tr-in-out\@sm {
+  .ts-in-out\@sm {
     transition-timing-function: ease-in-out;
   }
   
-  .tr-linear\@sm {
+  .ts-linear\@sm {
     transition-timing-function: linear;
   }
 }
 
 @media all and (min-width: 1024px) {
   
-  .tr-ease\@md {
+  .ts-ease\@md {
     transition-timing-function: ease;
   }
   
-  .tr-in\@md {
+  .ts-in\@md {
     transition-timing-function: ease-in;
   }
   
-  .tr-out\@md {
+  .ts-out\@md {
     transition-timing-function: ease-out;
   }
   
-  .tr-in-out\@md {
+  .ts-in-out\@md {
     transition-timing-function: ease-in-out;
   }
   
-  .tr-linear\@md {
+  .ts-linear\@md {
     transition-timing-function: linear;
   }
 }
 
 @media all and (min-width: 1220px) {
   
-  .tr-ease\@lg {
+  .ts-ease\@lg {
     transition-timing-function: ease;
   }
   
-  .tr-in\@lg {
+  .ts-in\@lg {
     transition-timing-function: ease-in;
   }
   
-  .tr-out\@lg {
+  .ts-out\@lg {
     transition-timing-function: ease-out;
   }
   
-  .tr-in-out\@lg {
+  .ts-in-out\@lg {
     transition-timing-function: ease-in-out;
   }
   
-  .tr-linear\@lg {
+  .ts-linear\@lg {
     transition-timing-function: linear;
   }
 }
 
 @media all and (min-width: 1460px) {
   
-  .tr-ease\@xl {
+  .ts-ease\@xl {
     transition-timing-function: ease;
   }
   
-  .tr-in\@xl {
+  .ts-in\@xl {
     transition-timing-function: ease-in;
   }
   
-  .tr-out\@xl {
+  .ts-out\@xl {
     transition-timing-function: ease-out;
   }
   
-  .tr-in-out\@xl {
+  .ts-in-out\@xl {
     transition-timing-function: ease-in-out;
   }
   
-  .tr-linear\@xl {
+  .ts-linear\@xl {
     transition-timing-function: linear;
   }
 }
