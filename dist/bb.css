@@ -21957,8 +21957,13 @@
 }
 
 
-.td-strike {
+.td-over {
   text-decoration: overline;
+}
+
+
+.td-strike {
+  text-decoration: line-through;
 }
 
 
@@ -21972,8 +21977,13 @@
 }
 
 
-.td-strike\:hover:hover {
+.td-over\:hover:hover {
   text-decoration: overline;
+}
+
+
+.td-strike\:hover:hover {
+  text-decoration: line-through;
 }
 
 
@@ -21987,8 +21997,13 @@
 }
 
 
-.td-strike\:focus:focus {
+.td-over\:focus:focus {
   text-decoration: overline;
+}
+
+
+.td-strike\:focus:focus {
+  text-decoration: line-through;
 }
 
 
@@ -22002,8 +22017,13 @@
 }
 
 
-.td-strike\:active:active {
+.td-over\:active:active {
   text-decoration: overline;
+}
+
+
+.td-strike\:active:active {
+  text-decoration: line-through;
 }
 
 
@@ -22017,8 +22037,13 @@
 }
 
 .group:hover
-.td-strike\:group-hover {
+.td-over\:group-hover {
   text-decoration: overline;
+}
+
+.group:hover
+.td-strike\:group-hover {
+  text-decoration: line-through;
 }
 
 .group:hover
@@ -22032,8 +22057,12 @@
     text-decoration: underline;
   }
   
-  .td-strike\@xs {
+  .td-over\@xs {
     text-decoration: overline;
+  }
+  
+  .td-strike\@xs {
+    text-decoration: line-through;
   }
   
   .td-none\@xs {
@@ -22044,8 +22073,12 @@
     text-decoration: underline;
   }
   
-  .td-strike\:hover\@xs:hover {
+  .td-over\:hover\@xs:hover {
     text-decoration: overline;
+  }
+  
+  .td-strike\:hover\@xs:hover {
+    text-decoration: line-through;
   }
   
   .td-none\:hover\@xs:hover {
@@ -22056,8 +22089,12 @@
     text-decoration: underline;
   }
   
-  .td-strike\:focus\@xs:focus {
+  .td-over\:focus\@xs:focus {
     text-decoration: overline;
+  }
+  
+  .td-strike\:focus\@xs:focus {
+    text-decoration: line-through;
   }
   
   .td-none\:focus\@xs:focus {
@@ -22068,8 +22105,12 @@
     text-decoration: underline;
   }
   
-  .td-strike\:active\@xs:active {
+  .td-over\:active\@xs:active {
     text-decoration: overline;
+  }
+  
+  .td-strike\:active\@xs:active {
+    text-decoration: line-through;
   }
   
   .td-none\:active\@xs:active {
@@ -22080,8 +22121,12 @@
     text-decoration: underline;
   }
   .group:hover
-.td-strike\:group-hover\@xs {
+.td-over\:group-hover\@xs {
     text-decoration: overline;
+  }
+  .group:hover
+.td-strike\:group-hover\@xs {
+    text-decoration: line-through;
   }
   .group:hover
 .td-none\:group-hover\@xs {
@@ -22095,8 +22140,12 @@
     text-decoration: underline;
   }
   
-  .td-strike\@sm {
+  .td-over\@sm {
     text-decoration: overline;
+  }
+  
+  .td-strike\@sm {
+    text-decoration: line-through;
   }
   
   .td-none\@sm {
@@ -22107,8 +22156,12 @@
     text-decoration: underline;
   }
   
-  .td-strike\:hover\@sm:hover {
+  .td-over\:hover\@sm:hover {
     text-decoration: overline;
+  }
+  
+  .td-strike\:hover\@sm:hover {
+    text-decoration: line-through;
   }
   
   .td-none\:hover\@sm:hover {
@@ -22119,8 +22172,12 @@
     text-decoration: underline;
   }
   
-  .td-strike\:focus\@sm:focus {
+  .td-over\:focus\@sm:focus {
     text-decoration: overline;
+  }
+  
+  .td-strike\:focus\@sm:focus {
+    text-decoration: line-through;
   }
   
   .td-none\:focus\@sm:focus {
@@ -22131,8 +22188,12 @@
     text-decoration: underline;
   }
   
-  .td-strike\:active\@sm:active {
+  .td-over\:active\@sm:active {
     text-decoration: overline;
+  }
+  
+  .td-strike\:active\@sm:active {
+    text-decoration: line-through;
   }
   
   .td-none\:active\@sm:active {
@@ -22143,8 +22204,12 @@
     text-decoration: underline;
   }
   .group:hover
-.td-strike\:group-hover\@sm {
+.td-over\:group-hover\@sm {
     text-decoration: overline;
+  }
+  .group:hover
+.td-strike\:group-hover\@sm {
+    text-decoration: line-through;
   }
   .group:hover
 .td-none\:group-hover\@sm {
@@ -22158,8 +22223,12 @@
     text-decoration: underline;
   }
   
-  .td-strike\@md {
+  .td-over\@md {
     text-decoration: overline;
+  }
+  
+  .td-strike\@md {
+    text-decoration: line-through;
   }
   
   .td-none\@md {
@@ -22170,8 +22239,12 @@
     text-decoration: underline;
   }
   
-  .td-strike\:hover\@md:hover {
+  .td-over\:hover\@md:hover {
     text-decoration: overline;
+  }
+  
+  .td-strike\:hover\@md:hover {
+    text-decoration: line-through;
   }
   
   .td-none\:hover\@md:hover {
@@ -22182,8 +22255,12 @@
     text-decoration: underline;
   }
   
-  .td-strike\:focus\@md:focus {
+  .td-over\:focus\@md:focus {
     text-decoration: overline;
+  }
+  
+  .td-strike\:focus\@md:focus {
+    text-decoration: line-through;
   }
   
   .td-none\:focus\@md:focus {
@@ -22194,8 +22271,12 @@
     text-decoration: underline;
   }
   
-  .td-strike\:active\@md:active {
+  .td-over\:active\@md:active {
     text-decoration: overline;
+  }
+  
+  .td-strike\:active\@md:active {
+    text-decoration: line-through;
   }
   
   .td-none\:active\@md:active {
@@ -22206,8 +22287,12 @@
     text-decoration: underline;
   }
   .group:hover
-.td-strike\:group-hover\@md {
+.td-over\:group-hover\@md {
     text-decoration: overline;
+  }
+  .group:hover
+.td-strike\:group-hover\@md {
+    text-decoration: line-through;
   }
   .group:hover
 .td-none\:group-hover\@md {
@@ -22221,8 +22306,12 @@
     text-decoration: underline;
   }
   
-  .td-strike\@lg {
+  .td-over\@lg {
     text-decoration: overline;
+  }
+  
+  .td-strike\@lg {
+    text-decoration: line-through;
   }
   
   .td-none\@lg {
@@ -22233,8 +22322,12 @@
     text-decoration: underline;
   }
   
-  .td-strike\:hover\@lg:hover {
+  .td-over\:hover\@lg:hover {
     text-decoration: overline;
+  }
+  
+  .td-strike\:hover\@lg:hover {
+    text-decoration: line-through;
   }
   
   .td-none\:hover\@lg:hover {
@@ -22245,8 +22338,12 @@
     text-decoration: underline;
   }
   
-  .td-strike\:focus\@lg:focus {
+  .td-over\:focus\@lg:focus {
     text-decoration: overline;
+  }
+  
+  .td-strike\:focus\@lg:focus {
+    text-decoration: line-through;
   }
   
   .td-none\:focus\@lg:focus {
@@ -22257,8 +22354,12 @@
     text-decoration: underline;
   }
   
-  .td-strike\:active\@lg:active {
+  .td-over\:active\@lg:active {
     text-decoration: overline;
+  }
+  
+  .td-strike\:active\@lg:active {
+    text-decoration: line-through;
   }
   
   .td-none\:active\@lg:active {
@@ -22269,8 +22370,12 @@
     text-decoration: underline;
   }
   .group:hover
-.td-strike\:group-hover\@lg {
+.td-over\:group-hover\@lg {
     text-decoration: overline;
+  }
+  .group:hover
+.td-strike\:group-hover\@lg {
+    text-decoration: line-through;
   }
   .group:hover
 .td-none\:group-hover\@lg {
@@ -22284,8 +22389,12 @@
     text-decoration: underline;
   }
   
-  .td-strike\@xl {
+  .td-over\@xl {
     text-decoration: overline;
+  }
+  
+  .td-strike\@xl {
+    text-decoration: line-through;
   }
   
   .td-none\@xl {
@@ -22296,8 +22405,12 @@
     text-decoration: underline;
   }
   
-  .td-strike\:hover\@xl:hover {
+  .td-over\:hover\@xl:hover {
     text-decoration: overline;
+  }
+  
+  .td-strike\:hover\@xl:hover {
+    text-decoration: line-through;
   }
   
   .td-none\:hover\@xl:hover {
@@ -22308,8 +22421,12 @@
     text-decoration: underline;
   }
   
-  .td-strike\:focus\@xl:focus {
+  .td-over\:focus\@xl:focus {
     text-decoration: overline;
+  }
+  
+  .td-strike\:focus\@xl:focus {
+    text-decoration: line-through;
   }
   
   .td-none\:focus\@xl:focus {
@@ -22320,8 +22437,12 @@
     text-decoration: underline;
   }
   
-  .td-strike\:active\@xl:active {
+  .td-over\:active\@xl:active {
     text-decoration: overline;
+  }
+  
+  .td-strike\:active\@xl:active {
+    text-decoration: line-through;
   }
   
   .td-none\:active\@xl:active {
@@ -22332,8 +22453,12 @@
     text-decoration: underline;
   }
   .group:hover
-.td-strike\:group-hover\@xl {
+.td-over\:group-hover\@xl {
     text-decoration: overline;
+  }
+  .group:hover
+.td-strike\:group-hover\@xl {
+    text-decoration: line-through;
   }
   .group:hover
 .td-none\:group-hover\@xl {

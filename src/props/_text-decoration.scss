@@ -6,7 +6,8 @@
 
 $bb-text-decoration-values: (
   'under': underline,
-  'strike': overline,
+  'over': overline,
+  'strike': line-through,
   'none': none
 ) !default;
 
