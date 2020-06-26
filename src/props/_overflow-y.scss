@@ -10,7 +10,7 @@ $bb-overflow-y-values: $bb-overflow !default;
 
 $bb-overflow-y-config: (
   'name': 'ofy',
-  'prop': 'overflow',
+  'prop': 'overflow-y',
   'bps': $bb-bps,
-  'values': $bb-overflow-y-values
+  'values': $bb-overflow-y-values,
 ) !default;

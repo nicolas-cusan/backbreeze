@@ -10,7 +10,7 @@ $bb-overflow-x-values: $bb-overflow !default;
 
 $bb-overflow-x-config: (
   'name': 'ofx',
-  'prop': 'overflow',
+  'prop': 'overflow-x',
   'bps': $bb-bps,
-  'values': $bb-overflow-x-values
+  'values': $bb-overflow-x-values,
 ) !default;
