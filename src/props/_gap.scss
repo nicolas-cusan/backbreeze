@@ -1,0 +1,18 @@
+////
+/// @group text
+////
+
+/// ## Values
+
+$bb-gap-values: (
+  '20': 20px
+) !default;
+
+/// ## Config
+
+$bb-gap-config: (
+  'name': 'gap',
+  'prop': 'gap',
+  'bps': $bb-bps,
+  'values': $bb-gap-values
+) !default;

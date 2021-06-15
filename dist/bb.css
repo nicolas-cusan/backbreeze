@@ -11425,7 +11425,7 @@
 
 
 .ff {
-  font-family: Helvetica Neue, Arial, sans-serif;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
 }
 
 
@@ -11581,6 +11581,46 @@
 
 .fw-normal {
   font-weight: normal;
+}
+
+
+.gap-20 {
+  gap: 20px;
+}
+
+@media all and (min-width: 416px) {
+  
+  .gap-20\@xs {
+    gap: 20px;
+  }
+}
+
+@media all and (min-width: 756px) {
+  
+  .gap-20\@sm {
+    gap: 20px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  
+  .gap-20\@md {
+    gap: 20px;
+  }
+}
+
+@media all and (min-width: 1220px) {
+  
+  .gap-20\@lg {
+    gap: 20px;
+  }
+}
+
+@media all and (min-width: 1460px) {
+  
+  .gap-20\@xl {
+    gap: 20px;
+  }
 }
 
 
@@ -19478,231 +19518,231 @@
 
 
 .ofx-hidden {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 
 .ofx-visible {
-  overflow: visible;
+  overflow-x: visible;
 }
 
 
 .ofx-scroll {
-  overflow: scroll;
+  overflow-x: scroll;
 }
 
 
 .ofx-auto {
-  overflow: auto;
+  overflow-x: auto;
 }
 
 @media all and (min-width: 416px) {
   
   .ofx-hidden\@xs {
-    overflow: hidden;
+    overflow-x: hidden;
   }
   
   .ofx-visible\@xs {
-    overflow: visible;
+    overflow-x: visible;
   }
   
   .ofx-scroll\@xs {
-    overflow: scroll;
+    overflow-x: scroll;
   }
   
   .ofx-auto\@xs {
-    overflow: auto;
+    overflow-x: auto;
   }
 }
 
 @media all and (min-width: 756px) {
   
   .ofx-hidden\@sm {
-    overflow: hidden;
+    overflow-x: hidden;
   }
   
   .ofx-visible\@sm {
-    overflow: visible;
+    overflow-x: visible;
   }
   
   .ofx-scroll\@sm {
-    overflow: scroll;
+    overflow-x: scroll;
   }
   
   .ofx-auto\@sm {
-    overflow: auto;
+    overflow-x: auto;
   }
 }
 
 @media all and (min-width: 1024px) {
   
   .ofx-hidden\@md {
-    overflow: hidden;
+    overflow-x: hidden;
   }
   
   .ofx-visible\@md {
-    overflow: visible;
+    overflow-x: visible;
   }
   
   .ofx-scroll\@md {
-    overflow: scroll;
+    overflow-x: scroll;
   }
   
   .ofx-auto\@md {
-    overflow: auto;
+    overflow-x: auto;
   }
 }
 
 @media all and (min-width: 1220px) {
   
   .ofx-hidden\@lg {
-    overflow: hidden;
+    overflow-x: hidden;
   }
   
   .ofx-visible\@lg {
-    overflow: visible;
+    overflow-x: visible;
   }
   
   .ofx-scroll\@lg {
-    overflow: scroll;
+    overflow-x: scroll;
   }
   
   .ofx-auto\@lg {
-    overflow: auto;
+    overflow-x: auto;
   }
 }
 
 @media all and (min-width: 1460px) {
   
   .ofx-hidden\@xl {
-    overflow: hidden;
+    overflow-x: hidden;
   }
   
   .ofx-visible\@xl {
-    overflow: visible;
+    overflow-x: visible;
   }
   
   .ofx-scroll\@xl {
-    overflow: scroll;
+    overflow-x: scroll;
   }
   
   .ofx-auto\@xl {
-    overflow: auto;
+    overflow-x: auto;
   }
 }
 
 
 .ofy-hidden {
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 
 .ofy-visible {
-  overflow: visible;
+  overflow-y: visible;
 }
 
 
 .ofy-scroll {
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 
 .ofy-auto {
-  overflow: auto;
+  overflow-y: auto;
 }
 
 @media all and (min-width: 416px) {
   
   .ofy-hidden\@xs {
-    overflow: hidden;
+    overflow-y: hidden;
   }
   
   .ofy-visible\@xs {
-    overflow: visible;
+    overflow-y: visible;
   }
   
   .ofy-scroll\@xs {
-    overflow: scroll;
+    overflow-y: scroll;
   }
   
   .ofy-auto\@xs {
-    overflow: auto;
+    overflow-y: auto;
   }
 }
 
 @media all and (min-width: 756px) {
   
   .ofy-hidden\@sm {
-    overflow: hidden;
+    overflow-y: hidden;
   }
   
   .ofy-visible\@sm {
-    overflow: visible;
+    overflow-y: visible;
   }
   
   .ofy-scroll\@sm {
-    overflow: scroll;
+    overflow-y: scroll;
   }
   
   .ofy-auto\@sm {
-    overflow: auto;
+    overflow-y: auto;
   }
 }
 
 @media all and (min-width: 1024px) {
   
   .ofy-hidden\@md {
-    overflow: hidden;
+    overflow-y: hidden;
   }
   
   .ofy-visible\@md {
-    overflow: visible;
+    overflow-y: visible;
   }
   
   .ofy-scroll\@md {
-    overflow: scroll;
+    overflow-y: scroll;
   }
   
   .ofy-auto\@md {
-    overflow: auto;
+    overflow-y: auto;
   }
 }
 
 @media all and (min-width: 1220px) {
   
   .ofy-hidden\@lg {
-    overflow: hidden;
+    overflow-y: hidden;
   }
   
   .ofy-visible\@lg {
-    overflow: visible;
+    overflow-y: visible;
   }
   
   .ofy-scroll\@lg {
-    overflow: scroll;
+    overflow-y: scroll;
   }
   
   .ofy-auto\@lg {
-    overflow: auto;
+    overflow-y: auto;
   }
 }
 
 @media all and (min-width: 1460px) {
   
   .ofy-hidden\@xl {
-    overflow: hidden;
+    overflow-y: hidden;
   }
   
   .ofy-visible\@xl {
-    overflow: visible;
+    overflow-y: visible;
   }
   
   .ofy-scroll\@xl {
-    overflow: scroll;
+    overflow-y: scroll;
   }
   
   .ofy-auto\@xl {
-    overflow: auto;
+    overflow-y: auto;
   }
 }
 
